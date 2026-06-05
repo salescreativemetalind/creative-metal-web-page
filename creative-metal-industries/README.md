@@ -118,7 +118,6 @@ npm run start
 > Recommended: use a process manager like [PM2](https://pm2.keymetrics.io/) to keep the server running.
 
 ---
-
 ## Notes
 
 - All product and blog content is **hardcoded** in the route files — no database is used.
