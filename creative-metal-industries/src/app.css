@@ -507,6 +507,38 @@ section { padding: 6rem 0; }
 .contact-item-text a, .contact-item-text p { color: var(--charcoal); font-size: 0.925rem; }
 .contact-item-text a:hover { color: var(--amber); }
 
+/* ─── Map thumbnail ────────────────────────────────────── */
+.map-thumb {
+  display: block;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1.5px solid var(--border);
+  text-decoration: none;
+  position: relative;
+  transition: border-color var(--transition), box-shadow var(--transition);
+  margin-top: 0.25rem;
+  margin-bottom: 1.25rem;
+}
+.map-thumb:hover {
+  border-color: var(--amber);
+  box-shadow: var(--shadow);
+}
+.map-thumb:hover .map-thumb-label {
+  background: var(--amber);
+  color: var(--white);
+}
+.map-thumb-label {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--amber);
+  background: var(--amber-l);
+  padding: 0.45rem 0.75rem;
+  transition: background var(--transition), color var(--transition);
+  letter-spacing: 0.02em;
+}
+
 .contact-form { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 2.5rem; box-shadow: var(--shadow); }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .form-group { display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 1.1rem; }

@@ -1083,6 +1083,25 @@ function ContactForm() {
                   <p>F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road,<br/>Vadodara 390001, Gujarat, India</p>
                 </div>
               </div>
+              {/* ── Map thumbnail ── */}
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Loha+Bhavan+Lakkadpitha+Road+Vadodara+Gujarat+India"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="map-thumb"
+                aria-label="Open office location in Google Maps"
+              >
+                <iframe
+                  title="Office location — Loha Bhavan, Vadodara"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=73.1810%2C22.2980%2C73.1910%2C22.3060&layer=mapnik&marker=22.3020%2C73.1860"
+                  width="100%"
+                  height="160"
+                  style="border:0;border-radius:var(--radius-sm);display:block;pointer-events:none;"
+                  loading="lazy"
+                />
+                <span class="map-thumb-label">📍 View in Google Maps ↗</span>
+              </a>
+
               <div class="contact-item">
                 <div class="contact-item-icon">🏭</div>
                 <div class="contact-item-text">
