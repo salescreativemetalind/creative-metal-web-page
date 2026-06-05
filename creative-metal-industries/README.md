@@ -123,3 +123,4 @@ npm run start
 - All product and blog content is **hardcoded** in the route files — no database is used.
 - To update products or blog posts, edit the respective route files and rebuild.
 - The contact form on the homepage is the only feature that requires the backend to be running.
+
