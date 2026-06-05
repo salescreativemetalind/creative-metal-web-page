@@ -1,0 +1,81 @@
+/* ─── Products page ─────────────────────────────────────── */
+.pt-header {
+  background: linear-gradient(135deg, var(--peach) 0%, var(--horizon) 100%);
+  padding: 5rem 0 3rem;
+  border-bottom: 1px solid var(--border);
+}
+.pt-back {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-size: 0.85rem; color: var(--amber); font-weight: 600;
+  margin-bottom: 1rem; text-decoration: none;
+}
+.pt-back:hover { color: var(--rose); }
+.pt-header h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); margin-bottom: 0.5rem; }
+.pt-header p  { color: var(--muted); font-size: 1rem; }
+
+.pt-main { padding: 3rem 0 5rem; background: var(--white); }
+
+/* Tabs */
+.pt-tabs {
+  display: flex; gap: 0.6rem; flex-wrap: wrap;
+  margin-bottom: 2rem; padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+.pt-tab {
+  padding: 0.55rem 1.1rem; border-radius: var(--radius-sm);
+  font-size: 0.85rem; font-weight: 600; cursor: pointer;
+  border: 1.5px solid var(--border); background: var(--sky);
+  color: var(--muted); font-family: var(--font-sans);
+  transition: var(--transition);
+}
+.pt-tab:hover { border-color: var(--amber); color: var(--amber); }
+.pt-tab.active {
+  background: linear-gradient(135deg, var(--amber), var(--rose));
+  color: var(--white); border-color: transparent;
+}
+
+/* Panel */
+.pt-panel-header { margin-bottom: 1.5rem; }
+.pt-panel-header h2 { font-size: 1.4rem; margin-bottom: 0.4rem; }
+.pt-panel-header p  { font-size: 0.875rem; color: var(--muted); }
+
+/* Table */
+.pt-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 1rem;
+}
+.pt-table {
+  width: 100%; border-collapse: collapse;
+  font-size: 0.875rem; white-space: nowrap;
+}
+.pt-table thead th {
+  background: linear-gradient(135deg, var(--amber), var(--rose));
+  color: var(--white); padding: 0.75rem 1rem;
+  text-align: left; font-weight: 700; font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+.pt-table tbody tr:nth-child(even) { background: var(--sky); }
+.pt-table tbody tr:hover { background: var(--amber-l); }
+.pt-table tbody td {
+  padding: 0.65rem 1rem; border-bottom: 1px solid var(--border);
+  color: var(--charcoal);
+}
+.pt-table tbody td strong { color: var(--ink); }
+
+.pt-note {
+  font-size: 0.82rem; color: var(--muted);
+  background: var(--amber-l); border: 1px solid rgba(232,130,26,0.2);
+  border-radius: var(--radius-sm); padding: 0.75rem 1rem;
+}
+
+/* CTA */
+.pt-cta {
+  background: linear-gradient(135deg, var(--peach), var(--horizon));
+  border: 1px solid var(--border); border-radius: var(--radius-lg);
+  padding: 2.5rem; text-align: center; margin-top: 3rem;
+}
+.pt-cta h3 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+.pt-cta p  { color: var(--muted); margin-bottom: 1.5rem; }
+.pt-cta-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
