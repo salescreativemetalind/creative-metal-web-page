@@ -1,0 +1,10 @@
+{
+  "name": "creative-metal-industries-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix creative-metal-industries -- --host",
+    "build": "npm run build --prefix creative-metal-industries",
+    "start": "npm run start --prefix creative-metal-industries"
+  }
+}

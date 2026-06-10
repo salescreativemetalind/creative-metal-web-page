@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!--
+    sitemap.xml — Creative Metal Industries
+    https://www.creativemetalind.com
+
+    Framework : SolidStart 1.0.11 (SSR) · Vinxi 0.5.7 · Vercel
+    Routes    : src/routes/ (file-based)
+    Audit date: 2026-06-05
+
+    lastmod source: git commit timestamps per file
+      src/routes/index.tsx       → 2026-06-05 (commit 0fa43797)
+      src/routes/about.tsx       → 2026-06-05 (commit 6e400aae)
+      src/routes/products.tsx    → 2026-06-05 (commit 6e400aae)
+      src/routes/blog/index.tsx  → 2026-06-05 (commit 6e400aae)
+      src/routes/blog/[slug].tsx → 2026-06-05 (commit 6e400aae)
+
+    priority and changefreq are intentionally omitted.
+    Google has confirmed it ignores changefreq and treats
+    priority as a weak signal. Omitting them keeps the sitemap
+    lean and avoids false signals.
+  -->
+
+  <!-- ═══════════════════════════════════════════
+       CORE PAGES
+       ═══════════════════════════════════════════ -->
+
+  <!--
+    Homepage
+    File   : src/routes/index.tsx
+    Title  : Creative Metal Industries Vadodara | SS Pipes, Plates, Fittings Manufacturer & Stockist
+    Canon  : https://www.creativemetalind.com  ✓ (present in code)
+    Robots : index, follow (app.tsx global + no override)
+    Schema : LocalBusiness + FAQPage JSON-LD  ✓
+    OG/TW  : ✓ present
+  -->
+  <url>
+    <loc>https://www.creativemetalind.com/</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+
+  <!--
+    About
+    File   : src/routes/about.tsx
+    Title  : About Us | Creative Metal Industries Vadodara
+    Canon  : https://www.creativemetalind.com/about  ✓
+    Robots : index, follow (inherited)
+  -->
+  <url>
+    <loc>https://www.creativemetalind.com/about</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+
+  <!--
+    Products / Size & Weight Charts
+    File   : src/routes/products.tsx
+    Title  : Steel Product Sizes & Weight Chart | Creative Metal Industries Vadodara
+    Canon  : https://www.creativemetalind.com/products  ✓
+    Robots : index, follow (inherited)
+    Note   : High-value commercial reference page with IS/ASTM spec tables
+  -->
+  <url>
+    <loc>https://www.creativemetalind.com/products</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+
+  <!--
+    Metal Trading service page
+    File   : src/routes/metal-trading.tsx
+    Title  : Metal Trading Company in Vadodara | Creative Metal Industries
+    Note   : High-value commercial SEO landing page
+  -->
+  <url>
+    <loc>https://www.creativemetalind.com/metal-trading</loc>
+    <lastmod>2026-06-10</lastmod>
+  </url>
+
+  <!--
+    Blog index
+    File   : src/routes/blog/index.tsx
+    Title  : Steel & Alloy Technical Blog | Creative Metal Industries Vadodara
+    Canon  : https://www.creativemetalind.com/blog  ✓
+    Robots : index, follow (inherited)
+  -->
+  <url>
+    <loc>https://www.creativemetalind.com/blog</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+
+  <!-- ═══════════════════════════════════════════
+       BLOG ARTICLES
+       File: src/routes/blog/[slug].tsx
+       Only slugs with a confirmed entry in the
+       ARTICLES object (lines 5–53 of [slug].tsx)
+       are included. The 3 remaining slugs render
+       the "Article Not Found" branch — excluded.
+       ═══════════════════════════════════════════ -->
+
+  <!--
+    SS 304 vs SS 316L
+    ARTICLES key: "ss-304-vs-316l"  (line 9 — confirmed)
+    Title  : SS 304 vs SS 316L — Which Stainless Steel Grade Should You Choose? | Creative Metal Industries
+    Canon  : missing in code — ISSUE (no <Link rel="canonical">)
+  -->
+  <url>
+    <loc>https://www.creativemetalind.com/blog/ss-304-vs-316l</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+
+  <!--
+    How to Read a Mill Test Certificate
+    ARTICLES key: "how-to-read-mtc"  (line 22 — confirmed)
+    Title  : How to Read a Mill Test Certificate (MTC) — A Practical Guide | Creative Metal Industries
+    Canon  : missing in code — ISSUE (no <Link rel="canonical">)
+  -->
+  <url>
+    <loc>https://www.creativemetalind.com/blog/how-to-read-mtc</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+
+  <!--
+    Duplex 2205 vs Super Duplex 2507
+    ARTICLES key: "duplex-vs-super-duplex"  (line 35 — confirmed)
+    Title  : Duplex 2205 vs Super Duplex 2507 — Understanding the Difference | Creative Metal Industries
+    Canon  : missing in code — ISSUE (no <Link rel="canonical">)
+  -->
+  <url>
+    <loc>https://www.creativemetalind.com/blog/duplex-vs-super-duplex</loc>
+    <lastmod>2026-06-05</lastmod>
+  </url>
+
+  <!--
+    ═══════════════════════════════════════════════════════════
+    EXCLUSION LOG — routes analyzed but not included
+    ═══════════════════════════════════════════════════════════
+
+    /api/enquiry
+      Route file : src/routes/api/enquiry.ts
+      Reason     : POST-only HTTP handler (nodemailer form submission).
+                   Exports only async POST(). Returns JSON.
+                   No HTML, no page, not crawlable.
+                   Blocked in robots.txt under Disallow: /api/
+
+    /blog/p91-alloy-steel-power-plants
+    /blog/astm-a312-vs-api-5l
+    /blog/hastelloy-vs-inconel
+      Route file : src/routes/blog/[slug].tsx (dynamic)
+      Reason     : These slugs appear in src/routes/blog/index.tsx
+                   (lines 25, 31, 37) and in the homepage BLOG_POSTS
+                   array (lines 194, 203, 212 of index.tsx) but have
+                   NO entry in the ARTICLES object in [slug].tsx.
+                   The ARTICLES const only defines 3 keys (lines 9,
+                   22, 35). These slugs hit the if (!article) branch
+                   which renders "Article Not Found" — soft 404.
+                   CRITICAL: No <Title>, no noindex tag on that branch.
+                   Fix required before adding to sitemap.
+
+    /blog/understanding-pipe-schedules
+    /blog/titanium-grades-comparison
+    /blog/erw-vs-seamless-pipe
+      Route file : src/routes/blog/[slug].tsx (dynamic)
+      Reason     : Same as above. Listed in blog/index.tsx (lines 43,
+                   49, 55) but absent from ARTICLES object. Soft 404.
+
+    /privacy-policy
+      Reason     : Linked from Layout.tsx footer (line 107) but no
+                   route file exists. Returns Vercel 404.
+                   Create src/routes/privacy-policy.tsx first.
+
+    /terms
+      Reason     : Same as above — footer link (line 108) exists but
+                   no route file. Returns Vercel 404.
+                   Create src/routes/terms.tsx first.
+    ═══════════════════════════════════════════════════════════
+  -->
+
+</urlset>

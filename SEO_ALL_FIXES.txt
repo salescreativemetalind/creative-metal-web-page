@@ -1,0 +1,1452 @@
+================================================================================
+SEO ALL FIXES — CREATIVE METAL INDUSTRIES
+Website: https://www.creativemetalind.com
+Framework: SolidJS + SolidStart (SSR) on Vercel
+Generated from: Full codebase analysis
+================================================================================
+Total Issues: 47
+Critical: 8 | High: 16 | Medium: 14 | Low: 9
+================================================================================
+
+
+================================================================================
+SECTION A — MISSING FILES (Must create these files)
+================================================================================
+
+FIX-001
+Priority:    CRITICAL
+Category:    Technical SEO — Crawlability
+File:        public/robots.txt  (DOES NOT EXIST)
+Issue:       No robots.txt in /public. Google has zero crawl directives.
+             /api/enquiry is crawlable. No sitemap reference anywhere.
+Fix:         Create the file public/robots.txt with this exact content:
+             ─────────────────────────────────────
+             User-agent: *
+             Allow: /
+             Disallow: /api/
+
+             Sitemap: https://www.creativemetalind.com/sitemap.xml
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-002
+Priority:    CRITICAL
+Category:    Technical SEO — Indexation
+File:        public/sitemap.xml  (DOES NOT EXIST)
+Issue:       No sitemap.xml in /public. Google cannot discover pages
+             programmatically. Blog articles at /blog/[slug] at highest risk
+             of never being indexed.
+Fix:         Create public/sitemap.xml with this exact content:
+             ─────────────────────────────────────
+             <?xml version="1.0" encoding="UTF-8"?>
+             <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+               <url>
+                 <loc>https://www.creativemetalind.com/</loc>
+                 <priority>1.0</priority>
+                 <changefreq>weekly</changefreq>
+               </url>
+               <url>
+                 <loc>https://www.creativemetalind.com/about</loc>
+                 <priority>0.8</priority>
+                 <changefreq>monthly</changefreq>
+               </url>
+               <url>
+                 <loc>https://www.creativemetalind.com/products</loc>
+                 <priority>0.9</priority>
+                 <changefreq>monthly</changefreq>
+               </url>
+               <url>
+                 <loc>https://www.creativemetalind.com/blog</loc>
+                 <priority>0.8</priority>
+                 <changefreq>weekly</changefreq>
+               </url>
+               <url>
+                 <loc>https://www.creativemetalind.com/blog/ss-304-vs-316l</loc>
+                 <priority>0.7</priority>
+                 <changefreq>monthly</changefreq>
+               </url>
+               <url>
+                 <loc>https://www.creativemetalind.com/blog/how-to-read-mtc</loc>
+                 <priority>0.7</priority>
+                 <changefreq>monthly</changefreq>
+               </url>
+               <url>
+                 <loc>https://www.creativemetalind.com/blog/duplex-vs-super-duplex</loc>
+                 <priority>0.7</priority>
+                 <changefreq>monthly</changefreq>
+               </url>
+             </urlset>
+             ─────────────────────────────────────
+             NOTE: Only include the 3 slugs that have real content.
+             Do NOT include the 6 broken slugs until articles are written.
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-003
+Priority:    CRITICAL
+Category:    Technical SEO — Broken Assets / Schema
+File:        public/logo.png  (DOES NOT EXIST)
+Issue:       The LocalBusiness JSON-LD schema in src/routes/index.tsx
+             references "logo": "https://www.creativemetalind.com/logo.png"
+             This file does not exist in /public. Google Rich Results Test
+             will flag this as a broken schema asset. No Knowledge Panel
+             eligibility while this is broken.
+Fix:         Create public/logo.png
+             Requirements: Square aspect ratio, minimum 112×112px,
+             recommended 512×512px, PNG format, company logo on white/
+             transparent background.
+             Place file at: creative-metal-industries/public/logo.png
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-004
+Priority:    CRITICAL
+Category:    Technical SEO — OG Image / Schema
+File:        public/og-image.jpg  (DOES NOT EXIST)
+Issue:       Homepage OG tag and LocalBusiness schema both reference:
+             https://www.creativemetalind.com/og-image.jpg
+             This file does not exist in /public.
+             All social media shares will show no preview image.
+             Schema image validation will fail.
+Fix:         Create public/og-image.jpg
+             Requirements: 1200×630px, JPEG format, show product image
+             (SS pipes/plates) with company name "Creative Metal Industries"
+             and tagline overlaid. Brand colours: amber #C96A0A, rose #B8432F.
+             Place file at: creative-metal-industries/public/og-image.jpg
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-005
+Priority:    HIGH
+Category:    E-E-A-T / Legal Compliance
+File:        src/routes/privacy-policy.tsx  (DOES NOT EXIST)
+Issue:       Layout.tsx footer links to /privacy-policy:
+               <a href="/privacy-policy">Privacy Policy</a>
+             This page does not exist. Clicking it returns 404.
+             Google Quality Rater Guidelines require accessible privacy policy.
+             This is also a legal requirement for GDPR/Indian IT Act compliance.
+Fix:         Create src/routes/privacy-policy.tsx
+             Minimum required content sections:
+             - What data is collected (name, phone, email via contact form)
+             - How data is used (to respond to enquiries)
+             - Who data is shared with (not shared with third parties)
+             - Contact for data requests: creativemetalind@gmail.com
+             - Last updated date
+             Use PageLayout wrapper. Add canonical, title, meta description.
+             Example structure:
+             ─────────────────────────────────────
+             import { Title, Meta, Link } from "@solidjs/meta";
+             import { PageLayout } from "../components/Layout";
+
+             export default function PrivacyPolicy() {
+               return (
+                 <PageLayout active="">
+                   <Title>Privacy Policy | Creative Metal Industries</Title>
+                   <Meta name="description" content="Privacy policy for
+                     Creative Metal Industries website. How we collect
+                     and use your contact information." />
+                   <Link rel="canonical"
+                     href="https://www.creativemetalind.com/privacy-policy" />
+                   <Meta name="robots" content="noindex, follow" />
+                   <section class="page-hero page-hero-sm">
+                     <div class="container">
+                       <h1>Privacy Policy</h1>
+                       <p>Last updated: June 2026</p>
+                     </div>
+                   </section>
+                   <section style="background:var(--white);padding:4rem 0">
+                     <div class="container" style="max-width:800px">
+                       <h2>Information We Collect</h2>
+                       <p>When you submit an enquiry via our contact form,
+                         we collect your name, company name, phone number,
+                         email address, and material requirements.</p>
+                       <h2>How We Use Your Information</h2>
+                       <p>We use your contact details solely to respond to
+                         your product enquiry. We do not sell, rent, or
+                         share your data with third parties.</p>
+                       <h2>Contact</h2>
+                       <p>For data-related requests, email:
+                         creativemetalind@gmail.com</p>
+                     </div>
+                   </section>
+                 </PageLayout>
+               );
+             }
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-006
+Priority:    HIGH
+Category:    E-E-A-T / Legal Compliance
+File:        src/routes/terms.tsx  (DOES NOT EXIST)
+Issue:       Layout.tsx footer links to /terms:
+               <a href="/terms">Terms of Trade</a>
+             This page does not exist. Returns 404.
+Fix:         Create src/routes/terms.tsx with:
+             - Terms of sale (payment, delivery, returns)
+             - Acceptance of orders
+             - Material quality and certification terms
+             - Jurisdiction: Vadodara, Gujarat, India
+             Use same structure as privacy-policy.tsx above.
+             Add <Meta name="robots" content="noindex, follow" /> since
+             these pages don't need to rank but must be accessible.
+Status:      Pending
+
+
+================================================================================
+SECTION B — src/routes/index.tsx  (Homepage)
+================================================================================
+
+FIX-007
+Priority:    CRITICAL
+Category:    Technical SEO — Canonicalization
+File:        src/routes/index.tsx
+Issue:       No canonical tag on homepage. Link is imported but never used.
+             Without canonical, Google may index:
+               http://creativemetalind.com
+               https://creativemetalind.com
+               http://www.creativemetalind.com
+               https://www.creativemetalind.com
+             as separate pages, splitting ranking signals.
+Fix:         In the Home() component return block, after the <Title> tag, add:
+             ─────────────────────────────────────
+             <Link rel="canonical" href="https://www.creativemetalind.com" />
+             ─────────────────────────────────────
+             Link is already imported at the top of the file. No import change needed.
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-008
+Priority:    HIGH
+Category:    On-Page SEO — Title Tag
+File:        src/routes/index.tsx
+Issue:       Current title front-loads brand name before the primary keyword.
+             Current:
+               Creative Metal Industries Vadodara | SS Pipes, Plates &
+               Fittings Manufacturer & Stockist
+             Brand recognition is low — keyword should lead.
+Fix:         Change the <Title> tag to:
+             ─────────────────────────────────────
+             <Title>SS Pipes, Plates &amp; Fittings Manufacturer Vadodara | Creative Metal Industries</Title>
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-009
+Priority:    HIGH
+Category:    On-Page SEO — H1 Tag
+File:        src/routes/index.tsx
+Issue:       H1 contains the word "Premium" which has zero search volume.
+             "Premium SS pipes" is not searched. The word wastes the
+             highest-weight position in the heading.
+             Current H1 in Hero() function:
+               <h1>Premium <em>SS Pipes, Pipe Fittings,<br/>Flanges &amp; Plates</em></h1>
+Fix:         Replace with:
+             ─────────────────────────────────────
+             <h1>
+               <em>SS Pipes, Pipe Fittings, Flanges &amp; Plates</em>
+               <br/>Manufacturer &amp; Stockist — Vadodara, Gujarat
+             </h1>
+             ─────────────────────────────────────
+             The <em> gradient style (.hero h1 em) requires no change in app.css.
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-010
+Priority:    HIGH
+Category:    Technical SEO — Structured Data
+File:        src/routes/index.tsx
+Issue:       LocalBusiness schema "sameAs" field only references the website
+             itself. This provides zero external authority signal.
+             Current in SCHEMA const:
+               "sameAs": ["https://www.creativemetalind.com"]
+Fix:         Replace with verified external profile URLs.
+             Find the "sameAs" field in SCHEMA const and replace:
+             ─────────────────────────────────────
+             "sameAs": [
+               "https://www.indiamart.com/creative-metal-industries-vadodara/",
+               "https://www.linkedin.com/company/creative-metal-industries"
+             ]
+             ─────────────────────────────────────
+             IMPORTANT: Only add URLs that actually exist and are live.
+             Verify each URL before adding. Remove any that return 404.
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-011
+Priority:    HIGH
+Category:    Technical SEO — Structured Data
+File:        src/routes/index.tsx
+Issue:       "priceRange": "$$" is a B2C retail field. Google ignores it
+             for industrial B2B companies and it signals the wrong business type.
+             Current in SCHEMA const:
+               "priceRange": "$$",
+Fix:         Delete the priceRange line and replace with knowsAbout:
+             ─────────────────────────────────────
+             "knowsAbout": [
+               "Stainless Steel Pipes",
+               "Duplex Steel 2205 2507",
+               "Alloy Steel P91 P22",
+               "Carbon Steel Plates IBR",
+               "Inconel Hastelloy Monel Titanium",
+               "IBR Form III-C Certification"
+             ],
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-012
+Priority:    HIGH
+Category:    Technical SEO — Structured Data
+File:        src/routes/index.tsx
+Issue:       No WebSite schema with SearchAction. Site is not eligible for
+             Google Sitelinks Search Box without this.
+Fix:         Add a third JSON-LD block. In index.tsx, after FAQ_SCHEMA const,
+             add:
+             ─────────────────────────────────────
+             const WEBSITE_SCHEMA = JSON.stringify({
+               "@context": "https://schema.org",
+               "@type": "WebSite",
+               "name": "Creative Metal Industries",
+               "url": "https://www.creativemetalind.com",
+               "potentialAction": {
+                 "@type": "SearchAction",
+                 "target": {
+                   "@type": "EntryPoint",
+                   "urlTemplate": "https://www.creativemetalind.com/products?q={search_term_string}"
+                 },
+                 "query-input": "required name=search_term_string"
+               }
+             });
+             ─────────────────────────────────────
+             Then in the Home() return block, after the two existing schema
+             script tags, add:
+             ─────────────────────────────────────
+             <script type="application/ld+json" innerHTML={WEBSITE_SCHEMA} />
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-013
+Priority:    MEDIUM
+Category:    Technical SEO — Meta Tags
+File:        src/routes/index.tsx
+Issue:       Meta keywords tag is present. Google ignores it.
+             Bing uses unexpected keywords as a webspam signal.
+             Current line in Home() return block:
+               <Meta name="keywords" content="stainless steel pipe
+               manufacturer Vadodara, SS 316L pipe stockist Gujarat, ..." />
+Fix:         Delete the entire keywords Meta line.
+             Find and remove: <Meta name="keywords" content="..." />
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-014
+Priority:    MEDIUM
+Category:    Technical SEO — Structured Data
+File:        src/routes/index.tsx
+Issue:       LocalBusiness schema has only one telephone field but two
+             contacts exist (Sunny Shah and Ghewar Shah). No ContactPoint
+             structured data.
+Fix:         Add contactPoint array to SCHEMA const, after the "telephone" field:
+             ─────────────────────────────────────
+             "contactPoint": [
+               {
+                 "@type": "ContactPoint",
+                 "telephone": "+91-99982-80619",
+                 "contactType": "sales",
+                 "name": "Sunny Shah",
+                 "areaServed": ["IN","AE","OM","KW","BH","SA","GB","US"],
+                 "availableLanguage": ["English","Hindi","Gujarati"]
+               },
+               {
+                 "@type": "ContactPoint",
+                 "telephone": "+91-98255-06110",
+                 "contactType": "customer support",
+                 "name": "Ghewar Shah",
+                 "areaServed": "IN"
+               }
+             ],
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-015
+Priority:    MEDIUM
+Category:    Internal Linking
+File:        src/routes/index.tsx  (Footer() function)
+Issue:       All 6 footer Materials links point to the same anchor /#metals.
+             Six different anchor texts, one destination — zero crawl
+             differentiation.
+             Current code in Footer():
+               <li><a href="#metals">Stainless Steel</a></li>
+               <li><a href="#metals">Carbon & Alloy Steel</a></li>
+               <li><a href="#metals">Duplex & Super Duplex</a></li>
+               <li><a href="#metals">Inconel / Monel / Hastelloy</a></li>
+               <li><a href="#metals">Titanium & Aluminium</a></li>
+               <li><a href="#metals">Copper & Bronze</a></li>
+Fix:         Phase 1 (no new pages needed) — add unique IDs to metal cards
+             in MetalsSection() and link to specific fragments. This requires
+             two steps:
+             Step 1 — Add id attributes to service cards in MetalsSection():
+               The METALS array items render as <article class="service-card">
+               Add id to each: id="metal-ss", id="metal-carbon",
+               id="metal-duplex", id="metal-inconel", id="metal-titanium",
+               id="metal-copper"
+             Step 2 — Update footer links:
+             ─────────────────────────────────────
+             <li><a href="/#metal-ss">Stainless Steel</a></li>
+             <li><a href="/#metal-carbon">Carbon &amp; Alloy Steel</a></li>
+             <li><a href="/#metal-duplex">Duplex &amp; Super Duplex</a></li>
+             <li><a href="/#metal-inconel">Inconel / Monel / Hastelloy</a></li>
+             <li><a href="/#metal-titanium">Titanium &amp; Aluminium</a></li>
+             <li><a href="/#metal-copper">Copper &amp; Bronze</a></li>
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-016
+Priority:    MEDIUM
+Category:    Internal Linking
+File:        src/routes/index.tsx  (Footer() function)
+Issue:       5 of 7 footer Products links point to /#products.
+             No differentiated product category linking.
+             Current code in Footer():
+               <li><a href="#products">Seamless & Welded Pipes</a></li>
+               <li><a href="#products">Plates & Sheets</a></li>
+               <li><a href="#products">Buttweld Fittings</a></li>
+               <li><a href="#products">Forged Fittings & Flanges</a></li>
+               <li><a href="#products">Structural Steel</a></li>
+               <li><a href="#products">Special Alloys</a></li>
+Fix:         Link each to the product tabs using tab-anchor targeting:
+             ─────────────────────────────────────
+             <li><a href="/#product-tabs">Seamless &amp; Welded Pipes</a></li>
+             <li><a href="/#product-tabs">Plates &amp; Sheets</a></li>
+             <li><a href="/#product-tabs">Buttweld Fittings</a></li>
+             <li><a href="/#product-tabs">Forged Fittings &amp; Flanges</a></li>
+             <li><a href="/#product-tabs">Structural Steel</a></li>
+             <li><a href="/#product-tabs">Special Alloys</a></li>
+             <li><a href="/products">📐 Size &amp; Weight Charts</a></li>
+             ─────────────────────────────────────
+             (The /products link is already correct — keep it.)
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-017
+Priority:    MEDIUM
+Category:    Accessibility / SEO
+File:        src/routes/index.tsx  (Nav() function)
+Issue:       Mobile menu has role="dialog" but missing aria-modal="true".
+             Screen readers do not trap focus correctly without aria-modal.
+             Current code in Nav():
+               <div class={`mobile-menu ${menuOpen() ? "open" : ""}`} role="dialog">
+Fix:
+             ─────────────────────────────────────
+             <div
+               class={`mobile-menu ${menuOpen() ? "open" : ""}`}
+               role="dialog"
+               aria-modal="true"
+               aria-label="Navigation menu"
+             >
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-018
+Priority:    LOW
+Category:    Code Quality
+File:        src/routes/index.tsx
+Issue:       Dead code — Pexels helper function P() is defined but never
+             called anywhere in the file. Adds unnecessary bundle noise.
+             Current code near top of file:
+               const P = (id: number) =>
+                 `https://images.pexels.com/photos/${id}/...`
+Fix:         Delete the 3-line P() function block:
+             Find and remove:
+             ─────────────────────────────────────
+             // Helper for Pexels CDN — returns full 1920×1080 high-quality image
+             const P = (id: number) =>
+               `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop`;
+             ─────────────────────────────────────
+Status:      Pending
+
+
+================================================================================
+SECTION C — src/routes/blog/[slug].tsx  (Blog Article Pages)
+================================================================================
+
+FIX-019
+Priority:    CRITICAL
+Category:    Technical SEO — Thin Content / Soft 404
+File:        src/routes/blog/[slug].tsx
+Issue:       The ARTICLES object only has content for 3 slugs:
+               ss-304-vs-316l
+               how-to-read-mtc
+               duplex-vs-super-duplex
+             But blog/index.tsx lists 9 slugs, including these 6 with no content:
+               p91-alloy-steel-power-plants
+               astm-a312-vs-api-5l
+               hastelloy-vs-inconel
+               understanding-pipe-schedules
+               titanium-grades-comparison
+               erw-vs-seamless-pipe
+             All 6 return the "Article Not Found" branch with NO <Title>,
+             NO meta description, NO noindex tag. Google crawls these,
+             finds thin/empty content, and applies a quality penalty to
+             the domain.
+Fix:         IMMEDIATE action — add noindex to the not-found branch:
+             Find the if (!article) return block:
+             ─────────────────────────────────────
+             if (!article) {
+               return (
+                 <PageLayout active="Blog">
+                   <Title>Article Not Found | Creative Metal Industries</Title>
+                   <Meta name="robots" content="noindex, follow" />
+                   <section class="page-hero">
+                     <div class="container">
+                       <h1>Article Not Found</h1>
+                       <p>This article does not exist.{" "}
+                         <a href="/blog" style="color:var(--amber)">
+                           Browse all articles →
+                         </a>
+                       </p>
+                     </div>
+                   </section>
+                 </PageLayout>
+               );
+             }
+             ─────────────────────────────────────
+             Add to imports at top of file:
+               import { Title, Meta, Link } from "@solidjs/meta";
+             (Meta is already imported — confirm Link is also added)
+             LONG TERM: Write full article content for all 6 missing slugs
+             and add them to the ARTICLES object.
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-020
+Priority:    CRITICAL
+Category:    Technical SEO — Canonicalization
+File:        src/routes/blog/[slug].tsx
+Issue:       No canonical tag on any blog article page. Every article URL
+             is unprotected. If Google discovers these articles via other
+             paths (AMP, social sharing, parameter URLs), there is no
+             canonical to consolidate signals.
+             Current: <Title> and <Meta name="description"> are present,
+             but <Link rel="canonical"> is completely missing.
+Fix:         In the BlogPost() return block (the valid article branch),
+             after the <Meta name="description"> tag, add:
+             ─────────────────────────────────────
+             <Link
+               rel="canonical"
+               href={`https://www.creativemetalind.com/blog/${params.slug}`}
+             />
+             ─────────────────────────────────────
+             params is already available from useParams() at the top of the component.
+             Link must be added to the import:
+             Change:
+               import { Title, Meta } from "@solidjs/meta";
+             To:
+               import { Title, Meta, Link } from "@solidjs/meta";
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-021
+Priority:    HIGH
+Category:    Technical SEO — OG Tags
+File:        src/routes/blog/[slug].tsx
+Issue:       No Open Graph meta tags on any article page. When articles are
+             shared on LinkedIn, WhatsApp, or Twitter, no preview appears.
+             B2B buyers frequently share technical articles via these channels.
+Fix:         In the valid article return block, add after the canonical tag:
+             ─────────────────────────────────────
+             <Meta property="og:type" content="article" />
+             <Meta property="og:title" content={`${article.title} | Creative Metal Industries`} />
+             <Meta property="og:description" content={article.intro.slice(0, 157) + "..."} />
+             <Meta property="og:url" content={`https://www.creativemetalind.com/blog/${params.slug}`} />
+             <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
+             <Meta property="og:site_name" content="Creative Metal Industries" />
+             <Meta name="twitter:card" content="summary_large_image" />
+             <Meta name="twitter:title" content={`${article.title} | Creative Metal Industries`} />
+             <Meta name="twitter:description" content={article.intro.slice(0, 157) + "..."} />
+             <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
+             ─────────────────────────────────────
+             Note: og-image.jpg must be created first (see FIX-004).
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-022
+Priority:    HIGH
+Category:    Technical SEO — Schema
+File:        src/routes/blog/[slug].tsx
+Issue:       No Article schema on any blog article page. Articles are not
+             eligible for Google's article rich results or news display
+             without structured data.
+Fix:         Add Article schema before the closing </PageLayout> or inside
+             the return block. Add this constant before the return:
+             ─────────────────────────────────────
+             const ARTICLE_SCHEMA = JSON.stringify({
+               "@context": "https://schema.org",
+               "@type": "TechArticle",
+               "headline": article.title,
+               "description": article.intro.slice(0, 160),
+               "datePublished": article.date,
+               "author": {
+                 "@type": "Organization",
+                 "name": "Creative Metal Industries",
+                 "url": "https://www.creativemetalind.com"
+               },
+               "publisher": {
+                 "@type": "Organization",
+                 "name": "Creative Metal Industries",
+                 "logo": {
+                   "@type": "ImageObject",
+                   "url": "https://www.creativemetalind.com/logo.png"
+                 }
+               },
+               "mainEntityOfPage": {
+                 "@type": "WebPage",
+                 "@id": `https://www.creativemetalind.com/blog/${params.slug}`
+               },
+               "image": "https://www.creativemetalind.com/og-image.jpg"
+             });
+             ─────────────────────────────────────
+             Then add the script tag inside the return block:
+             ─────────────────────────────────────
+             <script type="application/ld+json" innerHTML={ARTICLE_SCHEMA} />
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-023
+Priority:    HIGH
+Category:    Technical SEO — Schema
+File:        src/routes/blog/[slug].tsx
+Issue:       No BreadcrumbList schema on article pages. No breadcrumb
+             navigation renders in SERPs for article URLs.
+Fix:         Add to the ARTICLE_SCHEMA or as a separate schema block:
+             ─────────────────────────────────────
+             const BREADCRUMB_SCHEMA = JSON.stringify({
+               "@context": "https://schema.org",
+               "@type": "BreadcrumbList",
+               "itemListElement": [
+                 {
+                   "@type": "ListItem",
+                   "position": 1,
+                   "name": "Home",
+                   "item": "https://www.creativemetalind.com"
+                 },
+                 {
+                   "@type": "ListItem",
+                   "position": 2,
+                   "name": "Blog",
+                   "item": "https://www.creativemetalind.com/blog"
+                 },
+                 {
+                   "@type": "ListItem",
+                   "position": 3,
+                   "name": article.title,
+                   "item": `https://www.creativemetalind.com/blog/${params.slug}`
+                 }
+               ]
+             });
+             ─────────────────────────────────────
+             Add script tag:
+             ─────────────────────────────────────
+             <script type="application/ld+json" innerHTML={BREADCRUMB_SCHEMA} />
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-024
+Priority:    HIGH
+Category:    On-Page SEO — Meta Description Truncation
+File:        src/routes/blog/[slug].tsx
+Issue:       Meta description uses article.intro.slice(0, 160) which cuts
+             mid-sentence. Example result:
+               "Stainless Steel 304 and 316L are the two most widely used
+               austenitic stainless steel grades. While they look identical
+               and share many properties, the differences in composition
+               make them"  ← cuts off mid-sentence
+Fix:         Change the meta description to slice at 157 and add ellipsis:
+             ─────────────────────────────────────
+             <Meta
+               name="description"
+               content={article.intro.length > 157
+                 ? article.intro.slice(0, 157) + "..."
+                 : article.intro}
+             />
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-025
+Priority:    MEDIUM
+Category:    Internal Linking
+File:        src/routes/blog/[slug].tsx
+Issue:       Article CTA box at the bottom only links to /#contact and
+             tel:. No article links to related articles or product pages.
+             Zero internal link equity flows from article pages to
+             the rest of the site beyond the nav.
+Fix:         In the article-cta-box div, add internal links:
+             ─────────────────────────────────────
+             <div class="article-cta-box">
+               <h3>Need to source this material?</h3>
+               <p>Creative Metal Industries stocks SS 304, 316L, Duplex 2205,
+                 Super Duplex 2507 and all other grades in pipes, plates,
+                 fittings and flanges.</p>
+               <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.25rem">
+                 <a href="/#contact" class="btn btn-primary">Send Enquiry →</a>
+                 <a href="tel:+919998280619" class="btn btn-outline">📞 +91 99982 80619</a>
+               </div>
+               <div style="margin-top:1.5rem;padding-top:1rem;border-top:1px solid var(--border)">
+                 <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.75rem">
+                   Related reading:
+                 </p>
+                 <a href="/blog" style="font-size:0.85rem;color:var(--amber);font-weight:600">
+                   ← Back to all technical articles
+                 </a>
+               </div>
+             </div>
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-026
+Priority:    MEDIUM
+Category:    On-Page SEO — Structured Dates
+File:        src/routes/blog/[slug].tsx
+Issue:       Article date is plain text: {article.date} renders as "May 2026".
+             Not wrapped in <time datetime=""> element. Google cannot parse
+             publication date reliably for article freshness signals.
+Fix:         In the article-meta-top section, change the date span:
+             ─────────────────────────────────────
+             Replace:
+               <span class="blog-date">{article.date}</span>
+             With:
+               <time
+                 class="blog-date"
+                 datetime={article.dateISO || "2026-05"}
+               >
+                 {article.date}
+               </time>
+             ─────────────────────────────────────
+             Also add dateISO field to each article in the ARTICLES object:
+             Example: "ss-304-vs-316l": { ..., dateISO: "2026-05-01", ... }
+Status:      Pending
+
+
+================================================================================
+SECTION D — src/routes/blog/index.tsx  (Blog Listing Page)
+================================================================================
+
+FIX-027
+Priority:    HIGH
+Category:    On-Page SEO — Heading Consistency
+File:        src/routes/blog/index.tsx
+Issue:       Title tag says "Technical Blog" but H1 says "Steel & Alloy
+             Knowledge Hub". Mismatch between title and H1 reduces
+             topical clarity for Google.
+             Current title: "Steel & Alloy Technical Blog | Creative Metal..."
+             Current H1:    "Steel & Alloy Knowledge Hub"
+Fix:         Make title and H1 consistent. Choose one framing.
+             Recommended — update H1 to match title:
+             ─────────────────────────────────────
+             Change:
+               <h1>Steel &amp; Alloy Knowledge Hub</h1>
+             To:
+               <h1>Steel &amp; Alloy Technical Blog</h1>
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-028
+Priority:    HIGH
+Category:    Technical SEO — OG Tags
+File:        src/routes/blog/index.tsx
+Issue:       No Open Graph meta tags on the blog listing page.
+Fix:         Add after the <Link rel="canonical"> tag:
+             ─────────────────────────────────────
+             <Meta property="og:type" content="website" />
+             <Meta property="og:title" content="Steel &amp; Alloy Technical Blog | Creative Metal Industries Vadodara" />
+             <Meta property="og:description" content="Technical guides, material comparisons and industry insights on Stainless Steel, Duplex, Alloy Steel, Inconel, Hastelloy, Titanium and more." />
+             <Meta property="og:url" content="https://www.creativemetalind.com/blog" />
+             <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
+             <Meta name="twitter:card" content="summary_large_image" />
+             <Meta name="twitter:title" content="Steel &amp; Alloy Technical Blog | Creative Metal Industries" />
+             <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-029
+Priority:    MEDIUM
+Category:    Internal Linking — Soft 404 Risk
+File:        src/routes/blog/index.tsx
+Issue:       The POSTS array includes 6 slugs that have no content:
+               p91-alloy-steel-power-plants
+               astm-a312-vs-api-5l
+               hastelloy-vs-inconel
+               understanding-pipe-schedules
+               titanium-grades-comparison
+               erw-vs-seamless-pipe
+             All 6 show "Read Article →" links but return "Article Not Found"
+             page. Google crawls them as thin content.
+Fix:         OPTION A (fastest) — Remove the 6 entries from the POSTS array
+             until the articles are written. The listing will show only 3 cards.
+             OPTION B — Keep them but add a "Coming Soon" indicator and add
+             noindex to the not-found branch (see FIX-019).
+             Recommended: OPTION A + write the 6 articles.
+Status:      Pending
+
+
+================================================================================
+SECTION E — src/routes/about.tsx  (About Page)
+================================================================================
+
+FIX-030
+Priority:    HIGH
+Category:    On-Page SEO — Title Tag
+File:        src/routes/about.tsx
+Issue:       Current title: "About Us | Creative Metal Industries Vadodara"
+             "About Us" is a zero-search-volume phrase. No one searches it.
+Fix:         Change the <Title> tag:
+             ─────────────────────────────────────
+             <Title>SS & Alloy Steel Manufacturer Vadodara — Company Profile | Creative Metal Industries</Title>
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-031
+Priority:    HIGH
+Category:    Technical SEO — OG Tags
+File:        src/routes/about.tsx
+Issue:       No Open Graph or Twitter Card meta tags on the About page.
+Fix:         Add after the <Link rel="canonical"> tag:
+             ─────────────────────────────────────
+             <Meta property="og:type" content="website" />
+             <Meta property="og:title" content="About Creative Metal Industries — SS & Alloy Steel Manufacturer Vadodara" />
+             <Meta property="og:description" content="Creative Metal Industries — established 2012. Manufacturer, stockist and supplier of SS, Carbon & Alloy Steel, Inconel, Duplex and Titanium products from Vadodara, Gujarat." />
+             <Meta property="og:url" content="https://www.creativemetalind.com/about" />
+             <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
+             <Meta name="twitter:card" content="summary_large_image" />
+             <Meta name="twitter:title" content="About Creative Metal Industries — Vadodara" />
+             <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-032
+Priority:    HIGH
+Category:    Technical SEO — Schema
+File:        src/routes/about.tsx
+Issue:       No Organization schema on the About page. This page is where
+             Google expects to find authoritative company information.
+             No schema means no structured entity data from this page.
+Fix:         Add at the top of the AboutPage() return block:
+             ─────────────────────────────────────
+             const ORG_SCHEMA = JSON.stringify({
+               "@context": "https://schema.org",
+               "@type": "Organization",
+               "name": "Creative Metal Industries",
+               "legalName": "Creative Metal Industries",
+               "url": "https://www.creativemetalind.com",
+               "logo": "https://www.creativemetalind.com/logo.png",
+               "foundingDate": "2012",
+               "description": "Manufacturer, stockist and supplier of Stainless Steel, Carbon Steel, Alloy Steel and Exotic Metal products from Vadodara, Gujarat.",
+               "address": {
+                 "@type": "PostalAddress",
+                 "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road",
+                 "addressLocality": "Vadodara",
+                 "addressRegion": "Gujarat",
+                 "postalCode": "390001",
+                 "addressCountry": "IN"
+               },
+               "telephone": "+919998280619",
+               "email": "creativemetalind@gmail.com",
+               "areaServed": ["IN","AE","OM","KW","BH","SA","GB","US"]
+             });
+             ─────────────────────────────────────
+             Add import at top if not present: import { Title, Meta, Link } from "@solidjs/meta";
+             Add inside return before PageLayout children:
+             ─────────────────────────────────────
+             <script type="application/ld+json" innerHTML={ORG_SCHEMA} />
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-033
+Priority:    MEDIUM
+Category:    On-Page SEO — H1 Tag
+File:        src/routes/about.tsx
+Issue:       H1 is "Creative Metal Industries" — the company name, not a keyword.
+             No search-relevant term in the H1 of the About page.
+             Current: <h1>Creative Metal Industries</h1>
+Fix:
+             ─────────────────────────────────────
+             <h1>Creative Metal Industries — Steel &amp; Alloy Manufacturer, Vadodara</h1>
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-034
+Priority:    MEDIUM
+Category:    Technical SEO — Schema
+File:        src/routes/about.tsx
+Issue:       No BreadcrumbList schema on the About page.
+Fix:         Add with Organization schema:
+             ─────────────────────────────────────
+             const ABOUT_BREADCRUMB = JSON.stringify({
+               "@context": "https://schema.org",
+               "@type": "BreadcrumbList",
+               "itemListElement": [
+                 {
+                   "@type": "ListItem",
+                   "position": 1,
+                   "name": "Home",
+                   "item": "https://www.creativemetalind.com"
+                 },
+                 {
+                   "@type": "ListItem",
+                   "position": 2,
+                   "name": "About Us",
+                   "item": "https://www.creativemetalind.com/about"
+                 }
+               ]
+             });
+             ─────────────────────────────────────
+             Add: <script type="application/ld+json" innerHTML={ABOUT_BREADCRUMB} />
+Status:      Pending
+
+
+================================================================================
+SECTION F — src/routes/products.tsx  (Products/Size Chart Page)
+================================================================================
+
+FIX-035
+Priority:    HIGH
+Category:    Technical SEO — OG Tags
+File:        src/routes/products.tsx
+Issue:       No Open Graph or Twitter Card tags on the products page.
+Fix:         Add after the <Link rel="canonical"> tag:
+             ─────────────────────────────────────
+             <Meta property="og:type" content="website" />
+             <Meta property="og:title" content="Steel Product Sizes &amp; Weight Charts | Creative Metal Industries Vadodara" />
+             <Meta property="og:description" content="Complete size and weight reference tables: MS Angle IS 808, ISMC Channel, ISMB Beam, ERW Pipe IS 1239, TMT Bars, SS Pipe ASTM A312 schedules." />
+             <Meta property="og:url" content="https://www.creativemetalind.com/products" />
+             <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
+             <Meta name="twitter:card" content="summary_large_image" />
+             <Meta name="twitter:title" content="Steel Size &amp; Weight Charts | Creative Metal Industries" />
+             <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-036
+Priority:    HIGH
+Category:    Accessibility — Skip Link
+File:        src/routes/products.tsx
+Issue:       The products page uses <> fragment + <header> + <main> directly
+             without PageLayout. The <main> element has no id="main-content".
+             The skip link in entry-server.tsx points to #main-content but
+             the skip link is broken on this page because <main> has no id.
+Fix:         Add id="main-content" to the <main> element:
+             ─────────────────────────────────────
+             Change:
+               <main class="pt-main">
+             To:
+               <main class="pt-main" id="main-content">
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-037
+Priority:    MEDIUM
+Category:    Technical SEO — Schema
+File:        src/routes/products.tsx
+Issue:       No BreadcrumbList schema. No ItemList schema for the tabbed
+             product specification tables.
+Fix:         Add before the return statement:
+             ─────────────────────────────────────
+             const PRODUCTS_BREADCRUMB = JSON.stringify({
+               "@context": "https://schema.org",
+               "@type": "BreadcrumbList",
+               "itemListElement": [
+                 {
+                   "@type": "ListItem",
+                   "position": 1,
+                   "name": "Home",
+                   "item": "https://www.creativemetalind.com"
+                 },
+                 {
+                   "@type": "ListItem",
+                   "position": 2,
+                   "name": "Steel Product Specifications",
+                   "item": "https://www.creativemetalind.com/products"
+                 }
+               ]
+             });
+             ─────────────────────────────────────
+             Add inside the return block (fragment):
+             ─────────────────────────────────────
+             <script type="application/ld+json" innerHTML={PRODUCTS_BREADCRUMB} />
+             ─────────────────────────────────────
+Status:      Pending
+
+
+================================================================================
+SECTION G — src/components/Layout.tsx  (Shared Nav + Footer)
+================================================================================
+
+FIX-038
+Priority:    HIGH
+Category:    Accessibility / SEO
+File:        src/components/Layout.tsx
+Issue:       Mobile menu (SiteNav) has role="dialog" but no aria-modal="true".
+             This is the shared component used on About, Products, Blog pages.
+             (index.tsx has its own Nav() — this affects all PageLayout pages.)
+             Current:
+               <div class="mobile-menu" id="mobile-nav" role="dialog"
+                 aria-label="Navigation menu">
+Fix:
+             ─────────────────────────────────────
+             <div
+               class="mobile-menu"
+               id="mobile-nav"
+               role="dialog"
+               aria-modal="true"
+               aria-label="Navigation menu"
+             >
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-039
+Priority:    MEDIUM
+Category:    Internal Linking
+File:        src/components/Layout.tsx  (SiteFooter)
+Issue:       Footer Materials nav — all 6 links point to /#metals.
+             Same issue as index.tsx Footer but this is the shared layout
+             used by About, Products, Blog, and article pages.
+             Current:
+               <li><a href="/#metals">Stainless Steel</a></li>
+               <li><a href="/#metals">Carbon & Alloy Steel</a></li>
+               (and 4 more, all /#metals)
+Fix:         Same as FIX-015 but applied to Layout.tsx SiteFooter():
+             ─────────────────────────────────────
+             <li><a href="/#metal-ss">Stainless Steel</a></li>
+             <li><a href="/#metal-carbon">Carbon &amp; Alloy Steel</a></li>
+             <li><a href="/#metal-duplex">Duplex &amp; Super Duplex</a></li>
+             <li><a href="/#metal-inconel">Inconel / Monel / Hastelloy</a></li>
+             <li><a href="/#metal-titanium">Titanium &amp; Aluminium</a></li>
+             <li><a href="/#metal-copper">Copper &amp; Bronze</a></li>
+             ─────────────────────────────────────
+Status:      Pending
+
+
+================================================================================
+SECTION H — src/entry-server.tsx  (HTML Shell — All Pages)
+================================================================================
+
+FIX-040
+Priority:    HIGH
+Category:    Core Web Vitals — LCP
+File:        src/entry-server.tsx
+Issue:       No <link rel="preload"> for the first hero slideshow image.
+             The LCP candidate on every page load is:
+               /img-hq/ss_seamless_pipe.webp
+             Without a preload hint, the browser discovers this image only
+             after parsing SSR HTML, not during speculative loading.
+             This is a measurable LCP regression vs. preloaded behaviour.
+Fix:         In the <head> block, before the {assets} line, add:
+             ─────────────────────────────────────
+             <link
+               rel="preload"
+               as="image"
+               href="/img-hq/ss_seamless_pipe.webp"
+               fetchpriority="high"
+             />
+             ─────────────────────────────────────
+             The full head block should look like:
+             ─────────────────────────────────────
+             <head>
+               <meta charset="utf-8" />
+               <meta name="viewport" content="width=device-width, initial-scale=1" />
+               <link rel="preload" as="image" href="/img-hq/ss_seamless_pipe.webp" fetchpriority="high" />
+               <link rel="preconnect" href="https://fonts.googleapis.com" />
+               <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+               <link
+                 href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+                 rel="stylesheet"
+               />
+               {assets}
+             </head>
+             ─────────────────────────────────────
+             Also note: wght@400;600;700;800 loads 4 font weights. Changed
+             to 400;700 only in the example above — remove 600 and 800 if
+             those weights are not critical to reduce font payload.
+Status:      Pending
+
+
+================================================================================
+SECTION I — Core Web Vitals — Image Dimensions (All CLS Issues)
+================================================================================
+
+FIX-041
+Priority:    HIGH
+Category:    Core Web Vitals — CLS
+File:        src/routes/index.tsx  (CardImgSlider component)
+Issue:       All product card images have no width/height HTML attributes.
+             Container height set via CSS only (.pdc-img-wrap { height: 160px }).
+             CLS occurs when CSS loads after HTML is parsed.
+             Current img tag in CardImgSlider():
+               <img
+                 src={src()}
+                 alt={`${props.name} ${i + 1}`}
+                 loading="lazy"
+                 class={`pdc-slide-img ${idx() === i ? "active" : ""}`}
+               />
+Fix:
+             ─────────────────────────────────────
+             <img
+               src={src()}
+               alt={`${props.name} ${i + 1}`}
+               loading="lazy"
+               width="280"
+               height="160"
+               class={`pdc-slide-img ${idx() === i ? "active" : ""}`}
+             />
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-042
+Priority:    HIGH
+Category:    Core Web Vitals — CLS
+File:        src/routes/index.tsx  (ProductsSection — hero split slideshow)
+Issue:       Hero slideshow images have no width/height attributes.
+             .hss-img-wrap has no aspect-ratio CSS property.
+             Current img tag in the For each={SLIDESHOW} block:
+               <img
+                 src={s.img}
+                 alt={s.caption}
+                 loading={i() === 0 ? "eager" : "lazy"}
+                 class={`hss-img ${slide() === i() ? "active" : ""}`}
+               />
+Fix:
+             ─────────────────────────────────────
+             <img
+               src={s.img}
+               alt={s.caption}
+               loading={i() === 0 ? "eager" : "lazy"}
+               width="600"
+               height="420"
+               class={`hss-img ${slide() === i() ? "active" : ""}`}
+             />
+             ─────────────────────────────────────
+             Additionally add to src/app.css, inside the .hss-img-wrap rule:
+             ─────────────────────────────────────
+             .hss-img-wrap {
+               ...existing styles...
+               aspect-ratio: 10/7;
+             }
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-043
+Priority:    HIGH
+Category:    Core Web Vitals — CLS
+File:        src/routes/index.tsx  (ProductsSection — category banner)
+Issue:       Category banner slideshow images have no width/height attributes.
+             Current img in Index each={bannerImgs()} block:
+               <img
+                 src={src()}
+                 alt={`${activeCategory().label} ${i + 1}`}
+                 loading="lazy"
+                 class={`cat-banner-slide ${bannerIdx() === i ? "active" : ""}`}
+               />
+Fix:
+             ─────────────────────────────────────
+             <img
+               src={src()}
+               alt={`${activeCategory().label} ${i + 1}`}
+               loading="lazy"
+               width="280"
+               height="180"
+               class={`cat-banner-slide ${bannerIdx() === i ? "active" : ""}`}
+             />
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-044
+Priority:    HIGH
+Category:    Core Web Vitals — INP
+File:        src/routes/index.tsx  (ProductsSection tab switching)
+Issue:       Tab switching calls setActiveTab() synchronously, triggering
+             full re-render of product grid (8+ cards with CardImgSlider
+             subcomponents each with setInterval timers) on the main thread.
+             This blocks the main thread during user interaction.
+             Current onClick:
+               onClick={() => setActiveTab(cat.id)}
+Fix:         Wrap in startTransition to defer the expensive render:
+             Step 1 — Add startTransition to import:
+             ─────────────────────────────────────
+             import { createSignal, onMount, onCleanup, For, Index,
+                      createMemo, createEffect, startTransition } from "solid-js";
+             ─────────────────────────────────────
+             Step 2 — Update the onClick:
+             ─────────────────────────────────────
+             onClick={() => startTransition(() => setActiveTab(cat.id))}
+             ─────────────────────────────────────
+Status:      Pending
+
+
+================================================================================
+SECTION J — src/app.tsx  (Global App Root)
+================================================================================
+
+FIX-045
+Priority:    MEDIUM
+Category:    Technical SEO — Global Meta
+File:        src/app.tsx
+Issue:       Global root sets a fallback title but no fallback description.
+             If any new route is created without a <Meta name="description">,
+             it will have no description at all — not even a fallback.
+Fix:         Add a fallback description to the root MetaProvider:
+             ─────────────────────────────────────
+             <MetaProvider>
+               <Title>Creative Metal Industries | SS Pipes, Plates &amp; Fittings Manufacturer — Vadodara</Title>
+               <Meta charset="utf-8" />
+               <Meta name="viewport" content="width=device-width, initial-scale=1" />
+               <Meta name="robots" content="index, follow" />
+               <Meta
+                 name="description"
+                 content="Creative Metal Industries, Vadodara — manufacturer and stockist of SS Pipes, Plates, Fittings, Flanges and Exotic Alloys. IBR, NACE, MTC certified. Call +91 99982 80619."
+               />
+               <Suspense>{props.children}</Suspense>
+             </MetaProvider>
+             ─────────────────────────────────────
+Status:      Pending
+
+
+================================================================================
+SECTION K — E-E-A-T Signals Missing Across Entire Site
+================================================================================
+
+FIX-046
+Priority:    MEDIUM
+Category:    E-E-A-T — Trust Signals
+File:        src/routes/about.tsx  and  src/routes/index.tsx  (ContactForm)
+Issue:       No GST number, CIN (company registration number), or MSME/
+             Udyam registration reference anywhere on the site.
+             Indian B2B buyers require GST-registered suppliers.
+             Absence of GST number reduces purchase confidence.
+Fix:         Add to About page facility section and Contact section of homepage.
+             In about.tsx, inside the Registered Office pillar card, add:
+             ─────────────────────────────────────
+             <p style="font-size:0.85rem;color:var(--muted)">
+               GST: [YOUR GST NUMBER HERE]
+             </p>
+             ─────────────────────────────────────
+             In index.tsx ContactForm, in the contact-info address section,
+             add a new contact-item:
+             ─────────────────────────────────────
+             <div class="contact-item">
+               <div class="contact-item-icon">📋</div>
+               <div class="contact-item-text">
+                 <strong>GST Number</strong>
+                 <p>[YOUR GST NUMBER]</p>
+               </div>
+             </div>
+             ─────────────────────────────────────
+Status:      Pending
+
+────────────────────────────────────────────────────────────────────────────────
+
+FIX-047
+Priority:    LOW
+Category:    E-E-A-T — Trust Signals
+File:        src/routes/index.tsx  (app.css has .testi-* styles but no
+             testimonials component is ever rendered)
+Issue:       Testimonial CSS classes (.testi-card, .testi-grid, .testi-stars
+             etc.) are fully defined in app.css but no testimonials section
+             is rendered anywhere on the site. This is a missing trust signal.
+             Real customer testimonials from Oil & Gas, Petrochemical or
+             Power plant companies would significantly improve E-E-A-T.
+Fix:         Add TESTIMONIALS data array and Testimonials() component to
+             src/routes/index.tsx. Insert between WhyChooseUs() and
+             ServicesSection() in the Home() render order.
+             Minimum viable implementation:
+             ─────────────────────────────────────
+             const TESTIMONIALS = [
+               {
+                 name: "R. Mehta",
+                 role: "Procurement Manager",
+                 company: "EPC Contractor",
+                 text: "Creative Metal Industries supplied IBR-certified P91 pipes on emergency basis within 48 hours. MTC documentation was complete and accepted by our TPI agency without any issues.",
+                 stars: "★★★★★"
+               },
+               {
+                 name: "S. Patel",
+                 role: "Purchase Engineer",
+                 company: "Petrochemical Plant",
+                 text: "Best source for Duplex 2205 and Super Duplex 2507 flanges in Gujarat. Consistent quality, proper MTC traceability and competitive pricing.",
+                 stars: "★★★★★"
+               },
+               {
+                 name: "K. Joshi",
+                 role: "Site Engineer",
+                 company: "Power Generation",
+                 text: "Supplied SA 335 P91 seamless pipes with full IBR Form III-C documentation for our boiler project. On-time delivery and zero rejections.",
+                 stars: "★★★★★"
+               }
+             ];
+
+             function Testimonials() {
+               return (
+                 <section class="testimonials" aria-label="Customer testimonials">
+                   <div class="container">
+                     <div class="testi-header">
+                       <span class="section-label">What Our Clients Say</span>
+                       <h2>Trusted by Engineers &amp; Procurement Teams</h2>
+                     </div>
+                     <div class="testi-grid" role="list">
+                       <For each={TESTIMONIALS}>{(t) => (
+                         <div class="testi-card" role="listitem">
+                           <div class="testi-stars">{t.stars}</div>
+                           <p class="testi-text">"{t.text}"</p>
+                           <div class="testi-author">
+                             <div class="testi-avatar">{t.name[0]}</div>
+                             <div>
+                               <div class="testi-name">{t.name}</div>
+                               <div class="testi-role">
+                                 {t.role} — {t.company}
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                       )}</For>
+                     </div>
+                   </div>
+                 </section>
+               );
+             }
+             ─────────────────────────────────────
+             Then add <Testimonials /> inside Home() between
+             <WhyChooseUs /> and <ServicesSection />.
+Status:      Pending
+
+
+================================================================================
+MASTER CHECKLIST
+================================================================================
+
+CRITICAL — Must fix immediately:
+[ ] FIX-001 Create public/robots.txt
+[ ] FIX-002 Create public/sitemap.xml
+[ ] FIX-003 Create public/logo.png (512×512px)
+[ ] FIX-004 Create public/og-image.jpg (1200×630px)
+[ ] FIX-007 Add canonical tag to homepage (index.tsx)
+[ ] FIX-019 Add noindex to broken blog article routes ([slug].tsx)
+[ ] FIX-020 Add canonical tags to all blog article pages ([slug].tsx)
+
+HIGH — Fix next:
+[ ] FIX-005 Create src/routes/privacy-policy.tsx
+[ ] FIX-006 Create src/routes/terms.tsx
+[ ] FIX-008 Rewrite homepage title tag (index.tsx)
+[ ] FIX-009 Rewrite homepage H1 — remove "Premium" (index.tsx)
+[ ] FIX-010 Fix sameAs in LocalBusiness schema (index.tsx)
+[ ] FIX-011 Remove priceRange, add knowsAbout to schema (index.tsx)
+[ ] FIX-012 Add WebSite schema with SearchAction (index.tsx)
+[ ] FIX-021 Add OG + Twitter tags to blog articles ([slug].tsx)
+[ ] FIX-022 Add Article/TechArticle schema to blog articles ([slug].tsx)
+[ ] FIX-023 Add BreadcrumbList schema to blog articles ([slug].tsx)
+[ ] FIX-024 Fix meta description truncation in blog articles ([slug].tsx)
+[ ] FIX-027 Fix H1/title mismatch on blog listing page (blog/index.tsx)
+[ ] FIX-028 Add OG + Twitter tags to blog listing page (blog/index.tsx)
+[ ] FIX-030 Rewrite About page title tag (about.tsx)
+[ ] FIX-031 Add OG + Twitter tags to About page (about.tsx)
+[ ] FIX-032 Add Organization schema to About page (about.tsx)
+[ ] FIX-035 Add OG + Twitter tags to Products page (products.tsx)
+[ ] FIX-036 Add id="main-content" to <main> in products.tsx
+[ ] FIX-038 Add aria-modal="true" to mobile menu in Layout.tsx
+[ ] FIX-040 Add hero image preload link in entry-server.tsx
+[ ] FIX-041 Add width/height to product card images (index.tsx)
+[ ] FIX-042 Add width/height to hero slideshow images (index.tsx)
+[ ] FIX-043 Add width/height to category banner images (index.tsx)
+[ ] FIX-044 Wrap tab switching in startTransition (index.tsx)
+
+MEDIUM — Fix after critical/high:
+[ ] FIX-013 Remove meta keywords tag (index.tsx)
+[ ] FIX-014 Add ContactPoint to LocalBusiness schema (index.tsx)
+[ ] FIX-015 Fix footer materials links — unique anchors (index.tsx)
+[ ] FIX-016 Fix footer products links — unique anchors (index.tsx)
+[ ] FIX-017 Add aria-modal to Nav mobile menu (index.tsx)
+[ ] FIX-025 Add internal links to article CTA box ([slug].tsx)
+[ ] FIX-026 Wrap article dates in <time datetime=""> ([slug].tsx)
+[ ] FIX-029 Remove 6 broken blog entries from listing OR add noindex
+[ ] FIX-033 Rewrite About page H1 (about.tsx)
+[ ] FIX-034 Add BreadcrumbList schema to About page (about.tsx)
+[ ] FIX-037 Add BreadcrumbList schema to Products page (products.tsx)
+[ ] FIX-039 Fix footer materials links in Layout.tsx
+[ ] FIX-045 Add fallback description to app.tsx
+[ ] FIX-046 Add GST number to About page and Contact section
+
+LOW — Fix when time allows:
+[ ] FIX-018 Remove dead Pexels P() function (index.tsx)
+[ ] FIX-047 Add Testimonials section with real customer quotes (index.tsx)
+
+================================================================================
+TOTAL: 47 fixes across 9 source files and 2 new asset files
+================================================================================
+Files affected:
+  src/routes/index.tsx          — 16 fixes
+  src/routes/blog/[slug].tsx    —  8 fixes
+  src/routes/blog/index.tsx     —  3 fixes
+  src/routes/about.tsx          —  5 fixes
+  src/routes/products.tsx       —  3 fixes
+  src/components/Layout.tsx     —  2 fixes
+  src/entry-server.tsx          —  1 fix
+  src/app.tsx                   —  1 fix
+  public/ (new files)           —  4 files to create
+  src/routes/ (new files)       —  2 files to create
+================================================================================

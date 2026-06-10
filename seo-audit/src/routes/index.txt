@@ -1,0 +1,673 @@
+================================================================================
+FILE REPORT
+================================================================================
+File:    src/routes/index.tsx
+Purpose: Homepage — primary landing page, product showcase, contact form,
+         FAQ, blog preview, schema injection, full site navigation
+SEO Score: 52/100
+
+================================================================================
+ISSUES FOUND
+================================================================================
+
+--------------------------------------------------------------------------------
+Issue 1
+--------------------------------------------------------------------------------
+Priority:              CRITICAL
+Category:              Technical SEO — Canonicalization
+Issue:                 No canonical tag on homepage
+Current Implementation:
+  The file imports Link from "@solidjs/meta" but never uses it.
+  No <Link rel="canonical" .../> is rendered anywhere in the return block.
+  The about, products, and blog pages all have canonical tags.
+  The homepage is the only routed page missing one.
+Recommended Fix:
+  Add inside the return block, directly after <Title>:
+    <Link rel="canonical" href="https://www.creativemetalind.com" />
+Implementation Method:
+  1. Open src/routes/index.tsx
+  2. Locate the return statement of the Home() component
+  3. After the existing <Title> tag add:
+     <Link rel="canonical" href="https://www.creativemetalind.com" />
+  4. Link is already imported at the top of the file — no import change needed
+Expected SEO Impact:
+  Prevents www vs non-www duplicate indexation.
+  Consolidates link equity to the canonical URL.
+  Eliminates split ranking signals between http/https and www/non-www variants.
+Difficulty: 1/10
+
+--------------------------------------------------------------------------------
+Issue 2
+--------------------------------------------------------------------------------
+Priority:              HIGH
+Category:              On-Page SEO — Title Tag
+Issue:                 H1 contains "Premium" — zero-search-volume qualifier
+                       wasting keyword real estate
+Current Implementation:
+  Inside Hero():
+    <h1>Premium <em>SS Pipes, Pipe Fittings,<br/>Flanges &amp; Plates</em></h1>
+  "Premium" is the first visible word in the H1. No one searches for
+  "premium SS pipes". It occupies the highest-weight position in the heading.
+Recommended Fix:
+  Replace with:
+    <h1>
+      <em>SS Pipes, Pipe Fittings, Flanges &amp; Plates</em>
+      <br/>Manufacturer &amp; Stockist — Vadodara, Gujarat
+    </h1>
+  This puts the primary commercial keyword first and adds the geographic
+  modifier "Gujarat" which expands beyond Vadodara alone.
+Implementation Method:
+  1. Locate the Hero() function in src/routes/index.tsx
+  2. Find: <h1>Premium <em>SS Pipes, Pipe Fittings,<br/>Flanges &amp; Plates</em></h1>
+  3. Replace with the recommended markup above
+  4. Adjust the <em> gradient styling in app.css if needed
+     (current selector: .hero h1 em — no change required)
+Expected SEO Impact:
+  Improved keyword match for "SS pipes manufacturer Vadodara" queries.
+  Geographic expansion to Gujarat-level searches.
+Difficulty: 1/10
+
+--------------------------------------------------------------------------------
+Issue 3
+--------------------------------------------------------------------------------
+Priority:              HIGH
+Category:              Technical SEO — Title Tag
+Issue:                 Title tag front-loads brand name before primary keyword
+Current Implementation:
+  <Title>
+    Creative Metal Industries Vadodara | SS Pipes, Plates &amp; Fittings
+    Manufacturer &amp; Stockist
+  </Title>
+  Brand name appears before the commercial keyword. For a company with low
+  brand recognition, the primary keyword should lead.
+Recommended Fix:
+  <Title>
+    SS Pipes, Plates &amp; Fittings Manufacturer Vadodara |
+    Creative Metal Industries
+  </Title>
+Implementation Method:
+  1. Locate the Home() component return block
+  2. Find the <Title> tag
+  3. Rewrite as shown above
+Expected SEO Impact:
+  Higher CTR for users scanning SERP titles.
+  Better keyword match position for commercial queries.
+Difficulty: 1/10
+
+--------------------------------------------------------------------------------
+Issue 4
+--------------------------------------------------------------------------------
+Priority:              HIGH
+Category:              Technical SEO — Structured Data
+Issue:                 JSON-LD schema references logo and og-image that do
+                       not exist in /public
+Current Implementation:
+  At the bottom of index.tsx, SCHEMA constant includes:
+    "logo": "https://www.creativemetalind.com/logo.png"
+    "image": "https://www.creativemetalind.com/og-image.jpg"
+  Neither public/logo.png nor public/og-image.jpg exist in the repository.
+  Google's Rich Results Test will return validation errors for both.
+  The LocalBusiness schema will fail logo verification.
+Recommended Fix:
+  Step 1: Create public/logo.png — company logo, minimum 112×112px,
+          square aspect ratio, PNG format.
+  Step 2: Create public/og-image.jpg — 1200×630px branded image showing
+          product photography and company name.
+  Step 3: No code change needed in SCHEMA once files are created,
+          since paths already point to correct URLs.
+Implementation Method:
+  1. Create/export logo.png at 512×512px, save to:
+     creative-metal-industries/public/logo.png
+  2. Create og-image.jpg at 1200×630px, save to:
+     creative-metal-industries/public/og-image.jpg
+  3. Run build and verify both URLs return 200
+Expected SEO Impact:
+  Fixes broken LocalBusiness schema — enables Google Knowledge Panel.
+  Fixes OG image — enables branded social sharing previews.
+Difficulty: 2/10
+
+--------------------------------------------------------------------------------
+Issue 5
+--------------------------------------------------------------------------------
+Priority:              HIGH
+Category:              Technical SEO — Structured Data
+Issue:                 LocalBusiness schema sameAs field only references the
+                       site's own URL — provides no authority signals
+Current Implementation:
+  In SCHEMA constant:
+    "sameAs": ["https://www.creativemetalind.com"]
+  sameAs pointing to itself adds zero value. Google uses sameAs to link
+  entities across the web for Knowledge Graph construction.
+Recommended Fix:
+  Replace with verified external profile URLs:
+    "sameAs": [
+      "https://www.indiamart.com/creative-metal-industries-vadodara/",
+      "https://www.linkedin.com/company/creative-metal-industries",
+      "https://www.justdial.com/Vadodara/Creative-Metal-Industries/...",
+      "https://www.tradeindia.com/creative-metal-industries/"
+    ]
+  Use only URLs that actually exist and are verified.
+Implementation Method:
+  1. Locate SCHEMA const in src/routes/index.tsx
+  2. Find "sameAs": ["https://www.creativemetalind.com"]
+  3. Replace with array of actual external profile URLs
+  4. Verify each URL is live before adding
+Expected SEO Impact:
+  Stronger entity disambiguation for Google Knowledge Graph.
+  Supports Knowledge Panel eligibility.
+Difficulty: 2/10
+
+--------------------------------------------------------------------------------
+Issue 6
+--------------------------------------------------------------------------------
+Priority:              HIGH
+Category:              Technical SEO — Structured Data
+Issue:                 LocalBusiness schema uses "priceRange": "$$" which is
+                       B2C-oriented and irrelevant for B2B industrial supply
+Current Implementation:
+  "priceRange": "$$"
+  This field is designed for restaurants and retail. Google ignores it for
+  industrial B2B businesses and it adds no SERP benefit.
+Recommended Fix:
+  Remove the priceRange field entirely. Replace with:
+    "knowsAbout": [
+      "Stainless Steel Pipes",
+      "Duplex Steel",
+      "Alloy Steel Pipes",
+      "Carbon Steel Plates",
+      "IBR Certified Boiler Tubes",
+      "Inconel Hastelloy Monel Exotic Alloys"
+    ]
+Implementation Method:
+  1. Locate SCHEMA const in src/routes/index.tsx
+  2. Remove the line: "priceRange": "$$",
+  3. Add "knowsAbout" array as shown above after "areaServed"
+Expected SEO Impact:
+  Cleaner schema, removes irrelevant B2C signal, adds topical authority
+  via knowsAbout which Google uses for entity understanding.
+Difficulty: 1/10
+
+--------------------------------------------------------------------------------
+Issue 7
+--------------------------------------------------------------------------------
+Priority:              HIGH
+Category:              Performance — Core Web Vitals (LCP)
+Issue:                 No <link rel="preload"> for the first hero slideshow
+                       image — LCP candidate has no fetch priority hint
+Current Implementation:
+  In entry-server.tsx (not index.tsx), the <head> has no preload links.
+  In index.tsx, the slideshow renders:
+    <img
+      src={s.img}
+      alt={s.caption}
+      loading={i() === 0 ? "eager" : "lazy"}
+      class={`hss-img ${slide() === i() ? "active" : ""}`}
+    />
+  First slide is: IH("ss_seamless_pipe.webp") = /img-hq/ss_seamless_pipe.webp
+  loading="eager" is set but without a preload hint the browser still
+  discovers this image only after parsing the SSR HTML, not during
+  speculative loading.
+Recommended Fix:
+  In src/entry-server.tsx, add inside <head> before {assets}:
+    <link
+      rel="preload"
+      as="image"
+      href="/img-hq/ss_seamless_pipe.webp"
+      fetchpriority="high"
+    />
+  NOTE: This fix is in entry-server.tsx, not index.tsx.
+  Filed here because the image originates from SLIDESHOW[0] in this file.
+Implementation Method:
+  1. Open src/entry-server.tsx
+  2. Locate the <head> block
+  3. Before the {assets} line, add the preload link shown above
+Expected SEO Impact:
+  Measurable LCP improvement. Google PageSpeed Insights will stop
+  flagging the hero image as a render-blocking LCP element.
+Difficulty: 1/10
+
+--------------------------------------------------------------------------------
+Issue 8
+--------------------------------------------------------------------------------
+Priority:              HIGH
+Category:              Core Web Vitals — CLS
+Issue:                 Product card images in CardImgSlider have no width/height
+                       HTML attributes — causes layout shift
+Current Implementation:
+  In CardImgSlider component inside index.tsx:
+    <img
+      src={src()}
+      alt={`${props.name} ${i + 1}`}
+      loading="lazy"
+      class={`pdc-slide-img ${idx() === i ? "active" : ""}`}
+    />
+  No width or height attributes. Container height is set via CSS only
+  (.pdc-img-wrap { height: 160px }). Browser cannot reserve space before
+  CSS is parsed, causing CLS.
+Recommended Fix:
+  Add width and height to every img in CardImgSlider:
+    <img
+      src={src()}
+      alt={`${props.name} ${i + 1}`}
+      loading="lazy"
+      width="280"
+      height="160"
+      class={`pdc-slide-img ${idx() === i ? "active" : ""}`}
+    />
+Implementation Method:
+  1. Locate CardImgSlider function in src/routes/index.tsx
+  2. Find the <img> inside the Index each={props.imgs} loop
+  3. Add width="280" height="160" attributes
+Expected SEO Impact:
+  Reduces CLS score. Google uses CLS as a ranking signal via Core Web Vitals.
+Difficulty: 1/10
+
+--------------------------------------------------------------------------------
+Issue 9
+--------------------------------------------------------------------------------
+Priority:              HIGH
+Category:              Core Web Vitals — CLS
+Issue:                 Hero split slideshow images (.hss-img) have no
+                       width/height attributes
+Current Implementation:
+  In ProductsSection(), inside the hero-split-slide section:
+    <img
+      src={s.img}
+      alt={s.caption}
+      loading={i() === 0 ? "eager" : "lazy"}
+      class={`hss-img ${slide() === i() ? "active" : ""}`}
+    />
+  No width or height. The .hss-img-wrap has no CSS aspect-ratio property.
+Recommended Fix:
+    <img
+      src={s.img}
+      alt={s.caption}
+      loading={i() === 0 ? "eager" : "lazy"}
+      width="600"
+      height="420"
+      class={`hss-img ${slide() === i() ? "active" : ""}`}
+    />
+  Additionally add to app.css under .hss-img-wrap:
+    aspect-ratio: 10/7;
+Implementation Method:
+  1. Locate the For each={SLIDESHOW} block inside ProductsSection()
+  2. Add width="600" height="420" to the img tag
+  3. Open src/app.css
+  4. Find .hss-img-wrap rule and add: aspect-ratio: 10/7;
+Expected SEO Impact:
+  Reduces CLS. Prevents layout jump when hero image loads.
+Difficulty: 2/10
+
+--------------------------------------------------------------------------------
+Issue 10
+--------------------------------------------------------------------------------
+Priority:              HIGH
+Category:              Core Web Vitals — CLS
+Issue:                 Category banner images (.cat-banner-slide) have no
+                       width/height attributes
+Current Implementation:
+  In ProductsSection(), cat-banner slideshow:
+    <img
+      src={src()}
+      alt={`${activeCategory().label} ${i + 1}`}
+      loading="lazy"
+      class={`cat-banner-slide ${bannerIdx() === i ? "active" : ""}`}
+    />
+  No dimensions. Container height is CSS-only (.cat-banner-img { height: 180px }).
+Recommended Fix:
+    <img
+      src={src()}
+      alt={`${activeCategory().label} ${i + 1}`}
+      loading="lazy"
+      width="280"
+      height="180"
+      class={`cat-banner-slide ${bannerIdx() === i ? "active" : ""}`}
+    />
+Implementation Method:
+  1. Locate the cat-banner-img section inside ProductsSection()
+  2. Find the Index each={bannerImgs()} img tag
+  3. Add width="280" height="180"
+Expected SEO Impact:
+  Reduces CLS contribution from category banner.
+Difficulty: 1/10
+
+--------------------------------------------------------------------------------
+Issue 11
+--------------------------------------------------------------------------------
+Priority:              HIGH
+Category:              Core Web Vitals — INP
+Issue:                 Tab switching calls setActiveTab() which triggers full
+                       re-render of product grid (8+ cards × CardImgSlider
+                       each with interval timers) synchronously
+Current Implementation:
+  In ProductsSection():
+    <button ... onClick={() => setActiveTab(cat.id)}>
+  setActiveTab() directly updates signal, triggering synchronous reactive
+  re-render of the entire product grid on the main thread.
+Recommended Fix:
+  Wrap state update in startTransition to defer non-urgent render:
+    import { startTransition } from "solid-js";
+    ...
+    onClick={() => startTransition(() => setActiveTab(cat.id))}
+Implementation Method:
+  1. Add startTransition to the solid-js import at top of file:
+     import { createSignal, onMount, onCleanup, For, Index,
+              createMemo, createEffect, startTransition } from "solid-js";
+  2. Find the prod-tab button onClick in ProductsSection()
+  3. Change: onClick={() => setActiveTab(cat.id)}
+     To:     onClick={() => startTransition(() => setActiveTab(cat.id))}
+Expected SEO Impact:
+  Improves INP score. Keeps main thread responsive during tab switch.
+Difficulty: 2/10
+
+--------------------------------------------------------------------------------
+Issue 12
+--------------------------------------------------------------------------------
+Priority:              MEDIUM
+Category:              Technical SEO — Keywords
+Issue:                 Meta keywords tag present — Google ignores it,
+                       Bing uses it as a spam signal
+Current Implementation:
+  <Meta name="keywords" content="stainless steel pipe manufacturer Vadodara,
+  SS 316L pipe stockist Gujarat, duplex steel supplier India, ..." />
+  This tag is present in the Home() return block.
+Recommended Fix:
+  Remove the keywords meta tag entirely:
+  Delete: <Meta name="keywords" content="..." />
+Implementation Method:
+  1. Find the <Meta name="keywords" .../> tag in the Home() return block
+  2. Delete the entire line
+Expected SEO Impact:
+  Removes a potential Bing spam signal. Cleans up unnecessary markup.
+Difficulty: 1/10
+
+--------------------------------------------------------------------------------
+Issue 13
+--------------------------------------------------------------------------------
+Priority:              MEDIUM
+Category:              Technical SEO — Structured Data
+Issue:                 LocalBusiness schema missing ContactPoint entries
+                       for separate sales and marketing contacts
+Current Implementation:
+  SCHEMA has telephone: "+919998280619" as a single top-level field.
+  Two contacts exist (Sunny Shah — sales, Ghewar Shah — marketing) but
+  only one number appears in schema.
+Recommended Fix:
+  Add contactPoint array to SCHEMA:
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+91-99982-80619",
+        "contactType": "sales",
+        "name": "Sunny Shah",
+        "areaServed": ["IN","AE","OM","KW","BH","SA","GB","US"],
+        "availableLanguage": ["English","Hindi","Gujarati"]
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+91-98255-06110",
+        "contactType": "customer support",
+        "name": "Ghewar Shah",
+        "areaServed": "IN"
+      }
+    ]
+Implementation Method:
+  1. Locate SCHEMA const in src/routes/index.tsx
+  2. Add the contactPoint array after the "telephone" field
+  3. Rebuild and verify via Google Rich Results Test
+Expected SEO Impact:
+  Enriched LocalBusiness entity — supports multi-contact Knowledge Panel display.
+Difficulty: 2/10
+
+--------------------------------------------------------------------------------
+Issue 14
+--------------------------------------------------------------------------------
+Priority:              MEDIUM
+Category:              Technical SEO — Structured Data
+Issue:                 WebSite schema with SearchAction missing — no
+                       sitelinks search box eligibility
+Current Implementation:
+  Two schema blocks exist: LocalBusiness and FAQPage.
+  No WebSite schema. No SearchAction. Google cannot surface a sitelinks
+  search box for this domain.
+Recommended Fix:
+  Add a third JSON-LD block below the existing two scripts:
+    const WEBSITE_SCHEMA = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Creative Metal Industries",
+      "url": "https://www.creativemetalind.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate":
+            "https://www.creativemetalind.com/products?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    });
+  Then add: <script type="application/ld+json" innerHTML={WEBSITE_SCHEMA} />
+Implementation Method:
+  1. In src/routes/index.tsx, locate SCHEMA and FAQ_SCHEMA constants
+  2. Add WEBSITE_SCHEMA const below them
+  3. Add the script tag after the existing two schema script tags in
+     the Home() return block
+Expected SEO Impact:
+  Sitelinks search box eligibility in Google SERPs for branded queries.
+Difficulty: 2/10
+
+--------------------------------------------------------------------------------
+Issue 15
+--------------------------------------------------------------------------------
+Priority:              MEDIUM
+Category:              Internal Linking
+Issue:                 Footer Materials nav — all 6 material links point to
+                       same anchor /#metals. No differentiated crawl paths.
+Current Implementation:
+  In Footer() function:
+    <li><a href="#metals">Stainless Steel</a></li>
+    <li><a href="#metals">Carbon &amp; Alloy Steel</a></li>
+    <li><a href="#metals">Duplex &amp; Super Duplex</a></li>
+    <li><a href="#metals">Inconel / Monel / Hastelloy</a></li>
+    <li><a href="#metals">Titanium &amp; Aluminium</a></li>
+    <li><a href="#metals">Copper &amp; Bronze</a></li>
+  Six links, one destination. Zero crawl differentiation.
+Recommended Fix (Phase 1 — no new pages required):
+  These links will eventually point to /materials/[grade] pages.
+  Until those pages exist, the links should at minimum carry
+  descriptive anchor text and fragment IDs that match dedicated
+  section IDs. Add unique IDs to the metals cards on the page
+  and link specifically:
+    <li><a href="/#metals-ss">Stainless Steel</a></li>
+    <li><a href="/#metals-duplex">Duplex &amp; Super Duplex</a></li>
+  Phase 2: When /materials/* pages exist, update to:
+    <li><a href="/materials/stainless-steel">Stainless Steel</a></li>
+Recommended Fix (Phase 2 — requires new pages):
+  Create /materials/stainless-steel, /materials/duplex-steel etc.
+  and update all footer links to point to those URLs.
+Implementation Method:
+  Phase 1:
+  1. Locate Footer() in src/routes/index.tsx
+  2. Update href values to unique fragment identifiers
+  3. Add matching id attributes to each service card in MetalsSection()
+Expected SEO Impact:
+  Differentiated crawl signals to material-specific content areas.
+  Phase 2 creates fully indexable material pages.
+Difficulty Phase 1: 2/10
+Difficulty Phase 2: 7/10
+
+--------------------------------------------------------------------------------
+Issue 16
+--------------------------------------------------------------------------------
+Priority:              MEDIUM
+Category:              Internal Linking
+Issue:                 Footer Products nav — all links point to /#products.
+                       No differentiated product page links.
+Current Implementation:
+  In Footer():
+    <li><a href="#products">Seamless &amp; Welded Pipes</a></li>
+    <li><a href="#products">Plates &amp; Sheets</a></li>
+    <li><a href="#products">Buttweld Fittings</a></li>
+    <li><a href="#products">Forged Fittings &amp; Flanges</a></li>
+    <li><a href="#products">Structural Steel</a></li>
+    <li><a href="#products">Special Alloys</a></li>
+    <li><a href="/products">📐 Size &amp; Weight Charts</a></li>
+  Six of seven links point to the same anchor.
+Recommended Fix:
+  Phase 1: Add unique tab-targeting fragment IDs:
+    <li><a href="/#product-tabs?tab=pipes-tubes">
+         Seamless &amp; Welded Pipes</a></li>
+  Phase 2: Build /products/pipes-tubes etc. and link to those.
+  The only correct link currently is /products — keep it.
+Implementation Method:
+  1. Find Footer() in src/routes/index.tsx
+  2. Update href values to include tab parameter or unique anchors
+Expected SEO Impact:
+  Improved crawl differentiation. Each product category gets its own
+  inbound internal link signal.
+Difficulty: 2/10
+
+--------------------------------------------------------------------------------
+Issue 17
+--------------------------------------------------------------------------------
+Priority:              MEDIUM
+Category:              E-E-A-T
+Issue:                 Testimonials CSS classes defined in app.css (.testi-*)
+                       but testimonials section is never rendered in any
+                       component — missing trust signal
+Current Implementation:
+  app.css contains extensive .testi-card, .testi-grid, .testi-stars etc.
+  styles. No component in index.tsx or any other route renders these.
+  The SERVICES, WHY_US sections exist but no testimonial data array or
+  component is implemented.
+Recommended Fix:
+  Add a TESTIMONIALS data array and Testimonials() component.
+  Insert between WhyChooseUs() and ServicesSection() in the Home() render.
+  Example data structure:
+    const TESTIMONIALS = [
+      {
+        name: "Rajesh Mehta",
+        role: "Procurement Manager",
+        company: "Reliance Industries Ltd",
+        text: "Creative Metal Industries supplied IBR-certified P91 pipes
+               within 3 days for our emergency shutdown. Quality and
+               documentation were flawless.",
+        stars: 5
+      },
+      ...
+    ];
+Implementation Method:
+  1. Add TESTIMONIALS const array in src/routes/index.tsx
+  2. Create Testimonials() function component
+  3. Add <Testimonials /> inside Home() between WhyChooseUs and Services
+  4. Use existing .testi-* CSS classes
+Expected SEO Impact:
+  E-E-A-T improvement — Google Quality Rater Guidelines weight
+  real customer testimonials as trust indicators.
+  Increases on-page content depth.
+Difficulty: 3/10
+
+--------------------------------------------------------------------------------
+Issue 18
+--------------------------------------------------------------------------------
+Priority:              MEDIUM
+Category:              Accessibility / SEO
+Issue:                 Mobile menu lacks aria-modal="true" on role="dialog"
+Current Implementation:
+  In the Nav component rendered inline in Home():
+    <div class={`mobile-menu ${menuOpen() ? "open" : ""}`} role="dialog">
+  role="dialog" without aria-modal="true" means assistive technologies
+  do not trap focus inside the overlay, which breaks accessibility
+  compliance and can affect Google Accessibility scoring.
+Recommended Fix:
+    <div
+      class={`mobile-menu ${menuOpen() ? "open" : ""}`}
+      role="dialog"
+      aria-modal="true"
+      aria-label="Navigation menu"
+    >
+Implementation Method:
+  1. Find the mobile-menu div inside the Nav() function in index.tsx
+  2. Add aria-modal="true" and confirm aria-label="Navigation menu" exists
+Expected SEO Impact:
+  Accessibility compliance — Google uses accessibility as a quality signal.
+Difficulty: 1/10
+
+--------------------------------------------------------------------------------
+Issue 19
+--------------------------------------------------------------------------------
+Priority:              MEDIUM
+Category:              On-Page SEO — Content
+Issue:                 Dead code — Pexels helper function P() is defined
+                       but never used; creates confusion and unnecessary bundle
+Current Implementation:
+  const P = (id: number) =>
+    `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?...`
+  This function is defined near the top of index.tsx but is never called
+  anywhere in the file.
+Recommended Fix:
+  Delete the P() function and its comment block.
+Implementation Method:
+  1. Find "const P = (id: number) =>" in index.tsx
+  2. Delete the 3-line block
+Expected SEO Impact:
+  Minor — clean code reduces bundle size marginally.
+Difficulty: 1/10
+
+--------------------------------------------------------------------------------
+Issue 20
+--------------------------------------------------------------------------------
+Priority:              LOW
+Category:              On-Page SEO — Content
+Issue:                 Hero stats (.hero-stats) render numbers without
+                       structured Schema context — missed Organization
+                       stats opportunity
+Current Implementation:
+  <div class="stat-item">
+    <span class="stat-num">15+</span>
+    <span class="stat-label">Years Experience</span>
+  </div>
+  These are decorative text elements with no machine-readable markup.
+Recommended Fix:
+  Wrap stats in a dedicated section with an appropriate aria-label
+  and consider adding these values to the Organization schema
+  (numberOfEmployees, foundingDate are supported schema.org fields).
+  The foundingDate "2012" is already in LocalBusiness schema.
+  Add to LocalBusiness schema:
+    "award": "500+ Projects Delivered",
+    "numberOfEmployees": { "@type": "QuantitativeValue", "value": 20 }
+  (Adjust employee count to accurate value.)
+Implementation Method:
+  1. Locate SCHEMA const in index.tsx
+  2. Add award and numberOfEmployees fields
+Expected SEO Impact:
+  Minor entity enrichment for Knowledge Graph.
+Difficulty: 1/10
+
+================================================================================
+SUMMARY FOR THIS FILE
+================================================================================
+Total Issues Found:    20
+Critical:              1   (missing canonical)
+High:                  8   (H1, title, broken schema assets, sameAs, LCP, CLS x3, INP)
+Medium:                8   (keywords tag, contactPoint, WebSite schema, 2× internal
+                            linking, testimonials, aria-modal, dead code)
+Low:                   3   (schema enrichment)
+
+Immediate Actions (can be done in under 30 minutes combined):
+  1. Add canonical tag                 — 1 line
+  2. Remove keywords meta tag          — delete 1 line
+  3. Rewrite title tag                 — edit 1 line
+  4. Rewrite H1                        — edit 2 lines
+  5. Add hero image preload to
+     entry-server.tsx                  — 1 line
+  6. Add width/height to 3 img groups  — 6 attribute additions
+
+Required Asset Creation (unblocks schema and OG):
+  - public/logo.png
+  - public/og-image.jpg
+
+================================================================================
+END OF FILE REPORT: src/routes/index.tsx
+================================================================================

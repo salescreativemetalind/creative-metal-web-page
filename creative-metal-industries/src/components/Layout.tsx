@@ -9,6 +9,7 @@ const NAV_LINKS = [
   { href: "/#industries", label: "Industries" },
   { href: "/#faq",        label: "FAQ"        },
   { href: "/blog",        label: "Blog"       },
+  { href: "/metal-trading", label: "Services"   },
   { href: "/#contact",    label: "Contact"    },
 ];
 
@@ -16,17 +17,15 @@ export function SiteNav(props: { active?: string }) {
   return (
     <nav class="nav scrolled" id="site-nav" aria-label="Main navigation">
       <div class="container nav-inner">
-        <a href="/" class="nav-logo" aria-label="Creative Metal Industries">
-          <div class="logo-icon" aria-hidden="true">
-            <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
-              <path d="M10 2L18 7V13L10 18L2 13V7L10 2Z" stroke="white" stroke-width="2" fill="none"/>
-              <path d="M10 6L14 8.5V13L10 15.5L6 13V8.5L10 6Z" fill="white"/>
-            </svg>
-          </div>
-          <div class="logo-text">
-            <strong>Creative Metal</strong>
-            <span>Industries · Vadodara</span>
-          </div>
+        <a href="/" class="nav-logo" aria-label="Creative Metal Industries — Home">
+          <img
+            src="/logo_cmi.png"
+            alt="Creative Metal Industries — SS Pipes, Plates & Fittings Manufacturer, Vadodara"
+            class="logo-img"
+            width="160"
+            height="81"
+            fetchpriority="high"
+          />
         </a>
         <ul class="nav-links">
           <For each={NAV_LINKS.filter(l => l.label !== "Home")}>{(l) => (
@@ -68,13 +67,14 @@ export function SiteFooter() {
         <div class="footer-grid">
           <div class="footer-brand">
             <a href="/" class="footer-logo nav-logo">
-              <div class="logo-icon" aria-hidden="true">
-                <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
-                  <path d="M10 2L18 7V13L10 18L2 13V7L10 2Z" stroke="white" stroke-width="2" fill="none"/>
-                  <path d="M10 6L14 8.5V13L10 15.5L6 13V8.5L10 6Z" fill="white"/>
-                </svg>
-              </div>
-              <div class="logo-text"><strong>Creative Metal</strong><span>Industries</span></div>
+              <img
+                src="/logo_cmi.png"
+                alt="Creative Metal Industries — Vadodara"
+                class="logo-img"
+                width="180"
+                height="91"
+                loading="lazy"
+              />
             </a>
             <p>Manufacturer, stockist &amp; supplier of SS, Carbon &amp; Alloy Steel Pipes, Plates, Fittings, Flanges and Exotic Alloys. Vadodara, Gujarat. Est. 2012.</p>
             <nav class="social-links" aria-label="Contact links">

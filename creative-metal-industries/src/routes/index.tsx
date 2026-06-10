@@ -316,14 +316,15 @@ function Nav() {
     <>
       <nav class={`nav ${scrolled() ? "scrolled" : ""}`} aria-label="Main navigation">
         <div class="container nav-inner">
-          <a href="/" class="nav-logo" aria-label="Creative Metal Industries">
-            <div class="logo-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
-                <path d="M10 2L18 7V13L10 18L2 13V7L10 2Z" stroke="white" stroke-width="2" fill="none"/>
-                <path d="M10 6L14 8.5V13L10 15.5L6 13V8.5L10 6Z" fill="white"/>
-              </svg>
-            </div>
-            <div class="logo-text"><strong>Creative Metal</strong><span>Industries · Vadodara</span></div>
+          <a href="/" class="nav-logo" aria-label="Creative Metal Industries — Home">
+            <img
+              src="/logo_cmi.png"
+              alt="Creative Metal Industries — SS Pipes, Plates & Fittings Manufacturer, Vadodara"
+              class="logo-img"
+              width="160"
+              height="81"
+              fetchpriority="high"
+            />
           </a>
           <ul class="nav-links">
             <For each={links}>{(l) => <li><a href={l.href}>{l.label}</a></li>}</For>
@@ -1205,13 +1206,14 @@ function Footer() {
         <div class="footer-grid">
           <div class="footer-brand">
             <a href="/" class="footer-logo nav-logo">
-              <div class="logo-icon" aria-hidden="true">
-                <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
-                  <path d="M10 2L18 7V13L10 18L2 13V7L10 2Z" stroke="white" stroke-width="2" fill="none"/>
-                  <path d="M10 6L14 8.5V13L10 15.5L6 13V8.5L10 6Z" fill="white"/>
-                </svg>
-              </div>
-              <div class="logo-text"><strong>Creative Metal</strong><span>Industries</span></div>
+              <img
+                src="/logo_cmi.png"
+                alt="Creative Metal Industries — Vadodara"
+                class="logo-img"
+                width="180"
+                height="91"
+                loading="lazy"
+              />
             </a>
             <p>Manufacturer, stockist &amp; supplier of SS, Carbon &amp; Alloy Steel Pipes, Plates, Fittings, Flanges and Exotic Alloys. Serving Oil &amp; Gas, Power &amp; Petrochemical industries since 2012.</p>
             <nav class="social-links" aria-label="Contact links">
@@ -1283,7 +1285,7 @@ const SCHEMA = JSON.stringify({
   "telephone": "+919998280619",
   "email": "creativemetalind@gmail.com",
   "foundingDate": "2012",
-  "logo": "https://www.creativemetalind.com/logo.png",
+  "logo": "https://www.creativemetalind.com/logo_cmi.png",
   "image": "https://www.creativemetalind.com/og-image.jpg",
   "priceRange": "$$",
   "areaServed": ["India","UAE","Oman","Kuwait","Bahrain","Saudi Arabia","USA","UK","Europe"],
