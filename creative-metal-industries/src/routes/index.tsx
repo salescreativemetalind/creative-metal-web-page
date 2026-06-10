@@ -1282,14 +1282,29 @@ const SCHEMA = JSON.stringify({
   "name": "Creative Metal Industries",
   "description": "Manufacturer, stockist and supplier of Stainless Steel, Duplex, Carbon & Alloy Steel Pipes, Plates, Fittings, Flanges and Exotic Alloys (Inconel, Monel, Hastelloy, Titanium) for Oil & Gas, Petrochemical and Power industries. IBR, NACE, MTC certified.",
   "url": "https://www.creativemetalind.com",
-  "telephone": "+919998280619",
+  "telephone": "+91-99982-80619",
   "email": "creativemetalind@gmail.com",
   "foundingDate": "2012",
-  "logo": "https://www.creativemetalind.com/logo_cmi.png",
-  "image": "https://www.creativemetalind.com/og-image.jpg",
-  "priceRange": "$$",
-  "areaServed": ["India","UAE","Oman","Kuwait","Bahrain","Saudi Arabia","USA","UK","Europe"],
-  "sameAs": ["https://www.creativemetalind.com"],
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.creativemetalind.com/logo_cmi.png",
+    "width": 1424,
+    "height": 720
+  },
+  "image": "https://www.creativemetalind.com/logo_cmi.png",
+  "areaServed": [
+    { "@type": "Country", "name": "India" },
+    { "@type": "Country", "name": "United Arab Emirates" },
+    { "@type": "Country", "name": "Oman" },
+    { "@type": "Country", "name": "Kuwait" },
+    { "@type": "Country", "name": "Bahrain" },
+    { "@type": "Country", "name": "Saudi Arabia" },
+    { "@type": "Country", "name": "United States" },
+    { "@type": "Country", "name": "United Kingdom" }
+  ],
+  "sameAs": [
+    "https://www.indiamart.com/creative-metal-industries-vadodara/"
+  ],
   "geo": { "@type": "GeoCoordinates", "latitude": 22.3072, "longitude": 73.1812 },
   "address": {
     "@type": "PostalAddress",
@@ -1302,23 +1317,35 @@ const SCHEMA = JSON.stringify({
   "openingHoursSpecification": [{
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-    "opens": "09:00", "closes": "19:00"
+    "opens": "09:00",
+    "closes": "19:00"
   }],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Steel & Metal Products",
-    "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "SS Seamless Pipes ASTM A312 - 304, 316L, 321" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Duplex Steel Pipes ASTM A790 - 2205, 2507" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Alloy Steel Pipes ASTM A335 P91, P22, P11" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Carbon Steel Plates SA 516 Gr.60/70 NACE HIC IBR" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "SS Buttweld Fittings ASTM A403" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "SS Flanges ASTM A182 IBR Form III-C" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Inconel 625 Pipes ASTM B444" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Hastelloy C-276 Plates ASTM B575" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Titanium Pipes ASTM B337 Grade 2" } }
-    ]
-  }
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91-99982-80619",
+      "contactType": "sales",
+      "name": "Sunny Shah",
+      "availableLanguage": ["English", "Hindi", "Gujarati"],
+      "areaServed": "IN"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91-98255-06110",
+      "contactType": "customer support",
+      "name": "Ghewar Shah",
+      "areaServed": "IN"
+    }
+  ],
+  "knowsAbout": [
+    "Stainless Steel Pipes and Tubes",
+    "Duplex Steel 2205 and Super Duplex 2507",
+    "Alloy Steel P91 P22 High Temperature Piping",
+    "Carbon Steel Plates IBR Certified",
+    "Inconel Hastelloy Monel Titanium Exotic Alloys",
+    "IBR Form III-C Certification",
+    "ASTM ASME API Steel Standards"
+  ]
 });
 
 const FAQ_SCHEMA = JSON.stringify({
@@ -1335,10 +1362,9 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function Home() {
   return (
     <>
-      <Title>Creative Metal Industries Vadodara | SS Pipes, Plates, Fittings Manufacturer &amp; Stockist</Title>
-      <Meta name="description" content="SS Pipes, Plates, Fittings & Flanges — Creative Metal Industries, Vadodara. IBR, NACE, MTC certified. Stainless, Duplex, Alloy, Carbon Steel. Call +91 99982 80619." />
-      <Meta name="keywords" content="stainless steel pipe manufacturer Vadodara, SS 316L pipe stockist Gujarat, duplex steel supplier India, inconel pipe supplier, carbon steel plate stockist, alloy steel P91 pipe, SS flanges buttweld fittings, creative metal industries" />
-      <Link rel="canonical" href="https://www.creativemetalind.com" />
+      <Title>SS Pipes &amp; Plates Manufacturer Vadodara | Creative Metal Industries</Title>
+      <Meta name="description" content="SS Pipes, Plates, Fittings &amp; Flanges — Creative Metal Industries, Vadodara. IBR, NACE, MTC certified. Stainless, Duplex, Alloy, Carbon Steel. Call +91 99982 80619." />
+      <Link rel="canonical" href="https://www.creativemetalind.com/" />
       {/* Open Graph */}
       <Meta property="og:type" content="website" />
       <Meta property="og:site_name" content="Creative Metal Industries" />

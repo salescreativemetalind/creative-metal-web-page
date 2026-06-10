@@ -62,9 +62,14 @@ const POSTS = [
 export default function BlogPage() {
   return (
     <PageLayout active="Blog">
-      <Title>Steel &amp; Alloy Technical Blog | Creative Metal Industries Vadodara</Title>
-      <Meta name="description" content="Technical guides, material comparisons and industry insights on Stainless Steel, Duplex, Alloy Steel, Inconel, Hastelloy, Titanium and more. Written by the team at Creative Metal Industries, Vadodara." />
+      <Title>Steel &amp; Alloy Technical Blog | Creative Metal Industries</Title>
+      <Meta name="description" content="Technical guides, material comparisons and industry insights on Stainless Steel, Duplex, Alloy Steel, Inconel, Hastelloy, Titanium. Written by Creative Metal Industries, Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog" />
+      <Meta property="og:type"        content="website" />
+      <Meta property="og:title"       content="Steel & Alloy Technical Blog | Creative Metal Industries" />
+      <Meta property="og:description" content="Technical guides on SS grades, duplex steel, alloy steel P91, pipe schedules, MTC reading and exotic alloys. By Creative Metal Industries, Vadodara." />
+      <Meta property="og:url"         content="https://www.creativemetalind.com/blog" />
+      <Meta property="og:image"       content="https://www.creativemetalind.com/logo_cmi.png" />
 
       <section class="page-hero">
         <div class="container">

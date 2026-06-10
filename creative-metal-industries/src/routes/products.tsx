@@ -159,8 +159,8 @@ export default function ProductsPage() {
   const [tab, setTab] = createSignal("ms-angle");
   return (
     <>
-      <Title>Steel Product Sizes & Weight Chart | Creative Metal Industries Vadodara</Title>
-      <Meta name="description" content="Complete steel product size and weight charts — MS Angle IS 808, ISMC Channel, ISMB Beam, ERW Pipe IS 1239, TMT Bars IS 1786, MS Flat/Round/Square Bar, SS Seamless Pipe ASTM A312 schedules. Creative Metal Industries, Vadodara." />
+      <Title>Steel Size &amp; Weight Charts | Creative Metal Industries</Title>
+      <Meta name="description" content="Complete steel size and weight charts — MS Angle IS 808, ISMC, ISMB, ERW Pipe IS 1239, TMT Bars IS 1786, SS Pipe ASTM A312. Creative Metal Industries, Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/products" />
 
       <header class="pt-header">

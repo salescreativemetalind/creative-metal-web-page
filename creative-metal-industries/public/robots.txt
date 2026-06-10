@@ -4,35 +4,26 @@
 #
 # Framework : SolidStart 1.0.11 + Vinxi 0.5.7 + Nitro 2.13.4
 # Renderer  : SSR (server-side rendered, Vercel preset)
-# Build tool: Vite 6.0
-# Last audit: 2026-06-05
+# Last updated: 2026-06-10
 # =============================================================
 
-
-# ── Universal crawl rules (all bots) ──────────────────────────
+# ── All crawlers ───────────────────────────────────────────────
 User-agent: *
 
-# All public content is allowed — product pages, blog, about,
-# home, and all static assets (images, CSS, JS).
+# Allow all public pages and assets (HTML, CSS, JS, images)
 Allow: /
 
-# ── API endpoints ──────────────────────────────────────────────
-# /api/enquiry is a POST-only nodemailer handler.
-# It returns JSON, has no HTML, and is not a page.
-Disallow: /api/
+# Block only POST-only API handler — not a page, returns JSON
+Disallow: /api/enquiry
 
-# ── SolidStart / Vinxi / Nitro internal paths ─────────────────
-# These paths expose build chunks, server-rendered manifests,
-# and hydration data. None are indexable HTML pages.
-# Served at runtime by Vercel from the .output directory.
-Disallow: /_build/
-Disallow: /_server/
-Disallow: /_nitro/
-Disallow: /_vinxi/
-
-# SolidStart client data fetch endpoint (JSON, not a page)
+# Block SolidStart internal data endpoint (JSON hydration, not a page)
 Disallow: /__data.json
 
+# NOTE: /_build/ /_server/ /_nitro/ /_vinxi/ are NOT blocked here.
+# Semrush flagged 35 blocked resources because blocking those
+# directory prefixes also blocks JS/CSS chunks served from them.
+# Googlebot needs JS/CSS to render SSR pages correctly.
+# Only the specific non-page endpoints above are disallowed.
 
 # ── Sitemap ────────────────────────────────────────────────────
 Sitemap: https://www.creativemetalind.com/sitemap.xml

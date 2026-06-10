@@ -1,15 +1,16 @@
-import { Title, Meta } from "@solidjs/meta";
+import { Title, Meta, Link } from "@solidjs/meta";
 import { useParams } from "@solidjs/router";
 import { PageLayout } from "../../components/Layout";
 
 const ARTICLES: Record<string, {
-  title: string; tag: string; date: string; readTime: string;
+  title: string; seoTitle: string; seoDesc: string; tag: string; date: string; readTime: string;
   intro: string; sections: { heading: string; body: string }[];
 }> = {
   "ss-304-vs-316l": {
     title: "SS 304 vs SS 316L — Which Stainless Steel Grade Should You Choose?",
-    tag: "Technical Guide", date: "May 2026", readTime: "5 min read",
-    intro: "Stainless Steel 304 and 316L are the two most widely used austenitic stainless steel grades. While they look identical and share many properties, the differences in composition make them suited for very different environments. Here is a complete comparison to help you specify the right grade.",
+    seoTitle: "SS 304 vs 316L — Which Grade to Choose? | CMI Vadodara",
+    seoDesc: "SS 304 vs SS 316L: corrosion resistance, temperature limits, cost and applications explained. Creative Metal Industries, Vadodara stocks both grades.",
+    tag: "Technical Guide", date: "May 2026", readTime: "5 min read", While they look identical and share many properties, the differences in composition make them suited for very different environments. Here is a complete comparison to help you specify the right grade.",
     sections: [
       { heading: "Chemical Composition", body: "SS 304 contains 18% chromium and 8% nickel (18/8). SS 316L adds 2–3% molybdenum to this composition, which dramatically improves resistance to pitting and crevice corrosion — especially in chloride-containing environments. The 'L' suffix in 316L means low carbon (max 0.03%), reducing the risk of sensitisation during welding." },
       { heading: "Corrosion Resistance", body: "SS 316L is significantly more resistant to chloride attack than 304. In marine environments, coastal areas, and applications involving seawater, saline solutions, or halides, 316L is the correct choice. SS 304 will pit and crevice corrode in such conditions. However, for general atmospheric exposure, food processing, and non-chloride environments, SS 304 performs excellently at a lower cost." },
@@ -21,6 +22,8 @@ const ARTICLES: Record<string, {
   },
   "how-to-read-mtc": {
     title: "How to Read a Mill Test Certificate (MTC) — A Practical Guide",
+    seoTitle: "How to Read a Mill Test Certificate (MTC) | CMI",
+    seoDesc: "Learn to read EN 10204 3.1 and 3.2 Mill Test Certificates — heat number, chemical composition, mechanical properties explained by Creative Metal Industries.",
     tag: "Buyer's Guide", date: "Apr 2026", readTime: "6 min read",
     intro: "A Mill Test Certificate (MTC) — also called a Material Test Report (MTR) — is a quality assurance document that certifies the material composition and mechanical properties of a metal product as produced by the mill. Understanding how to read one is essential for any procurement engineer or quality inspector.",
     sections: [
@@ -34,6 +37,8 @@ const ARTICLES: Record<string, {
   },
   "duplex-vs-super-duplex": {
     title: "Duplex 2205 vs Super Duplex 2507 — Understanding the Difference",
+    seoTitle: "Duplex 2205 vs Super Duplex 2507 | CMI Vadodara",
+    seoDesc: "Duplex 2205 vs Super Duplex 2507 — PREN values, chloride resistance, strength and when to specify each. Stocked at Creative Metal Industries, Vadodara.",
     tag: "Material Science", date: "Mar 2026", readTime: "7 min read",
     intro: "Duplex and Super Duplex stainless steels are dual-phase alloys containing approximately equal proportions of austenite and ferrite. This microstructure gives them roughly twice the strength of standard austenitic grades while maintaining excellent corrosion resistance. But when should you choose 2205 over 2507?",
     sections: [
@@ -54,6 +59,9 @@ export default function BlogPost() {
   if (!article) {
     return (
       <PageLayout active="Blog">
+        <Title>Article Not Found | Creative Metal Industries Blog</Title>
+        <Meta name="robots" content="noindex, follow" />
+        <Meta name="description" content="This article is not available. Browse our technical guides on stainless steel, alloy steel, duplex and exotic alloys." />
         <section class="page-hero">
           <div class="container">
             <h1>Article Not Found</h1>
@@ -66,8 +74,17 @@ export default function BlogPost() {
 
   return (
     <PageLayout active="Blog">
-      <Title>{article.title} | Creative Metal Industries</Title>
-      <Meta name="description" content={article.intro.slice(0, 160)} />
+      <Title>{article.seoTitle}</Title>
+      <Meta name="description" content={article.seoDesc} />
+      <Link rel="canonical" href={`https://www.creativemetalind.com/blog/${params.slug}`} />
+      <Meta property="og:type"        content="article" />
+      <Meta property="og:title"       content={article.seoTitle} />
+      <Meta property="og:description" content={article.seoDesc} />
+      <Meta property="og:url"         content={`https://www.creativemetalind.com/blog/${params.slug}`} />
+      <Meta property="og:image"       content="https://www.creativemetalind.com/logo_cmi.png" />
+      <Meta name="twitter:card"        content="summary_large_image" />
+      <Meta name="twitter:title"       content={article.seoTitle} />
+      <Meta name="twitter:description" content={article.seoDesc} />
 
       <section class="page-hero page-hero-sm">
         <div class="container">

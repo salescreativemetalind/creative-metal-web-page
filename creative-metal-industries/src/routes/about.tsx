@@ -7,6 +7,11 @@ export default function AboutPage() {
       <Title>About Us | Creative Metal Industries Vadodara</Title>
       <Meta name="description" content="Creative Metal Industries — established 2012, Vadodara. Manufacturer, stockist and supplier of SS, Carbon & Alloy Steel Pipes, Plates, Fittings, Flanges and Exotic Alloys. Learn about our team, facilities and certifications." />
       <Link rel="canonical" href="https://www.creativemetalind.com/about" />
+      <Meta property="og:type"        content="website" />
+      <Meta property="og:title"       content="About Us | Creative Metal Industries Vadodara" />
+      <Meta property="og:description" content="Established 2012, Vadodara. Manufacturer and stockist of SS, Carbon & Alloy Steel Pipes, Plates, Fittings, Flanges and Exotic Alloys. IBR, NACE, MTC certified." />
+      <Meta property="og:url"         content="https://www.creativemetalind.com/about" />
+      <Meta property="og:image"       content="https://www.creativemetalind.com/logo_cmi.png" />
 
       <section class="page-hero">
         <div class="container">
