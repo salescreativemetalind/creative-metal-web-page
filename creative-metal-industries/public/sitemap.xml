@@ -174,5 +174,34 @@
                    Create src/routes/terms.tsx first.
     ═══════════════════════════════════════════════════════════
   -->
+  <url>
+    <loc>https://www.creativemetalind.com/blog/p91-alloy-steel-power-plants</loc>
+    <lastmod>2026-06-10</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.creativemetalind.com/blog/astm-a312-vs-api-5l</loc>
+    <lastmod>2026-06-10</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.creativemetalind.com/blog/hastelloy-vs-inconel</loc>
+    <lastmod>2026-06-10</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.creativemetalind.com/blog/understanding-pipe-schedules</loc>
+    <lastmod>2026-06-10</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.creativemetalind.com/blog/titanium-grades-comparison</loc>
+    <lastmod>2026-06-10</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.creativemetalind.com/blog/erw-vs-seamless-pipe</loc>
+    <lastmod>2026-06-10</lastmod>
+  </url>
 
 </urlset>
