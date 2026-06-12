@@ -1,16 +1,21 @@
 SEO Rank Report — creativemetalind.com
-Generated : 2026-06-10 16:46:06
+Generated : 2026-06-12 14:17:38
 Engine    : Startpage (Google results)
-Keywords  : 51 | Depth: top 100
+Keywords  : 51 | Depth: top 1000
 ==============================================================================
 
 🏆  BRAND KEYWORDS
 ------------------------------------------------------------
-  Not found  | creative metal industries vadodara
-  Not found  | creative metal industries
-  Not found  | creative metal industries ss pipe supplier
-  Not found  | creative metal industries gujarat
-  Not found  | creativemetalind
+  #3     Page 1  Rank #3 on page  | creative metal industries vadodara
+             ↳ https://www.creativemetalind.com/about
+  #9     Page 1  Rank #9 on page  | creative metal industries
+             ↳ https://www.creativemetalind.com/about
+  #3     Page 1  Rank #3 on page  | creative metal industries ss pipe supplier
+             ↳ https://www.creativemetalind.com/
+  #3     Page 1  Rank #3 on page  | creative metal industries gujarat
+             ↳ https://www.creativemetalind.com/about
+  #1     Page 1  Rank #1 on page  | creativemetalind
+             ↳ https://www.creativemetalind.com/about
 
 🟢  HIGH CONFIDENCE — City-Level
 ------------------------------------------------------------
@@ -73,8 +78,20 @@ Keywords  : 51 | Depth: top 100
 ==============================================================================
 SUMMARY
   Total    : 51
-  Page 1   : 0
+  Page 1   : 5
   Page 2-3 : 0
   Page 4+  : 0
-  Not found: 51
+  Not found: 46
   Errors   : 0
+
+Page 1 Rankings:
+  #1    Page 1  Rank #1 on page  creativemetalind
+       ↳ https://www.creativemetalind.com/about
+  #3    Page 1  Rank #3 on page  creative metal industries vadodara
+       ↳ https://www.creativemetalind.com/about
+  #3    Page 1  Rank #3 on page  creative metal industries ss pipe supplier
+       ↳ https://www.creativemetalind.com/
+  #3    Page 1  Rank #3 on page  creative metal industries gujarat
+       ↳ https://www.creativemetalind.com/about
+  #9    Page 1  Rank #9 on page  creative metal industries
+       ↳ https://www.creativemetalind.com/about

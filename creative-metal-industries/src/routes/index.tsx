@@ -1,5 +1,5 @@
 import { Title, Meta, Link } from "@solidjs/meta";
-import { createSignal, onMount, onCleanup, For, Index, createMemo, createEffect } from "solid-js";
+import { createSignal, onMount, onCleanup, For, Index, createMemo, createEffect, Show } from "solid-js";
 
 // ─── Image path helpers ───────────────────────────────────────────────────────
 const I  = (name: string) => `/img/${name}`;      // product cards (original size)
@@ -450,6 +450,82 @@ function ProductsSection() {
   });
   const [activeTab, setActiveTab] = createSignal("pipes-tubes");
   const [selected, setSelected] = createSignal<null | typeof PRODUCT_CATEGORIES[0]["items"][0]>(null);
+  const [showReviewForm, setShowReviewForm] = createSignal(false);
+  const [reviewSubmitted, setReviewSubmitted] = createSignal(false);
+
+  // ── Per-product reviews ───────────────────────────────────
+  const [productReviews, setProductReviews] = createSignal<{
+    id: string; name: string; title: string; comment: string;
+    rating: number; approvedAt: string | null;
+  }[]>([]);
+  const [reviewsLoading, setReviewsLoading] = createSignal(false);
+
+  async function loadProductReviews(productName: string) {
+    setReviewsLoading(true);
+    setProductReviews([]);
+    try {
+      const res  = await fetch(`/api/reviews?product=${encodeURIComponent(productName)}&limit=50`);
+      const json = await res.json();
+      if (json.ok) setProductReviews(json.data.reviews);
+    } catch {}
+    setReviewsLoading(false);
+  }
+
+  function openProduct(item: typeof PRODUCT_CATEGORIES[0]["items"][0]) {
+    setSelected(item);
+    setShowReviewForm(false);
+    setReviewSubmitted(false);
+    loadProductReviews(item.name);
+  }
+
+  // ── Product review form state ─────────────────────────────
+  const [rvRating,  setRvRating]  = createSignal(0);
+  const [rvHovered, setRvHovered] = createSignal(0);
+  const [rvName,    setRvName]    = createSignal("");
+  const [rvTitle,   setRvTitle]   = createSignal("");
+  const [rvComment, setRvComment] = createSignal("");
+  const [rvStatus,  setRvStatus]  = createSignal<"idle"|"loading"|"success"|"error">("idle");
+  const [rvErr,     setRvErr]     = createSignal("");
+
+  function openReview() {
+    setRvTitle(`Review: ${selected()!.name}`);
+    setRvRating(0); setRvHovered(0); setRvName(""); setRvComment("");
+    setRvStatus("idle"); setRvErr(""); setReviewSubmitted(false);
+    setShowReviewForm(true);
+  }
+
+  async function submitReview(e: Event) {
+    e.preventDefault();
+    if (rvRating() === 0)             { setRvErr("Please select a star rating."); return; }
+    if (rvTitle().trim().length < 3)  { setRvErr("Title must be at least 3 characters."); return; }
+    if (rvComment().trim().length < 20){ setRvErr("Review must be at least 20 characters."); return; }
+    setRvStatus("loading"); setRvErr("");
+    try {
+      const res  = await fetch("/api/reviews", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name:    rvName().trim() || "Anonymous",
+          title:   rvTitle().trim(),
+          comment: rvComment().trim(),
+          rating:  rvRating(),
+          product: selected()!.name,
+          website: "",
+        }),
+      });
+      const data = await res.json();
+      if (!data.ok) { setRvStatus("error"); setRvErr(data.error || "Something went wrong."); }
+      else {
+        setRvStatus("success"); setReviewSubmitted(true);
+        // reload this product's reviews immediately
+        loadProductReviews(selected()!.name);
+        setShowReviewForm(false);
+      }
+    } catch {
+      setRvStatus("error"); setRvErr("Network error. Please try again.");
+    }
+  }
+
   const activeCategory = () => PRODUCT_CATEGORIES.find(c => c.id === activeTab())!;
 
   // Collect all images from all items in the active category
@@ -581,7 +657,7 @@ function ProductsSection() {
         <div class="prod-detail-grid" role="list">
           <For each={activeCategory().items}>{(item) => (
             <button class="prod-detail-card" role="listitem"
-              onClick={() => setSelected(item)} aria-label={`View ${item.name}`}>
+              onClick={() => openProduct(item)} aria-label={`View ${item.name}`}>
               <CardImgSlider imgs={item.imgs} name={item.name} />
               <div class="pdc-body">
                 <h4>{item.name}</h4>
@@ -618,8 +694,114 @@ function ProductsSection() {
               <div class="prod-modal-actions">
                 <a href="#contact" class="btn btn-primary" onClick={() => setSelected(null)}>Send Enquiry →</a>
                 <a href="tel:+919998280619" class="btn btn-outline">📞 Call Now</a>
+                <button
+                  class="btn btn-outline"
+                  style="border-color:var(--amber);color:var(--amber)"
+                  onClick={openReview}
+                >⭐ Write a Review</button>
               </div>
               <p class="prod-modal-cert">🏅 IBR Form III-C · MTC on all material · Export worldwide</p>
+
+              {/* ── Inline product review form ─────────────────── */}
+              <Show when={showReviewForm()}>
+                <div class="prod-review-form-wrap" id="prod-review-form">
+                  <div class="prod-review-form-header">
+                    <h4>Review: {selected()!.name}</h4>
+                    <button
+                      class="prod-review-close"
+                      onClick={() => setShowReviewForm(false)}
+                      aria-label="Close review form"
+                    >✕</button>
+                  </div>
+
+                  <Show
+                    when={!reviewSubmitted()}
+                    fallback={
+                      <div class="prod-review-success">
+                        <span>✅</span>
+                        <p><strong>Thank you!</strong> Your review has been submitted and will appear after moderation.</p>
+                        <button class="btn btn-outline" style="margin-top:0.75rem;font-size:0.82rem" onClick={() => { setReviewSubmitted(false); setShowReviewForm(false); }}>Close</button>
+                      </div>
+                    }
+                  >
+                    <form onSubmit={submitReview} noValidate>
+
+                      {/* Star rating */}
+                      <div class="prf-field">
+                        <label class="prf-label">Your Rating <span style="color:var(--rose)">*</span></label>
+                        <div class="prf-stars">
+                          {[1,2,3,4,5].map(star => (
+                            <span
+                              class="prf-star"
+                              style={{ color: (rvHovered() || rvRating()) >= star ? "#E07B00" : "#ddd" }}
+                              onClick={() => setRvRating(star)}
+                              onMouseEnter={() => setRvHovered(star)}
+                              onMouseLeave={() => setRvHovered(0)}
+                              role="radio"
+                              aria-label={`${star} star${star > 1 ? "s" : ""}`}
+                              aria-checked={rvRating() === star}
+                              tabIndex={0}
+                              onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") setRvRating(star); }}
+                            >★</span>
+                          ))}
+                          <Show when={rvRating() > 0}>
+                            <span class="prf-rating-label">
+                              {["","Poor","Fair","Good","Very Good","Excellent"][rvRating()]}
+                            </span>
+                          </Show>
+                        </div>
+                      </div>
+
+                      {/* Name */}
+                      <div class="prf-field">
+                        <label class="prf-label" for="prf-name">Your Name <span class="prf-optional">(optional)</span></label>
+                        <input id="prf-name" type="text" class="prf-input"
+                          placeholder="e.g. Procurement Manager, XYZ Ltd"
+                          maxLength={80} value={rvName()}
+                          onInput={e => setRvName(e.currentTarget.value)} />
+                      </div>
+
+                      {/* Title */}
+                      <div class="prf-field">
+                        <label class="prf-label" for="prf-title">Review Title <span style="color:var(--rose)">*</span></label>
+                        <input id="prf-title" type="text" class="prf-input"
+                          placeholder="e.g. Excellent quality, on-time delivery"
+                          maxLength={120} required
+                          value={rvTitle()} onInput={e => setRvTitle(e.currentTarget.value)} />
+                      </div>
+
+                      {/* Comment */}
+                      <div class="prf-field">
+                        <label class="prf-label" for="prf-comment">Your Review <span style="color:var(--rose)">*</span></label>
+                        <textarea id="prf-comment" class="prf-input prf-textarea" rows={4}
+                          placeholder="Share your experience with this product — quality, delivery, documentation..."
+                          maxLength={2000} required
+                          value={rvComment()} onInput={e => setRvComment(e.currentTarget.value)} />
+                        <span class="prf-char">{Math.max(0, 2000 - rvComment().length)} chars left</span>
+                      </div>
+
+                      {/* Honeypot */}
+                      <input type="text" name="website" tabIndex={-1}
+                        style={{ position: "absolute", left: "-9999px", opacity: "0" }}
+                        autocomplete="off" />
+
+                      {/* Error */}
+                      <Show when={rvErr()}>
+                        <p class="prf-error" role="alert">⚠ {rvErr()}</p>
+                      </Show>
+
+                      <div style="display:flex;gap:0.6rem;align-items:center;flex-wrap:wrap">
+                        <button type="submit" class="btn btn-primary"
+                          style="font-size:0.875rem;padding:0.6rem 1.2rem"
+                          disabled={rvStatus() === "loading"}>
+                          {rvStatus() === "loading" ? "Submitting..." : "Submit Review →"}
+                        </button>
+                        <span style="font-size:0.75rem;color:var(--muted)">Moderated before publishing</span>
+                      </div>
+                    </form>
+                  </Show>
+                </div>
+              </Show>
             </div>
           </div>
         </div>
@@ -1197,6 +1379,58 @@ function ContactForm() {
   );
 }
 
+// ─── Reviews Teaser (homepage section) ──────────────────────────────────────
+function ReviewsTeaser() {
+  const [data, setData] = createSignal<{avgRating:number;total:number;reviews:{name:string;rating:number;title:string;comment:string}[]} | null>(null);
+
+  onMount(async () => {
+    try {
+      const res  = await fetch("/api/reviews?page=1&limit=3");
+      const json = await res.json();
+      if (json.ok) setData(json.data);
+    } catch {}
+  });
+
+  return (
+    <Show when={data() && data()!.total > 0}>
+      <section style="background:var(--sky2);padding:5rem 0;border-top:1px solid var(--border)" aria-label="Customer Reviews">
+        <div class="container">
+          <div class="section-head-center" style="margin-bottom:2.5rem">
+            <span class="section-label">Verified Reviews</span>
+            <h2>What Our Customers Say</h2>
+            <div style="display:flex;align-items:center;gap:0.5rem;justify-content:center;margin-top:0.5rem">
+              <span style="font-size:1.5rem;color:#E07B00">
+                {"★".repeat(Math.round(data()!.avgRating))}
+                {"☆".repeat(5 - Math.round(data()!.avgRating))}
+              </span>
+              <strong style="font-size:1.1rem">{data()!.avgRating.toFixed(1)}</strong>
+              <span style="color:var(--muted);font-size:0.875rem">({data()!.total} verified reviews)</span>
+            </div>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem">
+            <For each={data()!.reviews.slice(0,3)}>{(r) => (
+              <article style="background:var(--white);border:1px solid var(--border);border-radius:12px;padding:1.5rem">
+                <div style="display:flex;gap:0.25rem;margin-bottom:0.75rem">
+                  <For each={[1,2,3,4,5]}>{(s) => (
+                    <span style={{ color: s <= r.rating ? "#E07B00" : "#ddd", "font-size": "1rem" }}>★</span>
+                  )}</For>
+                </div>
+                <p style="font-weight:700;font-size:0.95rem;color:var(--ink);margin-bottom:0.4rem">{r.title}</p>
+                <p style="font-size:0.875rem;color:var(--charcoal);line-height:1.65;margin:0 0 0.9rem">{r.comment.slice(0,160)}{r.comment.length>160?"…":""}</p>
+                <span style="font-size:0.8rem;color:var(--muted);font-weight:600">— {r.name}</span>
+              </article>
+            )}</For>
+          </div>
+          <div style="text-align:center;margin-top:2rem">
+            <a href="/reviews" class="btn btn-primary">Read All Reviews →</a>
+            <a href="/reviews#write" class="btn btn-outline" style="margin-left:0.75rem">Write a Review</a>
+          </div>
+        </div>
+      </section>
+    </Show>
+  );
+}
+
 // ─── Footer ───────────────────────────────────────────────────────────────────
 function Footer() {
   const year = new Date().getFullYear();
@@ -1395,6 +1629,7 @@ export default function Home() {
         <FAQSection />
         <BlogSection />
         <NewsSection />
+        <ReviewsTeaser />
         <CTABanner />
         <ContactForm />
       </main>

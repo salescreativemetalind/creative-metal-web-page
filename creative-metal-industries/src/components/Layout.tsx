@@ -6,11 +6,12 @@ const NAV_LINKS = [
   { href: "/#product-tabs",    label: "Products"   },
   { href: "/#metals",          label: "Materials"  },
   { href: "/#services",        label: "Services"   },
-  { href: "/#industries", label: "Industries" },
-  { href: "/#faq",        label: "FAQ"        },
-  { href: "/blog",        label: "Blog"       },
-  { href: "/metal-trading", label: "Services"   },
-  { href: "/#contact",    label: "Contact"    },
+  { href: "/#industries",      label: "Industries" },
+  { href: "/#faq",             label: "FAQ"        },
+  { href: "/blog",             label: "Blog"       },
+  { href: "/metal-trading",    label: "Trading"    },
+  { href: "/reviews",          label: "Reviews"    },
+  { href: "/#contact",         label: "Contact"    },
 ];
 
 export function SiteNav(props: { active?: string }) {

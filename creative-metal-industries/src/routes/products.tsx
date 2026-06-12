@@ -1,6 +1,340 @@
 import { Title, Meta, Link } from "@solidjs/meta";
-import { createSignal, For } from "solid-js";
+import { createSignal, For, Show, onMount } from "solid-js";
 import "./products.css";
+
+// ── Types ─────────────────────────────────────────────────────
+interface Review {
+  id: string;
+  name: string;
+  title: string;
+  comment: string;
+  rating: number;
+  product: string;
+  approvedAt: string | null;
+  createdAt: string;
+}
+
+// ── Stars (read-only or interactive) ──────────────────────────
+function Stars(props: {
+  rating: number;
+  size?: string;
+  interactive?: boolean;
+  onRate?: (r: number) => void;
+}) {
+  const [hovered, setHovered] = createSignal(0);
+  const sz = props.size ?? "1.1rem";
+  return (
+    <span
+      style={{ display: "inline-flex", gap: "2px" }}
+      role={props.interactive ? "radiogroup" : undefined}
+      aria-label={`${props.rating} out of 5 stars`}
+    >
+      <For each={[1, 2, 3, 4, 5]}>
+        {(star) => (
+          <span
+            style={{
+              "font-size": sz,
+              cursor: props.interactive ? "pointer" : "default",
+              color:
+                (props.interactive
+                  ? hovered() || props.rating
+                  : props.rating) >= star
+                  ? "#C96A0A"
+                  : "#d1d5db",
+              transition: "color 0.15s",
+            }}
+            onClick={props.interactive ? () => props.onRate?.(star) : undefined}
+            onMouseEnter={props.interactive ? () => setHovered(star) : undefined}
+            onMouseLeave={props.interactive ? () => setHovered(0) : undefined}
+            tabIndex={props.interactive ? 0 : -1}
+            onKeyDown={
+              props.interactive
+                ? (e) => {
+                    if (e.key === "Enter" || e.key === " ")
+                      props.onRate?.(star);
+                  }
+                : undefined
+            }
+          >
+            ★
+          </span>
+        )}
+      </For>
+    </span>
+  );
+}
+
+// ── Single review card ─────────────────────────────────────────
+function ReviewCard(props: { review: Review }) {
+  const r = props.review;
+  const date = new Date(r.approvedAt ?? r.createdAt).toLocaleDateString(
+    "en-IN",
+    { day: "numeric", month: "short", year: "numeric" }
+  );
+  return (
+    <article class="pt-review-card">
+      <div class="pt-review-header">
+        <div class="pt-review-avatar">{r.name.charAt(0).toUpperCase()}</div>
+        <div class="pt-review-meta">
+          <span class="pt-review-name">{r.name}</span>
+          <span class="pt-review-date">{date}</span>
+        </div>
+        <Stars rating={r.rating} size="1rem" />
+      </div>
+      <h4 class="pt-review-title">{r.title}</h4>
+      <p class="pt-review-comment">{r.comment}</p>
+    </article>
+  );
+}
+
+// ── Reviews section (form + list) ────────────────────────────
+function ProductReviews(props: { product: string }) {
+  // ── form fields
+  const [rating,  setRating]  = createSignal(0);
+  const [name,    setName]    = createSignal("");
+  const [title,   setTitle]   = createSignal("");
+  const [comment, setComment] = createSignal("");
+
+  // ── form state: "idle" | "loading" | "done" | "error"
+  const [formState, setFormState] = createSignal<"idle" | "loading" | "done" | "error">("idle");
+  const [formErr,   setFormErr]   = createSignal("");
+
+  // ── review list
+  const [reviews,   setReviews]   = createSignal<Review[]>([]);
+  const [listState, setListState] = createSignal<"loading" | "ready" | "error">("loading");
+
+  // ── fetch reviews from API (client-only)
+  async function loadReviews() {
+    setListState("loading");
+    try {
+      const res  = await fetch(`/api/reviews?limit=50&product=${encodeURIComponent(props.product)}`);
+      const json = await res.json();
+      if (json.ok) {
+        setReviews(json.data.reviews ?? []);
+        setListState("ready");
+      } else {
+        setListState("error");
+      }
+    } catch {
+      setListState("error");
+    }
+  }
+
+  // Only runs on the browser — avoids the SSR "Invalid URL" crash
+  onMount(loadReviews);
+
+  // ── submit a new review
+  async function submit(e: SubmitEvent) {
+    e.preventDefault();
+    if (rating() === 0)              { setFormErr("Please select a star rating."); return; }
+    if (title().trim().length < 3)   { setFormErr("Title needs at least 3 characters."); return; }
+    if (comment().trim().length < 20){ setFormErr("Review needs at least 20 characters."); return; }
+
+    setFormState("loading");
+    setFormErr("");
+
+    try {
+      const res  = await fetch("/api/reviews", {
+        method:  "POST",
+        headers: { "Content-Type": "application/json" },
+        body:    JSON.stringify({
+          name:    name().trim() || "Anonymous",
+          title:   title().trim(),
+          comment: comment().trim(),
+          rating:  rating(),
+          product: props.product,
+          website: "",          // honeypot
+        }),
+      });
+      const json = await res.json();
+      if (json.ok) {
+        setFormState("done");
+        // reload the list so the new review appears immediately
+        loadReviews();
+      } else {
+        setFormState("error");
+        setFormErr(json.error ?? "Something went wrong.");
+      }
+    } catch {
+      setFormState("error");
+      setFormErr("Network error — please try again.");
+    }
+  }
+
+  function resetForm() {
+    setRating(0); setName(""); setTitle(""); setComment("");
+    setFormState("idle"); setFormErr("");
+  }
+
+  return (
+    <div class="pt-reviews-section">
+
+      {/* ════ WRITE A REVIEW ════ */}
+      <Show
+        when={formState() !== "done"}
+        fallback={
+          /* ── Success banner ── */
+          <div class="pt-success-banner">
+            <span class="pt-success-icon">✅</span>
+            <div>
+              <strong>Review submitted!</strong>
+              <p>Your review is live — see it below.</p>
+            </div>
+            <button class="btn btn-outline pt-success-btn" onClick={resetForm}>
+              Write Another →
+            </button>
+          </div>
+        }
+      >
+        <form class="pt-review-form" onSubmit={submit} noValidate>
+          <h4 class="pt-review-form-title">Write a Review for {props.product}</h4>
+
+          {/* Rating */}
+          <div class="pt-form-row">
+            <label class="pt-form-label">
+              Your Rating <span class="pt-req">*</span>
+            </label>
+            <Stars rating={rating()} size="2rem" interactive onRate={setRating} />
+            <Show when={rating() > 0}>
+              <span class="pt-rating-word">
+                {["", "Poor", "Fair", "Good", "Very Good", "Excellent"][rating()]}
+              </span>
+            </Show>
+          </div>
+
+          {/* Name */}
+          <div class="pt-form-row">
+            <label class="pt-form-label" for={`rn-${props.product}`}>
+              Your Name{" "}
+              <span style={{ color: "var(--muted)", "font-weight": "400" }}>
+                (optional)
+              </span>
+            </label>
+            <input
+              id={`rn-${props.product}`}
+              type="text"
+              class="pt-form-input"
+              placeholder="e.g. Procurement Manager, ABC Industries"
+              maxLength={80}
+              value={name()}
+              onInput={(e) => setName(e.currentTarget.value)}
+              autocomplete="off"
+            />
+          </div>
+
+          {/* Title */}
+          <div class="pt-form-row">
+            <label class="pt-form-label" for={`rt-${props.product}`}>
+              Review Title <span class="pt-req">*</span>
+            </label>
+            <input
+              id={`rt-${props.product}`}
+              type="text"
+              class="pt-form-input"
+              placeholder="e.g. Excellent quality and fast delivery"
+              maxLength={120}
+              value={title()}
+              onInput={(e) => setTitle(e.currentTarget.value)}
+            />
+          </div>
+
+          {/* Comment */}
+          <div class="pt-form-row">
+            <label class="pt-form-label" for={`rc-${props.product}`}>
+              Your Review <span class="pt-req">*</span>
+            </label>
+            <textarea
+              id={`rc-${props.product}`}
+              class="pt-form-input pt-form-textarea"
+              rows={4}
+              placeholder="Tell us about quality, delivery, packaging…"
+              maxLength={2000}
+              value={comment()}
+              onInput={(e) => setComment(e.currentTarget.value)}
+            />
+            <span class="pt-char-count">
+              {Math.max(0, 2000 - comment().length)} characters remaining
+            </span>
+          </div>
+
+          {/* Honeypot */}
+          <input
+            type="text"
+            name="website"
+            tabIndex={-1}
+            style={{ position: "absolute", left: "-9999px", opacity: "0" }}
+            autocomplete="off"
+          />
+
+          {/* Error */}
+          <Show when={formErr()}>
+            <p class="pt-form-error" role="alert">⚠ {formErr()}</p>
+          </Show>
+
+          {/* Submit */}
+          <button
+            type="submit"
+            class="btn btn-primary"
+            disabled={formState() === "loading"}
+            style={{ "min-width": "160px" }}
+          >
+            {formState() === "loading" ? "Submitting…" : "Submit Review →"}
+          </button>
+        </form>
+      </Show>
+
+      {/* ════ REVIEW LIST ════ */}
+      <div class="pt-reviews-header">
+        <h3 class="pt-reviews-heading">
+          {reviews().length > 0
+            ? `${reviews().length} Customer Review${reviews().length !== 1 ? "s" : ""}`
+            : "Customer Reviews"}
+          <Show when={reviews().length > 0}>
+            <span class="pt-reviews-avg">
+              <Stars
+                rating={Math.round(
+                  reviews().reduce((s, r) => s + r.rating, 0) / reviews().length
+                )}
+                size="1rem"
+              />
+              <span>
+                {(
+                  reviews().reduce((s, r) => s + r.rating, 0) / reviews().length
+                ).toFixed(1)}
+              </span>
+            </span>
+          </Show>
+        </h3>
+      </div>
+
+      <Show when={listState() === "loading"}>
+        <p class="pt-reviews-loading">Loading reviews…</p>
+      </Show>
+
+      <Show when={listState() === "error"}>
+        <p class="pt-reviews-empty" style={{ color: "#991B1B" }}>
+          Could not load reviews.{" "}
+          <button class="pt-retry-btn" onClick={loadReviews}>Retry</button>
+        </p>
+      </Show>
+
+      <Show when={listState() === "ready" && reviews().length === 0}>
+        <p class="pt-reviews-empty">
+          No reviews yet — be the first to review this product!
+        </p>
+      </Show>
+
+      <Show when={reviews().length > 0}>
+        <div class="pt-reviews-list">
+          <For each={reviews()}>
+            {(review) => <ReviewCard review={review} />}
+          </For>
+        </div>
+      </Show>
+
+    </div>
+  );
+}
 
 // ─── MS Angle sizes (IS 2062 / IS 808) ─────────────────────────────────────
 const MS_ANGLE_EQUAL = [
@@ -207,6 +541,7 @@ export default function ProductsPage() {
                 </table>
               </div>
               <div class="pt-note">Unequal leg angles also available: 65×50, 75×50, 100×65, 100×75, 130×65, 150×75, 150×100, 200×100, 200×150 — contact for rates.</div>
+              <ProductReviews product="MS Angle" />
             </div>
           )}
 
@@ -230,6 +565,7 @@ export default function ProductsPage() {
                   </tbody>
                 </table>
               </div>
+              <ProductReviews product="ISMC Channel" />
             </div>
           )}
 
@@ -253,6 +589,7 @@ export default function ProductsPage() {
                   </tbody>
                 </table>
               </div>
+              <ProductReviews product="ISMB Beam" />
             </div>
           )}
 
@@ -276,6 +613,7 @@ export default function ProductsPage() {
                   </tbody>
                 </table>
               </div>
+              <ProductReviews product="ERW Pipe" />
             </div>
           )}
 
@@ -301,6 +639,7 @@ export default function ProductsPage() {
                   </tbody>
                 </table>
               </div>
+              <ProductReviews product="TMT Bars" />
             </div>
           )}
 
@@ -321,6 +660,7 @@ export default function ProductsPage() {
                   </tbody>
                 </table>
               </div>
+              <ProductReviews product="MS Flat Bar" />
             </div>
           )}
 
@@ -341,6 +681,7 @@ export default function ProductsPage() {
                   </tbody>
                 </table>
               </div>
+              <ProductReviews product="MS Round Bar" />
             </div>
           )}
 
@@ -361,6 +702,7 @@ export default function ProductsPage() {
                   </tbody>
                 </table>
               </div>
+              <ProductReviews product="MS Square Bar" />
             </div>
           )}
 
@@ -384,6 +726,7 @@ export default function ProductsPage() {
                   </tbody>
                 </table>
               </div>
+              <ProductReviews product="SS Seamless Pipe" />
             </div>
           )}
 
