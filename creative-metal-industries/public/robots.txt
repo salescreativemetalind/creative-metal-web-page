@@ -4,26 +4,23 @@
 #
 # Framework : SolidStart 1.0.11 + Vinxi 0.5.7 + Nitro 2.13.4
 # Renderer  : SSR (server-side rendered, Vercel preset)
-# Last updated: 2026-06-10
+# Last updated: 2026-06-16
 # =============================================================
 
 # ── All crawlers ───────────────────────────────────────────────
 User-agent: *
 
-# Allow all public pages and assets (HTML, CSS, JS, images)
+# Allow all public pages and assets
 Allow: /
 
-# Block only POST-only API handler — not a page, returns JSON
-Disallow: /api/enquiry
+# Block API endpoints (JSON only, not pages)
+Disallow: /api/
 
-# Block SolidStart internal data endpoint (JSON hydration, not a page)
+# Block admin panel (noindex anyway, but belt-and-suspenders)
+Disallow: /admin/
+
+# Block SolidStart internal data endpoint
 Disallow: /__data.json
-
-# NOTE: /_build/ /_server/ /_nitro/ /_vinxi/ are NOT blocked here.
-# Semrush flagged 35 blocked resources because blocking those
-# directory prefixes also blocks JS/CSS chunks served from them.
-# Googlebot needs JS/CSS to render SSR pages correctly.
-# Only the specific non-page endpoints above are disallowed.
 
 # ── Sitemap ────────────────────────────────────────────────────
 Sitemap: https://www.creativemetalind.com/sitemap.xml

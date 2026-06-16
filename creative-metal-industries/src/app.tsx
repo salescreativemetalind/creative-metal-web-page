@@ -72,7 +72,10 @@ export default function App() {
               "contactType": "sales"
             },
             "sameAs": [
-              "https://www.creativemetalind.com"
+              "https://www.creativemetalind.com",
+              "https://x.com/CreativeMetal",
+              "https://t.me/Creativemetal_Industries",
+              "https://www.indiamart.com/creative-metal-industries-vadodara/"
             ]
           })} />
 

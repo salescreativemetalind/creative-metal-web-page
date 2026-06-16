@@ -1483,6 +1483,8 @@ function Footer() {
               <a href="mailto:creativemetalind@gmail.com" class="social-link" aria-label="Email">✉</a>
               <a href="tel:+919998280619" class="social-link" aria-label="Phone">📞</a>
               <a href="https://wa.me/919998280619" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener">💬</a>
+              <a href="https://x.com/CreativeMetal" class="social-link" aria-label="X (Twitter)" target="_blank" rel="noopener">𝕏</a>
+              <a href="https://t.me/Creativemetal_Industries" class="social-link" aria-label="Telegram" target="_blank" rel="noopener">✈</a>
               <a href="https://www.creativemetalind.com" class="social-link" aria-label="Website" target="_blank" rel="noopener">🌐</a>
             </nav>
           </div>
@@ -1577,7 +1579,9 @@ const SCHEMA = JSON.stringify({
     { "@type": "Country", "name": "United Kingdom" }
   ],
   "sameAs": [
-    "https://www.indiamart.com/creative-metal-industries-vadodara/"
+    "https://www.indiamart.com/creative-metal-industries-vadodara/",
+    "https://x.com/CreativeMetal",
+    "https://t.me/Creativemetal_Industries"
   ],
   "geo": { "@type": "GeoCoordinates", "latitude": 22.3072, "longitude": 73.1812 },
   "address": {
