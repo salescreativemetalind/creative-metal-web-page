@@ -20,15 +20,29 @@ const SCHEMA = JSON.stringify({
   "mainEntity": {
     "@type": "Product",
     "name": "SA 516 Grade 60/70 Carbon Steel Plate",
+    "image": "https://www.creativemetalind.com/img/carbon-steel-plate.webp",
     "brand": {"@type": "Brand", "name": "Creative Metal Industries"},
     "manufacturer": {"@type": "Organization", "name": "SAIL, AMNS, TATA, JSW"},
     "material": "Carbon Steel SA 516 Grade 60 / Grade 70",
     "description": "ASTM SA 516 Grade 60 and Grade 70 carbon steel plates for pressure vessel, boiler, and heat exchanger fabrication. Available in thicknesses 6mm to 200mm with IBR Form III-C, NACE MR-01-75, HIC tested. Ready stock at Vadodara.",
     "offers": {
-      "@type": "Offer",
+      "@type": "AggregateOffer",
       "priceCurrency": "INR",
+      "lowPrice": "65000",
+      "highPrice": "95000",
+      "offerCount": "50",
       "availability": "https://schema.org/InStock",
-      "seller": {"@type": "Organization", "name": "Creative Metal Industries", "telephone": "+91-99982-80619"}
+      "seller": {"@type": "Organization", "name": "Creative Metal Industries", "telephone": "+91-99982-80619"},
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "IN"},
+        "deliveryTime": {"@type": "ShippingDeliveryTime", "handlingTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 3, "unitCode": "d"}, "transitTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 5, "unitCode": "d"}}
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+        "applicableCountry": "IN"
+      }
     },
     "aggregateRating": {
       "@type": "AggregateRating",
