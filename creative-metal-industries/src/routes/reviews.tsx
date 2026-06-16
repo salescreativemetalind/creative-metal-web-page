@@ -7,7 +7,7 @@
 
 import { Title, Meta, Link } from "@solidjs/meta";
 import {
-  createSignal, createResource, For, Show, onMount
+  createSignal, For, Show, onMount
 } from "solid-js";
 import { PageLayout } from "../components/Layout";
 
@@ -234,21 +234,34 @@ function RatingSummary(props: { avg: number; total: number; dist: { star: number
 // ── Main page ─────────────────────────────────────────────────
 export default function ReviewsPage() {
   const [page,      setPage]      = createSignal(1);
-  const [refresh,   setRefresh]   = createSignal(0);
   const [submitted, setSubmitted] = createSignal(false);
+  const [reviewData, setReviewData] = createSignal<ReviewsData | null>(null);
+  const [loading, setLoading] = createSignal(true);
 
-  const [data] = createResource(
-    () => [page(), refresh()] as const,
-    async ([p]) => {
-      const res = await fetch(`/api/reviews?page=${p}&limit=10`);
+  async function loadReviews() {
+    setLoading(true);
+    try {
+      const res = await fetch(`/api/reviews?page=${page()}&limit=10`);
       const json = await res.json() as { ok: boolean; data: ReviewsData };
-      return json.ok ? json.data : null;
-    }
-  );
+      if (json.ok) setReviewData(json.data);
+    } catch {}
+    setLoading(false);
+  }
+
+  // Only fetch on client — relative URLs fail on server (Vercel SSR)
+  onMount(loadReviews);
 
   function handleSubmitted() {
     setSubmitted(true);
   }
+
+  function changePage(newPage: number) {
+    setPage(newPage);
+    loadReviews();
+  }
+
+  // Alias for template compatibility
+  const data = reviewData;
 
   // JSON-LD AggregateRating schema — only when real data exists
   const schemaStr = () => {
@@ -345,7 +358,7 @@ export default function ReviewsPage() {
               </div>
 
               {/* Loading */}
-              <Show when={data.loading}>
+              <Show when={loading()}>
                 <div class="reviews-loading" role="status" aria-label="Loading reviews">
                   <div class="spinner-ring" />
                   <p>Loading reviews...</p>
@@ -353,7 +366,7 @@ export default function ReviewsPage() {
               </Show>
 
               {/* No reviews yet */}
-              <Show when={!data.loading && data() && data()!.total === 0}>
+              <Show when={!loading() && data() && data()!.total === 0}>
                 <div class="reviews-empty">
                   <span style="font-size:2.5rem">⭐</span>
                   <h3>Be the First to Review</h3>
@@ -375,13 +388,13 @@ export default function ReviewsPage() {
                     <button
                       class="btn btn-outline"
                       disabled={page() <= 1}
-                      onClick={() => setPage(p => p - 1)}
+                      onClick={() => changePage(page() - 1)}
                     >← Previous</button>
                     <span class="page-info">Page {page()} of {data()!.totalPages}</span>
                     <button
                       class="btn btn-outline"
                       disabled={page() >= data()!.totalPages}
-                      onClick={() => setPage(p => p + 1)}
+                      onClick={() => changePage(page() + 1)}
                     >Next →</button>
                   </nav>
                 </Show>
