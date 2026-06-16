@@ -1544,6 +1544,7 @@ const SCHEMA = JSON.stringify({
   "@type": "LocalBusiness",
   "name": "Creative Metal Industries",
   "alternateName": ["CMI Vadodara", "SS Pipe Supplier Vadodara", "Creative Metal Industries Vadodara"],
+  "priceRange": "₹₹₹",
   "description": "Leading SS pipe supplier in Vadodara, Gujarat. Creative Metal Industries is a manufacturer, stockist and supplier of Stainless Steel pipes (SS 304, 316L, 321, Duplex 2205), fittings, flanges and plates. IBR Form III-C, NACE, MTC certified. Ready stock at GIDC Makarpura, Vadodara — same-day dispatch.",
   "url": "https://www.creativemetalind.com",
   "telephone": "+91-99982-80619",

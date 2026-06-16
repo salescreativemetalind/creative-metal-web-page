@@ -60,8 +60,10 @@ export default function App() {
             "description": "Leading supplier of SS pipes, plates, fittings and flanges in Vadodara, Gujarat. IS / ASTM certified material.",
             "address": {
               "@type": "PostalAddress",
+              "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road",
               "addressLocality": "Vadodara",
               "addressRegion": "Gujarat",
+              "postalCode": "390001",
               "addressCountry": "IN"
             },
             "contactPoint": {
