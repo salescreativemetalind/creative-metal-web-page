@@ -1892,3 +1892,158 @@ footer nav ul li a:hover,
   transition: color 0.18s;
 }
 .modal-close:hover { color: #ef4444; }
+
+/* ── Why Buy This? — Button + Side Panel ──────────────────── */
+.prod-modal-title-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0.5rem 0 1.5rem;
+}
+.prod-modal-title-row h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  flex: 1;
+}
+.why-buy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 1rem;
+  border: 1.5px solid var(--amber);
+  border-radius: var(--radius-sm);
+  background: linear-gradient(135deg, var(--amber-l), var(--peach));
+  color: var(--amber);
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: var(--transition);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.why-buy-btn:hover {
+  background: var(--amber);
+  color: var(--white);
+  border-color: var(--amber);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(232,130,26,0.3);
+}
+
+/* Overlay */
+.why-buy-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: rgba(30,12,4,0.5);
+  backdrop-filter: blur(4px);
+  animation: wbFadeIn 0.2s ease;
+  overflow: hidden;
+  overscroll-behavior: contain;
+}
+@keyframes wbFadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* Side panel — slides in from right */
+.why-buy-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(580px, 92vw);
+  height: 100vh;
+  background: var(--white);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: -8px 0 40px rgba(30,12,4,0.2);
+  animation: wbSlideIn 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: 301;
+}
+@keyframes wbSlideIn { from { transform: translateX(100%); } to { transform: translateX(0); } }
+
+/* Block body scroll when panel is open */
+body:has(.why-buy-overlay) {
+  overflow: hidden;
+}
+
+.why-buy-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.75rem;
+  background: linear-gradient(135deg, var(--amber), var(--rose));
+  color: var(--white);
+}
+.why-buy-header h3 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 0;
+}
+.why-buy-close {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.15);
+  color: var(--white);
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+.why-buy-close:hover { background: rgba(255,255,255,0.3); }
+
+/* Content area */
+.why-buy-content {
+  padding: 2rem 1.75rem 3rem;
+  font-size: 0.92rem;
+  color: var(--charcoal);
+  line-height: 1.8;
+}
+.why-buy-content h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 2rem 0 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--amber-l);
+}
+.why-buy-content h4:first-child {
+  margin-top: 0;
+}
+.why-buy-content p {
+  margin: 0 0 1rem;
+}
+.why-buy-content ul {
+  margin: 0 0 1.25rem;
+  padding-left: 0;
+  list-style: none;
+}
+.why-buy-content ul li {
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  position: relative;
+  border-bottom: 1px solid var(--border);
+}
+.why-buy-content ul li:last-child { border-bottom: none; }
+.why-buy-content ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  color: var(--amber);
+  font-weight: 700;
+}
+.why-buy-content strong {
+  color: var(--ink);
+}
+
+@media (max-width: 640px) {
+  .why-buy-panel { width: 100vw; }
+  .why-buy-content { padding: 1.5rem 1.25rem 2rem; }
+  .prod-modal-title-row { flex-direction: column; align-items: flex-start; gap: 0.6rem; }
+}

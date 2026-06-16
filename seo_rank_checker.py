@@ -1,25 +1,3 @@
-"""
-seo_rank_checker.py  —  Creative Metal Industries SEO Rank Checker
-═══════════════════════════════════════════════════════════════════
-Checks live search rankings for creativemetalind.com across 55
-target keywords using Startpage (Google proxy, no bot blocking).
-
-Shows:
-  • Position number (e.g. #3)
-  • Page number   (e.g. Page 1)
-  • Exact URL that ranked
-  • Color-coded summary table
-
-Usage:
-    python3 seo_rank_checker.py
-
-Output:
-    Terminal table + seo_rank_report.txt
-
-Requires:
-    pip install requests beautifulsoup4
-"""
-
 import time
 import datetime
 import urllib.parse
@@ -64,32 +42,7 @@ KEYWORDS = {
 
     "🟢  HIGH CONFIDENCE — City-Level": [
         "SS pipe supplier Vadodara",
-        "stainless steel pipe manufacturer Vadodara",
-        "stainless steel supplier Vadodara Gujarat",
-        "duplex steel supplier Vadodara",
-        "alloy steel P91 pipe stockist Gujarat",
-        "IBR certified pipe supplier Gujarat",
-        "metal trading company in Vadodara",
-        "industrial metal supplier Vadodara",
-        "steel supplier Vadodara Gujarat",
-        "metal stockist Gujarat",
-        "carbon steel plate supplier Vadodara",
-        "pipe fittings flanges supplier Vadodara",
-        "ERW pipe supplier Vadodara",
-        "MS angle weight chart supplier Vadodara",
-    ],
-
-    "🟡  MEDIUM — Product + Location": [
-        "SS seamless pipe manufacturer Gujarat",
-        "duplex 2205 pipe stockist Gujarat",
-        "super duplex 2507 supplier India",
-        "alloy steel P91 P22 pipe supplier India",
-        "Inconel 625 pipe supplier India",
-        "Hastelloy C-276 supplier India",
-        "Monel 400 supplier India",
-        "Titanium pipe supplier India",
-        "boiler tube IBR Form III-C supplier India",
-        "SS 904L pipe supplier India",
+        "stainles"
         "carbon steel SA 516 plate stockist India",
         "NACE HIC steel plate supplier India",
         "TMT bars supplier Gujarat",

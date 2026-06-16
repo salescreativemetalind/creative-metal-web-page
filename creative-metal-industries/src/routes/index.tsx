@@ -445,6 +445,12 @@ function CardImgSlider(props: { imgs: string[]; name: string }) {
   );
 }
 
+// ─── Why Buy Content — SEO-rich product info panel ───────────────────────────
+import { getProductContent } from "../product-content";
+function getWhyBuyContent(productName: string): string {
+  return getProductContent(productName);
+}
+
 // ─── Products — Slideshow + tabbed categories ────────────────────────────────
 function ProductsSection() {
   const [slide, setSlide] = createSignal(0);
@@ -456,6 +462,7 @@ function ProductsSection() {
   const [selected, setSelected] = createSignal<null | typeof PRODUCT_CATEGORIES[0]["items"][0]>(null);
   const [showReviewForm, setShowReviewForm] = createSignal(false);
   const [reviewSubmitted, setReviewSubmitted] = createSignal(false);
+  const [showWhyBuy, setShowWhyBuy] = createSignal(false);
 
   // ── Per-product reviews ───────────────────────────────────
   const [productReviews, setProductReviews] = createSignal<{
@@ -689,7 +696,12 @@ function ProductsSection() {
             </div>
             <div class="prod-modal-body">
               <span class="section-label">{activeCategory().icon} {activeCategory().label}</span>
-              <h2>{selected()!.name}</h2>
+              <div class="prod-modal-title-row">
+                <h2>{selected()!.name}</h2>
+                <button class="why-buy-btn" onClick={() => { setShowWhyBuy(true); document.body.style.overflow = "hidden"; }} aria-label="Why buy this product">
+                  ℹ️ Why Buy This?
+                </button>
+              </div>
               <div class="prod-modal-specs">
                 <div class="spec-row"><span class="spec-label">Grade / Standard</span><span class="spec-val">{selected()!.grade}</span></div>
                 <div class="spec-row"><span class="spec-label">Available Make</span><span class="spec-val">{selected()!.make}</span></div>
@@ -810,6 +822,19 @@ function ProductsSection() {
           </div>
         </div>
       )}
+
+      {/* ── Why Buy This? Side Panel ── */}
+      <Show when={showWhyBuy() && selected()}>
+        <div class="why-buy-overlay" onClick={() => { setShowWhyBuy(false); document.body.style.overflow = ""; }}>
+          <div class="why-buy-panel" onClick={(e) => e.stopPropagation()}>
+            <div class="why-buy-header">
+              <h3>Why Buy {selected()!.name}?</h3>
+              <button class="why-buy-close" onClick={() => { setShowWhyBuy(false); document.body.style.overflow = ""; }} aria-label="Close">✕</button>
+            </div>
+            <div class="why-buy-content" innerHTML={getWhyBuyContent(selected()!.name)} />
+          </div>
+        </div>
+      </Show>
     </section>
   );
 }
