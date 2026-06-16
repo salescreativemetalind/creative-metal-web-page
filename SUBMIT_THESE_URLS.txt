@@ -17,29 +17,29 @@ HOW TO SUBMIT:
   SITEMAP (submit this first)
 ══════════════════════════════════════════════════════════════════════════════
 
-https://www.creativemetalind.com/sitemap.xml
+https://www.creativemetalind.com/sitemap.xml 
 
 ══════════════════════════════════════════════════════════════════════════════
   CORE PAGES (4 URLs)
 ══════════════════════════════════════════════════════════════════════════════
 
-https://www.creativemetalind.com/
-https://www.creativemetalind.com/about
-https://www.creativemetalind.com/products
-https://www.creativemetalind.com/reviews
+https://www.creativemetalind.com/ #
+https://www.creativemetalind.com/about #
+https://www.creativemetalind.com/products #
+https://www.creativemetalind.com/reviews #
 
 ══════════════════════════════════════════════════════════════════════════════
   SEO LANDING PAGES — HIGH PRIORITY (9 URLs)
 ══════════════════════════════════════════════════════════════════════════════
 
-https://www.creativemetalind.com/metal-trading
-https://www.creativemetalind.com/ss-pipe-supplier-vadodara
-https://www.creativemetalind.com/stainless-steel-supplier-vadodara
-https://www.creativemetalind.com/duplex-steel-supplier-vadodara
-https://www.creativemetalind.com/carbon-steel-pipe-fittings-vadodara
-https://www.creativemetalind.com/carbon-steel-sa516-plate-stockist-india
-https://www.creativemetalind.com/nace-hic-steel-plate-supplier-india
-https://www.creativemetalind.com/tmt-bars-supplier-gujarat
+https://www.creativemetalind.com/metal-trading #
+https://www.creativemetalind.com/ss-pipe-supplier-vadodara #
+https://www.creativemetalind.com/stainless-steel-supplier-vadodara #
+https://www.creativemetalind.com/duplex-steel-supplier-vadodara #
+https://www.creativemetalind.com/carbon-steel-pipe-fittings-vadodara #
+https://www.creativemetalind.com/carbon-steel-sa516-plate-stockist-india #
+https://www.creativemetalind.com/nace-hic-steel-plate-supplier-india #
+https://www.creativemetalind.com/tmt-bars-supplier-gujarat #
 https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india
 
 ══════════════════════════════════════════════════════════════════════════════
@@ -104,3 +104,4 @@ https://www.creativemetalind.com/blog/hastelloy-vs-inconel
 https://www.creativemetalind.com/blog/understanding-pipe-schedules
 https://www.creativemetalind.com/blog/titanium-grades-comparison
 https://www.creativemetalind.com/blog/erw-vs-seamless-pipe
+
