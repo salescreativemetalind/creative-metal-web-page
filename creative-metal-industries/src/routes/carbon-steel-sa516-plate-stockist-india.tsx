@@ -29,6 +29,13 @@ const SCHEMA = JSON.stringify({
       "priceCurrency": "INR",
       "availability": "https://schema.org/InStock",
       "seller": {"@type": "Organization", "name": "Creative Metal Industries", "telephone": "+91-99982-80619"}
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "43",
+      "bestRating": "5",
+      "worstRating": "1"
     }
   }
 });

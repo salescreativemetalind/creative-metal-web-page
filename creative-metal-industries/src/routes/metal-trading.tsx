@@ -180,11 +180,11 @@ const SERVICE_SCHEMA = JSON.stringify({
     "@type": "OfferCatalog",
     "name": "Industrial Metal Products",
     "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Stainless Steel Pipes Vadodara" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Carbon Steel Plates IBR Gujarat" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Alloy Steel P91 Pipes India" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Duplex Steel Fittings Flanges" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Inconel Hastelloy Monel Supply India" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Stainless Steel Pipes Vadodara" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Carbon Steel Plates IBR Gujarat" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Alloy Steel P91 Pipes India" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Duplex Steel Fittings Flanges" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Inconel Hastelloy Monel Supply India" } },
     ],
   },
 });
