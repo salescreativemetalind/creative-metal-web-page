@@ -75,7 +75,7 @@ export default function App() {
               "https://www.creativemetalind.com",
               "https://x.com/CreativeMetal",
               "https://t.me/Creativemetal_Industries",
-              "https://www.indiamart.com/creative-metal-industries-vadodara/"
+              "https://www.indiamart.com/creativemetalindustries/"
             ]
           })} />
 

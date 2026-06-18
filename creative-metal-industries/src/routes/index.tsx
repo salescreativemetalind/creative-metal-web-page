@@ -1495,7 +1495,7 @@ function Footer() {
               <a href="https://t.me/Creativemetal_Industries" class="social-link social-telegram" aria-label="Telegram" target="_blank" rel="noopener">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0h-.056zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
               </a>
-              <a href="https://www.indiamart.com/creative-metal-industries-vadodara/" class="social-link social-indiamart" aria-label="IndiaMART" target="_blank" rel="noopener">
+              <a href="https://www.indiamart.com/creativemetalindustries/" class="social-link social-indiamart" aria-label="IndiaMART" target="_blank" rel="noopener">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15H9V9h2v8zm4 0h-2V9h2v8z"/></svg>
               </a>
             </nav>
@@ -1591,7 +1591,7 @@ const SCHEMA = JSON.stringify({
     { "@type": "Country", "name": "United Kingdom" }
   ],
   "sameAs": [
-    "https://www.indiamart.com/creative-metal-industries-vadodara/",
+    "https://www.indiamart.com/creativemetalindustries/",
     "https://x.com/CreativeMetal",
     "https://t.me/Creativemetal_Industries"
   ],

@@ -274,7 +274,7 @@ Fix:         Replace with verified external profile URLs.
              Find the "sameAs" field in SCHEMA const and replace:
              ─────────────────────────────────────
              "sameAs": [
-               "https://www.indiamart.com/creative-metal-industries-vadodara/",
+               "https://www.indiamart.com/creativemetalindustries/",
                "https://www.linkedin.com/company/creative-metal-industries"
              ]
              ─────────────────────────────────────
