@@ -17,7 +17,7 @@ HOW TO SUBMIT:
   SITEMAP (submit this first)
 ══════════════════════════════════════════════════════════════════════════════
 
-https://www.creativemetalind.com/sitemap.xml 
+ 
 
 ══════════════════════════════════════════════════════════════════════════════
   CORE PAGES (4 URLs)
@@ -46,16 +46,16 @@ https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india #
   BLOG PAGES (10 URLs)
 ══════════════════════════════════════════════════════════════════════════════
 
-https://www.creativemetalind.com/blog
-https://www.creativemetalind.com/blog/ss-304-vs-316l
-https://www.creativemetalind.com/blog/how-to-read-mtc
-https://www.creativemetalind.com/blog/duplex-vs-super-duplex
-https://www.creativemetalind.com/blog/p91-alloy-steel-power-plants
-https://www.creativemetalind.com/blog/astm-a312-vs-api-5l
-https://www.creativemetalind.com/blog/hastelloy-vs-inconel
-https://www.creativemetalind.com/blog/understanding-pipe-schedules
-https://www.creativemetalind.com/blog/titanium-grades-comparison
-https://www.creativemetalind.com/blog/erw-vs-seamless-pipe
+https://www.creativemetalind.com/blog #
+https://www.creativemetalind.com/blog/ss-304-vs-316l #
+https://www.creativemetalind.com/blog/how-to-read-mtc #
+https://www.creativemetalind.com/blog/duplex-vs-super-duplex #
+https://www.creativemetalind.com/blog/p91-alloy-steel-power-plants #
+https://www.creativemetalind.com/blog/astm-a312-vs-api-5l #
+https://www.creativemetalind.com/blog/hastelloy-vs-inconel #
+https://www.creativemetalind.com/blog/understanding-pipe-schedules #
+https://www.creativemetalind.com/blog/titanium-grades-comparison #
+https://www.creativemetalind.com/blog/erw-vs-seamless-pipe #
 
 ══════════════════════════════════════════════════════════════════════════════
   TOTAL: 23 URLs + 1 sitemap = 24 submissions

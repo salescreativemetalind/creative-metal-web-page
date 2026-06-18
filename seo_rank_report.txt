@@ -1,5 +1,5 @@
 SEO Rank Report — creativemetalind.com
-Generated : 2026-06-17 04:42:45
+Generated : 2026-06-18 14:13:16
 Engine    : Startpage (Google results)
 Keywords  : 28 | Depth: top 1000
 ==============================================================================
@@ -11,7 +11,7 @@ Keywords  : 28 | Depth: top 1000
   #8     Page 1  Rank #8 on page  | creative metal industries
              ↳ https://www.creativemetalind.com/reviews
   #3     Page 1  Rank #3 on page  | creative metal industries ss pipe supplier
-             ↳ https://www.creativemetalind.com/
+             ↳ https://www.creativemetalind.com/metal-trading
   #4     Page 1  Rank #4 on page  | creative metal industries gujarat
              ↳ https://www.creativemetalind.com/about
   #1     Page 1  Rank #1 on page  | creativemetalind
@@ -62,7 +62,7 @@ Page 1 Rankings:
   #1    Page 1  Rank #1 on page  creativemetalind
        ↳ https://www.creativemetalind.com/about
   #3    Page 1  Rank #3 on page  creative metal industries ss pipe supplier
-       ↳ https://www.creativemetalind.com/
+       ↳ https://www.creativemetalind.com/metal-trading
   #4    Page 1  Rank #4 on page  creative metal industries vadodara
        ↳ https://www.creativemetalind.com/about
   #4    Page 1  Rank #4 on page  creative metal industries gujarat
