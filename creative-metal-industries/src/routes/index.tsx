@@ -1297,7 +1297,7 @@ function ContactForm() {
               </div>
               {/* ── Map thumbnail ── */}
               <a
-                href="https://www.google.com/maps/search/?api=1&query=Loha+Bhavan+Lakkadpitha+Road+Vadodara+Gujarat+India"
+                href="https://www.google.com/maps/place/Creative+Metal+Industries/@22.2963347,73.205524,17z/data=!4m15!1m8!3m7!1s0x395fc5f4b2f6ba95:0x19d1ff04b88ebad5!2sCreative+Metal+Industries!8m2!3d22.2964094!4d73.205506!10e5!16s%2Fg%2F11xh8nx9w!3m5!1s0x395fc5f4b2f6ba95:0x19d1ff04b88ebad5!8m2!3d22.2964094!4d73.205506!16s%2Fg%2F11xh8nx9w?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="map-thumb"
