@@ -41,7 +41,11 @@ function save(data: Review[]) {
 
 // ── token check ───────────────────────────────────────────────
 function validToken(token: string | null): boolean {
-  const expected = process.env.ADMIN_TOKEN || "Ss@9998280619";
+  const expected = process.env.ADMIN_TOKEN;
+  if (!expected) {
+    console.error("ADMIN_TOKEN environment variable not set!");
+    return false;
+  }
   return !!token && token === expected;
 }
 

@@ -3,3 +3,19 @@ node_modules/
 .vinxi/
 .env
 *.env
+.env.*
+!.env.example
+
+# Browser data (never commit)
+browser_session/
+**/Cache/
+**/Cache_Data/
+**/Default/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp

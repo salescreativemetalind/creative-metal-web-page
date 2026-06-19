@@ -1,20 +1,20 @@
 SEO Rank Report — creativemetalind.com
-Generated : 2026-06-18 14:13:16
+Generated : 2026-06-19 10:59:28
 Engine    : Startpage (Google results)
 Keywords  : 28 | Depth: top 1000
 ==============================================================================
 
 🏆  BRAND KEYWORDS
 ------------------------------------------------------------
-  #4     Page 1  Rank #4 on page  | creative metal industries vadodara
+  #3     Page 1  Rank #3 on page  | creative metal industries vadodara
              ↳ https://www.creativemetalind.com/about
-  #8     Page 1  Rank #8 on page  | creative metal industries
-             ↳ https://www.creativemetalind.com/reviews
+  #2     Page 1  Rank #2 on page  | creative metal industries
+             ↳ https://www.creativemetalind.com/
   #3     Page 1  Rank #3 on page  | creative metal industries ss pipe supplier
              ↳ https://www.creativemetalind.com/metal-trading
   #4     Page 1  Rank #4 on page  | creative metal industries gujarat
              ↳ https://www.creativemetalind.com/about
-  #1     Page 1  Rank #1 on page  | creativemetalind
+  #2     Page 1  Rank #2 on page  | creativemetalind
              ↳ https://www.creativemetalind.com/about
 
 🟢  HIGH CONFIDENCE — City-Level
@@ -59,13 +59,13 @@ SUMMARY
   Errors   : 0
 
 Page 1 Rankings:
-  #1    Page 1  Rank #1 on page  creativemetalind
+  #2    Page 1  Rank #2 on page  creative metal industries
+       ↳ https://www.creativemetalind.com/
+  #2    Page 1  Rank #2 on page  creativemetalind
+       ↳ https://www.creativemetalind.com/about
+  #3    Page 1  Rank #3 on page  creative metal industries vadodara
        ↳ https://www.creativemetalind.com/about
   #3    Page 1  Rank #3 on page  creative metal industries ss pipe supplier
        ↳ https://www.creativemetalind.com/metal-trading
-  #4    Page 1  Rank #4 on page  creative metal industries vadodara
-       ↳ https://www.creativemetalind.com/about
   #4    Page 1  Rank #4 on page  creative metal industries gujarat
        ↳ https://www.creativemetalind.com/about
-  #8    Page 1  Rank #8 on page  creative metal industries
-       ↳ https://www.creativemetalind.com/reviews
