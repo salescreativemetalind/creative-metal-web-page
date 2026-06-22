@@ -73,6 +73,30 @@ export default function TmtBarsPage() {
           ))}
         </div>
 
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>TMT Bar Buying Guide</h2>
+        <ol style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
+          <li><strong>Grade:</strong> Fe 500D for seismic zones (mandatory IS 13920); Fe 550D for high-strength slabs; Fe 600 for special structures</li>
+          <li><strong>Diameter:</strong> 8mm for stirrups, 12-16mm for slabs, 20-25mm for columns, 32mm for heavy foundations</li>
+          <li><strong>BIS Mark:</strong> Always verify ISI certification stamp on every bar — reject unmarked material</li>
+          <li><strong>Brand:</strong> Prefer primary makes (SAIL, JSW, TATA) over secondary for critical structural work</li>
+          <li><strong>Test Certificate:</strong> Ask for mill TC with chemical analysis + mechanical properties per IS 1786</li>
+          <li><strong>Delivery:</strong> Confirm weight (not number of bars) — tolerance is +/- 5% per IS standard</li>
+        </ol>
+
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Case Study — High-Rise Construction, Ahmedabad</h2>
+        <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"12px",padding:"1.5rem","margin-bottom":"2rem"}}>
+          <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.8","margin":"0 0 0.75rem"}}><strong>Project:</strong> 24-storey residential tower in Ahmedabad (Seismic Zone III). Required 450 MT Fe 500D TMT bars — 8mm to 32mm — SAIL and JSW makes, with BIS certification.</p>
+          <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.8","margin":"0 0 0.75rem"}}><strong>Challenge:</strong> Phased delivery (75 MT per month over 6 months) with consistent brand and lot traceability.</p>
+          <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.8",margin:0}}><strong>Result:</strong> All 6 deliveries completed on schedule. Same SAIL brand maintained throughout. Mill TCs provided for each lot. Zero quality complaints from contractor's lab testing.</p>
+        </div>
+
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Storage &amp; Handling of TMT Bars</h2>
+        <ul style={{"list-style":"none",padding:0,display:"flex","flex-direction":"column",gap:"0.6rem","margin-bottom":"2rem"}}>
+          {["Store off ground on raised platforms — protect from waterlogging and soil moisture","Keep different diameters separated and labelled to prevent mixing","Do not store near chemicals, fertilizers, or salt — accelerates corrosion","Stack maximum 3 bundles high to prevent bending under self-weight","Cover with tarpaulin during monsoon — surface rust doesn't affect strength but client may reject","Use within 6 months of purchase — surface quality degrades in open storage beyond this"].map(p => (
+            <li style={{display:"flex",gap:"0.6rem","font-size":"0.88rem",color:"#374151","line-height":"1.6"}}><span style={{color:"#E8821A","font-weight":"700","flex-shrink":"0"}}>•</span><span>{p}</span></li>
+          ))}
+        </ul>
+
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Related Products</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(220px,1fr))",gap:"0.75rem","margin-bottom":"2rem"}}>
           {[{href:"/ss-pipe-supplier-vadodara",label:"SS Pipe Supplier Vadodara"},{href:"/carbon-steel-sa516-plate-stockist-india",label:"SA 516 Plate Stockist"},{href:"/nace-hic-steel-plate-supplier-india",label:"NACE HIC Plate India"},{href:"/ss-304-316l-pipe-supplier-india",label:"SS 304/316L Pipe India"}].map(l => (

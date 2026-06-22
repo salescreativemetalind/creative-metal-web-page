@@ -69,6 +69,30 @@ export default function NaceHicPlatePage() {
           ))}
         </div>
 
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Buying Guide — NACE HIC Plates</h2>
+        <ol style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
+          <li><strong>Specify service condition:</strong> Sour (H₂S partial pressure &gt; 0.05 psi)? Then NACE MR-01-75 applies.</li>
+          <li><strong>Request HIC test report:</strong> Not all "NACE" plates have HIC tests. Explicitly ask for TM-0284 results with CLR/CTR/CSR values.</li>
+          <li><strong>Check sulphur level:</strong> For HIC resistance, sulphur must be ≤ 0.002% (ideally ≤ 0.001%) with calcium treatment.</li>
+          <li><strong>Normalised condition:</strong> Specify normalised delivery for uniform grain structure and better toughness.</li>
+          <li><strong>UT testing:</strong> Always specify SA 578 Level B or SA 435 Level B — ensures no lamination or inclusion bands.</li>
+          <li><strong>Hardness verification:</strong> Must be ≤ 200 HBW (≤ 22 HRC) per NACE requirements — check on MTC.</li>
+        </ol>
+
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Case Study — Offshore Gas Platform, Mumbai High</h2>
+        <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"12px",padding:"1.5rem","margin-bottom":"2rem"}}>
+          <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.8","margin":"0 0 0.75rem"}}><strong>Client:</strong> Fabricator building sour gas separators for ONGC Mumbai High platform. Required SA 516 Gr.70 HIC plates (50mm and 75mm thickness) with NACE TM-0284 + SSC (TM-0177) testing, normalised delivery, 100% UT per SA 578 Level B.</p>
+          <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.8","margin":"0 0 0.75rem"}}><strong>Challenge:</strong> Strict acceptance criteria — CLR ≤ 10%, CTR ≤ 3%, CSR ≤ 1.5% (tighter than standard TM-0284). DNV inspection at our facility.</p>
+          <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.8",margin:0}}><strong>Result:</strong> Sourced from AMNS (ArcelorMittal Nippon Steel) with all test values within client's tighter limits. DNV inspection cleared in first attempt. 12 plates (48 MT) delivered in 3 weeks.</p>
+        </div>
+
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Storage &amp; Inspection of HIC Plates</h2>
+        <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(260px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
+          {[{h:"Covered Storage",d:"HIC plates must be stored under cover — surface rusting can mask inspection markings and heat numbers. Keep away from moisture and salt-laden air."},{h:"Separate from Standard Plates",d:"Mark HIC plates clearly with paint markers. NEVER mix with standard SA 516 plates — wrong plate in sour service = catastrophic failure."},{h:"Verify Before Use",d:"Always PMI-verify heat number against MTC before cutting. Re-check hardness (portable HB tester) on any plate that has been flame-cut or heat-treated."},{h:"Preserve Test Records",d:"Keep HIC test reports (TM-0284) permanently as part of the equipment data book. Inspectors require these throughout the asset's operational life."}].map(c=>(
+            <div style={{background:"#fff8f0",border:"1px solid #fde8cc","border-radius":"10px",padding:"1.1rem"}}><h3 style={{"font-size":"0.92rem","font-weight":"700",color:"#111827","margin-bottom":"0.4rem"}}>{c.h}</h3><p style={{"font-size":"0.84rem",color:"#6b7280","line-height":"1.6",margin:0}}>{c.d}</p></div>
+          ))}
+        </div>
+
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Related Products</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(220px,1fr))",gap:"0.75rem","margin-bottom":"2rem"}}>
           {[{href:"/carbon-steel-sa516-plate-stockist-india",label:"SA 516 Plate Stockist"},{href:"/ss-pipe-supplier-vadodara",label:"SS Pipe Supplier Vadodara"},{href:"/tmt-bars-supplier-gujarat",label:"TMT Bars Gujarat"},{href:"/ss-304-316l-pipe-supplier-india",label:"SS 304/316L Pipe India"}].map(l => (

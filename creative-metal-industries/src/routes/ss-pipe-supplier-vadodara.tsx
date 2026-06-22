@@ -324,6 +324,62 @@ export default function SsPipeSupplierVadodara() {
           </div>
         </section>
 
+        {/* ══ BUYING GUIDE ══ */}
+        <section style={{ padding: "4rem 1.5rem", background: "#fff", "border-top": "1px solid #e5e7eb" }}>
+          <div style={{ "max-width": "960px", margin: "0 auto" }}>
+            <h2 style={{ "font-size": "clamp(1.4rem,3vw,2rem)", "font-weight": "800", "margin-bottom": "1rem", color: "#111827" }}>
+              SS Pipe Buying Guide for Vadodara Buyers
+            </h2>
+            <p style={{ color: "#374151", "font-size": "0.95rem", "line-height": "1.8", "margin-bottom": "1.5rem" }}>
+              Before placing your order, ensure you have these details ready. This prevents wrong material delivery and costly project delays:
+            </p>
+            <div style={{ overflow: "auto", border: "1px solid #e5e7eb", "border-radius": "10px", "margin-bottom": "2rem" }}>
+              <table style={{ width: "100%", "border-collapse": "collapse", "font-size": "0.88rem", "min-width": "500px" }}>
+                <thead><tr style={{ background: "linear-gradient(135deg,#E8821A,#d85c2a)", color: "#fff" }}><th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>What to Specify</th><th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Example</th><th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Why It Matters</th></tr></thead>
+                <tbody>
+                  {[["Grade","SS 316L (TP316L)","Wrong grade = corrosion failure in service"],["Size","2 inch (50NB) or 60.3mm OD","Ensures fit with existing piping"],["Schedule","SCH 40S / SCH 80S","Determines pressure rating"],["Type","Seamless (SMLS)","Seamless for high-pressure; welded for large diameters"],["Standard","ASTM A312","Defines testing and acceptance criteria"],["Length","6m random / 6.1m fixed","Fixed length for pre-fabricated spools"],["Certification","MTC 3.1 + IBR Form III-C","IBR mandatory for boiler piping in India"]].map((r,i) => (
+                    <tr style={{ background: i % 2 === 0 ? "#fff" : "#f9fafb" }}>
+                      <td style={{ padding: "0.6rem 1rem", "font-weight": "700", color: "#111827" }}>{r[0]}</td>
+                      <td style={{ padding: "0.6rem 1rem", color: "#374151" }}>{r[1]}</td>
+                      <td style={{ padding: "0.6rem 1rem", color: "#6b7280", "font-size": "0.82rem" }}>{r[2]}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            <h2 style={{ "font-size": "clamp(1.4rem,3vw,2rem)", "font-weight": "800", "margin-bottom": "1rem", color: "#111827" }}>
+              Case Study — GSFC Expansion Project, Vadodara
+            </h2>
+            <div style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "12px", padding: "1.5rem", "margin-bottom": "2rem" }}>
+              <p style={{ "font-size": "0.92rem", color: "#374151", "line-height": "1.8", margin: "0 0 0.75rem" }}><strong>Client:</strong> EPC contractor for GSFC (Gujarat State Fertilizers) Vadodara unit expansion. Required 800+ metres of SS 316L seamless pipe (ASTM A312, sizes 3/4" to 6", SCH 10S-80S) with NACE MR-01-75 compliance for urea plant piping.</p>
+              <p style={{ "font-size": "0.92rem", color: "#374151", "line-height": "1.8", margin: "0 0 0.75rem" }}><strong>Challenge:</strong> Tight delivery timeline (15 days) with stage-wise TPI inspection under TUV SUD at our Vadodara facility before dispatch.</p>
+              <p style={{ "font-size": "0.92rem", color: "#374151", "line-height": "1.8", margin: 0 }}><strong>Result:</strong> 100% material dispatched within 12 days. Zero rejections at TPI. MTC + NACE compliance + hardness test reports provided for every heat. Client confirmed repeat order for Phase 2.</p>
+            </div>
+
+            <h2 style={{ "font-size": "clamp(1.4rem,3vw,2rem)", "font-weight": "800", "margin-bottom": "1rem", color: "#111827" }}>
+              Storage &amp; Maintenance of SS Pipes
+            </h2>
+            <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(240px,1fr))", gap: "1rem", "margin-bottom": "2rem" }}>
+              {[{h:"Proper Storage",d:"Store on wooden/plastic supports, never directly on ground or carbon steel. Keep end caps on. Indoor storage preferred for polished/mirror finish pipe."},{h:"Avoid Contamination",d:"Never use carbon steel wire brushes, grinding discs, or chains on SS pipe. Iron particles embed in the surface and cause rust spots within days."},{h:"Post-Weld Treatment",d:"After welding, always pickle and passivate (HNO3 + HF solution or paste) to restore the protective chromium oxide layer."},{h:"Periodic Inspection",d:"For installed piping, inspect annually for pitting (especially at welds), crevice corrosion under gaskets, and stress corrosion at bends in chloride environments."}].map(c => (
+                <div style={{ background: "#fff8f0", border: "1px solid #fde8cc", "border-radius": "10px", padding: "1.1rem" }}>
+                  <h3 style={{ "font-size": "0.92rem", "font-weight": "700", color: "#111827", "margin-bottom": "0.4rem" }}>{c.h}</h3>
+                  <p style={{ "font-size": "0.84rem", color: "#6b7280", "line-height": "1.6", margin: 0 }}>{c.d}</p>
+                </div>
+              ))}
+            </div>
+
+            <h2 style={{ "font-size": "clamp(1.4rem,3vw,2rem)", "font-weight": "800", "margin-bottom": "1rem", color: "#111827" }}>
+              Related Products — Internal Links
+            </h2>
+            <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(220px,1fr))", gap: "0.75rem", "margin-bottom": "2rem" }}>
+              {[{href:"/ss-304-316l-pipe-supplier-india",label:"SS 304/316L Pipe India"},{href:"/carbon-steel-sa516-plate-stockist-india",label:"SA 516 Plate Stockist"},{href:"/nace-hic-steel-plate-supplier-india",label:"NACE HIC Plate India"},{href:"/tmt-bars-supplier-gujarat",label:"TMT Bars Gujarat"},{href:"/duplex-steel-supplier-vadodara",label:"Duplex Steel Vadodara"},{href:"/stainless-steel-supplier-vadodara",label:"Stainless Steel Vadodara"}].map(l => (
+                <a href={l.href} style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "8px", padding: "0.85rem 1rem", "font-size": "0.88rem", "font-weight": "600", color: "#E8821A", "text-decoration": "none" }}>{l.label} →</a>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* ══ CTA ══ */}
         <section style={{
           padding: "4rem 1.5rem",

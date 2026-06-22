@@ -1,0 +1,146 @@
+/**
+ * /blog/hastelloy-c276-guide
+ * Target: "Hastelloy C-276", "industrial raw material supplier Gujarat", "SS pipe fittings flanges supplier India"
+ */
+import { Title, Meta, Link } from "@solidjs/meta";
+
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Hastelloy C-276 — The Ultimate Nickel Alloy for Extreme Environments","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/hastelloy.webp","url":"https://www.creativemetalind.com/blog/hastelloy-c276-guide"});
+const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Hastelloy C-276 used for?","acceptedAnswer":{"@type":"Answer","text":"Hastelloy C-276 (UNS N10276) is used in environments that destroy virtually all other alloys — concentrated hydrochloric acid, sulphuric acid, wet chlorine gas, ferric chloride solutions, and mixed acid environments. Key industries: chemical processing (reactors, heat exchangers, piping), pharmaceutical manufacturing, FGD (flue gas desulphurisation), waste incineration, pulp & paper bleaching, and nuclear fuel reprocessing."}},{"@type":"Question","name":"What makes Hastelloy C-276 special?","acceptedAnswer":{"@type":"Answer","text":"C-276 uniquely resists BOTH oxidising AND reducing environments — most alloys can handle one or the other but not both. It contains 16% Cr (oxidation resistance) + 16% Mo + 4% W (reducing acid resistance) in a nickel matrix. It also resists localised corrosion (pitting, crevice) and chloride stress corrosion cracking. No other single alloy offers this breadth of corrosion resistance."}},{"@type":"Question","name":"How much does Hastelloy C-276 cost in India?","acceptedAnswer":{"@type":"Answer","text":"Hastelloy C-276 is a premium exotic alloy — typical pricing ranges from ₹4,000-7,000/kg depending on product form (pipe, plate, bar, fitting), size, and quantity. This is 10-15× the cost of SS 316L but justified where no other material survives. Creative Metal Industries sources from Haynes International and Special Metals at competitive import pricing."}}]});
+
+export default function HasteloyC276Guide() {
+  return (
+    <>
+      <Title>Hastelloy C-276 Guide — Properties & Applications | CMI India</Title>
+      <Meta name="description" content="Hastelloy C-276 (UNS N10276) — the ultimate nickel alloy for HCl, H₂SO₄, wet chlorine, and mixed acid environments. Composition, properties, applications, welding. Industrial raw material supplier Gujarat." />
+      <Link rel="canonical" href="https://www.creativemetalind.com/blog/hastelloy-c276-guide" />
+      <Meta property="og:title" content="Hastelloy C-276 — The Ultimate Nickel Alloy for Extreme Environments" />
+      <Meta property="og:type" content="article" />
+      <script type="application/ld+json" innerHTML={SCHEMA} />
+      <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
+
+      <nav style={{background:"#fff","border-bottom":"1px solid #e5e7eb",padding:"1rem 1.5rem",display:"flex","align-items":"center",gap:"1rem"}}>
+        <a href="/"><img src="/logo_cmi.png" alt="Creative Metal Industries" width="140" height="71" /></a>
+        <div style={{flex:1}} />
+        <a href="/blog" style={{color:"#E8821A","font-weight":"600","font-size":"0.9rem","text-decoration":"none"}}>← All Articles</a>
+      </nav>
+      <div style={{background:"#f9fafb","border-bottom":"1px solid #e5e7eb",padding:"0.6rem 1.5rem","font-size":"0.82rem",color:"#6b7280"}}>
+        <a href="/" style={{color:"#E8821A","text-decoration":"none"}}>Home</a><span style={{margin:"0 0.5rem"}}>›</span>
+        <a href="/blog" style={{color:"#E8821A","text-decoration":"none"}}>Blog</a><span style={{margin:"0 0.5rem"}}>›</span>
+        <span>Hastelloy C-276 Guide</span>
+      </div>
+
+      <main style={{"max-width":"800px",margin:"0 auto",padding:"3rem 1.5rem"}}>
+        <div style={{"margin-bottom":"2.5rem"}}>
+          <span style={{background:"#EDE9FE",color:"#5B21B6",padding:"0.25rem 0.7rem","border-radius":"99px","font-size":"0.75rem","font-weight":"700"}}>Exotic Alloy</span>
+          <span style={{color:"#9ca3af","font-size":"0.82rem","margin-left":"0.75rem"}}>June 2026 · 8 min read</span>
+          <h1 style={{"font-size":"clamp(1.8rem,4vw,2.6rem)","font-weight":"800",color:"#111827","margin":"1rem 0 1.25rem","line-height":"1.2"}}>
+            Hastelloy C-276 — The Ultimate Nickel Alloy for Extreme Environments
+          </h1>
+          <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8"}}>
+            When hydrochloric acid, sulphuric acid, wet chlorine gas, or ferric chloride solutions are involved — when stainless steel, duplex, and even titanium fail — <strong>Hastelloy C-276</strong> stands alone. This nickel-chromium-molybdenum-tungsten alloy resists the most aggressive chemical environments known to industrial processing. As an <strong>industrial raw material supplier in Gujarat</strong> and specialist in exotic alloys, Creative Metal Industries sources C-276 in pipes, plates, bars, fittings, and flanges for India's chemical, pharmaceutical, and pollution control industries.
+          </p>
+        </div>
+
+        {/* Why C-276 */}
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Why Hastelloy C-276 is Chosen for Aggressive Chemical Exposure</h2>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>Most corrosion-resistant alloys work in either oxidising OR reducing environments — but not both. SS 316L handles mild oxidising conditions. Hastelloy B-2 excels in pure reducing acids but fails if any oxidant is present. Titanium works in oxidising acids but dissolves in HCl.</p>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}><strong>Hastelloy C-276 uniquely bridges both worlds.</strong> Its combination of 16% Chromium (for oxidation resistance) + 16% Molybdenum and 4% Tungsten (for reducing acid resistance) in a 57% Nickel matrix creates an alloy that handles mixed oxidising-reducing environments, fluctuating process conditions, and contaminated acids that destroy single-purpose alloys. This versatility is why C-276 is often called the "universal" corrosion-resistant alloy.</p>
+
+        {/* Chemical Composition */}
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Chemical Composition — Hastelloy C-276</h2>
+        <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"1.5rem"}}>
+          <table style={{width:"100%","border-collapse":"collapse","font-size":"0.88rem"}}>
+            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 1rem","text-align":"left"}}>Element</th><th style={{padding:"0.7rem 1rem"}}>Content (wt%)</th><th style={{padding:"0.7rem 1rem"}}>Role in Corrosion Resistance</th></tr></thead>
+            <tbody>
+              {[["Nickel (Ni)","Balance (~57%)","Matrix — inherently resistant to chloride SCC and caustic environments"],["Chromium (Cr)","14.5–16.5%","Oxidation resistance; passive film in oxidising media"],["Molybdenum (Mo)","15.0–17.0%","Reducing acid resistance (HCl, H₂SO₄); pitting protection"],["Tungsten (W)","3.0–4.5%","Synergises with Mo for reducing acid + localised corrosion resistance"],["Iron (Fe)","4.0–7.0%","Economiser; minor role in properties"],["Cobalt (Co)","2.5% max","Residual; contributes to hot strength"],["Carbon (C)","0.010% max","Ultra-low — prevents carbide precipitation in HAZ"],["Vanadium (V)","0.35% max","Grain refinement"],["Manganese (Mn)","1.0% max","Deoxidiser"],["Silicon (Si)","0.08% max","Kept extremely low — Si promotes intermetallic precipitation"]].map((r,i) => (
+                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 1rem","font-weight":"600"}}>{r[0]}</td><td style={{padding:"0.6rem 1rem","text-align":"center"}}>{r[1]}</td><td style={{padding:"0.6rem 1rem","font-size":"0.82rem",color:"#6b7280"}}>{r[2]}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p style={{"font-size":"0.88rem",color:"#6b7280","margin-bottom":"2rem"}}>UNS: N10276 | ASTM: B574 (bar), B575 (plate), B622 (pipe), B366 (fittings) | EN: 2.4819</p>
+
+        {/* Key Properties */}
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Key Properties — What C-276 Resists</h2>
+        <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"1.5rem"}}>
+          <table style={{width:"100%","border-collapse":"collapse","font-size":"0.88rem"}}>
+            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 1rem","text-align":"left"}}>Environment</th><th style={{padding:"0.7rem 1rem"}}>C-276 Performance</th><th style={{padding:"0.7rem 1rem"}}>316L Performance</th></tr></thead>
+            <tbody>
+              {[["Hydrochloric acid (all concentrations)","Excellent to boiling","Fails immediately"],["Sulphuric acid (dilute to moderate)","Excellent","Poor"],["Wet chlorine gas","Excellent","Fails"],["Ferric chloride (FeCl₃)","Excellent — no pitting","Pits instantly"],["Phosphoric acid (contaminated)","Excellent","Moderate"],["Acetic/formic acid","Excellent","Good (clean only)"],["Sodium hypochlorite (bleach)","Excellent","Crevice corrodes"],["Mixed acids (HCl + H₂SO₄ + oxidants)","Excellent — unique capability","Impossible"],["Chloride SCC","Immune (Ni-base)","Susceptible > 60°C"],["Pitting (PREN equivalent)","~65 equivalent","~24"]].map((r,i) => (
+                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 1rem","font-weight":"600"}}>{r[0]}</td><td style={{padding:"0.6rem 1rem","text-align":"center","color":"#065F46","font-size":"0.84rem"}}>{r[1]}</td><td style={{padding:"0.6rem 1rem","text-align":"center","color":"#991B1B","font-size":"0.84rem"}}>{r[2]}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        {/* Applications */}
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Key Applications of Hastelloy C-276</h2>
+        <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(250px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
+          {[{icon:"🧪",title:"Chemical Processing",desc:"Reactors, heat exchangers, piping, and valves handling HCl, H₂SO₄, chlorinated solvents, and mixed acid streams. The go-to alloy when process conditions fluctuate."},{icon:"🏭",title:"Pollution Control (FGD)",desc:"Flue gas desulphurisation scrubbers, ducts, and dampers in coal power plants. Handles hot, acidic, chloride-laden condensate that destroys all stainless grades."},{icon:"📄",title:"Pulp & Paper",desc:"Bleach plant equipment — chlorine dioxide generators, washers, piping exposed to hypochlorite and ClO₂. Critical where 316L and even titanium have failed."},{icon:"💊",title:"Pharmaceutical",desc:"Reactors and piping for synthesis involving HCl, bromides, and aggressive organic/inorganic acid combinations. Process purity + corrosion resistance."},{icon:"♻️",title:"Waste Treatment",desc:"Incineration off-gas scrubbers, hazardous waste processing, landfill leachate handling. Unknown/variable chemistry demands C-276's universal resistance."},{icon:"⚡",title:"Nuclear",desc:"Fuel reprocessing, reactor components, spent fuel handling. Resists both nitric acid (oxidising) and reducing conditions encountered in nuclear service."}].map(app => (
+            <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.25rem"}}>
+              <span style={{"font-size":"1.5rem"}}>{app.icon}</span>
+              <h3 style={{"font-size":"0.95rem","font-weight":"700",color:"#111827",margin:"0.5rem 0 0.3rem"}}>{app.title}</h3>
+              <p style={{"font-size":"0.84rem",color:"#6b7280","line-height":"1.6",margin:0}}>{app.desc}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* Fabrication & Welding */}
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Fabrication and Welding Guidelines</h2>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>Hastelloy C-276 is weldable by TIG (GTAW), MIG (GMAW), and MMA (SMAW) using matching filler ERNiCrMo-4 (AWS A5.14) or ENiCrMo-4 electrode. Key considerations:</p>
+        <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
+          <li><strong>Low heat input:</strong> Minimise to prevent segregation of Mo and W — which creates intermetallic precipitation zones susceptible to preferential corrosion</li>
+          <li><strong>No preheat:</strong> C-276 should never be preheated. Interpass temperature maximum 93°C (200°F)</li>
+          <li><strong>Stringer beads only:</strong> No weaving — rapid cooling is critical. Fast travel speed, low amperage</li>
+          <li><strong>Full back purge:</strong> Argon back purge mandatory to prevent oxidation on root side — even slight oxide discolouration reduces corrosion resistance</li>
+          <li><strong>Clean surfaces:</strong> Remove all contaminants — grease, oil, marking paint, oxide — within 25mm of the weld joint. Use dedicated stainless/nickel alloy tools</li>
+          <li><strong>No PWHT required:</strong> C-276 does not sensitise (ultra-low carbon 0.01% max eliminates carbide risk). Solution anneal only if intermetallics formed during prior hot working</li>
+          <li><strong>Machining:</strong> Work-hardens rapidly. Use sharp carbide tools, low speed, heavy cuts. Do not allow tool to rub — will work-harden surface and make subsequent passes nearly impossible</li>
+        </ul>
+
+        {/* Why CMI */}
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Why Source Hastelloy C-276 from Creative Metal Industries?</h2>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>Exotic alloys require specialised sourcing. As a well-established <strong>industrial raw material supplier in Gujarat</strong> with global import channels, Creative Metal Industries supplies C-276 with full traceability and competitive pricing:</p>
+        <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
+          <li><strong>Mill sources:</strong> Haynes International (USA — the original Hastelloy manufacturer), Special Metals (USA), VDM Metals (Germany), ThyssenKrupp (Germany)</li>
+          <li><strong>Product range:</strong> Seamless pipes (ASTM B622), plates/sheets (B575), bars (B574), fittings (B366), flanges, fasteners — complete project supply</li>
+          <li><strong>Matching filler metals:</strong> ERNiCrMo-4 TIG wire + ENiCrMo-4 electrodes stocked alongside parent material</li>
+          <li><strong>Full certification:</strong> MTC 3.1/3.2 with chemical analysis, mechanical properties, intergranular corrosion test (ASTM G28 Method A), PMI verification</li>
+          <li><strong>Cut-to-size:</strong> Plasma/waterjet cutting for plates, pipe cutting to length — minimising your exotic alloy wastage</li>
+          <li><strong>Also supplying:</strong> Complete plant material packages — combining C-276 with <a href="/ss-pipe-supplier-vadodara" style={{color:"#E8821A"}}>SS pipes</a>, <a href="/carbon-steel-pipe-fittings-vadodara" style={{color:"#E8821A"}}>CS fittings</a>, flanges, and gaskets as a one-stop <strong>SS pipe fittings flanges supplier in India</strong></li>
+        </ul>
+
+        {/* FAQ */}
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Frequently Asked Questions — Hastelloy C-276</h2>
+        <div style={{display:"flex","flex-direction":"column",gap:"0.75rem","margin-bottom":"3rem"}}>
+          {[{q:"What is Hastelloy C-276 used for?",a:"C-276 is used where virtually all other alloys fail: concentrated HCl, H₂SO₄, wet chlorine gas, FeCl₃ etch, mixed acid environments. Industries: chemical processing, FGD scrubbers, pulp & paper bleaching, pharmaceutical, waste incineration, nuclear fuel reprocessing."},{q:"What makes Hastelloy C-276 special?",a:"It uniquely resists BOTH oxidising AND reducing environments simultaneously. 16% Cr handles oxidising conditions while 16% Mo + 4% W handles reducing acids — all in a 57% Ni matrix immune to chloride SCC. No other single alloy offers this universal corrosion resistance."},{q:"How much does Hastelloy C-276 cost in India?",a:"₹4,000-7,000/kg depending on product form and size — approximately 10-15× the cost of 316L. Justified only where no cheaper material survives. Creative Metal Industries sources from Haynes and Special Metals at competitive import pricing. Contact for current rates."}].map(f => (
+            <details style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1rem 1.25rem"}}><summary style={{"font-weight":"700","font-size":"0.92rem",color:"#111827",cursor:"pointer"}}>{f.q}</summary><p style={{"font-size":"0.88rem",color:"#374151","line-height":"1.7","margin-top":"0.6rem","margin-bottom":0}}>{f.a}</p></details>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <div style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)","border-radius":"12px",padding:"2rem","text-align":"center","margin-bottom":"2rem"}}>
+          <h2 style={{color:"#fff","font-size":"1.3rem","font-weight":"800","margin-bottom":"0.6rem"}}>Need Hastelloy C-276?</h2>
+          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.25rem","font-size":"0.92rem"}}>Haynes & Special Metals sourcing. Pipes, plates, bars, fittings. Full MTC + corrosion test reports.</p>
+          <div style={{display:"flex",gap:"1rem","justify-content":"center","flex-wrap":"wrap"}}>
+            <a href="tel:+919998280619" style={{background:"#fff",color:"#E8821A","font-weight":"800",padding:"0.7rem 1.5rem","border-radius":"8px","text-decoration":"none","font-size":"0.92rem"}}>📞 +91 99982 80619</a>
+            <a href="https://wa.me/919998280619" target="_blank" rel="noopener" style={{background:"#25D366",color:"#fff","font-weight":"800",padding:"0.7rem 1.5rem","border-radius":"8px","text-decoration":"none","font-size":"0.92rem"}}>💬 WhatsApp</a>
+            <a href="/#contact" style={{background:"rgba(255,255,255,0.15)",color:"#fff",border:"2px solid rgba(255,255,255,0.5)","font-weight":"700",padding:"0.7rem 1.5rem","border-radius":"8px","text-decoration":"none","font-size":"0.92rem"}}>Send Enquiry →</a>
+          </div>
+        </div>
+
+        <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Related Articles & Products</h3>
+        <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
+          {[{href:"/blog/inconel-625-guide",label:"Inconel 625 Guide"},{href:"/blog/super-duplex-2507-guide",label:"Super Duplex 2507"},{href:"/blog/ss-316l-stainless-steel-guide",label:"SS 316L Guide"},{href:"/nace-hic-steel-plate-supplier-india",label:"NACE HIC Plate India"},{href:"/ss-pipe-supplier-vadodara",label:"SS Pipe Supplier Vadodara"}].map(l => (
+            <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
+          ))}
+        </div>
+      </main>
+
+      <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>
+        <p><strong style={{color:"#fff"}}>Creative Metal Industries</strong> — Hastelloy C-276 Supplier India | Industrial Raw Material Supplier Gujarat</p>
+        <p><a href="tel:+919998280619" style={{color:"#E8821A"}}>+91 99982 80619</a> | <a href="https://www.creativemetalind.com" style={{color:"#E8821A"}}>creativemetalind.com</a></p>
+      </footer>
+    </>
+  );
+}

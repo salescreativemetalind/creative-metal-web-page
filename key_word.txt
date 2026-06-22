@@ -1,0 +1,43 @@
+KEYWORDS = {
+
+    "🏆  BRAND KEYWORDS": [
+        "creative metal industries vadodara",
+        "creative metal industries",
+        "creative metal industries ss pipe supplier",
+        "creative metal industries gujarat",
+        "creativemetalind",
+    ],
+
+    "🟢  HIGH CONFIDENCE — City-Level": [
+        "SS pipe supplier Vadodara",
+        "stainles"
+        "carbon steel SA 516 plate stockist India",
+        "NACE HIC steel plate supplier India",
+        "TMT bars supplier Gujarat",
+        "SS 304 316L pipe supplier India",
+    ],
+
+    "📚  BLOG / TECHNICAL": [
+        "SS 304 vs 316L stainless steel",
+        "duplex 2205 vs super duplex 2507",
+        "how to read mill test certificate",
+        "P91 alloy steel power plant pipe",
+        "ASTM A312 vs API 5L pipe",
+        "Hastelloy C-276 vs Inconel 625",
+        "pipe schedule SCH 40 80 160 chart",
+        "ERW vs seamless pipe difference India",
+        "titanium grade 2 vs grade 5 India",
+        "MS angle ISMC weight chart India",
+    ],
+
+    "🔵  BROAD COMMERCIAL": [
+        "stainless steel pipe manufacturer India",
+        "industrial metal supplier India",
+        "steel trading company Gujarat",
+        "SS pipe fittings flanges supplier India",
+        "metal importer exporter India",
+        "industrial raw material supplier Gujarat",
+        "engineering material supplier India",
+        "steel stockist Vadodara",
+    ],
+}
