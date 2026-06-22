@@ -147,6 +147,7 @@ export default function StainlessSteelSupplierVadodara() {
   return (
     <>
       <Title>Stainless Steel Supplier Vadodara | SS Pipe Manufacturer Gujarat | Creative Metal Industries</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Top stainless steel supplier in Vadodara Gujarat — Creative Metal Industries. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges. IBR, NACE, MTC certified. GIDC Makarpura Vadodara. Call +91 99982 80619." />
       <Meta name="keywords" content="stainless steel supplier Vadodara, stainless steel pipe manufacturer Vadodara, stainless steel supplier Vadodara Gujarat, SS 304 supplier Vadodara, SS 316L supplier Gujarat, duplex steel supplier Vadodara" />
       <Link rel="canonical" href="https://www.creativemetalind.com/stainless-steel-supplier-vadodara" />
@@ -154,6 +155,10 @@ export default function StainlessSteelSupplierVadodara() {
       <Meta property="og:description" content="Top stainless steel supplier in Vadodara Gujarat. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges. IBR, NACE, MTC certified. Call +91 99982 80619." />
       <Meta property="og:url" content="https://www.creativemetalind.com/stainless-steel-supplier-vadodara" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Stainless Steel Supplier Vadodara | SS Pipe Manufacturer Gujarat | Creative Metal Industries" />
+      <Meta name="twitter:description" content="Top stainless steel supplier in Vadodara Gujarat — Creative Metal Industries. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges. IBR, NACE, MTC certified. GIDC Makarpura Vadodara. Call +91 99982 80619." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

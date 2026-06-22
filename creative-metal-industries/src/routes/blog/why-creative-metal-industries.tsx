@@ -11,10 +11,15 @@ export default function WhyCMI() {
   return (
     <>
       <Title>Why Creative Metal Industries — Gujarat's Steel Trading Company | Vadodara</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Why Gujarat's industries choose Creative Metal Industries Vadodara — 15+ years, 1092 sq.mtr stock yard, SS/CS/alloy/exotic metals, IBR/MTC certified. Steel trading company Gujarat. Steel stockist Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/why-creative-metal-industries" />
       <Meta property="og:title" content="Why Creative Metal Industries is Gujarat's Preferred Steel Supplier" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Why Creative Metal Industries — Gujarat's Steel Trading Company | Vadodara" />
+      <Meta name="twitter:description" content="Why Gujarat's industries choose Creative Metal Industries Vadodara — 15+ years, 1092 sq.mtr stock yard, SS/CS/alloy/exotic metals, IBR/MTC certified. Steel trading company Gujarat. Steel stockist Vadodara." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

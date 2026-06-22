@@ -37,12 +37,17 @@ export default function ErwVsSeamlessPipe() {
   return (
     <>
       <Title>ERW vs Seamless Pipe — Complete Comparison | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="ERW vs seamless pipe — manufacturing difference, strength, pressure rating, cost, standards (IS 1239, ASTM A106, API 5L), and when to use each. Expert guide from Creative Metal Industries." />
       <Meta name="keywords" content="ERW vs seamless pipe, ERW pipe vs seamless pipe difference, ERW vs seamless pipe India, electric resistance welded pipe, seamless pipe ASTM A106, IS 1239 ERW pipe" />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/erw-vs-seamless-pipe" />
       <Meta property="og:title" content="ERW vs Seamless Pipe — Which Should You Choose?" />
       <Meta property="og:description" content="Complete technical comparison for Indian buyers — manufacturing, pressure, cost, standards, applications." />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="ERW vs Seamless Pipe — Complete Comparison | CMI India" />
+      <Meta name="twitter:description" content="ERW vs seamless pipe — manufacturing difference, strength, pressure rating, cost, standards (IS 1239, ASTM A106, API 5L), and when to use each. Expert guide from Creative Metal Industries." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

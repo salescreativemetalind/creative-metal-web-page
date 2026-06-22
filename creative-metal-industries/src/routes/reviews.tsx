@@ -298,8 +298,20 @@ export default function ReviewsPage() {
   return (
     <PageLayout active="">
       <Title>Customer Reviews | Creative Metal Industries Vadodara</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Read verified customer reviews for Creative Metal Industries, Vadodara — SS pipes, plates, fittings and flanges supplier. Share your experience." />
       <Link rel="canonical" href="https://www.creativemetalind.com/reviews" />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:site_name" content="Creative Metal Industries" />
+      <Meta property="og:title" content="Customer Reviews | Creative Metal Industries Vadodara" />
+      <Meta property="og:description" content="Read verified customer reviews for Creative Metal Industries, Vadodara — SS pipes, plates, fittings and flanges supplier. Share your experience." />
+      <Meta property="og:url" content="https://www.creativemetalind.com/reviews" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
+      <Meta property="og:locale" content="en_IN" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Customer Reviews | Creative Metal Industries Vadodara" />
+      <Meta name="twitter:description" content="Read verified customer reviews for Creative Metal Industries, Vadodara — SS pipes, plates, fittings and flanges supplier. Share your experience." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Show when={schemaStr()}>
         <script type="application/ld+json" innerHTML={schemaStr()} />
       </Show>

@@ -11,10 +11,15 @@ export default function HasteloyC276Guide() {
   return (
     <>
       <Title>Hastelloy C-276 Guide — Properties & Applications | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Hastelloy C-276 (UNS N10276) — the ultimate nickel alloy for HCl, H₂SO₄, wet chlorine, and mixed acid environments. Composition, properties, applications, welding. Industrial raw material supplier Gujarat." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/hastelloy-c276-guide" />
       <Meta property="og:title" content="Hastelloy C-276 — The Ultimate Nickel Alloy for Extreme Environments" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Hastelloy C-276 Guide — Properties & Applications | CMI India" />
+      <Meta name="twitter:description" content="Hastelloy C-276 (UNS N10276) — the ultimate nickel alloy for HCl, H₂SO₄, wet chlorine, and mixed acid environments. Composition, properties, applications, welding. Industrial raw material supplier Gujarat." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

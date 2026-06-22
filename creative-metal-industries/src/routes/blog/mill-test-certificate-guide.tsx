@@ -11,10 +11,15 @@ export default function MtcGuide() {
   return (
     <>
       <Title>How to Read a Mill Test Certificate (MTC) — Guide | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to reading Mill Test Certificates — EN 10204 3.1 vs 3.2, heat numbers, chemical composition, mechanical properties, impact tests. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/mill-test-certificate-guide" />
       <Meta property="og:title" content="How to Read a Mill Test Certificate (MTC) — Complete Guide" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="How to Read a Mill Test Certificate (MTC) — Guide | CMI India" />
+      <Meta name="twitter:description" content="Complete guide to reading Mill Test Certificates — EN 10204 3.1 vs 3.2, heat numbers, chemical composition, mechanical properties, impact tests. Creative Metal Industries Vadodara." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

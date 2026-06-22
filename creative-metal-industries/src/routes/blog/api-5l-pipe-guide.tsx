@@ -11,10 +11,15 @@ export default function Api5LGuide() {
   return (
     <>
       <Title>API 5L Pipe Guide — Grades, PSL1 vs PSL2 | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="API 5L line pipe — PSL1 vs PSL2, grades X42 to X80, chemical/mechanical requirements, pipeline applications. Metal importer exporter India. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/api-5l-pipe-guide" />
       <Meta property="og:title" content="API 5L Pipe — The Global Standard for Oil & Gas Transport" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="API 5L Pipe Guide — Grades, PSL1 vs PSL2 | CMI India" />
+      <Meta name="twitter:description" content="API 5L line pipe — PSL1 vs PSL2, grades X42 to X80, chemical/mechanical requirements, pipeline applications. Metal importer exporter India. Creative Metal Industries." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

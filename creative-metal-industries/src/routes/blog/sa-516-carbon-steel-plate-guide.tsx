@@ -11,10 +11,15 @@ export default function SA516PlateGuide() {
   return (
     <>
       <Title>SA 516 Carbon Steel Plate Guide — Grades 60, 65, 70 | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to SA 516 carbon steel plate — Gr.60/65/70, chemical composition, mechanical properties, pressure vessel applications, NACE HIC testing. Carbon steel SA 516 plate stockist India." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/sa-516-carbon-steel-plate-guide" />
       <Meta property="og:title" content="SA 516 Carbon Steel Plate — The Pressure Vessel Standard" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="SA 516 Carbon Steel Plate Guide — Grades 60, 65, 70 | CMI India" />
+      <Meta name="twitter:description" content="Complete guide to SA 516 carbon steel plate — Gr.60/65/70, chemical composition, mechanical properties, pressure vessel applications, NACE HIC testing. Carbon steel SA 516 plate stockist India." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

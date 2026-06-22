@@ -204,6 +204,7 @@ export default function MetalTradingPage() {
     <PageLayout active="">
       {/* ── SEO Meta ─────────────────────────────────────────── */}
       <Title>Metal Trading Company in Vadodara | Creative Metal Industries</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta
         name="description"
         content="Creative Metal Industries — trusted metal trading company in Vadodara since 2012. Ready stock of SS, Carbon & Alloy Steel Pipes, Plates, Fittings, Flanges. PAN India delivery. Call +91 99982 80619."

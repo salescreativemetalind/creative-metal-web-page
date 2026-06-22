@@ -11,10 +11,15 @@ export default function SuperDuplex2507Guide() {
   return (
     <>
       <Title>Super Duplex 2507 Guide — Properties & Applications | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Super Duplex 2507 (UNS S32750) — PREN 42 for seawater and offshore. Chemical composition, 550 MPa yield strength, subsea applications. Metal importer exporter India. CMI Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/super-duplex-2507-guide" />
       <Meta property="og:title" content="Super Duplex 2507 — The Oil & Gas Industry's Preferred Alloy" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Super Duplex 2507 Guide — Properties & Applications | CMI India" />
+      <Meta name="twitter:description" content="Super Duplex 2507 (UNS S32750) — PREN 42 for seawater and offshore. Chemical composition, 550 MPa yield strength, subsea applications. Metal importer exporter India. CMI Vadodara." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

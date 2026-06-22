@@ -1,0 +1,484 @@
+{
+  "_Layout-DYqt9dym.js": {
+    "file": "assets/Layout-DYqt9dym.js",
+    "name": "Layout",
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "_index-9adShzYb.js": {
+    "file": "assets/index-9adShzYb.js",
+    "name": "index"
+  },
+  "_routing-DXTL0qX2.js": {
+    "file": "assets/routing-DXTL0qX2.js",
+    "name": "routing",
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/about.tsx?pick=default&pick=$css": {
+    "file": "assets/about-BNWipgCs.js",
+    "name": "about",
+    "src": "src/routes/about.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js",
+      "_Layout-DYqt9dym.js"
+    ]
+  },
+  "src/routes/admin/reviews.tsx?pick=default&pick=$css": {
+    "file": "assets/reviews-3dS_Wg8t.js",
+    "name": "reviews",
+    "src": "src/routes/admin/reviews.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/[slug].tsx?pick=default&pick=$css": {
+    "file": "assets/_slug_-BnMqaqfx.js",
+    "name": "_slug_",
+    "src": "src/routes/blog/[slug].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js",
+      "_Layout-DYqt9dym.js",
+      "_routing-DXTL0qX2.js"
+    ]
+  },
+  "src/routes/blog/api-5l-pipe-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/api-5l-pipe-guide-BeEN1yfc.js",
+    "name": "api-5l-pipe-guide",
+    "src": "src/routes/blog/api-5l-pipe-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/astm-a312-pipe-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/astm-a312-pipe-guide-C-Up28lE.js",
+    "name": "astm-a312-pipe-guide",
+    "src": "src/routes/blog/astm-a312-pipe-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/carbon-steel-pipe-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/carbon-steel-pipe-guide-BmJwH3QU.js",
+    "name": "carbon-steel-pipe-guide",
+    "src": "src/routes/blog/carbon-steel-pipe-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/duplex-2205-steel-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/duplex-2205-steel-guide-kFvA-A6N.js",
+    "name": "duplex-2205-steel-guide",
+    "src": "src/routes/blog/duplex-2205-steel-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/erw-vs-seamless-pipe.tsx?pick=default&pick=$css": {
+    "file": "assets/erw-vs-seamless-pipe-DwBWmeEA.js",
+    "name": "erw-vs-seamless-pipe",
+    "src": "src/routes/blog/erw-vs-seamless-pipe.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/exotic-alloy-plate-sheet-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/exotic-alloy-plate-sheet-guide-DbD2hcal.js",
+    "name": "exotic-alloy-plate-sheet-guide",
+    "src": "src/routes/blog/exotic-alloy-plate-sheet-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/hastelloy-c276-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/hastelloy-c276-guide-WIMXg4SY.js",
+    "name": "hastelloy-c276-guide",
+    "src": "src/routes/blog/hastelloy-c276-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/inconel-625-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/inconel-625-guide-Idzj5HI1.js",
+    "name": "inconel-625-guide",
+    "src": "src/routes/blog/inconel-625-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-D8V-nhjZ.js",
+    "name": "index",
+    "src": "src/routes/blog/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js",
+      "_Layout-DYqt9dym.js"
+    ]
+  },
+  "src/routes/blog/industrial-raw-material-supplier-india.tsx?pick=default&pick=$css": {
+    "file": "assets/industrial-raw-material-supplier-india-tMa8dxpV.js",
+    "name": "industrial-raw-material-supplier-india",
+    "src": "src/routes/blog/industrial-raw-material-supplier-india.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/mill-test-certificate-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/mill-test-certificate-guide-CDqyGFJm.js",
+    "name": "mill-test-certificate-guide",
+    "src": "src/routes/blog/mill-test-certificate-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/ms-structural-steel-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/ms-structural-steel-guide-CgfmX2-g.js",
+    "name": "ms-structural-steel-guide",
+    "src": "src/routes/blog/ms-structural-steel-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/nace-hic-steel-plates-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/nace-hic-steel-plates-guide-DPd2S-v0.js",
+    "name": "nace-hic-steel-plates-guide",
+    "src": "src/routes/blog/nace-hic-steel-plates-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/p91-alloy-steel-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/p91-alloy-steel-guide-Bxk87r6R.js",
+    "name": "p91-alloy-steel-guide",
+    "src": "src/routes/blog/p91-alloy-steel-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/pipe-schedule-chart.tsx?pick=default&pick=$css": {
+    "file": "assets/pipe-schedule-chart-zZLkLHtG.js",
+    "name": "pipe-schedule-chart",
+    "src": "src/routes/blog/pipe-schedule-chart.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/sa-516-carbon-steel-plate-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/sa-516-carbon-steel-plate-guide-O5gVryJ7.js",
+    "name": "sa-516-carbon-steel-plate-guide",
+    "src": "src/routes/blog/sa-516-carbon-steel-plate-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/ss-304-stainless-steel-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/ss-304-stainless-steel-guide-BEJtwORB.js",
+    "name": "ss-304-stainless-steel-guide",
+    "src": "src/routes/blog/ss-304-stainless-steel-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/ss-316l-stainless-steel-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/ss-316l-stainless-steel-guide-CLEvenKI.js",
+    "name": "ss-316l-stainless-steel-guide",
+    "src": "src/routes/blog/ss-316l-stainless-steel-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/ss-long-products-fittings-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/ss-long-products-fittings-guide-BcpuZ9yP.js",
+    "name": "ss-long-products-fittings-guide",
+    "src": "src/routes/blog/ss-long-products-fittings-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/ss-pipe-fittings-flanges-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/ss-pipe-fittings-flanges-guide-B14Pfq6K.js",
+    "name": "ss-pipe-fittings-flanges-guide",
+    "src": "src/routes/blog/ss-pipe-fittings-flanges-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/ss-sheet-plate-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/ss-sheet-plate-guide-XhvD-qot.js",
+    "name": "ss-sheet-plate-guide",
+    "src": "src/routes/blog/ss-sheet-plate-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/super-duplex-2507-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/super-duplex-2507-guide-BVSUkDSQ.js",
+    "name": "super-duplex-2507-guide",
+    "src": "src/routes/blog/super-duplex-2507-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/titanium-grade-2-vs-grade-5.tsx?pick=default&pick=$css": {
+    "file": "assets/titanium-grade-2-vs-grade-5-Cx-5-TUk.js",
+    "name": "titanium-grade-2-vs-grade-5",
+    "src": "src/routes/blog/titanium-grade-2-vs-grade-5.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/tmt-bars-guide.tsx?pick=default&pick=$css": {
+    "file": "assets/tmt-bars-guide-Bhoz-8js.js",
+    "name": "tmt-bars-guide",
+    "src": "src/routes/blog/tmt-bars-guide.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/blog/why-creative-metal-industries.tsx?pick=default&pick=$css": {
+    "file": "assets/why-creative-metal-industries-CEDoTXzy.js",
+    "name": "why-creative-metal-industries",
+    "src": "src/routes/blog/why-creative-metal-industries.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/carbon-steel-pipe-fittings-vadodara.tsx?pick=default&pick=$css": {
+    "file": "assets/carbon-steel-pipe-fittings-vadodara-_qLH89Kk.js",
+    "name": "carbon-steel-pipe-fittings-vadodara",
+    "src": "src/routes/carbon-steel-pipe-fittings-vadodara.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/carbon-steel-sa516-plate-stockist-india.tsx?pick=default&pick=$css": {
+    "file": "assets/carbon-steel-sa516-plate-stockist-india-1KNxdoee.js",
+    "name": "carbon-steel-sa516-plate-stockist-india",
+    "src": "src/routes/carbon-steel-sa516-plate-stockist-india.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/duplex-steel-supplier-vadodara.tsx?pick=default&pick=$css": {
+    "file": "assets/duplex-steel-supplier-vadodara-CHgJ_xns.js",
+    "name": "duplex-steel-supplier-vadodara",
+    "src": "src/routes/duplex-steel-supplier-vadodara.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-DfUpUxyK.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/metal-trading.tsx?pick=default&pick=$css": {
+    "file": "assets/metal-trading-CPXZjgQa.js",
+    "name": "metal-trading",
+    "src": "src/routes/metal-trading.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js",
+      "_Layout-DYqt9dym.js"
+    ]
+  },
+  "src/routes/nace-hic-steel-plate-supplier-india.tsx?pick=default&pick=$css": {
+    "file": "assets/nace-hic-steel-plate-supplier-india-GFSfM8ap.js",
+    "name": "nace-hic-steel-plate-supplier-india",
+    "src": "src/routes/nace-hic-steel-plate-supplier-india.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/products.tsx?pick=default&pick=$css": {
+    "file": "assets/products-DWNDrNGP.js",
+    "name": "products",
+    "src": "src/routes/products.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ],
+    "css": [
+      "assets/products-BK58XF_v.css"
+    ]
+  },
+  "src/routes/reviews.tsx?pick=default&pick=$css": {
+    "file": "assets/reviews-Db69753p.js",
+    "name": "reviews",
+    "src": "src/routes/reviews.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js",
+      "_Layout-DYqt9dym.js"
+    ]
+  },
+  "src/routes/ss-304-316l-pipe-supplier-india.tsx?pick=default&pick=$css": {
+    "file": "assets/ss-304-316l-pipe-supplier-india-ClqB7X4L.js",
+    "name": "ss-304-316l-pipe-supplier-india",
+    "src": "src/routes/ss-304-316l-pipe-supplier-india.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/ss-pipe-supplier-vadodara.tsx?pick=default&pick=$css": {
+    "file": "assets/ss-pipe-supplier-vadodara-BsNex98r.js",
+    "name": "ss-pipe-supplier-vadodara",
+    "src": "src/routes/ss-pipe-supplier-vadodara.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/stainless-steel-supplier-vadodara.tsx?pick=default&pick=$css": {
+    "file": "assets/stainless-steel-supplier-vadodara-BS2FMESA.js",
+    "name": "stainless-steel-supplier-vadodara",
+    "src": "src/routes/stainless-steel-supplier-vadodara.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "src/routes/tmt-bars-supplier-gujarat.tsx?pick=default&pick=$css": {
+    "file": "assets/tmt-bars-supplier-gujarat-67LgcsgC.js",
+    "name": "tmt-bars-supplier-gujarat",
+    "src": "src/routes/tmt-bars-supplier-gujarat.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-9adShzYb.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-emghbd8J.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_index-9adShzYb.js",
+      "_routing-DXTL0qX2.js"
+    ],
+    "dynamicImports": [
+      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/admin/reviews.tsx?pick=default&pick=$css",
+      "src/routes/blog/[slug].tsx?pick=default&pick=$css",
+      "src/routes/blog/api-5l-pipe-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/astm-a312-pipe-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/carbon-steel-pipe-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/duplex-2205-steel-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/erw-vs-seamless-pipe.tsx?pick=default&pick=$css",
+      "src/routes/blog/exotic-alloy-plate-sheet-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/hastelloy-c276-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/inconel-625-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/index.tsx?pick=default&pick=$css",
+      "src/routes/blog/industrial-raw-material-supplier-india.tsx?pick=default&pick=$css",
+      "src/routes/blog/mill-test-certificate-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/ms-structural-steel-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/nace-hic-steel-plates-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/p91-alloy-steel-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/pipe-schedule-chart.tsx?pick=default&pick=$css",
+      "src/routes/blog/sa-516-carbon-steel-plate-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/ss-304-stainless-steel-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/ss-316l-stainless-steel-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/ss-long-products-fittings-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/ss-pipe-fittings-flanges-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/ss-sheet-plate-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/super-duplex-2507-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/titanium-grade-2-vs-grade-5.tsx?pick=default&pick=$css",
+      "src/routes/blog/tmt-bars-guide.tsx?pick=default&pick=$css",
+      "src/routes/blog/why-creative-metal-industries.tsx?pick=default&pick=$css",
+      "src/routes/carbon-steel-pipe-fittings-vadodara.tsx?pick=default&pick=$css",
+      "src/routes/carbon-steel-sa516-plate-stockist-india.tsx?pick=default&pick=$css",
+      "src/routes/duplex-steel-supplier-vadodara.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/metal-trading.tsx?pick=default&pick=$css",
+      "src/routes/nace-hic-steel-plate-supplier-india.tsx?pick=default&pick=$css",
+      "src/routes/products.tsx?pick=default&pick=$css",
+      "src/routes/reviews.tsx?pick=default&pick=$css",
+      "src/routes/ss-304-316l-pipe-supplier-india.tsx?pick=default&pick=$css",
+      "src/routes/ss-pipe-supplier-vadodara.tsx?pick=default&pick=$css",
+      "src/routes/stainless-steel-supplier-vadodara.tsx?pick=default&pick=$css",
+      "src/routes/tmt-bars-supplier-gujarat.tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/client-ilLKa3JV.css"
+    ]
+  }
+}

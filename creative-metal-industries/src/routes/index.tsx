@@ -1790,6 +1790,7 @@ export default function Home() {
   return (
     <>
       <Title>SS Pipe Supplier Vadodara | SS Pipes, Plates &amp; Fittings | Creative Metal Industries</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Leading SS pipe supplier in Vadodara — Creative Metal Industries stocks SS 304, 316L, Duplex 2205 seamless &amp; welded pipes, fittings, flanges &amp; plates. IBR, NACE, MTC certified. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/" />
       {/* Open Graph */}

@@ -11,10 +11,15 @@ export default function AstmA312Guide() {
   return (
     <>
       <Title>ASTM A312 Pipe Guide — Grades, Schedules & Specs | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete ASTM A312 guide — TP304, 316L grades, schedules, chemical composition, mechanical properties, testing requirements. SS pipe supplier Vadodara. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/astm-a312-pipe-guide" />
       <Meta property="og:title" content="Understanding ASTM A312 Pipe Specifications — Complete Guide" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="ASTM A312 Pipe Guide — Grades, Schedules & Specs | CMI India" />
+      <Meta name="twitter:description" content="Complete ASTM A312 guide — TP304, 316L grades, schedules, chemical composition, mechanical properties, testing requirements. SS pipe supplier Vadodara. Creative Metal Industries." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

@@ -11,10 +11,15 @@ export default function TmtBarsGuide() {
   return (
     <>
       <Title>TMT Bars Guide — Grades, Properties & Supplier Gujarat | CMI</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete TMT bars guide — thermo-mechanical treatment process, Fe 500/500D/550D grades explained, quality parameters, weight chart. TMT bars supplier Gujarat. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/tmt-bars-guide" />
       <Meta property="og:title" content="TMT Bars — The Backbone of Gujarat's Infrastructure" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="TMT Bars Guide — Grades, Properties & Supplier Gujarat | CMI" />
+      <Meta name="twitter:description" content="Complete TMT bars guide — thermo-mechanical treatment process, Fe 500/500D/550D grades explained, quality parameters, weight chart. TMT bars supplier Gujarat. Creative Metal Industries Vadodara." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

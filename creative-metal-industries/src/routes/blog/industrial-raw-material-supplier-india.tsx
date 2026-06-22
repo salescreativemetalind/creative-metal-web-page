@@ -11,10 +11,15 @@ export default function IndustrialRawMaterialGuide() {
   return (
     <>
       <Title>Industrial Raw Material Supplier India — Role in Growth | CMI</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="How industrial raw material suppliers drive India's growth — infrastructure, manufacturing, import/export, quality assurance. Engineering material supplier India. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/industrial-raw-material-supplier-india" />
       <Meta property="og:title" content="Industrial Raw Material Suppliers — India's Growth Engine" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Industrial Raw Material Supplier India — Role in Growth | CMI" />
+      <Meta name="twitter:description" content="How industrial raw material suppliers drive India's growth — infrastructure, manufacturing, import/export, quality assurance. Engineering material supplier India. Creative Metal Industries Vadodara." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

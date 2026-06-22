@@ -11,10 +11,15 @@ export default function P91AlloyGuide() {
   return (
     <>
       <Title>P91 Alloy Steel Guide — Power Plant Piping Standard | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="P91 alloy steel (9Cr-1Mo-V-Nb) — creep properties, PWHT requirements, welding challenges, IBR compliance. The critical grade for ultra-supercritical power plants. Engineering material supplier India." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/p91-alloy-steel-guide" />
       <Meta property="og:title" content="P91 Alloy Steel — The Power Plant Piping Standard" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="P91 Alloy Steel Guide — Power Plant Piping Standard | CMI India" />
+      <Meta name="twitter:description" content="P91 alloy steel (9Cr-1Mo-V-Nb) — creep properties, PWHT requirements, welding challenges, IBR compliance. The critical grade for ultra-supercritical power plants. Engineering material supplier India." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

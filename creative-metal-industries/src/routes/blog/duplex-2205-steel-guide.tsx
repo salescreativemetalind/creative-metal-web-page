@@ -11,10 +11,15 @@ export default function Duplex2205Guide() {
   return (
     <>
       <Title>Duplex 2205 Steel Guide — Properties & Applications | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to Duplex 2205 (UNS S31803) — dual-phase structure, 2× strength of 316L, PREN 35, chloride SCC resistance. Industrial metal supplier India. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/duplex-2205-steel-guide" />
       <Meta property="og:title" content="Duplex 2205 — Why This Super Steel Outperforms Standard Grades" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Duplex 2205 Steel Guide — Properties & Applications | CMI India" />
+      <Meta name="twitter:description" content="Complete guide to Duplex 2205 (UNS S31803) — dual-phase structure, 2× strength of 316L, PREN 35, chloride SCC resistance. Industrial metal supplier India. Creative Metal Industries Vadodara." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

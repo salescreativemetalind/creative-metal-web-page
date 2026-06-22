@@ -1,0 +1,26 @@
+# =============================================================
+# robots.txt — Creative Metal Industries
+# https://www.creativemetalind.com
+#
+# Framework : SolidStart 1.0.11 + Vinxi 0.5.7 + Nitro 2.13.4
+# Renderer  : SSR (server-side rendered, Vercel preset)
+# Last updated: 2026-06-16
+# =============================================================
+
+# ── All crawlers ───────────────────────────────────────────────
+User-agent: *
+
+# Allow all public pages and assets
+Allow: /
+
+# Block API endpoints (JSON only, not pages)
+Disallow: /api/
+
+# Block admin panel (noindex anyway, but belt-and-suspenders)
+Disallow: /admin/
+
+# Block SolidStart internal data endpoint
+Disallow: /__data.json
+
+# ── Sitemap ────────────────────────────────────────────────────
+Sitemap: https://www.creativemetalind.com/sitemap.xml

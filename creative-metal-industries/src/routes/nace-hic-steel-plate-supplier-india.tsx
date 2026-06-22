@@ -11,11 +11,16 @@ export default function NaceHicPlatePage() {
   return (
     <>
       <Title>NACE HIC Steel Plate Supplier India | Sour Service | CMI</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="India's trusted NACE HIC steel plate supplier. SA 516 Gr.70, SA 387 plates — NACE MR-01-75, HIC per TM-0284, SSC tested. Sour service certified. Call +91 99982 80619." />
       <Meta name="keywords" content="NACE HIC steel plate supplier India, NACE MR-01-75 plate, HIC tested plate India, sour service plate supplier, SA 516 HIC plate, hydrogen induced cracking tested steel" />
       <Link rel="canonical" href="https://www.creativemetalind.com/nace-hic-steel-plate-supplier-india" />
       <Meta property="og:title" content="NACE HIC Steel Plate Supplier India | Creative Metal Industries" />
       <Meta property="og:description" content="NACE MR-01-75 & HIC tested plates — SA 516, SA 387, API 5L. Sour service certified for oil & gas. India-wide delivery." />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="NACE HIC Steel Plate Supplier India | Sour Service | CMI" />
+      <Meta name="twitter:description" content="India's trusted NACE HIC steel plate supplier. SA 516 Gr.70, SA 387 plates — NACE MR-01-75, HIC per TM-0284, SSC tested. Sour service certified. Call +91 99982 80619." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

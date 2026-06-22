@@ -4,6 +4,36 @@ import { PageLayout } from "../../components/Layout";
 
 const POSTS = [
   {
+    slug: "ms-structural-steel-guide",
+    tag: "Structural Guide", date: "Jun 2026", readTime: "9 min read", icon: "🏗️",
+    title: "MS Angle, Channel, Plate & Pipe — Mild Steel Structural Guide",
+    excerpt: "MS angle, MS channel, MS flat, MS plate, MS sheet (IS 2062), MS ERW pipe and MS seamless pipe. Sizes, weights, grades and Vadodara supply.",
+  },
+  {
+    slug: "carbon-steel-pipe-guide",
+    tag: "Material Guide", date: "Jun 2026", readTime: "9 min read", icon: "🛢️",
+    title: "Carbon Steel Pipe, Plate, Fittings & Flanges — Complete Guide",
+    excerpt: "Carbon steel pipe (ASTM A106 Gr.B), SA 516 Gr.70 plate, alloy plate, carbon steel fittings (A234 WPB) and flanges (A105). Grades and standards.",
+  },
+  {
+    slug: "ss-sheet-plate-guide",
+    tag: "Material Guide", date: "Jun 2026", readTime: "8 min read", icon: "🪞",
+    title: "Stainless Steel Sheet & Plate — Grades, Finishes & Sizes",
+    excerpt: "SS 304, 304L, 316, 310, 317, 410 sheet and plate, 2B and No.4 finishes, sizes and sheet packets. SS sheet & plate supplier Vadodara.",
+  },
+  {
+    slug: "ss-long-products-fittings-guide",
+    tag: "Product Guide", date: "Jun 2026", readTime: "8 min read", icon: "🔧",
+    title: "SS Angle, Channel, Flat, Rod, Fittings & Flanges Guide",
+    excerpt: "SS angle, channel, flat, SS 310 rod, SS ERW pipe, SS 317 pipe, SS fittings and SS flanges. Grades, standards and Vadodara supply.",
+  },
+  {
+    slug: "exotic-alloy-plate-sheet-guide",
+    tag: "Exotic Alloy", date: "Jun 2026", readTime: "9 min read", icon: "✨",
+    title: "Exotic Alloy Sheet, Plate, Pipe & Bar — Duplex, Titanium, Inconel",
+    excerpt: "Duplex & super duplex plate & sheet, titanium, Monel, Inconel and Hastelloy sheets, pipes, tubes and bars. Grades, applications and supply.",
+  },
+  {
     slug: "ss-304-stainless-steel-guide",
     tag: "Material Guide", date: "Jun 2026", readTime: "10 min read", icon: "⚪",
     title: "SS 304 Stainless Steel — Grades, Properties & Applications",
@@ -81,6 +111,7 @@ export default function BlogPage() {
   return (
     <PageLayout active="Blog">
       <Title>Steel &amp; Alloy Technical Blog | Creative Metal Industries</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Technical guides, material comparisons and industry insights on Stainless Steel, Duplex, Alloy Steel, Inconel, Hastelloy, Titanium. Written by Creative Metal Industries, Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog" />
       <Meta property="og:type"        content="website" />
@@ -88,6 +119,10 @@ export default function BlogPage() {
       <Meta property="og:description" content="Technical guides on SS grades, duplex steel, alloy steel P91, pipe schedules, MTC reading and exotic alloys. By Creative Metal Industries, Vadodara." />
       <Meta property="og:url"         content="https://www.creativemetalind.com/blog" />
       <Meta property="og:image"       content="https://www.creativemetalind.com/logo_cmi.png" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Steel & Alloy Technical Blog | Creative Metal Industries" />
+      <Meta name="twitter:description" content="Technical guides, material comparisons and industry insights on Stainless Steel, Duplex, Alloy Steel, Inconel, Hastelloy, Titanium. Written by Creative Metal Industries, Vadodara." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
 
       <section class="page-hero">
         <div class="container">

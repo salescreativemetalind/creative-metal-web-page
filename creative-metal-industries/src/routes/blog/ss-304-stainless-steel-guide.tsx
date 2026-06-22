@@ -31,12 +31,17 @@ export default function SS304Guide() {
   return (
     <>
       <Title>SS 304 Stainless Steel — Grades, Properties & Applications | CMI</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to SS 304 stainless steel — 18/8 composition, mechanical properties, applications in food, chemical, pharma industries. SS pipe supplier Vadodara. Creative Metal Industries." />
       <Meta name="keywords" content="SS 304 stainless steel, SS 304 properties, SS 304 chemical composition, stainless steel pipe manufacturer India, SS pipe supplier Vadodara, 304 stainless steel applications" />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-304-stainless-steel-guide" />
       <Meta property="og:title" content="SS 304 Stainless Steel — Complete Guide | CMI India" />
       <Meta property="og:description" content="Everything about SS 304 — composition, properties, applications, welding, and sourcing from India's leading stainless steel pipe manufacturer." />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="SS 304 Stainless Steel — Grades, Properties & Applications | CMI" />
+      <Meta name="twitter:description" content="Complete guide to SS 304 stainless steel — 18/8 composition, mechanical properties, applications in food, chemical, pharma industries. SS pipe supplier Vadodara. Creative Metal Industries." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

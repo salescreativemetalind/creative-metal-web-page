@@ -11,10 +11,15 @@ export default function TitaniumGuide() {
   return (
     <>
       <Title>Titanium Grade 2 vs Grade 5 (Ti-6Al-4V) Guide | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Titanium Grade 2 vs Grade 5 — properties, strength comparison, corrosion resistance, applications, cost. Metal importer exporter India. Industrial metal supplier. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/titanium-grade-2-vs-grade-5" />
       <Meta property="og:title" content="Titanium Grade 2 vs Grade 5 — Which One Should You Choose?" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Titanium Grade 2 vs Grade 5 (Ti-6Al-4V) Guide | CMI India" />
+      <Meta name="twitter:description" content="Titanium Grade 2 vs Grade 5 — properties, strength comparison, corrosion resistance, applications, cost. Metal importer exporter India. Industrial metal supplier. Creative Metal Industries." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

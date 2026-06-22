@@ -38,6 +38,7 @@ KEYWORDS = {
         "creative metal industries ss pipe supplier",
         "creative metal industries gujarat",
         "creativemetalind",
+        "super-duplex vadodara"
     ],
 
     "🟢  HIGH CONFIDENCE — City-Level": [

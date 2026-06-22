@@ -11,10 +11,15 @@ export default function SS316LGuide() {
   return (
     <>
       <Title>SS 316L Stainless Steel Guide — Properties & Applications | CMI</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to SS 316L stainless steel — molybdenum-enhanced corrosion resistance, chemical composition, mechanical properties, pharma/marine/chemical applications. Supplier India." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-316l-stainless-steel-guide" />
       <Meta property="og:title" content="SS 316L Stainless Steel — Complete Material Guide" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="SS 316L Stainless Steel Guide — Properties & Applications | CMI" />
+      <Meta name="twitter:description" content="Complete guide to SS 316L stainless steel — molybdenum-enhanced corrosion resistance, chemical composition, mechanical properties, pharma/marine/chemical applications. Supplier India." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

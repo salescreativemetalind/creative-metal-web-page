@@ -1,0 +1,4360 @@
+============================================================
+KEYWORD EXTRACTION REPORT — CREATIVE METAL INDUSTRIES
+Website: https://www.creativemetalind.com
+Generated: 2026-06-22 15:06:06
+Method: Content-first. Keywords extracted from actual page text.
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/
+PAGE TYPE: Homepage / Category Hub
+MAIN CONTENT SUMMARY: SS Seamless Pipes TP 304, 304L, 316, 316L, 317L, 321, 310S, 347, 904L ASTM A312 / A213 · SCH 5S to XXS · 6NB–600NB · IBR Form III-C SS Welded Pipes TP 304, 316L, 321, 309, 310S ASTM A312 ERW/EFW/SAW · 15NB–1200NB · All Schedules Carbon Stee...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Duplex 2205 seamless pipe supplier Vadodara
+  - seamless pipe supplier Vadodara
+  - Duplex 2205 seamless pipe
+  - seamless pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Duplex 2205 seamless pipe supplier
+  - SS 304 seamless pipe supplier
+  - SS 316 seamless pipe supplier
+  - Super Duplex 2507 seamless pipe supplier
+  - ASTM seamless pipe
+  - IBR seamless pipe
+  - IBR Form III-C seamless pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - seamless pipe for oil & gas
+  - seamless pipe for petrochemical
+  - seamless pipe for marine
+  - Duplex 2205 seamless pipe supplier in Vadodara
+  - SS 304 seamless pipe supplier in Vadodara
+  - best seamless pipe supplier in Vadodara
+  - seamless pipe price in Vadodara
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - stockist
+  - manufacturer
+  - importer
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+  - pipe flange
+  - weld neck flange
+  - seamless tube
+  - hot finished seamless pipe
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - ASTM
+  - IBR
+  - IBR Form III-C
+  - MTC
+  - ASTM A312
+  - NACE
+  - IS 2062
+  - ASME
+  - ASTM A240
+  - API 5L
+  - ASTM A106
+  - IS 808
+  - HIC
+  - PREN
+  - ASTM A213
+  - ASTM A790
+  - ASTM A403
+  - ASTM A335
+  - ASTM A36
+  - ASME B16.9
+  - ASME B16.5
+  - IS 1239
+  - IS 3589
+  - IS 1786
+  - MSS SP-97
+
+PRODUCT GRADES FOUND:
+  - Duplex 2205
+  - SS 304
+  - SS 316
+  - Super Duplex 2507
+  - Monel 400
+  - Hastelloy C-22
+  - API 5L
+  - SS 316L
+  - S31803
+  - S32750
+  - S32760
+  - S32205
+  - Inconel 600
+  - A106
+  - A105
+  - Alloy 20
+  - Aluminium 6061
+  - SS 317L
+  - SS 321
+  - SS 904L
+  - Ti-6Al-4V
+  - SA 516
+  - Fe 500
+  - A350 LF2
+  - Incoloy 800
+  - CuNi 70/30
+  - Naval Brass
+
+APPLICATION TERMS FOUND:
+  - oil & gas
+  - petrochemical
+  - marine
+  - seawater
+  - fertilizer
+  - boiler
+  - pharmaceutical
+  - offshore
+  - subsea
+  - cement
+  - desalination
+  - heat exchanger
+  - defence
+  - aerospace
+  - pressure vessel
+  - construction
+  - food processing
+
+LOCATION KEYWORDS FOUND:
+  - Vadodara
+  - Gujarat
+  - Makarpura
+  - GIDC Makarpura
+  - Oman
+  - Bahrain
+  - Kuwait
+  - Saudi Arabia
+  - Ankleshwar
+  - Bharuch
+  - Dahej
+  - Surat
+  - Ahmedabad
+  - Rajkot
+  - Jamnagar
+  - India
+  - UAE
+  - Hazira
+
+KEYWORD SOURCE MAPPING:
+  Keyword: Duplex 2205 seamless pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Duplex 2205 seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: Duplex 2205 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 304 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Super Duplex 2507 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASTM seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: IBR seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - Duplex 2205 seamless pipe supplier Vadodara
+    - seamless pipe supplier Vadodara
+    - Duplex 2205 seamless pipe supplier
+    - SS 304 seamless pipe supplier
+    - seamless pipe for oil & gas
+    - seamless pipe for petrochemical
+  Headings To Improve:
+    Old: {cur().caption}
+    New: {cur().caption}
+    Old: Pipes · Fittings · Plates · Structural · Special Alloys
+    New: Pipes · Fittings · Plates · Structural · Special Alloys — Vadodara
+    Old: {selected()!.name}
+    New: {selected()!.name}
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/about
+PAGE TYPE: About / Company Page
+MAIN CONTENT SUMMARY: About Us robots index, follow, max-image-preview:large description Creative Metal Industries — established 2012, Vadodara.
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - forged fitting manufacturer Vadodara
+  - forged fitting
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - IBR forged fitting
+  - NACE forged fitting
+  - MTC forged fitting
+
+LONG TAIL KEYWORDS GENERATED:
+  - forged fitting for oil & gas
+  - forged fitting for petrochemical
+  - forged fitting for fertilizer
+  - best forged fitting supplier in Vadodara
+  - forged fitting price in Vadodara
+
+BUYER INTENT KEYWORDS:
+  - manufacturer
+  - stockist
+  - supplier
+  - exporter
+
+SEMANTIC KEYWORDS:
+  - pipe flange
+  - weld neck flange
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - IBR
+  - NACE
+  - MTC
+
+PRODUCT GRADES FOUND:
+  - (none)
+
+APPLICATION TERMS FOUND:
+  - oil & gas
+  - petrochemical
+  - fertilizer
+  - marine
+  - defence
+  - cement
+
+LOCATION KEYWORDS FOUND:
+  - Vadodara
+  - Gujarat
+  - India
+  - Makarpura
+  - UAE
+  - Oman
+  - Bahrain
+  - Kuwait
+  - Saudi Arabia
+
+KEYWORD SOURCE MAPPING:
+  Keyword: forged fitting manufacturer Vadodara
+    Source: Built from terms in Page Content
+  Keyword: forged fitting
+    Source: Found verbatim in Page Content
+  Keyword: IBR forged fitting
+    Source: Built from terms in Page Content
+  Keyword: NACE forged fitting
+    Source: Built from terms in Page Content
+  Keyword: MTC forged fitting
+    Source: Built from terms in Page Content
+  Keyword: forged fitting for oil & gas
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: forged fitting for petrochemical
+    Source: Built from terms in Page Content
+  Keyword: forged fitting for fertilizer
+    Source: Built from terms in Page Content
+  Keyword: best forged fitting supplier in Vadodara
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: forged fitting price in Vadodara
+    Source: Found in H1 | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - (all key commercial intent terms present)
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is flange?
+    - What are the applications of flange?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - forged fitting manufacturer Vadodara
+    - forged fitting
+    - IBR forged fitting
+    - NACE forged fitting
+    - forged fitting for oil & gas
+    - forged fitting for petrochemical
+  Headings To Improve:
+    Old: Who We Are
+    New: Who We Are
+    Old: Office &amp; Warehouse
+    New: Office &amp; Warehouse
+    Old: {p.title}
+    New: {p.title}
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/products
+PAGE TYPE: Category Page (Size & Weight Charts)
+MAIN CONTENT SUMMARY: 1.1rem radiogroup Enter ) props.onRate?.(star); } : undefined } > ★ </span> )} </For> </span> ); } // ── Single review card ───────────────────────────────────────── function ReviewCard(props: { review: Review }) { const r = props.review; c...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Fe 500 structural steel Vadodara
+  - structural steel Vadodara
+  - Fe 500 structural steel
+  - structural steel
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Fe 500 structural steel supplier
+  - Fe 500D structural steel supplier
+  - Fe 550D structural steel supplier
+  - IS 2062 structural steel
+  - HIC structural steel
+  - IS 808 structural steel
+
+LONG TAIL KEYWORDS GENERATED:
+  - structural steel for cement
+  - Fe 500 structural steel supplier in Vadodara
+  - Fe 500D structural steel supplier in Vadodara
+  - best structural steel supplier in Vadodara
+  - structural steel price in Vadodara
+
+BUYER INTENT KEYWORDS:
+  - (none found in content)
+
+SEMANTIC KEYWORDS:
+  - pipe flange
+  - weld neck flange
+  - seamless tube
+  - hot finished seamless pipe
+  - steel rod
+  - round rod
+  - reinforcement bar
+  - rebar
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - IS 2062
+  - HIC
+  - IS 808
+  - ASTM A312
+  - IS 1239
+  - ASTM
+  - IS 1786
+
+PRODUCT GRADES FOUND:
+  - Fe 500
+  - Fe 500D
+  - Fe 550D
+
+APPLICATION TERMS FOUND:
+  - cement
+
+LOCATION KEYWORDS FOUND:
+  - Vadodara
+
+KEYWORD SOURCE MAPPING:
+  Keyword: Fe 500 structural steel Vadodara
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: structural steel Vadodara
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: Fe 500 structural steel
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: structural steel
+    Source: Found in H1 | Found verbatim in Page Content
+  Keyword: Fe 500 structural steel supplier
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: Fe 500D structural steel supplier
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: Fe 550D structural steel supplier
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: IS 2062 structural steel
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: HIC structural steel
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: IS 808 structural steel
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - supplier
+    - manufacturer
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - Gujarat
+    - India
+  Missing FAQ Opportunities:
+    - What is structural steel?
+    - What are the applications of structural steel?
+    - Which grade of structural steel should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - Fe 500 structural steel Vadodara
+    - structural steel Vadodara
+    - Fe 500 structural steel supplier
+    - Fe 500D structural steel supplier
+    - structural steel for cement
+    - Fe 500 structural steel supplier in Vadodara
+  Headings To Improve:
+    Old: MS Equal Angle — IS 2062 / IS 808
+    New: MS Equal Angle — IS 2062 / IS 808
+    Old: ISMC Channel — IS 2062 / IS 808
+    New: ISMC Channel — IS 2062 / IS 808
+    Old: ISMB Beam — IS 2062 / IS 808
+    New: ISMB Beam — IS 2062 / IS 808
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/reviews
+PAGE TYPE: Reviews Page
+MAIN CONTENT SUMMARY: solid-js 1.25rem radiogroup star-filled star-empty radio }` : undefined} tabIndex={props.interactive ?
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - plate Vadodara
+  - plate
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - (none)
+
+LONG TAIL KEYWORDS GENERATED:
+  - plate for EPC
+  - best plate supplier in Vadodara
+  - plate price in Vadodara
+
+BUYER INTENT KEYWORDS:
+  - (none found in content)
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - (none)
+
+PRODUCT GRADES FOUND:
+  - (none)
+
+APPLICATION TERMS FOUND:
+  - EPC
+
+LOCATION KEYWORDS FOUND:
+  - Vadodara
+  - India
+
+KEYWORD SOURCE MAPPING:
+  Keyword: plate Vadodara
+    Source: Built from terms in Page Content
+  Keyword: plate
+    Source: Found verbatim in Page Content
+  Keyword: plate for EPC
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: best plate supplier in Vadodara
+    Source: Built from terms in Page Content
+  Keyword: plate price in Vadodara
+    Source: Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - supplier
+    - manufacturer
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - Gujarat
+  Missing FAQ Opportunities:
+    - What is plate?
+    - What are the applications of plate?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - plate Vadodara
+    - plate
+    - plate for EPC
+    - best plate supplier in Vadodara
+  Headings To Improve:
+    Old: {data()?.total
+                    ? `${data()!.total} Customer Review${data()!.total !== 1 ? "s" : ""}`
+                    : "Customer Reviews"}
+    New: {data()?.total
+                    ? `${data()!.total} Customer Review${data()!.total !== 1 ? "s" : ""}`
+                    : "Customer Reviews"}
+    Old: {r.title}
+    New: {r.title}
+    Old: Write a Review
+    New: Write a Review
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/metal-trading
+PAGE TYPE: Service / Landing Page
+MAIN CONTENT SUMMARY: , title: , grades: , forms: , note: , }, { icon: , title: , grades: , forms: , note: , }, { icon: , title: , grades: , forms: , note: , }, { icon: , title: , grades: , forms: , note: , }, { icon: , title: , grades: , forms: , note: , }, { i...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - P91 pipe supplier Vadodara
+  - pipe supplier Vadodara
+  - P91 pipe
+  - pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - P91 pipe supplier
+  - P9 pipe supplier
+  - IBR pipe
+  - NACE pipe
+  - MTC pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - pipe for EPC
+  - pipe for oil & gas
+  - pipe for petrochemical
+  - P91 pipe supplier in Vadodara
+  - P9 pipe supplier in Vadodara
+  - best pipe supplier in Vadodara
+  - pipe price in Vadodara
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - trading company
+  - stockist
+  - exporter
+  - importer
+
+SEMANTIC KEYWORDS:
+  - pipe flange
+  - weld neck flange
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+  - corrosion resistant alloy
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - IBR
+  - NACE
+  - MTC
+  - IBR Form III-C
+
+PRODUCT GRADES FOUND:
+  - P91
+  - P9
+
+APPLICATION TERMS FOUND:
+  - EPC
+  - oil & gas
+  - petrochemical
+  - fertilizer
+  - pharmaceutical
+  - cement
+
+LOCATION KEYWORDS FOUND:
+  - Vadodara
+  - Gujarat
+  - India
+  - GIDC Makarpura
+  - Makarpura
+  - Oman
+  - Bahrain
+  - Kuwait
+  - Saudi Arabia
+  - UAE
+
+KEYWORD SOURCE MAPPING:
+  Keyword: P91 pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: P91 pipe
+    Source: Found verbatim in Page Content
+  Keyword: pipe
+    Source: Found verbatim in Page Content
+  Keyword: P91 pipe supplier
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: P9 pipe supplier
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: IBR pipe
+    Source: Built from terms in Page Content
+  Keyword: NACE pipe
+    Source: Built from terms in Page Content
+  Keyword: MTC pipe
+    Source: Built from terms in Page Content
+  Keyword: pipe for EPC
+    Source: Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - P91 pipe supplier Vadodara
+    - pipe supplier Vadodara
+    - P91 pipe supplier
+    - P9 pipe supplier
+    - pipe for EPC
+    - pipe for oil & gas
+  Headings To Improve:
+    Old: Gujarat's Premier Metal Trading Company
+    New: Gujarat's Premier Metal Trading Company
+    Old: Why Creative Metal Industries is Vadodara's Most Trusted Industrial Metal Supplier
+    New: Why Creative Metal Industries is Vadodara's Most Trusted Industrial Metal Supplier
+    Old: Complete Industrial Metal Product Range
+    New: Complete Industrial Metal Product Range
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/ss-pipe-supplier-vadodara
+PAGE TYPE: Service / Landing Page
+MAIN CONTENT SUMMARY: SS pipe supplier Vadodara SS 304 Pipe ASTM A312 TP304 6NB–600NB, SCH 5S–XXS Ready Stock SS 304L Pipe ASTM A312 TP304L 6NB–600NB, SCH 5S–XXS Ready Stock SS 316 Pipe ASTM A312 TP316 6NB–600NB, SCH 5S–XXS Ready Stock SS 316L Pipe ASTM A312 TP3...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 welded pipe supplier Vadodara
+  - welded pipe supplier Vadodara
+  - SS 304 welded pipe
+  - welded pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 welded pipe supplier
+  - Duplex 2205 welded pipe supplier
+  - SS 316 welded pipe supplier
+  - SS 316L welded pipe supplier
+  - ASTM welded pipe
+  - ASTM A312 welded pipe
+  - IBR welded pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - welded pipe for EPC
+  - welded pipe for fertilizer
+  - welded pipe for boiler
+  - SS 304 welded pipe supplier in Vadodara
+  - Duplex 2205 welded pipe supplier in Vadodara
+  - best welded pipe supplier in Vadodara
+  - welded pipe price in Vadodara
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - stockist
+
+SEMANTIC KEYWORDS:
+  - ERW/EFW welded pipe
+  - fabricated pipe
+  - seamless tube
+  - hot finished seamless pipe
+  - steel plate
+  - metal plate
+  - pipe flange
+  - weld neck flange
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - ASTM
+  - ASTM A312
+  - IBR
+  - NACE
+  - IBR Form III-C
+  - MTC
+  - NACE MR-01-75
+  - ASTM A790
+  - EN 10204
+  - HIC
+
+PRODUCT GRADES FOUND:
+  - SS 304
+  - Duplex 2205
+  - SS 316
+  - SS 316L
+  - Super Duplex 2507
+  - SS 304L
+  - SS 317L
+  - SS 321
+  - SS 310S
+  - SS 347
+  - SS 904L
+  - S31803
+  - S32750
+  - SA 516
+
+APPLICATION TERMS FOUND:
+  - EPC
+  - fertilizer
+  - boiler
+
+LOCATION KEYWORDS FOUND:
+  - Vadodara
+  - Gujarat
+  - Makarpura
+  - GIDC Makarpura
+  - India
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SS 304 welded pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: welded pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 304 welded pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: welded pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: SS 304 welded pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Duplex 2205 welded pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316 welded pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316L welded pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASTM welded pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASTM A312 welded pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SS 304 welded pipe supplier Vadodara
+    - welded pipe supplier Vadodara
+    - SS 304 welded pipe supplier
+    - Duplex 2205 welded pipe supplier
+    - welded pipe for EPC
+    - welded pipe for fertilizer
+  Headings To Improve:
+    Old: SS Pipe Stock — All Grades Available in Vadodara
+    New: SS Pipe Stock — All Grades Available in Vadodara
+    Old: Why Vadodara Industries Choose Creative Metal Industries
+    New: Why Vadodara Industries Choose Creative Metal Industries
+    Old: Industries We Supply SS Pipes to in Vadodara
+    New: Industries We Supply SS Pipes to in Vadodara
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/stainless-steel-supplier-vadodara
+PAGE TYPE: Service / Landing Page
+MAIN CONTENT SUMMARY: stainless steel supplier Vadodara Gujarat stainless steel pipe manufacturer Vadodara SS 304 Pipes, Plates, Sheets, Fittings, Flanges, Bars ASTM A312 / A240 / A182 / A403 / A276 6NB–600NB pipes · 1–100mm plates · Full range fittings SS 316L...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 pipe supplier Vadodara
+  - pipe supplier Vadodara
+  - SS 304 pipe
+  - pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 pipe supplier
+  - Duplex 2205 pipe supplier
+  - Super Duplex 2507 pipe supplier
+  - SS 316L pipe supplier
+  - ASTM pipe
+  - ASTM A312 pipe
+  - IBR pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - pipe for EPC
+  - SS 304 pipe supplier in Vadodara
+  - Duplex 2205 pipe supplier in Vadodara
+  - best pipe supplier in Vadodara
+  - pipe price in Vadodara
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - manufacturer
+  - stockist
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+  - pipe flange
+  - weld neck flange
+  - corrosion resistant alloy
+  - dual-phase stainless steel
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - ASTM
+  - ASTM A312
+  - IBR
+  - NACE
+  - MTC
+  - IBR Form III-C
+  - ASTM A790
+  - EN 10204
+  - NACE MR-01-75
+  - ASTM A240
+  - ASTM A403
+  - ASTM A276
+  - ASME B16.5
+  - MSS SP-43
+  - ASME
+  - HIC
+
+PRODUCT GRADES FOUND:
+  - SS 304
+  - Duplex 2205
+  - Super Duplex 2507
+  - SS 316L
+  - SS 316
+  - S31803
+  - S32750
+  - SS 317L
+  - SS 321
+  - SS 310S
+  - SS 347
+  - SS 904L
+
+APPLICATION TERMS FOUND:
+  - EPC
+
+LOCATION KEYWORDS FOUND:
+  - Vadodara
+  - Gujarat
+  - Makarpura
+  - GIDC Makarpura
+  - Ankleshwar
+  - Bharuch
+  - Dahej
+  - Surat
+  - Ahmedabad
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SS 304 pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 304 pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: pipe
+    Source: Found verbatim in Page Content
+  Keyword: SS 304 pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Duplex 2205 pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Super Duplex 2507 pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316L pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASTM pipe
+    Source: Built from terms in Page Content
+  Keyword: ASTM A312 pipe
+    Source: Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - exporter
+  Missing Location Keywords:
+    - India
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SS 304 pipe supplier Vadodara
+    - pipe supplier Vadodara
+    - SS 304 pipe supplier
+    - Duplex 2205 pipe supplier
+    - pipe for EPC
+    - SS 304 pipe supplier in Vadodara
+  Headings To Improve:
+    Old: Stainless Steel Grades — All Forms Available in Vadodara
+    New: Stainless Steel Grades — All Forms Available in Vadodara
+    Old: Stainless Steel Product Categories
+    New: Stainless Steel Product Categories
+    Old: Why Choose CMI as Your Stainless Steel Supplier in Vadodara
+    New: Why Choose CMI as Your Stainless Steel Supplier in Vadodara
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/duplex-steel-supplier-vadodara
+PAGE TYPE: Service / Landing Page
+MAIN CONTENT SUMMARY: duplex steel supplier Vadodara alloy steel P91 pipe stockist Gujarat IBR certified pipe supplier Gujarat Duplex 2205 (S31803) ASTM A790 / A928 / A182 F51 6NB–300NB pipes · 3–80mm plates · Full fittings & flanges Oil & gas, desalination, che...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - P91 seamless pipe supplier Vadodara
+  - seamless pipe supplier Vadodara
+  - P91 seamless pipe
+  - seamless pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - P91 seamless pipe supplier
+  - P9 seamless pipe supplier
+  - Duplex 2205 seamless pipe supplier
+  - Super Duplex 2507 seamless pipe supplier
+  - IBR seamless pipe
+  - IBR Form III-C seamless pipe
+  - ASTM seamless pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - seamless pipe for boiler
+  - seamless pipe for power plant
+  - seamless pipe for offshore
+  - P91 seamless pipe supplier in Vadodara
+  - P9 seamless pipe supplier in Vadodara
+  - best seamless pipe supplier in Vadodara
+  - seamless pipe price in Vadodara
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - stockist
+
+SEMANTIC KEYWORDS:
+  - seamless tube
+  - hot finished seamless pipe
+  - ERW/EFW welded pipe
+  - fabricated pipe
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - IBR
+  - IBR Form III-C
+  - ASTM
+  - ASTM A335
+  - MTC
+  - ASTM A790
+  - NACE
+  - PREN
+  - EN 10204
+
+PRODUCT GRADES FOUND:
+  - P91
+  - P9
+  - Duplex 2205
+  - Super Duplex 2507
+  - P22
+  - P11
+  - S32750
+  - S32760
+  - S31803
+  - S32205
+
+APPLICATION TERMS FOUND:
+  - boiler
+  - power plant
+  - offshore
+  - oil & gas
+  - petrochemical
+  - desalination
+  - chemical processing
+  - marine
+  - subsea
+  - refinery
+  - heat exchanger
+  - seawater
+  - fertilizer
+  - pressure vessel
+
+LOCATION KEYWORDS FOUND:
+  - Vadodara
+  - Gujarat
+  - Makarpura
+  - GIDC Makarpura
+  - India
+  - Ankleshwar
+  - Bharuch
+  - Dahej
+  - Surat
+  - Ahmedabad
+
+KEYWORD SOURCE MAPPING:
+  Keyword: P91 seamless pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: P91 seamless pipe
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe
+    Source: Found in Headings | Found verbatim in Page Content
+  Keyword: P91 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: P9 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Duplex 2205 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Super Duplex 2507 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: IBR seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: IBR Form III-C seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - P91 seamless pipe supplier Vadodara
+    - seamless pipe supplier Vadodara
+    - P91 seamless pipe supplier
+    - P9 seamless pipe supplier
+    - seamless pipe for boiler
+    - seamless pipe for power plant
+  Headings To Improve:
+    Old: Duplex &amp; Super Duplex Steel — Grades &amp; Specifications
+    New: Duplex &amp; Super Duplex Steel — Grades &amp; Specifications
+    Old: Alloy Steel P91 / P22 / P11 Pipes — IBR Certified, Gujarat
+    New: Alloy Steel P91 / P22 / P11 Pipes — IBR Certified, Gujarat — Vadodara
+    Old: IBR Certification — What Is IBR Form III-C &amp; Why It Matters
+    New: IBR Certification — What Is IBR Form III-C &amp; Why It Matters
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/carbon-steel-pipe-fittings-vadodara
+PAGE TYPE: Service / Landing Page
+MAIN CONTENT SUMMARY: carbon steel plate supplier Vadodara pipe fittings flanges supplier Vadodara ERW pipe supplier Vadodara ERW Pipe (IS 1239) IS 1239 Part-1 15NB–150NB, Light/Medium/Heavy APL Apollo, Tata, Surya ERW Pipe (IS 3589) IS 3589 150NB–600NB, 3.2–20m...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - API 5L ERW pipe supplier Vadodara
+  - ERW pipe supplier Vadodara
+  - API 5L ERW pipe
+  - ERW pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - API 5L ERW pipe supplier
+  - A106 ERW pipe supplier
+  - SA 516 ERW pipe supplier
+  - A105 ERW pipe supplier
+  - IBR ERW pipe
+  - API 5L ERW pipe
+  - ASTM ERW pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - ERW pipe for boiler
+  - ERW pipe for pressure vessel
+  - API 5L ERW pipe supplier in Vadodara
+  - A106 ERW pipe supplier in Vadodara
+  - best ERW pipe supplier in Vadodara
+  - ERW pipe price in Vadodara
+
+BUYER INTENT KEYWORDS:
+  - supplier
+
+SEMANTIC KEYWORDS:
+  - pipe fitting
+  - industrial fitting
+  - pipe flange
+  - weld neck flange
+  - seamless tube
+  - hot finished seamless pipe
+  - steel plate
+  - metal plate
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - IBR
+  - API 5L
+  - ASTM
+  - HIC
+  - IS 1239
+  - ASTM A106
+  - IS 2062
+  - IS 3589
+  - ASTM A234
+  - ASME B16.5
+  - ASME
+  - MTC
+  - ASTM A53
+
+PRODUCT GRADES FOUND:
+  - API 5L
+  - A106
+  - SA 516
+  - A105
+
+APPLICATION TERMS FOUND:
+  - boiler
+  - pressure vessel
+
+LOCATION KEYWORDS FOUND:
+  - Vadodara
+  - Makarpura
+  - GIDC Makarpura
+  - Gujarat
+  - Ankleshwar
+  - Bharuch
+  - Dahej
+  - Surat
+  - Ahmedabad
+
+KEYWORD SOURCE MAPPING:
+  Keyword: API 5L ERW pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ERW pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: API 5L ERW pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ERW pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: API 5L ERW pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: A106 ERW pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SA 516 ERW pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: A105 ERW pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: IBR ERW pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: API 5L ERW pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - India
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - API 5L ERW pipe supplier Vadodara
+    - ERW pipe supplier Vadodara
+    - API 5L ERW pipe supplier
+    - A106 ERW pipe supplier
+    - ERW pipe for boiler
+    - ERW pipe for pressure vessel
+  Headings To Improve:
+    Old: Carbon Steel Pipes — ERW, Seamless &amp; API 5L Line Pipes
+    New: Carbon Steel Pipes — ERW, Seamless &amp; API 5L Line Pipes — Vadodara
+    Old: IS 1239 ERW Pipe Size &amp; Wall Thickness Chart
+    New: IS 1239 ERW Pipe Size &amp; Wall Thickness Chart — Vadodara
+    Old: CS Fittings &amp; Flanges — Buttweld, Forged &amp; Flanges
+    New: CS Fittings &amp; Flanges — Buttweld, Forged &amp; Flanges
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/carbon-steel-sa516-plate-stockist-india
+PAGE TYPE: Service / Landing Page
+MAIN CONTENT SUMMARY: Carbon Steel SA 516 Plate Stockist India WebPage name Carbon Steel SA 516 Plate Stockist India — Creative Metal Industries description Leading SA 516 Gr.60/70 carbon steel plate stockist in India.
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SA 516 TMT bar stockist India
+  - TMT bar stockist India
+  - SA 516 TMT bar
+  - TMT bar
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SA 516 TMT bar supplier
+  - SS 304 TMT bar supplier
+  - HIC TMT bar
+  - NACE TMT bar
+  - IBR TMT bar
+
+LONG TAIL KEYWORDS GENERATED:
+  - TMT bar for pressure vessel
+  - TMT bar for boiler
+  - TMT bar for petrochemical
+  - SA 516 TMT bar supplier in India
+  - SS 304 TMT bar supplier in India
+  - best TMT bar supplier in India
+  - TMT bar price in India
+
+BUYER INTENT KEYWORDS:
+  - stockist
+  - supplier
+  - manufacturer
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+  - reinforcement bar
+  - rebar
+  - corrosion resistant alloy
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - HIC
+  - NACE
+  - IBR
+  - IBR Form III-C
+  - ASTM
+  - NACE MR-01-75
+  - ASME
+  - EN 10204
+  - MTC
+
+PRODUCT GRADES FOUND:
+  - SA 516
+  - SS 304
+
+APPLICATION TERMS FOUND:
+  - pressure vessel
+  - boiler
+  - petrochemical
+  - heat exchanger
+  - oil & gas
+  - EPC
+  - fertilizer
+  - power plant
+  - offshore
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+  - GIDC Makarpura
+  - Makarpura
+  - Gujarat
+  - UAE
+  - Oman
+  - Bahrain
+  - Kuwait
+  - Saudi Arabia
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SA 516 TMT bar stockist India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: TMT bar stockist India
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: SA 516 TMT bar
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: TMT bar
+    Source: Found verbatim in Page Content
+  Keyword: SA 516 TMT bar supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 304 TMT bar supplier
+    Source: Built from terms in Page Content
+  Keyword: HIC TMT bar
+    Source: Built from terms in Page Content
+  Keyword: NACE TMT bar
+    Source: Built from terms in Page Content
+  Keyword: IBR TMT bar
+    Source: Built from terms in Page Content
+  Keyword: TMT bar for pressure vessel
+    Source: Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is plate?
+    - What are the applications of plate?
+    - Which grade of plate should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SA 516 TMT bar stockist India
+    - TMT bar stockist India
+    - SA 516 TMT bar supplier
+    - SS 304 TMT bar supplier
+    - TMT bar for pressure vessel
+    - TMT bar for boiler
+  Headings To Improve:
+    Old: What is SA 516 Carbon Steel Plate?
+    New: What is SA 516 Carbon Steel Plate? — India
+    Old: SA 516 Grade Comparison — Mechanical Properties
+    New: SA 516 Grade Comparison — Mechanical Properties
+    Old: Chemical Composition — SA 516 Gr.70
+    New: Chemical Composition — SA 516 Gr.70
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/nace-hic-steel-plate-supplier-india
+PAGE TYPE: Service / Landing Page
+MAIN CONTENT SUMMARY: NACE HIC Steel Plate Supplier India WebPage name NACE HIC Steel Plate Supplier India — Creative Metal Industries breadcrumb BreadcrumbList itemListElement ListItem position name Home item ListItem position name NACE HIC Steel Plate Supplier...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SA 516 TMT bar supplier India
+  - TMT bar supplier India
+  - SA 516 TMT bar
+  - TMT bar
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SA 516 TMT bar supplier
+  - API 5L TMT bar supplier
+  - SA 537 TMT bar supplier
+  - SS 304 TMT bar supplier
+  - HIC TMT bar
+  - NACE TMT bar
+  - NACE MR-01-75 TMT bar
+
+LONG TAIL KEYWORDS GENERATED:
+  - TMT bar for oil & gas
+  - TMT bar for offshore
+  - TMT bar for oil and gas
+  - SA 516 TMT bar supplier in India
+  - API 5L TMT bar supplier in India
+  - best TMT bar supplier in India
+  - TMT bar price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - stockist
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - reinforcement bar
+  - rebar
+  - corrosion resistant alloy
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - HIC
+  - NACE
+  - NACE MR-01-75
+  - ASTM
+  - API 5L
+  - NACE MR0175
+  - ASME
+  - MTC
+  - ASTM A53
+
+PRODUCT GRADES FOUND:
+  - SA 516
+  - API 5L
+  - SA 537
+  - SS 304
+
+APPLICATION TERMS FOUND:
+  - oil & gas
+  - offshore
+  - oil and gas
+  - refinery
+  - pressure vessel
+  - petrochemical
+  - fertilizer
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+  - Gujarat
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SA 516 TMT bar supplier India
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: TMT bar supplier India
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: SA 516 TMT bar
+    Source: Built from terms in Page Content
+  Keyword: TMT bar
+    Source: Found verbatim in Page Content
+  Keyword: SA 516 TMT bar supplier
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: API 5L TMT bar supplier
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: SA 537 TMT bar supplier
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: SS 304 TMT bar supplier
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: HIC TMT bar
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: NACE TMT bar
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is plate?
+    - What are the applications of plate?
+    - Which grade of plate should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SA 516 TMT bar supplier India
+    - TMT bar supplier India
+    - SA 516 TMT bar supplier
+    - API 5L TMT bar supplier
+    - TMT bar for oil & gas
+    - TMT bar for offshore
+  Headings To Improve:
+    Old: What is NACE MR-01-75 / ISO 15156?
+    New: What is NACE MR-01-75 / ISO 15156?
+    Old: HIC Test — NACE TM-0284
+    New: HIC Test — NACE TM-0284
+    Old: NACE HIC Plate Grades Available
+    New: NACE HIC Plate Grades Available — India
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/tmt-bars-supplier-gujarat
+PAGE TYPE: Service / Landing Page
+MAIN CONTENT SUMMARY: TMT Bars Supplier Gujarat WebPage name TMT Bars Supplier Gujarat — Creative Metal Industries breadcrumb BreadcrumbList itemListElement ListItem position name Home item ListItem position name TMT Bars Supplier Gujarat item mainEntity Product...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Fe 500 TMT bar supplier Gujarat
+  - TMT bar supplier Gujarat
+  - Fe 500 TMT bar
+  - TMT bar
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Fe 500 TMT bar supplier
+  - Fe 500D TMT bar supplier
+  - Fe 550D TMT bar supplier
+  - SS 304 TMT bar supplier
+  - IS 1786 TMT bar
+  - HIC TMT bar
+  - NACE TMT bar
+
+LONG TAIL KEYWORDS GENERATED:
+  - TMT bar for cement
+  - TMT bar for construction
+  - TMT bar for power plant
+  - Fe 500 TMT bar supplier in Gujarat
+  - Fe 500D TMT bar supplier in Gujarat
+  - best TMT bar supplier in Gujarat
+  - TMT bar price in Gujarat
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - manufacturer
+  - stockist
+
+SEMANTIC KEYWORDS:
+  - reinforcement bar
+  - rebar
+  - steel plate
+  - metal plate
+  - corrosion resistant alloy
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - IS 1786
+  - HIC
+  - NACE
+
+PRODUCT GRADES FOUND:
+  - Fe 500
+  - Fe 500D
+  - Fe 550D
+  - SS 304
+  - SA 516
+
+APPLICATION TERMS FOUND:
+  - cement
+  - construction
+  - power plant
+  - fertilizer
+
+LOCATION KEYWORDS FOUND:
+  - Gujarat
+  - Vadodara
+  - India
+  - Ahmedabad
+  - Ankleshwar
+  - Bharuch
+  - Surat
+  - Rajkot
+  - Dahej
+  - Jamnagar
+
+KEYWORD SOURCE MAPPING:
+  Keyword: Fe 500 TMT bar supplier Gujarat
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: TMT bar supplier Gujarat
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Fe 500 TMT bar
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: TMT bar
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: Fe 500 TMT bar supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Fe 500D TMT bar supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Fe 550D TMT bar supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 304 TMT bar supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: IS 1786 TMT bar
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: HIC TMT bar
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is bar?
+    - What are the applications of bar?
+    - Which grade of bar should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - Fe 500 TMT bar supplier Gujarat
+    - TMT bar supplier Gujarat
+    - Fe 500 TMT bar supplier
+    - Fe 500D TMT bar supplier
+    - TMT bar for cement
+    - TMT bar for construction
+  Headings To Improve:
+    Old: TMT Bar Weight Chart — IS 1786
+    New: TMT Bar Weight Chart — IS 1786 — Gujarat
+    Old: TMT Bar Grades — Fe 500 vs Fe 500D vs Fe 550D
+    New: TMT Bar Grades — Fe 500 vs Fe 500D vs Fe 550D — Gujarat
+    Old: Brands We Supply
+    New: Brands We Supply
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india
+PAGE TYPE: Service / Landing Page
+MAIN CONTENT SUMMARY: SS 304 316L Pipe Supplier India WebPage name SS 304 316L Pipe Supplier India — Creative Metal Industries breadcrumb BreadcrumbList itemListElement ListItem position name Home item ListItem position name SS 304 316L Pipe Supplier India item...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 welded pipe supplier India
+  - welded pipe supplier India
+  - SS 304 welded pipe
+  - welded pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 welded pipe supplier
+  - SS 316L welded pipe supplier
+  - SS 316 welded pipe supplier
+  - SA 516 welded pipe supplier
+  - ASTM A312 welded pipe
+  - ASTM welded pipe
+  - IBR welded pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - welded pipe for marine
+  - welded pipe for pharmaceutical
+  - welded pipe for boiler
+  - SS 304 welded pipe supplier in India
+  - SS 316L welded pipe supplier in India
+  - best welded pipe supplier in India
+  - welded pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - stockist
+  - manufacturer
+
+SEMANTIC KEYWORDS:
+  - ERW/EFW welded pipe
+  - fabricated pipe
+  - seamless tube
+  - hot finished seamless pipe
+  - steel plate
+  - metal plate
+  - reinforcement bar
+  - rebar
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - ASTM A312
+  - ASTM
+  - IBR
+  - NACE
+  - IBR Form III-C
+  - HIC
+  - MTC
+  - EN 10204
+  - NACE MR-01-75
+  - ASME
+  - PREN
+
+PRODUCT GRADES FOUND:
+  - SS 304
+  - SS 316L
+  - SS 316
+  - SA 516
+
+APPLICATION TERMS FOUND:
+  - marine
+  - pharmaceutical
+  - boiler
+  - pressure vessel
+  - food processing
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+  - Gujarat
+  - GIDC Makarpura
+  - Makarpura
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SS 304 welded pipe supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: welded pipe supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 304 welded pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: welded pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: SS 304 welded pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316L welded pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316 welded pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SA 516 welded pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASTM A312 welded pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASTM welded pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SS 304 welded pipe supplier India
+    - welded pipe supplier India
+    - SS 304 welded pipe supplier
+    - SS 316L welded pipe supplier
+    - welded pipe for marine
+    - welded pipe for pharmaceutical
+  Headings To Improve:
+    Old: SS 304 vs SS 316L — Quick Comparison
+    New: SS 304 vs SS 316L — Quick Comparison
+    Old: Pipe Sizes & Schedules Available
+    New: Pipe Sizes & Schedules Available — India
+    Old: Applications
+    New: Applications
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog
+PAGE TYPE: Blog Index / Article Template
+MAIN CONTENT SUMMARY: ss-304-stainless-steel-guide Material Guide Jun 2026 10 min read , title: , excerpt: , }, { slug: , tag: , date: , readTime: , icon: , title: , excerpt: , }, { slug: , tag: , date: , readTime: , icon: , title: , excerpt: , }, { slug: , tag:...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - (insufficient product content detected)
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - (none)
+
+LONG TAIL KEYWORDS GENERATED:
+  - (none)
+
+BUYER INTENT KEYWORDS:
+  - (none found in content)
+
+SEMANTIC KEYWORDS:
+  - (none)
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - (none)
+
+PRODUCT GRADES FOUND:
+  - (none)
+
+APPLICATION TERMS FOUND:
+  - (none)
+
+LOCATION KEYWORDS FOUND:
+  - (none)
+
+KEYWORD SOURCE MAPPING:
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - supplier
+    - manufacturer
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - (page is informational; FAQ optional)
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - (none — page already covers its content keywords)
+  Headings To Improve:
+    Old: {post.title}
+    New: {post.title}
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/[slug]
+PAGE TYPE: Blog Index / Article Template
+MAIN CONTENT SUMMARY: ss-304-vs-316l SS 304 vs SS 316L — Which Stainless Steel Grade Should You Choose?
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 structural steel Vadodara
+  - structural steel Vadodara
+  - SS 304 structural steel
+  - structural steel
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 structural steel supplier
+  - SS 316L structural steel supplier
+  - SS 316 structural steel supplier
+  - Duplex 2205 structural steel supplier
+  - HIC structural steel
+
+LONG TAIL KEYWORDS GENERATED:
+  - structural steel for marine
+  - structural steel for seawater
+  - structural steel for food processing
+  - SS 304 structural steel supplier in Vadodara
+  - SS 316L structural steel supplier in Vadodara
+  - best structural steel supplier in Vadodara
+  - structural steel price in Vadodara
+
+BUYER INTENT KEYWORDS:
+  - (none found in content)
+
+SEMANTIC KEYWORDS:
+  - pipe flange
+  - weld neck flange
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+  - corrosion resistant alloy
+  - dual-phase stainless steel
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - HIC
+
+PRODUCT GRADES FOUND:
+  - SS 304
+  - SS 316L
+  - SS 316
+  - Duplex 2205
+  - Super Duplex 2507
+
+APPLICATION TERMS FOUND:
+  - marine
+  - seawater
+  - food processing
+
+LOCATION KEYWORDS FOUND:
+  - Vadodara
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SS 304 structural steel Vadodara
+    Source: Built from terms in Page Content
+  Keyword: structural steel Vadodara
+    Source: Built from terms in Page Content
+  Keyword: SS 304 structural steel
+    Source: Built from terms in Page Content
+  Keyword: structural steel
+    Source: Found verbatim in Page Content
+  Keyword: SS 304 structural steel supplier
+    Source: Built from terms in Page Content
+  Keyword: SS 316L structural steel supplier
+    Source: Built from terms in Page Content
+  Keyword: SS 316 structural steel supplier
+    Source: Built from terms in Page Content
+  Keyword: Duplex 2205 structural steel supplier
+    Source: Built from terms in Page Content
+  Keyword: HIC structural steel
+    Source: Built from terms in Page Content
+  Keyword: structural steel for marine
+    Source: Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - supplier
+    - manufacturer
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - Gujarat
+    - India
+  Missing FAQ Opportunities:
+    - What is flange?
+    - What are the applications of flange?
+    - Which grade of flange should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SS 304 structural steel Vadodara
+    - structural steel Vadodara
+    - SS 304 structural steel supplier
+    - SS 316L structural steel supplier
+    - structural steel for marine
+    - structural steel for seawater
+  Headings To Improve:
+    Old: {s.heading}
+    New: {s.heading}
+    Old: Need to source this material?
+    New: Need to source this material?
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/ss-304-stainless-steel-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: SS 304 stainless steel stainless steel pipe manufacturer India SS pipe supplier Vadodara Article headline SS 304 Stainless Steel — Complete Guide to Grades, Properties, and Applications author Organization name Creative Metal Industries pub...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 pipe supplier Vadodara
+  - pipe supplier Vadodara
+  - SS 304 pipe
+  - pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 pipe supplier
+  - SS 304L pipe supplier
+  - SS 316L pipe supplier
+  - SS 316 pipe supplier
+  - HIC pipe
+  - MTC pipe
+  - IBR pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - pipe for construction
+  - SS 304 pipe supplier in Vadodara
+  - SS 304L pipe supplier in Vadodara
+  - best pipe supplier in Vadodara
+  - pipe price in Vadodara
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - manufacturer
+  - stockist
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+  - pipe flange
+  - weld neck flange
+  - corrosion resistant alloy
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - HIC
+  - MTC
+  - IBR
+  - EN 10204
+  - IBR Form III-C
+  - ASTM
+
+PRODUCT GRADES FOUND:
+  - SS 304
+  - SS 304L
+  - SS 316L
+  - SS 316
+
+APPLICATION TERMS FOUND:
+  - construction
+
+LOCATION KEYWORDS FOUND:
+  - Vadodara
+  - India
+  - GIDC Makarpura
+  - Makarpura
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SS 304 pipe supplier Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: pipe supplier Vadodara
+    Source: Found in Headings | Found verbatim in Page Content
+  Keyword: SS 304 pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: pipe
+    Source: Found in Headings | Found verbatim in Page Content
+  Keyword: SS 304 pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 304L pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316L pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316 pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: HIC pipe
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: MTC pipe
+    Source: Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - exporter
+  Missing Location Keywords:
+    - Gujarat
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SS 304 pipe supplier Vadodara
+    - pipe supplier Vadodara
+    - SS 304 pipe supplier
+    - SS 304L pipe supplier
+    - pipe for construction
+    - SS 304 pipe supplier in Vadodara
+  Headings To Improve:
+    Old: What is SS 304 Stainless Steel?
+    New: What is SS 304 Stainless Steel?
+    Old: Chemical Composition of SS 304
+    New: Chemical Composition of SS 304
+    Old: Mechanical Properties of SS 304
+    New: Mechanical Properties of SS 304
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/ss-316l-stainless-steel-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: 304 vs 316L Article headline SS 316L Stainless Steel — Complete Guide to Properties, Applications & Sourcing author Organization name Creative Metal Industries publisher Organization name Creative Metal Industries logo ImageObject datePubli...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 316L welded pipe supplier India
+  - welded pipe supplier India
+  - SS 316L welded pipe
+  - welded pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 316L welded pipe supplier
+  - SS 316 welded pipe supplier
+  - SS 304 welded pipe supplier
+  - Duplex 2205 welded pipe supplier
+  - PREN welded pipe
+  - ASTM welded pipe
+  - HIC welded pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - welded pipe for seawater
+  - welded pipe for marine
+  - welded pipe for pharmaceutical
+  - SS 316L welded pipe supplier in India
+  - SS 316 welded pipe supplier in India
+  - best welded pipe supplier in India
+  - welded pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - manufacturer
+
+SEMANTIC KEYWORDS:
+  - pipe fitting
+  - industrial fitting
+  - steel plate
+  - metal plate
+  - pipe flange
+  - weld neck flange
+  - ERW/EFW welded pipe
+  - fabricated pipe
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - PREN
+  - ASTM
+  - HIC
+  - MTC
+  - ASTM A312
+  - IBR
+  - ASTM A240
+  - ASTM A182
+  - ASTM A403
+  - IBR Form III-C
+
+PRODUCT GRADES FOUND:
+  - SS 316L
+  - SS 316
+  - SS 304
+  - Duplex 2205
+  - Super Duplex 2507
+
+APPLICATION TERMS FOUND:
+  - seawater
+  - marine
+  - pharmaceutical
+  - chemical processing
+  - boiler
+  - oil & gas
+  - offshore
+  - pressure vessel
+  - food processing
+  - construction
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+  - Gujarat
+  - GIDC Makarpura
+  - Makarpura
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SS 316L welded pipe supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: welded pipe supplier India
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: SS 316L welded pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: welded pipe
+    Source: Found in Headings | Found verbatim in Page Content
+  Keyword: SS 316L welded pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316 welded pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 304 welded pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Duplex 2205 welded pipe supplier
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: PREN welded pipe
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: ASTM welded pipe
+    Source: Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SS 316L welded pipe supplier India
+    - welded pipe supplier India
+    - SS 316L welded pipe supplier
+    - SS 316 welded pipe supplier
+    - welded pipe for seawater
+    - welded pipe for marine
+  Headings To Improve:
+    Old: What Makes 316L Different from 304?
+    New: What Makes 316L Different from 304?
+    Old: Chemical Composition of SS 316L
+    New: Chemical Composition of SS 316L
+    Old: Why the "L" (Low Carbon) Matters for Welding
+    New: Why the "L" (Low Carbon) Matters for Welding
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/duplex-2205-steel-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: duplex 2205 industrial metal supplier India SS pipe supplier Vadodara Article headline Duplex 2205 — Why This Super Steel Outperforms Standard Grades author Organization name Creative Metal Industries publisher Organization name Creative Me...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Duplex 2205 seamless pipe supplier India
+  - seamless pipe supplier India
+  - Duplex 2205 seamless pipe
+  - seamless pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Duplex 2205 seamless pipe supplier
+  - Super Duplex 2507 seamless pipe supplier
+  - S31803 seamless pipe supplier
+  - S32205 seamless pipe supplier
+  - PREN seamless pipe
+  - HIC seamless pipe
+  - ASTM seamless pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - seamless pipe for offshore
+  - seamless pipe for desalination
+  - seamless pipe for heat exchanger
+  - Duplex 2205 seamless pipe supplier in India
+  - Super Duplex 2507 seamless pipe supplier in India
+  - best seamless pipe supplier in India
+  - seamless pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+  - seamless tube
+  - hot finished seamless pipe
+  - pipe flange
+  - weld neck flange
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - PREN
+  - HIC
+  - ASTM
+  - MTC
+  - ASTM A790
+
+PRODUCT GRADES FOUND:
+  - Duplex 2205
+  - Super Duplex 2507
+  - S31803
+  - S32205
+  - SS 316L
+  - SS 316
+
+APPLICATION TERMS FOUND:
+  - offshore
+  - desalination
+  - heat exchanger
+  - oil & gas
+  - marine
+  - EPC
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+  - Oman
+  - Kuwait
+  - Saudi Arabia
+
+KEYWORD SOURCE MAPPING:
+  Keyword: Duplex 2205 seamless pipe supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe supplier India
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: Duplex 2205 seamless pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: seamless pipe
+    Source: Found in Headings | Found verbatim in Page Content
+  Keyword: Duplex 2205 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Super Duplex 2507 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: S31803 seamless pipe supplier
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: S32205 seamless pipe supplier
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: PREN seamless pipe
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: HIC seamless pipe
+    Source: Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - Gujarat
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - Duplex 2205 seamless pipe supplier India
+    - seamless pipe supplier India
+    - Duplex 2205 seamless pipe supplier
+    - Super Duplex 2507 seamless pipe supplier
+    - seamless pipe for offshore
+    - seamless pipe for desalination
+  Headings To Improve:
+    Old: The Hybrid Structure — Austenite Meets Ferrite
+    New: The Hybrid Structure — Austenite Meets Ferrite
+    Old: Chemical Composition — Duplex 2205
+    New: Chemical Composition — Duplex 2205
+    Old: Mechanical Properties — 2× Stronger Than 316L
+    New: Mechanical Properties — 2× Stronger Than 316L
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/super-duplex-2507-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: super duplex 2507 metal importer exporter India carbon steel SA 516 plate stockist India Article headline Super Duplex 2507 — The Oil and Gas Industry's Preferred Alloy author Organization name Creative Metal Industries publisher Organizati...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Super Duplex 2507 seamless pipe exporter India
+  - seamless pipe exporter India
+  - Super Duplex 2507 seamless pipe
+  - seamless pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Super Duplex 2507 seamless pipe supplier
+  - Duplex 2205 seamless pipe supplier
+  - S32750 seamless pipe supplier
+  - SA 516 seamless pipe supplier
+  - PREN seamless pipe
+  - ASTM seamless pipe
+  - ASTM A790 seamless pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - seamless pipe for seawater
+  - seamless pipe for subsea
+  - seamless pipe for offshore
+  - Super Duplex 2507 seamless pipe supplier in India
+  - Duplex 2205 seamless pipe supplier in India
+  - best seamless pipe supplier in India
+  - seamless pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - exporter
+  - importer
+  - supplier
+  - stockist
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - seamless tube
+  - hot finished seamless pipe
+  - pipe flange
+  - weld neck flange
+  - pipe fitting
+  - industrial fitting
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - PREN
+  - ASTM
+  - ASTM A790
+
+PRODUCT GRADES FOUND:
+  - Super Duplex 2507
+  - Duplex 2205
+  - S32750
+  - SA 516
+  - SS 316L
+  - SS 316
+  - Hastelloy C-276
+
+APPLICATION TERMS FOUND:
+  - seawater
+  - subsea
+  - offshore
+  - oil and gas
+  - oil & gas
+  - chemical processing
+  - desalination
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+
+KEYWORD SOURCE MAPPING:
+  Keyword: Super Duplex 2507 seamless pipe exporter India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe exporter India
+    Source: Built from terms in Page Content
+  Keyword: Super Duplex 2507 seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe
+    Source: Found verbatim in Page Content
+  Keyword: Super Duplex 2507 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Duplex 2205 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: S32750 seamless pipe supplier
+    Source: Built from terms in Page Content
+  Keyword: SA 516 seamless pipe supplier
+    Source: Built from terms in Page Content
+  Keyword: PREN seamless pipe
+    Source: Built from terms in Page Content
+  Keyword: ASTM seamless pipe
+    Source: Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+  Missing Location Keywords:
+    - Gujarat
+  Missing FAQ Opportunities:
+    - What is plate?
+    - What are the applications of plate?
+    - Which grade of plate should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - Super Duplex 2507 seamless pipe exporter India
+    - seamless pipe exporter India
+    - Super Duplex 2507 seamless pipe supplier
+    - Duplex 2205 seamless pipe supplier
+    - seamless pipe for seawater
+    - seamless pipe for subsea
+  Headings To Improve:
+    Old: What Makes 2507 "Super" Duplex?
+    New: What Makes 2507 "Super" Duplex?
+    Old: Chemical Composition — Super Duplex 2507
+    New: Chemical Composition — Super Duplex 2507
+    Old: Mechanical Properties — Exceptional Strength
+    New: Mechanical Properties — Exceptional Strength
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/hastelloy-c276-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: Hastelloy C-276 industrial raw material supplier Gujarat SS pipe fittings flanges supplier India Article headline Hastelloy C-276 — The Ultimate Nickel Alloy for Extreme Environments author Organization name Creative Metal Industries publis...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Hastelloy C-276 seamless pipe supplier India
+  - seamless pipe supplier India
+  - Hastelloy C-276 seamless pipe
+  - seamless pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Hastelloy C-276 seamless pipe supplier
+  - SS 316L seamless pipe supplier
+  - SS 316 seamless pipe supplier
+  - Super Duplex 2507 seamless pipe supplier
+  - ASTM seamless pipe
+  - HIC seamless pipe
+  - MTC seamless pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - seamless pipe for pharmaceutical
+  - seamless pipe for chemical processing
+  - seamless pipe for heat exchanger
+  - Hastelloy C-276 seamless pipe supplier in India
+  - SS 316L seamless pipe supplier in India
+  - best seamless pipe supplier in India
+  - seamless pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - manufacturer
+
+SEMANTIC KEYWORDS:
+  - pipe fitting
+  - industrial fitting
+  - steel plate
+  - metal plate
+  - pipe flange
+  - weld neck flange
+  - seamless tube
+  - hot finished seamless pipe
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - ASTM
+  - HIC
+  - MTC
+  - NACE
+  - PREN
+
+PRODUCT GRADES FOUND:
+  - Hastelloy C-276
+  - SS 316L
+  - SS 316
+  - Super Duplex 2507
+  - Inconel 625
+
+APPLICATION TERMS FOUND:
+  - pharmaceutical
+  - chemical processing
+  - heat exchanger
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Gujarat
+  - Vadodara
+
+KEYWORD SOURCE MAPPING:
+  Keyword: Hastelloy C-276 seamless pipe supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe supplier India
+    Source: Built from terms in Page Content
+  Keyword: Hastelloy C-276 seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe
+    Source: Found verbatim in Page Content
+  Keyword: Hastelloy C-276 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316L seamless pipe supplier
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: SS 316 seamless pipe supplier
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: Super Duplex 2507 seamless pipe supplier
+    Source: Built from terms in Page Content
+  Keyword: ASTM seamless pipe
+    Source: Built from terms in Page Content
+  Keyword: HIC seamless pipe
+    Source: Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - Hastelloy C-276 seamless pipe supplier India
+    - seamless pipe supplier India
+    - Hastelloy C-276 seamless pipe supplier
+    - SS 316L seamless pipe supplier
+    - seamless pipe for pharmaceutical
+    - seamless pipe for chemical processing
+  Headings To Improve:
+    Old: Why Hastelloy C-276 is Chosen for Aggressive Chemical Exposure
+    New: Why Hastelloy C-276 is Chosen for Aggressive Chemical Exposure
+    Old: Chemical Composition — Hastelloy C-276
+    New: Chemical Composition — Hastelloy C-276
+    Old: Key Properties — What C-276 Resists
+    New: Key Properties — What C-276 Resists
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/inconel-625-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: Inconel 625 engineering material supplier India steel stockist Vadodara Article headline Inconel 625 — High-Temperature and Corrosion-Resistant Solutions author Organization name Creative Metal Industries publisher Organization name Creativ...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Inconel 625 seamless pipe supplier India
+  - seamless pipe supplier India
+  - Inconel 625 seamless pipe
+  - seamless pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Inconel 625 seamless pipe supplier
+  - Inconel 718 seamless pipe supplier
+  - Hastelloy C-276 seamless pipe supplier
+  - SS 316L seamless pipe supplier
+  - ASTM seamless pipe
+  - NACE seamless pipe
+  - MTC seamless pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - seamless pipe for seawater
+  - seamless pipe for power plant
+  - seamless pipe for offshore
+  - Inconel 625 seamless pipe supplier in India
+  - Inconel 718 seamless pipe supplier in India
+  - best seamless pipe supplier in India
+  - seamless pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - stockist
+  - manufacturer
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+  - seamless tube
+  - hot finished seamless pipe
+  - corrosion resistant alloy
+  - dual-phase stainless steel
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - ASTM
+  - NACE
+  - MTC
+  - HIC
+
+PRODUCT GRADES FOUND:
+  - Inconel 625
+  - Inconel 718
+  - Hastelloy C-276
+  - SS 316L
+  - SS 316
+  - P91
+  - P9
+  - Super Duplex 2507
+
+APPLICATION TERMS FOUND:
+  - seawater
+  - power plant
+  - offshore
+  - oil & gas
+  - marine
+  - subsea
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+
+KEYWORD SOURCE MAPPING:
+  Keyword: Inconel 625 seamless pipe supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe supplier India
+    Source: Built from terms in Page Content
+  Keyword: Inconel 625 seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe
+    Source: Found verbatim in Page Content
+  Keyword: Inconel 625 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Inconel 718 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Hastelloy C-276 seamless pipe supplier
+    Source: Built from terms in Page Content
+  Keyword: SS 316L seamless pipe supplier
+    Source: Built from terms in Page Content
+  Keyword: ASTM seamless pipe
+    Source: Built from terms in Page Content
+  Keyword: NACE seamless pipe
+    Source: Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - exporter
+  Missing Location Keywords:
+    - Gujarat
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - Inconel 625 seamless pipe supplier India
+    - seamless pipe supplier India
+    - Inconel 625 seamless pipe supplier
+    - Inconel 718 seamless pipe supplier
+    - seamless pipe for seawater
+    - seamless pipe for power plant
+  Headings To Improve:
+    Old: The Nickel-Chromium Alloy Designed for Extreme Heat
+    New: The Nickel-Chromium Alloy Designed for Extreme Heat
+    Old: Chemical Composition — Inconel 625
+    New: Chemical Composition — Inconel 625
+    Old: Mechanical Properties — Strength at Elevated Temperatures
+    New: Mechanical Properties — Strength at Elevated Temperatures
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/p91-alloy-steel-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: P91 alloy steel power plant pipe SS pipe fittings flanges supplier India engineering material supplier India Article headline P91 Alloy Steel — The Power Plant Piping Standard author Organization name Creative Metal Industries publisher Org...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - P9 seamless pipe supplier India
+  - seamless pipe supplier India
+  - P9 seamless pipe
+  - seamless pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - P9 seamless pipe supplier
+  - P91 seamless pipe supplier
+  - P22 seamless pipe supplier
+  - P92 seamless pipe supplier
+  - IBR seamless pipe
+  - HIC seamless pipe
+  - ASTM seamless pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - seamless pipe for power plant
+  - seamless pipe for boiler
+  - seamless pipe for petrochemical
+  - P9 seamless pipe supplier in India
+  - P91 seamless pipe supplier in India
+  - best seamless pipe supplier in India
+  - seamless pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+
+SEMANTIC KEYWORDS:
+  - pipe flange
+  - weld neck flange
+  - pipe fitting
+  - industrial fitting
+  - steel plate
+  - metal plate
+  - seamless tube
+  - hot finished seamless pipe
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - IBR
+  - HIC
+  - ASTM
+  - ASTM A335
+  - IBR Form III-C
+  - ASTM A234
+  - NACE
+  - MTC
+
+PRODUCT GRADES FOUND:
+  - P9
+  - P91
+  - P22
+  - P92
+  - Inconel 625
+  - SA 516
+
+APPLICATION TERMS FOUND:
+  - power plant
+  - boiler
+  - petrochemical
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+
+KEYWORD SOURCE MAPPING:
+  Keyword: P9 seamless pipe supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe supplier India
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: P9 seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe
+    Source: Found in Headings | Found verbatim in Page Content
+  Keyword: P9 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: P91 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: P22 seamless pipe supplier
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: P92 seamless pipe supplier
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: IBR seamless pipe
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: HIC seamless pipe
+    Source: Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - Gujarat
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - P9 seamless pipe supplier India
+    - seamless pipe supplier India
+    - P9 seamless pipe supplier
+    - P91 seamless pipe supplier
+    - seamless pipe for power plant
+    - seamless pipe for boiler
+  Headings To Improve:
+    Old: What Makes P91 Ideal for High-Temperature Piping?
+    New: What Makes P91 Ideal for High-Temperature Piping?
+    Old: Chemical Composition — P91 (9Cr-1Mo-V-Nb)
+    New: Chemical Composition — P91 (9Cr-1Mo-V-Nb)
+    Old: Mechanical Properties — Creep Strength at Elevated Temperature
+    New: Mechanical Properties — Creep Strength at Elevated Temperature
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/sa-516-carbon-steel-plate-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: carbon steel SA 516 plate stockist India NACE HIC steel plate supplier India steel trading company Gujarat Article headline Carbon Steel SA 516 Plate — The Pressure Vessel and Boiler Standard author Organization name Creative Metal Industri...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SA 516 seamless pipe stockist India
+  - seamless pipe stockist India
+  - SA 516 seamless pipe
+  - seamless pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SA 516 seamless pipe supplier
+  - SS 304 seamless pipe supplier
+  - HIC seamless pipe
+  - NACE seamless pipe
+  - ASME seamless pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - seamless pipe for pressure vessel
+  - seamless pipe for boiler
+  - seamless pipe for oil & gas
+  - SA 516 seamless pipe supplier in India
+  - SS 304 seamless pipe supplier in India
+  - best seamless pipe supplier in India
+  - seamless pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - stockist
+  - supplier
+  - trading company
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+  - seamless tube
+  - hot finished seamless pipe
+  - corrosion resistant alloy
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - HIC
+  - NACE
+  - ASME
+  - IBR
+  - NACE MR-01-75
+  - IBR Form III-C
+  - EN 10204
+  - MTC
+  - ASTM
+
+PRODUCT GRADES FOUND:
+  - SA 516
+  - SS 304
+
+APPLICATION TERMS FOUND:
+  - pressure vessel
+  - boiler
+  - oil & gas
+  - petrochemical
+  - fertilizer
+  - heat exchanger
+  - offshore
+  - refinery
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+  - Gujarat
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SA 516 seamless pipe stockist India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe stockist India
+    Source: Built from terms in Page Content
+  Keyword: SA 516 seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe
+    Source: Found verbatim in Page Content
+  Keyword: SA 516 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 304 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: HIC seamless pipe
+    Source: Built from terms in Page Content
+  Keyword: NACE seamless pipe
+    Source: Built from terms in Page Content
+  Keyword: ASME seamless pipe
+    Source: Built from terms in Page Content
+  Keyword: seamless pipe for pressure vessel
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is plate?
+    - What are the applications of plate?
+    - Which grade of plate should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SA 516 seamless pipe stockist India
+    - seamless pipe stockist India
+    - SA 516 seamless pipe supplier
+    - SS 304 seamless pipe supplier
+    - seamless pipe for pressure vessel
+    - seamless pipe for boiler
+  Headings To Improve:
+    Old: Why SA 516 is the Go-To Plate for Pressure Vessels
+    New: Why SA 516 is the Go-To Plate for Pressure Vessels — India
+    Old: Chemical Composition — SA 516 Gr.70
+    New: Chemical Composition — SA 516 Gr.70
+    Old: Mechanical Properties — SA 516 Grades Compared
+    New: Mechanical Properties — SA 516 Grades Compared
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/nace-hic-steel-plates-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: NACE HIC steel plate supplier India carbon steel SA 516 plate stockist India TMT bars supplier Gujarat Article headline NACE HIC Steel Plates — Essential for Sour Service Environments author Organization name Creative Metal Industries publi...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SA 516 TMT bar supplier India
+  - TMT bar supplier India
+  - SA 516 TMT bar
+  - TMT bar
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SA 516 TMT bar supplier
+  - SA 537 TMT bar supplier
+  - API 5L TMT bar supplier
+  - HIC TMT bar
+  - NACE TMT bar
+  - NACE MR-01-75 TMT bar
+
+LONG TAIL KEYWORDS GENERATED:
+  - TMT bar for oil & gas
+  - TMT bar for oil and gas
+  - TMT bar for offshore
+  - SA 516 TMT bar supplier in India
+  - SA 537 TMT bar supplier in India
+  - best TMT bar supplier in India
+  - TMT bar price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - stockist
+  - trading company
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - reinforcement bar
+  - rebar
+  - seamless tube
+  - hot finished seamless pipe
+  - corrosion resistant alloy
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - HIC
+  - NACE
+  - NACE MR-01-75
+  - NACE MR0175
+  - API 5L
+  - ASME
+
+PRODUCT GRADES FOUND:
+  - SA 516
+  - SA 537
+  - API 5L
+
+APPLICATION TERMS FOUND:
+  - oil & gas
+  - oil and gas
+  - offshore
+  - refinery
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Gujarat
+  - Vadodara
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SA 516 TMT bar supplier India
+    Source: Built from terms in Page Content
+  Keyword: TMT bar supplier India
+    Source: Built from terms in Page Content
+  Keyword: SA 516 TMT bar
+    Source: Built from terms in Page Content
+  Keyword: TMT bar
+    Source: Found verbatim in Page Content
+  Keyword: SA 516 TMT bar supplier
+    Source: Built from terms in Page Content
+  Keyword: SA 537 TMT bar supplier
+    Source: Built from terms in Page Content
+  Keyword: API 5L TMT bar supplier
+    Source: Built from terms in Page Content
+  Keyword: HIC TMT bar
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: NACE TMT bar
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: NACE MR-01-75 TMT bar
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is plate?
+    - What are the applications of plate?
+    - Which grade of plate should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SA 516 TMT bar supplier India
+    - TMT bar supplier India
+    - SA 516 TMT bar supplier
+    - SA 537 TMT bar supplier
+    - TMT bar for oil & gas
+    - TMT bar for oil and gas
+  Headings To Improve:
+    Old: What is NACE HIC and Why It Matters for Oil &amp; Gas
+    New: What is NACE HIC and Why It Matters for Oil &amp; Gas
+    Old: Hydrogen Induced Cracking — The Mechanism Explained
+    New: Hydrogen Induced Cracking — The Mechanism Explained
+    Old: Chemical Requirements for HIC Resistance
+    New: Chemical Requirements for HIC Resistance
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/tmt-bars-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: TMT bars supplier Gujarat creative metal industries vadodara industrial raw material supplier Gujarat Article headline TMT Bars — The Backbone of Gujarat's Infrastructure Development author Organization name Creative Metal Industries publis...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Fe 500 TMT bar supplier Gujarat
+  - TMT bar supplier Gujarat
+  - Fe 500 TMT bar
+  - TMT bar
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Fe 500 TMT bar supplier
+  - Fe 500D TMT bar supplier
+  - Fe 550D TMT bar supplier
+  - SA 516 TMT bar supplier
+  - IS 1786 TMT bar
+  - HIC TMT bar
+
+LONG TAIL KEYWORDS GENERATED:
+  - TMT bar for construction
+  - TMT bar for cement
+  - Fe 500 TMT bar supplier in Gujarat
+  - Fe 500D TMT bar supplier in Gujarat
+  - best TMT bar supplier in Gujarat
+  - TMT bar price in Gujarat
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - manufacturer
+
+SEMANTIC KEYWORDS:
+  - reinforcement bar
+  - rebar
+  - steel rod
+  - round rod
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - IS 1786
+  - HIC
+
+PRODUCT GRADES FOUND:
+  - Fe 500
+  - Fe 500D
+  - Fe 550D
+  - SA 516
+
+APPLICATION TERMS FOUND:
+  - construction
+  - cement
+
+LOCATION KEYWORDS FOUND:
+  - Gujarat
+  - Vadodara
+  - Ahmedabad
+  - Surat
+  - Ankleshwar
+  - Bharuch
+  - Rajkot
+  - Jamnagar
+  - India
+
+KEYWORD SOURCE MAPPING:
+  Keyword: Fe 500 TMT bar supplier Gujarat
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: TMT bar supplier Gujarat
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Fe 500 TMT bar
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: TMT bar
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: Fe 500 TMT bar supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Fe 500D TMT bar supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Fe 550D TMT bar supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SA 516 TMT bar supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: IS 1786 TMT bar
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: HIC TMT bar
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is bar?
+    - What are the applications of bar?
+    - Which grade of bar should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - Fe 500 TMT bar supplier Gujarat
+    - TMT bar supplier Gujarat
+    - Fe 500 TMT bar supplier
+    - Fe 500D TMT bar supplier
+    - TMT bar for construction
+    - TMT bar for cement
+  Headings To Improve:
+    Old: Why TMT Bars Are Essential for Modern Construction
+    New: Why TMT Bars Are Essential for Modern Construction — Gujarat
+    Old: Manufacturing Process — Thermo-Mechanical Treatment Explained
+    New: Manufacturing Process — Thermo-Mechanical Treatment Explained
+    Old: Grades Explained — Fe 500, Fe 500D, Fe 550D, Fe 600
+    New: Grades Explained — Fe 500, Fe 500D, Fe 550D, Fe 600
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/astm-a312-pipe-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: ASTM A312 pipe SS pipe supplier Vadodara seamless pipe difference India Article headline Understanding ASTM A312 Pipe Specifications — A Complete Guide author Organization name Creative Metal Industries publisher Organization name Creative...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 seamless pipe supplier India
+  - seamless pipe supplier India
+  - SS 304 seamless pipe
+  - seamless pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 seamless pipe supplier
+  - SS 316L seamless pipe supplier
+  - SS 316 seamless pipe supplier
+  - P9 seamless pipe supplier
+  - ASTM seamless pipe
+  - ASTM A312 seamless pipe
+  - ASME seamless pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - seamless pipe for boiler
+  - seamless pipe for pressure vessel
+  - seamless pipe for petrochemical
+  - SS 304 seamless pipe supplier in India
+  - SS 316L seamless pipe supplier in India
+  - best seamless pipe supplier in India
+  - seamless pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - stockist
+
+SEMANTIC KEYWORDS:
+  - seamless tube
+  - hot finished seamless pipe
+  - ERW/EFW welded pipe
+  - fabricated pipe
+  - pipe flange
+  - weld neck flange
+  - pipe fitting
+  - industrial fitting
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - ASTM
+  - ASTM A312
+  - ASME
+  - IBR
+  - HIC
+  - IBR Form III-C
+  - NACE
+  - MTC
+  - EN 10204
+
+PRODUCT GRADES FOUND:
+  - SS 304
+  - SS 316L
+  - SS 316
+  - P9
+
+APPLICATION TERMS FOUND:
+  - boiler
+  - pressure vessel
+  - petrochemical
+  - pharmaceutical
+  - power plant
+  - marine
+  - offshore
+  - refinery
+  - seawater
+  - construction
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+  - GIDC Makarpura
+  - Makarpura
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SS 304 seamless pipe supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 304 seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: SS 304 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316L seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: P9 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASTM seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASTM A312 seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+    - exporter
+  Missing Location Keywords:
+    - Gujarat
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SS 304 seamless pipe supplier India
+    - seamless pipe supplier India
+    - SS 304 seamless pipe supplier
+    - SS 316L seamless pipe supplier
+    - seamless pipe for boiler
+    - seamless pipe for pressure vessel
+  Headings To Improve:
+    Old: What is ASTM A312 and What Does It Cover?
+    New: What is ASTM A312 and What Does It Cover?
+    Old: Grades Covered Under ASTM A312
+    New: Grades Covered Under ASTM A312
+    Old: Dimensions and Schedules Covered
+    New: Dimensions and Schedules Covered
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/api-5l-pipe-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: API 5L pipe metal importer exporter India stainless steel pipe manufacturer India Article headline API 5L Pipe — The Global Standard for Oil and Gas Transport author Organization name Creative Metal Industries publisher Organization name Cr...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - API 5L line pipe exporter India
+  - line pipe exporter India
+  - API 5L line pipe
+  - line pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - API 5L line pipe supplier
+  - A106 line pipe supplier
+  - API 5L line pipe
+  - NACE line pipe
+  - HIC line pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - line pipe for offshore
+  - line pipe for subsea
+  - line pipe for oil and gas
+  - API 5L line pipe supplier in India
+  - A106 line pipe supplier in India
+  - best line pipe supplier in India
+  - line pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - exporter
+  - importer
+  - supplier
+  - manufacturer
+
+SEMANTIC KEYWORDS:
+  - seamless tube
+  - hot finished seamless pipe
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+  - corrosion resistant alloy
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - API 5L
+  - NACE
+  - HIC
+  - ASTM
+  - ASTM A106
+  - MTC
+  - ASTM A312
+
+PRODUCT GRADES FOUND:
+  - API 5L
+  - A106
+
+APPLICATION TERMS FOUND:
+  - offshore
+  - subsea
+  - oil and gas
+  - refinery
+  - EPC
+  - oil & gas
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+
+KEYWORD SOURCE MAPPING:
+  Keyword: API 5L line pipe exporter India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: line pipe exporter India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: API 5L line pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: line pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: API 5L line pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: A106 line pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: API 5L line pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: NACE line pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: HIC line pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: line pipe for offshore
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - stockist
+  Missing Location Keywords:
+    - Gujarat
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - API 5L line pipe exporter India
+    - line pipe exporter India
+    - API 5L line pipe supplier
+    - A106 line pipe supplier
+    - line pipe for offshore
+    - line pipe for subsea
+  Headings To Improve:
+    Old: Why API 5L is Essential for Pipeline Transportation
+    New: Why API 5L is Essential for Pipeline Transportation — India
+    Old: Product Specification Levels — PSL1 vs PSL2
+    New: Product Specification Levels — PSL1 vs PSL2
+    Old: Grades Explained — A25 Through X80
+    New: Grades Explained — A25 Through X80
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/pipe-schedule-chart
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: pipe schedule SCH 40 80 160 chart MS angle ISMC weight chart India steel stockist Vadodara Article headline Pipe Schedule SCH 40, 80, and 160 — Complete Weight and Thickness Chart Guide author Organization name Creative Metal Industries pub...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - API 5L seamless pipe stockist Vadodara
+  - seamless pipe stockist Vadodara
+  - API 5L seamless pipe
+  - seamless pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - API 5L seamless pipe supplier
+  - A106 seamless pipe supplier
+  - HIC seamless pipe
+  - ASTM seamless pipe
+  - ASTM A312 seamless pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - seamless pipe for pharmaceutical
+  - seamless pipe for refinery
+  - seamless pipe for boiler
+  - API 5L seamless pipe supplier in Vadodara
+  - A106 seamless pipe supplier in Vadodara
+  - best seamless pipe supplier in Vadodara
+  - seamless pipe price in Vadodara
+
+BUYER INTENT KEYWORDS:
+  - stockist
+  - supplier
+
+SEMANTIC KEYWORDS:
+  - seamless tube
+  - hot finished seamless pipe
+  - corrosion resistant alloy
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - HIC
+  - ASTM
+  - ASTM A312
+  - ASME
+  - ASTM A106
+  - API 5L
+
+PRODUCT GRADES FOUND:
+  - API 5L
+  - A106
+
+APPLICATION TERMS FOUND:
+  - pharmaceutical
+  - refinery
+  - boiler
+
+LOCATION KEYWORDS FOUND:
+  - Vadodara
+  - India
+  - GIDC Makarpura
+  - Makarpura
+
+KEYWORD SOURCE MAPPING:
+  Keyword: API 5L seamless pipe stockist Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe stockist Vadodara
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: API 5L seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: API 5L seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: A106 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: HIC seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASTM seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASTM A312 seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe for pharmaceutical
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+    - exporter
+  Missing Location Keywords:
+    - Gujarat
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - API 5L seamless pipe stockist Vadodara
+    - seamless pipe stockist Vadodara
+    - API 5L seamless pipe supplier
+    - A106 seamless pipe supplier
+    - seamless pipe for pharmaceutical
+    - seamless pipe for refinery
+  Headings To Improve:
+    Old: What Does Pipe Schedule Mean?
+    New: What Does Pipe Schedule Mean? — Vadodara
+    Old: Wall Thickness Chart — SCH 10S, 40, 80, 160 (mm)
+    New: Wall Thickness Chart — SCH 10S, 40, 80, 160 (mm)
+    Old: Weight Calculation Formula
+    New: Weight Calculation Formula
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/mill-test-certificate-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: how to read mill test certificate creative metal industries vadodara engineering material supplier India Article headline How to Read a Mill Test Certificate (MTC) — A Complete Guide author Organization name Creative Metal Industries publis...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 pipe manufacturer India
+  - pipe manufacturer India
+  - SS 304 pipe
+  - pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SS 304 pipe supplier
+  - MTC pipe
+  - EN 10204 pipe
+  - IBR pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - pipe for boiler
+  - pipe for pressure vessel
+  - SS 304 pipe supplier in India
+  - best pipe supplier in India
+  - pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - manufacturer
+  - supplier
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+  - pipe flange
+  - weld neck flange
+  - corrosion resistant alloy
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - MTC
+  - EN 10204
+  - IBR
+  - ASTM
+  - HIC
+  - NACE
+  - IBR Form III-C
+  - ASME
+  - ASTM A312
+
+PRODUCT GRADES FOUND:
+  - SS 304
+
+APPLICATION TERMS FOUND:
+  - boiler
+  - pressure vessel
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SS 304 pipe manufacturer India
+    Source: Built from terms in Page Content
+  Keyword: pipe manufacturer India
+    Source: Built from terms in Page Content
+  Keyword: SS 304 pipe
+    Source: Built from terms in Page Content
+  Keyword: pipe
+    Source: Found verbatim in Page Content
+  Keyword: SS 304 pipe supplier
+    Source: Built from terms in Page Content
+  Keyword: MTC pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: EN 10204 pipe
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: IBR pipe
+    Source: Built from terms in Page Content
+  Keyword: pipe for boiler
+    Source: Built from terms in Page Content
+  Keyword: pipe for pressure vessel
+    Source: Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - Gujarat
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SS 304 pipe manufacturer India
+    - pipe manufacturer India
+    - SS 304 pipe supplier
+    - MTC pipe
+    - pipe for boiler
+    - pipe for pressure vessel
+  Headings To Improve:
+    Old: What is an MTC and Why It Matters
+    New: What is an MTC and Why It Matters
+    Old: Key Sections of an MTC Explained
+    New: Key Sections of an MTC Explained
+    Old: Understanding Heat Numbers and Lot Numbers
+    New: Understanding Heat Numbers and Lot Numbers
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/titanium-grade-2-vs-grade-5
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: titanium grade 2 grade 5 India metal importer exporter India industrial metal supplier India Article headline Titanium Grade 2 vs Grade 5 — Which One Should You Choose?
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Titanium Grade 2 pipe supplier India
+  - pipe supplier India
+  - Titanium Grade 2 pipe
+  - pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - Titanium Grade 2 pipe supplier
+  - Ti-6Al-4V pipe supplier
+  - Titanium Grade 5 pipe supplier
+  - SS 316L pipe supplier
+  - ASTM pipe
+  - HIC pipe
+  - MTC pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - pipe for aerospace
+  - pipe for marine
+  - pipe for chemical processing
+  - Titanium Grade 2 pipe supplier in India
+  - Ti-6Al-4V pipe supplier in India
+  - best pipe supplier in India
+  - pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - exporter
+  - importer
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - pipe fitting
+  - industrial fitting
+  - pipe flange
+  - weld neck flange
+  - corrosion resistant alloy
+  - dual-phase stainless steel
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - ASTM
+  - HIC
+  - MTC
+
+PRODUCT GRADES FOUND:
+  - Titanium Grade 2
+  - Ti-6Al-4V
+  - Titanium Grade 5
+  - SS 316L
+  - SS 316
+  - Inconel 625
+  - Hastelloy C-276
+  - Super Duplex 2507
+
+APPLICATION TERMS FOUND:
+  - aerospace
+  - marine
+  - chemical processing
+  - desalination
+  - seawater
+  - pressure vessel
+  - power plant
+  - offshore
+  - heat exchanger
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+
+KEYWORD SOURCE MAPPING:
+  Keyword: Titanium Grade 2 pipe supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: pipe supplier India
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: Titanium Grade 2 pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: pipe
+    Source: Found verbatim in Page Content
+  Keyword: Titanium Grade 2 pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Ti-6Al-4V pipe supplier
+    Source: Found in Headings | Built from terms in Page Content
+  Keyword: Titanium Grade 5 pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316L pipe supplier
+    Source: Built from terms in Page Content
+  Keyword: ASTM pipe
+    Source: Built from terms in Page Content
+  Keyword: HIC pipe
+    Source: Found in H1 | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+    - stockist
+  Missing Location Keywords:
+    - Gujarat
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - Titanium Grade 2 pipe supplier India
+    - pipe supplier India
+    - Titanium Grade 2 pipe supplier
+    - Ti-6Al-4V pipe supplier
+    - pipe for aerospace
+    - pipe for marine
+  Headings To Improve:
+    Old: Titanium Grade 2 — Commercially Pure, Maximum Corrosion Resistance
+    New: Titanium Grade 2 — Commercially Pure, Maximum Corrosion Resistance
+    Old: Titanium Grade 5 — Ti-6Al-4V, Aerospace-Level Strength
+    New: Titanium Grade 5 — Ti-6Al-4V, Aerospace-Level Strength
+    Old: Strength Comparison — Grade 2 vs Grade 5
+    New: Strength Comparison — Grade 2 vs Grade 5
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/ss-pipe-fittings-flanges-guide
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: SS pipe fittings flanges supplier India stainless steel pipe manufacturer India SS pipe supplier Vadodara Article headline SS Pipe Fittings and Flanges — The Complete Piping System Kit author Organization name Creative Metal Industries publ...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - A105 buttweld fitting supplier India
+  - buttweld fitting supplier India
+  - A105 buttweld fitting
+  - buttweld fitting
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - A105 buttweld fitting supplier
+  - SS 304 buttweld fitting supplier
+  - SS 316L buttweld fitting supplier
+  - SS 316 buttweld fitting supplier
+  - ASTM buttweld fitting
+  - ASME buttweld fitting
+  - ASME B16.9 buttweld fitting
+
+LONG TAIL KEYWORDS GENERATED:
+  - buttweld fitting for boiler
+  - A105 buttweld fitting supplier in India
+  - SS 304 buttweld fitting supplier in India
+  - best buttweld fitting supplier in India
+  - buttweld fitting price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - manufacturer
+
+SEMANTIC KEYWORDS:
+  - pipe flange
+  - weld neck flange
+  - pipe fitting
+  - industrial fitting
+  - corrosion resistant alloy
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - ASTM
+  - ASME
+  - ASME B16.9
+  - ASTM A182
+  - ASTM A234
+  - ASME B16.5
+  - IBR
+  - HIC
+  - ASTM A312
+  - ASTM A403
+  - ASME B16.11
+  - IBR Form III-C
+  - MSS SP-43
+
+PRODUCT GRADES FOUND:
+  - A105
+  - SS 304
+  - SS 316L
+  - SS 316
+  - S31803
+  - S32750
+  - Inconel 625
+  - Monel 400
+  - Hastelloy C-276
+  - P91
+  - P22
+  - P11
+  - P9
+
+APPLICATION TERMS FOUND:
+  - boiler
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+
+KEYWORD SOURCE MAPPING:
+  Keyword: A105 buttweld fitting supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: buttweld fitting supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: A105 buttweld fitting
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: buttweld fitting
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: A105 buttweld fitting supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 304 buttweld fitting supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316L buttweld fitting supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 316 buttweld fitting supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASTM buttweld fitting
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASME buttweld fitting
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - Gujarat
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - A105 buttweld fitting supplier India
+    - buttweld fitting supplier India
+    - A105 buttweld fitting supplier
+    - SS 304 buttweld fitting supplier
+    - buttweld fitting for boiler
+    - A105 buttweld fitting supplier in India
+  Headings To Improve:
+    Old: Types of Pipe Fittings
+    New: Types of Pipe Fittings — India
+    Old: Types of Flanges
+    New: Types of Flanges
+    Old: Material Grades Available
+    New: Material Grades Available
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/why-creative-metal-industries
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: creative metal industries vadodara steel trading company Gujarat TMT bars supplier Gujarat steel stockist Vadodara Article headline Why Creative Metal Industries is Gujarat's Preferred Steel Trading Company author Organization name Creative...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - P9 structural steel trading company Gujarat
+  - structural steel trading company Gujarat
+  - P9 structural steel
+  - structural steel
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - P9 structural steel supplier
+  - P5 structural steel supplier
+  - SA 516 structural steel supplier
+  - A106 structural steel supplier
+  - IS 2062 structural steel
+  - IBR structural steel
+  - HIC structural steel
+
+LONG TAIL KEYWORDS GENERATED:
+  - structural steel for petrochemical
+  - structural steel for EPC
+  - structural steel for construction
+  - P9 structural steel supplier in Gujarat
+  - P5 structural steel supplier in Gujarat
+  - best structural steel supplier in Gujarat
+  - structural steel price in Gujarat
+
+BUYER INTENT KEYWORDS:
+  - trading company
+  - supplier
+  - stockist
+  - manufacturer
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - reinforcement bar
+  - rebar
+  - pipe flange
+  - weld neck flange
+  - pipe fitting
+  - industrial fitting
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - IS 2062
+  - IBR
+  - HIC
+  - NACE
+  - MTC
+  - API 5L
+  - IBR Form III-C
+  - EN 10204
+  - IS 808
+  - NACE MR-01-75
+  - ASTM
+  - ASME
+
+PRODUCT GRADES FOUND:
+  - P9
+  - P5
+  - SA 516
+  - A106
+  - P91
+  - P22
+  - P11
+  - P92
+  - API 5L
+  - Fe 500
+  - Duplex 2205
+  - S31803
+  - S32750
+  - Inconel 625
+  - Monel 400
+  - Hastelloy C-276
+  - Fe 500D
+
+APPLICATION TERMS FOUND:
+  - petrochemical
+  - EPC
+  - construction
+  - oil & gas
+  - fertilizer
+  - power plant
+  - desalination
+  - marine
+  - offshore
+  - boiler
+  - pressure vessel
+  - defence
+  - cement
+  - aerospace
+  - food processing
+
+LOCATION KEYWORDS FOUND:
+  - Gujarat
+  - Vadodara
+  - India
+  - Makarpura
+  - Ankleshwar
+  - Bharuch
+  - Dahej
+  - Surat
+  - Ahmedabad
+  - Rajkot
+  - GIDC Makarpura
+  - UAE
+  - Oman
+  - Kuwait
+  - Bahrain
+  - Saudi Arabia
+  - Hazira
+  - Jamnagar
+
+KEYWORD SOURCE MAPPING:
+  Keyword: P9 structural steel trading company Gujarat
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: structural steel trading company Gujarat
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: P9 structural steel
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: structural steel
+    Source: Found in H1 | Found verbatim in Page Content
+  Keyword: P9 structural steel supplier
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: P5 structural steel supplier
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: SA 516 structural steel supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: A106 structural steel supplier
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: IS 2062 structural steel
+    Source: Found in H1 | Built from terms in Page Content
+  Keyword: IBR structural steel
+    Source: Found in H1 | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is structural steel?
+    - What are the applications of structural steel?
+    - Which grade of structural steel should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - P9 structural steel trading company Gujarat
+    - structural steel trading company Gujarat
+    - P9 structural steel supplier
+    - P5 structural steel supplier
+    - structural steel for petrochemical
+    - structural steel for EPC
+  Headings To Improve:
+    Old: Our Legacy and Presence in Vadodara
+    New: Our Legacy and Presence in Vadodara
+    Old: Extensive Inventory — Every Metal Family
+    New: Extensive Inventory — Every Metal Family
+    Old: Quality Assurance — Documentation You Can Trust
+    New: Quality Assurance — Documentation You Can Trust
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/industrial-raw-material-supplier-india
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: industrial raw material supplier Gujarat engineering material supplier India metal importer exporter India creative metal industries vadodara Article headline The Critical Role of Industrial Raw Material Suppliers in India's Growth Story au...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SA 516 structural steel supplier India
+  - structural steel supplier India
+  - SA 516 structural steel
+  - structural steel
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - SA 516 structural steel supplier
+  - Fe 500D structural steel supplier
+  - Fe 500 structural steel supplier
+  - P91 structural steel supplier
+  - MTC structural steel
+  - IBR structural steel
+  - IS 2062 structural steel
+
+LONG TAIL KEYWORDS GENERATED:
+  - structural steel for power plant
+  - structural steel for construction
+  - structural steel for cement
+  - SA 516 structural steel supplier in India
+  - Fe 500D structural steel supplier in India
+  - best structural steel supplier in India
+  - structural steel price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - exporter
+  - importer
+  - trading company
+
+SEMANTIC KEYWORDS:
+  - steel plate
+  - metal plate
+  - reinforcement bar
+  - rebar
+  - corrosion resistant alloy
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - MTC
+  - IBR
+  - IS 2062
+  - ASTM
+  - NACE
+  - HIC
+  - ASTM A312
+  - ASTM A335
+  - IBR Form III-C
+
+PRODUCT GRADES FOUND:
+  - SA 516
+  - Fe 500D
+  - Fe 500
+  - P91
+  - P22
+  - P9
+
+APPLICATION TERMS FOUND:
+  - power plant
+  - construction
+  - cement
+  - fertilizer
+  - pharmaceutical
+  - refinery
+  - offshore
+  - subsea
+  - boiler
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Gujarat
+  - Vadodara
+  - UAE
+  - Oman
+  - Kuwait
+  - Saudi Arabia
+  - Bahrain
+
+KEYWORD SOURCE MAPPING:
+  Keyword: SA 516 structural steel supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: structural steel supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SA 516 structural steel
+    Source: Built from terms in Page Content
+  Keyword: structural steel
+    Source: Found verbatim in Page Content
+  Keyword: SA 516 structural steel supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Fe 500D structural steel supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: Fe 500 structural steel supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: P91 structural steel supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: MTC structural steel
+    Source: Built from terms in Page Content
+  Keyword: IBR structural steel
+    Source: Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - manufacturer
+    - stockist
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is bar?
+    - What are the applications of bar?
+    - Which grade of bar should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - SA 516 structural steel supplier India
+    - structural steel supplier India
+    - SA 516 structural steel supplier
+    - Fe 500D structural steel supplier
+    - structural steel for power plant
+    - structural steel for construction
+  Headings To Improve:
+    Old: Supporting Infrastructure Development
+    New: Supporting Infrastructure Development
+    Old: Enabling Manufacturing — Engineering & Specialty Metals
+    New: Enabling Manufacturing — Engineering & Specialty Metals
+    Old: Import and Export — Connecting Global and Local Markets
+    New: Import and Export — Connecting Global and Local Markets
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+
+============================================================
+URL: https://www.creativemetalind.com/blog/erw-vs-seamless-pipe
+PAGE TYPE: Blog Page
+MAIN CONTENT SUMMARY: ERW vs seamless pipe difference India Article headline ERW vs Seamless Pipe — Complete Comparison for Indian Buyers author Organization name Creative Metal Industries publisher Organization name Creative Metal Industries logo ImageObject da...
+
+PRIMARY KEYWORDS EXTRACTED FROM CONTENT:
+  - API 5L seamless pipe supplier India
+  - seamless pipe supplier India
+  - API 5L seamless pipe
+  - seamless pipe
+
+SECONDARY KEYWORDS EXTRACTED FROM CONTENT:
+  - API 5L seamless pipe supplier
+  - A106 seamless pipe supplier
+  - SS 304 seamless pipe supplier
+  - P5 seamless pipe supplier
+  - ASTM seamless pipe
+  - IS 1239 seamless pipe
+  - API 5L seamless pipe
+
+LONG TAIL KEYWORDS GENERATED:
+  - seamless pipe for boiler
+  - seamless pipe for power plant
+  - seamless pipe for petrochemical
+  - API 5L seamless pipe supplier in India
+  - A106 seamless pipe supplier in India
+  - best seamless pipe supplier in India
+  - seamless pipe price in India
+
+BUYER INTENT KEYWORDS:
+  - supplier
+  - manufacturer
+
+SEMANTIC KEYWORDS:
+  - seamless tube
+  - hot finished seamless pipe
+  - ERW/EFW welded pipe
+  - fabricated pipe
+  - pipe fitting
+  - industrial fitting
+  - steel rod
+  - round rod
+
+INDUSTRY / STANDARD TERMS FOUND:
+  - ASTM
+  - IS 1239
+  - API 5L
+  - HIC
+  - ASTM A106
+  - IBR
+  - ASTM A53
+  - IS 3589
+  - ASTM A312
+  - NACE MR-01-75
+  - NACE
+  - ASTM A335
+  - ASME
+
+PRODUCT GRADES FOUND:
+  - API 5L
+  - A106
+  - SS 304
+  - P5
+  - P9
+  - P92
+
+APPLICATION TERMS FOUND:
+  - boiler
+  - power plant
+  - petrochemical
+  - offshore
+  - subsea
+  - refinery
+  - pressure vessel
+  - oil & gas
+
+LOCATION KEYWORDS FOUND:
+  - India
+  - Vadodara
+  - Gujarat
+
+KEYWORD SOURCE MAPPING:
+  Keyword: API 5L seamless pipe supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe supplier India
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: API 5L seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: seamless pipe
+    Source: Found in H1 | Found in Headings | Found verbatim in Page Content
+  Keyword: API 5L seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: A106 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: SS 304 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: P5 seamless pipe supplier
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: ASTM seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+  Keyword: IS 1239 seamless pipe
+    Source: Found in H1 | Found in Headings | Built from terms in Page Content
+
+SEO OPPORTUNITIES:
+  Missing Commercial Keywords:
+    - stockist
+    - exporter
+  Missing Location Keywords:
+    - (primary locations present)
+  Missing FAQ Opportunities:
+    - What is pipe?
+    - What are the applications of pipe?
+    - Which grade of pipe should I choose?
+
+OPTIMIZATION PLAN:
+  Keywords To Add (all traceable to content above):
+    - API 5L seamless pipe supplier India
+    - seamless pipe supplier India
+    - API 5L seamless pipe supplier
+    - A106 seamless pipe supplier
+    - seamless pipe for boiler
+    - seamless pipe for power plant
+  Headings To Improve:
+    Old: Table of Contents
+    New: Table of Contents
+    Old: 1. What is ERW Pipe?
+    New: 1. What is ERW Pipe? — India
+    Old: 2. What is Seamless Pipe?
+    New: 2. What is Seamless Pipe? — India
+  Content Sections To Improve:
+    - Introduction
+    - Applications
+    - Specifications
+    - FAQ
+
+============================================================
+

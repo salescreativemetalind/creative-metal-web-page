@@ -11,10 +11,15 @@ export default function PipeScheduleChart() {
   return (
     <>
       <Title>Pipe Schedule Chart — SCH 40, 80, 160 Weight & Thickness | CMI</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete pipe schedule chart — SCH 5S, 10S, 40, 80, 160, XXS wall thickness and weight per metre for all sizes. Weight calculation formula. Steel stockist Vadodara. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/pipe-schedule-chart" />
       <Meta property="og:title" content="Pipe Schedule SCH 40, 80, 160 — Complete Chart Guide" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Pipe Schedule Chart — SCH 40, 80, 160 Weight & Thickness | CMI" />
+      <Meta name="twitter:description" content="Complete pipe schedule chart — SCH 5S, 10S, 40, 80, 160, XXS wall thickness and weight per metre for all sizes. Weight calculation formula. Steel stockist Vadodara. Creative Metal Industries." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

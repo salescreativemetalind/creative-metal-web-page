@@ -11,10 +11,15 @@ export default function Inconel625Guide() {
   return (
     <>
       <Title>Inconel 625 Guide — Properties & Applications | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Inconel 625 (UNS N06625) — nickel-chromium-molybdenum-niobium alloy for high-temperature and corrosive service. Properties, composition, applications. Engineering material supplier India." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/inconel-625-guide" />
       <Meta property="og:title" content="Inconel 625 — High-Temperature & Corrosion-Resistant Solutions" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Inconel 625 Guide — Properties & Applications | CMI India" />
+      <Meta name="twitter:description" content="Inconel 625 (UNS N06625) — nickel-chromium-molybdenum-niobium alloy for high-temperature and corrosive service. Properties, composition, applications. Engineering material supplier India." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

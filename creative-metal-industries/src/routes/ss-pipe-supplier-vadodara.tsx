@@ -117,6 +117,7 @@ export default function SsPipeSupplierVadodara() {
   return (
     <>
       <Title>SS Pipe Supplier Vadodara | SS 304, 316L, Duplex 2205 | Creative Metal Industries</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta
         name="description"
         content="#1 SS pipe supplier in Vadodara — Creative Metal Industries. Ready stock of SS 304, 316L, 321, Duplex 2205 seamless & welded pipes. IBR Form III-C, NACE, MTC certified. GIDC Makarpura. Call +91 99982 80619 for same-day dispatch."
@@ -127,6 +128,10 @@ export default function SsPipeSupplierVadodara() {
       <Meta property="og:description" content="Vadodara's leading SS pipe supplier — SS 304, 316L, Duplex 2205 ready stock. IBR, NACE, MTC certified. Same-day dispatch. Call +91 99982 80619." />
       <Meta property="og:url"         content="https://www.creativemetalind.com/ss-pipe-supplier-vadodara" />
       <Meta property="og:image"       content="https://www.creativemetalind.com/og-image.jpg" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="SS Pipe Supplier Vadodara | SS 304, 316L, Duplex 2205 | Creative Metal Industries" />
+      <Meta name="twitter:description" content="#1 SS pipe supplier in Vadodara — Creative Metal Industries. Ready stock of SS 304, 316L, 321, Duplex 2205 seamless & welded pipes. IBR Form III-C, NACE, MTC certified. GIDC Makarpura. Call +91 99982 80619 for same-day dispatch." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

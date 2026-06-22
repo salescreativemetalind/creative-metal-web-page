@@ -11,10 +11,15 @@ export default function NaceHicGuide() {
   return (
     <>
       <Title>NACE HIC Steel Plates Guide — Sour Service | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="NACE HIC steel plates — what they are, when you need them, testing criteria (TM-0284), chemical requirements, and sourcing in India. NACE HIC steel plate supplier India. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/nace-hic-steel-plates-guide" />
       <Meta property="og:title" content="NACE HIC Steel Plates — Essential for Sour Service" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="NACE HIC Steel Plates Guide — Sour Service | CMI India" />
+      <Meta name="twitter:description" content="NACE HIC steel plates — what they are, when you need them, testing criteria (TM-0284), chemical requirements, and sourcing in India. NACE HIC steel plate supplier India. Creative Metal Industries." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 

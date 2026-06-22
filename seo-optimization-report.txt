@@ -1,0 +1,1621 @@
+================================================================================
+SEO OPTIMIZATION REPORT — CREATIVE METAL INDUSTRIES
+Website: https://www.creativemetalind.com
+Generated: 2026-06-22 14:54:26
+Framework: SolidJS + SolidStart (SSR)
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/
+--------------------------------------------------------------------------------
+Current Title:  SS Pipe Supplier Vadodara | SS Pipes, Plates & Fittings | Creative Metal Industries
+Updated Title:  SS Pipe Supplier Vadodara | SS Pipes, Plates & Fittings | Creative Metal Industries
+
+Current H1:     Premium SS Pipes, Pipe Fittings,Flanges &amp; Plates
+Updated H1:     Premium SS Pipes, Pipe Fittings,Flanges &amp; Plates
+
+Primary Keyword: premium ss pipes, pipe fittings,flanges &amp; plates
+
+Keyword Variations Added:
+  - premium ss pipes, pipe fittings,flanges &amp; plates
+  - premium-ss-pipes,-pipe-fittings,flanges-&amp;-plates
+  - premium ss pipes, pipe fittings,flanges &amp; plate
+  - best premium ss pipes, pipe fittings,flanges &amp; plates
+  - top premium ss pipes, pipe fittings,flanges &amp; plates
+  - leading premium ss pipes, pipe fittings,flanges &amp; plates
+  - stainless steel pipe
+  - SS seamless pipe
+  - SS welded pipe
+  - premium ss pipes, pipe fittings,flanges &amp; plates price
+  - buy premium ss pipes, pipe fittings,flanges &amp; plates
+  - premium ss pipes, pipe fittings,flanges &amp; plates price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: LocalBusiness, ImageObject, City, State, Country, GeoCoordinates, PostalAddress, OpeningHoursSpecification, ContactPoint, FAQPage, Question, Answer
+Detected Headings: 37 (H2-H6)
+Detected Internal Links: 5
+Detected Images with Alt: 2
+
+SEO Score Before: 83/100
+SEO Score After:  83/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/about
+--------------------------------------------------------------------------------
+Current Title:  About Us | Creative Metal Industries Vadodara
+Updated Title:  About Us | Creative Metal Industries Vadodara
+
+Current H1:     Creative Metal Industries
+Updated H1:     Creative Metal Industries
+
+Primary Keyword: about
+
+Keyword Variations Added:
+  - about
+  - abouts
+  - best about
+  - top about
+  - leading about
+  - about price
+  - buy about
+  - about price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: (none)
+Detected Headings: 5 (H2-H6)
+Detected Internal Links: 0
+Detected Images with Alt: 0
+
+SEO Score Before: 64/100
+SEO Score After:  70/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/products
+--------------------------------------------------------------------------------
+Current Title:  Steel Size & Weight Charts | Creative Metal Industries
+Updated Title:  Steel Size & Weight Charts | Creative Metal Industries
+
+Current H1:     Steel Product Specifications &amp; Size Charts
+Updated H1:     Steel Product Specifications &amp; Size Charts
+
+Primary Keyword: products
+
+Keyword Variations Added:
+  - products
+  - product
+  - best products
+  - top products
+  - leading products
+  - products price
+  - buy products
+  - products price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Open Graph tags (og:type, title, description, url, image, locale)
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: (none)
+Detected Headings: 13 (H2-H6)
+Detected Internal Links: 1
+Detected Images with Alt: 0
+
+SEO Score Before: 54/100
+SEO Score After:  70/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/reviews
+--------------------------------------------------------------------------------
+Current Title:  Customer Reviews | Creative Metal Industries Vadodara
+Updated Title:  Customer Reviews | Creative Metal Industries Vadodara
+
+Current H1:     What Our Customers Say
+Updated H1:     What Our Customers Say
+
+Primary Keyword: reviews
+
+Keyword Variations Added:
+  - reviews
+  - review
+  - best reviews
+  - top reviews
+  - leading reviews
+  - reviews price
+  - buy reviews
+  - reviews price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Open Graph tags (og:type, title, description, url, image, locale)
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: LocalBusiness, AggregateRating, Review, Person, Rating
+Detected Headings: 5 (H2-H6)
+Detected Internal Links: 0
+Detected Images with Alt: 0
+
+SEO Score Before: 67/100
+SEO Score After:  83/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/metal-trading
+--------------------------------------------------------------------------------
+Current Title:  Metal Trading Company in Vadodara | Creative Metal Industries
+Updated Title:  Metal Trading Company in Vadodara | Creative Metal Industries
+
+Current H1:     Metal Trading Company in Vadodara
+Updated H1:     Metal Trading Company in Vadodara
+
+Primary Keyword: metal trading
+
+Keyword Variations Added:
+  - metal trading
+  - metal-trading
+  - metal tradings
+  - best metal trading
+  - top metal trading
+  - leading metal trading
+  - metal trading price
+  - buy metal trading
+  - metal trading price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: FAQPage, Question, Answer, Service, LocalBusiness, PostalAddress, OfferCatalog, Offer, BreadcrumbList, ListItem
+Detected Headings: 14 (H2-H6)
+Detected Internal Links: 1
+Detected Images with Alt: 0
+
+SEO Score Before: 88/100
+SEO Score After:  88/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/ss-pipe-supplier-vadodara
+--------------------------------------------------------------------------------
+Current Title:  SS Pipe Supplier Vadodara | SS 304, 316L, Duplex 2205 | Creative Metal Industries
+Updated Title:  SS Pipe Supplier Vadodara | SS 304, 316L, Duplex 2205 | Creative Metal Industries
+
+Current H1:     #1 SS Pipe Supplier in{" "}
+              Vadodara
+Updated H1:     #1 SS Pipe Supplier in{" "}
+              Vadodara
+
+Primary Keyword: ss pipe supplier vadodara
+
+Keyword Variations Added:
+  - ss pipe supplier vadodara
+  - ss-pipe-supplier-vadodara
+  - ss pipe supplier in vadodara
+  - best ss pipe supplier vadodara
+  - top ss pipe supplier vadodara
+  - ss pipe supplier near vadodara
+  - ss pipe supplier manufacturer vadodara
+  - ss pipe supplier dealer vadodara
+  - ss pipe suppliers
+  - leading ss pipe supplier vadodara
+  - ss pipe stockist
+  - ss pipe dealer
+  - ss pipe manufacturer
+  - ss pipe distributor
+  - stainless steel pipe
+  - SS seamless pipe
+  - SS welded pipe
+  - ss pipe supplier GIDC Makarpura
+  - ss pipe supplier Gujarat
+  - ss pipe supplier price
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: WebPage, BreadcrumbList, ListItem, LocalBusiness, PostalAddress, FAQPage, Question, Answer
+Detected Headings: 11 (H2-H6)
+Detected Internal Links: 1
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/stainless-steel-supplier-vadodara
+--------------------------------------------------------------------------------
+Current Title:  Stainless Steel Supplier Vadodara | SS Pipe Manufacturer Gujarat | Creative Metal Industries
+Updated Title:  Stainless Steel Supplier Vadodara | SS Pipe Manufacturer Gujarat | Creative Metal Industries
+
+Current H1:     Stainless Steel Supplier &amp; Manufacturer in{" "}
+              Vadodara, Gujarat
+Updated H1:     Stainless Steel Supplier &amp; Manufacturer in{" "}
+              Vadodara, Gujarat
+
+Primary Keyword: stainless steel supplier vadodara
+
+Keyword Variations Added:
+  - stainless steel supplier vadodara
+  - stainless-steel-supplier-vadodara
+  - stainless steel supplier in vadodara
+  - best stainless steel supplier vadodara
+  - top stainless steel supplier vadodara
+  - stainless steel supplier near vadodara
+  - stainless steel supplier manufacturer vadodara
+  - stainless steel supplier dealer vadodara
+  - stainless steel suppliers
+  - leading stainless steel supplier vadodara
+  - stainless steel stockist
+  - stainless steel dealer
+  - stainless steel manufacturer
+  - stainless steel distributor
+  - stainless steel supplier GIDC Makarpura
+  - stainless steel supplier Gujarat
+  - stainless steel supplier price
+  - buy stainless steel supplier
+  - stainless steel supplier price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: LocalBusiness, PostalAddress, BreadcrumbList, ListItem, FAQPage, Question, Answer
+Detected Headings: 6 (H2-H6)
+Detected Internal Links: 1
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/duplex-steel-supplier-vadodara
+--------------------------------------------------------------------------------
+Current Title:  Duplex Steel Supplier Vadodara | P91 Alloy Steel | IBR Certified Pipes Gujarat | CMI
+Updated Title:  Duplex Steel Supplier Vadodara | P91 Alloy Steel | IBR Certified Pipes Gujarat | CMI
+
+Current H1:     Duplex Steel &amp; Alloy Steel Supplier in{" "}
+              Vadodara — IBR Certified
+Updated H1:     Duplex Steel &amp; Alloy Steel Supplier in{" "}
+              Vadodara — IBR Certified
+
+Primary Keyword: duplex steel supplier vadodara
+
+Keyword Variations Added:
+  - duplex steel supplier vadodara
+  - duplex-steel-supplier-vadodara
+  - duplex steel supplier in vadodara
+  - best duplex steel supplier vadodara
+  - top duplex steel supplier vadodara
+  - duplex steel supplier near vadodara
+  - duplex steel supplier manufacturer vadodara
+  - duplex steel supplier dealer vadodara
+  - duplex steel suppliers
+  - leading duplex steel supplier vadodara
+  - duplex steel stockist
+  - duplex steel dealer
+  - duplex steel manufacturer
+  - duplex steel distributor
+  - duplex 2205
+  - UNS S31803
+  - duplex stainless steel
+  - duplex steel supplier GIDC Makarpura
+  - duplex steel supplier Gujarat
+  - duplex steel supplier price
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: LocalBusiness, PostalAddress, BreadcrumbList, ListItem, FAQPage, Question, Answer
+Detected Headings: 6 (H2-H6)
+Detected Internal Links: 1
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/carbon-steel-pipe-fittings-vadodara
+--------------------------------------------------------------------------------
+Current Title:  Carbon Steel Pipe Fittings Flanges Supplier Vadodara | ERW Pipe | Creative Metal Industries
+Updated Title:  Carbon Steel Pipe Fittings Flanges Supplier Vadodara | ERW Pipe | Creative Metal Industries
+
+Current H1:     Carbon Steel Pipe, Fittings &amp; Flanges Supplier in{" "}
+              Vadodara
+Updated H1:     Carbon Steel Pipe, Fittings &amp; Flanges Supplier in{" "}
+              Vadodara
+
+Primary Keyword: carbon steel pipe fittings vadodara
+
+Keyword Variations Added:
+  - carbon steel pipe fittings vadodara
+  - carbon-steel-pipe-fittings-vadodara
+  - carbon steel pipe fittings in vadodara
+  - best carbon steel pipe fittings vadodara
+  - top carbon steel pipe fittings vadodara
+  - carbon steel pipe fittings near vadodara
+  - carbon steel pipe fittings manufacturer vadodara
+  - carbon steel pipe fittings dealer vadodara
+  - carbon steel pipe fitting
+  - leading carbon steel pipe fittings vadodara
+  - CS pipe
+  - ASTM A106
+  - carbon steel seamless pipe
+  - carbon steel pipe fittings GIDC Makarpura
+  - carbon steel pipe fittings Gujarat
+  - carbon steel pipe fittings price
+  - buy carbon steel pipe fittings
+  - carbon steel pipe fittings price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: LocalBusiness, PostalAddress, BreadcrumbList, ListItem, FAQPage, Question, Answer
+Detected Headings: 6 (H2-H6)
+Detected Internal Links: 1
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/carbon-steel-sa516-plate-stockist-india
+--------------------------------------------------------------------------------
+Current Title:  SA 516 Plate Stockist India | Gr.60/70 | Creative Metal Industries
+Updated Title:  SA 516 Plate Stockist India | Gr.60/70 | Creative Metal Industries
+
+Current H1:     Carbon Steel SA 516 Plate Stockist in India
+Updated H1:     Carbon Steel SA 516 Plate Stockist in India
+
+Primary Keyword: carbon steel sa516 plate stockist india
+
+Keyword Variations Added:
+  - carbon steel sa516 plate stockist india
+  - carbon-steel-sa516-plate-stockist-india
+  - carbon steel sa516 plate stockist in india
+  - best carbon steel sa516 plate stockist india
+  - top carbon steel sa516 plate stockist india
+  - carbon steel sa516 plate stockist near india
+  - carbon steel sa516 plate stockist manufacturer india
+  - carbon steel sa516 plate stockist dealer india
+  - carbon steel sa516 plate stockists
+  - leading carbon steel sa516 plate stockist india
+  - CS pipe
+  - ASTM A106
+  - carbon steel seamless pipe
+  - carbon steel sa516 plate stockist price
+  - buy carbon steel sa516 plate stockist
+  - carbon steel sa516 plate stockist price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: WebPage, BreadcrumbList, ListItem, Product, Brand, Organization, AggregateOffer, OfferShippingDetails, DefinedRegion, ShippingDeliveryTime, QuantitativeValue, MerchantReturnPolicy, AggregateRating, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 1
+Detected Images with Alt: 1
+
+SEO Score Before: 80/100
+SEO Score After:  86/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/nace-hic-steel-plate-supplier-india
+--------------------------------------------------------------------------------
+Current Title:  NACE HIC Steel Plate Supplier India | Sour Service | CMI
+Updated Title:  NACE HIC Steel Plate Supplier India | Sour Service | CMI
+
+Current H1:     NACE HIC Steel Plate Supplier in India
+Updated H1:     NACE HIC Steel Plate Supplier in India
+
+Primary Keyword: nace hic steel plate supplier india
+
+Keyword Variations Added:
+  - nace hic steel plate supplier india
+  - nace-hic-steel-plate-supplier-india
+  - nace hic steel plate supplier in india
+  - best nace hic steel plate supplier india
+  - top nace hic steel plate supplier india
+  - nace hic steel plate supplier near india
+  - nace hic steel plate supplier manufacturer india
+  - nace hic steel plate supplier dealer india
+  - nace hic steel plate suppliers
+  - leading nace hic steel plate supplier india
+  - nace hic steel plate stockist
+  - nace hic steel plate dealer
+  - nace hic steel plate manufacturer
+  - nace hic steel plate distributor
+  - NACE MR0175
+  - HIC tested steel
+  - sour service steel
+  - nace hic steel plate supplier price
+  - buy nace hic steel plate supplier
+  - nace hic steel plate supplier price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: WebPage, BreadcrumbList, ListItem, Product, Brand, AggregateOffer, Organization, OfferShippingDetails, DefinedRegion, ShippingDeliveryTime, QuantitativeValue, MerchantReturnPolicy, AggregateRating, FAQPage, Question, Answer
+Detected Headings: 11 (H2-H6)
+Detected Internal Links: 1
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/tmt-bars-supplier-gujarat
+--------------------------------------------------------------------------------
+Current Title:  TMT Bars Supplier Gujarat | Fe 500D | SAIL JSW TATA | CMI
+Updated Title:  TMT Bars Supplier Gujarat | Fe 500D | SAIL JSW TATA | CMI
+
+Current H1:     TMT Bars Supplier in Gujarat — Fe 500D, SAIL, JSW, TATA
+Updated H1:     TMT Bars Supplier in Gujarat — Fe 500D, SAIL, JSW, TATA
+
+Primary Keyword: tmt bars supplier gujarat
+
+Keyword Variations Added:
+  - tmt bars supplier gujarat
+  - tmt-bars-supplier-gujarat
+  - tmt bars supplier in gujarat
+  - best tmt bars supplier gujarat
+  - top tmt bars supplier gujarat
+  - tmt bars supplier near gujarat
+  - tmt bars supplier manufacturer gujarat
+  - tmt bars supplier dealer gujarat
+  - tmt bars suppliers
+  - leading tmt bars supplier gujarat
+  - tmt bars stockist
+  - tmt bars dealer
+  - tmt bars manufacturer
+  - tmt bars distributor
+  - TMT reinforcement bars
+  - Fe 500D bars
+  - construction steel bars
+  - tmt bars supplier price
+  - buy tmt bars supplier
+  - tmt bars supplier price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: WebPage, BreadcrumbList, ListItem, Product, Brand, AggregateOffer, Organization, OfferShippingDetails, DefinedRegion, ShippingDeliveryTime, QuantitativeValue, MerchantReturnPolicy, AggregateRating, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 1
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india
+--------------------------------------------------------------------------------
+Current Title:  SS 304 316L Pipe Supplier India | Seamless Welded | CMI
+Updated Title:  SS 304 316L Pipe Supplier India | Seamless Welded | CMI
+
+Current H1:     SS 304 &amp; SS 316L Pipe Supplier in India
+Updated H1:     SS 304 &amp; SS 316L Pipe Supplier in India
+
+Primary Keyword: ss 304 316l pipe supplier india
+
+Keyword Variations Added:
+  - ss 304 316l pipe supplier india
+  - ss-304-316l-pipe-supplier-india
+  - ss 304 316l pipe supplier in india
+  - best ss 304 316l pipe supplier india
+  - top ss 304 316l pipe supplier india
+  - ss 304 316l pipe supplier near india
+  - ss 304 316l pipe supplier manufacturer india
+  - ss 304 316l pipe supplier dealer india
+  - ss 304 316l pipe suppliers
+  - leading ss 304 316l pipe supplier india
+  - ss 304 316l pipe stockist
+  - ss 304 316l pipe dealer
+  - ss 304 316l pipe manufacturer
+  - ss 304 316l pipe distributor
+  - stainless steel 304
+  - AISI 304
+  - 18/8 stainless steel
+  - ss 304 316l pipe supplier price
+  - buy ss 304 316l pipe supplier
+  - ss 304 316l pipe supplier price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: WebPage, BreadcrumbList, ListItem, Product, Brand, AggregateOffer, Organization, OfferShippingDetails, DefinedRegion, ShippingDeliveryTime, QuantitativeValue, MerchantReturnPolicy, AggregateRating, FAQPage, Question, Answer
+Detected Headings: 8 (H2-H6)
+Detected Internal Links: 1
+Detected Images with Alt: 1
+
+SEO Score Before: 87/100
+SEO Score After:  93/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog
+--------------------------------------------------------------------------------
+Current Title:  Steel & Alloy Technical Blog | Creative Metal Industries
+Updated Title:  Steel & Alloy Technical Blog | Creative Metal Industries
+
+Current H1:     Steel &amp; Alloy Knowledge Hub
+Updated H1:     Steel &amp; Alloy Knowledge Hub
+
+Primary Keyword: blog
+
+Keyword Variations Added:
+  - blog
+  - blogs
+  - best blog
+  - top blog
+  - leading blog
+  - blog price
+  - buy blog
+  - blog price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: (none)
+Detected Headings: 1 (H2-H6)
+Detected Internal Links: 0
+Detected Images with Alt: 0
+
+SEO Score Before: 56/100
+SEO Score After:  62/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/[slug]
+--------------------------------------------------------------------------------
+Current Title:  Article Not Found | Creative Metal Industries Blog
+Updated Title:  Article Not Found | Creative Metal Industries Blog
+
+Current H1:     Article Not Found
+Updated H1:     Article Not Found
+
+Primary Keyword: article not found
+
+Keyword Variations Added:
+  - article not found
+  - article-not-found
+  - article not founds
+  - best article not found
+  - top article not found
+  - leading article not found
+  - article not found price
+  - buy article not found
+  - article not found price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: No
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Detected Schema Types: (none)
+Detected Headings: 2 (H2-H6)
+Detected Internal Links: 1
+Detected Images with Alt: 0
+
+SEO Score Before: 61/100
+SEO Score After:  61/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/ss-304-stainless-steel-guide
+--------------------------------------------------------------------------------
+Current Title:  SS 304 Stainless Steel — Grades, Properties & Applications | CMI
+Updated Title:  SS 304 Stainless Steel — Grades, Properties & Applications | CMI
+
+Current H1:     SS 304 Stainless Steel — Complete Guide to Grades, Properties, and Applications
+Updated H1:     SS 304 Stainless Steel — Complete Guide to Grades, Properties, and Applications
+
+Primary Keyword: ss 304 stainless steel guide
+
+Keyword Variations Added:
+  - ss 304 stainless steel guide
+  - ss-304-stainless-steel-guide
+  - ss 304 stainless steel guides
+  - best ss 304 stainless steel guide
+  - top ss 304 stainless steel guide
+  - leading ss 304 stainless steel guide
+  - stainless steel 304
+  - AISI 304
+  - 18/8 stainless steel
+  - ss 304 stainless steel guide price
+  - buy ss 304 stainless steel guide
+  - ss 304 stainless steel guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 11 (H2-H6)
+Detected Internal Links: 2
+Detected Images with Alt: 1
+
+SEO Score Before: 80/100
+SEO Score After:  86/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/ss-316l-stainless-steel-guide
+--------------------------------------------------------------------------------
+Current Title:  SS 316L Stainless Steel Guide — Properties & Applications | CMI
+Updated Title:  SS 316L Stainless Steel Guide — Properties & Applications | CMI
+
+Current H1:     316L Stainless Steel — The Marine Grade Standard Explained
+Updated H1:     316L Stainless Steel — The Marine Grade Standard Explained
+
+Primary Keyword: ss 316l stainless steel guide
+
+Keyword Variations Added:
+  - ss 316l stainless steel guide
+  - ss-316l-stainless-steel-guide
+  - ss 316l stainless steel guides
+  - best ss 316l stainless steel guide
+  - top ss 316l stainless steel guide
+  - leading ss 316l stainless steel guide
+  - stainless steel 316L
+  - marine grade stainless steel
+  - ss 316l stainless steel guide price
+  - buy ss 316l stainless steel guide
+  - ss 316l stainless steel guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 2
+Detected Images with Alt: 1
+
+SEO Score Before: 80/100
+SEO Score After:  86/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/duplex-2205-steel-guide
+--------------------------------------------------------------------------------
+Current Title:  Duplex 2205 Steel Guide — Properties & Applications | CMI India
+Updated Title:  Duplex 2205 Steel Guide — Properties & Applications | CMI India
+
+Current H1:     Duplex 2205 — Why This Super Steel Outperforms Standard Grades
+Updated H1:     Duplex 2205 — Why This Super Steel Outperforms Standard Grades
+
+Primary Keyword: duplex 2205 steel guide
+
+Keyword Variations Added:
+  - duplex 2205 steel guide
+  - duplex-2205-steel-guide
+  - duplex 2205 steel guides
+  - best duplex 2205 steel guide
+  - top duplex 2205 steel guide
+  - leading duplex 2205 steel guide
+  - duplex 2205
+  - UNS S31803
+  - duplex stainless steel
+  - duplex 2205 steel guide price
+  - buy duplex 2205 steel guide
+  - duplex 2205 steel guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 11 (H2-H6)
+Detected Internal Links: 2
+Detected Images with Alt: 1
+
+SEO Score Before: 80/100
+SEO Score After:  86/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/super-duplex-2507-guide
+--------------------------------------------------------------------------------
+Current Title:  Super Duplex 2507 Guide — Properties & Applications | CMI India
+Updated Title:  Super Duplex 2507 Guide — Properties & Applications | CMI India
+
+Current H1:     Super Duplex 2507 — The Oil and Gas Industry's Preferred Alloy
+Updated H1:     Super Duplex 2507 — The Oil and Gas Industry's Preferred Alloy
+
+Primary Keyword: super duplex 2507 guide
+
+Keyword Variations Added:
+  - super duplex 2507 guide
+  - super-duplex-2507-guide
+  - super duplex 2507 guides
+  - best super duplex 2507 guide
+  - top super duplex 2507 guide
+  - leading super duplex 2507 guide
+  - duplex 2205
+  - UNS S31803
+  - duplex stainless steel
+  - super duplex 2507 guide price
+  - buy super duplex 2507 guide
+  - super duplex 2507 guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 3
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/hastelloy-c276-guide
+--------------------------------------------------------------------------------
+Current Title:  Hastelloy C-276 Guide — Properties & Applications | CMI India
+Updated Title:  Hastelloy C-276 Guide — Properties & Applications | CMI India
+
+Current H1:     Hastelloy C-276 — The Ultimate Nickel Alloy for Extreme Environments
+Updated H1:     Hastelloy C-276 — The Ultimate Nickel Alloy for Extreme Environments
+
+Primary Keyword: hastelloy c276 guide
+
+Keyword Variations Added:
+  - hastelloy c276 guide
+  - hastelloy-c276-guide
+  - hastelloy c276 guides
+  - best hastelloy c276 guide
+  - top hastelloy c276 guide
+  - leading hastelloy c276 guide
+  - hastelloy c276 guide price
+  - buy hastelloy c276 guide
+  - hastelloy c276 guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 4
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/inconel-625-guide
+--------------------------------------------------------------------------------
+Current Title:  Inconel 625 Guide — Properties & Applications | CMI India
+Updated Title:  Inconel 625 Guide — Properties & Applications | CMI India
+
+Current H1:     Inconel 625 — High-Temperature and Corrosion-Resistant Solutions
+Updated H1:     Inconel 625 — High-Temperature and Corrosion-Resistant Solutions
+
+Primary Keyword: inconel 625 guide
+
+Keyword Variations Added:
+  - inconel 625 guide
+  - inconel-625-guide
+  - inconel 625 guides
+  - best inconel 625 guide
+  - top inconel 625 guide
+  - leading inconel 625 guide
+  - inconel 625 guide price
+  - buy inconel 625 guide
+  - inconel 625 guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 2
+Detected Images with Alt: 1
+
+SEO Score Before: 80/100
+SEO Score After:  86/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/p91-alloy-steel-guide
+--------------------------------------------------------------------------------
+Current Title:  P91 Alloy Steel Guide — Power Plant Piping Standard | CMI India
+Updated Title:  P91 Alloy Steel Guide — Power Plant Piping Standard | CMI India
+
+Current H1:     P91 Alloy Steel — The Power Plant Piping Standard
+Updated H1:     P91 Alloy Steel — The Power Plant Piping Standard
+
+Primary Keyword: p91 alloy steel guide
+
+Keyword Variations Added:
+  - p91 alloy steel guide
+  - p91-alloy-steel-guide
+  - p91 alloy steel guides
+  - best p91 alloy steel guide
+  - top p91 alloy steel guide
+  - leading p91 alloy steel guide
+  - p91 alloy steel guide price
+  - buy p91 alloy steel guide
+  - p91 alloy steel guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 2
+Detected Images with Alt: 1
+
+SEO Score Before: 80/100
+SEO Score After:  86/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/sa-516-carbon-steel-plate-guide
+--------------------------------------------------------------------------------
+Current Title:  SA 516 Carbon Steel Plate Guide — Grades 60, 65, 70 | CMI India
+Updated Title:  SA 516 Carbon Steel Plate Guide — Grades 60, 65, 70 | CMI India
+
+Current H1:     Carbon Steel SA 516 Plate — The Pressure Vessel and Boiler Standard
+Updated H1:     Carbon Steel SA 516 Plate — The Pressure Vessel and Boiler Standard
+
+Primary Keyword: sa 516 carbon steel plate guide
+
+Keyword Variations Added:
+  - sa 516 carbon steel plate guide
+  - sa-516-carbon-steel-plate-guide
+  - sa 516 carbon steel plate guides
+  - best sa 516 carbon steel plate guide
+  - top sa 516 carbon steel plate guide
+  - leading sa 516 carbon steel plate guide
+  - CS pipe
+  - ASTM A106
+  - carbon steel seamless pipe
+  - sa 516 carbon steel plate guide price
+  - buy sa 516 carbon steel plate guide
+  - sa 516 carbon steel plate guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 3
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/nace-hic-steel-plates-guide
+--------------------------------------------------------------------------------
+Current Title:  NACE HIC Steel Plates Guide — Sour Service | CMI India
+Updated Title:  NACE HIC Steel Plates Guide — Sour Service | CMI India
+
+Current H1:     NACE HIC Steel Plates — Essential for Sour Service Environments
+Updated H1:     NACE HIC Steel Plates — Essential for Sour Service Environments
+
+Primary Keyword: nace hic steel plates guide
+
+Keyword Variations Added:
+  - nace hic steel plates guide
+  - nace-hic-steel-plates-guide
+  - nace hic steel plates guides
+  - best nace hic steel plates guide
+  - top nace hic steel plates guide
+  - leading nace hic steel plates guide
+  - NACE MR0175
+  - HIC tested steel
+  - sour service steel
+  - nace hic steel plates guide price
+  - buy nace hic steel plates guide
+  - nace hic steel plates guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 5
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/tmt-bars-guide
+--------------------------------------------------------------------------------
+Current Title:  TMT Bars Guide — Grades, Properties & Supplier Gujarat | CMI
+Updated Title:  TMT Bars Guide — Grades, Properties & Supplier Gujarat | CMI
+
+Current H1:     TMT Bars — The Backbone of Gujarat's Infrastructure Development
+Updated H1:     TMT Bars — The Backbone of Gujarat's Infrastructure Development
+
+Primary Keyword: tmt bars guide
+
+Keyword Variations Added:
+  - tmt bars guide
+  - tmt-bars-guide
+  - tmt bars guides
+  - best tmt bars guide
+  - top tmt bars guide
+  - leading tmt bars guide
+  - TMT reinforcement bars
+  - Fe 500D bars
+  - construction steel bars
+  - tmt bars guide price
+  - buy tmt bars guide
+  - tmt bars guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 3
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/astm-a312-pipe-guide
+--------------------------------------------------------------------------------
+Current Title:  ASTM A312 Pipe Guide — Grades, Schedules & Specs | CMI India
+Updated Title:  ASTM A312 Pipe Guide — Grades, Schedules & Specs | CMI India
+
+Current H1:     Understanding ASTM A312 Pipe Specifications — A Complete Guide
+Updated H1:     Understanding ASTM A312 Pipe Specifications — A Complete Guide
+
+Primary Keyword: astm a312 pipe guide
+
+Keyword Variations Added:
+  - astm a312 pipe guide
+  - astm-a312-pipe-guide
+  - astm a312 pipe guides
+  - best astm a312 pipe guide
+  - top astm a312 pipe guide
+  - leading astm a312 pipe guide
+  - astm a312 pipe guide price
+  - buy astm a312 pipe guide
+  - astm a312 pipe guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 3
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/api-5l-pipe-guide
+--------------------------------------------------------------------------------
+Current Title:  API 5L Pipe Guide — Grades, PSL1 vs PSL2 | CMI India
+Updated Title:  API 5L Pipe Guide — Grades, PSL1 vs PSL2 | CMI India
+
+Current H1:     API 5L Pipe — The Global Standard for Oil and Gas Transport
+Updated H1:     API 5L Pipe — The Global Standard for Oil and Gas Transport
+
+Primary Keyword: api 5l pipe guide
+
+Keyword Variations Added:
+  - api 5l pipe guide
+  - api-5l-pipe-guide
+  - api 5l pipe guides
+  - best api 5l pipe guide
+  - top api 5l pipe guide
+  - leading api 5l pipe guide
+  - api 5l pipe guide price
+  - buy api 5l pipe guide
+  - api 5l pipe guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 9 (H2-H6)
+Detected Internal Links: 2
+Detected Images with Alt: 1
+
+SEO Score Before: 80/100
+SEO Score After:  86/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/pipe-schedule-chart
+--------------------------------------------------------------------------------
+Current Title:  Pipe Schedule Chart — SCH 40, 80, 160 Weight & Thickness | CMI
+Updated Title:  Pipe Schedule Chart — SCH 40, 80, 160 Weight & Thickness | CMI
+
+Current H1:     Pipe Schedule SCH 40, 80, and 160 — Complete Weight and Thickness Chart Guide
+Updated H1:     Pipe Schedule SCH 40, 80, and 160 — Complete Weight and Thickness Chart Guide
+
+Primary Keyword: pipe schedule chart
+
+Keyword Variations Added:
+  - pipe schedule chart
+  - pipe-schedule-chart
+  - pipe schedule charts
+  - best pipe schedule chart
+  - top pipe schedule chart
+  - leading pipe schedule chart
+  - pipe schedule chart price
+  - buy pipe schedule chart
+  - pipe schedule chart price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 9 (H2-H6)
+Detected Internal Links: 3
+Detected Images with Alt: 1
+
+SEO Score Before: 83/100
+SEO Score After:  89/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/mill-test-certificate-guide
+--------------------------------------------------------------------------------
+Current Title:  How to Read a Mill Test Certificate (MTC) — Guide | CMI India
+Updated Title:  How to Read a Mill Test Certificate (MTC) — Guide | CMI India
+
+Current H1:     How to Read a Mill Test Certificate (MTC) — A Complete Guide
+Updated H1:     How to Read a Mill Test Certificate (MTC) — A Complete Guide
+
+Primary Keyword: mill test certificate guide
+
+Keyword Variations Added:
+  - mill test certificate guide
+  - mill-test-certificate-guide
+  - mill test certificate guides
+  - best mill test certificate guide
+  - top mill test certificate guide
+  - leading mill test certificate guide
+  - mill test certificate guide price
+  - buy mill test certificate guide
+  - mill test certificate guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 2
+Detected Images with Alt: 1
+
+SEO Score Before: 80/100
+SEO Score After:  86/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/titanium-grade-2-vs-grade-5
+--------------------------------------------------------------------------------
+Current Title:  Titanium Grade 2 vs Grade 5 (Ti-6Al-4V) Guide | CMI India
+Updated Title:  Titanium Grade 2 vs Grade 5 (Ti-6Al-4V) Guide | CMI India
+
+Current H1:     Titanium Grade 2 vs Grade 5 — Which One Should You Choose?
+Updated H1:     Titanium Grade 2 vs Grade 5 — Which One Should You Choose?
+
+Primary Keyword: titanium grade 2 vs grade 5
+
+Keyword Variations Added:
+  - titanium grade 2 vs grade 5
+  - titanium-grade-2-vs-grade-5
+  - titanium grade 2 vs grade 5s
+  - best titanium grade 2 vs grade 5
+  - top titanium grade 2 vs grade 5
+  - leading titanium grade 2 vs grade 5
+  - titanium grade 2 vs grade 5 price
+  - buy titanium grade 2 vs grade 5
+  - titanium grade 2 vs grade 5 price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 12 (H2-H6)
+Detected Internal Links: 2
+Detected Images with Alt: 1
+
+SEO Score Before: 80/100
+SEO Score After:  86/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/ss-pipe-fittings-flanges-guide
+--------------------------------------------------------------------------------
+Current Title:  SS Pipe Fittings & Flanges Guide — Types & Grades | CMI India
+Updated Title:  SS Pipe Fittings & Flanges Guide — Types & Grades | CMI India
+
+Current H1:     SS Pipe Fittings and Flanges — The Complete Piping System Kit
+Updated H1:     SS Pipe Fittings and Flanges — The Complete Piping System Kit
+
+Primary Keyword: ss pipe fittings flanges guide
+
+Keyword Variations Added:
+  - ss pipe fittings flanges guide
+  - ss-pipe-fittings-flanges-guide
+  - ss pipe fittings flanges guides
+  - best ss pipe fittings flanges guide
+  - top ss pipe fittings flanges guide
+  - leading ss pipe fittings flanges guide
+  - stainless steel pipe
+  - SS seamless pipe
+  - SS welded pipe
+  - ss pipe fittings flanges guide price
+  - buy ss pipe fittings flanges guide
+  - ss pipe fittings flanges guide price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 10 (H2-H6)
+Detected Internal Links: 2
+Detected Images with Alt: 1
+
+SEO Score Before: 80/100
+SEO Score After:  86/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/why-creative-metal-industries
+--------------------------------------------------------------------------------
+Current Title:  Why Creative Metal Industries — Gujarat's Steel Trading Company | Vadodara
+Updated Title:  Why Creative Metal Industries — Gujarat's Steel Trading Company | Vadodara
+
+Current H1:     Why Creative Metal Industries is Gujarat's Preferred Steel Trading Company
+Updated H1:     Why Creative Metal Industries is Gujarat's Preferred Steel Trading Company
+
+Primary Keyword: why creative metal industries
+
+Keyword Variations Added:
+  - why creative metal industries
+  - why-creative-metal-industries
+  - why creative metal industrie
+  - best why creative metal industries
+  - top why creative metal industries
+  - leading why creative metal industries
+  - why creative metal industries price
+  - buy why creative metal industries
+  - why creative metal industries price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 13 (H2-H6)
+Detected Internal Links: 3
+Detected Images with Alt: 1
+
+SEO Score Before: 79/100
+SEO Score After:  85/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/industrial-raw-material-supplier-india
+--------------------------------------------------------------------------------
+Current Title:  Industrial Raw Material Supplier India — Role in Growth | CMI
+Updated Title:  Industrial Raw Material Supplier India — Role in Growth | CMI
+
+Current H1:     The Critical Role of Industrial Raw Material Suppliers in India's Growth Story
+Updated H1:     The Critical Role of Industrial Raw Material Suppliers in India's Growth Story
+
+Primary Keyword: industrial raw material supplier india
+
+Keyword Variations Added:
+  - industrial raw material supplier india
+  - industrial-raw-material-supplier-india
+  - industrial raw material supplier in india
+  - best industrial raw material supplier india
+  - top industrial raw material supplier india
+  - industrial raw material supplier near india
+  - industrial raw material supplier manufacturer india
+  - industrial raw material supplier dealer india
+  - industrial raw material suppliers
+  - leading industrial raw material supplier india
+  - industrial raw material stockist
+  - industrial raw material dealer
+  - industrial raw material manufacturer
+  - industrial raw material distributor
+  - industrial raw material supplier price
+  - buy industrial raw material supplier
+  - industrial raw material supplier price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 12 (H2-H6)
+Detected Internal Links: 2
+Detected Images with Alt: 1
+
+SEO Score Before: 80/100
+SEO Score After:  86/100
+Status: SUCCESS
+================================================================================
+
+================================================================================
+URL: https://www.creativemetalind.com/blog/erw-vs-seamless-pipe
+--------------------------------------------------------------------------------
+Current Title:  ERW vs Seamless Pipe — Complete Comparison | CMI India
+Updated Title:  ERW vs Seamless Pipe — Complete Comparison | CMI India
+
+Current H1:     ERW vs Seamless Pipe — Complete Technical Comparison for Indian Industrial Buyers
+Updated H1:     ERW vs Seamless Pipe — Complete Technical Comparison for Indian Industrial Buyers
+
+Primary Keyword: erw vs seamless pipe
+
+Keyword Variations Added:
+  - erw vs seamless pipe
+  - erw-vs-seamless-pipe
+  - erw vs seamless pipes
+  - best erw vs seamless pipe
+  - top erw vs seamless pipe
+  - leading erw vs seamless pipe
+  - stainless steel pipe
+  - SS seamless pipe
+  - SS welded pipe
+  - erw vs seamless pipe price
+  - buy erw vs seamless pipe
+  - erw vs seamless pipe price list
+
+Headings Optimized:
+  (headings preserved — no forced changes to maintain readability)
+
+Meta Description Updated: Yes
+Schema Updated: No
+Internal Links Added: 0
+Image Alt Tags Added: 0
+
+Technical SEO Fixes Applied:
+  * Added Twitter Card tags (card, title, description, image)
+  * Added robots meta (index, follow, max-image-preview:large)
+
+Detected Schema Types: Article, Organization, ImageObject, FAQPage, Question, Answer
+Detected Headings: 13 (H2-H6)
+Detected Internal Links: 2
+Detected Images with Alt: 1
+
+SEO Score Before: 80/100
+SEO Score After:  86/100
+Status: SUCCESS
+================================================================================
+

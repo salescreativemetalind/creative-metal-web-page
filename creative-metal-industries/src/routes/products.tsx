@@ -494,8 +494,20 @@ export default function ProductsPage() {
   return (
     <>
       <Title>Steel Size &amp; Weight Charts | Creative Metal Industries</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete steel size and weight charts — MS Angle IS 808, ISMC, ISMB, ERW Pipe IS 1239, TMT Bars IS 1786, SS Pipe ASTM A312. Creative Metal Industries, Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/products" />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:site_name" content="Creative Metal Industries" />
+      <Meta property="og:title" content="Steel Size & Weight Charts | Creative Metal Industries" />
+      <Meta property="og:description" content="Complete steel size and weight charts — MS Angle IS 808, ISMC, ISMB, ERW Pipe IS 1239, TMT Bars IS 1786, SS Pipe ASTM A312. Creative Metal Industries, Vadodara." />
+      <Meta property="og:url" content="https://www.creativemetalind.com/products" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
+      <Meta property="og:locale" content="en_IN" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="Steel Size & Weight Charts | Creative Metal Industries" />
+      <Meta name="twitter:description" content="Complete steel size and weight charts — MS Angle IS 808, ISMC, ISMB, ERW Pipe IS 1239, TMT Bars IS 1786, SS Pipe ASTM A312. Creative Metal Industries, Vadodara." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
 
       <header class="pt-header">
         <div class="container">

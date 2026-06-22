@@ -11,10 +11,15 @@ export default function FittingsFlangesGuide() {
   return (
     <>
       <Title>SS Pipe Fittings & Flanges Guide — Types & Grades | CMI India</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to SS pipe fittings and flanges — types (elbows, tees, weld neck, slip-on), grades (304, 316L, duplex), pressure classes 150-2500. SS pipe fittings flanges supplier India. CMI Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-pipe-fittings-flanges-guide" />
       <Meta property="og:title" content="SS Pipe Fittings & Flanges — The Complete Piping System Kit" />
       <Meta property="og:type" content="article" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" content="SS Pipe Fittings & Flanges Guide — Types & Grades | CMI India" />
+      <Meta name="twitter:description" content="Complete guide to SS pipe fittings and flanges — types (elbows, tees, weld neck, slip-on), grades (304, 316L, duplex), pressure classes 150-2500. SS pipe fittings flanges supplier India. CMI Vadodara." />
+      <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 
