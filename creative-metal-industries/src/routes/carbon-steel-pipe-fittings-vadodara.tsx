@@ -362,6 +362,27 @@ export default function CarbonSteelPipeFittingsVadodara() {
 
       </main>
 
+      {/* ── Internal Links — Topic Cluster ── */}
+      <section style={{ padding: "3rem 1.5rem", background: "#fff", "border-top": "1px solid #e5e7eb" }}>
+        <div style={{ "max-width": "900px", margin: "0 auto" }}>
+          <h2 style={{ "font-size": "1.2rem", "font-weight": "700", color: "#111827", "margin-bottom": "1.25rem" }}>Related Carbon &amp; Alloy Steel Products</h2>
+          <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(220px,1fr))", gap: "0.75rem" }}>
+            {[
+              { href: "/carbon-steel-sa516-plate-stockist-india", label: "SA 516 Plate Stockist India" },
+              { href: "/nace-hic-steel-plate-supplier-india", label: "NACE HIC Plate Supplier India" },
+              { href: "/alloy-steel-pipe-supplier-india", label: "Alloy Steel P91 P22 Pipe India" },
+              { href: "/blog/carbon-steel-pipe-guide", label: "Carbon Steel Pipe Guide" },
+              { href: "/blog/p91-alloy-steel-guide", label: "P91 Alloy Steel Guide" },
+              { href: "/blog/sa-516-carbon-steel-plate-guide", label: "SA 516 Plate Guide" },
+              { href: "/blog/nace-hic-steel-plates-guide", label: "NACE HIC Plates Guide" },
+              { href: "/blog/ms-structural-steel-guide", label: "MS Structural Steel Guide" },
+            ].map(l => (
+              <a href={l.href} style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "8px", padding: "0.75rem 1rem", "font-size": "0.85rem", "font-weight": "600", color: "#E8821A", "text-decoration": "none" }}>{l.label} →</a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── Footer ── */}
       <footer style={{ background: "#111827", color: "#9ca3af", padding: "2rem 1.5rem", "text-align": "center", "font-size": "0.82rem" }}>
         <p style={{ "margin-bottom": "0.5rem" }}>

@@ -124,6 +124,24 @@ export default function TmtBarsPage() {
             <a href="https://wa.me/919998280619" target="_blank" rel="noopener" style={{background:"#25D366",color:"#fff","font-weight":"800",padding:"0.75rem 1.75rem","border-radius":"8px","text-decoration":"none"}}>💬 WhatsApp</a>
           </div>
         </div>
+
+        {/* ── Internal Links — Topic Cluster ── */}
+        <div style={{ padding: "2.5rem 0", "border-top": "1px solid #e5e7eb" }}>
+          <h2 style={{ "font-size": "1.2rem", "font-weight": "700", color: "#111827", "margin-bottom": "1rem" }}>Related Structural Steel Products</h2>
+          <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(200px,1fr))", gap: "0.75rem" }}>
+            {[
+              { href: "/blog/tmt-bars-guide", label: "TMT Bars Complete Guide" },
+              { href: "/blog/ms-structural-steel-guide", label: "MS Angle, Channel & Plate" },
+              { href: "/products", label: "Steel Weight Charts" },
+              { href: "/metal-trading", label: "Metal Trading Company" },
+              { href: "/carbon-steel-pipe-fittings-vadodara", label: "CS Pipe & Fittings Vadodara" },
+              { href: "/blog/carbon-steel-pipe-guide", label: "Carbon Steel Pipe Guide" },
+            ].map(l => (
+              <a href={l.href} style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "8px", padding: "0.75rem 1rem", "font-size": "0.85rem", "font-weight": "600", color: "#E8821A", "text-decoration": "none" }}>{l.label} →</a>
+            ))}
+          </div>
+        </div>
+
       </main>
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}><p><strong style={{color:"#fff"}}>Creative Metal Industries</strong> — TMT Bars Supplier Gujarat | Vadodara</p></footer>
     </>

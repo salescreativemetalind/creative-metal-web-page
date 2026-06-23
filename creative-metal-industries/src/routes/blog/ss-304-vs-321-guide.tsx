@@ -1,26 +1,27 @@
 /**
  * /blog/ss-304-vs-321-guide
- * Target: "SS 304 vs SS 321", "titanium stabilised stainless steel", "Creative Metal Industries Vadodara"
+ * Target: "SS 304 vs SS 321", "when to use SS 321", "SS 321 stabilised grade"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
 
-const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"SS 304 vs SS 321 — When to Use the Stabilised Grade","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-20","image":"https://www.creativemetalind.com/og-image.jpg","url":"https://www.creativemetalind.com/blog/ss-304-vs-321-guide"});
-const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between SS 304 and SS 321?","acceptedAnswer":{"@type":"Answer","text":"SS 321 is essentially SS 304 with added titanium (5×C to 0.70% Ti). This titanium addition 'stabilises' the steel against sensitisation — the formation of chromium carbides at grain boundaries when exposed to 425–900°C. SS 304 loses corrosion resistance after prolonged high-temperature exposure; SS 321 does not."}},{"@type":"Question","name":"At what temperature should I switch from 304 to 321?","acceptedAnswer":{"@type":"Answer","text":"If service temperature exceeds 425°C continuously, or if welded fabrication will see temperatures above 425°C in service, specify SS 321 instead of SS 304. Below 425°C, standard 304 is perfectly adequate and more economical."}},{"@type":"Question","name":"Is SS 321 more expensive than SS 304?","acceptedAnswer":{"@type":"Answer","text":"Yes, SS 321 typically costs 10–15% more than SS 304 due to the added titanium content and lower production volumes. However, for high-temperature applications, this premium is justified by significantly longer service life and elimination of sensitisation-related failures."}},{"@type":"Question","name":"Can SS 321 be used for food processing?","acceptedAnswer":{"@type":"Answer","text":"Yes, SS 321 is safe for food contact applications. However, it is over-specified for food processing since temperatures rarely exceed 425°C. Standard SS 304 or 316L are more cost-effective choices for food and beverage equipment."}}]});
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"SS 304 vs SS 321 — When to Use the Stabilised Stainless Steel Grade","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-20","image":"https://www.creativemetalind.com/og-image.jpg","url":"https://www.creativemetalind.com/blog/ss-304-vs-321-guide"});
+const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between SS 304 and SS 321?","acceptedAnswer":{"@type":"Answer","text":"SS 321 contains titanium (5×C minimum) that stabilises the grade against chromium carbide precipitation during welding and high-temperature service (425–900°C). SS 304 lacks this stabilisation and is susceptible to sensitisation (intergranular corrosion) when held at 425–815°C. For welded components in high-temperature service, SS 321 is the safer specification."}},{"@type":"Question","name":"When should I specify SS 321 over SS 304?","acceptedAnswer":{"@type":"Answer","text":"Specify SS 321 when: (1) Operating temperature is continuously above 425°C, (2) The component will be welded and cannot be solution-annealed after welding, (3) The application involves thermal cycling between 425–815°C, (4) Post-weld heat treatment (PWHT) above 425°C is required. If operating below 425°C with no sustained high-temp exposure, SS 304/304L is sufficient and more economical."}},{"@type":"Question","name":"Is SS 321 more expensive than SS 304?","acceptedAnswer":{"@type":"Answer","text":"Yes — SS 321 typically costs 15–25% more than SS 304 due to the titanium addition and lower production volumes. However, the cost difference is small compared to the risk of intergranular corrosion failure in high-temperature welded service. For critical applications above 425°C, the cost premium is easily justified by reliability and reduced maintenance."}}]});
 
 export default function Ss304Vs321Guide() {
   return (
     <>
-      <Title>SS 304 vs SS 321 — When to Use Stabilised Grade | CMI</Title>
+      <Title>SS 304 vs SS 321 — When to Use the Stabilised Grade | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="SS 304 vs SS 321 comparison — when to specify titanium-stabilised 321 over standard 304. Temperature limits, sensitisation, welding, applications. Creative Metal Industries Vadodara." />
+      <Meta name="description" content="SS 304 vs SS 321 comparison — titanium stabilisation, sensitisation resistance, composition table, mechanical properties, when to specify 321 over 304 for high-temp welded service. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-304-vs-321-guide" />
       <Meta property="og:title" content="SS 304 vs SS 321 — When to Use the Stabilised Grade" />
+      <Meta property="og:description" content="Complete technical comparison of SS 304 vs SS 321. When to specify the stabilised grade for high-temperature welded piping." />
       <Meta property="og:type" content="article" />
       <Meta property="og:url" content="https://www.creativemetalind.com/blog/ss-304-vs-321-guide" />
-      <Meta property="og:description" content="SS 304 vs SS 321 comparison — when to specify titanium-stabilised 321 over standard 304. Temperature limits, sensitisation, welding, applications." />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="SS 304 vs SS 321 — When to Use Stabilised Grade | CMI" />
-      <Meta name="twitter:description" content="SS 304 vs SS 321 comparison — when to specify titanium-stabilised 321 over standard 304. Temperature limits, sensitisation, welding, applications." />
+      <Meta name="twitter:title" content="SS 304 vs SS 321 — When to Use the Stabilised Grade | CMI" />
+      <Meta name="twitter:description" content="SS 304 vs SS 321 comparison — titanium stabilisation, sensitisation resistance, when to specify 321 for high-temp welded service." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
@@ -28,140 +29,124 @@ export default function Ss304Vs321Guide() {
       <nav style={{background:"#fff","border-bottom":"1px solid #e5e7eb",padding:"1rem 1.5rem",display:"flex","align-items":"center",gap:"1rem"}}>
         <a href="/"><img src="/logo_cmi.png" alt="Creative Metal Industries" width="140" height="71" /></a>
         <div style={{flex:1}} />
-        <a href="/blog" style={{color:"#E8821A","font-weight":"600","font-size":"0.9rem","text-decoration":"none"}}>&#8592; All Articles</a>
+        <a href="/blog" style={{color:"#E8821A","font-weight":"600","font-size":"0.9rem","text-decoration":"none"}}>← All Articles</a>
       </nav>
 
       <div style={{background:"#f9fafb","border-bottom":"1px solid #e5e7eb",padding:"0.6rem 1.5rem","font-size":"0.82rem",color:"#6b7280"}}>
-        <a href="/" style={{color:"#E8821A","text-decoration":"none"}}>Home</a><span style={{margin:"0 0.5rem"}}>{"\u203A"}</span>
-        <a href="/blog" style={{color:"#E8821A","text-decoration":"none"}}>Blog</a><span style={{margin:"0 0.5rem"}}>{"\u203A"}</span>
+        <a href="/" style={{color:"#E8821A","text-decoration":"none"}}>Home</a><span style={{margin:"0 0.5rem"}}>›</span>
+        <a href="/blog" style={{color:"#E8821A","text-decoration":"none"}}>Blog</a><span style={{margin:"0 0.5rem"}}>›</span>
         <span>SS 304 vs SS 321 Guide</span>
       </div>
 
       <main style={{"max-width":"800px",margin:"0 auto",padding:"3rem 1.5rem"}}>
         <div style={{"margin-bottom":"2.5rem"}}>
-          <span style={{background:"#DBEAFE",color:"#1e40af",padding:"0.25rem 0.7rem","border-radius":"99px","font-size":"0.75rem","font-weight":"700"}}>Material Comparison</span>
+          <span style={{background:"#DBEAFE",color:"#1E40AF",padding:"0.25rem 0.7rem","border-radius":"99px","font-size":"0.75rem","font-weight":"700"}}>Material Comparison</span>
           <span style={{color:"#9ca3af","font-size":"0.82rem","margin-left":"0.75rem"}}>June 2026 · 9 min read</span>
           <h1 style={{"font-size":"clamp(1.8rem,4vw,2.6rem)","font-weight":"800",color:"#111827","margin":"1rem 0 1.25rem","line-height":"1.2"}}>
-            SS 304 vs SS 321 — When to Use the Stabilised Grade
+            SS 304 vs SS 321 — When to Use the Stabilised Stainless Steel Grade
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8"}}>
-            Both SS 304 and SS 321 are austenitic stainless steels with 18% chromium and 8% nickel — but one contains a critical addition: titanium. This single element determines whether your fabrication survives decades at elevated temperatures or fails within months from intergranular corrosion. As a leading <strong>SS pipe supplier in Vadodara</strong>, <strong>Creative Metal Industries</strong> supplies both grades and helps engineers specify the right one for each application.
+            Both SS 304 and SS 321 are austenitic stainless steels with 18% Cr and 8% Ni — but 321 contains a critical addition: <strong>titanium</strong>. This single alloying element prevents a failure mechanism called sensitisation that can destroy welded 304 components in high-temperature service. As a specialist <strong>SS pipe and fittings supplier in India</strong> since 2012, <strong>Creative Metal Industries Vadodara</strong> supplies both grades with full MTC (Mill Test Certificate) documentation and helps procurement engineers select the right specification for their operating conditions.
           </p>
         </div>
 
-        {/* Chemical Composition */}
-        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Chemical Composition — The Titanium Difference</h2>
+        {/* Why 321 Exists */}
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Why SS 321 Exists — The Sensitisation Problem</h2>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>When austenitic stainless steel (like 304) is heated to 425-815°C — either during welding or in service — carbon atoms diffuse to grain boundaries and combine with chromium to form chromium carbides (Cr23C6). This depletes chromium from the adjacent matrix below the 12% threshold needed for passivation. The result: a narrow zone along grain boundaries that is no longer "stainless" and corrodes preferentially. This is called <strong>sensitisation</strong> or <strong>intergranular corrosion (IGC)</strong>.</p>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>SS 321 solves this by adding titanium (Ti), which has a stronger affinity for carbon than chromium does. Titanium preferentially forms titanium carbides (TiC), leaving chromium in solid solution to maintain corrosion resistance. This is why 321 is called a <strong>stabilised grade</strong> — it is stabilised against sensitisation.</p>
+        <p style={{"font-size":"0.92rem",color:"#6b7280","line-height":"1.7","margin-bottom":"2rem"}}>The titanium content must be at least 5 times the carbon content (Ti ≥ 5×C) per ASTM A240 to provide effective stabilisation.</p>
+
+        {/* When to Specify 321 */}
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>When to Specify SS 321 Over SS 304</h2>
+        <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
+          <li><strong>Continuous service above 425°C:</strong> Exhaust manifolds, furnace parts, heat exchangers operating in the sensitisation range</li>
+          <li><strong>Welded components without post-weld solution anneal:</strong> If you cannot solution-anneal (1050°C + water quench) after welding, use 321 to prevent HAZ sensitisation</li>
+          <li><strong>Thermal cycling between 425-815°C:</strong> Repeated heating/cooling through the sensitisation range accelerates carbide precipitation in 304</li>
+          <li><strong>Post-weld heat treatment (stress relief) above 425°C:</strong> PWHT at 600-650°C would sensitise 304 but not 321</li>
+          <li><strong>Refinery and petrochemical piping:</strong> Process lines carrying corrosive media at elevated temperatures where IGC would cause catastrophic leaks</li>
+        </ul>
+        <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>If your operating temperature stays below 425°C and no high-temperature welding/PWHT is involved, SS 304 or 304L is perfectly adequate and more cost-effective. The "L" grade (low carbon, 0.03% max) also resists sensitisation but has lower high-temperature strength.</p>
+
+        {/* Composition Comparison */}
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Composition Comparison — SS 304 vs SS 321</h2>
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"1.5rem"}}>
           <table style={{width:"100%","border-collapse":"collapse","font-size":"0.88rem","min-width":"480px"}}>
-            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 1rem","text-align":"left"}}>Element</th><th style={{padding:"0.7rem 1rem"}}>SS 304</th><th style={{padding:"0.7rem 1rem"}}>SS 321</th><th style={{padding:"0.7rem 1rem"}}>Significance</th></tr></thead>
+            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 1rem","text-align":"left"}}>Element</th><th style={{padding:"0.7rem 1rem"}}>SS 304 (UNS S30400)</th><th style={{padding:"0.7rem 1rem"}}>SS 321 (UNS S32100)</th></tr></thead>
             <tbody>
-              {[["Carbon","0.08% max","0.08% max","Lower is better for weld zones"],["Chromium","18–20%","17–19%","Primary corrosion resistance"],["Nickel","8–10.5%","9–12%","Austenite stabiliser"],["Titanium","None","5×C to 0.70%","Carbide stabiliser — key difference"],["Mn, Si, P, S","Standard","Standard","Similar in both grades"]].map((r,i) => (
-                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 1rem","font-weight":"600"}}>{r[0]}</td><td style={{padding:"0.6rem 1rem","text-align":"center"}}>{r[1]}</td><td style={{padding:"0.6rem 1rem","text-align":"center"}}>{r[2]}</td><td style={{padding:"0.6rem 1rem","font-size":"0.82rem",color:"#6b7280"}}>{r[3]}</td></tr>
+              {[["Carbon","0.08% max","0.08% max"],["Chromium","18.0–20.0%","17.0–19.0%"],["Nickel","8.0–10.5%","9.0–12.0%"],["Titanium","None","5×C min (typ. 0.4–0.7%)"],["Manganese","2.0% max","2.0% max"],["Silicon","0.75% max","0.75% max"],["Phosphorus","0.045% max","0.045% max"],["Sulphur","0.030% max","0.030% max"]].map((r,i) => (
+                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 1rem","font-weight":"600"}}>{r[0]}</td><td style={{padding:"0.6rem 1rem","text-align":"center"}}>{r[1]}</td><td style={{padding:"0.6rem 1rem","text-align":"center"}}>{r[2]}</td></tr>
               ))}
             </tbody>
           </table>
         </div>
-        <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>The titanium in SS 321 preferentially combines with carbon to form titanium carbides (TiC) instead of allowing carbon to combine with chromium. This single mechanism is what prevents sensitisation and makes 321 the go-to grade for high-temperature service.</p>
+        <p style={{"font-size":"0.88rem",color:"#6b7280","margin-bottom":"2rem"}}>Note: 321 has slightly higher nickel (9-12% vs 8-10.5%) to maintain austenitic stability after titanium addition. The key differentiator is the titanium content.</p>
 
-        {/* Sensitisation Explained */}
-        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>What Is Sensitisation and Why Does It Matter?</h2>
-        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>When standard austenitic stainless steels (like 304) are held in the 425–900°C temperature range, carbon atoms migrate to grain boundaries and combine with chromium to form chromium carbides (Cr23C6). This depletes chromium from the zone immediately adjacent to grain boundaries, dropping local Cr content below the 10.5% minimum needed for passivation.</p>
-        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>The result: a network of chromium-depleted zones along every grain boundary that are highly susceptible to intergranular corrosion. The steel looks fine externally but is corroding along grain boundaries — often invisible until catastrophic cracking occurs. This phenomenon is called <strong>sensitisation</strong>.</p>
-        <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>SS 321 solves this problem permanently. The titanium has a stronger affinity for carbon than chromium does, so it "captures" all available carbon as stable TiC precipitates before Cr23C6 can form. The chromium stays in solid solution, and corrosion resistance remains intact even after thousands of hours at elevated temperatures.</p>
-
-        {/* Temperature Comparison */}
-        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Temperature Limits — When 304 Fails and 321 Survives</h2>
-        <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"1rem","padding-left":"1.25rem"}}>
-          <li><strong>SS 304 (unwelded):</strong> Continuous service up to 870°C in non-corrosive oxidising atmospheres</li>
-          <li><strong>SS 304 (welded):</strong> Maximum ~425°C for welded fabrications in corrosive environments — above this, sensitisation in HAZ causes intergranular attack</li>
-          <li><strong>SS 321:</strong> Continuous service up to 900°C even in welded condition — titanium stabilisation prevents sensitisation across the entire temperature range</li>
-          <li><strong>Intermittent service:</strong> SS 304 limited to 870°C intermittent (no corrosive media); SS 321 handles 900°C intermittent with full corrosion resistance retained</li>
-        </ul>
-        <p style={{"font-size":"0.92rem",color:"#6b7280","line-height":"1.8","margin-bottom":"2rem"}}>Key takeaway: If your welded fabrication operates above 425°C in any corrosive environment, SS 321 is not optional — it is essential to prevent premature failure.</p>
-
-        {/* Welding Advantages */}
-        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Welding — Why Fabricators Prefer 321 for High-Temp Work</h2>
-        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>During welding, the heat-affected zone (HAZ) experiences exactly the sensitisation temperature range (425–900°C) for a duration sufficient to initiate carbide precipitation. In SS 304, this creates a sensitised HAZ that becomes the weakest link in the fabrication.</p>
-        <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
-          <li><strong>No post-weld heat treatment required:</strong> SS 321 can be welded and put directly into high-temperature service without solution annealing</li>
-          <li><strong>No sensitised HAZ:</strong> The titanium stabilisation works even in the as-welded condition</li>
-          <li><strong>Multi-pass welding safe:</strong> Repeated thermal cycles do not degrade corrosion resistance in 321</li>
-          <li><strong>Filler metal:</strong> Use ER347 (Nb-stabilised) filler for 321 — titanium does not transfer well across the arc, so niobium provides stabilisation in the weld metal itself</li>
-        </ul>
+        {/* Mechanical Properties */}
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Mechanical Properties Comparison</h2>
+        <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"1.5rem"}}>
+          <table style={{width:"100%","border-collapse":"collapse","font-size":"0.88rem","min-width":"480px"}}>
+            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 1rem","text-align":"left"}}>Property</th><th style={{padding:"0.7rem 1rem"}}>SS 304</th><th style={{padding:"0.7rem 1rem"}}>SS 321</th></tr></thead>
+            <tbody>
+              {[["Tensile Strength (min)","515 MPa","515 MPa"],["Yield Strength (min)","205 MPa","205 MPa"],["Elongation (min)","40%","40%"],["Hardness (max)","201 HB","217 HB"],["Max Continuous Service Temp","870°C (intermittent 925°C)","870°C (stabilised)"],["Creep Strength (550°C)","Lower","Higher (Ti carbides pin grain boundaries)"],["Weldability","Excellent","Excellent (no sensitisation risk)"]].map((r,i) => (
+                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 1rem","font-weight":"600"}}>{r[0]}</td><td style={{padding:"0.6rem 1rem","text-align":"center"}}>{r[1]}</td><td style={{padding:"0.6rem 1rem","text-align":"center"}}>{r[2]}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p style={{"font-size":"0.88rem",color:"#6b7280","margin-bottom":"2rem"}}>At room temperature, both grades have similar strength. The advantage of 321 emerges at elevated temperatures where its superior creep resistance and freedom from sensitisation provide longer service life.</p>
 
         {/* Applications */}
-        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Applications — Where Each Grade Excels</h2>
-        <div style={{display:"grid","grid-template-columns":"1fr 1fr",gap:"1rem","margin-bottom":"2rem"}}>
-          <div style={{background:"#f0fdf4",border:"1px solid #bbf7d0","border-radius":"10px",padding:"1.25rem"}}>
-            <h3 style={{"font-size":"0.95rem","font-weight":"700",color:"#166534","margin-bottom":"0.5rem"}}>SS 304 — Best For</h3>
-            <ul style={{"font-size":"0.84rem",color:"#374151","line-height":"1.7","padding-left":"1rem",margin:0}}>
-              <li>Food and beverage equipment</li>
-              <li>Architectural cladding and handrails</li>
-              <li>Chemical tanks at ambient temperature</li>
-              <li>Pharmaceutical equipment</li>
-              <li>Water treatment systems</li>
-              <li>Kitchen and dairy equipment</li>
-            </ul>
-          </div>
-          <div style={{background:"#fef3c7",border:"1px solid #fde68a","border-radius":"10px",padding:"1.25rem"}}>
-            <h3 style={{"font-size":"0.95rem","font-weight":"700",color:"#92400e","margin-bottom":"0.5rem"}}>SS 321 — Best For</h3>
-            <ul style={{"font-size":"0.84rem",color:"#374151","line-height":"1.7","padding-left":"1rem",margin:0}}>
-              <li>Exhaust manifolds and bellows</li>
-              <li>Furnace parts and radiant tubes</li>
-              <li>High-temperature headers and piping</li>
-              <li>Jet engine components</li>
-              <li>Refinery heater tubes</li>
-              <li>Superheater elements in boilers</li>
-            </ul>
-          </div>
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Typical Applications for SS 321</h2>
+        <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(250px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
+          {[{icon:"🔥",title:"Exhaust Systems",desc:"Aircraft and automotive exhaust manifolds, bellows, flexible connectors — cyclic thermal exposure in the 500-800°C range."},{icon:"🏭",title:"Refinery Piping",desc:"Process piping for catalytic reformers, crude distillation overheads, hydrogen service lines operating above 425°C."},{icon:"⚡",title:"Power Generation",desc:"Boiler superheater tubes, expansion joints, flue gas ducting — IBR-certified 321 tubes for thermal power plants."},{icon:"🧪",title:"Chemical Processing",desc:"Reactor vessels, heat exchangers, jacketed piping in high-temperature corrosive environments."}].map(app => (
+            <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.25rem"}}>
+              <span style={{"font-size":"1.5rem"}}>{app.icon}</span>
+              <h3 style={{"font-size":"0.95rem","font-weight":"700",color:"#111827",margin:"0.5rem 0 0.3rem"}}>{app.title}</h3>
+              <p style={{"font-size":"0.84rem",color:"#6b7280","line-height":"1.6",margin:0}}>{app.desc}</p>
+            </div>
+          ))}
         </div>
 
-        {/* Pricing */}
-        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Pricing and Availability</h2>
-        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>SS 321 typically commands a 10–15% premium over SS 304 due to the titanium addition and lower global production volumes. However, when you factor in the cost of premature replacement, unplanned shutdowns, and potential safety incidents from sensitisation failures, the 321 premium is a sound engineering investment for any application above 425°C.</p>
-        <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
-          <li><strong>SS 304 pipes:</strong> Readily available ex-stock in all sizes, both seamless and welded (ERW)</li>
-          <li><strong>SS 321 pipes:</strong> Available in seamless form from reputed mills; some sizes may require 2–3 weeks lead time for non-standard dimensions</li>
-          <li><strong>Fittings and flanges:</strong> Both grades stocked by Creative Metal Industries in standard ASME B16.9 and B16.5 configurations</li>
+        {/* Cost Difference */}
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Cost Difference — Is 321 Worth the Premium?</h2>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>SS 321 typically costs 15-25% more than SS 304 depending on product form (pipe, plate, fittings) and quantity. The premium comes from:</p>
+        <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"1.5rem","padding-left":"1.25rem"}}>
+          <li><strong>Titanium addition:</strong> Raw material cost for Ti ferro-alloy</li>
+          <li><strong>Lower production volumes:</strong> 321 is a specialty grade with smaller mill campaigns</li>
+          <li><strong>Tighter process control:</strong> Ti content must be precisely controlled relative to carbon</li>
+          <li><strong>Longer lead times:</strong> Not always in stock at mills — may require planned production</li>
         </ul>
-
-        {/* When to Specify Each */}
-        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Decision Guide — When to Specify Each Grade</h2>
-        <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
-          <li><strong>Choose SS 304 when:</strong> Service temperature stays below 425°C, or the component is unwelded and operates in non-corrosive atmosphere at higher temperatures</li>
-          <li><strong>Choose SS 321 when:</strong> Welded fabrication will operate above 425°C in any corrosive environment, or when post-weld solution annealing is impractical</li>
-          <li><strong>Consider SS 304L instead of 321 when:</strong> Temperature is moderate (under 425°C) but sensitisation during welding is a concern — the low carbon (0.03% max) approach is cheaper than titanium stabilisation for this use case</li>
-          <li><strong>Consider SS 347 (Nb-stabilised) over 321 when:</strong> Application involves thermal cycling above 900°C — niobium carbides are more stable than titanium carbides at very high temperatures</li>
-        </ul>
+        <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>However, for high-temperature welded service, the 15-25% material premium is negligible compared to the cost of an in-service IGC failure — which can mean unplanned shutdowns, repair welding, and potential safety incidents. At Creative Metal Industries, we maintain ready stock of SS 321 seamless pipes and fittings to minimise lead times for our customers.</p>
 
         {/* FAQ */}
-        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Frequently Asked Questions</h2>
+        <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Frequently Asked Questions — SS 304 vs SS 321</h2>
         <div style={{display:"flex","flex-direction":"column",gap:"0.75rem","margin-bottom":"3rem"}}>
-          {[{q:"What is the difference between SS 304 and SS 321?",a:"SS 321 is SS 304 with added titanium (5×C to 0.70% Ti). This titanium preferentially combines with carbon to form TiC, preventing chromium carbide formation at grain boundaries. Result: SS 321 resists intergranular corrosion (sensitisation) at temperatures up to 900°C, where SS 304 would fail."},{q:"At what temperature should I switch from 304 to 321?",a:"If your welded fabrication will operate continuously above 425°C in any corrosive environment, specify SS 321. Below 425°C, standard SS 304 is perfectly adequate. For unwelded components in non-corrosive (oxidising) atmospheres, SS 304 can serve up to 870°C."},{q:"Is SS 321 more expensive than SS 304?",a:"Yes, approximately 10–15% more expensive due to titanium addition and smaller production volumes. However, this premium is justified for high-temperature applications where SS 304 would suffer sensitisation and premature failure — the cost of replacement far exceeds the initial material premium."},{q:"Can SS 321 be used for food processing?",a:"Yes, it is safe for food contact. However, SS 321 is over-specified for food processing since operating temperatures rarely exceed 100°C. Standard SS 304 or 316L provides identical performance at lower cost for food and beverage applications."}].map(f => (
+          {[{q:"What is the difference between SS 304 and SS 321?",a:"SS 321 contains titanium (minimum 5× carbon content) that stabilises the grade against sensitisation — chromium carbide precipitation at grain boundaries during 425–815°C exposure. SS 304 lacks this protection. Both have similar room-temperature properties, but 321 is far more reliable in welded, high-temperature applications."},{q:"When should I specify SS 321 over SS 304?",a:"Specify 321 when: (1) Continuous operating temperature exceeds 425°C, (2) Welded joints cannot be solution-annealed post-weld, (3) Thermal cycling through 425–815°C occurs, (4) PWHT at 600°C+ is required. Below 425°C with no high-temp exposure, 304 or 304L is sufficient and cheaper."},{q:"Is SS 321 more expensive than SS 304?",a:"Yes — typically 15–25% more expensive due to titanium addition, lower production volumes, and tighter process control. However, the premium is easily justified in high-temperature welded applications where sensitisation failure of 304 would result in far costlier shutdowns and repairs."}].map(f => (
             <details style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1rem 1.25rem"}}><summary style={{"font-weight":"700","font-size":"0.92rem",color:"#111827",cursor:"pointer"}}>{f.q}</summary><p style={{"font-size":"0.88rem",color:"#374151","line-height":"1.7","margin-top":"0.6rem","margin-bottom":0}}>{f.a}</p></details>
           ))}
         </div>
 
         {/* CTA */}
         <div style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)","border-radius":"12px",padding:"2rem","text-align":"center","margin-bottom":"2rem"}}>
-          <h2 style={{color:"#fff","font-size":"1.3rem","font-weight":"800","margin-bottom":"0.6rem"}}>Need SS 304 or SS 321 Pipes and Fittings?</h2>
-          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.25rem","font-size":"0.92rem"}}>Both grades available ex-stock in seamless pipes, fittings, and flanges. Mill test certificates provided.</p>
+          <h2 style={{color:"#fff","font-size":"1.3rem","font-weight":"800","margin-bottom":"0.6rem"}}>Need SS 321 Pipes, Fittings or Plates?</h2>
+          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.25rem","font-size":"0.92rem"}}>Ready stock of SS 321 seamless pipes, welded tubes, and buttweld fittings. Full MTC with titanium content verification. Supplying since 2012.</p>
           <div style={{display:"flex",gap:"1rem","justify-content":"center","flex-wrap":"wrap"}}>
             <a href="tel:+919998280619" style={{background:"#fff",color:"#E8821A","font-weight":"800",padding:"0.7rem 1.5rem","border-radius":"8px","text-decoration":"none","font-size":"0.92rem"}}>📞 +91 99982 80619</a>
             <a href="https://wa.me/919998280619" target="_blank" rel="noopener" style={{background:"#25D366",color:"#fff","font-weight":"800",padding:"0.7rem 1.5rem","border-radius":"8px","text-decoration":"none","font-size":"0.92rem"}}>💬 WhatsApp</a>
+            <a href="/ss-seamless-pipe-supplier-india" style={{background:"rgba(255,255,255,0.15)",color:"#fff",border:"2px solid rgba(255,255,255,0.5)","font-weight":"700",padding:"0.7rem 1.5rem","border-radius":"8px","text-decoration":"none","font-size":"0.92rem"}}>View SS Seamless Pipes →</a>
           </div>
         </div>
 
-        <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Related Articles and Products</h3>
+        <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Related Articles & Products</h3>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
-          {[{href:"/ss-pipe-supplier-vadodara",label:"SS Pipe Supplier Vadodara"},{href:"/ss-seamless-pipe-supplier-india",label:"SS Seamless Pipe Supplier India"},{href:"/blog/ss-304-stainless-steel-guide",label:"SS 304 Complete Guide"},{href:"/stainless-steel-supplier-vadodara",label:"Stainless Steel Supplier Vadodara"}].map(l => (
-            <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} {"\u2192"}</a>
+          {[{href:"/ss-pipe-supplier-vadodara",label:"SS Pipe Supplier Vadodara"},{href:"/ss-seamless-pipe-supplier-india",label:"SS Seamless Pipe Supplier India"},{href:"/blog/ss-304-stainless-steel-guide",label:"SS 304 Complete Guide"},{href:"/ss-buttweld-fittings-supplier-india",label:"SS Buttweld Fittings"},{href:"/blog/ss-pipe-fittings-flanges-guide",label:"SS Fittings & Flanges Guide"}].map(l => (
+            <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>
-        <p><strong style={{color:"#fff"}}>Creative Metal Industries</strong> — SS 304 vs SS 321 Supplier | Titanium Stabilised Stainless Steel Pipes | Vadodara</p>
+        <p><strong style={{color:"#fff"}}>Creative Metal Industries</strong> — SS 321 Stabilised Grade Supplier | SS 304 vs 321 Specialist | Vadodara, Gujarat</p>
         <p><a href="tel:+919998280619" style={{color:"#E8821A"}}>+91 99982 80619</a> | <a href="https://www.creativemetalind.com" style={{color:"#E8821A"}}>creativemetalind.com</a></p>
       </footer>
     </>
