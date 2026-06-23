@@ -187,6 +187,75 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Key Projects — E-E-A-T: demonstrates real-world capability */}
+      <section style="background:var(--white);padding:4rem 0;border-top:1px solid var(--border)">
+        <div class="container">
+          <div class="section-head-center" style="margin-bottom:2rem">
+            <span class="section-label">Track Record</span>
+            <h2>Key Projects &amp; Supply References</h2>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem">
+            {[
+              {qty:"200+ MT",material:"SS 316L Seamless Pipe",client:"Major Gujarat Refinery Expansion",year:"2024"},
+              {qty:"50+ MT",material:"Duplex 2205 Pipe & Fittings",client:"Offshore Desalination Project",year:"2023"},
+              {qty:"150+ MT",material:"SA 335 P91 Alloy Steel Pipe",client:"Supercritical Thermal Power Plant",year:"2023"},
+              {qty:"80+ MT",material:"SA 516 Gr.70 NACE/HIC Plate",client:"Petrochemical Reactor Fabrication",year:"2024"},
+              {qty:"300+ MT",material:"TMT Bars Fe 500D",client:"High-Rise Construction Ahmedabad",year:"2025"},
+              {qty:"25+ MT",material:"Inconel 625 Pipe & Fittings",client:"Chemical Plant FGD System",year:"2025"},
+            ].map(p => (
+              <div class="pillar-card" style="flex-direction:column;gap:0.5rem;padding:1.5rem">
+                <span style="font-size:1.4rem;font-weight:800;color:var(--amber)">{p.qty}</span>
+                <p style="font-size:0.92rem;font-weight:700;color:var(--ink);margin:0">{p.material}</p>
+                <p style="font-size:0.82rem;color:var(--charcoal);margin:0">{p.client}</p>
+                <p style="font-size:0.78rem;color:var(--muted);margin:0">{p.year}</p>
+              </div>
+            ))}
+          </div>
+          <p style="text-align:center;font-size:0.85rem;color:var(--muted);margin-top:1.5rem">Client names anonymised for confidentiality. References available on request for qualified enquiries.</p>
+        </div>
+      </section>
+
+      {/* Export Countries */}
+      <section style="background:var(--sky2);padding:3rem 0;border-top:1px solid var(--border)">
+        <div class="container">
+          <div class="section-head-center" style="margin-bottom:1.5rem">
+            <span class="section-label">Global Reach</span>
+            <h2>Export to 50+ Countries</h2>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin-bottom:1rem">
+            {["UAE","Oman","Bahrain","Kuwait","Saudi Arabia","Qatar","Iraq","Kenya","Nigeria","Tanzania","South Africa","UK","Germany","Italy","USA","Canada","Brazil","Australia","Singapore","Malaysia","Thailand","Vietnam","Bangladesh","Sri Lanka"].map(c => (
+              <span style="background:var(--white);border:1px solid var(--border);border-radius:99px;padding:0.3rem 0.8rem;font-size:0.78rem;font-weight:600;color:var(--charcoal)">{c}</span>
+            ))}
+          </div>
+          <p style="text-align:center;font-size:0.85rem;color:var(--muted)">Full export documentation — packing lists, certificate of origin, fumigation cert, sea/air freight coordination.</p>
+        </div>
+      </section>
+
+      {/* Quality Control Process */}
+      <section style="background:var(--white);padding:4rem 0;border-top:1px solid var(--border)">
+        <div class="container">
+          <div class="section-head-center" style="margin-bottom:2rem">
+            <span class="section-label">Quality Control</span>
+            <h2>Our Quality Assurance Process</h2>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem">
+            {[
+              {step:"1",title:"Receiving",desc:"Material received from approved mills with original MTC. Heat numbers verified against documentation."},
+              {step:"2",title:"Inspection",desc:"Visual inspection, dimensional check, stencil/marking verification. PMI testing where applicable."},
+              {step:"3",title:"Testing",desc:"UT, hardness, hydro test records verified against specification requirements. NACE compliance confirmed."},
+              {step:"4",title:"Documentation",desc:"MTC, IBR Form III-C, test reports compiled. Digital copies prepared for customer."},
+              {step:"5",title:"Dispatch",desc:"Proper packing, marking, tagging per customer specs. Shipping documents prepared for domestic/export."},
+            ].map(s => (
+              <div style="text-align:center">
+                <span style="display:inline-block;width:2.5rem;height:2.5rem;line-height:2.5rem;background:linear-gradient(135deg,#E8821A,#d85c2a);color:#fff;border-radius:50%;font-weight:800;font-size:1.1rem">{s.step}</span>
+                <h4 style="font-size:0.95rem;margin:0.75rem 0 0.3rem">{s.title}</h4>
+                <p style="font-size:0.82rem;color:var(--charcoal);line-height:1.5;margin:0">{s.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section style="background:linear-gradient(135deg,#E8821A,#d85c2a);padding:3rem 0;text-align:center">
         <div class="container">

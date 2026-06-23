@@ -512,13 +512,42 @@ export default function ProductsPage() {
       <header class="pt-header">
         <div class="container">
           <a href="/" class="pt-back">← Back to Home</a>
-          <h1>Steel Product Specifications &amp; Size Charts</h1>
-          <p>Reference tables for all structural steel, pipes and bars supplied by Creative Metal Industries, Vadodara</p>
+          <h1>Steel Products — Pipes, Plates, Fittings, Flanges &amp; Structural</h1>
+          <p>Complete product catalog with size &amp; weight charts. SS, Carbon, Alloy Steel and Exotic Alloys — Creative Metal Industries, Vadodara</p>
         </div>
       </header>
 
+      {/* Product Catalog Section */}
+      <section style={{background:"#fff",padding:"3rem 0","border-bottom":"1px solid #e5e7eb"}}>
+        <div class="container">
+          <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin-bottom":"1.5rem","text-align":"center"}}>Browse Our Product Range</h2>
+          <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(240px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
+            {[
+              {href:"/ss-seamless-pipe-supplier-india", icon:"🛢️", title:"SS Seamless Pipe", desc:"ASTM A312 — 304, 316L, 321, Duplex. 6NB–600NB."},
+              {href:"/ss-buttweld-fittings-supplier-india", icon:"⚙️", title:"SS Buttweld Fittings", desc:"ASTM A403 — Elbows, Tees, Reducers. All grades."},
+              {href:"/ss-flanges-supplier-vadodara", icon:"🔩", title:"SS Flanges", desc:"ASTM A182 — WNRF, SORF, Blind. Class 150–2500."},
+              {href:"/alloy-steel-pipe-supplier-india", icon:"🔥", title:"Alloy Steel Pipe", desc:"ASTM A335 P91, P22, P11. IBR certified."},
+              {href:"/inconel-pipe-supplier-india", icon:"✨", title:"Inconel Pipe", desc:"625, 600, 718, 825. ASTM B444/B167."},
+              {href:"/carbon-steel-pipe-fittings-vadodara", icon:"🏗️", title:"Carbon Steel Pipe & Fittings", desc:"A106 Gr.B, ERW, A234 fittings, A105 flanges."},
+              {href:"/duplex-steel-supplier-vadodara", icon:"🔵", title:"Duplex & Super Duplex", desc:"2205, 2507. Pipes, plates, fittings."},
+              {href:"/tmt-bars-supplier-gujarat", icon:"🏢", title:"TMT Bars & Structural", desc:"Fe 500D. MS Angle, Channel, Beam."},
+            ].map(p => (
+              <a href={p.href} style={{display:"block",background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.25rem","text-decoration":"none",transition:"border-color 0.2s"}}>
+                <span style={{"font-size":"1.5rem"}}>{p.icon}</span>
+                <h3 style={{"font-size":"0.95rem","font-weight":"700",color:"#111827",margin:"0.5rem 0 0.3rem"}}>{p.title}</h3>
+                <p style={{"font-size":"0.82rem",color:"#6b7280","line-height":"1.5",margin:0}}>{p.desc}</p>
+              </a>
+            ))}
+          </div>
+          <div style={{"text-align":"center"}}>
+            <a href="/#contact" style={{background:"#E8821A",color:"#fff",padding:"0.75rem 2rem","border-radius":"8px","font-weight":"700","font-size":"0.95rem","text-decoration":"none","display":"inline-block"}}>Request Quote for Any Product →</a>
+          </div>
+        </div>
+      </section>
+
       <main class="pt-main">
         <div class="container">
+          <h2 style={{"font-size":"1.3rem","font-weight":"700",color:"#111827","margin-bottom":"1rem","text-align":"center"}}>Size &amp; Weight Reference Charts</h2>
           {/* Tab strip */}
           <div class="pt-tabs" role="tablist">
             <For each={TABS}>{(t) => (
