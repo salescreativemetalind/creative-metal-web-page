@@ -207,7 +207,7 @@ export default function MetalTradingPage() {
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta
         name="description"
-        content="Creative Metal Industries — trusted metal trading company in Vadodara since 2012. Ready stock of SS, Carbon & Alloy Steel Pipes, Plates, Fittings, Flanges. PAN India delivery. Call +91 99982 80619."
+        content="Steel trading company Vadodara, Gujarat — metal importer exporter India. SS, Carbon & Alloy Steel Pipes, Plates, Fittings, Flanges. Industrial raw material supplier Gujarat. IBR, MTC certified. PAN India & export delivery. Creative Metal Industries."
       />
       <Link rel="canonical" href="https://www.creativemetalind.com/metal-trading" />
 

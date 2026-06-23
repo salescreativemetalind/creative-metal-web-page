@@ -10,9 +10,9 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SS304316LPage() {
   return (
     <>
-      <Title>SS 304 316L Pipe Supplier India | Seamless Welded | CMI</Title>
+      <Title>SS 304 316L Pipe Supplier India | Seamless & Welded | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="India's trusted SS 304 & 316L pipe supplier — seamless & welded per ASTM A312. 6NB-600NB, SCH 5S-XXS. IBR, NACE, MTC. Sandvik, Ratnamani. Call +91 99982 80619." />
+      <Meta name="description" content="SS 304 and SS 316L pipe supplier and seamless pipe manufacturer in India. ASTM A312 TP304/TP316L, 6NB–600NB, SCH 5S–XXS. IBR, NACE, MTC certified. Sandvik, Ratnamani. Creative Metal Industries, Vadodara." />
       <Meta name="keywords" content="SS 304 pipe supplier India, SS 316L pipe supplier India, stainless steel 304 pipe, stainless steel 316L seamless pipe, ASTM A312 pipe supplier, SS pipe manufacturer India" />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india" />
       <Meta property="og:title" content="SS 304 316L Pipe Supplier India | CMI" />
