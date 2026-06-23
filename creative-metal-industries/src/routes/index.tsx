@@ -360,7 +360,7 @@ function Hero() {
         <div class="hero-inner">
           <div class="hero-content">
             <div class="hero-badge">🏭 Manufacturer · Stockist · Supplier — Vadodara, Gujarat</div>
-            <h1>Premium <em>SS Pipes, Pipe Fittings,<br/>Flanges &amp; Plates</em></h1>
+            <h1>SS Pipes, Fittings, Flanges &amp; Plates Supplier <em>Vadodara</em></h1>
             <p class="hero-sub">
               Creative Metal Industries, Vadodara — manufacturer, stockist and supplier of
               Stainless Steel, Duplex, Carbon &amp; Alloy Steel Pipes, Plates, Fittings,
@@ -1808,6 +1808,7 @@ export default function Home() {
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
+      <script type="application/ld+json" innerHTML={JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com/"}]})} />
       <Nav />
       <main id="main-content">
         <Hero />
