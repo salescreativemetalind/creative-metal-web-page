@@ -112,7 +112,7 @@ export default function SA516PlatePage() {
         </h1>
 
         <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Creative Metal Industries is India's trusted stockist and supplier of <strong>ASTM SA 516 Grade 60 and Grade 70 carbon steel plates</strong> for pressure vessel, boiler, and heat exchanger fabrication. We maintain ready stock of SA 516 plates from <strong>6mm to 200mm thickness</strong> at our GIDC Makarpura, Vadodara facility — with IBR Form III-C certification, NACE MR-01-75 compliance, and HIC test reports available for every heat.
+          Creative Metal Industries — established in <strong>2012</strong> — is India's trusted stockist and supplier of <strong>ASTM SA 516 Grade 60 and Grade 70 carbon steel plates</strong> for pressure vessel, boiler, and heat exchanger fabrication. We maintain ready stock of SA 516 plates from <strong>6mm to 200mm thickness</strong> at our GIDC Makarpura, Vadodara facility — with IBR Form III-C certification, NACE MR-01-75 compliance, and HIC test reports available for every heat.
         </p>
 
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>

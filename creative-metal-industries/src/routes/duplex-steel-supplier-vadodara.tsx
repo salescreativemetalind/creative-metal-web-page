@@ -171,6 +171,7 @@ export default function DuplexSteelSupplierVadodara() {
               Creative Metal Industries supplies <strong>Duplex 2205 (S31803), Super Duplex 2507 (S32750), Zeron 100 (S32760)</strong> and
               {" "}<strong>Alloy Steel P91, P22, P11</strong> pipes, plates, fittings and flanges from Vadodara.
               All Alloy Steel pipes supplied with <strong>IBR Form III-C</strong> certification — authorised IBR supplier in Gujarat.
+              {" "}Sourced from <strong>Sandvik, Outokumpu, Tubacex, Sumitomo and Vallourec</strong>. Third-party inspection accepted under <strong>DNV, TUV, SGS, BVIS and LRIS</strong> at our GIDC Makarpura facility. MTC (EN 10204 3.1/3.2) and NACE MR-01-75 compliance on every consignment.
             </p>
             <div style={{ display: "flex", gap: "1rem", "flex-wrap": "wrap", "margin-bottom": "2.5rem" }}>
               <a href="/#contact" class="btn btn-primary" style={{ "font-size": "1rem", padding: "0.75rem 1.75rem" }}>Get Instant Quote →</a>

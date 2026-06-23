@@ -163,7 +163,7 @@ export default function CarbonSteelPipeFittingsVadodara() {
             <p style={{ "font-size": "1.1rem", color: "#374151", "max-width": "720px", "line-height": "1.75", "margin-bottom": "2rem" }}>
               Creative Metal Industries supplies a complete range of <strong>ERW pipes (IS 1239 / IS 3589), Seamless pipes (ASTM A106/A53),
               API 5L line pipes</strong>, buttweld fittings, forged fittings, flanges and carbon steel plates (IS 2062, SA 516 Gr.70)
-              from Vadodara. All materials IBR certifiable. Ready stock at <strong>GIDC Makarpura, Vadodara</strong>.
+              from Vadodara. Established in <strong>2012</strong>, we supply all materials with <strong>MTC (EN 10204 3.1/3.2)</strong>, IBR Form III-C, and <strong>NACE MR-01-75</strong> compliance. Third-party inspection under <strong>DNV, TUV, SGS, BVIS, LRIS</strong> at our GIDC Makarpura facility. Ready stock — same-day dispatch.
             </p>
             <div style={{ display: "flex", gap: "1rem", "flex-wrap": "wrap", "margin-bottom": "2.5rem" }}>
               <a href="/#contact" class="btn btn-primary" style={{ "font-size": "1rem", padding: "0.75rem 1.75rem" }}>Get Instant Quote →</a>
