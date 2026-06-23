@@ -341,6 +341,31 @@ export default function StainlessSteelSupplierVadodara() {
           </div>
         </section>
 
+        {/* ── Internal Links — Topic Cluster ── */}
+        <section style={{ padding: "3rem 1.5rem", background: "#fff", "border-top": "1px solid #e5e7eb" }}>
+          <div style={{ "max-width": "900px", margin: "0 auto" }}>
+            <h2 style={{ "font-size": "1.2rem", "font-weight": "700", color: "#111827", "margin-bottom": "1.25rem" }}>Explore Our Stainless Steel Product Range</h2>
+            <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(220px,1fr))", gap: "0.75rem" }}>
+              {[
+                { href: "/ss-pipe-supplier-vadodara", label: "SS Pipe Supplier Vadodara" },
+                { href: "/ss-seamless-pipe-supplier-india", label: "SS Seamless Pipe Supplier India" },
+                { href: "/ss-buttweld-fittings-supplier-india", label: "SS Buttweld Fittings India" },
+                { href: "/ss-flanges-supplier-vadodara", label: "SS Flanges Supplier Vadodara" },
+                { href: "/ss-304-316l-pipe-supplier-india", label: "SS 304 316L Pipe India" },
+                { href: "/blog/ss-304-stainless-steel-guide", label: "SS 304 Grade Guide" },
+                { href: "/blog/ss-316l-stainless-steel-guide", label: "SS 316L Grade Guide" },
+                { href: "/blog/ss-sheet-plate-guide", label: "SS Sheet & Plate Guide" },
+                { href: "/blog/ss-pipe-supplier-vadodara-guide", label: "How to Choose SS Pipe Supplier" },
+                { href: "/blog/erw-vs-seamless-pipe", label: "ERW vs Seamless Pipe" },
+                { href: "/blog/pipe-schedule-chart", label: "Pipe Schedule Chart" },
+                { href: "/blog/ss-long-products-fittings-guide", label: "SS Angle, Rod & Fittings" },
+              ].map(l => (
+                <a href={l.href} style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "8px", padding: "0.75rem 1rem", "font-size": "0.85rem", "font-weight": "600", color: "#E8821A", "text-decoration": "none" }}>{l.label} →</a>
+              ))}
+            </div>
+          </div>
+        </section>
+
       </main>
 
       {/* ── Footer ── */}
