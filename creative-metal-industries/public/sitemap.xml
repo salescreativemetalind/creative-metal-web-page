@@ -1,333 +1,354 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- ═══════════════════════════════════════════
-       CORE PAGES
-       Last updated: 2026-06-16
-       ═══════════════════════════════════════════ -->
-
-  <!-- Homepage -->
+  <!-- CORE PAGES -->
   <url>
     <loc>https://www.creativemetalind.com/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
-
-  <!-- About -->
   <url>
     <loc>https://www.creativemetalind.com/about</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
-  <!-- Products / Size & Weight Charts -->
   <url>
     <loc>https://www.creativemetalind.com/products</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-
-  <!-- Reviews -->
   <url>
     <loc>https://www.creativemetalind.com/reviews</loc>
     <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 
-  <!-- ═══════════════════════════════════════════
-       SEO LANDING PAGES
-       ═══════════════════════════════════════════ -->
-
-  <!-- Metal Trading Company Vadodara -->
-  <url>
-    <loc>https://www.creativemetalind.com/metal-trading</loc>
-    <lastmod>2026-06-10</lastmod>
-  </url>
-
-  <!-- SS Pipe Supplier Vadodara -->
+  <!-- SEO LANDING PAGES (HIGH PRIORITY) -->
   <url>
     <loc>https://www.creativemetalind.com/ss-pipe-supplier-vadodara</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
-  <!-- Stainless Steel Supplier Vadodara -->
   <url>
     <loc>https://www.creativemetalind.com/stainless-steel-supplier-vadodara</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
-  <!-- Duplex Steel Supplier Vadodara -->
   <url>
     <loc>https://www.creativemetalind.com/duplex-steel-supplier-vadodara</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
-  <!-- Carbon Steel Pipe Fittings Vadodara -->
   <url>
     <loc>https://www.creativemetalind.com/carbon-steel-pipe-fittings-vadodara</loc>
-    <lastmod>2026-06-16</lastmod>
-  </url>
-
-  <!-- Carbon Steel SA 516 Plate Stockist India -->
-  <url>
-    <loc>https://www.creativemetalind.com/carbon-steel-sa516-plate-stockist-india</loc>
-    <lastmod>2026-06-16</lastmod>
-  </url>
-
-  <!-- NACE HIC Steel Plate Supplier India -->
-  <url>
-    <loc>https://www.creativemetalind.com/nace-hic-steel-plate-supplier-india</loc>
-    <lastmod>2026-06-16</lastmod>
-  </url>
-
-  <!-- TMT Bars Supplier Gujarat -->
-  <url>
-    <loc>https://www.creativemetalind.com/tmt-bars-supplier-gujarat</loc>
-    <lastmod>2026-06-16</lastmod>
-  </url>
-
-  <!-- SS 304 316L Pipe Supplier India -->
-  <url>
-    <loc>https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india</loc>
-    <lastmod>2026-06-16</lastmod>
-  </url>
-
-  <!-- ═══════════════════════════════════════════
-       BLOG
-       ═══════════════════════════════════════════ -->
-
-  <!-- Blog Index -->
-  <url>
-    <loc>https://www.creativemetalind.com/blog</loc>
-    <lastmod>2026-06-10</lastmod>
-  </url>
-
-  <!-- SS 304 vs SS 316L (confirmed article exists) -->
-  <url>
-    <loc>https://www.creativemetalind.com/blog/ss-304-vs-316l</loc>
-    <lastmod>2026-06-05</lastmod>
-  </url>
-
-  <!-- How to Read MTC (confirmed article exists) -->
-  <url>
-    <loc>https://www.creativemetalind.com/blog/how-to-read-mtc</loc>
-    <lastmod>2026-06-05</lastmod>
-  </url>
-
-  <!-- Duplex vs Super Duplex (confirmed article exists) -->
-  <url>
-    <loc>https://www.creativemetalind.com/blog/duplex-vs-super-duplex</loc>
-    <lastmod>2026-06-05</lastmod>
-  </url>
-
-  <!-- P91 Alloy Steel Power Plants (confirmed article exists) -->
-  <url>
-    <loc>https://www.creativemetalind.com/blog/p91-alloy-steel-power-plants</loc>
-    <lastmod>2026-06-10</lastmod>
-  </url>
-
-  <!-- ASTM A312 vs API 5L (confirmed article exists) -->
-  <url>
-    <loc>https://www.creativemetalind.com/blog/astm-a312-vs-api-5l</loc>
-    <lastmod>2026-06-10</lastmod>
-  </url>
-
-  <!-- Hastelloy vs Inconel (confirmed article exists) -->
-  <url>
-    <loc>https://www.creativemetalind.com/blog/hastelloy-vs-inconel</loc>
-    <lastmod>2026-06-10</lastmod>
-  </url>
-
-  <!-- Pipe Schedules Guide -->
-  <url>
-    <loc>https://www.creativemetalind.com/blog/understanding-pipe-schedules</loc>
-    <lastmod>2026-06-10</lastmod>
-  </url>
-
-  <!-- Titanium Grades Comparison -->
-  <url>
-    <loc>https://www.creativemetalind.com/blog/titanium-grades-comparison</loc>
-    <lastmod>2026-06-10</lastmod>
-  </url>
-
-  <!-- ERW vs Seamless Pipe -->
-  <url>
-    <loc>https://www.creativemetalind.com/blog/erw-vs-seamless-pipe</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <!-- NEW STANDALONE BLOG PAGES (June 2026) -->
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/ss-304-stainless-steel-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/ss-316l-stainless-steel-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/duplex-2205-steel-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/super-duplex-2507-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/hastelloy-c276-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/inconel-625-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/p91-alloy-steel-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/sa-516-carbon-steel-plate-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/nace-hic-steel-plates-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/tmt-bars-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/astm-a312-pipe-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/api-5l-pipe-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/pipe-schedule-chart</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/mill-test-certificate-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/titanium-grade-2-vs-grade-5</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/ss-pipe-fittings-flanges-guide</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/why-creative-metal-industries</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/industrial-raw-material-supplier-india</loc>
-    <lastmod>2026-06-17</lastmod>
-  </url>
-
-  <!-- NEW KEYWORD-FOCUSED BLOG PAGES (June 2026) -->
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/ms-structural-steel-guide</loc>
-    <lastmod>2026-06-22</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/carbon-steel-pipe-guide</loc>
-    <lastmod>2026-06-22</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/ss-sheet-plate-guide</loc>
-    <lastmod>2026-06-22</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/ss-long-products-fittings-guide</loc>
-    <lastmod>2026-06-22</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/exotic-alloy-plate-sheet-guide</loc>
-    <lastmod>2026-06-22</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.creativemetalind.com/blog/ss-pipe-supplier-vadodara-guide</loc>
     <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
-  <!-- PHASE 3 — NEW LANDING PAGES (June 23, 2026) -->
-
   <url>
     <loc>https://www.creativemetalind.com/ss-seamless-pipe-supplier-india</loc>
     <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://www.creativemetalind.com/ss-buttweld-fittings-supplier-india</loc>
     <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://www.creativemetalind.com/inconel-pipe-supplier-india</loc>
     <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://www.creativemetalind.com/ss-flanges-supplier-vadodara</loc>
     <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://www.creativemetalind.com/alloy-steel-pipe-supplier-india</loc>
     <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/carbon-steel-sa516-plate-stockist-india</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/nace-hic-steel-plate-supplier-india</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/tmt-bars-supplier-gujarat</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/metal-trading</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
-  <!-- PHASE 5 — SUPPORTING BLOG ARTICLES (June 23, 2026) -->
+  <!-- BLOG INDEX -->
+  <url>
+    <loc>https://www.creativemetalind.com/blog</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
+  <!-- BLOG ARTICLES -->
+  <url>
+    <loc>https://www.creativemetalind.com/blog/ss-304-vs-316l</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/how-to-read-mtc</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/duplex-vs-super-duplex</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/p91-alloy-steel-power-plants</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/astm-a312-vs-api-5l</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/hastelloy-vs-inconel</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/understanding-pipe-schedules</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/titanium-grades-comparison</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/erw-vs-seamless-pipe</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/ss-304-stainless-steel-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/ss-316l-stainless-steel-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/duplex-2205-steel-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/super-duplex-2507-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/hastelloy-c276-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/inconel-625-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/p91-alloy-steel-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/sa-516-carbon-steel-plate-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/nace-hic-steel-plates-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/tmt-bars-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/astm-a312-pipe-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/api-5l-pipe-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/pipe-schedule-chart</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/mill-test-certificate-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/titanium-grade-2-vs-grade-5</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/ss-pipe-fittings-flanges-guide</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/why-creative-metal-industries</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/industrial-raw-material-supplier-india</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/ms-structural-steel-guide</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/carbon-steel-pipe-guide</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/ss-sheet-plate-guide</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/ss-long-products-fittings-guide</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/exotic-alloy-plate-sheet-guide</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.creativemetalind.com/blog/ss-pipe-supplier-vadodara-guide</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://www.creativemetalind.com/blog/ss-304-vs-321-guide</loc>
     <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://www.creativemetalind.com/blog/pipe-fittings-selection-guide</loc>
     <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://www.creativemetalind.com/blog/ibr-certification-guide</loc>
     <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://www.creativemetalind.com/blog/inconel-vs-monel-guide</loc>
     <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://www.creativemetalind.com/blog/ss-flange-types-guide</loc>
     <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
