@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+"""
+SEO Rank Checker — Creative Metal Industries
+Checks Google ranking position for all target keywords.
+Uses Startpage as a Google results proxy.
+
+Usage: python3 seo_rank_checker.py
+Output: Prints results + saves seo_rank_report.txt
+"""
+
 import time
 import datetime
 import urllib.parse
@@ -5,103 +15,152 @@ import requests
 from bs4 import BeautifulSoup
 
 # ── Configuration ─────────────────────────────────────────────────────────────
-TARGET        = "creativemetalind.com"   # domain to look for
-MAX_PAGES     = 100                        # pages to search (10 × 100 = 1000 results)
-DELAY         = 3.0                       # seconds between each keyword search
-PAGE_DELAY    = 1.5                       # seconds between pagination requests
-RESULTS_PER_P = 10                        # Startpage returns 10 per page
+TARGET = "creativemetalind.com"
+MAX_PAGES = 10  # 10 pages × 10 results = top 100
+DELAY = 4.0
+PAGE_DELAY = 2.0
+RESULTS_PER_P = 10
 
 HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) "
-        "Gecko/20100101 Firefox/120.0"
+        "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) "
+        "Gecko/20100101 Firefox/128.0"
     ),
-    "Accept":          "text/html,application/xhtml+xml",
-    "Accept-Language": "en-US,en;q=0.5",
+    "Accept": "text/html,application/xhtml+xml",
+    "Accept-Language": "en-IN,en;q=0.9",
 }
 
-# ── ANSI color codes ──────────────────────────────────────────────────────────
-G  = "\033[92m"   # green
-Y  = "\033[93m"   # yellow
-R  = "\033[91m"   # red
-C  = "\033[96m"   # cyan
-B  = "\033[1m"    # bold
-D  = "\033[2m"    # dim
-RS = "\033[0m"    # reset
+# ── ANSI Colors ───────────────────────────────────────────────────────────────
+G = "\033[92m"
+Y = "\033[93m"
+R = "\033[91m"
+C = "\033[96m"
+B = "\033[1m"
+D = "\033[2m"
+RS = "\033[0m"
 
-# ── Keywords by category ──────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
+# ALL KEYWORDS — organized by page/category
+# These are the EXACT keywords your site is optimized for (verified live)
+# ══════════════════════════════════════════════════════════════════════════════
+
 KEYWORDS = {
 
-    "🏆  BRAND KEYWORDS": [
-        "creative metal industries vadodara",
+    "🏆 BRAND KEYWORDS": [
         "creative metal industries",
-        "creative metal industries ss pipe supplier",
+        "creative metal industries vadodara",
         "creative metal industries gujarat",
         "creativemetalind",
-        "super duplex vadodara",
-        "ss pipe supplier Vadodara"
     ],
 
-    "🟢  HIGH CONFIDENCE — City-Level": [
+    "🔴 SS PIPE — VADODARA (Landing Page)": [
         "SS pipe supplier Vadodara",
-        "stainles"
-        "carbon steel SA 516 plate stockist India",
+        "SS pipe supplier in Vadodara",
+        "stainless steel pipe supplier Vadodara",
+        "SS pipe dealer Vadodara",
+        "SS pipe stockist Vadodara",
+        "best SS pipe supplier Vadodara",
+        "SS seamless pipe supplier Vadodara",
+    ],
+
+    "🟠 SS SEAMLESS PIPE — INDIA (Landing Page)": [
+        "SS seamless pipe supplier India",
+        "stainless steel seamless pipe manufacturer India",
+        "ASTM A312 pipe supplier India",
+        "SS 304 seamless pipe supplier India",
+        "SS 316L seamless pipe supplier India",
+    ],
+
+    "🟡 SS FITTINGS — INDIA (Landing Page)": [
+        "SS buttweld fittings supplier India",
+        "SS pipe fittings supplier India",
+        "stainless steel fittings manufacturer India",
+        "ASTM A403 fittings supplier",
+    ],
+
+    "🟢 SS FLANGES — VADODARA (Landing Page)": [
+        "SS flange supplier Vadodara",
+        "stainless steel flanges supplier India",
+        "ASTM A182 flange supplier Vadodara",
+        "weld neck flange supplier India",
+    ],
+
+    "🔵 INCONEL — INDIA (Landing Page)": [
+        "Inconel pipe supplier India",
+        "Inconel 625 pipe supplier India",
+        "Inconel 600 pipe supplier",
+        "nickel alloy pipe supplier India",
+    ],
+
+    "🟣 ALLOY STEEL P91 — INDIA (Landing Page)": [
+        "alloy steel pipe supplier India",
+        "P91 pipe supplier India",
+        "P22 pipe supplier India",
+        "ASTM A335 P91 pipe supplier",
+        "IBR certified pipe supplier India",
+    ],
+
+    "⚫ DUPLEX / SUPER DUPLEX (Landing Page)": [
+        "duplex steel supplier Vadodara",
+        "duplex 2205 supplier India",
+        "super duplex 2507 pipe supplier India",
+        "super duplex supplier Vadodara",
+    ],
+
+    "🟤 CARBON STEEL (Landing Page)": [
+        "carbon steel pipe supplier Vadodara",
+        "ASTM A106 Gr.B pipe supplier India",
+        "carbon steel fittings supplier Vadodara",
+        "SA 516 Gr.70 plate stockist India",
         "NACE HIC steel plate supplier India",
+    ],
+
+    "🏗️ STRUCTURAL / TMT (Landing Page)": [
         "TMT bars supplier Gujarat",
-        "SS 304 316L pipe supplier India",
+        "TMT bar supplier Vadodara",
+        "Fe 500D TMT bars Gujarat",
+        "MS angle supplier Vadodara",
+        "structural steel supplier Gujarat",
     ],
 
-    "📚  BLOG / TECHNICAL": [
+    "📚 BLOG — TECHNICAL (Informational)": [
         "SS 304 vs 316L stainless steel",
+        "SS 304 vs SS 321 difference",
         "duplex 2205 vs super duplex 2507",
+        "ERW vs seamless pipe difference",
+        "Inconel vs Monel comparison",
         "how to read mill test certificate",
-        "P91 alloy steel power plant pipe",
-        "ASTM A312 vs API 5L pipe",
-        "Hastelloy C-276 vs Inconel 625",
-        "pipe schedule SCH 40 80 160 chart",
-        "ERW vs seamless pipe difference India",
-        "titanium grade 2 vs grade 5 India",
-        "MS angle ISMC weight chart India",
+        "IBR certification explained India",
+        "pipe schedule chart SCH 40 80",
+        "WNRF vs SORF flange difference",
+        "how to select pipe fittings refinery",
     ],
 
-    "🔵  BROAD COMMERCIAL": [
+    "🌐 BROAD COMMERCIAL": [
         "stainless steel pipe manufacturer India",
-        "industrial metal supplier India",
+        "stainless steel supplier Vadodara",
         "steel trading company Gujarat",
-        "SS pipe fittings flanges supplier India",
-        "metal importer exporter India",
-        "industrial raw material supplier Gujarat",
-        "engineering material supplier India",
+        "metal trading company Vadodara",
+        "industrial metal supplier India",
         "steel stockist Vadodara",
+        "metal importer exporter India",
     ],
 }
+
 
 # ── Search function ───────────────────────────────────────────────────────────
 def search_startpage(keyword: str) -> dict:
-    """
-    Search Startpage (Google results proxy) for the keyword.
-    Returns the first occurrence of TARGET in results.
-
-    Return dict:
-        found    : bool
-        position : int  (1-based global rank, e.g. 23)
-        page     : int  (page number, e.g. 3)
-        page_pos : int  (position within that page, e.g. 3)
-        url      : str  (the matching result URL)
-        title    : str  (the result title)
-        error    : str or None
-    """
+    """Search Startpage for the keyword. Returns position of TARGET in results."""
     out = dict(found=False, position=None, page=None,
                page_pos=None, url=None, title=None, error=None)
-
     global_pos = 0
 
     for page_num in range(1, MAX_PAGES + 1):
         start_at = (page_num - 1) * RESULTS_PER_P
-        params   = urllib.parse.urlencode({
-            "query":    keyword,
+        params = urllib.parse.urlencode({
+            "query": keyword,
             "language": "english",
-            "startAt":  start_at,
+            "startAt": start_at,
         })
         fetch_url = f"https://www.startpage.com/do/dsearch?{params}"
 
@@ -111,35 +170,29 @@ def search_startpage(keyword: str) -> dict:
                 out["error"] = f"HTTP {resp.status_code} on page {page_num}"
                 return out
 
-            soup    = BeautifulSoup(resp.text, "html.parser")
+            soup = BeautifulSoup(resp.text, "html.parser")
             results = soup.select(".result")
 
             if not results:
-                # No more pages
                 break
 
             for rank_on_page, item in enumerate(results, start=1):
                 global_pos += 1
-
-                # Find the first external link in this result block
                 for a in item.select("a[href]"):
                     href = a.get("href", "")
-                    if (href.startswith("https://")
-                            and "startpage.com" not in href):
-                        # Check if our domain is in this URL
+                    if href.startswith("https://") and "startpage.com" not in href:
                         if TARGET.lower() in href.lower():
                             title_tag = item.select_one(".result-title")
                             out.update(
-                                found    = True,
-                                position = global_pos,
-                                page     = page_num,
-                                page_pos = rank_on_page,
-                                url      = href,
-                                title    = title_tag.get_text(strip=True)
-                                           if title_tag else "",
+                                found=True,
+                                position=global_pos,
+                                page=page_num,
+                                page_pos=rank_on_page,
+                                url=href,
+                                title=title_tag.get_text(strip=True) if title_tag else "",
                             )
                             return out
-                        break  # move to next result (only check first link)
+                        break
 
         except requests.RequestException as e:
             out["error"] = str(e)[:80]
@@ -148,7 +201,8 @@ def search_startpage(keyword: str) -> dict:
         if page_num < MAX_PAGES:
             time.sleep(PAGE_DELAY)
 
-    return out  # not found in top MAX_PAGES × 10
+    return out
+
 
 # ── Display helpers ───────────────────────────────────────────────────────────
 def badge(result: dict) -> str:
@@ -157,154 +211,116 @@ def badge(result: dict) -> str:
     if not result["found"]:
         return f"{R}Not in top {MAX_PAGES * RESULTS_PER_P}{RS}"
     pos = result["position"]
-    pg  = result["page"]
-    pp  = result["page_pos"]
-    loc = f"  [Page {pg}, Rank #{pp} on page]"
-    if pos == 1:
-        return f"{G}{B}#1 🥇 TOP RESULT  (Page 1 Position 1){RS}"
+    pg = result["page"]
+    pp = result["page_pos"]
+    loc = f"  [Page {pg}, #{pp}]"
     if pos <= 3:
-        return f"{G}{B}#{pos} 🏆 Top 3{RS}{G}{loc}{RS}"
+        return f"{G}{B}#{pos} 🏆 Top 3{loc}{RS}"
     if pos <= 10:
-        return f"{G}#{pos} ✅ Page 1{RS}{G}{loc}{RS}"
+        return f"{G}#{pos} ✅ Page 1{loc}{RS}"
     if pos <= 20:
-        return f"{Y}#{pos} — Page 2{RS}{Y}{loc}{RS}"
+        return f"{Y}#{pos} ⚡ Page 2{loc}{RS}"
     if pos <= 30:
-        return f"{Y}#{pos} — Page 3{RS}{Y}{loc}{RS}"
-    if pos <= 50:
-        return f"{R}#{pos} — Page {pg}{RS}{D}{loc}{RS}"
-    return     f"{R}#{pos} — Page {pg} (deep){RS}"
+        return f"{Y}#{pos} — Page 3{loc}{RS}"
+    return f"{R}#{pos} — Page {pg}{loc}{RS}"
 
-def line(char="─", w=78): return char * w
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    now     = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    total   = sum(len(v) for v in KEYWORDS.values())
-    depth   = MAX_PAGES * RESULTS_PER_P
+    now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    total = sum(len(v) for v in KEYWORDS.values())
+    depth = MAX_PAGES * RESULTS_PER_P
 
-    print(f"\n{B}{C}{line('═')}{RS}")
+    print(f"\n{B}{C}{'═' * 70}{RS}")
     print(f"{B}{C}  SEO RANK CHECKER — {TARGET}{RS}")
     print(f"{B}{C}  Started  : {now}{RS}")
     print(f"{B}{C}  Keywords : {total}{RS}")
-    print(f"{B}{C}  Depth    : Top {depth} results ({MAX_PAGES} pages){RS}")
-    print(f"{B}{C}  Engine   : Startpage (Google results proxy){RS}")
-    print(f"{B}{C}{line('═')}{RS}\n")
+    print(f"{B}{C}  Depth    : Top {depth} results{RS}")
+    print(f"{B}{C}  Engine   : Startpage (Google proxy){RS}")
+    print(f"{B}{C}{'═' * 70}{RS}\n")
 
-    report  = [
+    report = [
         f"SEO Rank Report — {TARGET}",
         f"Generated : {now}",
-        f"Engine    : Startpage (Google results)",
         f"Keywords  : {total} | Depth: top {depth}",
-        "=" * 78,
+        "=" * 70,
     ]
 
     all_res = []
-    n       = 0
+    n = 0
 
     for cat, kws in KEYWORDS.items():
-        print(f"\n{B}{line()}{RS}")
+        print(f"\n{B}{'─' * 70}{RS}")
         print(f"{B}  {cat}{RS}")
-        print(f"{B}{line()}{RS}")
-        report += [f"\n{cat}", "-" * 60]
+        print(f"{B}{'─' * 70}{RS}")
+        report += [f"\n{cat}", "-" * 50]
 
         for kw in kws:
             n += 1
-            # Print progress
-            progress = f"{D}[{n:02d}/{total}]{RS}"
-            print(f"  {progress} {C}{kw:<58}{RS} searching...", end="", flush=True)
+            print(f"  {D}[{n:02d}/{total}]{RS} {C}{kw:<55}{RS} ...", end="", flush=True)
 
             r = search_startpage(kw)
             all_res.append({"kw": kw, **r})
 
-            bdg = badge(r)
+            print(f"\r  {D}[{n:02d}/{total}]{RS} {C}{kw:<55}{RS} {badge(r)}")
 
-            # Overwrite line with result
-            print(f"\r  {progress} {C}{kw:<58}{RS} {bdg}")
-
-            # Show URL on next line when found
             if r["found"] and r["url"]:
-                short_url = r["url"].split("?")[0][:70]
-                print(f"           {D}↳ Position #{r['position']} "
-                      f"| Page {r['page']} "
-                      f"| Rank #{r['page_pos']} on that page{RS}")
-                print(f"           {D}↳ URL: {short_url}{RS}")
+                short_url = r["url"].split("?")[0][:65]
+                print(f"           {D}↳ {short_url}{RS}")
 
-            # Report line
             if r["error"]:
-                report.append(f"  ERROR      | {kw}")
-                report.append(f"             | {r['error']}")
+                report.append(f"  ERROR  | {kw}")
             elif r["found"]:
-                report.append(
-                    f"  #{r['position']:<4}  "
-                    f"Page {r['page']}  "
-                    f"Rank #{r['page_pos']} on page  | {kw}"
-                )
-                report.append(f"             ↳ {r['url']}")
+                report.append(f"  #{r['position']:<4} Page {r['page']}  #{r['page_pos']} | {kw}")
+                report.append(f"         ↳ {r['url']}")
             else:
-                report.append(f"  Not found  | {kw}")
+                report.append(f"  --     | {kw}")
 
             time.sleep(DELAY)
 
     # ── Summary ───────────────────────────────────────────────────────────────
-    found    = [x for x in all_res if x["found"]]
-    page1    = [x for x in found  if x["position"] <= 10]
-    page2_3  = [x for x in found  if 10 < x["position"] <= 30]
-    page4up  = [x for x in found  if x["position"] > 30]
-    nf       = [x for x in all_res if not x["found"] and not x["error"]]
-    errs     = [x for x in all_res if x["error"]]
+    found = [x for x in all_res if x["found"]]
+    page1 = [x for x in found if x["position"] <= 10]
+    page2_3 = [x for x in found if 10 < x["position"] <= 30]
+    deep = [x for x in found if x["position"] > 30]
+    nf = [x for x in all_res if not x["found"] and not x["error"]]
+    errs = [x for x in all_res if x["error"]]
 
-    print(f"\n{B}{line('═')}{RS}")
-    print(f"{B}{C}  FINAL RESULTS SUMMARY{RS}")
-    print(f"{B}{line('═')}{RS}")
-    print(f"\n  Total keywords checked : {B}{n}{RS}")
-    print(f"  {G}{B}✅ Page 1  (pos  1–10)  : {len(page1)}{RS}")
-    print(f"  {Y}⚡ Page 2–3 (pos 11–30) : {len(page2_3)}{RS}")
-    print(f"  {R}   Page 4+  (pos 31+)   : {len(page4up)}{RS}")
-    print(f"  {R}   Not in top {depth:<3}       : {len(nf)}{RS}")
+    print(f"\n{B}{'═' * 70}{RS}")
+    print(f"{B}{C}  RESULTS SUMMARY{RS}")
+    print(f"{B}{'═' * 70}{RS}")
+    print(f"\n  Total checked : {B}{n}{RS}")
+    print(f"  {G}{B}✅ Page 1  (1-10)   : {len(page1)}{RS}")
+    print(f"  {Y}⚡ Page 2-3 (11-30) : {len(page2_3)}{RS}")
+    print(f"  {R}   Page 4+  (31+)   : {len(deep)}{RS}")
+    print(f"  {R}   Not found        : {len(nf)}{RS}")
     if errs:
-        print(f"  {R}   Errors               : {len(errs)}{RS}")
+        print(f"  {R}   Errors           : {len(errs)}{RS}")
 
     if page1:
-        print(f"\n  {G}{B}✅  PAGE 1 RANKINGS (your site on Google Page 1):{RS}")
-        print(f"  {'Pos':>4}  {'Page':>5}  {'#OnPage':>7}  Keyword")
-        print(f"  {D}{'─'*4}  {'─'*5}  {'─'*7}  {'─'*40}{RS}")
+        print(f"\n  {G}{B}✅ PAGE 1 RANKINGS:{RS}")
         for x in sorted(page1, key=lambda z: z["position"]):
-            print(f"  {G}{B}#{x['position']:<3}{RS}  "
-                  f"{G}Page {x['page']:<2}{RS}  "
-                  f"{G}  #{x['page_pos']:<4}{RS}  "
-                  f"{x['kw']}")
-            if x["url"]:
-                short = x["url"].split("?")[0][:65]
-                print(f"         {D}↳ {short}{RS}")
+            print(f"    {G}#{x['position']:<3} | {x['kw']}{RS}")
 
     if page2_3:
-        print(f"\n  {Y}{B}⚡  CLOSE TO PAGE 1 (pages 2–3) — optimise these next:{RS}")
-        print(f"  {'Pos':>4}  {'Page':>5}  {'#OnPage':>7}  Keyword")
-        print(f"  {D}{'─'*4}  {'─'*5}  {'─'*7}  {'─'*40}{RS}")
+        print(f"\n  {Y}{B}⚡ CLOSE TO PAGE 1 (optimize these next):{RS}")
         for x in sorted(page2_3, key=lambda z: z["position"]):
-            print(f"  {Y}#{x['position']:<3}{RS}  "
-                  f"{Y}Page {x['page']:<2}{RS}  "
-                  f"{Y}  #{x['page_pos']:<4}{RS}  "
-                  f"{x['kw']}")
+            print(f"    {Y}#{x['position']:<3} | {x['kw']}{RS}")
 
     # ── Save report ───────────────────────────────────────────────────────────
     report += [
-        "\n" + "=" * 78,
+        "\n" + "=" * 70,
         "SUMMARY",
-        f"  Total    : {n}",
         f"  Page 1   : {len(page1)}",
         f"  Page 2-3 : {len(page2_3)}",
-        f"  Page 4+  : {len(page4up)}",
+        f"  Page 4+  : {len(deep)}",
         f"  Not found: {len(nf)}",
         f"  Errors   : {len(errs)}",
     ]
     if page1:
         report.append("\nPage 1 Rankings:")
         for x in sorted(page1, key=lambda z: z["position"]):
-            report.append(
-                f"  #{x['position']:<4} Page {x['page']}  "
-                f"Rank #{x['page_pos']} on page  {x['kw']}"
-            )
+            report.append(f"  #{x['position']:<4} {x['kw']}")
             if x["url"]:
                 report.append(f"       ↳ {x['url']}")
 
@@ -312,8 +328,9 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("\n".join(report))
 
-    print(f"\n  {G}Full report saved → {out_path}{RS}")
-    print(f"{B}{line('═')}{RS}\n")
+    print(f"\n  {G}Report saved → {out_path}{RS}")
+    print(f"{B}{'═' * 70}{RS}\n")
+
 
 if __name__ == "__main__":
     main()

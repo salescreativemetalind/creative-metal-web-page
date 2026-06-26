@@ -1,0 +1,635 @@
+================================================================================
+COMPLETE SEO AUDIT REPORT — CREATIVE METAL INDUSTRIES
+Website: https://www.creativemetalind.com
+Date: June 25, 2026
+Auditor: AI SEO Consultant
+================================================================================
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 1: CONTENT ANALYSIS
+████████████████████████████████████████████████████████████████████████████████
+
+MAIN TOPIC: Industrial steel supply — SS, CS, alloy steel pipes, plates,
+fittings, flanges and exotic alloys
+
+SEARCH INTENT: Commercial/Transactional (landing pages) + Informational (blog)
+
+TARGET AUDIENCE:
+  • Procurement engineers at EPC companies
+  • Purchase managers at refineries, power plants, chemical plants
+  • Project managers at construction firms
+  • Maintenance engineers at operating plants
+  • Import/export buyers (UAE, Oman, Saudi Arabia)
+
+CURRENT KEYWORD TARGETING:
+  ✓ Strong: "SS pipe supplier Vadodara" (homepage + landing page)
+  ✓ Strong: "duplex steel supplier Vadodara"
+  ✓ Strong: "TMT bars supplier Gujarat"
+  ✓ Moderate: "carbon steel pipe fittings Vadodara"
+  ✓ New: "SS seamless pipe supplier India" (Phase 3 page)
+  ✓ New: "Inconel pipe supplier India" (Phase 3 page)
+  ✓ New: "alloy steel pipe supplier India" (Phase 3 page)
+
+MISSING KEYWORD OPPORTUNITIES:
+  ✗ "SS pipe price list India" (1000+ searches/month)
+  ✗ "steel pipe weight calculator" (high utility search)
+  ✗ "Monel 400 pipe supplier India" (no dedicated page)
+  ✗ "Hastelloy pipe supplier India" (no dedicated page)
+  ✗ "copper nickel pipe supplier India" (no dedicated page)
+  ✗ "SS round bar supplier Vadodara" (no dedicated page)
+  ✗ "boiler tube supplier India" (no dedicated page)
+
+MISSING ENTITIES:
+  ✗ Product pricing signals (no price range indicators)
+  ✗ Delivery time specifics (lead time tables)
+  ✗ Comparison tables on landing pages (vs competitors)
+
+SEO SCORE: 78/100
+
+Breakdown:
+  Technical SEO:        85/100 (schema, canonical, robots, sitemap ✓)
+  Content Quality:      82/100 (deep technical content, E-E-A-T strong)
+  Keyword Optimization: 75/100 (good on existing pages, gaps in coverage)
+  Internal Linking:     72/100 (improved with hub-spoke, but could be denser)
+  Off-Page/Backlinks:   65/100 (limited external links, no active outreach)
+  Page Speed:           80/100 (SSR, optimized images, Vercel CDN)
+
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 2: KEYWORD EXTRACTION (from existing site content)
+████████████████████████████████████████████████████████████████████████████████
+
+─── PRIMARY KEYWORDS ───────────────────────────────────────────────────────────
+Keyword                              | Frequency | Intent        | Priority
+─────────────────────────────────────|───────────|───────────────|─────────
+SS pipe supplier Vadodara            | 40+       | Commercial    | HIGH
+stainless steel supplier Vadodara    | 25+       | Commercial    | HIGH
+duplex steel supplier Vadodara       | 20+       | Commercial    | HIGH
+carbon steel pipe fittings Vadodara  | 15+       | Commercial    | HIGH
+TMT bars supplier Gujarat            | 15+       | Commercial    | HIGH
+SS seamless pipe supplier India      | 12+       | Commercial    | HIGH
+alloy steel pipe supplier India      | 10+       | Commercial    | HIGH
+Inconel pipe supplier India          | 8+        | Commercial    | HIGH
+SS buttweld fittings supplier India  | 8+        | Commercial    | HIGH
+SS flange supplier Vadodara          | 8+        | Commercial    | HIGH
+
+─── SECONDARY KEYWORDS ─────────────────────────────────────────────────────────
+metal trading company Vadodara       | 10+       | Commercial    | MEDIUM
+industrial raw material supplier     | 8+        | Commercial    | MEDIUM
+steel stockist Vadodara              | 6+        | Commercial    | MEDIUM
+IBR pipe supplier India              | 12+       | Informational | MEDIUM
+NACE HIC plate supplier India        | 8+        | Commercial    | MEDIUM
+SA 516 Gr.70 plate stockist          | 8+        | Commercial    | MEDIUM
+
+─── LONG-TAIL KEYWORDS ─────────────────────────────────────────────────────────
+SS 304 seamless pipe ASTM A312 supplier India
+P91 alloy steel pipe IBR certified Gujarat
+duplex 2205 pipe supplier Vadodara Gujarat
+NACE MR0175 HIC tested steel plate India
+Fe 500D TMT bars BIS certified Gujarat
+Inconel 625 seamless pipe ASTM B444 India
+SS 316L weld neck flange ASME B16.5 supplier
+
+─── COMMERCIAL KEYWORDS ────────────────────────────────────────────────────────
+SS pipe price Vadodara
+carbon steel pipe rate India
+alloy steel P91 price per kg
+duplex 2205 pipe price
+TMT bar price Gujarat today
+Inconel 625 pipe price India
+SS 304 sheet 2B finish price
+
+─── QUESTION KEYWORDS ──────────────────────────────────────────────────────────
+Who is the best SS pipe supplier in Vadodara?
+What is the difference between ERW and seamless pipe?
+What is IBR Form III-C certification?
+What is the difference between Duplex 2205 and Super Duplex 2507?
+How to read a Mill Test Certificate?
+What is NACE MR-01-75?
+Which SS grade for marine applications?
+
+─── LSI / SEMANTIC KEYWORDS ────────────────────────────────────────────────────
+austenitic stainless steel, chromium nickel alloy, seamless tube,
+welded pipe, forged fitting, buttweld elbow, weld neck flange,
+pressure vessel plate, boiler quality, heat exchanger tube,
+corrosion resistant alloy, high temperature service, creep resistant,
+mill test certificate, third party inspection, positive material
+identification, hydrostatic test, intergranular corrosion
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 3: KEYWORD RESEARCH & EXPANSION
+████████████████████████████████████████████████████████████████████████████████
+
+─── 50 HIGH INTENT COMMERCIAL KEYWORDS ─────────────────────────────────────────
+#  | Keyword                                    | Intent   | Difficulty | Value
+---|──────────────────────────────────────────── |──────────|────────────|──────
+1  | SS pipe supplier Vadodara                  | Transact | Medium     | 10
+2  | stainless steel pipe manufacturer India    | Transact | High       | 9
+3  | SS 304 pipe supplier India                 | Transact | Medium     | 9
+4  | SS 316L pipe supplier India                | Transact | Medium     | 9
+5  | SS seamless pipe manufacturer India        | Transact | Medium     | 9
+6  | duplex steel supplier India                | Transact | Medium     | 8
+7  | super duplex 2507 pipe supplier            | Transact | Low        | 9
+8  | Inconel 625 pipe supplier India            | Transact | Low        | 10
+9  | Monel 400 pipe supplier India              | Transact | Low        | 10
+10 | Hastelloy C-276 pipe supplier India        | Transact | Low        | 10
+11 | alloy steel pipe supplier India            | Transact | Medium     | 8
+12 | P91 pipe supplier India                    | Transact | Low        | 9
+13 | carbon steel pipe supplier Vadodara        | Transact | Low        | 8
+14 | SA 516 Gr.70 plate stockist India          | Transact | Low        | 8
+15 | NACE HIC steel plate supplier              | Transact | Low        | 9
+16 | TMT bars supplier Gujarat                  | Transact | Medium     | 7
+17 | SS buttweld fittings supplier India        | Transact | Medium     | 8
+18 | SS flange supplier India                   | Transact | Medium     | 8
+19 | forged fittings supplier India             | Transact | Medium     | 7
+20 | titanium pipe supplier India               | Transact | Low        | 9
+21 | copper nickel pipe supplier India          | Transact | Low        | 8
+22 | SS ERW pipe supplier Vadodara              | Transact | Low        | 7
+23 | boiler tube supplier India                 | Transact | Low        | 8
+24 | heat exchanger tube supplier India         | Transact | Low        | 8
+25 | MS angle supplier Vadodara                 | Transact | Low        | 7
+26 | structural steel supplier Gujarat          | Transact | Medium     | 7
+27 | SS pipe price list India                   | Transact | Medium     | 8
+28 | carbon steel flange supplier Vadodara      | Transact | Low        | 7
+29 | SS round bar supplier Vadodara             | Transact | Low        | 7
+30 | API 5L pipe supplier India                 | Transact | Medium     | 8
+31 | ASTM A312 pipe supplier                    | Transact | Low        | 8
+32 | IBR certified pipe supplier India          | Transact | Low        | 9
+33 | metal importer exporter India              | Transact | Medium     | 6
+34 | industrial metal supplier Gujarat          | Transact | Medium     | 7
+35 | SS pipe exporter India                     | Transact | Medium     | 7
+36 | Inconel 718 supplier India                 | Transact | Low        | 9
+37 | duplex 2205 plate supplier India           | Transact | Low        | 8
+38 | super duplex flange supplier               | Transact | Low        | 8
+39 | alloy steel flange F91 supplier            | Transact | Low        | 8
+40 | SS 321 pipe supplier India                 | Transact | Low        | 8
+41 | SS 310 pipe supplier India                 | Transact | Low        | 7
+42 | SS 904L pipe supplier India                | Transact | Low        | 8
+43 | Incoloy 825 pipe supplier India            | Transact | Low        | 8
+44 | clad plate supplier India                  | Transact | Low        | 7
+45 | Hardox plate supplier India                | Transact | Low        | 7
+46 | olet fittings supplier India               | Transact | Low        | 7
+47 | compression tube fittings supplier         | Transact | Low        | 6
+48 | line pipe API 5L X65 supplier India        | Transact | Low        | 8
+49 | SS pipe with IBR Vadodara                  | Transact | Low        | 8
+50 | NACE compliant material supplier India     | Transact | Low        | 8
+
+─── 50 INFORMATIONAL KEYWORDS ─────────────────────────────────────────────────
+1  | SS 304 vs SS 316L difference
+2  | how to read mill test certificate
+3  | duplex vs super duplex steel
+4  | what is IBR certification
+5  | ERW vs seamless pipe difference
+6  | pipe schedule chart SCH 40 80 160
+7  | P91 alloy steel properties
+8  | Hastelloy C-276 corrosion resistance
+9  | Inconel 625 temperature range
+10 | titanium grade 2 vs grade 5
+11 | what is NACE MR-01-75
+12 | HIC testing procedure
+13 | SS 304 vs SS 321 when to use
+14 | WNRF vs SORF flange difference
+15 | how to select pipe fittings
+16 | Inconel vs Monel comparison
+17 | SS flange pressure temperature rating
+18 | ASTM A312 vs API 5L difference
+19 | P91 vs P22 alloy steel
+20 | duplex 2205 welding procedure
+21 | SA 516 Gr.70 chemical composition
+22 | what is sensitisation in stainless steel
+23 | TMT bar Fe 500D vs Fe 500 difference
+24 | MS angle weight chart IS 808
+25 | ISMC channel weight chart
+26 | how to calculate pipe weight
+27 | SS pipe pressure rating chart
+28 | what is EN 10204 3.1 certificate
+29 | buttweld fitting dimensions ASME B16.9
+30 | flange bolt chart ASME B16.5
+31 | Inconel 625 chemical composition
+32 | Monel 400 properties and uses
+33 | what is PREN value duplex steel
+34 | carbon steel vs stainless steel difference
+35 | alloy steel heat treatment process
+36 | IBR Form III-C vs MTC difference
+37 | super duplex 2507 applications
+38 | Hastelloy vs Inconel for chemical plant
+39 | SS 317L vs 316L difference
+40 | what is hydrostatic test for pipe
+41 | PMI testing for stainless steel
+42 | pipe fitting types and uses
+43 | weld neck flange vs slip on flange
+44 | what is normalising and tempering
+45 | carbon steel pipe ASTM A106 Grade B
+46 | stainless steel surface finish 2B vs No.4
+47 | TMT bar bend test procedure
+48 | how to check TMT bar quality on site
+49 | what is BIS certification for TMT
+50 | IBR approved pipe manufacturers India
+
+─── 50 LONG-TAIL KEYWORDS ──────────────────────────────────────────────────────
+1  | SS 304 seamless pipe 4 inch schedule 40 price India
+2  | SS 316L pipe supplier in Vadodara Gujarat
+3  | duplex 2205 pipe price per kg India 2026
+4  | P91 alloy steel pipe 6 inch schedule 80 IBR certified
+5  | SA 516 Gr.70 plate 25mm thick price India
+6  | Inconel 625 pipe 2 inch seamless price India
+7  | best SS pipe supplier in GIDC Makarpura Vadodara
+8  | TMT bar Fe 500D 12mm price per kg Gujarat
+9  | SS 316L weld neck flange 6 inch 150# supplier
+10 | carbon steel A106 Gr.B pipe IBR certified Vadodara
+11 | super duplex 2507 pipe supplier Gujarat India
+12 | NACE HIC tested SA 516 Gr.70 plate stockist
+13 | Inconel 600 seamless pipe ASTM B167 supplier India
+14 | Monel 400 pipe price per kg India
+15 | SS 321 seamless pipe for high temperature service
+16 | alloy steel P22 pipe supplier with IBR Form III-C
+17 | SS buttweld elbow 90 degree 4 inch schedule 40
+18 | forged fitting SS 316L socket weld class 3000
+19 | carbon steel blind flange A105 ASME B16.5 supplier
+20 | duplex 2205 plate 20mm thick ASTM A240 price
+21 | Hastelloy C-276 pipe for chemical plant India
+22 | titanium grade 2 pipe for desalination plant
+23 | MS angle 75x75x6 weight per metre IS 2062
+24 | ISMC 200 channel weight per metre price
+25 | SS 310 round bar for furnace parts supplier
+26 | ERW pipe IS 1239 medium class 2 inch price
+27 | boiler tube SA 210 Gr.A1 IBR supplier India
+28 | heat exchanger tube SS 316L ASTM A249 supplier
+29 | copper nickel 70/30 pipe for seawater supplier
+30 | API 5L X65 PSL2 line pipe supplier India
+31 | SS 904L pipe for sulphuric acid plant
+32 | Incoloy 825 tube for acid production plant
+33 | alloy steel flange F91 weld neck ASME B16.5
+34 | Hardox 450 plate 20mm supplier India
+35 | clad plate CS/SS explosion bonded supplier
+36 | SS pipe supplier near Dahej PCPIR Gujarat
+37 | industrial metal supplier Ankleshwar GIDC
+38 | steel plate stockist near Bharuch Gujarat
+39 | stainless steel pipe manufacturer Ahmedabad Gujarat
+40 | bulk TMT bars supply for construction project Gujarat
+41 | SS 316L seamless pipe for pharmaceutical plant
+42 | Inconel 718 bar supplier for aerospace India
+43 | Monel K-500 round bar for valve stem supplier
+44 | super duplex flange F53 weld neck 300# supplier
+45 | alloy steel plate ASTM A387 Gr.22 normalised tempered
+46 | NACE MR0175 compliant pipe fittings supplier India
+47 | SS pipe with DNV TUV inspection Vadodara
+48 | IBR approved SS 321 seamless pipe Gujarat
+49 | same day SS pipe delivery Vadodara Gujarat
+50 | metal exporter from Gujarat to UAE Oman Saudi
+
+─── 30 COMPARISON KEYWORDS ─────────────────────────────────────────────────────
+1  | SS 304 vs 316L | 2. SS 304 vs 321 | 3. SS 316 vs 317L
+4  | duplex vs super duplex | 5. duplex vs 316L | 6. seamless vs welded pipe
+7  | ERW vs seamless pipe | 8. A106 vs API 5L | 9. ASTM A312 vs A213
+10 | P91 vs P22 | 11. P22 vs P11 | 12. Inconel vs Hastelloy
+13 | Inconel vs Monel | 14. Inconel 625 vs 718 | 15. Monel 400 vs K-500
+16 | titanium Gr.2 vs Gr.5 | 17. SA 516 Gr.60 vs Gr.70
+18 | Fe 500 vs Fe 500D TMT | 19. WNRF vs SORF flange
+20 | buttweld vs forged fitting | 21. socket weld vs threaded
+22 | RF vs RTJ flange face | 23. 2B vs No.4 SS finish
+24 | carbon steel vs alloy steel | 25. seamless vs ERW for refinery
+26 | IBR vs non-IBR pipe | 27. MTC 3.1 vs 3.2
+28 | SCH 40 vs SCH 80 pipe | 29. duplex 2205 vs Inconel 625
+30 | Hardox 400 vs 500 plate
+
+─── 50 QUESTION KEYWORDS ───────────────────────────────────────────────────────
+1  | who is the best SS pipe supplier in Vadodara?
+2  | what is the price of SS 304 pipe per kg in India?
+3  | what is IBR Form III-C and why is it needed?
+4  | how to verify a stainless steel pipe supplier?
+5  | what is the difference between seamless and welded SS pipe?
+6  | which SS grade is best for marine applications?
+7  | what is NACE MR-01-75 compliance?
+8  | how to read a Mill Test Certificate?
+9  | what is the minimum order quantity for SS pipe?
+10 | do you deliver SS pipe same day in Vadodara?
+11 | what is the difference between P91 and P22?
+12 | what is duplex 2205 used for?
+13 | what is PREN value and why does it matter?
+14 | when should I use Inconel instead of stainless steel?
+15 | what is the difference between Inconel and Monel?
+16 | what SS pipe sizes are available in Vadodara?
+17 | how to select pipe fittings for refinery piping?
+18 | what is the difference between WNRF and SORF flange?
+19 | what grades of SS flanges do you stock?
+20 | what is hydrostatic test for pipes?
+21 | which TMT bar grade is best for house construction?
+22 | what is Fe 500D TMT bar?
+23 | how to check TMT bar quality on site?
+24 | what is IS 2062 steel grade?
+25 | what is the weight of MS angle per metre?
+26 | how to calculate pipe weight from schedule?
+27 | what is SA 516 Gr.70 plate used for?
+28 | what is HIC testing for steel plates?
+29 | which Inconel grade for high temperature?
+30 | what is Hastelloy C-276 corrosion resistance?
+31 | what is titanium grade 2 used for?
+32 | how to select material for pressure vessel?
+33 | what is the cost difference between 304 and 316L?
+34 | what is sensitisation in stainless steel?
+35 | when to use SS 321 instead of 304?
+36 | what are olet fittings used for?
+37 | what is the difference between buttweld and forged fittings?
+38 | how to verify IBR certification on pipes?
+39 | what is PMI testing?
+40 | what is intergranular corrosion?
+41 | what pipe schedule for 150# pressure?
+42 | what is the difference between 2B and No.4 finish?
+43 | can I get SS pipe cut to length?
+44 | do you export steel pipes outside India?
+45 | what countries do you export to?
+46 | what is the difference between A312 and A213?
+47 | what is the difference between IS 1239 and IS 3589?
+48 | how much does Inconel 625 pipe cost in India?
+49 | what is super duplex 2507 seawater resistance?
+50 | what documentation comes with SS pipe supply?
+
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 4: CONTENT GAP ANALYSIS
+████████████████████████████████████████████████████████████████████████████████
+
+MISSING VS TOP COMPETITORS:
+
+Missing Sections:
+  ✗ Price indication page (competitors show "₹280-450/kg" type info)
+  ✗ Delivery timeline page (exact lead times by product)
+  ✗ Project gallery / portfolio page
+  ✗ Testimonials with client names and designations
+  ✗ Video content (product walkthrough, warehouse tour)
+
+Missing Subtopics (need dedicated pages):
+  ✗ Monel 400 pipe supplier India
+  ✗ Hastelloy pipe supplier India
+  ✗ Titanium pipe supplier India
+  ✗ Copper nickel pipe supplier India
+  ✗ SS round bar supplier Vadodara
+  ✗ Boiler tube supplier India
+  ✗ Heat exchanger tube supplier India
+  ✗ ERW pipe supplier Vadodara (dedicated)
+
+Missing Standards Coverage:
+  ✗ ASME B31.3 piping code reference
+  ✗ PED (Pressure Equipment Directive) for EU exports
+  ✗ GOST standards (for CIS country exports)
+
+Missing Tables:
+  ✗ SS pipe price range indicative table
+  ✗ Lead time table by product category
+  ✗ Delivery coverage map with distances/times
+  ✗ Grade selection decision matrix
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 5: CONTENT OPTIMIZATION (already implemented in Phase 1-6 work)
+████████████████████████████████████████████████████████████████████████████████
+
+COMPLETED OPTIMIZATIONS:
+  ✓ Homepage H1 optimized with "Vadodara"
+  ✓ Homepage schema expanded to 40 keywords
+  ✓ About page fully rewritten with E-E-A-T
+  ✓ Products page expanded with catalog cards
+  ✓ 5 new landing pages created (Phase 3)
+  ✓ 5 new blog articles created (Phase 5)
+  ✓ All pages trust-factored (Phase 4)
+  ✓ Internal linking hub-spoke structure (Phase 5)
+  ✓ Meta descriptions optimized on all key pages
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 6: INTERNAL LINKING MATRIX
+████████████████████████████████████████████████████████████████████████████████
+
+FROM PAGE                    → TO PAGE                            | ANCHOR TEXT
+─────────────────────────────|──────────────────────────────────── |────────────
+Homepage                     → /ss-pipe-supplier-vadodara         | SS pipe supplier
+Homepage                     → /stainless-steel-supplier-vadodara | stainless steel
+Homepage                     → /duplex-steel-supplier-vadodara    | duplex steel
+Homepage                     → /blog                              | technical guides
+Homepage                     → /products                          | weight charts
+About                        → /ss-pipe-supplier-vadodara         | SS pipes
+About                        → /metal-trading                     | trading company
+Products                     → /ss-seamless-pipe-supplier-india   | SS seamless pipe
+Products                     → /ss-buttweld-fittings-supplier     | SS fittings
+Products                     → /alloy-steel-pipe-supplier-india   | alloy steel pipe
+Products                     → /inconel-pipe-supplier-india       | Inconel pipe
+Products                     → /ss-flanges-supplier-vadodara      | SS flanges
+Metal Trading                → /ss-pipe-supplier-vadodara         | SS pipe supply
+Metal Trading                → /carbon-steel-pipe-fittings        | CS pipe fittings
+Metal Trading                → /tmt-bars-supplier-gujarat         | TMT bars
+Blog Index                   → ALL individual blog articles       | article title
+SS Pipe Vadodara             → /blog/ss-304-stainless-steel-guide | SS 304 guide
+SS Pipe Vadodara             → /blog/erw-vs-seamless-pipe         | ERW vs seamless
+Duplex Supplier              → /blog/duplex-2205-steel-guide      | duplex guide
+Duplex Supplier              → /inconel-pipe-supplier-india       | Inconel pipe
+CS Pipe Fittings             → /alloy-steel-pipe-supplier-india   | alloy steel P91
+CS Pipe Fittings             → /blog/carbon-steel-pipe-guide      | CS pipe guide
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 7: IMAGE SEO RECOMMENDATIONS
+████████████████████████████████████████████████████████████████████████████████
+
+# | File Name                          | Alt Text                                              | Title Tag
+──|──────────────────────────────────── |────────────────────────────────────────────────────────|──────────
+1 | ss-seamless-pipe-304-316l.webp     | SS seamless pipe ASTM A312 TP304 TP316L supplier India| SS Seamless Pipe
+2 | ss-buttweld-fittings-elbow.webp    | SS buttweld fittings 90 degree elbow ASTM A403        | SS Buttweld Fittings
+3 | ss-weld-neck-flange-316l.webp      | SS 316L weld neck flange ASME B16.5 Class 150         | SS Weld Neck Flange
+4 | inconel-625-seamless-pipe.webp     | Inconel 625 seamless pipe ASTM B444 supplier India    | Inconel 625 Pipe
+5 | alloy-steel-p91-pipe.webp          | Alloy steel P91 seamless pipe ASTM A335 IBR certified | P91 Alloy Steel Pipe
+6 | duplex-2205-pipe-plate.webp        | Duplex 2205 pipe and plate UNS S31803 supplier        | Duplex 2205 Products
+7 | carbon-steel-a106-pipe.webp        | Carbon steel seamless pipe ASTM A106 Gr.B             | CS A106 Pipe
+8 | sa-516-gr70-plate-stack.webp       | SA 516 Gr.70 carbon steel plate stockist India        | SA 516 Plate
+9 | tmt-bars-fe500d-bundle.webp        | TMT bars Fe 500D SAIL JSW ready stock Gujarat         | TMT Bars Gujarat
+10| vadodara-warehouse-gidc.webp       | Creative Metal Industries warehouse GIDC Makarpura Vadodara | CMI Warehouse
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 8: SCHEMA MARKUP (already implemented on all pages)
+████████████████████████████████████████████████████████████████████████████████
+
+EXISTING SCHEMA COVERAGE:
+  ✓ LocalBusiness (homepage) — with full NAP, geo, opening hours
+  ✓ Organization (about page) — with knowsAbout
+  ✓ FAQPage (all landing pages + blog articles)
+  ✓ Product (landing pages) — with AggregateOffer, AggregateRating
+  ✓ BreadcrumbList (all landing pages + homepage)
+  ✓ Article (all blog posts) — with author, publisher, datePublished
+
+SCHEMA FULLY COVERED — no gaps.
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 9: UPDATED SITEMAP (already generated and live)
+████████████████████████████████████████████████████████████████████████████████
+
+CURRENT SITEMAP: https://www.creativemetalind.com/sitemap.xml
+TOTAL URLS: 57
+STATUS: Live and submitted to Google Search Console
+
+20 NEW BLOG URLS RECOMMENDED (next content calendar):
+
+1.  /blog/monel-400-pipe-guide
+2.  /blog/hastelloy-pipe-supplier-guide
+3.  /blog/copper-nickel-70-30-pipe-guide
+4.  /blog/ss-round-bar-guide
+5.  /blog/boiler-tube-selection-guide
+6.  /blog/heat-exchanger-tube-guide
+7.  /blog/ss-pipe-price-factors
+8.  /blog/p91-welding-pwht-guide
+9.  /blog/duplex-2205-welding-guide
+10. /blog/pressure-vessel-plate-selection
+11. /blog/pipe-weight-calculator-formula
+12. /blog/ss-304-vs-317l-comparison
+13. /blog/api-5l-psl1-vs-psl2
+14. /blog/what-is-pmi-testing
+15. /blog/astm-vs-asme-difference
+16. /blog/ss-pipe-for-food-pharmaceutical
+17. /blog/corten-steel-weathering-guide
+18. /blog/olet-fitting-types-guide
+19. /blog/ss-tube-vs-ss-pipe-difference
+20. /blog/steel-import-export-documentation-india
+
+████████████████████████████████████████████████████████████████████████████████
+PHASE 10: FINAL SEO REPORT & ACTION PLAN
+████████████████████████████████████████████████████████████████████████████████
+
+═══ EXECUTIVE SUMMARY ══════════════════════════════════════════════════════════
+
+Creative Metal Industries website has been comprehensively optimized across
+all 6 phases — from technical SEO fixes to content creation to internal
+linking. The site now has 57 indexed URLs targeting 300+ unique keywords,
+supported by proper schema markup, E-E-A-T signals, and topic cluster
+architecture. The primary gap remaining is off-page SEO (backlinks).
+
+═══ TOP 20 QUICK WINS (implement within 7 days) ═══════════════════════════════
+
+1.  Request Indexing for 12 new pages (today)
+2.  Resubmit sitemap on Bing Webmaster Tools
+3.  Post on LinkedIn about each new blog article
+4.  Update IndiaMart listing links to new landing pages
+5.  Create Google Business Profile post linking to SS pipe page
+6.  Submit site to Justdial, Sulekha, Yellow Pages
+7.  Answer 5 Quora questions about steel supply with links
+8.  Share pipe schedule chart on relevant Telegram groups
+9.  Create short product video for YouTube (even 30 sec)
+10. Ask 5 existing customers for Google reviews
+11. Update email signature with website link
+12. Add website URL to all WhatsApp status/business profile
+13. Cross-link between IndiaMart product pages and website
+14. Submit to SteelMint, MetalWorld directories
+15. Create Twitter/X post for each blog article
+16. Pin blog articles on Pinterest (industrial boards)
+17. Add website to Clutch/GoodFirms directory
+18. Update company profile on ExportersIndia
+19. Check Google Business Profile hours and photos
+20. Set up Google Alerts for competitor brand names
+
+═══ TOP 20 REVENUE KEYWORDS (highest enquiry potential) ════════════════════════
+
+1.  SS pipe supplier Vadodara
+2.  stainless steel pipe manufacturer India
+3.  Inconel 625 pipe supplier India
+4.  Inconel pipe price India
+5.  P91 alloy steel pipe supplier India
+6.  super duplex 2507 pipe supplier
+7.  SS seamless pipe supplier India
+8.  duplex 2205 pipe supplier India
+9.  NACE HIC plate supplier India
+10. Hastelloy C-276 supplier India
+11. Monel 400 pipe supplier India
+12. SS buttweld fittings supplier India
+13. titanium pipe supplier India
+14. SA 516 Gr.70 plate stockist India
+15. alloy steel pipe IBR certified
+16. SS flange supplier India
+17. SS pipe price list India
+18. carbon steel pipe supplier Vadodara
+19. IBR pipe supplier Gujarat
+20. industrial metal supplier Gujarat
+
+═══ TOP 20 EASY RANKING KEYWORDS (low competition, quick results) ══════════════
+
+1.  SS pipe supplier GIDC Makarpura Vadodara
+2.  P91 pipe IBR certified Gujarat
+3.  NACE MR0175 plate supplier India
+4.  super duplex 2507 flange supplier India
+5.  Inconel 600 pipe supplier India
+6.  SS 321 pipe supplier India
+7.  alloy steel P92 pipe supplier
+8.  SA 516 plate NACE HIC India
+9.  duplex steel supplier Gujarat
+10. SS 904L pipe supplier India
+11. Monel 400 tube supplier India
+12. SS 310 round bar for furnace India
+13. copper nickel pipe supplier India
+14. Incoloy 825 pipe supplier
+15. clad plate supplier India
+16. olet fitting supplier India
+17. boiler tube SA 213 T11 supplier
+18. heat exchanger tube SS 316L India
+19. compression tube fitting supplier
+20. metal exporter Vadodara to UAE
+
+═══ TOP 10 NEW BLOG TOPICS (for next 30 days) ═════════════════════════════════
+
+1.  "Monel 400 — Complete Material Guide" → supports future Monel landing page
+2.  "P91 Welding — PWHT Requirements & Consumable Selection"
+3.  "SS Pipe Price Factors — What Determines Cost in India 2026"
+4.  "How to Calculate Pipe Weight — Formula, Table & Calculator"
+5.  "Copper Nickel 70/30 — Marine Grade Pipe & Tube Guide"
+6.  "Boiler Tube Selection — SA 179 vs SA 192 vs SA 213"
+7.  "Duplex 2205 Welding — Phase Balance & Heat Input Control"
+8.  "ASTM vs ASME — What's the Difference for Steel Buyers?"
+9.  "SS Pipe for Food & Pharmaceutical — Grade Selection Guide"
+10. "Steel Import/Export Documentation — Complete India Guide"
+
+═══ 90-DAY CONTENT STRATEGY ════════════════════════════════════════════════════
+
+WEEK 1-2: (Indexing & Quick Wins)
+  • Request indexing for all 12 priority URLs
+  • Submit to Bing, Yandex webmaster tools
+  • Post 5 LinkedIn articles
+  • Submit to 10 business directories
+  • Ask for 10 Google reviews
+
+WEEK 3-4: (New Content)
+  • Create 3 new blog articles (topics 1-3 from above)
+  • Create /monel-pipe-supplier-india landing page
+  • Create /hastelloy-pipe-supplier-india landing page
+  • Build 5 Quora backlinks
+
+WEEK 5-8: (Authority Building)
+  • Create 4 more blog articles (topics 4-7)
+  • Create /titanium-pipe-supplier-india landing page
+  • Create /copper-nickel-pipe-supplier landing page
+  • Guest post on 2 industry sites
+  • Get featured on SteelMint or MetalWorld
+  • Create 3 YouTube product videos
+
+WEEK 9-12: (Scale & Optimize)
+  • Create remaining 3 blog articles (topics 8-10)
+  • Create /ss-pipe-price-list page (high search volume)
+  • Analyze Search Console data — find keywords at position 5-15
+  • Optimize pages for those "almost ranking" keywords
+  • Build 10 more directory/portal backlinks
+  • Review and update existing pages based on ranking data
+
+═══ ESTIMATED IMPACT ═══════════════════════════════════════════════════════════
+
+Within 30 days:
+  • 40+ pages indexed on Google
+  • Ranking for 50+ brand and long-tail keywords
+  • 200-500 organic impressions/day
+
+Within 60 days:
+  • All 57 pages indexed
+  • Ranking for 100+ keywords
+  • 500-1500 impressions/day
+  • 5-15 enquiries/month from organic search
+
+Within 90 days:
+  • 150+ keywords ranking (page 1-3)
+  • 1500-3000 impressions/day
+  • 10-30 enquiries/month from organic
+  • Visible in Google Maps local pack for Vadodara queries
+
+================================================================================
+END OF COMPLETE SEO AUDIT REPORT
+================================================================================

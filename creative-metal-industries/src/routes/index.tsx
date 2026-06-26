@@ -1530,24 +1530,36 @@ function Footer() {
           <nav aria-label="Materials">
             <h4>Materials</h4>
             <ul>
-              <li><a href="#metals">Stainless Steel</a></li>
-              <li><a href="#metals">Carbon Steel</a></li>
-              <li><a href="#metals">Alloy Steel</a></li>
-              <li><a href="#metals">Duplex &amp; Super Duplex</a></li>
-              <li><a href="#metals">Inconel / Monel / Hastelloy</a></li>
-              <li><a href="#metals">Titanium &amp; Aluminium</a></li>
+              <li><a href="/stainless-steel-supplier-vadodara">Stainless Steel</a></li>
+              <li><a href="/carbon-steel-pipe-fittings-vadodara">Carbon Steel</a></li>
+              <li><a href="/alloy-steel-pipe-supplier-india">Alloy Steel</a></li>
+              <li><a href="/duplex-steel-supplier-vadodara">Duplex &amp; Super Duplex</a></li>
+              <li><a href="/inconel-pipe-supplier-india">Inconel / Monel / Hastelloy</a></li>
+              <li><a href="/blog/exotic-alloy-plate-sheet-guide">Titanium &amp; Aluminium</a></li>
             </ul>
           </nav>
           <nav aria-label="Products">
             <h4>Products</h4>
             <ul>
-              <li><a href="#products">Seamless &amp; Welded Pipes</a></li>
-              <li><a href="#products">Plates &amp; Sheets</a></li>
-              <li><a href="#products">Buttweld Fittings</a></li>
-              <li><a href="#products">Forged Fittings &amp; Flanges</a></li>
-              <li><a href="#products">Structural Steel</a></li>
-              <li><a href="#products">Special Alloys</a></li>
+              <li><a href="/ss-seamless-pipe-supplier-india">Seamless &amp; Welded Pipes</a></li>
+              <li><a href="/blog/ss-sheet-plate-guide">Plates &amp; Sheets</a></li>
+              <li><a href="/ss-buttweld-fittings-supplier-india">Buttweld Fittings</a></li>
+              <li><a href="/ss-flanges-supplier-vadodara">Flanges</a></li>
+              <li><a href="/tmt-bars-supplier-gujarat">Structural Steel &amp; TMT</a></li>
+              <li><a href="/metal-trading">Metal Trading</a></li>
               <li><a href="/products">📐 Size &amp; Weight Charts</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="Quick Links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/ss-pipe-supplier-vadodara">SS Pipe Supplier</a></li>
+              <li><a href="/carbon-steel-sa516-plate-stockist-india">SA 516 Plate</a></li>
+              <li><a href="/nace-hic-steel-plate-supplier-india">NACE HIC Plate</a></li>
+              <li><a href="/ss-304-316l-pipe-supplier-india">SS 304/316L Pipe India</a></li>
+              <li><a href="/reviews">Reviews</a></li>
+              <li><a href="/blog">Technical Blog</a></li>
             </ul>
           </nav>
           <div>
