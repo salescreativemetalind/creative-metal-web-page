@@ -217,6 +217,33 @@ const BLOG_POSTS = [
     readTime: "7 min read",
     icon: "🧪",
   },
+  {
+    slug: "erw-vs-seamless-pipe",
+    tag: "Buyer's Guide",
+    date: "Jan 2026",
+    title: "ERW vs Seamless Pipe — Complete Technical Comparison for Indian Buyers",
+    excerpt: "Manufacturing difference, strength, pressure rating, cost comparison (India 2026), standards (IS 1239, ASTM A106, API 5L), and when to specify each type for your project.",
+    readTime: "12 min read",
+    icon: "🔩",
+  },
+  {
+    slug: "understanding-pipe-schedules",
+    tag: "Technical Reference",
+    date: "Nov 2025",
+    title: "Pipe Schedule Chart — SCH 5S, 10S, 40, 80, 160, XXS Explained",
+    excerpt: "What does pipe schedule mean? Wall thickness tables for every size from 1/2\" to 24\". How to calculate pressure rating from schedule number.",
+    readTime: "6 min read",
+    icon: "📐",
+  },
+  {
+    slug: "titanium-grades-comparison",
+    tag: "Material Science",
+    date: "Oct 2025",
+    title: "Titanium Grade 2 vs Grade 5 — CP vs Alloy for Industrial Applications",
+    excerpt: "Commercially pure Grade 2 for maximum corrosion resistance vs Ti-6Al-4V Grade 5 for aerospace strength. Properties, applications, and when to specify each.",
+    readTime: "8 min read",
+    icon: "⚪",
+  },
 ];
 
 const SERVICES = [
