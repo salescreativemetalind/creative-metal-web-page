@@ -317,19 +317,6 @@ def main():
         f"  Not found: {len(nf)}",
         f"  Errors   : {len(errs)}",
     ]
-    if page1:
-        report.append("\nPage 1 Rankings:")
-        for x in sorted(page1, key=lambda z: z["position"]):
-            report.append(f"  #{x['position']:<4} {x['kw']}")
-            if x["url"]:
-                report.append(f"       ↳ {x['url']}")
-
-    out_path = "seo_rank_report.txt"
-    with open(out_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(report))
-
-    print(f"\n  {G}Report saved → {out_path}{RS}")
-    print(f"{B}{'═' * 70}{RS}\n")
 
 
 if __name__ == "__main__":
