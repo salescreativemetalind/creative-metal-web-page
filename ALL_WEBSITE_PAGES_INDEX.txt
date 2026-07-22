@@ -1,0 +1,235 @@
+================================================================================
+CREATIVE METAL INDUSTRIES — COMPLETE WEBSITE PAGES & BLOGS INDEX
+Website: https://www.creativemetalind.com
+Last Updated: July 22, 2026
+Total Pages: 130 (including blogs)
+================================================================================
+
+
+================================================================================
+SECTION A: MAIN PAGES (7 Pages)
+================================================================================
+#   | URL                                         | Page Title / Purpose
+----|---------------------------------------------|----------------------------------------------
+1   | /                                           | Home — Creative Metal Industries
+2   | /about                                      | About Us
+3   | /products                                   | Products Catalog
+4   | /metal-trading                              | Metal Trading Services
+5   | /reviews                                    | Customer Reviews
+6   | /privacy-policy                             | Privacy Policy
+7   | /terms                                      | Terms of Trade
+
+
+================================================================================
+SECTION B: PRODUCT LANDING PAGES — STAINLESS STEEL (12 Pages)
+================================================================================
+#   | URL                                         | Target Material / Keyword
+----|---------------------------------------------|----------------------------------------------
+8   | /ss-pipe-supplier-vadodara                  | SS Pipe Supplier Vadodara
+9   | /stainless-steel-supplier-vadodara          | Stainless Steel Supplier Vadodara
+10  | /ss-seamless-pipe-supplier-india            | SS Seamless Pipe Supplier India
+11  | /ss-304-316l-pipe-supplier-india            | SS 304/316L Pipe Supplier India
+12  | /ss-buttweld-fittings-supplier-india        | SS Buttweld Fittings Supplier India
+13  | /ss-flanges-supplier-vadodara               | SS Flanges Supplier Vadodara
+14  | /ss-310-pipe-supplier-india                 | SS 310 Pipe (High Temperature)
+15  | /ss-310s-plate-supplier-india               | SS 310S Plate (Furnace Grade)
+16  | /ss-321-pipe-supplier-india                 | SS 321 Pipe (Titanium Stabilized)
+17  | /ss-321h-tube-supplier-india                | SS 321H Boiler Tube (High Carbon)
+18  | /ss-347-pipe-supplier-india                 | SS 347 Pipe (Niobium Stabilized)
+19  | /ss-347h-tube-supplier-india                | SS 347H Tube (Boiler Grade Nb)
+20  | /ss-410-pipe-supplier-india                 | SS 410 Martensitic Pipe
+21  | /ss-430-sheet-supplier-india                | SS 430 Ferritic Sheet (No Nickel)
+22  | /ss-904l-pipe-supplier-india                | SS 904L Pipe (Super Austenitic, Acid)
+
+
+================================================================================
+SECTION C: PRODUCT LANDING PAGES — DUPLEX & SUPER DUPLEX (6 Pages)
+================================================================================
+#   | URL                                         | Target Material / Keyword
+----|---------------------------------------------|----------------------------------------------
+23  | /duplex-steel-supplier-vadodara             | Duplex Steel Supplier Vadodara
+24  | /duplex-2205-plate-supplier-india           | Duplex 2205 Plate (S31803/S32205)
+25  | /duplex-2205-fittings-supplier-india        | Duplex 2205 Buttweld Fittings (F51)
+26  | /duplex-2205-flanges-supplier-india         | Duplex 2205 F51 Flanges
+27  | /super-duplex-2507-pipe-supplier            | Super Duplex 2507 Pipe (S32750)
+28  | /super-duplex-2507-fittings-supplier        | Super Duplex 2507 Fittings
+29  | /super-duplex-2507-flanges-supplier         | Super Duplex F53 Flanges
+
+
+================================================================================
+SECTION D: PRODUCT LANDING PAGES — EXOTIC ALLOYS (6 Pages)
+================================================================================
+#   | URL                                         | Target Material / Keyword
+----|---------------------------------------------|----------------------------------------------
+30  | /inconel-pipe-supplier-india                | Inconel 625 Pipe Supplier India
+31  | /inconel-600-pipe-supplier-india            | Inconel 600 Pipe (N06600, Nuclear/Caustic)
+32  | /inconel-718-supplier-india                 | Inconel 718 Round Bar & Pipe (Aerospace)
+33  | /incoloy-825-pipe-supplier-india            | Incoloy 825 Pipe (Acid/NACE Sour)
+34  | /monel-k500-supplier-india                  | Monel K500 Round Bar (Marine/Non-Magnetic)
+35  | /hastelloy-c22-pipe-supplier-india          | Hastelloy C22 Pipe (Universal CRA)
+
+
+================================================================================
+SECTION E: PRODUCT LANDING PAGES — CARBON & ALLOY STEEL (4 Pages)
+================================================================================
+#   | URL                                         | Target Material / Keyword
+----|---------------------------------------------|----------------------------------------------
+36  | /alloy-steel-pipe-supplier-india            | Alloy Steel Pipe P91/P22/P11 (IBR)
+37  | /carbon-steel-pipe-fittings-vadodara        | Carbon Steel Pipe Fittings Vadodara
+38  | /carbon-steel-sa516-plate-stockist-india    | SA 516 Carbon Steel Plate Stockist
+39  | /nace-hic-steel-plate-supplier-india        | NACE HIC Steel Plate Supplier
+
+
+================================================================================
+SECTION F: PRODUCT LANDING PAGES — STRUCTURAL STEEL (1 Page)
+================================================================================
+#   | URL                                         | Target Material / Keyword
+----|---------------------------------------------|----------------------------------------------
+40  | /tmt-bars-supplier-gujarat                  | TMT Bars Supplier Gujarat
+
+
+================================================================================
+SECTION G: LOCATION PAGES — CITY-WISE (50 Pages)
+================================================================================
+#   | URL                                         | City / Region
+----|---------------------------------------------|----------------------------------------------
+41  | /steel-pipe-supplier-chennai                | Chennai, Tamil Nadu
+42  | /steel-pipe-supplier-hyderabad              | Hyderabad, Telangana
+43  | /steel-pipe-supplier-bangalore              | Bangalore, Karnataka
+44  | /steel-pipe-supplier-kolkata                | Kolkata, West Bengal
+45  | /steel-pipe-supplier-delhi                  | Delhi NCR
+46  | /steel-pipe-supplier-jaipur                 | Jaipur, Rajasthan
+47  | /steel-supplier-indore                      | Indore, Madhya Pradesh
+48  | /steel-pipe-supplier-coimbatore             | Coimbatore, Tamil Nadu
+49  | /steel-pipe-supplier-vizag                  | Visakhapatnam, Andhra Pradesh
+50  | /steel-supplier-nagpur                      | Nagpur, Maharashtra
+51  | /steel-supplier-bhopal                      | Bhopal, Madhya Pradesh
+52  | /steel-pipe-supplier-ludhiana               | Ludhiana, Punjab
+53  | /steel-supplier-kanpur                      | Kanpur, Uttar Pradesh
+54  | /steel-supplier-raipur                      | Raipur, Chhattisgarh
+55  | /steel-pipe-supplier-kochi                  | Kochi, Kerala
+56  | /steel-supplier-haldia                      | Haldia, West Bengal
+57  | /steel-supplier-jamnagar                    | Jamnagar, Gujarat
+58  | /steel-supplier-hazira                      | Hazira, Gujarat
+59  | /steel-supplier-mundra                      | Mundra, Gujarat
+60  | /steel-supplier-kandla                      | Kandla, Gujarat
+61  | /steel-supplier-mangalore                   | Mangalore, Karnataka
+62  | /steel-supplier-vadodara-gidc               | Vadodara GIDC, Gujarat
+63  | /steel-supplier-ankleshwar-gidc             | Ankleshwar GIDC, Gujarat
+64  | /steel-supplier-vapi-gidc                   | Vapi GIDC, Gujarat
+65  | /steel-supplier-panoli-gidc                 | Panoli GIDC, Gujarat
+66  | /steel-supplier-jhagadia                    | Jhagadia, Gujarat
+67  | /steel-pipe-supplier-gandhidham             | Gandhidham, Gujarat
+68  | /steel-supplier-silvassa                    | Silvassa, Dadra & Nagar Haveli
+69  | /steel-pipe-supplier-thane                  | Thane, Maharashtra
+70  | /steel-pipe-supplier-navi-mumbai            | Navi Mumbai, Maharashtra
+71  | /steel-supplier-chakan-pune                 | Chakan-Pune, Maharashtra
+72  | /steel-supplier-patalganga                  | Patalganga, Maharashtra
+73  | /steel-pipe-supplier-aurangabad             | Aurangabad, Maharashtra
+74  | /steel-pipe-supplier-bhubaneswar            | Bhubaneswar, Odisha
+75  | /steel-supplier-kakinada                    | Kakinada, Andhra Pradesh
+76  | /steel-pipe-supplier-trichy                 | Trichy, Tamil Nadu
+77  | /steel-pipe-supplier-madurai                | Madurai, Tamil Nadu
+78  | /steel-supplier-paradip                     | Paradip, Odisha
+79  | /steel-supplier-numaligarh                  | Numaligarh, Assam
+80  | /steel-supplier-mathura                     | Mathura, Uttar Pradesh
+81  | /steel-supplier-panipat                     | Panipat, Haryana
+82  | /steel-supplier-koyali                      | Koyali, Gujarat
+83  | /steel-pipe-supplier-goa                    | Goa
+84  | /steel-supplier-chandigarh                  | Chandigarh
+85  | /steel-supplier-durgapur                    | Durgapur, West Bengal
+86  | /steel-supplier-rourkela                    | Rourkela, Odisha
+87  | /steel-supplier-salem                       | Salem, Tamil Nadu
+88  | /steel-pipe-supplier-hubli                  | Hubli, Karnataka
+89  | /steel-pipe-supplier-vasai                  | Vasai, Maharashtra
+90  | /steel-supplier-dahej                       | Dahej, Gujarat
+
+
+================================================================================
+SECTION H: BLOG ARTICLES (32 Published)
+================================================================================
+#   | URL                                         | Blog Title / Topic
+----|---------------------------------------------|----------------------------------------------
+91  | /blog                                       | Blog Index Page
+92  | /blog/ss-304-stainless-steel-guide           | SS 304 Stainless Steel Complete Guide
+93  | /blog/ss-316l-stainless-steel-guide          | SS 316L Stainless Steel Complete Guide
+94  | /blog/ss-304-vs-321-guide                    | SS 304 vs SS 321 Comparison Guide
+95  | /blog/p91-alloy-steel-guide                  | P91 Alloy Steel Complete Guide
+96  | /blog/carbon-steel-pipe-guide                | Carbon Steel Pipe Guide
+97  | /blog/sa-516-carbon-steel-plate-guide        | SA 516 Carbon Steel Plate Guide
+98  | /blog/nace-hic-steel-plates-guide            | NACE HIC Steel Plates Guide
+99  | /blog/ms-structural-steel-guide              | MS Structural Steel Guide
+100 | /blog/inconel-625-guide                      | Inconel 625 Complete Guide
+101 | /blog/inconel-vs-monel-guide                 | Inconel vs Monel Comparison Guide
+102 | /blog/hastelloy-c276-guide                   | Hastelloy C-276 Guide
+103 | /blog/duplex-2205-steel-guide                | Duplex 2205 Steel Guide
+104 | /blog/super-duplex-2507-guide                | Super Duplex 2507 Guide
+105 | /blog/titanium-grade-2-vs-grade-5            | Titanium Grade 2 vs Grade 5
+106 | /blog/exotic-alloy-plate-sheet-guide         | Exotic Alloy Plate & Sheet Guide
+107 | /blog/ss-pipe-fittings-flanges-guide         | SS Pipe Fittings & Flanges Guide
+108 | /blog/ss-flange-types-guide                  | SS Flange Types Guide
+109 | /blog/pipe-fittings-selection-guide          | Pipe Fittings Selection Guide
+110 | /blog/ss-long-products-fittings-guide        | SS Long Products & Fittings Guide
+111 | /blog/ss-sheet-plate-guide                   | SS Sheet & Plate Guide
+112 | /blog/tmt-bars-guide                         | TMT Bars Complete Guide
+113 | /blog/erw-vs-seamless-pipe                   | ERW vs Seamless Pipe Comparison
+114 | /blog/pipe-schedule-chart                    | Pipe Schedule Chart Reference
+115 | /blog/astm-a312-pipe-guide                   | ASTM A312 Pipe Specification Guide
+116 | /blog/api-5l-pipe-guide                      | API 5L Pipe Specification Guide
+117 | /blog/ibr-certification-guide                | IBR Certification Complete Guide
+118 | /blog/mill-test-certificate-guide            | Mill Test Certificate (MTC) Guide
+119 | /blog/ss-pipe-supplier-vadodara-guide        | SS Pipe Supplier Vadodara Guide
+120 | /blog/ss-pipe-supplier-vadodara-explained    | SS Pipe Supplier Vadodara Explained
+121 | /blog/industrial-raw-material-supplier-india | Industrial Raw Material Supplier India
+122 | /blog/why-creative-metal-industries          | Why Creative Metal Industries
+
+
+================================================================================
+SUMMARY — TOTAL LIVE PAGES: 122
+================================================================================
+
+Category                              | Count
+--------------------------------------|------
+Main Pages (Home, About, Products)    |   7
+SS Product Landing Pages              |  15
+Duplex & Super Duplex Pages           |   7
+Exotic Alloy Pages (Inconel etc.)     |   6
+Carbon & Alloy Steel Pages            |   4
+Structural Steel Pages                |   1
+Location Pages (City-wise)            |  50
+Blog Articles                         |  32
+--------------------------------------|------
+TOTAL LIVE PAGES                      | 122
+--------------------------------------|------
+
+
+================================================================================
+UPCOMING: 510 NEW PAGES IN PROGRESS (see 500_NEW_PAGES_MASTER_LIST.txt)
+================================================================================
+Pages 51-70 already created (20 pages from the 510 plan, included above).
+Remaining ~440 pages to be created covering:
+- More product grades (P5, P9, P11, P22, P92, A106, A53, A333, etc.)
+- Price/rate articles (40 pages)
+- Weight charts & calculators (30 pages)
+- Comparison/VS articles (50 pages)
+- Specification guides (40 pages)
+- Industry application guides (40 pages)
+- How-to & process articles (40 pages)
+- Material knowledge guides (50 pages)
+- Buyer guides (30 pages)
+- Size chart & dimension tables (30 pages)
+- FAQ articles (40 pages)
+- Case study pages (10 pages)
+
+Target after completion: 657+ total pages targeting 5000+ keywords.
+
+
+================================================================================
+WEBSITE TECHNICAL DETAILS
+================================================================================
+Framework:    SolidJS + SolidStart (vinxi build)
+Hosting:      Vercel (auto-deploy from GitHub)
+Domain:       https://www.creativemetalind.com
+Repository:   https://github.com/salescreativemetalind/creative-metal-web-page
+Build System: vinxi (SSR + Prerender)
+Prerendered:  130 routes currently
