@@ -1,33 +1,3 @@
-71  | /hastelloy-b2-pipe-supplier-india           | Hastelloy B2 pipe supplier India HCl
-72  | /titanium-grade-2-pipe-india                | Titanium Grade 2 pipe supplier India
-73  | /titanium-grade-5-pipe-india                | Titanium Grade 5 Ti-6Al-4V supplier India
-74  | /nickel-200-pipe-supplier-india             | Nickel 200 pipe tube supplier India
-75  | /nickel-201-pipe-supplier-india             | Nickel 201 low carbon pipe supplier India
-76  | /cupro-nickel-9010-pipe-india               | Copper Nickel 90/10 pipe supplier India
-77  | /cupro-nickel-7030-pipe-india               | Copper Nickel 70/30 pipe tube supplier India
-78  | /alloy-20-pipe-supplier-india               | Alloy 20 pipe supplier India sulphuric acid
-79  | /incoloy-800h-pipe-supplier                 | Incoloy 800H pipe supplier India
-80  | /incoloy-800ht-tube-supplier                | Incoloy 800HT tube supplier India furnace
-81  | /p5-alloy-steel-pipe-supplier               | ASTM A335 P5 pipe supplier India
-82  | /p9-alloy-steel-pipe-supplier               | ASTM A335 P9 pipe supplier India
-83  | /p11-alloy-steel-pipe-supplier              | ASTM A335 P11 pipe supplier India IBR
-84  | /p22-alloy-steel-pipe-supplier              | ASTM A335 P22 pipe supplier India power plant
-85  | /p92-alloy-steel-pipe-supplier              | ASTM A335 P92 pipe supplier India USC boiler
-86  | /sa-387-alloy-plate-supplier-india          | SA 387 Gr 11 22 91 plate supplier India
-87  | /a106-gr-b-seamless-pipe-india              | ASTM A106 Gr.B seamless pipe supplier India
-88  | /a53-erw-pipe-supplier-india                | ASTM A53 ERW pipe supplier India
-89  | /a333-low-temp-pipe-supplier                | ASTM A333 Gr.6 low temperature pipe India
-90  | /a691-pipe-supplier-india                   | ASTM A691 EFW pipe supplier India
-91  | /a358-welded-pipe-supplier-india            | ASTM A358 welded pipe supplier India
-92  | /api-5ct-casing-tubing-india                | API 5CT casing tubing supplier India OCTG
-93  | /ss-u-bend-tube-supplier-india              | SS U-bend tube heat exchanger supplier India
-94  | /ss-coil-tube-supplier-india                | SS coiled tubing supplier India
-95  | /ss-capillary-tube-supplier-india           | SS capillary tube instrumentation supplier India
-96  | /ss-hydraulic-tube-supplier-india           | SS hydraulic tubing supplier India
-97  | /ss-square-pipe-supplier-india              | SS square pipe RHS supplier India
-98  | /ss-rectangular-pipe-supplier-india         | SS rectangular pipe supplier India
-99  | /ss-polished-pipe-supplier-india            | SS mirror polished pipe supplier India
-100 | /ss-electropolished-pipe-india              | SS electropolished pipe pharma supplier India
 101 | /carbon-steel-spectacle-blind-india         | spectacle blind flange CS supplier India
 102 | /ss-stub-end-supplier-india                 | SS stub end lap joint supplier India
 103 | /ss-reducer-supplier-india                  | SS concentric eccentric reducer supplier India
