@@ -31,31 +31,6 @@ NOT just SS pipe — every page mentions SS, CS, Alloy, Duplex, Exotic, Structur
 
 #   | URL Slug                                    | Primary Keyword + Secondary Keywords
 ----|---------------------------------------------|----------------------------------------------
-1   | /steel-pipe-supplier-chennai                | SS pipe supplier Chennai, carbon steel pipe Chennai, alloy steel pipe Chennai
-2   | /steel-pipe-supplier-hyderabad              | SS pipe supplier Hyderabad, CS pipe Hyderabad, pipe fittings Hyderabad
-3   | /steel-pipe-supplier-bangalore              | pipe supplier Bangalore, SS fittings Bangalore, steel plate Bangalore
-4   | /steel-pipe-supplier-kolkata                | steel pipe supplier Kolkata, SS flange Kolkata, alloy pipe Kolkata
-5   | /steel-pipe-supplier-delhi                  | steel pipe supplier Delhi NCR, SS pipe Delhi, carbon steel Delhi
-6   | /steel-pipe-supplier-jaipur                 | pipe supplier Jaipur, SS fittings Jaipur, alloy steel Jaipur
-7   | /steel-supplier-indore                      | steel supplier Indore, SS pipe Indore, structural steel Indore
-8   | /steel-pipe-supplier-coimbatore             | pipe supplier Coimbatore, SS tube Coimbatore, flanges Coimbatore
-9   | /steel-pipe-supplier-vizag                  | pipe supplier Visakhapatnam, HPCL Vizag pipe, steel Vizag
-10  | /steel-supplier-nagpur                      | steel supplier Nagpur, pipe fittings Nagpur, MS angle Nagpur
-11  | /steel-supplier-bhopal                      | steel supplier Bhopal, SS pipe Bhopal, structural steel Bhopal
-12  | /steel-pipe-supplier-ludhiana               | pipe supplier Ludhiana, SS tube Ludhiana, ERW pipe Ludhiana
-13  | /steel-supplier-kanpur                      | steel supplier Kanpur, MS plate Kanpur, TMT bar Kanpur
-14  | /steel-supplier-raipur                      | steel supplier Raipur, SS pipe Raipur, structural steel Raipur
-15  | /steel-pipe-supplier-kochi                  | pipe supplier Kochi Kerala, SS fittings Kochi, BPCL Kochi
-16  | /steel-supplier-haldia                      | steel supplier Haldia, refinery pipe Haldia, IOCL Haldia
-17  | /steel-supplier-jamnagar                    | steel supplier Jamnagar, Reliance refinery pipe, Essar pipe Jamnagar
-18  | /steel-supplier-hazira                      | steel supplier Hazira, ONGC Hazira pipe, NTPC Hazira
-19  | /steel-supplier-mundra                      | steel supplier Mundra, Adani port pipe, industrial steel Mundra
-20  | /steel-supplier-kandla                      | steel supplier Kandla, pipe export Kandla port, SEZ steel Kandla
-21  | /steel-supplier-mangalore                   | steel supplier Mangalore, MRPL pipe, refinery steel Mangalore
-22  | /steel-supplier-vadodara-gidc               | steel supplier GIDC Vadodara, all industrial materials GIDC
-23  | /steel-supplier-ankleshwar-gidc             | steel supplier Ankleshwar GIDC, chemical plant pipe Ankleshwar
-24  | /steel-supplier-vapi-gidc                   | steel supplier Vapi GIDC, chemical industry pipe Vapi
-25  | /steel-supplier-panoli-gidc                 | steel supplier Panoli GIDC, dye chemical pipe Panoli
 26  | /steel-supplier-jhagadia                    | steel supplier Jhagadia industrial, pipe fittings Jhagadia
 27  | /steel-pipe-supplier-gandhidham             | pipe supplier Gandhidham Kutch, steel Adipur Kutch
 28  | /steel-supplier-silvassa                    | steel supplier Silvassa, pipe fittings Silvassa Dadra Nagar
