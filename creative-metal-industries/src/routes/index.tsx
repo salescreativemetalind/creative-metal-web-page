@@ -279,19 +279,19 @@ const TICKER_ITEMS = [
 const FAQS = [
   {
     q: "Why is Creative Metal Industries the best SS pipe supplier in Vadodara?",
-    a: "Creative Metal Industries is Vadodara's leading SS pipe supplier with over 15 years of experience. We maintain ready stock of SS 304, 304L, 316, 316L, 317L, 321, 310S and Duplex 2205 seamless and welded pipes at our 1092 sq.mtr GIDC Makarpura yard. We provide MTC (EN 10204 3.1/3.2), IBR Form III-C and NACE certification on every consignment, with same-day dispatch for standard sizes. Our location in Vadodara gives us a competitive edge for serving Gujarat's petrochemical, fertilizer and power plant industries.",
+    a: "Creative Metal Industries is Vadodara's leading SS pipe supplier with over 15 years of experience. We maintain ready stock of SS 304, 304L, 316, 316L, 317L, 321, 310S and Duplex 2205 seamless and welded pipes at our 1092 sq.mtr GIDC Makarpura yard. We provide MTC (EN 10204 3.1/3.2), IBR Form III-C and NACE certification on every consignment, with same-day dispatch for standard sizes. Our location in Vadodara gives us a competitive edge for serving Gujarat's petrochemical, fertilizer and power plant industries. View our complete SS pipe range at /ss-pipe-supplier-vadodara or explore Duplex Steel at /duplex-steel-supplier-vadodara.",
   },
   {
     q: "What types of stainless steel pipes do you supply?",
-    a: "We supply SS seamless and welded pipes in grades TP 304, 304L, 316, 316L, 317L, 321, 310S, 347, 409, 410, 420 and 904L as per ASTM A312 and A213. Available in all schedules from SCH 5S to XXS, sizes 6NB to 600NB. We also stock Duplex 2205 and Super Duplex 2507 pipes.",
+    a: "We supply SS seamless and welded pipes in grades TP 304, 304L, 316, 316L, 317L, 321, 310S, 347, 409, 410, 420 and 904L as per ASTM A312 and A213. Available in all schedules from SCH 5S to XXS, sizes 6NB to 600NB. We also stock Duplex 2205 and Super Duplex 2507 pipes. See our SS 304/316L page at /ss-304-316l-pipe-supplier-india, SS 321 at /ss-321-pipe-supplier-india, SS 310 at /ss-310-pipe-supplier-india, SS 904L at /ss-904l-pipe-supplier-india, or Super Duplex 2507 at /super-duplex-2507-pipe-supplier for grade-specific details.",
   },
   {
     q: "Do you supply Alloy Steel Pipes for high-temperature service?",
-    a: "Yes. We are stockists of Alloy Steel seamless pipes as per ASTM A335 in grades P5, P9, P11, P12, P22, P91 and P92. These are used in boilers, superheaters and ultra-supercritical power plants. Available with IBR Form III-C certification.",
+    a: "Yes. We are stockists of Alloy Steel seamless pipes as per ASTM A335 in grades P5, P9, P11, P12, P22, P91 and P92. These are used in boilers, superheaters and ultra-supercritical power plants. Available with IBR Form III-C certification. Visit /alloy-steel-pipe-supplier-india for complete grade details, specifications and IBR documentation information.",
   },
   {
     q: "Which exotic alloys do you stock?",
-    a: "We stock Inconel (600/625/718/825), Monel (400/K500), Hastelloy (C-22/C-276/B-2/B-3), Incoloy (800/825), Duplex 2205, Super Duplex 2507, Titanium (Gr.1/2/5), Aluminium alloys (6061/6063/7075), Copper, Cupro-Nickel and Brass in all product forms.",
+    a: "We stock Inconel (600/625/718/825), Monel (400/K500), Hastelloy (C-22/C-276/B-2/B-3), Incoloy (800/825), Duplex 2205, Super Duplex 2507, Titanium (Gr.1/2/5), Aluminium alloys (6061/6063/7075), Copper, Cupro-Nickel and Brass in all product forms. See detailed pages: Inconel 625 at /inconel-pipe-supplier-india, Inconel 600 at /inconel-600-pipe-supplier-india, Inconel 718 at /inconel-718-supplier-india, Incoloy 825 at /incoloy-825-pipe-supplier-india, Monel K500 at /monel-k500-supplier-india, Hastelloy C22 at /hastelloy-c22-pipe-supplier-india.",
   },
   {
     q: "What certifications and documentation do you provide?",
@@ -389,9 +389,14 @@ function Hero() {
             <div class="hero-badge">🏭 Manufacturer · Stockist · Supplier — Vadodara, Gujarat</div>
             <h1>SS Pipes, Fittings, Flanges &amp; Plates Supplier <em>Vadodara</em></h1>
             <p class="hero-sub">
-              Creative Metal Industries, Vadodara — manufacturer, stockist and supplier of
-              Stainless Steel, Duplex, Carbon &amp; Alloy Steel Pipes, Plates, Fittings,
-              Flanges and Exotic Alloys. Serving Oil &amp; Gas, Petrochemical, Power and
+              Creative Metal Industries, Vadodara — manufacturer, stockist and supplier of{" "}
+              <a href="/stainless-steel-supplier-vadodara" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Stainless Steel</a>,{" "}
+              <a href="/duplex-steel-supplier-vadodara" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Duplex &amp; Super Duplex</a>,{" "}
+              <a href="/carbon-steel-pipe-fittings-vadodara" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Carbon Steel</a> &amp;{" "}
+              <a href="/alloy-steel-pipe-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Alloy Steel</a> Pipes, Plates,{" "}
+              <a href="/ss-buttweld-fittings-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Fittings</a>,{" "}
+              <a href="/ss-flanges-supplier-vadodara" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Flanges</a> and{" "}
+              <a href="/inconel-pipe-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Exotic Alloys</a>. Serving Oil &amp; Gas, Petrochemical, Power and
               Fertilizer industries worldwide.
             </p>
             <div class="hero-actions">
@@ -1008,9 +1013,13 @@ function AboutSection() {
             <p>
               With over <strong>15 years of combined industry experience</strong>, our team of
               qualified engineers and procurement specialists delivers a comprehensive range
-              of SS/CS/AS Pipes, Tubes, Plates, Sheets, Buttweld &amp; Forged Fittings,
-              Flanges, Structural Steel and Special Alloys including Duplex, Inconel, Monel,
-              Hastelloy, Titanium, Aluminium and Copper products.
+              of <a href="/ss-seamless-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>SS/CS/AS Pipes</a>,{" "}
+              Tubes, Plates, Sheets, <a href="/ss-buttweld-fittings-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Buttweld &amp; Forged Fittings</a>,{" "}
+              <a href="/ss-flanges-supplier-vadodara" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Flanges</a>, <a href="/tmt-bars-supplier-gujarat" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Structural Steel</a> and Special Alloys including{" "}
+              <a href="/duplex-steel-supplier-vadodara" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Duplex</a>,{" "}
+              <a href="/inconel-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Inconel</a>,{" "}
+              <a href="/monel-k500-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Monel</a>,{" "}
+              <a href="/hastelloy-c22-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Hastelloy</a>, Titanium, Aluminium and Copper products.
             </p>
             <p>
               Operating from a <strong>1,092 sq.mtr warehouse and yard at GIDC Makarpura,
@@ -1756,8 +1765,11 @@ function VadodaraSupplierSection() {
             #1 SS Pipe Supplier in Vadodara, Gujarat
           </h2>
           <p style={{ color: "var(--muted)", "max-width": "680px", margin: "0 auto", "font-size": "1.05rem", "line-height": "1.7" }}>
-            Creative Metal Industries is Vadodara's leading stockist and supplier of
-            Stainless Steel pipes, tubes, fittings, flanges and plates. Ready stock
+            Creative Metal Industries is Vadodara's leading stockist and supplier of{" "}
+            <a href="/ss-seamless-pipe-supplier-india" style={{"color":"var(--amber)","font-weight":"600","text-decoration":"none"}}>Stainless Steel pipes</a>, tubes,{" "}
+            <a href="/ss-buttweld-fittings-supplier-india" style={{"color":"var(--amber)","font-weight":"600","text-decoration":"none"}}>fittings</a>,{" "}
+            <a href="/ss-flanges-supplier-vadodara" style={{"color":"var(--amber)","font-weight":"600","text-decoration":"none"}}>flanges</a> and{" "}
+            <a href="/ss-310s-plate-supplier-india" style={{"color":"var(--amber)","font-weight":"600","text-decoration":"none"}}>plates</a>. Ready stock
             at our GIDC Makarpura yard — same-day dispatch for standard sizes.
           </p>
         </div>
