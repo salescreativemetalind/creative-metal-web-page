@@ -1,5 +1,6 @@
 import { Title, Meta, Link } from "@solidjs/meta";
 import { createSignal, onMount, onCleanup, For, Index, createMemo, createEffect, Show } from "solid-js";
+import { AllPagesLinks } from "../components/AllPagesLinks";
 
 // ─── Image path helpers ───────────────────────────────────────────────────────
 const I  = (name: string) => `/img/${name}`;      // product cards (original size)
@@ -1978,6 +1979,16 @@ export default function Home() {
                 {href:"/carbon-steel-sa516-plate-stockist-india",label:"SA 516 Plate"},
                 {href:"/nace-hic-steel-plate-supplier-india",label:"NACE HIC Plate"},
                 {href:"/tmt-bars-supplier-gujarat",label:"TMT Bars Gujarat"},
+                {href:"/carbon-steel-spectacle-blind-india",label:"CS Spectacle Blind"},
+                {href:"/ms-plate-supplier-india",label:"MS Plate IS 2062"},
+                {href:"/ms-channel-ismc-supplier-india",label:"MS Channel ISMC"},
+                {href:"/ms-beam-ismb-supplier-india",label:"MS Beam ISMB"},
+                {href:"/ms-flat-bar-supplier-india",label:"MS Flat Bar"},
+                {href:"/hardox-wear-plate-supplier-india",label:"Hardox Wear Plate"},
+                {href:"/sail-hard-plate-supplier-india",label:"SAIL Hard Plate"},
+                {href:"/corten-steel-plate-supplier-india",label:"Corten Steel Plate"},
+                {href:"/ss-stub-end-supplier-india",label:"SS Stub End"},
+                {href:"/ss-reducer-supplier-india",label:"SS Reducer"},
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.4rem 0.8rem","font-size":"0.8rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
@@ -2000,27 +2011,8 @@ export default function Home() {
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.35rem 0.7rem","font-size":"0.78rem","font-weight":"600",color:"#374151","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
-            <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Technical Blog &amp; Guides</h3>
-            <div style={{display:"flex","flex-wrap":"wrap",gap:"0.5rem"}}>
-              {[
-                {href:"/blog/ss-304-stainless-steel-guide",label:"SS 304 Guide"},
-                {href:"/blog/ss-316l-stainless-steel-guide",label:"SS 316L Guide"},
-                {href:"/blog/p91-alloy-steel-guide",label:"P91 Alloy Steel Guide"},
-                {href:"/blog/duplex-2205-steel-guide",label:"Duplex 2205 Guide"},
-                {href:"/blog/super-duplex-2507-guide",label:"Super Duplex 2507"},
-                {href:"/blog/inconel-625-guide",label:"Inconel 625 Guide"},
-                {href:"/blog/hastelloy-c276-guide",label:"Hastelloy C276 Guide"},
-                {href:"/blog/erw-vs-seamless-pipe",label:"ERW vs Seamless"},
-                {href:"/blog/pipe-schedule-chart",label:"Pipe Schedule Chart"},
-                {href:"/blog/ibr-certification-guide",label:"IBR Certification"},
-                {href:"/blog/mill-test-certificate-guide",label:"MTC Guide"},
-                {href:"/blog/titanium-grade-2-vs-grade-5",label:"Titanium Gr.2 vs Gr.5"},
-                {href:"/blog/astm-a312-pipe-guide",label:"ASTM A312 Guide"},
-                {href:"/blog/api-5l-pipe-guide",label:"API 5L Guide"},
-                {href:"/blog/inconel-vs-monel-guide",label:"Inconel vs Monel"},
-                {href:"/blog",label:"View All Blog Articles →"},
-              ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.35rem 0.7rem","font-size":"0.78rem","font-weight":"600",color:l.href==="/blog"?"#E8821A":"#374151","text-decoration":"none"}}>{l.label}</a>)}
-            </div>
+            <h3 style={{"font-size":"1.1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem","margin-top":"2rem","border-top":"2px solid #E8821A","padding-top":"1.5rem"}}>📖 All Technical Articles, Guides &amp; Resources (400+ Pages)</h3>
+            <AllPagesLinks />
           </div>
         </section>
       </main>
