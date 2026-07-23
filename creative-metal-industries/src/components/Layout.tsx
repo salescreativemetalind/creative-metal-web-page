@@ -94,12 +94,21 @@ export function SiteFooter() {
           <nav aria-label="Materials">
             <h4>Materials</h4>
             <ul>
-              <li><a href="/#metals">Stainless Steel</a></li>
-              <li><a href="/#metals">Carbon &amp; Alloy Steel</a></li>
-              <li><a href="/#metals">Duplex &amp; Super Duplex</a></li>
-              <li><a href="/#metals">Inconel / Monel / Hastelloy</a></li>
-              <li><a href="/#metals">Titanium &amp; Aluminium</a></li>
-              <li><a href="/#metals">Copper &amp; Bronze</a></li>
+              <li><a href="/stainless-steel-supplier-gujarat">Stainless Steel</a></li>
+              <li><a href="/alloy-steel-pipe-supplier-india">Alloy Steel Pipes</a></li>
+              <li><a href="/duplex-steel-supplier-vadodara">Duplex &amp; Super Duplex</a></li>
+              <li><a href="/inconel-pipe-supplier-india">Inconel Pipes</a></li>
+              <li><a href="/monel-pipe-supplier-india">Monel Pipes</a></li>
+              <li><a href="/hastelloy-pipe-supplier-india">Hastelloy Pipes</a></li>
+              <li><a href="/titanium-pipe-supplier-india">Titanium Pipes</a></li>
+              <li><a href="/copper-nickel-pipe-supplier-india">Copper Nickel Pipes</a></li>
+              <li><a href="/boiler-tube-supplier-india">Boiler Tubes</a></li>
+              <li><a href="/heat-exchanger-tube-supplier-india">Heat Exchanger Tubes</a></li>
+              <li><a href="/forged-fittings-supplier-india">Forged Fittings</a></li>
+              <li><a href="/ss-round-bar-supplier-vadodara">SS Round Bars</a></li>
+              <li><a href="/ms-plate-supplier-vadodara">MS Plates</a></li>
+              <li><a href="/ss-sheet-supplier-vadodara">SS Sheets &amp; Plates</a></li>
+              <li><a href="/api-5l-line-pipe-supplier-india">API 5L Line Pipe</a></li>
             </ul>
           </nav>
           <div>
@@ -119,6 +128,60 @@ export function SiteFooter() {
               <div class="cert-badge">🌍 Export to 50+ Countries</div>
             </div>
           </div>
+        </div>
+        {/* SEO Internal Links — Locations & Industries */}
+        <div class="footer-grid" style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,0.1)">
+          <nav aria-label="Supply locations">
+            <h4>Supply Locations</h4>
+            <ul>
+              <li><a href="/ss-pipe-supplier-vadodara">Vadodara</a></li>
+              <li><a href="/ss-pipe-supplier-ahmedabad">Ahmedabad</a></li>
+              <li><a href="/ss-pipe-supplier-surat">Surat</a></li>
+              <li><a href="/ss-pipe-supplier-mumbai">Mumbai</a></li>
+              <li><a href="/ss-pipe-supplier-rajkot">Rajkot</a></li>
+              <li><a href="/ss-pipe-supplier-bharuch">Bharuch</a></li>
+              <li><a href="/steel-supplier-dahej">Dahej</a></li>
+              <li><a href="/ss-pipe-supplier-pune">Pune</a></li>
+              <li><a href="/stainless-steel-supplier-gujarat">All Gujarat</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="Industries served">
+            <h4>Industries</h4>
+            <ul>
+              <li><a href="/refinery-pipe-supplier-india">Refinery</a></li>
+              <li><a href="/power-plant-piping-supplier-india">Power Plant</a></li>
+              <li><a href="/pharma-pipe-supplier-india">Pharmaceutical</a></li>
+              <li><a href="/oil-gas-pipe-supplier-india">Oil &amp; Gas</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="Price guides">
+            <h4>Price Guides</h4>
+            <ul>
+              <li><a href="/blog/ss-pipe-price-list-india">SS Pipe Price List</a></li>
+              <li><a href="/blog/ss-304-pipe-price-per-kg">SS 304 Pipe Price</a></li>
+              <li><a href="/blog/ss-316l-pipe-price-per-kg">SS 316L Pipe Price</a></li>
+              <li><a href="/blog/tmt-bar-price-today-gujarat">TMT Bar Price Gujarat</a></li>
+              <li><a href="/blog/ms-plate-price-vadodara">MS Plate Price</a></li>
+              <li><a href="/blog/erw-pipe-price-india">ERW Pipe Price</a></li>
+              <li><a href="/blog/duplex-2205-pipe-price-india">Duplex Pipe Price</a></li>
+              <li><a href="/blog/inconel-625-pipe-price-india">Inconel Pipe Price</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="Technical guides">
+            <h4>Guides &amp; Resources</h4>
+            <ul>
+              <li><a href="/blog/ss-pipe-weight-chart">SS Pipe Weight Chart</a></li>
+              <li><a href="/blog/pipe-fittings-types-guide">Pipe Fittings Types</a></li>
+              <li><a href="/blog/flange-dimensions-chart">Flange Dimensions</a></li>
+              <li><a href="/blog/what-is-ibr-certification">What is IBR?</a></li>
+              <li><a href="/blog/what-is-mtc-mill-test-certificate">What is MTC?</a></li>
+              <li><a href="/blog/sch-40-vs-sch-80-guide">SCH 40 vs SCH 80</a></li>
+              <li><a href="/blog/seamless-vs-welded-pipe-india">Seamless vs Welded</a></li>
+              <li><a href="/blog/weld-neck-vs-slip-on-flange">WN vs SO Flange</a></li>
+              <li><a href="/blog/ss-304-vs-317l-comparison">SS 304 vs 317L</a></li>
+              <li><a href="/blog/buttweld-vs-forged-fittings-guide">Buttweld vs Forged</a></li>
+            </ul>
+          </nav>
         </div>
         <div class="footer-bottom">
           <p>© {year} Creative Metal Industries, Vadodara. All rights reserved.</p>

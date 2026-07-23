@@ -519,6 +519,49 @@ export default defineConfig({
         "/blog/project-export-middle-east-steel",
         "/blog/project-building-construction-tmt",
         "/blog/project-lng-cryogenic-piping",
+
+        // NEW SUPPLIER LANDING PAGES (July 2026 — Short Keyword Strategy)
+        "/monel-pipe-supplier-india",
+        "/hastelloy-pipe-supplier-india",
+        "/titanium-pipe-supplier-india",
+        "/boiler-tube-supplier-india",
+        "/heat-exchanger-tube-supplier-india",
+        "/ss-round-bar-supplier-vadodara",
+        "/forged-fittings-supplier-india",
+        "/copper-nickel-pipe-supplier-india",
+
+        // LOCATION PAGES — Gujarat & Nearby Cities
+        "/ss-pipe-supplier-ahmedabad",
+        "/ss-pipe-supplier-surat",
+        "/ss-pipe-supplier-mumbai",
+        "/ss-pipe-supplier-rajkot",
+        "/ss-pipe-supplier-bharuch",
+        "/ss-pipe-supplier-pune",
+        "/stainless-steel-supplier-gujarat",
+
+        // INDUSTRY PAGES
+        "/refinery-pipe-supplier-india",
+        "/power-plant-piping-supplier-india",
+        "/pharma-pipe-supplier-india",
+        "/oil-gas-pipe-supplier-india",
+
+        // PRODUCT SPEC PAGES
+        "/incoloy-800-pipe-supplier-india",
+        "/api-5l-line-pipe-supplier-india",
+        "/ms-plate-supplier-vadodara",
+        "/ss-sheet-supplier-vadodara",
+
+        // COMPARISON & GUIDE BLOGS
+        "/blog/ss-304-vs-317l-comparison",
+        "/blog/buttweld-vs-forged-fittings-guide",
+        "/blog/sch-40-vs-sch-80-guide",
+        "/blog/seamless-vs-welded-pipe-india",
+        "/blog/what-is-ibr-certification",
+        "/blog/what-is-mtc-mill-test-certificate",
+        "/blog/weld-neck-vs-slip-on-flange",
+        "/blog/pipe-fittings-types-guide",
+        "/blog/flange-dimensions-chart",
+
         "/sitemap",
       ],
     },
