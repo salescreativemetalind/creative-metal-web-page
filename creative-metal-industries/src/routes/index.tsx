@@ -1555,6 +1555,14 @@ function Footer() {
               <li><a href="/ss-buttweld-fittings-supplier-india">Buttweld Fittings</a></li>
               <li><a href="/ss-flanges-supplier-vadodara">Flanges</a></li>
               <li><a href="/tmt-bars-supplier-gujarat">Structural Steel &amp; TMT</a></li>
+              <li><a href="/ms-plate-supplier-india">MS Plate IS 2062</a></li>
+              <li><a href="/ms-channel-ismc-supplier-india">MS Channel ISMC</a></li>
+              <li><a href="/ms-beam-ismb-supplier-india">MS Beam ISMB</a></li>
+              <li><a href="/hardox-wear-plate-supplier-india">Hardox Wear Plate</a></li>
+              <li><a href="/corten-steel-plate-supplier-india">Corten Steel Plate</a></li>
+              <li><a href="/carbon-steel-spectacle-blind-india">CS Spectacle Blind</a></li>
+              <li><a href="/ss-stub-end-supplier-india">SS Stub End</a></li>
+              <li><a href="/ss-reducer-supplier-india">SS Reducer</a></li>
               <li><a href="/metal-trading">Metal Trading</a></li>
               <li><a href="/products">📐 Size &amp; Weight Charts</a></li>
             </ul>
