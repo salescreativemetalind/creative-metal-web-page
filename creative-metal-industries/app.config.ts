@@ -519,6 +519,7 @@ export default defineConfig({
         "/blog/project-export-middle-east-steel",
         "/blog/project-building-construction-tmt",
         "/blog/project-lng-cryogenic-piping",
+        "/sitemap",
       ],
     },
   },

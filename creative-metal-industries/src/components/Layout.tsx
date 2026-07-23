@@ -125,6 +125,7 @@ export function SiteFooter() {
           <nav class="footer-bottom-links">
             <a href="/privacy-policy">Privacy Policy</a>
             <a href="/terms">Terms of Trade</a>
+            <a href="/sitemap">Site Map</a>
             <a href="https://www.creativemetalind.com" target="_blank" rel="noopener">www.creativemetalind.com</a>
           </nav>
         </div>

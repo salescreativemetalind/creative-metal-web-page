@@ -1,6 +1,5 @@
 import { Title, Meta, Link } from "@solidjs/meta";
 import { createSignal, onMount, onCleanup, For, Index, createMemo, createEffect, Show } from "solid-js";
-import { AllPagesLinks } from "../components/AllPagesLinks";
 
 // ─── Image path helpers ───────────────────────────────────────────────────────
 const I  = (name: string) => `/img/${name}`;      // product cards (original size)
@@ -1578,6 +1577,7 @@ function Footer() {
               <li><a href="/ss-304-316l-pipe-supplier-india">SS 304/316L Pipe India</a></li>
               <li><a href="/reviews">Reviews</a></li>
               <li><a href="/blog">Technical Blog</a></li>
+              <li><a href="/sitemap">All Pages (Site Map)</a></li>
             </ul>
           </nav>
           <div>
@@ -2011,12 +2011,8 @@ export default function Home() {
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.35rem 0.7rem","font-size":"0.78rem","font-weight":"600",color:"#374151","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
-            <div style={{"margin-top":"2.5rem","border-top":"2px solid #E8821A","padding-top":"2rem"}}>
-              <div style={{"text-align":"center","margin-bottom":"2rem"}}>
-                <h3 style={{"font-size":"1.4rem","font-weight":"800",color:"#111827",margin:"0 0 0.5rem"}}>Technical Articles, Guides &amp; Resources</h3>
-                <p style={{"font-size":"0.9rem",color:"#6b7280",margin:0}}>400+ pages covering pricing, specifications, weight charts, comparisons, how-to guides and more</p>
-              </div>
-              <AllPagesLinks />
+            <div style={{"margin-top":"2rem","text-align":"center"}}>
+              <a href="/sitemap" style={{display:"inline-block",background:"#f8fafc",border:"1px solid #e2e8f0","border-radius":"8px",padding:"0.75rem 1.5rem","font-size":"0.85rem","font-weight":"600",color:"#334155","text-decoration":"none"}}>View All 500+ Pages — Price Charts, Weight Tables, Specifications &amp; Guides →</a>
             </div>
           </div>
         </section>
