@@ -57,7 +57,7 @@ export default function SteelPipeExportDocumentation() {
 
       <main style={{ "max-width": "800px", margin: "0 auto", padding: "3rem 1.5rem" }}>
         <div style={{ "margin-bottom": "2.5rem" }}>
-          <span style={{ background: "#FEF3C7", color: "#92400E", padding: "0.25rem 0.7rem", "border-radius": "99px", "font-size": "0.75rem", "font-weight": "700" }}>Buyer\'s Guide</span>
+          <span style={{ background: "#FEF3C7", color: "#92400E", padding: "0.25rem 0.7rem", "border-radius": "99px", "font-size": "0.75rem", "font-weight": "700" }}>Buyer's Guide</span>
           <span style={{ color: "#9ca3af", "font-size": "0.82rem", "margin-left": "0.75rem" }}>July 2026 · 8 min read</span>
           <h1 style={{ "font-size": "clamp(1.8rem,4vw,2.5rem)", "font-weight": "800", color: "#111827", margin: "1rem 0 1.25rem", "line-height": "1.2" }}>
             Steel Pipe Export Documentation India — Procedure
