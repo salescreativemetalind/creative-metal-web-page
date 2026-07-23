@@ -2011,8 +2011,13 @@ export default function Home() {
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.35rem 0.7rem","font-size":"0.78rem","font-weight":"600",color:"#374151","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
-            <h3 style={{"font-size":"1.1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem","margin-top":"2rem","border-top":"2px solid #E8821A","padding-top":"1.5rem"}}>📖 All Technical Articles, Guides &amp; Resources (400+ Pages)</h3>
-            <AllPagesLinks />
+            <div style={{"margin-top":"2.5rem","border-top":"2px solid #E8821A","padding-top":"2rem"}}>
+              <div style={{"text-align":"center","margin-bottom":"2rem"}}>
+                <h3 style={{"font-size":"1.4rem","font-weight":"800",color:"#111827",margin:"0 0 0.5rem"}}>Technical Articles, Guides &amp; Resources</h3>
+                <p style={{"font-size":"0.9rem",color:"#6b7280",margin:0}}>400+ pages covering pricing, specifications, weight charts, comparisons, how-to guides and more</p>
+              </div>
+              <AllPagesLinks />
+            </div>
           </div>
         </section>
       </main>
