@@ -98,7 +98,7 @@ export function SiteFooter() {
               <li><a href="/alloy-steel-pipe-supplier-india">Alloy Steel Pipes</a></li>
               <li><a href="/duplex-steel-supplier-vadodara">Duplex &amp; Super Duplex</a></li>
               <li><a href="/inconel-pipe-supplier-india">Inconel Pipes</a></li>
-              <li><a href="/monel-pipe-supplier-india">Monel Pipes</a></li>
+              <li><a href="/monel-400-pipe-supplier-india">Monel Pipes</a></li>
               <li><a href="/hastelloy-pipe-supplier-india">Hastelloy Pipes</a></li>
               <li><a href="/titanium-pipe-supplier-india">Titanium Pipes</a></li>
               <li><a href="/copper-nickel-pipe-supplier-india">Copper Nickel Pipes</a></li>
@@ -106,7 +106,7 @@ export function SiteFooter() {
               <li><a href="/heat-exchanger-tube-supplier-india">Heat Exchanger Tubes</a></li>
               <li><a href="/forged-fittings-supplier-india">Forged Fittings</a></li>
               <li><a href="/ss-round-bar-supplier-vadodara">SS Round Bars</a></li>
-              <li><a href="/ms-plate-supplier-vadodara">MS Plates</a></li>
+              <li><a href="/ms-plate-supplier-india">MS Plates</a></li>
               <li><a href="/ss-sheet-supplier-vadodara">SS Sheets &amp; Plates</a></li>
               <li><a href="/api-5l-line-pipe-supplier-india">API 5L Line Pipe</a></li>
             </ul>
@@ -139,7 +139,7 @@ export function SiteFooter() {
               <li><a href="/ss-pipe-supplier-surat">Surat</a></li>
               <li><a href="/ss-pipe-supplier-mumbai">Mumbai</a></li>
               <li><a href="/ss-pipe-supplier-rajkot">Rajkot</a></li>
-              <li><a href="/ss-pipe-supplier-bharuch">Bharuch</a></li>
+              <li><a href="/steel-supplier-bharuch">Bharuch</a></li>
               <li><a href="/steel-supplier-dahej">Dahej</a></li>
               <li><a href="/ss-pipe-supplier-pune">Pune</a></li>
               <li><a href="/stainless-steel-supplier-gujarat">All Gujarat</a></li>
@@ -148,10 +148,10 @@ export function SiteFooter() {
           <nav aria-label="Industries served">
             <h4>Industries</h4>
             <ul>
-              <li><a href="/refinery-pipe-supplier-india">Refinery</a></li>
-              <li><a href="/power-plant-piping-supplier-india">Power Plant</a></li>
-              <li><a href="/pharma-pipe-supplier-india">Pharmaceutical</a></li>
-              <li><a href="/oil-gas-pipe-supplier-india">Oil &amp; Gas</a></li>
+              <li><a href="/blog/piping-material-oil-refinery">Refinery</a></li>
+              <li><a href="/blog/steel-for-power-plant-boiler">Power Plant</a></li>
+              <li><a href="/blog/ss-pipe-for-pharma-industry">Pharmaceutical</a></li>
+              <li><a href="/blog/piping-for-oil-gas-pipeline">Oil &amp; Gas</a></li>
             </ul>
           </nav>
           <nav aria-label="Price guides">
@@ -171,15 +171,15 @@ export function SiteFooter() {
             <h4>Guides &amp; Resources</h4>
             <ul>
               <li><a href="/blog/ss-pipe-weight-chart">SS Pipe Weight Chart</a></li>
-              <li><a href="/blog/pipe-fittings-types-guide">Pipe Fittings Types</a></li>
-              <li><a href="/blog/flange-dimensions-chart">Flange Dimensions</a></li>
+              <li><a href="/blog/pipe-fittings-selection-guide">Pipe Fittings Types</a></li>
+              <li><a href="/blog/flange-dimensions-chart-150-300">Flange Dimensions</a></li>
               <li><a href="/blog/what-is-ibr-certification">What is IBR?</a></li>
-              <li><a href="/blog/what-is-mtc-mill-test-certificate">What is MTC?</a></li>
-              <li><a href="/blog/sch-40-vs-sch-80-guide">SCH 40 vs SCH 80</a></li>
-              <li><a href="/blog/seamless-vs-welded-pipe-india">Seamless vs Welded</a></li>
-              <li><a href="/blog/weld-neck-vs-slip-on-flange">WN vs SO Flange</a></li>
-              <li><a href="/blog/ss-304-vs-317l-comparison">SS 304 vs 317L</a></li>
-              <li><a href="/blog/buttweld-vs-forged-fittings-guide">Buttweld vs Forged</a></li>
+              <li><a href="/blog/what-is-mill-test-certificate">What is MTC?</a></li>
+              <li><a href="/blog/sch-80-vs-sch-160-pipe">SCH 80 vs SCH 160</a></li>
+              <li><a href="/blog/seamless-vs-welded-ss-pipe">Seamless vs Welded</a></li>
+              <li><a href="/blog/wn-flange-vs-so-flange">WN vs SO Flange</a></li>
+              <li><a href="/blog/ss-304-vs-ss-316-difference">SS 304 vs 316</a></li>
+              <li><a href="/blog/butt-weld-vs-socket-weld">Buttweld vs Socket Weld</a></li>
             </ul>
           </nav>
         </div>
