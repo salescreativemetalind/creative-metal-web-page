@@ -3,6 +3,7 @@
  * Target: "SS 304 vs SS 321", "when to use SS 321", "SS 321 stabilised grade"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"SS 304 vs SS 321 — When to Use the Stabilised Stainless Steel Grade","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-20","image":"https://www.creativemetalind.com/og-image.jpg","url":"https://www.creativemetalind.com/blog/ss-304-vs-321-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between SS 304 and SS 321?","acceptedAnswer":{"@type":"Answer","text":"SS 321 contains titanium (5×C minimum) that stabilises the grade against chromium carbide precipitation during welding and high-temperature service (425–900°C). SS 304 lacks this stabilisation and is susceptible to sensitisation (intergranular corrosion) when held at 425–815°C. For welded components in high-temperature service, SS 321 is the safer specification."}},{"@type":"Question","name":"When should I specify SS 321 over SS 304?","acceptedAnswer":{"@type":"Answer","text":"Specify SS 321 when: (1) Operating temperature is continuously above 425°C, (2) The component will be welded and cannot be solution-annealed after welding, (3) The application involves thermal cycling between 425–815°C, (4) Post-weld heat treatment (PWHT) above 425°C is required. If operating below 425°C with no sustained high-temp exposure, SS 304/304L is sufficient and more economical."}},{"@type":"Question","name":"Is SS 321 more expensive than SS 304?","acceptedAnswer":{"@type":"Answer","text":"Yes — SS 321 typically costs 15–25% more than SS 304 due to the titanium addition and lower production volumes. However, the cost difference is small compared to the risk of intergranular corrosion failure in high-temperature welded service. For critical applications above 425°C, the cost premium is easily justified by reliability and reduced maintenance."}}]});
@@ -143,6 +144,8 @@ export default function Ss304Vs321Guide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/ss-304-vs-321-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

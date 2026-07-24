@@ -4,6 +4,7 @@
  * "SAIL Durgapur", "steel pipe supplier Durgapur"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const PRODUCTS = [
   { category: "Alloy Steel Pipes (IBR)", grades: "ASTM A335 P5, P9, P11, P22, P91", sizes: "1/2\" to 24\"", type: "Seamless (IBR)", stock: "Ready Stock" },
@@ -152,6 +153,8 @@ export default function SteelSupplierDurgapur() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} {"\u2192"}</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/steel-supplier-durgapur" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

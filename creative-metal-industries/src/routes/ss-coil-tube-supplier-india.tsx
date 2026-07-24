@@ -4,6 +4,7 @@
  * "ASTM A269 coiled tube", "316L coil tubing India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"304L Coil", composition:"18Cr-8Ni-0.03C max", sizes:"OD 3-25.4mm, WT 0.5-2.77mm", wall:"Coil length 50-5000m", apps:"Instrumentation, heat tracing", ht:"Bright annealed", stock:"Ready Stock" },
@@ -153,6 +154,8 @@ export default function SsCoilTubeSupplierIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/ss-coil-tube-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

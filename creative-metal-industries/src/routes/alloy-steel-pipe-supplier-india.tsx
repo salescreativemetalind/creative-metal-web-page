@@ -4,6 +4,7 @@
  * "alloy steel seamless pipe India", "P22 P11 pipe supplier"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"ASTM A335 P5", composition:"5Cr-0.5Mo", sizes:"1/2\" to 24\"", schedule:"SCH 40–XXS", apps:"Crude distillation, heaters", ht:"Normalised + Tempered", stock:"Ready Stock" },
@@ -190,12 +191,9 @@ export default function AlloySteelPipeSupplierIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
-      </main>
 
-      <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>
-        <p><strong style={{color:"#fff"}}>Creative Metal Industries</strong> — Alloy Steel Pipe Supplier India | ASTM A335 P91, P22, P11 | IBR Certified | Vadodara, Gujarat</p>
-        <p style={{"margin-top":"0.5rem"}}><a href="tel:+919998280619" style={{color:"#E8821A"}}>+91 99982 80619</a> · <a href="https://www.creativemetalind.com" style={{color:"#E8821A"}}>creativemetalind.com</a></p>
-      </footer>
+        <RelatedPages currentPath="/alloy-steel-pipe-supplier-india" />
+      </main>
     </>
   );
 }

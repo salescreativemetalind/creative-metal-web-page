@@ -7,6 +7,7 @@
  *   stainless steel pipe applications, SS pipe for building construction
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({
   "@context":"https://schema.org","@type":"Article",
@@ -271,6 +272,8 @@ export default function SsPipeSupplierVadodaraExplained() {
           <li><a href="https://www.bis.gov.in" target="_blank" rel="noopener noreferrer" style={{color:"#E8821A"}}>Bureau of Indian Standards (BIS)</a> — Indian standards for SS tubes and pipes (IS 6913)</li>
           <li><a href="https://www.steel-stainless.org" target="_blank" rel="noopener noreferrer" style={{color:"#E8821A"}}>Steel Construction Institute (SCI)</a> — Design guidance for stainless steel in structural applications</li>
         </ul>
+      
+        <RelatedPages currentPath="/blog/ss-pipe-supplier-vadodara-explained" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

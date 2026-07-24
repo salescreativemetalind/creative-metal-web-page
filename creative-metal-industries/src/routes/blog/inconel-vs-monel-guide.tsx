@@ -3,6 +3,7 @@
  * Target: "Inconel vs Monel", "nickel alloy comparison", "when to use Monel vs Inconel"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Inconel vs Monel — Choosing the Right Nickel Alloy for Your Application","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-20","image":"https://www.creativemetalind.com/og-image.jpg","url":"https://www.creativemetalind.com/blog/inconel-vs-monel-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the main difference between Inconel and Monel?","acceptedAnswer":{"@type":"Answer","text":"Inconel is a nickel-chromium alloy (Ni + Cr) designed for oxidising environments and high temperatures (up to 980°C for Inconel 625). Monel is a nickel-copper alloy (Ni + Cu) designed for reducing environments — acids like HF, H2SO4, and seawater. The key distinction: Inconel resists oxidation (chromium forms Cr2O3 layer); Monel resists reduction (copper provides nobility in reducing acids). Choose based on whether your corrosive environment is oxidising or reducing."}},{"@type":"Question","name":"When should I use Monel instead of Inconel?","acceptedAnswer":{"@type":"Answer","text":"Use Monel (400 or K-500) when: (1) Hydrofluoric acid (HF) is present — Monel 400 is the standard material for HF alkylation units, (2) Reducing sulphuric acid at moderate temperatures, (3) Seawater/marine applications requiring high velocity resistance, (4) De-aerated (oxygen-free) acid environments. Monel fails in oxidising conditions (HNO3, aerated acids) — that is where Inconel excels."}},{"@type":"Question","name":"Which is more expensive — Inconel or Monel?","acceptedAnswer":{"@type":"Answer","text":"Inconel 625 is typically 30-50% more expensive than Monel 400 on a per-kg basis due to higher nickel content (58% vs 63-70%) plus chromium and molybdenum additions. However, Inconel 718 and Inconel 825 can vary. Monel K-500 (age-hardened) costs more than Monel 400. Both are significantly more expensive than stainless steel — typically 5-10x the cost of SS 316L — so correct alloy selection is critical to avoid over-specification."}}]});
@@ -167,6 +168,8 @@ export default function InconelVsMonelGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/inconel-vs-monel-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

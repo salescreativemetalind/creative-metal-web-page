@@ -4,6 +4,7 @@
  * "9Cr-1.8W-Mo-V-Nb pipe India", "ultra-supercritical boiler pipe"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"ASTM A335 P92", composition:"9Cr-1.8W-Mo-V-Nb", sizes:"1/2\" to 16 inch", schedule:"SCH 40–160", apps:"Ultra-supercritical boilers", ht:"N (1040-1080°C) + T (730-780°C)", stock:"Ready Stock" },
@@ -163,6 +164,8 @@ export default function P92AlloySteelPipeSupplier() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/p92-alloy-steel-pipe-supplier" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

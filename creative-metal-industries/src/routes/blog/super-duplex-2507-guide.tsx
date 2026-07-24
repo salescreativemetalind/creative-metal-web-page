@@ -3,6 +3,7 @@
  * Target: "super duplex 2507", "metal importer exporter India", "carbon steel SA 516 plate stockist India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Super Duplex 2507 — The Oil and Gas Industry's Preferred Alloy","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/super-duplex-steel.webp","url":"https://www.creativemetalind.com/blog/super-duplex-2507-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What makes Super Duplex 2507 different from Duplex 2205?","acceptedAnswer":{"@type":"Answer","text":"Super Duplex 2507 (UNS S32750) has higher Chromium (25% vs 22%), Molybdenum (4% vs 3%), and Nitrogen (0.27% vs 0.17%) compared to Duplex 2205. This gives a PREN of ~42 (vs 35 for 2205), qualifying it for full seawater immersion and the most aggressive chloride environments. Yield strength is also higher at 550 MPa vs 450 MPa."}},{"@type":"Question","name":"Where is Super Duplex 2507 used?","acceptedAnswer":{"@type":"Answer","text":"2507 is used in subsea equipment (umbilicals, manifolds, christmas trees), seawater handling systems, offshore platform process piping, high-pressure RO desalination, oil & gas downhole components, chemical processing (hot chloride solutions), and FGD scrubbers. Essentially anywhere PREN > 40 is required by the operating environment."}},{"@type":"Question","name":"Is Super Duplex 2507 difficult to fabricate?","acceptedAnswer":{"@type":"Answer","text":"Yes — more than Duplex 2205. 2507 has a narrower heat input window (0.5-1.5 kJ/mm vs 0.5-2.5 for 2205), higher risk of sigma phase formation, and requires strict temperature control. Filler ER2594 is used. Interpass max 100°C. Fabricators need qualified WPS and experienced duplex welders. Solution annealing (1025-1125°C + water quench) is needed if phase balance is compromised."}}]});
@@ -140,6 +141,8 @@ export default function SuperDuplex2507Guide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/super-duplex-2507-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

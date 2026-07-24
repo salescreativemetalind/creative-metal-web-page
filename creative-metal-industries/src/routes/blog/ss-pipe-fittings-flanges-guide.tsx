@@ -3,6 +3,7 @@
  * Target: "SS pipe fittings flanges supplier India", "stainless steel pipe manufacturer India", "SS pipe supplier Vadodara"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"SS Pipe Fittings and Flanges — The Complete Piping System Kit","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/ss_buttweld_fittings.jpg","url":"https://www.creativemetalind.com/blog/ss-pipe-fittings-flanges-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the most common types of SS pipe fittings?","acceptedAnswer":{"@type":"Answer","text":"The most common SS buttweld fittings (ASTM A403) are: 90° elbows (long radius and short radius), 45° elbows, equal tees, reducing tees, concentric reducers, eccentric reducers, caps, and stub ends. For small-bore (≤ 2\"), socket weld fittings (ASTM A182, ASME B16.11) include 90° elbows, tees, couplings, unions, and plugs in 3000# and 6000# pressure classes."}},{"@type":"Question","name":"What is the difference between a Weld Neck and Slip-On flange?","acceptedAnswer":{"@type":"Answer","text":"A Weld Neck (WN) flange has a long tapered hub that is butt-welded to the pipe — it provides the strongest, highest-integrity connection for high-pressure and high-temperature service. A Slip-On (SO) flange slides over the pipe and is fillet-welded on both sides — it is easier to align and cheaper, but rated for lower pressure and not suitable for severe cyclic service or temperatures above 260°C."}},{"@type":"Question","name":"What pressure classes are available for SS flanges?","acceptedAnswer":{"@type":"Answer","text":"Per ASME B16.5: Class 150, 300, 600, 900, 1500, and 2500 (covers sizes 1/2\" to 24\"). Per ASME B16.47 (large bore): Class 75, 150, 300, 400, 600, 900 (covers 26\" to 60\"). Higher class = thicker flange + more/larger bolts = higher pressure and temperature rating. Class 150 handles ~20 bar at ambient; Class 2500 handles ~430 bar."}}]});
@@ -161,6 +162,8 @@ export default function FittingsFlangesGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/ss-pipe-fittings-flanges-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

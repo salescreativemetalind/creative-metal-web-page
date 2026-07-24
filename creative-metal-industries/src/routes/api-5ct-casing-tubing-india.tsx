@@ -4,6 +4,7 @@
  * "J55 K55 N80 L80 P110 casing supplier"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const PRODUCTS = [
   { grade: "API 5CT J55", type: "Casing", sizes: "4.5 to 13.375 inch", connection: "STC / LTC / BTC", apps: "Surface casing, conductor pipe", ht: "Normalized / As-rolled", stock: "Ready Stock" },
@@ -158,6 +159,8 @@ export default function Api5ctCasingTubingIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/api-5ct-casing-tubing-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

@@ -4,6 +4,7 @@
  * "ASTM A270 electropolished pipe", "pharmaceutical pipe supplier India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"316L EP Ra<=0.4um", composition:"16Cr-10Ni-2Mo, EP ID/OD", sizes:"OD 12.7-114.3mm, WT 1.65-2.77mm", wall:"ASTM A270 / ASME BPE", apps:"Pharma WFI/PW systems", ht:"Annealed + electropolished + passivated", stock:"Ready Stock" },
@@ -154,6 +155,8 @@ export default function SsElectropolishedPipeIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/ss-electropolished-pipe-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

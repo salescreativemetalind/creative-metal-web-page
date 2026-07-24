@@ -3,6 +3,7 @@
  * Target: Incoloy 800 pipe supplier India, Incoloy 800HT pipe
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const SCHEMA = '{"@context":"https://schema.org","@graph":[{"@type":"Product","name":"Incoloy 800/800H/800HT Pipe Supplier India","description":"Incoloy 800 pipe supplier India, Incoloy 800HT pipe. Incoloy 800/800H/800HT — ASTM B407 / B514. Ready stock at CMI Vadodara.","brand":{"@type":"Organization","name":"Creative Metal Industries"},"manufacturer":{"@type":"Organization","name":"Creative Metal Industries"},"offers":{"@type":"AggregateOffer","priceCurrency":"INR","lowPrice":"200","highPrice":"25000","offerCount":"500+","availability":"https://schema.org/InStock"},"url":"https://www.creativemetalind.com/incoloy-800-pipe-supplier-india"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Incoloy 800/800H/800HT Pipe Supplier India","item":"https://www.creativemetalind.com/incoloy-800-pipe-supplier-india"}]}]}';
 
@@ -85,7 +86,9 @@ export default function Incoloy800PipeSupplierIndia() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
-    </main>
+    
+        <RelatedPages currentPath="/incoloy-800-pipe-supplier-india" />
+      </main>
 
     <footer style={{ background: "#111827", color: "#9ca3af", padding: "2rem 1.5rem", "text-align": "center", "font-size": "0.85rem" }}>
       <p>© 2026 Creative Metal Industries, Vadodara. All rights reserved.</p>

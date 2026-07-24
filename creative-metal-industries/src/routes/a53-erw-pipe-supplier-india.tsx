@@ -4,6 +4,7 @@
  * "ERW steel pipe India", "A53 pipe structural water fire"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"ASTM A53 Type E Gr.B", composition:"C-Mn (ERW)", sizes:"1/2\" to 26 inch", schedule:"SCH 40", apps:"Structural, water, fire protection", ht:"As-welded / Normalised", stock:"Ready Stock" },
@@ -163,6 +164,8 @@ export default function A53ErwPipeSupplierIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/a53-erw-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

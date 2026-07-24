@@ -4,6 +4,7 @@
  * "N06022 nickel alloy pipe India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "Hastelloy C22 Seamless (B622)", composition: "56Ni-22Cr-13Mo-3W-3Fe", sizes: "1/2\" to 8\" NB", schedule: "SCH 10S–80S", apps: "Chemical reactors, FGD scrubbers, pharma", ht: "Solution Annealed 1120°C", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function HasteloyC22PipeSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/hastelloy-c22-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

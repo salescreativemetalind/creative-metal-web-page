@@ -3,6 +3,7 @@
  * Target: "3000 lb vs 6000 lb forged fittings"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
@@ -124,6 +125,8 @@ export default function 3000Vs6000LbFittings() {
             <a href="/#contact" style={{ background: "#fff", color: "#E8821A", padding: "0.7rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>Send Enquiry →</a>
           </div>
         </div>
+      
+        <RelatedPages currentPath="/blog/3000-vs-6000-lb-fittings" />
       </main>
     </>
   );

@@ -4,6 +4,7 @@
  * "stainless steel 410 seamless pipe India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "SS 410 (TP410)", composition: "13Cr (Martensitic)", sizes: "1/2\" to 8\"", schedule: "SCH 40–80", apps: "Valve stems, pump shafts, fasteners", ht: "Annealed / Hardened & Tempered", stock: "Ready Stock" },
@@ -162,6 +163,8 @@ export default function Ss410PipeSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/ss-410-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

@@ -4,6 +4,7 @@
  * "duplex stainless steel 2205 plate India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "Duplex 2205 (S31803)", composition: "22Cr-5Ni-3Mo-0.14N", sizes: "3mm to 60mm", schedule: "Width up to 2500mm", apps: "Chemical tanks, heat exchangers, pressure vessels", ht: "Solution Annealed 1020-1100°C", stock: "Ready Stock" },
@@ -162,6 +163,8 @@ export default function Duplex2205PlateSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/duplex-2205-plate-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

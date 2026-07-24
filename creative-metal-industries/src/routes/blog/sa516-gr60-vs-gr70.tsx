@@ -3,6 +3,7 @@
  * Target: "SA 516 Gr 60 vs Gr 70 plate difference"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
@@ -124,6 +125,8 @@ export default function Sa516Gr60VsGr70() {
             <a href="/#contact" style={{ background: "#fff", color: "#E8821A", padding: "0.7rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>Send Enquiry →</a>
           </div>
         </div>
+      
+        <RelatedPages currentPath="/blog/sa516-gr60-vs-gr70" />
       </main>
     </>
   );

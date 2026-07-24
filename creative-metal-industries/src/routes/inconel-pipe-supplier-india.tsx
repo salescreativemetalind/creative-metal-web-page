@@ -4,6 +4,7 @@
  * "Inconel 600 pipe India", "nickel alloy pipe supplier India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"Inconel 600", uns:"N06600", spec:"ASTM B167 / B829", composition:"72Ni-15Cr-8Fe", sizes:"1/2\" to 12\"", apps:"Furnace components, chemical processing, nuclear", stock:"Ready Stock" },
@@ -169,6 +170,8 @@ export default function InconelPipeSupplierIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/inconel-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

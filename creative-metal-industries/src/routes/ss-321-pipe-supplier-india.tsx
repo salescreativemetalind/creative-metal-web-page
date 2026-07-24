@@ -4,6 +4,7 @@
  * "stainless steel 321 seamless pipe supplier India stabilized"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "SS 321 (TP321)", composition: "18Cr-10Ni-Ti", sizes: "1/2\" to 16\"", schedule: "SCH 10S–160", apps: "Exhaust manifolds, bellows, expansion joints, refinery piping", ht: "Solution Annealed 1010-1120°C", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function Ss321PipeSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/ss-321-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

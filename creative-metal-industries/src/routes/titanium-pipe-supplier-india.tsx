@@ -3,6 +3,7 @@
  * Target: titanium pipe supplier India, titanium Grade 2 pipe
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const SCHEMA = '{"@context":"https://schema.org","@graph":[{"@type":"Product","name":"Titanium Pipe Supplier India","description":"titanium pipe supplier India, titanium Grade 2 pipe. Titanium Gr.1, Gr.2, Gr.5 — ASTM B861 / B862 / B337. Ready stock at CMI Vadodara.","brand":{"@type":"Organization","name":"Creative Metal Industries"},"manufacturer":{"@type":"Organization","name":"Creative Metal Industries"},"offers":{"@type":"AggregateOffer","priceCurrency":"INR","lowPrice":"200","highPrice":"25000","offerCount":"500+","availability":"https://schema.org/InStock"},"url":"https://www.creativemetalind.com/titanium-pipe-supplier-india"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Titanium Pipe Supplier India","item":"https://www.creativemetalind.com/titanium-pipe-supplier-india"}]}]}';
 
@@ -85,7 +86,9 @@ export default function TitaniumPipeSupplierIndia() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
-    </main>
+    
+        <RelatedPages currentPath="/titanium-pipe-supplier-india" />
+      </main>
 
     <footer style={{ background: "#111827", color: "#9ca3af", padding: "2rem 1.5rem", "text-align": "center", "font-size": "0.85rem" }}>
       <p>© 2026 Creative Metal Industries, Vadodara. All rights reserved.</p>

@@ -3,6 +3,7 @@
  * Target: "how to select pipe fittings", "pipe fittings for refinery", "buttweld vs forged fittings"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"How to Select Pipe Fittings for Refinery and Process Piping","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-20","image":"https://www.creativemetalind.com/og-image.jpg","url":"https://www.creativemetalind.com/blog/pipe-fittings-selection-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between buttweld and forged fittings?","acceptedAnswer":{"@type":"Answer","text":"Buttweld fittings (ASME B16.9) are formed from pipe/plate and welded to the pipe — used for large bore (2\" and above) high-pressure applications. Forged fittings (ASME B16.11) are machined from forged bar/billet with socket-weld or threaded ends — used for small bore (up to 2\") connections. Buttweld gives full-penetration joints with 100% radiography capability; forged fittings are quicker to install but limited to smaller sizes."}},{"@type":"Question","name":"When should I use threaded fittings vs socket-weld fittings?","acceptedAnswer":{"@type":"Answer","text":"Use threaded (NPT/BSP) fittings for: non-critical utility services, instrument connections, temporary installations, or where disassembly is needed. Use socket-weld fittings for: process piping up to 2\" where leak-tight permanent joints are needed but radiography is not required. Socket-weld is stronger than threaded and suitable for higher pressures, but threaded allows easier maintenance."}},{"@type":"Question","name":"Which pressure class should I select for refinery pipe fittings?","acceptedAnswer":{"@type":"Answer","text":"For forged fittings: Class 3000 handles most refinery applications up to ASME 300# flange ratings; Class 6000 is for high-pressure services (above 300# or where extra wall thickness is needed). Class 9000 exists but is rare. For buttweld fittings: match the schedule of the connecting pipe (Sch 40, Sch 80, Sch 160, XXS). The fitting schedule must equal or exceed the pipe schedule."}}]});
@@ -155,6 +156,8 @@ export default function PipeFittingsSelectionGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/pipe-fittings-selection-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

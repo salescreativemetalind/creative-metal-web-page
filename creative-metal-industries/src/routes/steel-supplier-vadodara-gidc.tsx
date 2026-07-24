@@ -4,6 +4,7 @@
  * "pipe fittings Makarpura GIDC", "steel Vadodara GIDC"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const PRODUCTS = [
   { category: "Stainless Steel Pipes", grades: "SS 304, 316L, 321, 310S, 904L, 202", sizes: "1/2\" to 24\"", type: "Seamless & Welded", stock: "Ready Stock" },
@@ -152,6 +153,8 @@ export default function SteelSupplierVadodaraGIDC() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} {"\u2192"}</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/steel-supplier-vadodara-gidc" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

@@ -4,6 +4,7 @@
  * "ASTM A182 flanges Vadodara", "stainless steel flanges supplier"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"F304/F304L", spec:"ASTM A182", class:"150–2500", sizes:"1/2\" to 60\"", apps:"General chemical, food, dairy", stock:"Ready Stock" },
@@ -188,6 +189,8 @@ export default function SsFlangesSupplierVadodara() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/ss-flanges-supplier-vadodara" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

@@ -2,6 +2,7 @@
 // Keywords: nickel 201 pipe supplier india, nickel 201 seamless pipe, UNS N02201 pipe, ASTM B161 nickel pipe, nickel 201 tube supplier, low carbon nickel pipe india, nickel 201 pipe price india, caustic evaporator pipe supplier
 
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   {

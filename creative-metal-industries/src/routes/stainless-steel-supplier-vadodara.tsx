@@ -4,6 +4,7 @@
  */
 
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   {
@@ -366,6 +367,8 @@ export default function StainlessSteelSupplierVadodara() {
           </div>
         </section>
 
+      
+        <RelatedPages currentPath="/stainless-steel-supplier-vadodara" />
       </main>
 
       {/* ── Footer ── */}

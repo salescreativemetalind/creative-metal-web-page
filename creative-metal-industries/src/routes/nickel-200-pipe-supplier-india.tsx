@@ -2,6 +2,7 @@
 // Target Keywords: nickel 200 pipe supplier india, nickel 200 seamless pipe, nickel 200 tube supplier, UNS N02200 pipe, ASTM B161 nickel pipe, nickel 200 pipe price india, nickel 200 caustic soda pipe
 
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   {

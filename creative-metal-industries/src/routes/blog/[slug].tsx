@@ -1,6 +1,7 @@
 import { Title, Meta, Link } from "@solidjs/meta";
 import { useParams } from "@solidjs/router";
 import { PageLayout } from "../../components/Layout";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const ARTICLES: Record<string, {
   title: string; seoTitle: string; seoDesc: string; tag: string; date: string; readTime: string;
@@ -289,6 +290,10 @@ export default function BlogPost() {
           </div>
         </div>
       </section>
+
+      <div style="max-width:960px;margin:0 auto;padding:0 1.5rem 2rem">
+        <RelatedPages currentPath={`/blog/${params.slug}`} />
+      </div>
     </PageLayout>
   );
 }

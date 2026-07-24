@@ -3,6 +3,7 @@
  * Target: "Hastelloy C-276", "industrial raw material supplier Gujarat", "SS pipe fittings flanges supplier India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Hastelloy C-276 — The Ultimate Nickel Alloy for Extreme Environments","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/hastelloy.webp","url":"https://www.creativemetalind.com/blog/hastelloy-c276-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Hastelloy C-276 used for?","acceptedAnswer":{"@type":"Answer","text":"Hastelloy C-276 (UNS N10276) is used in environments that destroy virtually all other alloys — concentrated hydrochloric acid, sulphuric acid, wet chlorine gas, ferric chloride solutions, and mixed acid environments. Key industries: chemical processing (reactors, heat exchangers, piping), pharmaceutical manufacturing, FGD (flue gas desulphurisation), waste incineration, pulp & paper bleaching, and nuclear fuel reprocessing."}},{"@type":"Question","name":"What makes Hastelloy C-276 special?","acceptedAnswer":{"@type":"Answer","text":"C-276 uniquely resists BOTH oxidising AND reducing environments — most alloys can handle one or the other but not both. It contains 16% Cr (oxidation resistance) + 16% Mo + 4% W (reducing acid resistance) in a nickel matrix. It also resists localised corrosion (pitting, crevice) and chloride stress corrosion cracking. No other single alloy offers this breadth of corrosion resistance."}},{"@type":"Question","name":"How much does Hastelloy C-276 cost in India?","acceptedAnswer":{"@type":"Answer","text":"Hastelloy C-276 is a premium exotic alloy — typical pricing ranges from ₹4,000-7,000/kg depending on product form (pipe, plate, bar, fitting), size, and quantity. This is 10-15× the cost of SS 316L but justified where no other material survives. Creative Metal Industries sources from Haynes International and Special Metals at competitive import pricing."}}]});
@@ -140,6 +141,8 @@ export default function HasteloyC276Guide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/hastelloy-c276-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

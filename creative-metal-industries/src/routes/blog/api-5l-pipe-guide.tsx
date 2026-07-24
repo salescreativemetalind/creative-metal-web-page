@@ -3,6 +3,7 @@
  * Target: "API 5L pipe", "metal importer exporter India", "stainless steel pipe manufacturer India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"API 5L Pipe — The Global Standard for Oil and Gas Transport","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/line_pipes.webp","url":"https://www.creativemetalind.com/blog/api-5l-pipe-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is API 5L pipe used for?","acceptedAnswer":{"@type":"Answer","text":"API 5L pipes are used for transporting oil, natural gas, and water in pipeline systems. This includes: onshore cross-country oil/gas pipelines, offshore subsea pipelines, gas gathering and distribution networks, water transmission mains, refinery and plant interconnecting pipelines, and city gas distribution systems. API 5L is THE global standard for line pipe — accepted by every major oil company worldwide."}},{"@type":"Question","name":"What is the difference between PSL1 and PSL2?","acceptedAnswer":{"@type":"Answer","text":"PSL1 (Product Specification Level 1) is the standard quality level with basic testing requirements. PSL2 is the enhanced quality level requiring: mandatory Charpy impact testing at specified temperature, tighter chemical limits (max Carbon Equivalent), stricter dimensional tolerances, mandatory NDE of weld seam, and individual pipe traceability. For sour service (H₂S), offshore, or critical pipelines — PSL2 is always specified."}},{"@type":"Question","name":"What do API 5L grades X42, X52, X65 mean?","acceptedAnswer":{"@type":"Answer","text":"The number after 'X' represents the minimum yield strength in ksi (thousand pounds per square inch). X42 = 42 ksi (290 MPa), X52 = 52 ksi (360 MPa), X65 = 65 ksi (450 MPa), X70 = 70 ksi (485 MPa), X80 = 80 ksi (555 MPa). Higher grade = thinner wall for same pressure rating = lighter, cheaper pipeline. But higher grades are harder to weld and less ductile."}}]});
@@ -127,6 +128,8 @@ export default function Api5LGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/api-5l-pipe-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

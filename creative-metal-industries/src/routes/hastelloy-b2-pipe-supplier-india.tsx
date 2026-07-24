@@ -4,6 +4,7 @@
  * "N10665 nickel alloy pipe India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "Hastelloy B2 Seamless (B622)", composition: "69Ni-28Mo-2Fe", sizes: "1/2\" to 6\" NB", schedule: "SCH 10S–80S", apps: "HCl processing, H2SO4 service, reducing acid reactors", ht: "Solution Annealed 1065°C", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function HasteloyB2PipeSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/hastelloy-b2-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

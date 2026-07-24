@@ -4,6 +4,7 @@
  * "1.25Cr-0.5Mo alloy pipe India", "P11 boiler pipe supplier"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"ASTM A335 P11", composition:"1.25Cr-0.5Mo", sizes:"1/2\" to 24 inch", schedule:"SCH 40–XXS", apps:"Boiler headers, economiser tubes", ht:"Normalised + Tempered", stock:"Ready Stock" },
@@ -163,6 +164,8 @@ export default function P11AlloySteelPipeSupplier() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/p11-alloy-steel-pipe-supplier" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

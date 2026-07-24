@@ -4,6 +4,7 @@
  * "ASTM A213 U-bend tube", "heat exchanger tube bundle supplier India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"304L U-Bend", composition:"18Cr-8Ni-0.03C max", sizes:"OD 12.7-38.1mm, WT 0.89-2.77mm", wall:"Min 2D bend radius", apps:"Feedwater heaters, condensers", ht:"Solution annealed 1040C", stock:"Ready Stock" },
@@ -153,6 +154,8 @@ export default function SsUBendTubeSupplierIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/ss-u-bend-tube-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

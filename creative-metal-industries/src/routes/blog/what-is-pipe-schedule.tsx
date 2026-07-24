@@ -3,6 +3,7 @@
  * Target: "what is pipe schedule meaning SCH 40 80 160"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
@@ -122,6 +123,8 @@ export default function WhatIsPipeSchedule() {
             <a href="/#contact" style={{ background: "#fff", color: "#E8821A", padding: "0.7rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>Send Enquiry →</a>
           </div>
         </div>
+      
+        <RelatedPages currentPath="/blog/what-is-pipe-schedule" />
       </main>
     </>
   );

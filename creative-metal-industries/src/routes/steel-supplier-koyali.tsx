@@ -1,5 +1,6 @@
 import { Title, Meta, Link } from "@solidjs/meta";
 import { createSignal } from "solid-js";
+import { RelatedPages } from "../components/RelatedPages";
 
 const PRODUCTS = [
   { category: "Carbon Steel Pipes", grades: "ASTM A106 Gr.B, A333 Gr.6, API 5L X42/X52/X65", sizes: "1/2\" to 48\" NB", type: "Seamless & Welded", stock: "✅ Immediate" },

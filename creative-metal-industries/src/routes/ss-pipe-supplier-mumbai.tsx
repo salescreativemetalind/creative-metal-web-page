@@ -3,6 +3,7 @@
  * Target: "SS pipe supplier Mumbai", "stainless steel pipe Mumbai"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const PRODUCTS = [
   { category: "Stainless Steel Pipes", grades: "SS 304, 316L, 321, 310, 904L", sizes: "1/2\" to 24\"", stock: "Ready Stock" },
@@ -111,7 +112,9 @@ export default function SSPipeSupplierMumbai() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
-    </main>
+    
+        <RelatedPages currentPath="/ss-pipe-supplier-mumbai" />
+      </main>
 
     <footer style={{ background: "#111827", color: "#9ca3af", padding: "2rem 1.5rem", "text-align": "center", "font-size": "0.85rem" }}>
       <p>© 2026 Creative Metal Industries, Vadodara. All rights reserved.</p>

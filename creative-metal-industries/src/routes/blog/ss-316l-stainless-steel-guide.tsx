@@ -3,6 +3,7 @@
  * Standalone page for SS 316L — separate from the "304 vs 316L" comparison
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"SS 316L Stainless Steel — Complete Guide to Properties, Applications & Sourcing","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/ss_seamless_pipe.webp","url":"https://www.creativemetalind.com/blog/ss-316l-stainless-steel-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What makes SS 316L different from SS 304?","acceptedAnswer":{"@type":"Answer","text":"SS 316L contains 2-3% Molybdenum which gives it superior resistance to chloride pitting and crevice corrosion. It also has lower carbon (0.03% max) preventing sensitisation during welding. 316L is the standard grade for marine, pharmaceutical, and chemical processing where chlorides are present."}},{"@type":"Question","name":"Where is SS 316L used?","acceptedAnswer":{"@type":"Answer","text":"SS 316L is used in pharmaceutical equipment (reactors, piping, vessels), marine hardware, coastal architecture, chemical processing (organic acids, chloride solutions), pulp & paper mills, food processing (high-salt environments), medical implants, and offshore oil & gas platforms."}},{"@type":"Question","name":"Can SS 316L withstand seawater?","acceptedAnswer":{"@type":"Answer","text":"SS 316L performs significantly better than 304 in seawater but is not immune to pitting in stagnant or warm seawater. For full seawater immersion or temperatures above 25°C, Duplex 2205 or Super Duplex 2507 is recommended. 316L works well for splash zones and intermittent seawater contact."}}]});
@@ -148,6 +149,8 @@ export default function SS316LGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/ss-316l-stainless-steel-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

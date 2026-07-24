@@ -4,6 +4,7 @@
  * "ASTM A213 TP347H tube supplier India boiler"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "SS 347H (TP347H)", composition: "18Cr-11Ni-Nb (C: 0.04-0.10%)", sizes: "OD 12.7–101.6mm", schedule: "BWG 12-18 / Min Wall", apps: "Superheater tubes, reformer tubes, ethylene cracker", ht: "Solution Annealed 1040-1120°C", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function Ss347hTubeSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/ss-347h-tube-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

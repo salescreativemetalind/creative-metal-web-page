@@ -4,6 +4,7 @@
  * "ASTM A213 TP321H tube supplier India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "SS 321H (TP321H)", composition: "18Cr-10Ni-Ti (C: 0.04-0.10%)", sizes: "OD 12.7–114.3mm", schedule: "BWG 12-20 / Min Wall", apps: "Superheater tubes, boiler tubes, HRSG", ht: "Solution Annealed 1040-1120°C", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function Ss321hTubeSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/ss-321h-tube-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

@@ -4,6 +4,7 @@
  * "NE India steel", "BCPL Assam piping"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const PRODUCTS = [
   { category: "API Line Pipes", grades: "API 5L Gr.B to X65, PSL1 & PSL2, NACE MR0175", sizes: "2\" to 48\"", type: "Seamless, ERW, LSAW", stock: "Ready Stock" },
@@ -152,6 +153,8 @@ export default function SteelSupplierNumaligarh() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} {"\u2192"}</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/steel-supplier-numaligarh" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

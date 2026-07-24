@@ -4,6 +4,7 @@
  * "N08825 nickel alloy pipe India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "Incoloy 825 Seamless Pipe (B423)", composition: "42Ni-21Cr-3Mo-2Cu-Ti", sizes: "1/2\" to 10\" NB", schedule: "SCH 10S–80S", apps: "Sulphuric acid, oil & gas sour service", ht: "Solution Annealed 940°C", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function Incoloy825PipeSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/incoloy-825-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

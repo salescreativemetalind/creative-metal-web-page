@@ -4,6 +4,7 @@
  * "UNS R56400 titanium pipe India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "Ti Gr.5 Seamless Pipe (B861)", composition: "Ti-6Al-4V", sizes: "1/2\" to 6\" NB", schedule: "SCH 10S–80S", apps: "Aerospace/defense/marine", ht: "Annealed 700-790°C", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function TitaniumGrade5PipeIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/titanium-grade-5-pipe-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

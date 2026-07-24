@@ -4,6 +4,7 @@
  * "R50400 titanium pipe India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "Ti Gr.2 Seamless (B861)", composition: "99.2% Ti (UNS R50400)", sizes: "1/2\" to 10\" NB", schedule: "SCH 10S–80S", apps: "Chemical processing, desalination, chlor-alkali", ht: "Annealed 650-760°C", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function TitaniumGrade2PipeIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/titanium-grade-2-pipe-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

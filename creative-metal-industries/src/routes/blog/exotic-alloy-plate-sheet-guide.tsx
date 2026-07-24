@@ -5,6 +5,7 @@
  * Hastelloy sheet/pipe/tube/bar
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Exotic Alloy Sheet, Plate, Pipe & Bar — Duplex, Titanium, Monel, Inconel, Hastelloy","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-22","image":"https://www.creativemetalind.com/img/super-duplex-steel.webp","url":"https://www.creativemetalind.com/blog/exotic-alloy-plate-sheet-guide","description":"Guide to exotic grade material — duplex and super duplex plate & sheet, titanium, Monel, Inconel and Hastelloy sheets, pipes, tubes and bars. Grades, applications and supplier in Vadodara."});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are exotic grade materials?","acceptedAnswer":{"@type":"Answer","text":"Exotic grade materials are high-performance alloys engineered for extreme corrosion, temperature or strength requirements beyond standard stainless steel. They include duplex and super duplex stainless steel, titanium, nickel alloys (Monel, Inconel, Hastelloy) and Incoloy. Creative Metal Industries supplies these as sheet, plate, pipe, tube and bar for chemical, oil & gas, marine and aerospace applications."}},{"@type":"Question","name":"What is the difference between duplex and super duplex plate?","acceptedAnswer":{"@type":"Answer","text":"Duplex 2205 (UNS S31803) has a PREN around 35 and suits moderately corrosive chloride environments. Super duplex 2507 (UNS S32750) has a PREN above 40, required for seawater and severe chloride service such as offshore and subsea. Both are dual-phase alloys with roughly twice the strength of austenitic stainless steel, available as plate and sheet."}},{"@type":"Question","name":"Do you supply titanium, Monel, Inconel and Hastelloy in all forms?","acceptedAnswer":{"@type":"Answer","text":"Yes. We stock titanium (Grade 2, Grade 5), Monel 400, Inconel 600/625/718 and Hastelloy C-276/C-22 as sheets, plates, pipes, tubes and bars to the relevant ASTM B-series standards. These nickel and titanium alloys are supplied with full mill test certificates for chemical, marine, power and aerospace projects."}}]});
@@ -118,6 +119,8 @@ export default function ExoticAlloyPlateSheetGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/exotic-alloy-plate-sheet-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

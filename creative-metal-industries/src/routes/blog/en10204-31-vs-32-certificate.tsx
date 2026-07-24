@@ -3,6 +3,7 @@
  * Target: "EN 10204 3.1 vs 3.2 MTC certificate"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
@@ -124,6 +125,8 @@ export default function En1020431Vs32Certificate() {
             <a href="/#contact" style={{ background: "#fff", color: "#E8821A", padding: "0.7rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>Send Enquiry →</a>
           </div>
         </div>
+      
+        <RelatedPages currentPath="/blog/en10204-31-vs-32-certificate" />
       </main>
     </>
   );

@@ -4,6 +4,7 @@
  * "ASTM A269 hydraulic tube", "316L hydraulic tubing India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"304L Hydraulic", composition:"18Cr-8Ni-0.03C max", sizes:"OD 6-42mm, WT 1.0-4.0mm", wall:"SCH 40S-160", apps:"General hydraulic, instrumentation", ht:"Bright annealed", stock:"Ready Stock" },
@@ -153,6 +154,8 @@ export default function SsHydraulicTubeSupplierIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/ss-hydraulic-tube-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

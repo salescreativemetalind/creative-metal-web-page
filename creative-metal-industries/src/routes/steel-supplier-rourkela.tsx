@@ -1,4 +1,5 @@
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 export default function SteelSupplierRourkela() {
   const defined = {

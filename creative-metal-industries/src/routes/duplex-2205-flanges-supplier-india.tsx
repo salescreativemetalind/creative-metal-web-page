@@ -4,6 +4,7 @@
  * "ASTM A182 F51 flange India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const PRODUCTS = [
   { type: "Weld Neck Flange (WNRF)", standard: "ASME B16.5", sizes: "1/2\" to 24\"", class: "150–2500", material: "ASTM A182 F51", stock: "Ready Stock" },
@@ -167,6 +168,8 @@ export default function Duplex2205FlangesSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/duplex-2205-flanges-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

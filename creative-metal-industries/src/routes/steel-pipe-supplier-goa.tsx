@@ -1,4 +1,5 @@
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const PRODUCTS = [
   { name: "Stainless Steel Pipes", slug: "ss-pipes", desc: "Premium SS 304, 316, 316L seamless and welded pipes for industrial and pharma applications in Goa." },

@@ -4,6 +4,7 @@
  * "ASTM A554 rectangular pipe", "SS 304 rectangular pipe India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"304 Rectangular", composition:"18Cr-8Ni", sizes:"20x10 to 200x100mm, WT 0.5-6mm", wall:"ASTM A554 / A312", apps:"Architecture, structural frames", ht:"Solution annealed + pickled", stock:"Ready Stock" },
@@ -153,6 +154,8 @@ export default function SsRectangularPipeSupplierIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/ss-rectangular-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

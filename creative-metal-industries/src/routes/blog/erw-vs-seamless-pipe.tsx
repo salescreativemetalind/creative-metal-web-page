@@ -4,6 +4,7 @@
  * Standalone blog page with comprehensive 2000+ word content
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
@@ -242,6 +243,8 @@ export default function ErwVsSeamlessPipe() {
           ))}
         </div>
         </div>{/* end blog-article-content */}
+      
+        <RelatedPages currentPath="/blog/erw-vs-seamless-pipe" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

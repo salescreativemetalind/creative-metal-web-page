@@ -4,6 +4,7 @@
  * "super duplex seamless pipe India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "Super Duplex 2507 (S32750)", composition: "25Cr-7Ni-4Mo-0.27N", sizes: "1/2\" to 12\"", schedule: "SCH 10S–160", apps: "Offshore oil & gas, subsea pipelines, desalination", ht: "Solution Annealed 1025-1125°C + WQ", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function SuperDuplex2507PipeSupplier() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/super-duplex-2507-pipe-supplier" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

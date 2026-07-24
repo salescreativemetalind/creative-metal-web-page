@@ -3,6 +3,7 @@
  * Target: "SS pipe supplier Surat", "stainless steel pipe supplier Surat"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const PRODUCTS = [
   { category: "Stainless Steel Pipes", grades: "SS 304, 316L, 321, 310, 904L, 202", sizes: "1/2\" to 24\"", type: "Seamless & Welded", stock: "Ready Stock" },
@@ -116,6 +117,8 @@ export default function SSPipeSupplierSurat() {
             <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
           </div>
         </div>
+      
+        <RelatedPages currentPath="/ss-pipe-supplier-surat" />
       </main>
 
       <footer style={{ background: "#111827", color: "#9ca3af", padding: "2rem 1.5rem", "text-align": "center", "font-size": "0.85rem" }}>

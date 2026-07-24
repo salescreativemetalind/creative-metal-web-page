@@ -4,6 +4,7 @@
  * SS310 plate/sheet, SS410 plate/sheet, SS317 sheet, 2B finish, No.4 finish, sheet packet
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Stainless Steel Sheet & Plate — Grades, Finishes & Sizes Guide","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-22","image":"https://www.creativemetalind.com/img/SS-Sheets.webp","url":"https://www.creativemetalind.com/blog/ss-sheet-plate-guide","description":"Complete guide to stainless steel sheet and plate — SS 304, 304L, 316, 316L, 310, 317, 410 grades, 2B and No.4 finishes, sizes and supplier in Vadodara."});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between SS sheet and SS plate?","acceptedAnswer":{"@type":"Answer","text":"The difference is thickness. Stainless steel sheet is generally up to about 6mm thick and is supplied cold-rolled with finishes like 2B, BA or No.4. Stainless steel plate is above 6mm (5mm to 150mm) and is hot-rolled, used for heavier fabrication. Creative Metal Industries stocks both SS sheet and SS plate in 304, 304L, 316, 316L, 310, 317 and 410 grades."}},{"@type":"Question","name":"What is 2B finish and No.4 finish on stainless steel?","acceptedAnswer":{"@type":"Answer","text":"2B is a smooth, mildly reflective cold-rolled mill finish — the standard for most industrial sheet. No.4 is a brushed satin finish produced by polishing with abrasive belts, used for architectural, kitchen and decorative applications. We stock SS sheet in 2B, No.4 and mirror (BA) finishes, supplied in protective sheet packets."}},{"@type":"Question","name":"Which SS plate grade should I choose — 304, 316, 310, 410 or 317?","acceptedAnswer":{"@type":"Answer","text":"SS 304/304L suits general and food-grade use. SS 316/316L adds molybdenum for chloride and marine resistance. SS 310 is for high-temperature service up to ~1100°C. SS 410 is a hardenable martensitic grade for wear and moderate corrosion. SS 317 offers higher molybdenum for severe chemical service. We help match the grade to your application."}}]});
@@ -108,6 +109,8 @@ export default function SsSheetPlateGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/ss-sheet-plate-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

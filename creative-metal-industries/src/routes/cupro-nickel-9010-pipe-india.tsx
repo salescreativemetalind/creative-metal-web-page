@@ -1,4 +1,5 @@
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   {
@@ -634,6 +635,8 @@ export default function CuproNickel9010PipeIndia() {
             ))}
           </div>
         </section>
+      
+        <RelatedPages currentPath="/cupro-nickel-9010-pipe-india" />
       </main>
 
       {/* FOOTER */}

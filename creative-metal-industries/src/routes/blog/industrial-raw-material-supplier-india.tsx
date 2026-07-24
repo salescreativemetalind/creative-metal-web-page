@@ -3,6 +3,7 @@
  * Target: "industrial raw material supplier Gujarat", "engineering material supplier India", "metal importer exporter India", "creative metal industries vadodara"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"The Critical Role of Industrial Raw Material Suppliers in India's Growth Story","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/og-image.jpg","url":"https://www.creativemetalind.com/blog/industrial-raw-material-supplier-india"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does an industrial raw material supplier provide?","acceptedAnswer":{"@type":"Answer","text":"An industrial raw material supplier provides base metals and semi-finished products to manufacturing, construction, and process industries. This includes: stainless steel pipes, carbon steel plates, alloy steel for power plants, structural steel (angles, channels, beams, TMT bars), exotic alloys (Inconel, Hastelloy, Titanium), and non-ferrous metals (aluminium, copper, brass). They maintain stock, provide documentation (MTC, IBR), and ensure timely delivery to keep project timelines on track."}},{"@type":"Question","name":"Why is choosing the right raw material supplier important?","acceptedAnswer":{"@type":"Answer","text":"The wrong supplier causes: project delays (stock-outs), quality failures (incorrect grade/no documentation), cost overruns (middlemen markups), and safety incidents (substandard material in critical service). A reliable engineering material supplier provides: mill-direct stock with full traceability, correct specifications verified by PMI, complete documentation chain, and on-time delivery — preventing all these risks."}},{"@type":"Question","name":"Does Creative Metal Industries import and export metals?","acceptedAnswer":{"@type":"Answer","text":"Yes — Creative Metal Industries is an active metal importer and exporter. We import: specialty grades from Sandvik (Sweden), Outokumpu (Finland), POSCO (Korea), Haynes (USA), VSMPO (Russia) not available domestically. We export to: UAE, Oman, Saudi Arabia, Kuwait, Bahrain, UK, USA, and 50+ countries — with complete export documentation, packing, and freight coordination."}}]});
@@ -169,6 +170,8 @@ export default function IndustrialRawMaterialGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/industrial-raw-material-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

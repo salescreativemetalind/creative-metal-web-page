@@ -4,6 +4,7 @@
  * "stainless steel 430 sheet India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "SS 430 (2B Finish)", composition: "17Cr (Ferritic)", sizes: "0.3mm to 6mm", schedule: "Width 1000/1250/1500mm", apps: "Kitchen sinks, appliance panels", ht: "Annealed", stock: "Ready Stock" },
@@ -162,6 +163,8 @@ export default function Ss430SheetSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/ss-430-sheet-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

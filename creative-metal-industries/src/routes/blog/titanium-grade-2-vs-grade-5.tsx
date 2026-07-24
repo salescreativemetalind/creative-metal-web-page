@@ -3,6 +3,7 @@
  * Target: "titanium grade 2", "grade 5 India", "metal importer exporter India", "industrial metal supplier India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Titanium Grade 2 vs Grade 5 — Which One Should You Choose?","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/titanium.webp","url":"https://www.creativemetalind.com/blog/titanium-grade-2-vs-grade-5"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between Titanium Grade 2 and Grade 5?","acceptedAnswer":{"@type":"Answer","text":"Grade 2 is commercially pure titanium (99.2% Ti) — maximum corrosion resistance, excellent formability, moderate strength (345 MPa yield). Grade 5 (Ti-6Al-4V) is an alpha-beta alloy with 6% Aluminium and 4% Vanadium — aerospace-level strength (830 MPa yield), heat-treatable, but less corrosion resistant than Grade 2 in some environments and harder to fabricate."}},{"@type":"Question","name":"When should I use Grade 2 vs Grade 5?","acceptedAnswer":{"@type":"Answer","text":"Use Grade 2 when: corrosion resistance is the primary requirement (chemical processing, desalination, marine), weight saving over steel matters, and the loads are moderate. Use Grade 5 when: high strength-to-weight ratio is critical (aerospace, racing, medical implants), operating temperatures reach 300-400°C, and you need fatigue resistance under cyclic loading."}},{"@type":"Question","name":"How much does titanium cost in India?","acceptedAnswer":{"@type":"Answer","text":"Titanium Grade 2 typically costs ₹3,000-5,000/kg in India depending on product form (plate, pipe, bar). Grade 5 (Ti-6Al-4V) costs ₹5,000-8,000/kg due to more complex alloying and processing. Both are 6-10× the cost of stainless steel 316L but offer 40% weight saving and superior corrosion resistance. Creative Metal Industries imports from VSMPO (Russia), ATI (USA), and Timet."}}]});
@@ -194,6 +195,8 @@ export default function TitaniumGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/titanium-grade-2-vs-grade-5" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

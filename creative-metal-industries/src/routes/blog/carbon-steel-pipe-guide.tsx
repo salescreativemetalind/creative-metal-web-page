@@ -4,6 +4,7 @@
  * SA 516 Gr.70 plate, alloy plate, carbon steel fittings, carbon steel flange
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Carbon Steel Pipe, Plate, Fittings & Flanges — Complete Guide","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-22","image":"https://www.creativemetalind.com/img/cs_seamless_pipe.webp","url":"https://www.creativemetalind.com/blog/carbon-steel-pipe-guide","description":"Complete guide to carbon steel pipe (ASTM A106 Gr.B), carbon steel plate (SA 516 Gr.70), alloy plate, carbon steel fittings and flanges. Grades, standards and supplier in Vadodara."});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is ASTM A106 Gr.B carbon steel pipe?","acceptedAnswer":{"@type":"Answer","text":"ASTM A106 Grade B is a seamless carbon steel pipe specification for high-temperature service. It is the most widely used carbon pipe in refineries, power plants and petrochemical units because it handles steam, oil and gas at elevated temperatures. A106 Gr.B is supplied with IBR Form III-C certification for boiler and pressure-part applications by Creative Metal Industries, Vadodara."}},{"@type":"Question","name":"What is SA 516 Gr.70 plate used for?","acceptedAnswer":{"@type":"Answer","text":"SA 516 Grade 70 is a carbon steel pressure-vessel quality plate used for boilers, storage tanks, heat exchangers and pressure vessels operating at moderate and lower temperatures. Its good notch toughness makes it the standard plate for fabricated pressure equipment. NACE/HIC tested SA 516 Gr.70 is available for sour-service applications."}},{"@type":"Question","name":"What grades of carbon steel fittings and flanges do you supply?","acceptedAnswer":{"@type":"Answer","text":"We supply carbon steel buttweld fittings to ASTM A234 WPB, forged fittings and flanges to ASTM A105, and low-temperature flanges to A350 LF2. Alloy steel fittings (WP11, WP22, WP91) and flanges (F11, F22, F91) are also stocked. All carbon and alloy fittings and flanges carry MTC and IBR Form III-C where required."}}]});
@@ -114,6 +115,8 @@ export default function CarbonSteelPipeGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/carbon-steel-pipe-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

@@ -3,6 +3,7 @@
  * Target: "pipe schedule SCH 40 80 160 chart", "MS angle ISMC weight chart India", "steel stockist Vadodara"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Pipe Schedule SCH 40, 80, and 160 — Complete Weight and Thickness Chart Guide","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/ss_seamless_pipe.webp","url":"https://www.creativemetalind.com/blog/pipe-schedule-chart"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does pipe schedule mean?","acceptedAnswer":{"@type":"Answer","text":"Pipe schedule is a dimensionless number that defines the wall thickness of a pipe relative to its nominal size. The formula is: Schedule ≈ 1000 × (P/S), where P = internal pressure (psi) and S = allowable stress (psi). Higher schedule = thicker wall = higher pressure rating. SCH 40 is 'standard weight', SCH 80 is 'extra strong', SCH 160 and XXS are for extreme pressure service."}},{"@type":"Question","name":"What is the difference between SCH 40 and SCH 80 pipe?","acceptedAnswer":{"@type":"Answer","text":"For the same nominal pipe size, SCH 80 has a thicker wall than SCH 40 but the SAME outside diameter. Example: 2-inch pipe OD = 60.3mm always. SCH 40 wall = 3.91mm, SCH 80 wall = 5.54mm. This means SCH 80 has a smaller inside diameter (bore), higher pressure rating (~60% more than SCH 40), and weighs more per metre."}},{"@type":"Question","name":"How do I calculate pipe weight per metre?","acceptedAnswer":{"@type":"Answer","text":"Formula: Weight (kg/m) = (OD - WT) × WT × 0.02466 × density factor. For carbon steel (density 7.85): Weight = (OD - WT) × WT × 0.02466. For stainless steel (density 8.0): multiply by 1.02. Example: 2-inch SCH 40 CS pipe: (60.3 - 3.91) × 3.91 × 0.02466 = 5.44 kg/m."}}]});
@@ -150,6 +151,8 @@ export default function PipeScheduleChart() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/pipe-schedule-chart" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

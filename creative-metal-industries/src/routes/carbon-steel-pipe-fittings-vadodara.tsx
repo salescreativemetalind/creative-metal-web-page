@@ -4,6 +4,7 @@
  */
 
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const CS_PIPES = [
   { grade: "ERW Pipe (IS 1239)",       spec: "IS 1239 Part-1",         sizes: "15NB–150NB, Light/Medium/Heavy", makes: "APL Apollo, Tata, Surya" },
@@ -360,6 +361,8 @@ export default function CarbonSteelPipeFittingsVadodara() {
           </div>
         </section>
 
+      
+        <RelatedPages currentPath="/carbon-steel-pipe-fittings-vadodara" />
       </main>
 
       {/* ── Internal Links — Topic Cluster ── */}

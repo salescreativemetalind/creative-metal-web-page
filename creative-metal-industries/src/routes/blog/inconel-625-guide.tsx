@@ -3,6 +3,7 @@
  * Target: "Inconel 625", "engineering material supplier India", "steel stockist Vadodara"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Inconel 625 — High-Temperature and Corrosion-Resistant Solutions","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/Inconel.webp","url":"https://www.creativemetalind.com/blog/inconel-625-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Inconel 625 used for?","acceptedAnswer":{"@type":"Answer","text":"Inconel 625 (UNS N06625) is used where high-temperature strength AND corrosion resistance are both required — jet engine exhaust systems, gas turbine components, offshore oil & gas flowlines, chemical reactor vessels, marine propulsion, nuclear reactors, bellows and expansion joints. It maintains structural integrity from cryogenic temperatures up to 1000°C."}},{"@type":"Question","name":"What is the difference between Inconel 625 and Hastelloy C-276?","acceptedAnswer":{"@type":"Answer","text":"Inconel 625 is primarily designed for HIGH TEMPERATURE service (up to 1000°C) with good corrosion resistance. Hastelloy C-276 is designed for MAXIMUM CORROSION resistance (especially in reducing acids like HCl) but at lower temperatures (max ~500°C for sustained service). Choose 625 for heat + moderate corrosion; choose C-276 for extreme corrosion + moderate heat."}},{"@type":"Question","name":"Can Inconel 625 be welded?","acceptedAnswer":{"@type":"Answer","text":"Yes — Inconel 625 has excellent weldability, better than most nickel alloys. It is commonly used AS the filler metal (ERNiCrMo-3/ENiCrMo-3) for welding dissimilar metals, cladding, and overlay applications. For welding 625 to itself, use matching filler ERNiCrMo-3. No PWHT required. Minimal hot cracking tendency due to Niobium addition."}}]});
@@ -139,6 +140,8 @@ export default function Inconel625Guide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/inconel-625-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

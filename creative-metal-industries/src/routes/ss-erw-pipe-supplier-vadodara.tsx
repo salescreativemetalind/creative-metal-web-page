@@ -3,6 +3,7 @@
  * Target: SS ERW pipe supplier Vadodara, stainless steel ERW pipe Gujarat
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const SCHEMA = '{"@context":"https://schema.org","@graph":[{"@type":"Product","name":"SS ERW Pipe Supplier Vadodara","description":"SS ERW pipe supplier Vadodara, stainless steel ERW pipe Gujarat. Stainless Steel — ASTM A312 (ERW). Ready stock at CMI Vadodara.","brand":{"@type":"Organization","name":"Creative Metal Industries"},"manufacturer":{"@type":"Organization","name":"Creative Metal Industries"},"offers":{"@type":"AggregateOffer","priceCurrency":"INR","lowPrice":"200","highPrice":"25000","offerCount":"500+","availability":"https://schema.org/InStock"},"url":"https://www.creativemetalind.com/ss-erw-pipe-supplier-vadodara"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"SS ERW Pipe Supplier Vadodara","item":"https://www.creativemetalind.com/ss-erw-pipe-supplier-vadodara"}]}]}';
 
@@ -85,7 +86,9 @@ export default function SSErwPipeSupplierVadodara() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
-    </main>
+    
+        <RelatedPages currentPath="/ss-erw-pipe-supplier-vadodara" />
+      </main>
 
     <footer style={{ background: "#111827", color: "#9ca3af", padding: "2rem 1.5rem", "text-align": "center", "font-size": "0.85rem" }}>
       <p>© 2026 Creative Metal Industries, Vadodara. All rights reserved.</p>

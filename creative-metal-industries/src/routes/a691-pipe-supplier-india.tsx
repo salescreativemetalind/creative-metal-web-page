@@ -4,6 +4,7 @@
  * "large diameter high temp pipe India", "A691 power plant header pipe"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"A691 1CR (Gr.A387-12)", composition:"1Cr-0.5Mo", sizes:"16 inch to 60 inch", schedule:"Various WT", apps:"Power plant headers, crossover", ht:"N+T + PWHT (seam)", stock:"Available" },
@@ -164,6 +165,8 @@ export default function A691PipeSupplierIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/a691-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

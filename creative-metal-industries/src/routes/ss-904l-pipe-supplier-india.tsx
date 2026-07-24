@@ -4,6 +4,7 @@
  * "stainless steel 904L seamless pipe India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "SS 904L (TP904L)", composition: "20Cr-25Ni-4.5Mo-1.5Cu", sizes: "1/2\" to 12\"", schedule: "SCH 10S–80S", apps: "Sulphuric acid plants, phosphoric acid", ht: "Solution Annealed 1100-1150°C", stock: "Ready Stock" },
@@ -162,6 +163,8 @@ export default function Ss904lPipeSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/ss-904l-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

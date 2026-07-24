@@ -4,6 +4,7 @@
  * "N05500 nickel copper alloy India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "Monel K500 Round Bar (B865)", composition: "65Ni-30Cu-2.7Al-0.6Ti", sizes: "6mm to 300mm dia", schedule: "Hot Rolled / Forged", apps: "Propeller shafts, pump shafts, valve stems", ht: "Age Hardened (595°C)", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function MonelK500SupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/monel-k500-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

@@ -3,6 +3,7 @@
  * Target: "duplex 2205", "industrial metal supplier India", "SS pipe supplier Vadodara"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Duplex 2205 — Why This Super Steel Outperforms Standard Grades","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/duplex-steel.webp","url":"https://www.creativemetalind.com/blog/duplex-2205-steel-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Duplex 2205 stainless steel?","acceptedAnswer":{"@type":"Answer","text":"Duplex 2205 (UNS S31803/S32205) is a dual-phase stainless steel containing approximately 50% austenite and 50% ferrite. This hybrid microstructure gives it roughly twice the yield strength of 316L (450 MPa vs 170 MPa) while maintaining excellent corrosion resistance with a PREN of ~35. It contains 22% Cr, 5.5% Ni, 3% Mo, and 0.15% N."}},{"@type":"Question","name":"Where is Duplex 2205 used?","acceptedAnswer":{"@type":"Answer","text":"Duplex 2205 is used in: chemical tankers (cargo tanks), desalination plants (high-pressure RO piping), offshore oil & gas platforms, heat exchangers in chloride service, FGD (flue gas desulphurisation) scrubbers, bridges and structural components in coastal environments, pulp & paper digesters, and anywhere that requires high strength + chloride corrosion resistance."}},{"@type":"Question","name":"Can Duplex 2205 be welded?","acceptedAnswer":{"@type":"Answer","text":"Yes, but with strict heat input control. Welding must maintain 30-70% ferrite in the weld metal and HAZ. Use matching filler (ER2209/E2209) with slightly higher nickel to promote austenite formation. Heat input range: 0.5-2.5 kJ/mm. Interpass temperature max 150°C. Solution anneal at 1020-1100°C followed by water quench if phase balance is disrupted."}}]});
@@ -150,6 +151,8 @@ export default function Duplex2205Guide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/duplex-2205-steel-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

@@ -4,6 +4,7 @@
  * "super duplex buttweld fittings India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const PRODUCTS = [
   { type: "90° Elbow (LR)", standard: "ASME B16.9", sizes: "1/2\" to 24\"", schedule: "SCH 10S–160", material: "ASTM A815 UNS S32750", stock: "Ready Stock" },
@@ -167,6 +168,8 @@ export default function SuperDuplex2507FittingsSupplier() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/super-duplex-2507-fittings-supplier" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

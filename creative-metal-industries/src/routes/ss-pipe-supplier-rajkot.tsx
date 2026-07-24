@@ -3,6 +3,7 @@
  * Target: SS pipe supplier Rajkot, stainless steel dealer Rajkot
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const SCHEMA = '{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","name":"Creative Metal Industries — Rajkot","description":"Steel pipe and fittings supplier serving Rajkot, Gujarat. SS, CS, alloy steel, duplex and exotic alloy pipes.","telephone":"+91-99982-80619","url":"https://www.creativemetalind.com/ss-pipe-supplier-rajkot","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"},"areaServed":{"@type":"City","name":"Rajkot","containedInPlace":{"@type":"State","name":"Gujarat"}},"priceRange":"$$"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Steel Supplier Rajkot","item":"https://www.creativemetalind.com/ss-pipe-supplier-rajkot"}]}]}';
 const FAQ_SCHEMA = '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who is the best SS pipe supplier in Rajkot?","acceptedAnswer":{"@type":"Answer","text":"Creative Metal Industries supplies SS 304, 316L, 321, 310 pipes to Rajkot\'s engineering industries. 1-2 day delivery from Vadodara (210 km). We serve Aji GIDC, Metoda GIDC, Lodhika and all Rajkot industrial areas. Call +91 99982 80619."}},{"@type":"Question","name":"What is SS pipe price in Rajkot?","acceptedAnswer":{"@type":"Answer","text":"SS 304 pipe price in Rajkot: seamless Rs 240-420/kg, welded Rs 170-300/kg. We offer mill-direct rates from Jindal, SAIL. Better than local dealers. Call for today\'s rate."}},{"@type":"Question","name":"Do you supply SS round bars to Rajkot?","acceptedAnswer":{"@type":"Answer","text":"Yes, SS round bars 304, 316, 410, 431 in 6mm to 300mm diameter. Both bright drawn and black finish. SAIL, Viraj makes. Ready stock for Rajkot\'s CNC and engineering shops."}}]}';
@@ -66,7 +67,9 @@ export default function SsPipeSupplierRajkot() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
-    </main>
+    
+        <RelatedPages currentPath="/ss-pipe-supplier-rajkot" />
+      </main>
 
     <footer style={{ background: "#111827", color: "#9ca3af", padding: "2rem 1.5rem", "text-align": "center", "font-size": "0.85rem" }}>
       <p>© 2026 Creative Metal Industries, Vadodara. All rights reserved.</p>

@@ -3,6 +3,7 @@
  * Target: "SS flange types explained", "WNRF vs SORF flange", "when to use blind flange"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"SS Flange Types Explained — WNRF vs SORF vs Blind vs Socket Weld","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-20","image":"https://www.creativemetalind.com/og-image.jpg","url":"https://www.creativemetalind.com/blog/ss-flange-types-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between WNRF and SORF flanges?","acceptedAnswer":{"@type":"Answer","text":"WNRF (Weld Neck Raised Face) has a long tapered hub that is butt-welded to the pipe — providing the strongest joint with full radiography capability. SORF (Slip-On Raised Face) slides over the pipe and is fillet-welded inside and outside — quicker to install but weaker. WNRF is specified for high-pressure, high-temperature, and critical services (ASME 600# and above). SORF is acceptable for low-pressure utilities and non-critical services up to ASME 300#."}},{"@type":"Question","name":"When should I use a blind flange?","acceptedAnswer":{"@type":"Answer","text":"Use blind flanges to: (1) Close off dead-end piping, (2) Provide future connection points, (3) Allow pigging access on pipelines, (4) Isolate equipment for maintenance (spading). Blind flanges experience the highest bending stress of all flange types because they resist full line pressure without pipe support — so they must be rated for the full design pressure and hydrotest pressure of the system."}},{"@type":"Question","name":"What is the difference between RF, FF, and RTJ flange faces?","acceptedAnswer":{"@type":"Answer","text":"RF (Raised Face) has a 1.6mm raised area that concentrates gasket seating stress — standard for ASME 150# to 2500# steel flanges. FF (Flat Face) has no raised area — mandatory when bolting to cast iron (to prevent cracking) and used in low-pressure HDPE/GRP systems. RTJ (Ring Type Joint) has a machined groove for a metal ring gasket — used for high-pressure/high-temperature services (ASME 900# and above, or where zero-leak is critical)."}}]});
@@ -167,6 +168,8 @@ export default function SsFlangeTypesGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/ss-flange-types-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

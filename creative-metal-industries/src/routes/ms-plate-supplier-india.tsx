@@ -3,6 +3,7 @@
  * Target: "MS plate IS 2062 supplier India all sizes"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
@@ -148,6 +149,8 @@ export default function MSPlateSupplierIndia() {
             <a href="https://wa.me/919998280619" target="_blank" rel="noopener" style={{ background: "#25D366", color: "#fff", padding: "0.7rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp</a>
           </div>
         </div>
+      
+        <RelatedPages currentPath="/ms-plate-supplier-india" />
       </main>
     </>
   );

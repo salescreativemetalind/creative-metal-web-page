@@ -1,4 +1,5 @@
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "Alloy 20 Seamless (B729)", composition: "35Ni-20Cr-3.5Cu-2.5Mo (N08020)", sizes: "1/2\" to 8\" NB", schedule: "SCH 10S–80S", apps: "H2SO4/phosphoric acid plants", ht: "Solution Annealed 1040°C", stock: "Ready Stock" },
@@ -244,6 +245,8 @@ export default function Alloy20PipeSupplierIndia() {
           <a href="/inconel-625-pipe-supplier-india" style={{ display: "block", padding: "16px", background: "#f9f9f9", "border-radius": "6px", "text-decoration": "none", color: "#1a1a1a", border: "1px solid #eee", "font-weight": "500", transition: "border-color 0.2s" }}>Inconel 625 Pipe Supplier India</a>
           <a href="/duplex-steel-supplier-vadodara" style={{ display: "block", padding: "16px", background: "#f9f9f9", "border-radius": "6px", "text-decoration": "none", color: "#1a1a1a", border: "1px solid #eee", "font-weight": "500", transition: "border-color 0.2s" }}>Duplex Steel Supplier Vadodara</a>
         </div>
+      
+        <RelatedPages currentPath="/alloy-20-pipe-supplier-india" />
       </main>
 
       {/* Footer */}

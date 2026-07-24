@@ -4,6 +4,7 @@
  * "ASTM A269 capillary tube", "316L capillary tube India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"304 Capillary", composition:"18Cr-8Ni", sizes:"OD 0.5-6mm, WT 0.1-1.0mm", wall:"ID 0.3-5mm", apps:"Thermocouples, sensors, general", ht:"Bright annealed", stock:"Ready Stock" },
@@ -153,6 +154,8 @@ export default function SsCapillaryTubeSupplierIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/ss-capillary-tube-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

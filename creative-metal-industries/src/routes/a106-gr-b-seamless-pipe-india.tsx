@@ -4,6 +4,7 @@
  * "carbon steel seamless pipe India", "A106 pipe high temperature"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"ASTM A106 Gr.B", composition:"C-Mn (0.30C max)", sizes:"1/2\" to 24 inch", schedule:"SCH 40–XXS", apps:"High-temp service, power plants", ht:"Hot-finished / Normalised", stock:"Ready Stock" },
@@ -163,6 +164,8 @@ export default function A106GrBSeamlessPipeIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/a106-gr-b-seamless-pipe-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

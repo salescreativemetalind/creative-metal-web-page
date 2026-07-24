@@ -4,6 +4,7 @@
  * "A358 TP304 TP316L large diameter pipe supplier"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "A358 TP304 Class 1", composition: "18Cr-8Ni (C ≤0.08%)", sizes: "8 to 60 inch OD", schedule: "SCH 5S / 10S / 20 / 40S", apps: "Chemical process, power plant piping", ht: "Solution Annealed 1040°C", stock: "Ready Stock" },
@@ -157,6 +158,8 @@ export default function A358WeldedPipeSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/a358-welded-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

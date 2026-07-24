@@ -1,4 +1,5 @@
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   {
@@ -710,6 +711,8 @@ export default function Incoloy800htTubeSupplier() {
             Alloy 20 Pipe Supplier India
           </a>
         </div>
+      
+        <RelatedPages currentPath="/incoloy-800ht-tube-supplier" />
       </main>
 
       {/* Footer */}

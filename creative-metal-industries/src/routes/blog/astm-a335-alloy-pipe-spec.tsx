@@ -3,6 +3,7 @@
  * Target: "ASTM A335 alloy pipe specification P91 P22 P11"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
@@ -122,6 +123,8 @@ export default function AstmA335AlloyPipeSpec() {
             <a href="/#contact" style={{ background: "#fff", color: "#E8821A", padding: "0.7rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>Send Enquiry →</a>
           </div>
         </div>
+      
+        <RelatedPages currentPath="/blog/astm-a335-alloy-pipe-spec" />
       </main>
     </>
   );

@@ -3,6 +3,7 @@
  * Target: "NACE HIC steel plate supplier India", "carbon steel SA 516 plate stockist India", "TMT bars supplier Gujarat"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"NACE HIC Steel Plates — Essential for Sour Service Environments","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/carbon-steel-plate.webp","url":"https://www.creativemetalind.com/blog/nace-hic-steel-plates-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does NACE HIC mean?","acceptedAnswer":{"@type":"Answer","text":"NACE refers to NACE MR-01-75 (now ANSI/NACE MR0175/ISO 15156) — a standard specifying material requirements for sour (H₂S-containing) environments. HIC means Hydrogen Induced Cracking — internal cracking caused by atomic hydrogen diffusing into steel and recombining at inclusion sites. NACE HIC plates are specifically manufactured with ultra-low sulphur, calcium treatment, and controlled rolling to resist this failure mechanism."}},{"@type":"Question","name":"When do I need NACE HIC plates?","acceptedAnswer":{"@type":"Answer","text":"NACE HIC plates are required when equipment will contain fluids with H₂S partial pressure exceeding 0.05 psi (0.3 kPa) — the threshold defined in NACE MR-01-75. This includes: sour gas separators, amine absorbers/regenerators, sour water strippers, crude oil storage with H₂S, desulphurisation units, and any vessel/pipeline handling wet H₂S in oil & gas refineries."}},{"@type":"Question","name":"What are the HIC test acceptance criteria?","acceptedAnswer":{"@type":"Answer","text":"Per NACE TM-0284 (standard test method): CLR (Crack Length Ratio) ≤ 15%, CTR (Crack Thickness Ratio) ≤ 5%, CSR (Crack Sensitivity Ratio) ≤ 2%. Test conditions: specimens immersed in Solution A (5% NaCl + 0.5% CH₃COOH, saturated with H₂S) for 96 hours at 25°C, then ultrasonically examined for internal cracks."}}]});
@@ -138,6 +139,8 @@ export default function NaceHicGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/nace-hic-steel-plates-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

@@ -3,6 +3,7 @@
  * Target: "IBR certification explained", "IBR Form III-C", "what is IBR pipe"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"IBR Certification Explained — What Every Indian Pipe Buyer Must Know","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-20","image":"https://www.creativemetalind.com/og-image.jpg","url":"https://www.creativemetalind.com/blog/ibr-certification-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is IBR certification for pipes and fittings?","acceptedAnswer":{"@type":"Answer","text":"IBR (Indian Boiler Regulations) certification is mandatory quality approval under the Indian Boilers Act 1923 for any material used in boiler or pressure vessel construction operating above 1 kg/cm² pressure. The certification is issued by the Chief Inspector of Boilers (state-level) and documented on Form III-C, which accompanies every IBR-certified pipe, tube, fitting, or plate from mill to end-user."}},{"@type":"Question","name":"What is IBR Form III-C and why is it important?","acceptedAnswer":{"@type":"Answer","text":"Form III-C is the official IBR material certificate that records: manufacturer details, heat number, material specification, dimensions, chemical composition, mechanical test results, and the stamp/signature of the Boiler Inspector who witnessed testing. It provides legal traceability from raw material to installed component. Without Form III-C, material cannot be used in IBR-regulated systems, and the boiler inspector will reject it during fabrication inspection."}},{"@type":"Question","name":"Which materials require IBR certification in India?","acceptedAnswer":{"@type":"Answer","text":"Any material used in: (1) Boiler pressure parts — drums, headers, superheater tubes, economiser coils, (2) Steam piping operating above 1 kg/cm² and connected to boilers, (3) Pressure vessels under Reg. 2.1.2 scope. This includes carbon steel (SA 106, SA 335), alloy steel (P11, P22, P91), stainless steel (304, 316, 321), and nickel alloys used in boiler systems. Non-pressure parts (structural supports, insulation) do not need IBR."}}]});
@@ -167,6 +168,8 @@ export default function IbrCertificationGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/ibr-certification-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

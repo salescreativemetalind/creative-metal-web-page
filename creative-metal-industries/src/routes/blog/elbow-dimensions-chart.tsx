@@ -3,6 +3,7 @@
  * Target: "pipe elbow dimensions weight 90 45 LR SR"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
@@ -118,6 +119,8 @@ export default function ElbowDimensionsChart() {
             <a href="/#contact" style={{ background: "#fff", color: "#E8821A", padding: "0.7rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>Send Enquiry →</a>
           </div>
         </div>
+      
+        <RelatedPages currentPath="/blog/elbow-dimensions-chart" />
       </main>
     </>
   );

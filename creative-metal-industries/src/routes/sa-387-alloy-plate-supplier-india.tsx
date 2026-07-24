@@ -4,6 +4,7 @@
  * "Cr-Mo pressure vessel plate India", "SA387 plate stockist"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"SA387 Gr.11 Cl.1", composition:"1.25Cr-0.5Mo", sizes:"6mm to 100mm", schedule:"N+T / As Rolled", apps:"Pressure vessels, reactors", ht:"Normalised + Tempered", stock:"Ready Stock" },
@@ -163,6 +164,8 @@ export default function Sa387AlloyPlateSupplierIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/sa-387-alloy-plate-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

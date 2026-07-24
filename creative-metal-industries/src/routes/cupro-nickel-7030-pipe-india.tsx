@@ -1,4 +1,5 @@
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { name: "CuNi 70/30 Seamless Pipe", spec: "ASTM B466", composition: "70Cu-30Ni (C71500)", size: '1/2"-10" NB', schedule: "SCH 10S-80S", application: "Naval / high-velocity seawater", condition: "Annealed", availability: "Ready Stock" },
@@ -248,6 +249,8 @@ export default function CuproNickel7030PipeIndia() {
           </div>
         </section>
 
+      
+        <RelatedPages currentPath="/cupro-nickel-7030-pipe-india" />
       </main>
 
       {/* Footer */}

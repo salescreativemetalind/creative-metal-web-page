@@ -4,6 +4,7 @@
  * "N06600 nickel alloy pipe India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "Inconel 600 Seamless (B167)", composition: "72Ni-15Cr-8Fe", sizes: "1/2\" to 10\" NB", schedule: "SCH 10S–80S", apps: "Caustic evaporators, nuclear steam generators", ht: "Annealed 870-980°C", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function Inconel600PipeSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/inconel-600-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

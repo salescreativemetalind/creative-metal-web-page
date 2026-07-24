@@ -4,6 +4,7 @@
  */
 
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const DUPLEX_GRADES = [
   {
@@ -361,6 +362,8 @@ export default function DuplexSteelSupplierVadodara() {
           </div>
         </section>
 
+      
+        <RelatedPages currentPath="/duplex-steel-supplier-vadodara" />
       </main>
 
       {/* ── Footer ── */}

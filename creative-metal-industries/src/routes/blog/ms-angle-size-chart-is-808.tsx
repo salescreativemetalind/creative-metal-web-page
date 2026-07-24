@@ -3,6 +3,7 @@
  * Target: "MS angle all sizes IS 808 chart 20x20 to 200x200"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
@@ -118,6 +119,8 @@ export default function MSAngleSizeChartIs808() {
             <a href="/#contact" style={{ background: "#fff", color: "#E8821A", padding: "0.7rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>Send Enquiry →</a>
           </div>
         </div>
+      
+        <RelatedPages currentPath="/blog/ms-angle-size-chart-is-808" />
       </main>
     </>
   );

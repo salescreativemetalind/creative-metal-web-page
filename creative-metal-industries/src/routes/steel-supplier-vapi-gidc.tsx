@@ -4,6 +4,7 @@
  * "SS 316L Vapi", "corrosion resistant pipe Vapi Gujarat"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const PRODUCTS = [
   { category: "SS 316L Pipes", grades: "SS 316L Seamless & Welded (chemical grade)", sizes: "1/2\" to 16\"", type: "Seamless & Welded", stock: "Ready Stock" },
@@ -152,6 +153,8 @@ export default function SteelSupplierVapiGIDC() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} {"\u2192"}</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/steel-supplier-vapi-gidc" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

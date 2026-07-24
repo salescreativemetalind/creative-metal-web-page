@@ -3,6 +3,7 @@
  * Target: "SA 213 vs SA 249 tube seamless vs welded"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
@@ -124,6 +125,8 @@ export default function Sa213VsSa249Tube() {
             <a href="/#contact" style={{ background: "#fff", color: "#E8821A", padding: "0.7rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>Send Enquiry →</a>
           </div>
         </div>
+      
+        <RelatedPages currentPath="/blog/sa-213-vs-sa-249-tube" />
       </main>
     </>
   );

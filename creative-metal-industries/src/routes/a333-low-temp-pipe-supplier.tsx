@@ -4,6 +4,7 @@
  * "cryogenic pipe supplier India", "LNG pipe supplier India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"ASTM A333 Gr.6", composition:"C-Mn (Charpy -46°C)", sizes:"1/2\" to 24 inch", schedule:"SCH 40–160", apps:"LNG, cryogenic, cold storage", ht:"Normalised / Stress-relieved", stock:"Ready Stock" },
@@ -163,6 +164,8 @@ export default function A333LowTempPipeSupplier() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/a333-low-temp-pipe-supplier" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

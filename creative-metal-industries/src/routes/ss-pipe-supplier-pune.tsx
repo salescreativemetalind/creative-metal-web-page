@@ -3,6 +3,7 @@
  * Target: SS pipe supplier Pune, SS pipe dealer Pune
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const SCHEMA = '{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","name":"Creative Metal Industries — Pune","description":"Steel pipe and fittings supplier serving Pune, Maharashtra. SS, CS, alloy steel, duplex and exotic alloy pipes.","telephone":"+91-99982-80619","url":"https://www.creativemetalind.com/ss-pipe-supplier-pune","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"},"areaServed":{"@type":"City","name":"Pune","containedInPlace":{"@type":"State","name":"Maharashtra"}},"priceRange":"$$"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Steel Supplier Pune","item":"https://www.creativemetalind.com/ss-pipe-supplier-pune"}]}]}';
 const FAQ_SCHEMA = '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who supplies SS pipes in Pune?","acceptedAnswer":{"@type":"Answer","text":"Creative Metal Industries is a trusted SS pipe supplier for Pune. We supply SS 304, 316L, 321, duplex 2205 pipes to Chakan, Pimpri-Chinchwad, Hinjewadi and all Pune MIDC areas. 2-3 day delivery from Vadodara. Call +91 99982 80619."}},{"@type":"Question","name":"What is delivery time to Pune?","acceptedAnswer":{"@type":"Answer","text":"2-3 working days from Vadodara (530 km via NH48). Daily transport available. Express 48-hour delivery for urgent needs. We serve all Pune industrial areas including Chakan, Ranjangaon, Kurkumbh MIDC."}},{"@type":"Question","name":"Do you supply pharma grade SS pipe to Pune?","acceptedAnswer":{"@type":"Answer","text":"Yes, SS 316L seamless pipes with electropolished (EP) and mirror finish for pharma applications. ASTM A270 sanitary tubes, ASME BPE compliant. Surface finish Ra 0.4 to Ra 0.8 micron. Complete material certificates provided."}}]}';
@@ -66,7 +67,9 @@ export default function SsPipeSupplierPune() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
-    </main>
+    
+        <RelatedPages currentPath="/ss-pipe-supplier-pune" />
+      </main>
 
     <footer style={{ background: "#111827", color: "#9ca3af", padding: "2rem 1.5rem", "text-align": "center", "font-size": "0.85rem" }}>
       <p>© 2026 Creative Metal Industries, Vadodara. All rights reserved.</p>

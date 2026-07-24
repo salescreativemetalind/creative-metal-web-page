@@ -3,6 +3,7 @@
  * Target: "TMT bars supplier Gujarat", "creative metal industries vadodara", "industrial raw material supplier Gujarat"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"TMT Bars — The Backbone of Gujarat's Infrastructure Development","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/TMT-Bars.webp","url":"https://www.creativemetalind.com/blog/tmt-bars-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does TMT mean in steel bars?","acceptedAnswer":{"@type":"Answer","text":"TMT stands for Thermo-Mechanically Treated. After hot rolling, the bar passes through a quenching system that rapidly cools the outer layer (forming hard martensite) while the core remains hot. The residual core heat then tempers the outer layer, creating a unique structure: tough tempered martensite surface + ductile ferrite-pearlite core. This gives TMT bars high strength AND flexibility — they bend without breaking."}},{"@type":"Question","name":"Which TMT bar grade is best for house construction?","acceptedAnswer":{"@type":"Answer","text":"For residential construction (up to 4 floors) in non-seismic zones: Fe 500 is sufficient and economical. For seismic zones (Zone III, IV, V — which includes most of Gujarat): Fe 500D is mandatory per IS 13920 due to its superior ductility (16% elongation vs 12%). Fe 500D costs only 2-3% more than Fe 500 but provides significantly better earthquake resistance."}},{"@type":"Question","name":"How to check TMT bar quality on site?","acceptedAnswer":{"@type":"Answer","text":"Quick site checks: (1) BIS mark — look for ISI stamp with licence number on every bar, (2) Bend test — bar should bend 180° around a mandrel of 3× diameter without cracking, (3) Weight check — 12mm bar should weigh ~0.888 kg/m (10.66 kg per 12m bar), (4) Rib pattern — uniform, well-defined ribs indicate quality rolling, (5) Rust — light surface rust is acceptable but deep pitting/scaling indicates poor storage."}}]});
@@ -135,6 +136,8 @@ export default function TmtBarsGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/tmt-bars-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

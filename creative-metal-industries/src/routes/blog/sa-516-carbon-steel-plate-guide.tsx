@@ -3,6 +3,7 @@
  * Target: "carbon steel SA 516 plate stockist India", "NACE HIC steel plate supplier India", "steel trading company Gujarat"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Carbon Steel SA 516 Plate — The Pressure Vessel and Boiler Standard","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/carbon-steel-plate.webp","url":"https://www.creativemetalind.com/blog/sa-516-carbon-steel-plate-guide"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is SA 516 Grade 70 used for?","acceptedAnswer":{"@type":"Answer","text":"SA 516 Grade 70 is used for fabricating pressure vessels, boilers, heat exchangers, storage tanks (API 650/620), reactors, and columns in petroleum refining, petrochemical, fertilizer, and power generation industries. It is the most widely specified plate for ASME Section VIII coded vessels due to its combination of strength (485-620 MPa tensile), weldability, and notch toughness."}},{"@type":"Question","name":"What is the difference between SA 516 Grade 60 and Grade 70?","acceptedAnswer":{"@type":"Answer","text":"The primary difference is tensile strength: Gr.60 has 415-550 MPa while Gr.70 has 485-620 MPa. Gr.70 is preferred for higher-pressure vessels and thicker sections. Both are readily weldable. Gr.60 is used for lower-pressure storage tanks and applications where design stress is not critical. Gr.70 accounts for approximately 80% of all SA 516 consumption."}},{"@type":"Question","name":"Can SA 516 plates be supplied with NACE and HIC testing?","acceptedAnswer":{"@type":"Answer","text":"Yes. Creative Metal Industries stocks SA 516 Gr.60/70 plates in NACE MR-01-75 compliant condition with HIC (Hydrogen Induced Cracking) testing per NACE TM-0284. Acceptance criteria: CLR ≤ 15%, CTR ≤ 5%, CSR ≤ 2%. These are mandatory for sour service (H₂S) applications in oil & gas refineries and offshore platforms. We also supply with SSC testing per TM-0177 on request."}}]});
@@ -141,6 +142,8 @@ export default function SA516PlateGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/sa-516-carbon-steel-plate-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

@@ -4,6 +4,7 @@
  * "stainless steel 310 seamless pipe India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "SS 310 (TP310)", composition: "25Cr-20Ni", sizes: "1/2\" to 24\"", schedule: "SCH 5S–80S", apps: "Furnace parts, heat treatment baskets, radiant tubes", ht: "Solution Annealed 1040-1100°C", stock: "Ready Stock" },
@@ -162,6 +163,8 @@ export default function Ss310PipeSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/ss-310-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

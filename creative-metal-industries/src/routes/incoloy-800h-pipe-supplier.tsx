@@ -1,4 +1,5 @@
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   {
@@ -518,6 +519,8 @@ export default function Incoloy800hPipeSupplier() {
             </a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/incoloy-800h-pipe-supplier" />
       </main>
 
       {/* Footer */}

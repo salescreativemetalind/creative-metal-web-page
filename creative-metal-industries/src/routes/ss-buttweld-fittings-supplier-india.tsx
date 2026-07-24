@@ -4,6 +4,7 @@
  * "ASTM A403 fittings supplier", "stainless steel buttweld fittings India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade:"SS 304/304L", spec:"ASTM A403 WP304/WP304L", sizes:"1/2\" to 48\"", schedule:"SCH 5S–XXS", apps:"Food, dairy, general chemical", stock:"Ready Stock" },
@@ -179,6 +180,8 @@ export default function SsButtweldFittingsSupplierIndia() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/ss-buttweld-fittings-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

@@ -4,6 +4,7 @@
  * SS flange, SS ERW pipe, SS317 pipe
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../../components/RelatedPages";
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"SS Angle, Channel, Flat, Rod, Fittings & Flanges — Stainless Steel Long Products Guide","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-22","image":"https://www.creativemetalind.com/img/ss_flanges.webp","url":"https://www.creativemetalind.com/blog/ss-long-products-fittings-guide","description":"Guide to stainless steel long products and accessories — SS angle, channel, flat, rod, SS ERW pipe, SS fittings and SS flanges. Grades, standards and supplier in Vadodara."});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do you supply stainless steel angle, channel and flat?","acceptedAnswer":{"@type":"Answer","text":"Yes. Creative Metal Industries stocks SS angle, SS channel and SS flat in 304, 304L, 316 and 316L grades to ASTM A276 / A479. SS angles run from 20×20mm to 100×100mm, SS flats from 10mm to 150mm wide, and SS channels in standard sizes — used for hygienic, corrosion-resistant and architectural structural work."}},{"@type":"Question","name":"What standard applies to SS fittings and SS flanges?","acceptedAnswer":{"@type":"Answer","text":"Stainless steel buttweld fittings follow ASTM A403 (ASME B16.9), forged fittings follow ASTM A182 (ASME B16.11), and SS flanges follow ASTM A182 to ASME B16.5 and B16.47. We supply SS fittings and flanges in 304L, 316L, 321, 310, 904L and duplex grades with full MTC."}},{"@type":"Question","name":"What is SS ERW pipe used for?","acceptedAnswer":{"@type":"Answer","text":"SS ERW (Electric Resistance Welded) pipe is a welded stainless pipe to ASTM A312, economical for low and medium-pressure service such as water, food, dairy, railing and structural applications. For higher-pressure and critical service, seamless SS pipe is preferred. Both are stocked at Creative Metal Industries in Vadodara."}}]});
@@ -114,6 +115,8 @@ export default function SsLongProductsFittingsGuide() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>
+      
+        <RelatedPages currentPath="/blog/ss-long-products-fittings-guide" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

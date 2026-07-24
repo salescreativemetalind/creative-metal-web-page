@@ -1,4 +1,5 @@
 import { For, JSX } from "solid-js";
+import { RelatedPages } from "./RelatedPages";
 
 const NAV_LINKS = [
   { href: "/",                 label: "Home"       },
@@ -197,7 +198,7 @@ export function SiteFooter() {
   );
 }
 
-export function PageLayout(props: { children: JSX.Element; active?: string; breadcrumb?: { label: string; href?: string }[] }) {
+export function PageLayout(props: { children: JSX.Element; active?: string; currentPath?: string; breadcrumb?: { label: string; href?: string }[] }) {
   return (
     <>
       <SiteNav active={props.active} />
@@ -218,6 +219,11 @@ export function PageLayout(props: { children: JSX.Element; active?: string; brea
           </nav>
         )}
         {props.children}
+        {props.currentPath && (
+          <div style="max-width:960px;margin:0 auto;padding:0 1.5rem 2rem">
+            <RelatedPages currentPath={props.currentPath} />
+          </div>
+        )}
       </main>
       <SiteFooter />
     </>

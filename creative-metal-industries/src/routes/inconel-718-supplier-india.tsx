@@ -4,6 +4,7 @@
  * "N07718 nickel alloy supplier India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "Inconel 718 Round Bar (B637)", composition: "52Ni-19Cr-18Fe-5Nb-3Mo", sizes: "6mm to 300mm dia", schedule: "Forged / Hot Rolled", apps: "Gas turbines, rocket motors, fasteners", ht: "Solution + Age Hardened", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function Inconel718SupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/inconel-718-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

@@ -4,6 +4,7 @@
  * "stainless steel 347 seamless pipe supplier India niobium stabilized"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   { grade: "SS 347 (TP347)", composition: "18Cr-11Ni-Nb", sizes: "1/2\" to 12\"", schedule: "SCH 10S–80S", apps: "Refinery piping, catalytic reformers, high-temp chemical processing", ht: "Solution Annealed 1040-1120°C", stock: "Ready Stock" },
@@ -163,6 +164,8 @@ export default function Ss347PipeSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/ss-347-pipe-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>

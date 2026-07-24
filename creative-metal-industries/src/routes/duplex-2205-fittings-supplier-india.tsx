@@ -4,6 +4,7 @@
  * "duplex stainless steel fittings India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
+import { RelatedPages } from "../components/RelatedPages";
 
 const PRODUCTS = [
   { type: "90° Elbow (LR)", standard: "ASME B16.9", sizes: "1/2\" to 48\"", schedule: "SCH 5S–160", material: "ASTM A815 UNS S31803", stock: "Ready Stock" },
@@ -167,6 +168,8 @@ export default function Duplex2205FittingsSupplierIndia() {
             ))}
           </div>
         </div>
+      
+        <RelatedPages currentPath="/duplex-2205-fittings-supplier-india" />
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>
