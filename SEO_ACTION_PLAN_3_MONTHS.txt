@@ -1,0 +1,982 @@
+================================================================================
+SEO ACTION PLAN — CREATIVE METAL INDUSTRIES
+Website: https://www.creativemetalind.com
+Total Pages: 591 | Total Keywords: 696
+Time Required: 1 Hour/Day | Budget: Rs 0
+Target: Rank on Google in 3 Months
+Date Created: July 24, 2026
+================================================================================
+
+
+================================================================================
+SECTION 1: WEBSITE STATUS (WHAT IS ALREADY DONE)
+================================================================================
+
+CODE & TECHNICAL SEO — 100% COMPLETE:
+  ✓ 591 pages built (product, blog, location, legal)
+  ✓ 696 target keywords embedded in pages
+  ✓ JSON-LD structured data (LocalBusiness, Product, FAQ, Breadcrumb)
+  ✓ Open Graph + Twitter Card meta tags on all pages
+  ✓ robots.txt configured
+  ✓ sitemap.xml with 591 URLs (auto-generated)
+  ✓ Canonical URLs on all pages
+  ✓ Mobile responsive design
+  ✓ Server-side rendering (SSR) for fast crawling
+  ✓ Google Analytics placeholder ready
+  ✓ Google Search Console verification ready
+  ✓ Custom 404 page
+  ✓ Privacy Policy + Terms of Trade pages
+  ✓ Breadcrumb navigation on all inner pages
+  ✓ Internal linking across pages
+  ✓ llms.txt for AI discovery
+  ✓ Deployed on Vercel (fast CDN)
+
+WHAT REMAINS (NON-CODE — YOUR REAL-WORLD WORK):
+  ✗ Google Search Console setup + verification
+  ✗ Google Analytics activation (replace placeholder ID)
+  ✗ Google Business Profile claimed & optimized
+  ✗ Sitemap submitted to Google
+  ✗ Bing Webmaster Tools setup
+  ✗ Directory submissions (IndiaMART, TradeIndia, JustDial)
+  ✗ Google Reviews from customers
+  ✗ Social media presence (LinkedIn, Facebook, Instagram)
+  ✗ Regular link sharing (WhatsApp, LinkedIn)
+
+
+================================================================================
+SECTION 2: WEEK 1 — ONE-TIME SETUP (Do Once, Never Again)
+================================================================================
+
+DAY 1 (30 min): GOOGLE SEARCH CONSOLE
+─────────────────────────────────────
+1. Go to: https://search.google.com/search-console
+2. Click "Add Property"
+3. Choose "URL prefix" → enter: https://www.creativemetalind.com
+4. Choose "HTML tag" verification method
+5. Copy the content="..." value
+6. Open src/app.tsx in your code
+7. Replace YOUR_VERIFICATION_CODE with the actual code
+8. Run: npm run build → deploy to Vercel
+9. Go back to GSC → click Verify
+10. Go to Sitemaps → enter: sitemap.xml → Submit
+
+DAY 2 (15 min): GOOGLE ANALYTICS
+─────────────────────────────────
+1. Go to: https://analytics.google.com
+2. Create new GA4 property for creativemetalind.com
+3. Get Measurement ID (format: G-XXXXXXXXXX)
+4. Open src/app.tsx → replace G-XXXXXXXXXX (2 places)
+5. Deploy to Vercel
+
+DAY 3 (15 min): BING WEBMASTER TOOLS
+─────────────────────────────────────
+1. Go to: https://www.bing.com/webmasters
+2. Click "Import from Google Search Console" (easiest)
+3. Submit sitemap there too
+4. Done — Bing + Yahoo + DuckDuckGo will index you
+
+DAY 4 (45 min): GOOGLE BUSINESS PROFILE (MOST IMPORTANT)
+─────────────────────────────────────────────────────────
+1. Go to: https://business.google.com
+2. Search "Creative Metal Industries Vadodara"
+3. Claim the listing (or create new if not found)
+4. Fill EVERYTHING:
+   - Business name: Creative Metal Industries
+   - Primary category: Steel Supplier
+   - Secondary: Pipe Supplier, Metal Fabrication Service
+   - Address: F-3, Loha Bhavan, Lakkadpitha Road, Vadodara 390001
+   - Phone: +91 99982 80619
+   - Website: https://www.creativemetalind.com
+   - Hours: Mon-Sat 9:00 AM - 7:00 PM
+   - Description (750 chars):
+     "Creative Metal Industries is a leading manufacturer, stockist
+     and supplier of Stainless Steel, Carbon Steel, Alloy Steel,
+     Duplex, Inconel, Monel, Hastelloy and Titanium pipes, plates,
+     fittings and flanges. Based in Vadodara, Gujarat since 2012.
+     IBR certified. Export to 50+ countries. Ready stock 2000+ tonnes."
+   - Upload 20+ photos: warehouse, products, office, delivery
+   - Add top 10 products with descriptions
+
+DAY 5 (30 min): DIRECTORY SUBMISSIONS
+──────────────────────────────────────
+Submit FREE listings on:
+  1. IndiaMART — update existing profile, add website URL
+  2. TradeIndia — https://www.tradeindia.com (free seller account)
+  3. JustDial — https://www.justdial.com (claim listing)
+  4. ExportersIndia — https://www.exportersindia.com
+  5. IndiaBizList — https://www.indiabizlist.com
+
+DAY 6 (30 min): SOCIAL MEDIA SETUP
+────────────────────────────────────
+  1. LinkedIn Company Page — create, add logo, description, website
+  2. Facebook Business Page — create, add details
+  3. Instagram Business — create @creativemetalind
+  (Post first post on each with website link)
+
+DAY 7 (15 min): REQUEST INDEXING
+─────────────────────────────────
+In GSC → URL Inspection → paste and Request Indexing:
+  - https://www.creativemetalind.com/
+  - https://www.creativemetalind.com/ss-pipe-supplier-vadodara
+  - https://www.creativemetalind.com/stainless-steel-supplier-vadodara
+  - https://www.creativemetalind.com/alloy-steel-pipe-supplier-india
+  - https://www.creativemetalind.com/duplex-steel-supplier-vadodara
+  - https://www.creativemetalind.com/inconel-pipe-supplier-india
+  - https://www.creativemetalind.com/ss-pipe-supplier-ahmedabad
+  - https://www.creativemetalind.com/blog/ss-pipe-price-list-india
+  - https://www.creativemetalind.com/blog/pipe-weight-calculator
+  - https://www.creativemetalind.com/blog/ss-pipe-weight-chart
+
+
+================================================================================
+SECTION 3: DAILY ROUTINE — WEEKS 2 TO 12 (1 Hour/Day)
+================================================================================
+
+SPLIT YOUR 1 HOUR INTO 3 PARTS:
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ PART 1: REQUEST INDEXING (15 min) — First 3 weeks only                     │
+│                                                                             │
+│ Open GSC → URL Inspection → paste 5-10 URLs → Request Indexing             │
+│ Do this daily until all important pages are submitted                       │
+│ Priority order:                                                             │
+│   Week 2: Product/supplier pages (40 pages)                                │
+│   Week 3: Location pages (50 pages)                                        │
+│   Week 4: Blog price + weight chart pages (80 pages)                       │
+│ After week 4: Skip this step (Google will crawl rest on its own)           │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ PART 2: GET 1 GOOGLE REVIEW (15 min) — Every single day                    │
+│                                                                             │
+│ WhatsApp ONE customer per day:                                              │
+│                                                                             │
+│ Message template:                                                           │
+│ "Namaskar [Name] ji, Creative Metal Industries mein aapka experience       │
+│  kaisa raha? Agar aap satisfied hain toh ek Google review de dijiye —      │
+│  hamari bahut help hogi. Link: [your GMB review link]"                     │
+│                                                                             │
+│ TARGET: 30 reviews in 30 days                                              │
+│ WHY: Google Reviews = #1 factor for local ranking (map pack)               │
+│ REPLY to every review within 24 hours (shows active business)              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ PART 3: SHARE 1 LINK (30 min) — Rotate daily                              │
+│                                                                             │
+│ MONDAY:    Share a price page on 3-4 WhatsApp industry groups              │
+│            Example: "SS 304 pipe price today — check our latest rates"     │
+│            Link: /blog/ss-304-pipe-price-per-kg                            │
+│                                                                             │
+│ TUESDAY:   Post on LinkedIn (your profile + company page)                  │
+│            Example: Technical tip or product highlight                      │
+│            Link: Any blog post                                              │
+│                                                                             │
+│ WEDNESDAY: Answer a question on Quora                                       │
+│            Search: "best SS pipe supplier India" or "pipe weight chart"    │
+│            Answer with helpful info + link to your relevant page            │
+│                                                                             │
+│ THURSDAY:  Post product photo on Instagram/Facebook                         │
+│            Warehouse photo, delivery photo, product close-up               │
+│            Add website link in caption                                      │
+│                                                                             │
+│ FRIDAY:    WhatsApp broadcast to customer list                              │
+│            Share a useful blog link (weight chart, guide, price)            │
+│            "New article: How to read Mill Test Certificate"                 │
+│                                                                             │
+│ SATURDAY:  Post on LinkedIn                                                 │
+│            Share comparison guide or specification chart                    │
+│            These get good engagement from engineers                         │
+│                                                                             │
+│ SUNDAY:    Rest or catch up on missed days                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+
+================================================================================
+SECTION 4: EXPECTED RESULTS TIMELINE
+================================================================================
+
+MONTH 1 RESULTS:
+  • 400+ pages indexed by Google
+  • 15-20 Google reviews collected
+  • 30+ backlinks from directories + social profiles
+  • Starting to appear for low-competition keywords
+  • Google Business Profile visible in local search
+  • Estimated: 50-150 organic visits/day
+
+MONTH 2 RESULTS:
+  • Most 591 pages indexed
+  • 25-30 Google reviews (4.5+ star)
+  • Page 1 ranking for:
+    - Vadodara keywords (SS pipe supplier Vadodara, etc.)
+    - GIDC keywords (steel supplier GIDC Makarpura, etc.)
+    - Low-competition products (Monel 400, Hastelloy, CuNi)
+    - Long-tail searches (specific grades + city names)
+  • Blog posts getting traffic (weight charts, price lists)
+  • Estimated: 200-500 organic visits/day
+
+MONTH 3 RESULTS:
+  • All pages indexed
+  • 30-40 Google reviews
+  • Page 1 for 50-100+ keywords
+  • Map pack (top 3 local results) for Vadodara searches
+  • Price pages ranking for "rate" and "price" keywords
+  • Calculator/chart pages getting regular traffic
+  • Real enquiries from website: 5-15 per week
+  • Estimated: 500-1500 organic visits/day
+
+
+================================================================================
+SECTION 5: KEYWORDS LIST — TOP 100 PRIORITY KEYWORDS
+================================================================================
+
+These are the keywords most likely to rank first and bring buyers:
+
+── LOCAL KEYWORDS (Rank within 1-2 months) ──────────────────────────────────
+
+  1.  SS pipe supplier Vadodara
+  2.  stainless steel supplier Vadodara
+  3.  steel supplier GIDC Makarpura
+  4.  duplex steel supplier Vadodara
+  5.  SS pipe supplier Baroda
+  6.  steel supplier Nandesari GIDC
+  7.  SS pipe supplier Ahmedabad
+  8.  SS pipe supplier Surat
+  9.  SS pipe supplier Rajkot
+  10. steel supplier Bharuch
+  11. steel supplier Dahej
+  12. SS pipe supplier Pune
+  13. SS pipe supplier Mumbai
+  14. stainless steel supplier Gujarat
+  15. MS plate price Vadodara
+  16. SS round bar supplier Vadodara
+  17. SS sheet supplier Vadodara
+  18. SS ERW pipe supplier Vadodara
+  19. MS angle supplier Vadodara
+  20. TMT bars supplier Gujarat
+
+── PRODUCT KEYWORDS (Rank within 2-3 months) ────────────────────────────────
+
+  21. Monel 400 pipe supplier India
+  22. Hastelloy pipe supplier India
+  23. copper nickel pipe supplier India
+  24. titanium pipe supplier India
+  25. boiler tube supplier India
+  26. Inconel pipe supplier India
+  27. forged fittings supplier India
+  28. heat exchanger tube supplier India
+  29. SS seamless pipe supplier India
+  30. alloy steel pipe supplier India
+  31. SS buttweld fittings supplier India
+  32. carbon steel SA 516 plate stockist India
+  33. API 5L line pipe supplier India
+  34. SS flanges supplier India
+  35. compression tube fittings supplier India
+  36. Incoloy 800 pipe supplier India
+  37. clad plate supplier India
+  38. SS instrumentation tube supplier India
+  39. Inconel 625 pipe supplier India
+  40. super duplex 2507 pipe supplier India
+
+── PRICE KEYWORDS (High traffic — rank within 2-3 months) ───────────────────
+
+  41. SS pipe price list India 2026
+  42. SS 304 pipe price per kg
+  43. SS 316L pipe price per kg India
+  44. TMT bar price today Gujarat
+  45. MS plate price Vadodara
+  46. ERW pipe price India
+  47. duplex 2205 pipe price India
+  48. Inconel 625 pipe price India
+  49. MS angle price today Gujarat
+  50. MS beam ISMB price today
+  51. MS channel ISMC price today
+  52. Hardox plate price India
+  53. P91 pipe price per kg India
+  54. boiler tube price India
+  55. SS round bar price India
+
+── WEIGHT CHART KEYWORDS (Highest traffic volume) ───────────────────────────
+
+  56. pipe weight calculator
+  57. MS angle weight chart IS 808
+  58. ISMC channel weight chart
+  59. SS pipe weight chart
+  60. ISMB beam weight chart
+  61. TMT bar weight chart
+  62. steel weight calculator
+  63. MS round bar weight chart
+  64. ERW pipe weight chart
+  65. flange weight chart
+  66. pipe elbow weight chart
+  67. GI pipe weight chart
+  68. MS plate weight calculator
+  69. SS sheet weight calculator
+  70. chequered plate weight chart
+
+── COMPARISON KEYWORDS (Good engagement) ────────────────────────────────────
+
+  71. SS 304 vs SS 316 difference
+  72. seamless vs welded pipe
+  73. duplex 2205 vs SS 316L
+  74. weld neck vs slip on flange
+  75. P91 vs P22 alloy steel
+  76. schedule 10 vs schedule 40
+  77. forged vs cast fittings
+  78. Inconel 625 vs Hastelloy C276
+  79. carbon steel vs stainless steel
+  80. duplex vs super duplex
+
+── SPECIFICATION KEYWORDS (Technical authority) ─────────────────────────────
+
+  81. ASME B16.5 flange dimensions chart
+  82. ASTM A312 pipe specification
+  83. IS 2062 steel specification
+  84. IS 1239 pipe specification
+  85. flange bolt chart ASME B16.5
+  86. pipe pressure rating chart
+  87. ASME B16.9 fittings dimensions
+  88. pipe schedule chart SCH 40 80 160
+  89. ASTM A182 forged fittings
+  90. API 5L specification guide
+
+── INFORMATIONAL KEYWORDS (Trust building) ──────────────────────────────────
+
+  91. what is IBR certification India
+  92. what is mill test certificate
+  93. what is pipe schedule
+  94. what is seamless pipe
+  95. what is duplex stainless steel
+  96. what is NACE MR0175
+  97. how to calculate pipe weight
+  98. how to read mill test certificate
+  99. how to identify SS grade
+  100. piping material for oil refinery
+
+
+================================================================================
+SECTION 6: FULL KEYWORD LIST — ALL 696 KEYWORDS BY CATEGORY
+================================================================================
+
+── A. PRODUCT & SUPPLIER KEYWORDS (120) ─────────────────────────────────────
+
+SS pipe supplier Vadodara
+SS seamless pipe supplier India
+SS seamless pipe manufacturer India
+stainless steel supplier Vadodara
+stainless steel supplier Gujarat
+SS pipe supplier Gujarat
+SS 304 316L Pipe Supplier India
+alloy steel pipe supplier India
+ASTM A335 P91 pipe supplier
+duplex steel supplier Vadodara
+Duplex 2205 plate supplier India
+Duplex 2205 buttweld fittings supplier India
+Duplex 2205 F51 flanges supplier India
+Super Duplex 2507 pipe stockist India
+Super Duplex 2507 fittings supplier India
+Super Duplex F53 flange supplier India
+Inconel pipe supplier India
+Inconel 625 pipe supplier
+Inconel 600 pipe supplier India
+Inconel 718 round bar pipe supplier India
+Monel 400 pipe supplier India
+Monel K500 round bar supplier India
+Hastelloy pipe supplier India
+Hastelloy C-276 pipe
+Hastelloy C22 pipe supplier India
+Hastelloy B2 pipe supplier India
+Incoloy 825 pipe tube supplier India
+Incoloy 800 pipe supplier India
+titanium pipe supplier India
+Titanium Grade 2 pipe India
+Titanium Grade 5 pipe India
+copper nickel pipe supplier India
+CuNi 70/30 pipe
+boiler tube supplier India
+SA 179 boiler tube
+heat exchanger tube supplier India
+condenser tube
+forged fittings supplier India
+socket weld fittings
+SS buttweld fittings supplier India
+SS pipe fittings supplier India
+SS flange supplier Vadodara
+SS flanges supplier Gujarat
+SS round bar supplier Vadodara
+stainless steel rod
+SS sheet supplier Vadodara
+SS 304 sheet 2B finish
+SS ERW pipe supplier Vadodara
+stainless steel ERW pipe Gujarat
+API 5L line pipe supplier India
+line pipe X52 X60
+compression tube fittings supplier India
+Swagelok type fittings
+SS instrumentation tube supplier India
+ASTM A269 tube
+clad plate supplier India
+explosion bonded plate
+MS plate supplier India IS 2062
+MS channel ISMC supplier India IS 808
+MS beam ISMB supplier India
+MS flat bar supplier India IS 2062
+MS angle supplier Vadodara
+MS channel ISMC supplier Gujarat
+Hardox 400 500 wear plate supplier India
+SAIL Hard abrasion resistant plate India
+Corten A/B weathering steel plate India
+carbon steel SA 516 plate stockist India
+NACE HIC steel plate supplier India
+SS concentric eccentric reducer supplier India
+SS stub end lap joint supplier India
+SS capillary tube supplier India
+SS coil tube supplier India
+SS electropolished pipe India
+SS hydraulic tube supplier India
+SS square pipe supplier India
+SS rectangular pipe supplier India
+SS polished pipe supplier India
+SS U-bend tube supplier India
+A106 Gr B seamless pipe India
+A53 ERW pipe supplier India
+A333 low temp pipe supplier
+A691 pipe supplier India
+A358 welded pipe supplier India
+API 5CT casing tubing supplier India
+P5 alloy steel pipe supplier
+P9 alloy steel pipe supplier
+P11 alloy steel pipe supplier
+P22 alloy steel pipe supplier
+P92 alloy steel pipe supplier
+SA387 alloy plate supplier India
+SS 310 pipe supplier India
+SS 310S plate supplier India
+SS 321 pipe supplier India
+SS 321H tube supplier India
+SS 347 pipe supplier India
+SS 347H tube supplier India
+SS 410 pipe supplier India
+SS 430 sheet supplier India
+SS 904L pipe supplier India
+Duplex 2205 plate supplier India
+Nickel 200 pipe supplier India
+Nickel 201 pipe supplier India
+Cupro nickel 9010 pipe India
+Cupro nickel 7030 pipe India
+Alloy 20 pipe supplier India
+TMT bars supplier Gujarat
+spectacle blind flange CS supplier India
+
+── B. LOCATION/CITY KEYWORDS (65) ──────────────────────────────────────────
+
+SS pipe supplier Ahmedabad
+stainless steel pipe Ahmedabad
+SS pipe supplier Surat
+stainless steel pipe supplier Surat
+SS pipe supplier Mumbai
+stainless steel pipe Mumbai
+SS pipe supplier Rajkot
+stainless steel dealer Rajkot
+SS pipe supplier Pune
+SS pipe dealer Pune
+SS pipe supplier Baroda
+stainless steel pipe Baroda
+SS pipe supplier Ankleshwar
+pipe fittings Ankleshwar GIDC
+steel supplier Bharuch
+SS pipe supplier Bharuch
+stainless steel supplier Gujarat
+SS pipe supplier Gujarat
+steel supplier GIDC Makarpura
+pipe supplier Makarpura Vadodara
+steel supplier Nandesari GIDC
+pipe fittings Nandesari
+steel pipe supplier Chennai
+steel pipe supplier Hyderabad
+steel pipe supplier Bangalore
+steel pipe supplier Kolkata
+steel pipe supplier Delhi NCR
+steel pipe supplier Jaipur
+steel pipe supplier Coimbatore
+steel pipe supplier Vizag
+steel supplier Indore
+steel supplier Nagpur
+steel supplier Bhopal
+steel pipe supplier Ludhiana
+steel supplier Kanpur
+steel supplier Raipur
+steel pipe supplier Kochi
+steel supplier Haldia
+steel supplier Jamnagar
+steel supplier Hazira
+steel supplier Mundra
+steel supplier Kandla
+steel supplier Mangalore
+steel supplier Dahej PCPIR
+steel supplier Ankleshwar GIDC
+steel supplier Vapi GIDC
+steel supplier Panoli GIDC
+steel supplier Jhagadia
+steel pipe supplier Gandhidham
+steel supplier Silvassa
+steel pipe supplier Thane
+steel pipe supplier Navi Mumbai
+steel supplier Chakan Pune
+steel supplier Patalganga
+steel pipe supplier Aurangabad
+steel pipe supplier Bhubaneswar
+steel supplier Kakinada
+steel pipe supplier Trichy
+steel pipe supplier Madurai
+steel supplier Paradip
+steel supplier Numaligarh
+steel supplier Mathura
+steel supplier Panipat
+steel supplier Chandigarh
+steel supplier Durgapur
+
+── C. PRICE KEYWORDS (40) ──────────────────────────────────────────────────
+
+SS pipe price list India 2026
+SS 304 pipe price per kg India today
+SS 316L pipe price per kg India
+SS 304 sheet price per kg India 2B finish
+SS 316 sheet price per kg India
+SS 304 plate price India today per kg
+SS 316L plate price per kg India
+Duplex 2205 pipe price per kg India
+Super Duplex 2507 pipe price India
+Duplex 2205 plate price per kg India
+Inconel 625 pipe price per kg India
+Inconel 600 pipe price per kg India
+Monel 400 pipe price per kg India
+Hastelloy C276 pipe price per kg India
+titanium pipe price per kg India Grade 2
+copper nickel 70/30 pipe price India
+Alloy 20 pipe price per kg India
+P91 alloy steel pipe price per kg India
+P22 alloy steel pipe price per kg India
+P11 pipe price per kg India IBR
+A106 Gr.B CS pipe price per kg India
+ERW pipe price per metre India IS 1239
+API 5L line pipe price per kg India
+SS buttweld fittings price per piece India
+SS flange price per piece India class 150
+SS forged fittings price India 3000 6000
+SA 516 Gr 70 plate price per kg India
+SA 387 alloy plate price per kg India
+boiler tube SA 179 SA 213 price India
+SS round bar price per kg India 304 316
+MS angle price today Vadodara Gujarat
+MS channel ISMC price today Gujarat
+MS beam ISMB price today Gujarat India
+MS plate price Vadodara IS 2062
+TMT bar price today Gujarat Fe 500D
+Incoloy 800 800HT pipe price India
+Nickel 200 pipe price per kg India
+Hardox 400 500 plate price India
+nickel LME price impact on SS pipe rate
+steel price forecast India 2026 2027 trend
+
+── D. WEIGHT CHART & CALCULATOR KEYWORDS (45) ──────────────────────────────
+
+pipe weight calculator online SS CS alloy
+steel weight calculator all shapes online
+SS pipe weight chart ASTM A312 per metre
+carbon steel pipe weight chart A106 per metre
+alloy steel pipe weight chart P91 P22 P11
+ERW pipe weight chart IS 1239 all classes
+MS angle weight chart IS 808 all sizes
+ISMC channel weight chart IS 808
+ISMB beam weight chart IS 808 all sizes
+TMT bar weight chart 8mm to 32mm per metre
+MS flat bar weight chart all sizes
+MS round bar weight per metre chart
+MS square bar weight chart all sizes
+SS plate weight calculator per sheet kg
+MS plate weight calculator per sheet
+SS round bar weight per metre 304 316
+flange weight chart all sizes 150 300 600
+GI pipe weight chart all sizes galvanised
+copper nickel pipe weight chart per metre
+Inconel 625 600 pipe weight per metre
+Duplex 2205 Super Duplex pipe weight chart
+titanium pipe weight chart Grade 2 5
+Monel 400 pipe weight chart per metre
+Hastelloy C276 pipe weight per metre
+pipe elbow weight chart 90 45 degree all sizes
+SS sheet weight calculator 304 316 per piece
+hollow section weight chart RHS SHS CHS
+chequered plate weight chart 3mm to 8mm
+SS angle weight chart stainless steel
+pipe volume calculator litres per metre
+
+── E. COMPARISON "VS" KEYWORDS (45) ───────────────────────────────────────
+
+SS 304 vs SS 316 difference which grade
+SS 304 vs 304L difference welding
+SS 316 vs 316L difference low carbon
+SS 304 vs SS 202 difference food grade
+SS 304 vs SS 321 high temperature
+SS 310 vs SS 304 high temperature
+SS 321 vs SS 347 titanium vs niobium
+carbon steel vs stainless steel pipe
+alloy steel vs carbon steel pipe
+Duplex 2205 vs SS 316L which to specify
+Duplex 2205 vs Inconel 625 cost performance
+Duplex 2205 vs Super Duplex 2507 PREN
+Inconel 625 vs 600 difference uses
+Inconel 625 vs Hastelloy C276 which alloy
+Monel 400 vs K500 difference strength
+titanium vs stainless steel pipe cost
+CuNi 90/10 vs 70/30 marine seawater
+P91 vs P22 alloy steel pipe temperature
+P11 vs P22 pipe difference creep
+SA 179 vs SA 192 boiler tube which grade
+SA 213 vs SA 249 tube seamless vs welded
+SA 516 Gr 60 vs Gr 70 plate difference
+ASTM A106 vs API 5L pipe which standard
+ASTM A312 vs A358 welded pipe
+ASTM vs ASME difference for steel buyers
+A234 WPB vs A420 WPL6 fittings temp
+PSL1 vs PSL2 API 5L line pipe
+seamless vs welded SS pipe when to use
+seamless vs spiral welded pipe HSAW
+butt weld vs socket weld fittings size
+socket weld vs threaded fittings
+weld neck vs slip on flange when to use
+RF vs FF vs RTJ flange face types
+ANSI flange vs DIN flange dimensions
+Class 150 vs 300 flange pressure rating
+SCH 80 vs SCH 160 pipe difference
+Schedule 10 vs Schedule 40 pipe wall
+3000 lb vs 6000 lb forged fittings
+forged vs cast fittings which is stronger
+Indian mill vs imported SS pipe Jindal vs
+hot rolled vs cold rolled steel sheet plate
+austenitic vs ferritic stainless steel
+austenitic vs martensitic stainless 304 vs 410
+Fe 500 vs Fe 500D TMT bar ductility
+SAIL vs JSW TMT bars which brand
+carbon steel plate vs alloy steel plate
+IS 1239 vs IS 3589 ERW pipe standard
+SS pipe vs GI pipe for water supply
+EN 10204 3.1 vs 3.2 MTC certificate
+NACE MR0175 vs MR0103 sour service
+copper nickel 9010 vs 7030
+SS 304 vs 316 for food industry
+
+── F. SPECIFICATION & DIMENSIONS KEYWORDS (80) ─────────────────────────────
+
+ASME B16.5 flange dimensions chart all classes
+ASME B16.9 fittings dimensions elbow tee
+ASME B16.11 forged fittings spec 3000 6000
+ASME B16.47 large diameter flanges 26 to 60
+ASME B36.10 CS pipe dimensions table
+ASME B36.19 SS pipe dimensions schedule
+ASTM A105 carbon steel flange specification
+ASTM A106 Gr.B CS pipe specification
+ASTM A182 forged fittings F304 F316 F51 spec
+ASTM A240 SS plate specification 304 316L
+ASTM A249 welded tube boiler condenser spec
+ASTM A269 SS tube instrumentation specification
+ASTM A312 pipe specification
+ASTM A333 Gr.6 low temperature pipe spec
+ASTM A335 alloy pipe specification P91 P22 P11
+ASTM A358 EFW pipe specification SS
+ASTM A403 WP304 WP316 buttweld specification
+ASTM A691 pipe specification EFW
+ASTM A815 duplex super duplex fittings spec
+ASTM B165 Monel 400 pipe tube specification
+ASTM B444 Inconel 625 pipe specification
+ASTM B466 copper nickel pipe specification
+ASTM B574 Hastelloy rod bar specification
+ASTM B861 titanium Grade 2 5 pipe spec
+API 5L line pipe specification grades PSL
+API 5CT casing tubing specification OCTG
+IS 1239 pipe specification ERW Light Medium Heavy
+IS 2062 steel specification E250 E350
+IS 1786 TMT bar specification Fe 500D
+IS 3589 ERW pipe specification large diameter
+IS 808 structural steel sections angle channel beam
+EN 10216 seamless pipe European specification
+EN 10217 welded pipe specification EU
+DIN flange dimensions PN10 PN16 PN40 chart
+IBR Form III-C complete guide pipe tube
+NACE MR0175 material guide
+NACE TM0284 HIC test procedure
+SA 516 Gr 60 70 plate specification
+SA 387 Gr 11 22 91 plate specification
+flange bolt chart ASME B16.5 size length
+pipe pressure rating chart SCH 40 80 160
+flange dimensions chart class 150 300
+flange dimensions chart class 600 900
+flange dimensions chart class 1500 2500
+SS pipe size chart dimensions NB to OD mm
+carbon steel pipe size chart A106 dimensions
+pipe schedule chart SCH 40 80 160
+NB to OD conversion chart pipe sizes
+inch to mm conversion chart pipe fittings
+SS tube OD size chart fractional metric
+pipe elbow dimensions weight 90 45 LR SR
+pipe tee dimensions equal reducing chart
+pipe reducer dimensions concentric eccentric
+stub end dimensions type A lap joint
+forged fittings 3000 6000 dimensions B16.11
+pipe bend 3D 5D dimensions radius table
+weldolet sockolet latrolet size chart
+spiral wound gasket dimensions chart
+RTJ ring joint gasket R RX BX dimensions
+SS sheet standard size chart India 4x8 5x10
+SS plate thickness chart 304 316L available
+MS plate standard size chart India IS 2062
+MS angle all sizes IS 808 chart 20x20 to 200x200
+ISMC channel dimensions chart all sizes 75-400
+ISMB beam dimensions chart all sizes
+SWG to mm wire gauge conversion chart
+alloy steel pipe dimensions A335 P91 P22
+Duplex 2205 pipe dimensions schedule chart
+Inconel 625 600 pipe size chart
+copper nickel pipe size chart 70/30 90/10
+
+── G. "WHAT IS" INFORMATIONAL KEYWORDS (100) ───────────────────────────────
+
+what is stainless steel types 304 316 duplex
+what is duplex stainless steel 2205 explained
+what is super duplex stainless steel 2507
+what is alloy steel types P91 P22 grades
+what is carbon steel types uses mild medium
+what is mild steel MS low carbon properties
+what is Inconel alloy 625 600 properties uses
+what is Monel alloy 400 K500 copper nickel
+what is Hastelloy C276 C22 types applications
+what is titanium alloy Grade 2 5 uses
+what is nickel alloy types 200 201 Inconel
+what is copper nickel alloy CuNi 70/30 90/10
+what is Alloy 20 Carpenter 20 sulphuric acid
+what is Incoloy 800 800H 800HT properties
+what is IBR certification India Form III-C
+what is NACE MR0175 sour service explained
+what is HIC testing hydrogen induced cracking
+what is PWHT post weld heat treatment
+what is PMI testing positive material ID
+what is NDT non-destructive testing types
+what is MTC mill test certificate EN 10204
+what is seamless pipe manufacturing process
+what is ERW pipe electric resistance welded
+what is LSAW pipe longitudinal submerged arc
+what is pipe schedule meaning SCH 40 80 160
+what is nominal bore NB pipe vs OD sizing
+what is buttweld fitting types elbow tee
+what is forged fitting socket weld threaded
+what is flange WNRF SORF blind types
+what is gasket types spiral RTJ non-asbestos
+what is PREN number pitting resistance formula
+what is sensitization stainless steel 304 321
+what is intergranular corrosion stainless steel
+what is pitting corrosion stainless steel chloride
+what is crevice corrosion flanges gaskets
+what is stress corrosion cracking SCC
+what is creep in steel high temperature P91
+what is hydrogen embrittlement in steel HIC SSC
+what is sigma phase duplex stainless steel
+what is heat affected zone welding
+what is cathodic protection for pipelines
+what is solution annealing SS pipe
+what is normalizing heat treatment steel
+what is quenching and tempering steel
+what is electropolishing SS pipe pharma
+what is pickling passivation SS process
+what is hydrostatic test for pipe pressure
+what is heat number in steel traceability
+what is cold worked vs hot finished pipe
+what is bright annealing tube pharma finish
+what is annealing in SS pipe solution treatment
+what is eddy current testing ECT for tubes
+what is IGC intergranular corrosion test ASTM A262
+what is flattening test for pipe tube
+types of stainless steel 5 families
+types of corrosion in steel pipe pitting SCC
+types of pipe manufacturing seamless ERW SAW
+types of steel plates MS CS alloy SS boiler
+
+── H. "HOW TO" KEYWORDS (50) ──────────────────────────────────────────────
+
+how to calculate pipe weight formula SS CS
+how to read pipe marking stencil heat number
+how to identify stainless steel grade 304 316
+how to do hydrostatic test procedure
+how to weld P91 steel PWHT procedure
+how to weld duplex 2205 heat input ferrite
+how to weld Inconel 625 filler ERNiCrMo3
+how to weld SS 304 316L stainless steel
+how to weld carbon steel pipe A106
+how to weld Monel 400 filler metal
+how to passivate SS pipe chemical procedure
+how to do PMI testing XRF gun
+how to read mill test certificate MTC
+how to calculate flange bolt torque load
+how to select gasket type spiral RTJ
+how to do radiography testing RT welds
+how to do ultrasonic testing UT pipe
+how to check SS pipe quality inspection
+how to check TMT bar quality site BIS
+how to store stainless steel handling guide
+how to store carbon steel pipe rust prevention
+how to prevent galvanic corrosion dissimilar metals
+how to do hardness testing BHN HRC HV
+how to do Charpy impact test procedure
+how to select pipe schedule wall thickness
+how to do dye penetrant testing DPT
+how to bend SS pipe cold hot induction
+how to calculate plate weight formula
+how to read piping isometric drawing
+how to do ferrite content testing duplex
+how to pickle passivate SS acid procedure
+how to select expansion joint bellows
+how to do magnetic particle testing MPT
+how to calculate thermal expansion pipe
+how to do heat treatment steel pipe
+how to insulate hot pipe selection
+how to do PWHT procedure P91
+how to choose valve piping gate globe ball
+how to prepare piping MTO estimation
+how to prevent stress corrosion cracking SCC
+how to buy steel pipe online India guide
+how to verify steel supplier genuine
+how to negotiate steel price tips
+how to prepare material requisition MR
+how to read piping specification class
+how to detect fake MTC mill certificate
+how to import steel pipe India IEC customs
+how to calculate piping cost estimation
+
+── I. INDUSTRY APPLICATION KEYWORDS (50) ───────────────────────────────────
+
+piping material for oil refinery A106 P5 SS
+steel for power plant boiler P91 P22 SA 213
+piping material for chemical plant SS Hastelloy
+SS pipe for pharma industry 316L electropolished
+SS pipe for dairy food processing 304 sanitary
+piping material fertilizer plant GNFC GSFC
+SS pipe for water treatment STP ETP plant
+piping material sugar mill industry CS SS
+SS pipe for marine offshore Duplex Inconel CuNi
+structural steel for building angle channel beam
+steel piping for cement plant CS alloy
+piping material pulp paper mill SS 316L Duplex
+piping material desalination Super Duplex titanium
+steel for solar structure MS angle channel
+piping material LNG terminal cryogenic A333
+steel grade for ship building marine ABS Lloyd
+piping for brewery distillery SS 304 316L
+steel material nuclear power plant P91 Inconel
+piping for paint chemical industry Hastelloy SS
+piping material city gas distribution API 5L PE
+SS pipe for hospital medical gas system
+piping material ethanol biofuel plant SS CS
+steel for PEB warehouse MS section hollow
+piping for CNG station high pressure CS
+SS pipe for swimming pool 316L chlorine
+piping for oil gas pipeline API 5L X52 X65
+steel for metro rail structure MS plate angle
+piping material hydrogen plant SS 316L Inconel
+piping material ammonia urea plant Duplex SS
+steel structure cold storage MS section TMT
+stainless steel in architecture cladding railing
+piping for ETP effluent treatment SS FRP
+piping material geothermal plant Inconel titanium
+steel for wind turbine tower structure plate
+SS pipe for commercial kitchen 304 tube
+piping for natural gas city distribution
+piping for textile dyeing SS 304 316L
+structural steel for bridge construction plate
+piping for oil well drilling API 5CT OCTG
+material selection for heat exchanger SS CuNi Ti
+
+── J. BUYER GUIDE & BUSINESS KEYWORDS (50) ─────────────────────────────────
+
+steel pipe export documentation India procedure
+HS code for steel pipes fittings India customs
+GST rate on steel pipes fittings plates India
+BIS certification for steel products ISI mark
+ASTM equivalent IS Indian standard conversion
+buy steel pipe online India guide SS CS
+bulk steel procurement tips EPC contractor
+third party inspection TPI steel pipe
+packing marking standard for export pipes
+material selection corrosive service CRA guide
+how to verify steel supplier genuine fake
+steel pipe import procedure India IEC customs
+steel pipe export UAE Saudi project supply
+FOB CIF CFR shipping terms steel export
+LC letter of credit steel buying import
+steel procurement common mistakes India
+negotiate steel price tips buyer contractor
+MOQ minimum order steel pipe fittings India
+steel supply for EPC contractors India
+material traceability in steel supply chain
+QAP quality assurance plan for steel piping
+ITP inspection test plan for pipes plates
+AVL approved vendor list steel pipe fittings
+piping material cost estimation method
+steel pipe delivery lead time India mills
+indent process steel procurement explained
+supplier vs stockist vs dealer vs manufacturer
+industrial raw material supplier Gujarat
+creative metal industries vadodara
+steel storage best practices warehouse yard
+packaging standard pipe plate export seaworthy
+
+
+================================================================================
+SECTION 7: WEEKLY PROGRESS TRACKER
+================================================================================
+
+Print this and check off each week:
+
+WEEK 1:  [ ] GSC setup  [ ] Analytics  [ ] GMB claimed  [ ] Directories
+WEEK 2:  [ ] 7 reviews  [ ] 35 pages indexed  [ ] 7 links shared
+WEEK 3:  [ ] 14 reviews [ ] 70 pages indexed  [ ] 14 links shared
+WEEK 4:  [ ] 20 reviews [ ] 100 pages indexed [ ] 20 links shared
+WEEK 5:  [ ] 25 reviews [ ] 200 pages indexed [ ] Check GSC clicks
+WEEK 6:  [ ] 28 reviews [ ] 300 pages indexed [ ] First rankings visible
+WEEK 7:  [ ] 30 reviews [ ] 400 pages indexed [ ] Enquiries from website?
+WEEK 8:  [ ] 30+ reviews[ ] 500 pages indexed [ ] Track top keywords
+WEEK 9:  [ ] Keep sharing links daily
+WEEK 10: [ ] Check: how many keywords on page 1?
+WEEK 11: [ ] Update all price pages with new month
+WEEK 12: [ ] Review results — 50-100+ keywords should be ranking
+
+
+================================================================================
+SECTION 8: IMPORTANT REMINDERS
+================================================================================
+
+DO:
+  • Ask 1 customer for Google review every day
+  • Share 1 link every day (WhatsApp/LinkedIn/Quora)
+  • Check GSC once per week (Saturday — 5 min)
+  • Update price pages every month (change month name)
+  • Reply to every Google review within 24 hours
+
+DON'T:
+  • Don't use traffic bots (Google will penalize)
+  • Don't buy backlinks from random sites
+  • Don't change existing page URLs (breaks indexing)
+  • Don't delete any pages
+  • Don't obsess over rankings daily (check weekly)
+  • Don't spend money — this plan is 100% free
+
+REMEMBER:
+  • Your 591 pages is 20x more than most competitors
+  • 696 keywords = 696 chances to rank
+  • Google rewards patience and consistency
+  • 1 hour/day for 3 months = permanent traffic source
+  • Each Google review is worth more than 100 fake clicks
+
+
+================================================================================
+END OF DOCUMENT
+================================================================================

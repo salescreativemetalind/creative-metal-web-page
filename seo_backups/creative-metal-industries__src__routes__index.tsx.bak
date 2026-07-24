@@ -1347,7 +1347,7 @@ function ContactForm() {
                 <div class="contact-item-icon">☎️</div>
                 <div class="contact-item-text">
                   <strong>Office Tel</strong>
-                  <a href="tel:+912654107230">+91 265 410723</a>
+                  <a href="tel:+912654107230">+91 9998280619</a>
                 </div>
               </div>
             </address>
@@ -1534,7 +1534,7 @@ function Footer() {
             </div>
             <div style="margin-top:1.5rem">
               <h4>Contact</h4>
-              <p style="font-size:0.82rem;color:var(--muted);margin-bottom:0.3rem">Tel: +91 265 410723</p>
+              <p style="font-size:0.82rem;color:var(--muted);margin-bottom:0.3rem">Tel: +91 9998280619</p>
               <p style="font-size:0.82rem;color:var(--muted)">Loha Bhavan, Lakkadpitha Rd,<br/>Vadodara 390001, Gujarat</p>
             </div>
           </div>

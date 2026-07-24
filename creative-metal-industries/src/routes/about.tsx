@@ -159,7 +159,7 @@ export default function AboutPage() {
             <div class="pillar-card" style="flex-direction:column;gap:0.75rem;padding:2rem">
               <h4 style="font-size:1rem;margin-bottom:0.25rem">📍 Registered Office</h4>
               <p style="font-size:0.9rem;color:var(--charcoal)">F-3, 1st Floor, Loha Bhavan,<br/>Lakkadpitha Road,<br/>Vadodara — 390001, Gujarat, India</p>
-              <p style="font-size:0.85rem;color:var(--muted)">Tel: +91 265 410723</p>
+              <p style="font-size:0.85rem;color:var(--muted)">Tel: +91 9998280619</p>
             </div>
             <div class="pillar-card" style="flex-direction:column;gap:0.75rem;padding:2rem">
               <h4 style="font-size:1rem;margin-bottom:0.25rem">🏭 Godown &amp; Yard</h4>
