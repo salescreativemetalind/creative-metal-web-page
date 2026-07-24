@@ -18,7 +18,7 @@ const ABOUT_SCHEMA = JSON.stringify({
 
 export default function AboutPage() {
   return (
-    <PageLayout active="About Us">
+    <PageLayout active="About Us" breadcrumb={[{ label: "Home", href: "/" }, { label: "About Us" }]}>
       <Title>About Creative Metal Industries | Steel Supplier Since 2012 | Vadodara</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Creative Metal Industries — Vadodara's leading steel supplier since 2012. Manufacturer, stockist and exporter of SS, CS, alloy steel pipes, plates, fittings, flanges and exotic alloys. 1092 sq.mtr warehouse at GIDC Makarpura. IBR, NACE, MTC certified. Export to 50+ countries." />
@@ -33,6 +33,7 @@ export default function AboutPage() {
       <Meta name="twitter:description" content="Vadodara's leading steel supplier since 2012. SS, CS, alloy steel pipes, plates, fittings. IBR, NACE, MTC certified. 50+ countries." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={ABOUT_SCHEMA} />
+      <script type="application/ld+json" innerHTML={JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"About Us","item":"https://www.creativemetalind.com/about"}]})} />
 
       <section class="page-hero">
         <div class="container">

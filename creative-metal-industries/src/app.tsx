@@ -14,6 +14,15 @@ export default function App() {
           <Meta name="viewport" content="width=device-width, initial-scale=1" />
           <Meta name="robots" content="index, follow" />
 
+          {/* ── Google Search Console Verification ────────────── */}
+          {/* Replace YOUR_VERIFICATION_CODE with actual code from GSC */}
+          <Meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
+
+          {/* ── Google Analytics (GA4) ────────────────────────── */}
+          {/* Replace G-XXXXXXXXXX with your actual GA4 Measurement ID */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" />
+          <script innerHTML={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');`} />
+
           {/* ── Favicons ──────────────────────────────────────── */}
           <Link rel="icon" type="image/x-icon"        href="/favicon.ico" />
           <Link rel="icon" type="image/png" sizes="16x16"  href="/favicon-16x16.png" />

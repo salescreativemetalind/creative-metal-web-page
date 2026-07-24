@@ -522,6 +522,7 @@ export default defineConfig({
 
         // NEW SUPPLIER LANDING PAGES (July 2026 — Short Keyword Strategy)
         "/monel-pipe-supplier-india",
+        "/monel-400-pipe-supplier-india",
         "/hastelloy-pipe-supplier-india",
         "/titanium-pipe-supplier-india",
         "/boiler-tube-supplier-india",
@@ -529,15 +530,31 @@ export default defineConfig({
         "/ss-round-bar-supplier-vadodara",
         "/forged-fittings-supplier-india",
         "/copper-nickel-pipe-supplier-india",
+        "/ss-instrumentation-tube-supplier-india",
+        "/compression-fittings-supplier-india",
+        "/api-5l-line-pipe-supplier-india",
+        "/clad-plate-supplier-india",
+        "/ss-erw-pipe-supplier-vadodara",
+        "/incoloy-800-pipe-supplier-india",
+        "/ms-angle-channel-supplier-vadodara",
+        "/ss-sheet-supplier-vadodara",
 
         // LOCATION PAGES — Gujarat & Nearby Cities
         "/ss-pipe-supplier-ahmedabad",
         "/ss-pipe-supplier-surat",
         "/ss-pipe-supplier-mumbai",
         "/ss-pipe-supplier-rajkot",
-        "/ss-pipe-supplier-bharuch",
         "/ss-pipe-supplier-pune",
+        "/ss-pipe-supplier-ankleshwar",
+        "/ss-pipe-supplier-baroda",
+        "/steel-supplier-bharuch",
         "/stainless-steel-supplier-gujarat",
+        "/steel-supplier-gidc-makarpura",
+        "/steel-supplier-nandesari-gidc",
+
+        // LEGAL & UTILITY PAGES
+        "/privacy-policy",
+        "/terms",
 
         // INDUSTRY PAGES
         "/refinery-pipe-supplier-india",

@@ -509,6 +509,31 @@ export default function ProductsPage() {
       <Meta name="twitter:description" content="Complete steel size and weight charts — MS Angle IS 808, ISMC, ISMB, ERW Pipe IS 1239, TMT Bars IS 1786, SS Pipe ASTM A312. Creative Metal Industries, Vadodara." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
 
+      <script type="application/ld+json" innerHTML={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Steel Products — Creative Metal Industries",
+        "description": "Complete catalog of SS, Carbon Steel, Alloy Steel and Exotic Alloy pipes, plates, fittings, flanges and structural steel.",
+        "url": "https://www.creativemetalind.com/products",
+        "numberOfItems": 6,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "SS Pipes & Tubes", "url": "https://www.creativemetalind.com/ss-seamless-pipe-supplier-india" },
+          { "@type": "ListItem", "position": 2, "name": "Carbon & Alloy Steel Pipes", "url": "https://www.creativemetalind.com/alloy-steel-pipe-supplier-india" },
+          { "@type": "ListItem", "position": 3, "name": "Pipe Fittings & Flanges", "url": "https://www.creativemetalind.com/ss-buttweld-fittings-supplier-india" },
+          { "@type": "ListItem", "position": 4, "name": "Steel Plates & Sheets", "url": "https://www.creativemetalind.com/carbon-steel-sa516-plate-stockist-india" },
+          { "@type": "ListItem", "position": 5, "name": "Structural Steel", "url": "https://www.creativemetalind.com/tmt-bars-supplier-gujarat" },
+          { "@type": "ListItem", "position": 6, "name": "Exotic Alloys", "url": "https://www.creativemetalind.com/inconel-pipe-supplier-india" }
+        ]
+      })} />
+      <script type="application/ld+json" innerHTML={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.creativemetalind.com" },
+          { "@type": "ListItem", "position": 2, "name": "Products", "item": "https://www.creativemetalind.com/products" }
+        ]
+      })} />
+
       <header class="pt-header">
         <div class="container">
           <a href="/" class="pt-back">← Back to Home</a>

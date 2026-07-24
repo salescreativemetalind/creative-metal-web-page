@@ -296,7 +296,7 @@ export default function ReviewsPage() {
   };
 
   return (
-    <PageLayout active="">
+    <PageLayout active="" breadcrumb={[{ label: "Home", href: "/" }, { label: "Customer Reviews" }]}>
       <Title>Customer Reviews | Creative Metal Industries Vadodara</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Read verified customer reviews for Creative Metal Industries, Vadodara — SS pipes, plates, fittings and flanges supplier. Share your experience." />
