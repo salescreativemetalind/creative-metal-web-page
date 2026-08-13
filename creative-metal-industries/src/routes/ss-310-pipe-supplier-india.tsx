@@ -29,7 +29,7 @@ export default function Ss310PipeSupplierIndia() {
     <>
       <Title>SS 310 Pipe Supplier India | High Temperature | 310S | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="SS 310 pipe supplier India — ASTM A312 TP310S seamless & welded pipes for high temperature furnace service up to 1100°C. Sizes 1/2\" to 24\". Ready stock Vadodara. Call +91 99982 80619." />
+      <Meta name="description" content={"SS 310 pipe supplier India — ASTM A312 TP310S seamless & welded pipes for high temperature furnace service up to 1100°C. Sizes 1/2\" to 24\". Ready stock Vadodara. Call +91 99982 80619."} />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-310-pipe-supplier-india" />
       <Meta property="og:title" content="SS 310 Pipe Supplier India | High Temperature Stainless Steel | CMI" />
       <Meta property="og:type" content="website" />
