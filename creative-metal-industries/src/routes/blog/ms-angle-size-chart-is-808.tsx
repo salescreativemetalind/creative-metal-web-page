@@ -37,7 +37,7 @@ export default function MSAngleSizeChartIs808() {
       <Meta property="og:title" content="MS Angle Size Chart IS 808 — 20x20 to 200x200 | CMI India" />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="MS angle all sizes IS 808 chart 20x20 to 200x200. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/ms-angle-size-chart-is-808" />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/ms-angle-size-chart-is-808&quot; />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

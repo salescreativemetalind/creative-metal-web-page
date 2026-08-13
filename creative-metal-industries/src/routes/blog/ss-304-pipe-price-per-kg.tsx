@@ -35,7 +35,7 @@ export default function SS304PipePricePerKg() {
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="SS 304 pipe price per kg India today — seamless & welded rates. Updated July 2026. Get best price from CMI Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-304-pipe-price-per-kg" />
-      <Meta property="og:title" content="SS 304 Pipe Price Per Kg India | CMI 2026" />
+      <Meta property="og:title" content="SS 304 Pipe Price Per Kg India | CMI 2026&quot; />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="SS 304 pipe price per kg India today — seamless & welded rates. Updated July 2026. Get best price from CMI Vadodara. Call +91 99982 80619." />
       <Meta property="og:url" content="https://www.creativemetalind.com/blog/ss-304-pipe-price-per-kg" />

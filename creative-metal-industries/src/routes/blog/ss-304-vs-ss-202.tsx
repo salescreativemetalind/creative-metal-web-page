@@ -38,7 +38,7 @@ export default function SS304VsSS202() {
       <Meta property="og:title" content="SS 304 vs SS 202 — Difference & Food Grade Selection | CM..." />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="SS 304 vs SS 202 difference food grade. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/ss-304-vs-ss-202" />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/ss-304-vs-ss-202&quot; />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

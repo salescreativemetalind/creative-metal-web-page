@@ -38,7 +38,7 @@ export default function CopperNickel9010Vs7030() {
       <Meta property="og:title" content="Copper Nickel 90/10 vs 70/30 — Marine Selection | CMI India" />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="CuNi 90/10 vs 70/30 marine seawater. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/copper-nickel-9010-vs-7030" />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/copper-nickel-9010-vs-7030&quot; />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

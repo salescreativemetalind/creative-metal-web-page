@@ -37,7 +37,7 @@ export default function HowToWeldMonel400() {
       <Meta property="og:title" content="How to Weld Monel 400 — Filler Metal & Procedure | CMI India" />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="Monel 400 welding procedure filler metal. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/how-to-weld-monel-400" />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/how-to-weld-monel-400&quot; />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

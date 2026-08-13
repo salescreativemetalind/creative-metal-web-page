@@ -37,7 +37,7 @@ export default function WhatIsAlloy20() {
       <Meta property="og:title" content="What is Alloy 20 (Carpenter 20)? — Sulphuric Acid Grade |..." />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="what is Alloy 20 Carpenter 20 sulphuric acid. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/what-is-alloy-20" />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/what-is-alloy-20&quot; />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

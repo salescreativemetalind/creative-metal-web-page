@@ -34,7 +34,7 @@ export default function AsmeB1647LargeFlanges() {
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="ASME B16.47 large diameter flanges 26 to 60. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/asme-b16-47-large-flanges" />
-      <Meta property="og:title" content="ASME B16.47 Large Flanges — 26" to 60" Dimensions | CMI I..." />
+      <Meta property="og:title" content="ASME B16.47 Large Flanges — 26&quot; to 60&quot; Dimensions | CMI I..." />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="ASME B16.47 large diameter flanges 26 to 60. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
       <Meta property="og:url" content="https://www.creativemetalind.com/blog/asme-b16-47-large-flanges" />

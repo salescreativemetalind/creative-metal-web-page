@@ -37,7 +37,7 @@ export default function HowToWeldSS304316() {
       <Meta property="og:title" content="How to Weld SS 304 & 316L Stainless Steel | CMI India" />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="how to weld SS 304 316L stainless steel. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/how-to-weld-ss-304-316" />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/how-to-weld-ss-304-316&quot; />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
