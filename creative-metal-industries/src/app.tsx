@@ -52,6 +52,23 @@ export default function App() {
           <Meta name="twitter:description" content="Leading supplier of SS pipes, plates, fittings and flanges in Vadodara, Gujarat." />
           <Meta name="twitter:image"       content="https://www.creativemetalind.com/og-image.jpg" />
 
+          {/* ── JSON-LD WebSite schema (Sitelinks Search Box in Google) ── */}
+          <script type="application/ld+json" innerHTML={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Creative Metal Industries",
+            "alternateName": "CMI",
+            "url": "https://www.creativemetalind.com",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://www.creativemetalind.com/products?q={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          })} />
+
           {/* ── JSON-LD Organization schema (Google Knowledge Panel logo) ── */}
           <script type="application/ld+json" innerHTML={JSON.stringify({
             "@context": "https://schema.org",
@@ -84,7 +101,87 @@ export default function App() {
               "https://www.creativemetalind.com",
               "https://x.com/CreativeMetal",
               "https://t.me/Creativemetal_Industries",
-              "https://www.indiamart.com/creativemetalindustries/"
+              "https://www.indiamart.com/creativemetalindustries/",
+              "https://www.justdial.com/Vadodara/Creative-Metal-Industries"
+            ]
+          })} />
+
+          {/* ── JSON-LD LocalBusiness schema (Google Maps, Local Pack, Knowledge Panel) ── */}
+          <script type="application/ld+json" innerHTML={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://www.creativemetalind.com/#localbusiness",
+            "name": "Creative Metal Industries",
+            "alternateName": "CMI Vadodara",
+            "description": "Leading supplier and stockist of stainless steel pipes, carbon steel plates, alloy steel products, pipe fittings, flanges, and structural steel in Vadodara, Gujarat. Serving oil & gas, chemical, pharma, power, and construction industries since 2012.",
+            "url": "https://www.creativemetalind.com",
+            "telephone": "+91-9998280619",
+            "email": "info@creativemetalind.com",
+            "image": "https://www.creativemetalind.com/og-image.jpg",
+            "logo": "https://www.creativemetalind.com/logo_cmi.png",
+            "priceRange": "₹₹₹",
+            "currenciesAccepted": "INR",
+            "paymentAccepted": "Cash, Bank Transfer, NEFT, RTGS, Cheque, LC",
+            "foundingDate": "2012",
+            "numberOfEmployees": {
+              "@type": "QuantitativeValue",
+              "minValue": 5,
+              "maxValue": 10
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
+              "addressLocality": "Vadodara",
+              "addressRegion": "Gujarat",
+              "postalCode": "390001",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 22.2964094,
+              "longitude": 73.205506
+            },
+            "hasMap": "https://maps.google.com/?cid=1860157997206534869",
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "09:00",
+                "closes": "19:00"
+              }
+            ],
+            "areaServed": [
+              { "@type": "City", "name": "Vadodara" },
+              { "@type": "State", "name": "Gujarat" },
+              { "@type": "Country", "name": "India" }
+            ],
+            "knowsAbout": [
+              "Stainless Steel Pipes",
+              "Carbon Steel Plates",
+              "Alloy Steel Pipes",
+              "Pipe Fittings",
+              "Flanges",
+              "Duplex Steel",
+              "Super Duplex Steel",
+              "Inconel",
+              "Monel",
+              "Hastelloy",
+              "Titanium Pipes",
+              "TMT Bars",
+              "Structural Steel"
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": "1",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "sameAs": [
+              "https://www.indiamart.com/creativemetalindustries/",
+              "https://www.justdial.com/Vadodara/Creative-Metal-Industries",
+              "https://x.com/CreativeMetal",
+              "https://t.me/Creativemetal_Industries"
             ]
           })} />
 
