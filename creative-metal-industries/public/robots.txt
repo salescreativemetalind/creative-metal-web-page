@@ -23,4 +23,4 @@ Disallow: /admin/
 Disallow: /__data.json
 
 # ── Sitemap ────────────────────────────────────────────────────
-Sitemap: https://www.creativemetalind.com/sitemap.xml
+Sitemap: https://www.creativemetalind.com/sitemap-index.xml

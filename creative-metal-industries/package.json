@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start"
+    "start": "vinxi start",
+    "ping": "node ping-google.mjs",
+    "postbuild": "node ping-google.mjs"
   },
   "dependencies": {
     "@solidjs/meta": "^0.29.4",
