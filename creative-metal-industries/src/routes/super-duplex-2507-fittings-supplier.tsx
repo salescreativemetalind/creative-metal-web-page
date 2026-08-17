@@ -34,7 +34,7 @@ export default function SuperDuplex2507FittingsSupplier() {
     <>
       <Title>Super Duplex 2507 Fittings Supplier India | S32750 | ASTM A815 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Super Duplex 2507 fittings supplier India — ASTM A815 UNS S32750. Elbows, tees, reducers, caps. PREN ~42. Sizes 1/2\" to 24\". Ready stock Vadodara. Call +91 99982 80619." />
+      <Meta name="description" content="Super Duplex 2507 fittings supplier India — ASTM A815 UNS S32750. Elbows, tees, reducers, caps. PREN ~42. Sizes 1/2&quot; to 24&quot;. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/super-duplex-2507-fittings-supplier" />
       <Meta property="og:title" content="Super Duplex 2507 Fittings Supplier India | S32750 | ASTM A815 | CMI" />
       <Meta property="og:type" content="website" />

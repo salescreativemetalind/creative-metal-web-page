@@ -38,7 +38,7 @@ export default function Inconel625VsInconel600() {
       <Meta property="og:title" content="Inconel 625 vs 600 — Difference & Applications | CMI India" />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="Inconel 625 vs 600 difference uses. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/inconel-625-vs-inconel-600&quot; />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/inconel-625-vs-inconel-600" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

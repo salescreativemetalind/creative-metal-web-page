@@ -30,7 +30,7 @@ export default function SuperDuplex2507PipeSupplier() {
     <>
       <Title>Super Duplex 2507 Pipe Stockist India | S32750 | ASTM A790 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Super Duplex 2507 pipe stockist India — ASTM A790 UNS S32750 seamless & welded. PREN ~42, 550 MPa yield. Sizes 1/2\" to 12\". Ready stock Vadodara. Call +91 99982 80619." />
+      <Meta name="description" content="Super Duplex 2507 pipe stockist India — ASTM A790 UNS S32750 seamless & welded. PREN ~42, 550 MPa yield. Sizes 1/2&quot; to 12&quot;. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/super-duplex-2507-pipe-supplier" />
       <Meta property="og:title" content="Super Duplex 2507 Pipe Stockist India | S32750 ASTM A790 | CMI" />
       <Meta property="og:type" content="website" />

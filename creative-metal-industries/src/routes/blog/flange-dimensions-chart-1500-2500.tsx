@@ -37,7 +37,7 @@ export default function FlangeDimensionsChart15002500() {
       <Meta property="og:title" content="Flange Dimensions Chart — Class 1500 & 2500 | CMI India" />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="flange dimensions chart class 1500 2500. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/flange-dimensions-chart-1500-2500&quot; />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/flange-dimensions-chart-1500-2500" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

@@ -29,7 +29,7 @@ export default function AboutPage() {
       <Meta property="og:url" content="https://www.creativemetalind.com/about" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="About Creative Metal Industries | Steel Supplier Since 2012&quot; />
+      <Meta name="twitter:title" content="About Creative Metal Industries | Steel Supplier Since 2012" />
       <Meta name="twitter:description" content="Vadodara's leading steel supplier since 2012. SS, CS, alloy steel pipes, plates, fittings. IBR, NACE, MTC certified. 50+ countries." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={ABOUT_SCHEMA} />

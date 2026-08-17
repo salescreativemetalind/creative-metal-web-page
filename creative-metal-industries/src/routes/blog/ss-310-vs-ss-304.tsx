@@ -38,7 +38,7 @@ export default function SS310VsSS304() {
       <Meta property="og:title" content="SS 310 vs SS 304 — High Temperature Performance | CMI India" />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="SS 310 vs SS 304 high temperature. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/ss-310-vs-ss-304&quot; />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/ss-310-vs-ss-304" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

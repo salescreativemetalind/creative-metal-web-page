@@ -38,7 +38,7 @@ export default function SteelPriceForecastIndia2026() {
       <Meta property="og:title" content="Steel Price Forecast India 2026-27 | CMI" />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="Steel price forecast India 2026-2027 — SS, CS, alloy trends. Expert analysis by CMI Vadodara. Plan procurement. Call +91 99982 80619." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/steel-price-forecast-india-2026&quot; />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/steel-price-forecast-india-2026" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

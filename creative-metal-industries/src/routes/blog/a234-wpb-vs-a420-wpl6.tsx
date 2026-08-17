@@ -38,7 +38,7 @@ export default function A234WpbVsA420Wpl6() {
       <Meta property="og:title" content="A234 WPB vs A420 WPL6 — Fittings Temperature Range | CMI ..." />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="A234 WPB vs A420 WPL6 fittings temp. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/a234-wpb-vs-a420-wpl6&quot; />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/a234-wpb-vs-a420-wpl6" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

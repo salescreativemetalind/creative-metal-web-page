@@ -38,7 +38,7 @@ export default function Is1239VsIs3589() {
       <Meta property="og:title" content="IS 1239 vs IS 3589 — ERW Pipe Standards Compared | CMI India" />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="IS 1239 vs IS 3589 ERW pipe standard. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/is-1239-vs-is-3589&quot; />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/is-1239-vs-is-3589" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

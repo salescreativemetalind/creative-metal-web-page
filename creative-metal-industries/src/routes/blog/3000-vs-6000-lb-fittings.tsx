@@ -28,7 +28,7 @@ const FAQ_SCHEMA = JSON.stringify({
   ]
 });
 
-export default function 3000Vs6000LbFittings() {
+export default function Fittings3000Vs6000Lb() {
   return (
     <>
       <Title>3000# vs 6000# Forged Fittings — Pressure Difference | CM...</Title>

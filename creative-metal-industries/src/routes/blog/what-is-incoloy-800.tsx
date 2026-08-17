@@ -37,7 +37,7 @@ export default function WhatIsIncoloy800() {
       <Meta property="og:title" content="What is Incoloy 800/800H/800HT? — Properties & Uses | CMI..." />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="what is Incoloy 800 800H 800HT properties. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/what-is-incoloy-800&quot; />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/what-is-incoloy-800" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

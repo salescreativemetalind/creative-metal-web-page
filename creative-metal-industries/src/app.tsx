@@ -4,6 +4,13 @@ import { FileRoutes } from "@solidjs/start/router";
 import { Suspense } from "solid-js";
 import "./app.css";
 
+// ── Public site IDs, injected at build time ──────────────────
+// Both are public values (they ship in the HTML), not secrets.
+// Set them in .env — see .env.example. When unset, the related
+// tags are omitted entirely rather than emitting broken placeholders.
+const GA4_ID = import.meta.env.VITE_GA4_ID;
+const GSC_VERIFICATION = import.meta.env.VITE_GSC_VERIFICATION;
+
 export default function App() {
   return (
     <Router
@@ -15,13 +22,19 @@ export default function App() {
           <Meta name="robots" content="index, follow" />
 
           {/* ── Google Search Console Verification ────────────── */}
-          {/* Replace YOUR_VERIFICATION_CODE with actual code from GSC */}
-          <Meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
+          {/* Set VITE_GSC_VERIFICATION in .env to emit this tag */}
+          {GSC_VERIFICATION && (
+            <Meta name="google-site-verification" content={GSC_VERIFICATION} />
+          )}
 
           {/* ── Google Analytics (GA4) ────────────────────────── */}
-          {/* Replace G-XXXXXXXXXX with your actual GA4 Measurement ID */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" />
-          <script innerHTML={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');`} />
+          {/* Set VITE_GA4_ID in .env (e.g. G-ABC1234XYZ) to enable */}
+          {GA4_ID && (
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`} />
+          )}
+          {GA4_ID && (
+            <script innerHTML={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA4_ID}');`} />
+          )}
 
           {/* ── Favicons ──────────────────────────────────────── */}
           <Link rel="icon" type="image/x-icon"        href="/favicon.ico" />

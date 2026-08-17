@@ -38,7 +38,7 @@ export default function SS321VsSS347() {
       <Meta property="og:title" content="SS 321 vs SS 347 — Titanium vs Niobium Stabilised | CMI I..." />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="SS 321 vs SS 347 titanium vs niobium. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/ss-321-vs-ss-347&quot; />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/ss-321-vs-ss-347" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

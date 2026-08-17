@@ -37,7 +37,7 @@ export default function HowToWeldDuplex2205() {
       <Meta property="og:title" content="How to Weld Duplex 2205 — Heat Input & Ferrite Control | ..." />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="Duplex 2205 welding guide heat input ferrite. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/how-to-weld-duplex-2205&quot; />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/how-to-weld-duplex-2205" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

@@ -34,7 +34,7 @@ export default function SuperDuplex2507FlangesSupplier() {
     <>
       <Title>Super Duplex F53 Flange Supplier India | S32750 | ASTM A182 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Super Duplex F53 flange supplier India — ASTM A182 F53 UNS S32750. Weld Neck, Blind, RTJ, Spectacle Blind. Class 150–2500. Sizes 1/2\" to 24\". Ready stock Vadodara. Call +91 99982 80619." />
+      <Meta name="description" content="Super Duplex F53 flange supplier India — ASTM A182 F53 UNS S32750. Weld Neck, Blind, RTJ, Spectacle Blind. Class 150–2500. Sizes 1/2&quot; to 24&quot;. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/super-duplex-2507-flanges-supplier" />
       <Meta property="og:title" content="Super Duplex F53 Flange Supplier India | S32750 ASTM A182 | CMI" />
       <Meta property="og:type" content="website" />

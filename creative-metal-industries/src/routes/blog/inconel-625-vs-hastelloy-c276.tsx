@@ -38,7 +38,7 @@ export default function Inconel625VsHastelloyC276() {
       <Meta property="og:title" content="Inconel 625 vs Hastelloy C276 — Which Alloy to Choose? | ..." />
       <Meta property="og:type" content="article" />
       <Meta property="og:description" content="Inconel 625 vs Hastelloy C276 which alloy. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
-      <Meta property="og:url" content="https://www.creativemetalind.com/blog/inconel-625-vs-hastelloy-c276&quot; />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/inconel-625-vs-hastelloy-c276" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <script type="application/ld+json" innerHTML={SCHEMA} />

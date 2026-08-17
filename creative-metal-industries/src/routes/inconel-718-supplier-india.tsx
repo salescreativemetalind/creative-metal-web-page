@@ -30,7 +30,7 @@ export default function Inconel718SupplierIndia() {
     <>
       <Title>Inconel 718 Round Bar & Pipe Supplier India | N07718 Age Hardenable | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Inconel 718 round bar & pipe supplier India — ASTM B637/B444 N07718 age-hardenable superalloy. Aerospace, gas turbines, oil & gas. Bar 6-300mm, Pipe 1/2\"-8\". Ready stock. Call +91 99982 80619." />
+      <Meta name="description" content="Inconel 718 round bar & pipe supplier India — ASTM B637/B444 N07718 age-hardenable superalloy. Aerospace, gas turbines, oil & gas. Bar 6-300mm, Pipe 1/2&quot;-8&quot;. Ready stock. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/inconel-718-supplier-india" />
       <Meta property="og:title" content="Inconel 718 Supplier India | N07718 Round Bar & Pipe | CMI" />
       <Meta property="og:type" content="website" />
