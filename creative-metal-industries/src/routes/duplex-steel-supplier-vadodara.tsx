@@ -123,7 +123,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function DuplexSteelSupplierVadodara() {
   return (
     <>
-      <Title>Duplex Steel Supplier Vadodara | P91 Alloy Steel | IBR Certified Pipes Gujarat | CMI</Title>
+      <Title>Duplex Steel Supplier Vadodara | IBR Certified Pipes | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Leading duplex steel supplier in Vadodara — Duplex 2205, Super Duplex 2507, Alloy Steel P91/P22/P11 pipes with IBR Form III-C. NACE, MTC certified. Call +91 99982 80619." />
       <Meta name="keywords" content="duplex steel supplier Vadodara, alloy steel P91 pipe stockist Gujarat, IBR certified pipe supplier Gujarat, super duplex 2507 Vadodara, duplex 2205 pipe Gujarat, P91 pipe IBR Gujarat" />

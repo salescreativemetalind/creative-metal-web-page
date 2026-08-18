@@ -117,7 +117,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function SsPipeSupplierVadodara() {
   return (
     <>
-      <Title>SS Pipe Supplier Vadodara | SS 304, 316L, Duplex 2205 | Creative Metal Industries</Title>
+      <Title>SS Pipe Supplier Vadodara | SS 304, 316L, Duplex 2205 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta
         name="description"

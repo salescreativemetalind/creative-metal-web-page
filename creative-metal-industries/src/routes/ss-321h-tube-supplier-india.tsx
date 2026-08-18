@@ -28,7 +28,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Ss321hTubeSupplierIndia() {
   return (
     <>
-      <Title>SS 321H Boiler Tube Supplier India | High Carbon Stabilized | ASTM A213 | CMI</Title>
+      <Title>SS 321H Boiler Tube Supplier India | ASTM A213 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="SS 321H boiler tube supplier India — ASTM A213 TP321H high carbon titanium stabilized seamless tubes for superheaters & boilers up to 870°C. OD 12.7-114.3mm. IBR certified. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-321h-tube-supplier-india" />

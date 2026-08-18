@@ -28,7 +28,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Ss347hTubeSupplierIndia() {
   return (
     <>
-      <Title>SS 347H Tube Supplier India | Boiler Grade Niobium Stabilized | ASTM A213 | CMI</Title>
+      <Title>SS 347H Boiler Tube Supplier India | ASTM A213 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="SS 347H tube supplier India — ASTM A213 TP347H niobium stabilized seamless boiler & superheater tubes. High carbon for creep strength up to 870°C. OD 12.7-101.6mm. IBR certified. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-347h-tube-supplier-india" />

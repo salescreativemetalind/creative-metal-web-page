@@ -116,7 +116,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function CarbonSteelPipeFittingsVadodara() {
   return (
     <>
-      <Title>Carbon Steel Pipe Fittings Flanges Supplier Vadodara | A106 Gr.B | ERW | CMI</Title>
+      <Title>Carbon Steel Fittings &amp; Flanges Supplier Vadodara | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Carbon steel pipe supplier Vadodara — ASTM A106 Gr.B seamless pipe, ERW pipe IS 1239, CS buttweld fittings A234 WPB, carbon steel flanges A105. IBR, MTC certified. Same-day dispatch. Creative Metal Industries." />
       <Meta name="keywords" content="carbon steel plate supplier Vadodara, pipe fittings flanges supplier Vadodara, ERW pipe supplier Vadodara, API 5L pipe Gujarat, carbon steel fittings Vadodara, SA 516 Gr 70 plate Vadodara" />

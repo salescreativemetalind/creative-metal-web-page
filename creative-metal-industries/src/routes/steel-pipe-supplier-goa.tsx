@@ -87,6 +87,9 @@ const SCHEMA = JSON.stringify({
       offers: {
         "@type": "AggregateOffer",
         priceCurrency: "INR",
+        lowPrice: "180",
+        highPrice: "15000",
+        offerCount: "5000+",
         availability: "https://schema.org/InStock",
         seller: { "@type": "Organization", name: "Creative Metal Industries" },
       },
@@ -114,7 +117,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function SteelPipeSupplierGoa() {
   return (
     <>
-      <Title>Steel Pipe Supplier in Goa | SS, CS, Alloy Pipes | Creative Metal Industries</Title>
+      <Title>Steel Pipe Supplier in Goa | SS, CS, Alloy Pipes | CMI</Title>
       <Meta
         name="description"
         content="Leading steel pipe supplier in Goa. SS pipes, CS pipes, pharma-grade SS tubes, alloy steel pipes for Zuari Agro, Mormugao Port, Goa Shipyard, pharma & mining. 1-2 day delivery from Vadodara."

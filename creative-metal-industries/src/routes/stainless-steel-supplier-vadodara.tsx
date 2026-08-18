@@ -147,7 +147,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function StainlessSteelSupplierVadodara() {
   return (
     <>
-      <Title>Stainless Steel Supplier Vadodara | SS Pipe Manufacturer Gujarat | Creative Metal Industries</Title>
+      <Title>Stainless Steel Supplier Vadodara | SS Pipes Gujarat | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Top stainless steel supplier in Vadodara Gujarat — Creative Metal Industries. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges. IBR, NACE, MTC certified. GIDC Makarpura Vadodara. Call +91 99982 80619." />
       <Meta name="keywords" content="stainless steel supplier Vadodara, stainless steel pipe manufacturer Vadodara, stainless steel supplier Vadodara Gujarat, SS 304 supplier Vadodara, SS 316L supplier Gujarat, duplex steel supplier Vadodara" />
