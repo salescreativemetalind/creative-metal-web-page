@@ -10,7 +10,7 @@ const FAQ_SCHEMA = '{"@context":"https://schema.org","@type":"FAQPage","mainEnti
 
 export default function SteelSupplierGidcMakarpura() {
   return (<>
-    <Title>Steel Supplier GIDC Makarpura, Vadodara | Creative Metal Industries</Title>
+    <Title>Steel Supplier GIDC Makarpura, Vadodara | CMI</Title>
     <Meta name="robots" content="index, follow, max-image-preview:large" />
     <Meta name="description" content="steel supplier GIDC Makarpura, pipe supplier Makarpura Vadodara. Immediate / Walk-in delivery from Vadodara. All grades SS, CS, alloy steel pipes, fittings & flanges. Call +91 99982 80619." />
     <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-gidc-makarpura" />

@@ -30,7 +30,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function CompressionFittingsSupplierIndia() {
   return (
     <>
-      <Title>Compression Fittings Supplier India | Swagelok Type | SS 316 Tube Fittings | CMI</Title>
+      <Title>Compression Fittings Supplier India | Swagelok Type | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Compression fittings supplier India — Swagelok/Parker type double ferrule tube fittings. SS 316, SS 304, Alloy 625, Monel 400, Duplex 2205. 1/8&quot; to 1&quot; OD, up to 10000 psi. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/compression-fittings-supplier-india" />

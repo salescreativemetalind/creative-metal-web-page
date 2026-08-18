@@ -27,7 +27,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Ss904lPipeSupplierIndia() {
   return (
     <>
-      <Title>SS 904L Pipe Supplier India | Acid Resistant | Super Austenitic | CMI</Title>
+      <Title>SS 904L Pipe Supplier India | Acid Resistant | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="SS 904L pipe supplier India — ASTM A312 TP904L super austenitic seamless & welded pipes. Acid resistant for H2SO4, H3PO4, seawater. Sizes 1/2&quot; to 12&quot;. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-904l-pipe-supplier-india" />

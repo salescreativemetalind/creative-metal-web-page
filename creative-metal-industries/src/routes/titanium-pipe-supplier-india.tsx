@@ -154,7 +154,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function TitaniumPipeSupplierIndia() {
   return (
     <>
-      <Title>Titanium Pipe Supplier India | Grade 2 & Grade 5 | ASTM B861 | Creative Metal Industries</Title>
+      <Title>Titanium Pipe Supplier India | Grade 2 &amp; Grade 5 | CMI</Title>
       <Meta name="description" content="India's leading titanium pipe supplier. Grade 1, 2, 5, 7, 9 seamless pipes per ASTM B861. Lightweight corrosion-proof piping for chemical, desalination, aerospace. Sizes 1/2&quot; to 12&quot; NB. Price Rs 5,000-25,000/kg. Ready stock Vadodara." />
       <Meta name="keywords" content="titanium pipe supplier india, titanium grade 2 pipe, titanium grade 5 pipe, Ti-6Al-4V pipe, ASTM B861 pipe india, titanium tube supplier, titanium seamless pipe, CP titanium pipe, titanium condenser tube" />
       <Meta property="og:title" content="Titanium Pipe Supplier India | Grade 2 & Grade 5 | CMI" />

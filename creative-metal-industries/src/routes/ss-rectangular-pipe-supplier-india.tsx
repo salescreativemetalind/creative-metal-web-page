@@ -29,7 +29,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SsRectangularPipeSupplierIndia() {
   return (
     <>
-      <Title>SS Rectangular Pipe Supplier India | ASTM A554 304 316L | CMI</Title>
+      <Title>SS Rectangular Pipe Supplier India | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="India's leading SS rectangular pipe supplier. 304, 316L, 202 to ASTM A554/A312. Sizes 20x10 to 200x100mm. Mirror, hairline, mill finish. Structural, architectural, furniture. Ready stock Vadodara. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-rectangular-pipe-supplier-india" />

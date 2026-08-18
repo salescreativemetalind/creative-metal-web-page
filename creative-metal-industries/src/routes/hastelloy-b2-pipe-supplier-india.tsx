@@ -28,7 +28,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function HasteloyB2PipeSupplierIndia() {
   return (
     <>
-      <Title>Hastelloy B2 Pipe Supplier India | N10665 Reducing Acid CRA | HCl Service | CMI</Title>
+      <Title>Hastelloy B2 Pipe Supplier India | HCl Service | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Hastelloy B2 pipe supplier India — ASTM B622 N10665 seamless pipes. 69Ni-28Mo composition for HCl and H2SO4 reducing acids. Sizes 1/2&quot; to 6&quot; NB. Ready stock. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/hastelloy-b2-pipe-supplier-india" />

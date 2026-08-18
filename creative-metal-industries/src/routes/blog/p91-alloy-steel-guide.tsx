@@ -11,7 +11,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function P91AlloyGuide() {
   return (
     <>
-      <Title>P91 Alloy Steel Guide — Power Plant Piping Standard | CMI India</Title>
+      <Title>P91 Alloy Steel Guide | Power Plant Piping Standard | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="P91 alloy steel (9Cr-1Mo-V-Nb) — creep properties, PWHT requirements, welding challenges, IBR compliance. The critical grade for ultra-supercritical power plants. Engineering material supplier India." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/p91-alloy-steel-guide" />

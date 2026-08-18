@@ -29,7 +29,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SsElectropolishedPipeIndia() {
   return (
     <>
-      <Title>SS Electropolished Pipe India | 316L EP Ra 0.4um | ASTM A270 | CMI</Title>
+      <Title>SS Electropolished Pipe India | 316L EP Ra 0.4um | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="India's leading SS electropolished pipe supplier. 316L EP pipe to ASTM A270/ASME BPE. Ra<=0.4um and Ra<=0.25um. OD 12.7-114.3mm. Pharmaceutical, biotech, semiconductor. Complete EP systems with fittings. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-electropolished-pipe-india" />

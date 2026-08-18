@@ -29,7 +29,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SsHydraulicTubeSupplierIndia() {
   return (
     <>
-      <Title>SS Hydraulic Tube Supplier India | ASTM A269 316L Duplex | CMI</Title>
+      <Title>SS Hydraulic Tube Supplier India | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Leading SS hydraulic tubing supplier India. 304L, 316L, Duplex 2205 to ASTM A269/EN10216-5. OD 6-42mm, working pressures to 1379 bar. Offshore, subsea, instrumentation. Bright annealed, precision tolerances. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-hydraulic-tube-supplier-india" />

@@ -30,7 +30,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function P22AlloySteelPipeSupplier() {
   return (
     <>
-      <Title>P22 Alloy Steel Pipe Supplier | ASTM A335 P22 | 2.25Cr-1Mo | IBR | CMI</Title>
+      <Title>P22 Alloy Steel Pipe Supplier | ASTM A335 P22 | IBR | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="P22 alloy steel pipe supplier India — ASTM A335 P22 (2.25Cr-1Mo) seamless pipe for main steam, HRSG and power plant service. Sizes 1/2 inch to 24 inch, SCH 40–XXS. IBR Form III-C certified. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/p22-alloy-steel-pipe-supplier" />

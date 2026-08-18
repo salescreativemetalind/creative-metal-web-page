@@ -29,7 +29,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function A106GrBSeamlessPipeIndia() {
   return (
     <>
-      <Title>A106 Gr.B Seamless Pipe India | ASTM A106 Grade B | High Temp | IBR | CMI</Title>
+      <Title>A106 Gr.B Seamless Pipe India | ASTM A106 Grade B | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="A106 Gr.B seamless pipe supplier India — ASTM A106 Grade B carbon steel pipe for high-temperature service, power plants and refineries. Sizes 1/2 inch to 24 inch, SCH 40–XXS. IBR available. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/a106-gr-b-seamless-pipe-india" />

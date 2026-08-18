@@ -74,7 +74,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function SA516PlatePage() {
   return (
     <>
-      <Title>SA 516 Plate Stockist India | Gr.60/70 | Creative Metal Industries</Title>
+      <Title>SA 516 Plate Stockist India | Gr.60/70 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Leading carbon steel SA 516 Grade 60/70 plate stockist in India. Boiler quality, NACE/HIC, IBR certified. 6mm-200mm thickness. Ready stock Vadodara. Call +91 99982 80619." />
       <Meta name="keywords" content="SA 516 plate stockist India, carbon steel SA 516 Gr 70, SA 516 Gr 60 plate, boiler quality plate India, pressure vessel plate stockist, NACE HIC plate India, IBR plate supplier, carbon steel plate Vadodara" />

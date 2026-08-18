@@ -30,7 +30,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function P5AlloySteelPipeSupplier() {
   return (
     <>
-      <Title>P5 Alloy Steel Pipe Supplier | ASTM A335 P5 | 5Cr-0.5Mo | IBR | CMI</Title>
+      <Title>P5 Alloy Steel Pipe Supplier | ASTM A335 P5 | IBR | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="P5 alloy steel pipe supplier India — ASTM A335 P5 (5Cr-0.5Mo) seamless pipe for refinery heaters and crude distillation. Sizes 1/2 inch to 24 inch, SCH 40–XXS. IBR Form III-C certified. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/p5-alloy-steel-pipe-supplier" />

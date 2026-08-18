@@ -28,7 +28,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function MonelK500SupplierIndia() {
   return (
     <>
-      <Title>Monel K500 Round Bar Supplier India | N05500 Age Hardenable | Marine | CMI</Title>
+      <Title>Monel K500 Round Bar Supplier India | Marine | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Monel K500 round bar supplier India — ASTM B865 N05500 age-hardenable nickel-copper alloy. Marine, oil & gas, non-magnetic. Bar 6-300mm dia. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/monel-k500-supplier-india" />

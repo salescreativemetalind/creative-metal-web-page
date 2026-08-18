@@ -10,7 +10,7 @@ const FAQ_SCHEMA = '{"@context":"https://schema.org","@type":"FAQPage","mainEnti
 
 export default function StainlessSteelSupplierGujarat() {
   return (<>
-    <Title>Steel Supplier Gujarat (State-wide) | Creative Metal Industries</Title>
+    <Title>Steel Supplier Gujarat (State-wide) | CMI</Title>
     <Meta name="robots" content="index, follow, max-image-preview:large" />
     <Meta name="description" content="stainless steel supplier Gujarat, SS pipe supplier Gujarat. 1-3 days across Gujarat delivery from Vadodara. All grades SS, CS, alloy steel pipes, fittings & flanges. Call +91 99982 80619." />
     <Link rel="canonical" href="https://www.creativemetalind.com/stainless-steel-supplier-gujarat" />

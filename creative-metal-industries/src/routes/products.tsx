@@ -493,7 +493,7 @@ export default function ProductsPage() {
   const [tab, setTab] = createSignal("ms-angle");
   return (
     <>
-      <Title>Steel Products &amp; Weight Charts | Pipes, Plates, Fittings | CMI Vadodara</Title>
+      <Title>Steel Products &amp; Weight Charts | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Steel products with size and weight charts — SS pipe, MS angle, ISMC channel, ISMB beam, ERW pipe, TMT bars, SS plate. Complete specifications. Steel supplier Vadodara. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/products" />

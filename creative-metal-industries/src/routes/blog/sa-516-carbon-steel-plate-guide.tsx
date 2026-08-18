@@ -11,7 +11,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SA516PlateGuide() {
   return (
     <>
-      <Title>SA 516 Carbon Steel Plate Guide — Grades 60, 65, 70 | CMI India</Title>
+      <Title>SA 516 Carbon Steel Plate Guide | Grades 60, 65, 70 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to SA 516 carbon steel plate — Gr.60/65/70, chemical composition, mechanical properties, pressure vessel applications, NACE HIC testing. Carbon steel SA 516 plate stockist India." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/sa-516-carbon-steel-plate-guide" />

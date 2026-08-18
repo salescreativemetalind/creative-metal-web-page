@@ -145,7 +145,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function ForgedFittingsSupplierIndia() {
   return (
     <>
-      <Title>Forged Fittings Supplier India | Socket Weld & Threaded | ASME B16.11 | Creative Metal Industries</Title>
+      <Title>Forged Fittings Supplier India | ASME B16.11 | CMI</Title>
       <Meta name="description" content="India's trusted forged fittings supplier. Socket weld &amp; threaded fittings in SS 304/316L, CS A105, alloy F11/F22/F91, duplex. ASME B16.11, Class 2000# to 9000#. Sizes 1/8&quot; to 4&quot; NB. Ready stock Vadodara. Call +91 99982 80619." />
       <Meta name="keywords" content="forged fittings supplier india, socket weld fittings india, threaded fittings supplier, ASTM A182 fittings, ASME B16.11 fittings, SS forged fittings, A105 fittings, 3000 lb fittings, 6000 lb fittings india" />
       <Meta property="og:title" content="Forged Fittings Supplier India | Socket Weld & Threaded | CMI" />

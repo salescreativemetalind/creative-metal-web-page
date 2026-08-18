@@ -11,7 +11,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function MtcGuide() {
   return (
     <>
-      <Title>How to Read a Mill Test Certificate (MTC) — Guide | CMI India</Title>
+      <Title>How to Read a Mill Test Certificate (MTC) | Guide | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to reading Mill Test Certificates — EN 10204 3.1 vs 3.2, heat numbers, chemical composition, mechanical properties, impact tests. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/mill-test-certificate-guide" />

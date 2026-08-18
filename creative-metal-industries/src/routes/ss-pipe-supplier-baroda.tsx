@@ -10,7 +10,7 @@ const FAQ_SCHEMA = '{"@context":"https://schema.org","@type":"FAQPage","mainEnti
 
 export default function SsPipeSupplierBaroda() {
   return (<>
-    <Title>SS Pipe Supplier Baroda (Vadodara) | Creative Metal Industries</Title>
+    <Title>SS Pipe Supplier Baroda (Vadodara) | CMI</Title>
     <Meta name="robots" content="index, follow, max-image-preview:large" />
     <Meta name="description" content="SS pipe supplier Baroda, stainless steel pipe Baroda. Same day / Walk-in delivery from Vadodara. All grades SS, CS, alloy steel pipes, fittings & flanges. Call +91 99982 80619." />
     <Link rel="canonical" href="https://www.creativemetalind.com/ss-pipe-supplier-baroda" />

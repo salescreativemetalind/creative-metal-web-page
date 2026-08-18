@@ -30,7 +30,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function CladPlateSupplierIndia() {
   return (
     <>
-      <Title>Clad Plate Supplier India | Explosion Bonded Plate | ASTM A263/A265 | CMI</Title>
+      <Title>Clad Plate Supplier India | Explosion Bonded Plate | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Clad plate supplier India — explosion bonded &amp; roll bonded bimetallic plates. ASTM A263 (SS clad), A265 (Ni alloy clad). SS 304L/316L, Inconel 625, Monel, Titanium clad on SA 516 Gr.70. 20-200mm. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/clad-plate-supplier-india" />

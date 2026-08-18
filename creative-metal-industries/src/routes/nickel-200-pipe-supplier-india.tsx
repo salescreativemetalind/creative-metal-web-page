@@ -145,7 +145,7 @@ const FAQ_SCHEMA = {
 export default function Nickel200PipeSupplierIndia() {
   return (
     <>
-      <Title>Nickel 200 Pipe Supplier India | UNS N02200 Seamless Pipe | ASTM B161 | Creative Metal Industries</Title>
+      <Title>Nickel 200 Pipe Supplier India | ASTM B161 | CMI</Title>
       <Meta name="description" content="Leading Nickel 200 pipe supplier in India. UNS N02200 seamless pipes per ASTM B161, tubes per ASTM B163. 99.6% pure nickel pipes for caustic soda, NaOH handling. Sizes 1/2&quot; to 8&quot; NB. Price Rs 3,000-7,500/kg. Free delivery from Vadodara." />
       <Meta name="keywords" content="nickel 200 pipe supplier india, nickel 200 seamless pipe, UNS N02200 pipe, ASTM B161 nickel pipe, nickel 200 tube supplier, nickel 200 pipe price india, nickel 200 caustic soda pipe, nickel pipe manufacturer vadodara, pure nickel pipe supplier" />
       <Meta property="og:title" content="Nickel 200 Pipe Supplier India | UNS N02200 | Creative Metal Industries" />

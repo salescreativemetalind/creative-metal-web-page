@@ -30,7 +30,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Api5ctCasingTubingIndia() {
   return (
     <>
-      <Title>API 5CT Casing and Tubing Supplier India | J55 K55 N80 L80 P110 | OCTG | CMI</Title>
+      <Title>API 5CT Casing and Tubing Supplier India | OCTG | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="API 5CT casing and tubing supplier India. J55, K55, N80, L80, P110 OCTG. Casing 4.5 to 13.375 inch, tubing 2.375 to 4.5 inch. STC/LTC/BTC/EUE connections. Oil well drilling. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/api-5ct-casing-tubing-india" />

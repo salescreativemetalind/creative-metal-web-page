@@ -145,7 +145,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function CopperNickelPipeSupplierIndia() {
   return (
     <>
-      <Title>Copper Nickel Pipe Supplier India | CuNi 90/10 & 70/30 | ASTM B466 | Creative Metal Industries</Title>
+      <Title>Copper Nickel Pipe Supplier India | CuNi 90/10 &amp; 70/30 | CMI</Title>
       <Meta name="description" content="India's leading copper nickel pipe supplier. CuNi 90/10 (C70600) &amp; 70/30 (C71500) seamless pipes per ASTM B466. Marine-grade seawater piping for Navy, offshore, desalination. Sizes 1/2&quot; to 24&quot; NB. Price Rs 1,500-6,500/kg. Ready stock Vadodara." />
       <Meta name="keywords" content="copper nickel pipe supplier india, CuNi 90/10 pipe, CuNi 70/30 pipe, C70600 pipe india, C71500 pipe supplier, ASTM B466 pipe, seawater pipe india, marine pipe supplier, cupro nickel pipe india" />
       <Meta property="og:title" content="Copper Nickel Pipe Supplier India | CuNi 90/10 & 70/30 | CMI" />

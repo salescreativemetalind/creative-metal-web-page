@@ -12,7 +12,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SsSheetPlateGuide() {
   return (
     <>
-      <Title>Stainless Steel Sheet & Plate — Grades, Finishes & Sizes | CMI</Title>
+      <Title>Stainless Steel Sheet &amp; Plate | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Stainless steel sheet and plate guide — SS 304, 304L, 316, 316L, 310, 317, 410 grades, 2B and No.4 finishes, sizes and thickness. SS sheet & plate supplier Vadodara. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-sheet-plate-guide" />

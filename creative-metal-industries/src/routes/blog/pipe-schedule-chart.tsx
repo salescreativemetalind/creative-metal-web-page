@@ -11,7 +11,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function PipeScheduleChart() {
   return (
     <>
-      <Title>Pipe Schedule Chart — SCH 40, 80, 160 Weight & Thickness | CMI</Title>
+      <Title>Pipe Schedule Chart | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete pipe schedule chart — SCH 5S, 10S, 40, 80, 160, XXS wall thickness and weight per metre for all sizes. Weight calculation formula. Steel stockist Vadodara. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/pipe-schedule-chart" />

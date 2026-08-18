@@ -202,7 +202,7 @@ const BREADCRUMB_SCHEMA = JSON.stringify({
 export default function MetalTradingPage() {
   return (
     <PageLayout active="" breadcrumb={[{ label: "Home", href: "/" }, { label: "Metal Trading" }]}>
-      <Title>Metal Trading Company in Vadodara | Creative Metal Industries</Title>
+      <Title>Metal Trading Company in Vadodara | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta
         name="description"

@@ -11,7 +11,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Duplex2205Guide() {
   return (
     <>
-      <Title>Duplex 2205 Steel Guide — Properties & Applications | CMI India</Title>
+      <Title>Duplex 2205 Steel Guide | Properties &amp; Applications | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to Duplex 2205 (UNS S31803) — dual-phase structure, 2× strength of 316L, PREN 35, chloride SCC resistance. Industrial metal supplier India. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/duplex-2205-steel-guide" />

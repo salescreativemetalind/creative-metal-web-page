@@ -29,7 +29,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SsPolishedPipeSupplierIndia() {
   return (
     <>
-      <Title>SS Polished Pipe Supplier India | ASTM A312 A270 Mirror Sanitary | CMI</Title>
+      <Title>SS Polished Pipe Supplier India | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="India's leading SS polished pipe supplier. 304, 316L mirror and sanitary polished pipe to ASTM A312/A270. OD 12.7-168.3mm. Pharma, dairy, food, architectural. Ready stock Vadodara. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-polished-pipe-supplier-india" />

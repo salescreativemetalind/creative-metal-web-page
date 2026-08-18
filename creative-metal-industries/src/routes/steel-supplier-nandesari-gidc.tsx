@@ -10,7 +10,7 @@ const FAQ_SCHEMA = '{"@context":"https://schema.org","@type":"FAQPage","mainEnti
 
 export default function SteelSupplierNandesariGidc() {
   return (<>
-    <Title>Steel Supplier Nandesari GIDC, Vadodara | Creative Metal Industries</Title>
+    <Title>Steel Supplier Nandesari GIDC, Vadodara | CMI</Title>
     <Meta name="robots" content="index, follow, max-image-preview:large" />
     <Meta name="description" content="steel supplier Nandesari GIDC, pipe fittings Nandesari. Same day / Hours delivery from Vadodara. All grades SS, CS, alloy steel pipes, fittings & flanges. Call +91 99982 80619." />
     <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-nandesari-gidc" />

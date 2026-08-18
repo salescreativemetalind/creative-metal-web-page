@@ -28,7 +28,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Inconel600PipeSupplierIndia() {
   return (
     <>
-      <Title>Inconel 600 Pipe Supplier India | N06600 Nickel Alloy | High Temp | CMI</Title>
+      <Title>Inconel 600 Pipe Supplier India | N06600 Nickel Alloy | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Inconel 600 pipe supplier India — ASTM B167 N06600 seamless pipes. High temperature to 1100°C, chloride SCC resistant, caustic service. Sizes 1/2&quot; to 10&quot; NB. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/inconel-600-pipe-supplier-india" />

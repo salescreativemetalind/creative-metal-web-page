@@ -32,7 +32,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Duplex2205FlangesSupplierIndia() {
   return (
     <>
-      <Title>Duplex 2205 F51 Flanges Supplier India | ASTM A182 | ASME B16.5 | CMI</Title>
+      <Title>Duplex 2205 F51 Flanges Supplier India | ASTM A182 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Duplex 2205 F51 flanges supplier India — ASTM A182 F51, ASME B16.5. Weld Neck, Blind, Slip-On, RTJ. Class 150–2500. Sizes 1/2&quot; to 24&quot;. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/duplex-2205-flanges-supplier-india" />

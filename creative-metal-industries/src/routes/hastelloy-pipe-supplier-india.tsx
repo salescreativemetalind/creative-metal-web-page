@@ -159,7 +159,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function HastelloyPipeSupplierIndia() {
   return (
     <>
-      <Title>Hastelloy Pipe Supplier India | C-276, C-22, B-2 | ASTM B622 | Creative Metal Industries</Title>
+      <Title>Hastelloy Pipe Supplier India | C-276, C-22, B-2 | CMI</Title>
       <Meta name="description" content="Leading Hastelloy pipe supplier in India. C-276, C-22, B-2, B-3 seamless pipes per ASTM B622. Corrosion-resistant nickel alloy pipes for chemical &amp; pharma industries. Sizes 1/2&quot; to 12&quot; NB. Price Rs 4,500-12,000/kg. Ready stock Vadodara." />
       <Meta name="keywords" content="hastelloy pipe supplier india, hastelloy c276 pipe, hastelloy c22 pipe india, ASTM B622 pipe supplier, nickel alloy pipe india, hastelloy pipe price, corrosion resistant pipe india, chemical plant pipe supplier" />
       <Meta property="og:title" content="Hastelloy Pipe Supplier India | C-276, C-22 | Creative Metal Industries" />

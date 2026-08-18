@@ -32,7 +32,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Duplex2205FittingsSupplierIndia() {
   return (
     <>
-      <Title>Duplex 2205 Buttweld Fittings Supplier India | F51 | ASTM A815 | CMI</Title>
+      <Title>Duplex 2205 Buttweld Fittings Supplier India | F51 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Duplex 2205 buttweld fittings supplier India — ASTM A815 UNS S31803 F51. Elbows, tees, reducers, caps. Sizes 1/2&quot; to 48&quot;. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/duplex-2205-fittings-supplier-india" />

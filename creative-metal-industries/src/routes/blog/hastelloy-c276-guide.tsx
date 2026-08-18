@@ -11,7 +11,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function HasteloyC276Guide() {
   return (
     <>
-      <Title>Hastelloy C-276 Guide — Properties & Applications | CMI India</Title>
+      <Title>Hastelloy C-276 Guide | Properties &amp; Applications | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Hastelloy C-276 (UNS N10276) — the ultimate nickel alloy for HCl, H₂SO₄, wet chlorine, and mixed acid environments. Composition, properties, applications, welding. Industrial raw material supplier Gujarat." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/hastelloy-c276-guide" />

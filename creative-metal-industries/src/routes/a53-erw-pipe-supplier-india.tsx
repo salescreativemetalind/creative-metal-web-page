@@ -29,7 +29,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function A53ErwPipeSupplierIndia() {
   return (
     <>
-      <Title>A53 ERW Pipe Supplier India | ASTM A53 Type E Grade B | Structural | CMI</Title>
+      <Title>A53 ERW Pipe Supplier India | ASTM A53 Type E Grade B | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="A53 ERW pipe supplier India — ASTM A53 Type E Grade B for structural, water and fire protection. Sizes 1/2 inch to 26 inch, SCH 40. Black & galvanised. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/a53-erw-pipe-supplier-india" />

@@ -30,7 +30,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function A691PipeSupplierIndia() {
   return (
     <>
-      <Title>A691 EFW Pipe Supplier India | ASTM A691 | Large Dia High Temp | IBR | CMI</Title>
+      <Title>A691 EFW Pipe Supplier India | ASTM A691 | IBR | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="A691 EFW pipe supplier India — ASTM A691 Electric Fusion Welded pipe from A387 plate for large-diameter power plant headers. Sizes 16 inch to 60 inch. Cr-Mo grades. IBR certified. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/a691-pipe-supplier-india" />

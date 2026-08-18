@@ -11,7 +11,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function IbrCertificationGuide() {
   return (
     <>
-      <Title>IBR Certification Explained — What Indian Buyers Need to Know | CMI</Title>
+      <Title>IBR Certification Explained | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="IBR certification explained — what is IBR Form III-C, when is it mandatory, which materials need IBR approval, how to verify certificates, common mistakes. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ibr-certification-guide" />

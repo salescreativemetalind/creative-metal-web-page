@@ -28,7 +28,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function HasteloyC22PipeSupplierIndia() {
   return (
     <>
-      <Title>Hastelloy C22 Pipe Supplier India | N06022 Universal CRA | Chemical | CMI</Title>
+      <Title>Hastelloy C22 Pipe Supplier India | Chemical | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Hastelloy C22 pipe supplier India — ASTM B622 N06022 seamless pipes. Universal corrosion resistant — oxidizing & reducing acids. FGD, pharma, chemical. Sizes 1/2&quot; to 8&quot; NB. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/hastelloy-c22-pipe-supplier-india" />

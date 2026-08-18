@@ -30,7 +30,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SSSheetSupplierVadodara() {
   return (
     <>
-      <Title>SS Sheet Supplier Vadodara | SS 304 Sheet Price | ASTM A240 | CMI</Title>
+      <Title>SS Sheet Supplier Vadodara | SS 304 Sheet Price | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="SS sheet supplier Vadodara — stainless steel sheet &amp; plate in SS 304, 316L, 430, 321. ASTM A240/SA240. Thickness 0.3mm to 100mm. 2B, No.4, Mirror, Hairline finish. Cut-to-size. PVC coated. Ready stock. Creative Metal Industries +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-sheet-supplier-vadodara" />

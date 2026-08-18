@@ -28,7 +28,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function TitaniumGrade5PipeIndia() {
   return (
     <>
-      <Title>Titanium Grade 5 Pipe Supplier India | Ti-6Al-4V R56400 | Aerospace & Medical | CMI</Title>
+      <Title>Titanium Grade 5 Pipe Supplier India | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Titanium Grade 5 pipe supplier India — ASTM B861 Ti-6Al-4V (UNS R56400) seamless pipes & B348 round bars. Aerospace, medical, defense, motorsport. Sizes 1/2&quot; to 6&quot; NB pipe, 6–200mm bar. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/titanium-grade-5-pipe-india" />

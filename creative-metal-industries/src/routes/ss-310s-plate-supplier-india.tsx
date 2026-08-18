@@ -28,7 +28,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Ss310sPlateSupplierIndia() {
   return (
     <>
-      <Title>SS 310S Plate Supplier India | Furnace Grade | High Temp | CMI</Title>
+      <Title>SS 310S Plate Supplier India | Furnace Grade | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="SS 310S plate supplier India — ASTM A240 furnace grade stainless steel plate up to 1050°C. Thickness 3mm to 80mm. Cut-to-size. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-310s-plate-supplier-india" />

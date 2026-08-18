@@ -11,7 +11,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SS316LGuide() {
   return (
     <>
-      <Title>SS 316L Stainless Steel Guide — Properties & Applications | CMI</Title>
+      <Title>SS 316L Stainless Steel Guide | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to SS 316L stainless steel — molybdenum-enhanced corrosion resistance, chemical composition, mechanical properties, pharma/marine/chemical applications. Supplier India." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-316l-stainless-steel-guide" />

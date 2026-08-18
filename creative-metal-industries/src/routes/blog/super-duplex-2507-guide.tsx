@@ -11,7 +11,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SuperDuplex2507Guide() {
   return (
     <>
-      <Title>Super Duplex 2507 Guide — Properties & Applications | CMI India</Title>
+      <Title>Super Duplex 2507 Guide | Properties &amp; Applications | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Super Duplex 2507 (UNS S32750) — PREN 42 for seawater and offshore. Chemical composition, 550 MPa yield strength, subsea applications. Metal importer exporter India. CMI Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/super-duplex-2507-guide" />

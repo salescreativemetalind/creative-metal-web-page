@@ -12,7 +12,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function MsStructuralSteelGuide() {
   return (
     <>
-      <Title>MS Angle, Channel, Plate & Pipe — Mild Steel Structural Guide | CMI</Title>
+      <Title>MS Angle, Channel, Plate &amp; Pipe | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete MS structural steel guide — MS angle, MS channel, MS flat, MS plate, MS sheet (IS 2062), MS ERW pipe and MS seamless pipe. Sizes, weights, grades. MS steel supplier Vadodara, Gujarat. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ms-structural-steel-guide" />

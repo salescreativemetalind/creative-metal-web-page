@@ -29,7 +29,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function P11AlloySteelPipeSupplier() {
   return (
     <>
-      <Title>P11 Alloy Steel Pipe Supplier | ASTM A335 P11 | 1.25Cr-0.5Mo | IBR | CMI</Title>
+      <Title>P11 Alloy Steel Pipe Supplier | ASTM A335 P11 | IBR | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="P11 alloy steel pipe supplier India — ASTM A335 P11 (1.25Cr-0.5Mo) seamless pipe for boiler headers, economiser tubes and IBR service. Sizes 1/2 inch to 24 inch, SCH 40–XXS. IBR Form III-C certified. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/p11-alloy-steel-pipe-supplier" />

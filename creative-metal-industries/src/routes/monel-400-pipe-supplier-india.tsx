@@ -136,7 +136,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function Monel400PipeSupplierIndia() {
   return (
     <>
-      <Title>Monel 400 Pipe Supplier India | UNS N04400 | ASTM B165 | Creative Metal Industries</Title>
+      <Title>Monel 400 Pipe Supplier India | UNS N04400 | ASTM B165 | CMI</Title>
       <Meta name="description" content="India's leading Monel 400 pipe supplier. UNS N04400 seamless pipes per ASTM B165, tubes per ASTM B163. Nickel-copper alloy for HF acid, marine &amp; seawater service. Sizes 1/2&quot; to 10&quot; NB. Price Rs 3,500-9,000/kg. Ready stock Vadodara." />
       <Meta name="keywords" content="monel 400 pipe supplier india, monel K500 pipe, UNS N04400 pipe, ASTM B165 pipe supplier, nickel copper alloy pipe, monel pipe price india, HF acid resistant pipe, marine alloy pipe india" />
       <Meta property="og:title" content="Monel 400 Pipe Supplier India | UNS N04400 | CMI" />

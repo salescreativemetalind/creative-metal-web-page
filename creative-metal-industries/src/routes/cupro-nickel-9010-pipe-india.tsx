@@ -133,7 +133,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function CuproNickel9010PipeIndia() {
   return (
     <>
-      <Title>CuNi 90/10 Pipe Supplier India | ASTM B466 C70600 Seamless &amp; Welded | Creative Metal Industries</Title>
+      <Title>CuNi 90/10 Pipe Supplier India | CMI</Title>
       <Meta
         name="description"
         content="Leading CuNi 90/10 (C70600) pipe supplier in India. ASTM B466 seamless & B467 welded CuNi pipes 1/2&quot; to 12&quot; NB. Seawater cooling, offshore, desalination. Rs 1,200-3,500/kg. Ready stock Vadodara."

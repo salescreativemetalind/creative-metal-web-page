@@ -30,7 +30,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Sa387AlloyPlateSupplierIndia() {
   return (
     <>
-      <Title>SA387 Alloy Plate Supplier India | ASTM A387 Gr 11 22 91 | IBR | CMI</Title>
+      <Title>SA387 Alloy Plate Supplier India | IBR | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="SA387 alloy plate supplier India — ASTM A387 Gr.11, Gr.22, Gr.91 Cr-Mo pressure vessel plates. Class 1 & 2, 6-150mm thick, N+T. IBR Form III-C certified. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/sa-387-alloy-plate-supplier-india" />

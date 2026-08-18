@@ -29,7 +29,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function A333LowTempPipeSupplier() {
   return (
     <>
-      <Title>A333 Low Temp Pipe Supplier | ASTM A333 Gr.6 | Cryogenic LNG | CMI</Title>
+      <Title>A333 Low Temp Pipe Supplier | ASTM A333 Gr.6 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="A333 low temp pipe supplier India — ASTM A333 Gr.6 (C-Mn, Charpy -46°C) seamless pipe for LNG, cryogenic and cold storage. Sizes 1/2 inch to 24 inch, SCH 40–160. Impact tested. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/a333-low-temp-pipe-supplier" />

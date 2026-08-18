@@ -27,7 +27,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Ss430SheetSupplierIndia() {
   return (
     <>
-      <Title>SS 430 Sheet Supplier India | Ferritic Stainless Steel | No Nickel | CMI</Title>
+      <Title>SS 430 Sheet Supplier India | Ferritic Stainless Steel | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="SS 430 ferritic sheet supplier India — ASTM A240 Type 430. No nickel, 30-40% cheaper than 304. Thickness 0.3-6mm. 2B/BA/No.4/Mirror finish. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-430-sheet-supplier-india" />

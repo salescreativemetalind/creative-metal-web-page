@@ -28,7 +28,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function TitaniumGrade2PipeIndia() {
   return (
     <>
-      <Title>Titanium Grade 2 Pipe Supplier India | R50400 CP Ti | Desalination & Chemical | CMI</Title>
+      <Title>Titanium Grade 2 Pipe Supplier India | R50400 CP Ti | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Titanium Grade 2 pipe supplier India — ASTM B861 R50400 commercially pure seamless pipes. Chloride resistant, seawater, desalination, chemical. Sizes 1/2&quot; to 10&quot; NB. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/titanium-grade-2-pipe-india" />

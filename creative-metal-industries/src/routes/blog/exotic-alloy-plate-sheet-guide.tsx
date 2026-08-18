@@ -13,7 +13,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function ExoticAlloyPlateSheetGuide() {
   return (
     <>
-      <Title>Exotic Alloy Sheet, Plate, Pipe & Bar — Duplex, Titanium, Inconel | CMI</Title>
+      <Title>Exotic Alloy Sheet, Plate, Pipe &amp; Bar | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Exotic grade material guide — duplex & super duplex plate & sheet, titanium, Monel, Inconel and Hastelloy sheets, pipes, tubes and bars. Grades, applications, standards. Exotic alloy supplier Vadodara. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/exotic-alloy-plate-sheet-guide" />

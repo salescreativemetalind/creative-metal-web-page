@@ -11,7 +11,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function FittingsFlangesGuide() {
   return (
     <>
-      <Title>SS Pipe Fittings & Flanges Guide — Types & Grades | CMI India</Title>
+      <Title>SS Pipe Fittings &amp; Flanges Guide | Types &amp; Grades | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to SS pipe fittings and flanges — types (elbows, tees, weld neck, slip-on), grades (304, 316L, duplex), pressure classes 150-2500. SS pipe fittings flanges supplier India. CMI Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-pipe-fittings-flanges-guide" />

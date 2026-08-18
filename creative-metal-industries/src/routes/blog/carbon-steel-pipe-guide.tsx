@@ -12,7 +12,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function CarbonSteelPipeGuide() {
   return (
     <>
-      <Title>Carbon Steel Pipe, Plate, Fittings & Flanges Guide | CMI Vadodara</Title>
+      <Title>Carbon Steel Pipe, Plate, Fittings &amp; Flanges Guide | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Carbon steel pipe (ASTM A106 Gr.B), carbon steel plate (SA 516 Gr.70), alloy plate, carbon steel fittings (A234 WPB) and flanges (A105). Grades, standards, applications. Carbon steel supplier Vadodara. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/carbon-steel-pipe-guide" />

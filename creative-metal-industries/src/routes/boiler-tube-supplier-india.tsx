@@ -170,7 +170,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function BoilerTubeSupplierIndia() {
   return (
     <>
-      <Title>Boiler Tube Supplier India | IBR Certified | SA 213 T11 T22 T91 | Creative Metal Industries</Title>
+      <Title>Boiler Tube Supplier India | IBR Certified | CMI</Title>
       <Meta name="description" content="India's leading IBR certified boiler tube supplier. SA 179, SA 192, SA 210, SA 213 T11/T22/T91 seamless tubes for power plant boilers &amp; superheaters. OD 12.7mm to 127mm. IBR Form III-C. Price Rs 90-900/kg. Ready stock Vadodara." />
       <Meta name="keywords" content="boiler tube supplier india, SA 213 T11 tube, SA 213 T22 tube, SA 213 T91 tube, IBR boiler tube, SA 179 tube supplier, SA 192 tube india, power plant boiler tube, NTPC boiler tube supplier" />
       <Meta property="og:title" content="Boiler Tube Supplier India | IBR Certified | SA 213 | CMI" />

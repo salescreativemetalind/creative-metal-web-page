@@ -27,7 +27,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Duplex2205PlateSupplierIndia() {
   return (
     <>
-      <Title>Duplex 2205 Plate Supplier India | S31803/S32205 | ASTM A240 | CMI</Title>
+      <Title>Duplex 2205 Plate Supplier India | S31803/S32205 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Duplex 2205 plate supplier India — ASTM A240 UNS S31803/S32205. 2x yield strength of 316L, PREN ~35. Thickness 3-100mm. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/duplex-2205-plate-supplier-india" />

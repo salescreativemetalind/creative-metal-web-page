@@ -19,7 +19,7 @@ const ABOUT_SCHEMA = JSON.stringify({
 export default function AboutPage() {
   return (
     <PageLayout active="About Us" breadcrumb={[{ label: "Home", href: "/" }, { label: "About Us" }]}>
-      <Title>About Creative Metal Industries | Steel Supplier Since 2012 | Vadodara</Title>
+      <Title>About Creative Metal Industries | Vadodara | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Creative Metal Industries — Vadodara's leading steel supplier since 2012. Manufacturer, stockist and exporter of SS, CS, alloy steel pipes, plates, fittings, flanges and exotic alloys. 1092 sq.mtr warehouse at GIDC Makarpura. IBR, NACE, MTC certified. Export to 50+ countries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/about" />

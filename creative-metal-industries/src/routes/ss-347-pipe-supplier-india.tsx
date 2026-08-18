@@ -28,7 +28,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Ss347PipeSupplierIndia() {
   return (
     <>
-      <Title>SS 347 Pipe Supplier India | Niobium Stabilized | ASTM A312 | CMI</Title>
+      <Title>SS 347 Pipe Supplier India | Niobium Stabilized | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="SS 347 pipe supplier India — ASTM A312 TP347/347H niobium stabilized seamless pipes for refinery & high-temp service up to 870°C. Sizes 1/2&quot; to 12&quot;. Ready stock Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-347-pipe-supplier-india" />

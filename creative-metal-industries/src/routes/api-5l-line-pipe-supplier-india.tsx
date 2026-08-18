@@ -31,7 +31,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function API5lLinePipeSupplierIndia() {
   return (
     <>
-      <Title>API 5L Line Pipe Supplier India | X52 X60 X65 PSL2 | NACE | CMI</Title>
+      <Title>API 5L Line Pipe Supplier India | X52 X60 X65 PSL2 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="API 5L line pipe supplier India — PSL1 &amp; PSL2, grades Gr.B to X70. Seamless, ERW, LSAW. Sizes 1/2&quot; to 48&quot;. 3LPE/FBE coating. NACE MR0175. Jindal SAW, Welspun, ISMT. Rs 80-400/kg. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/api-5l-line-pipe-supplier-india" />

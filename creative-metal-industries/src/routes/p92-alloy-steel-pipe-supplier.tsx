@@ -29,7 +29,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function P92AlloySteelPipeSupplier() {
   return (
     <>
-      <Title>P92 Alloy Steel Pipe Supplier | ASTM A335 P92 | 9Cr-1.8W | USC Boiler | CMI</Title>
+      <Title>P92 Alloy Steel Pipe Supplier | ASTM A335 P92 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="P92 alloy steel pipe supplier India — ASTM A335 P92 (9Cr-1.8W-Mo-V-Nb) seamless pipe for ultra-supercritical boilers and next-gen power. Sizes 1/2 inch to 16 inch, SCH 40–160. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/p92-alloy-steel-pipe-supplier" />

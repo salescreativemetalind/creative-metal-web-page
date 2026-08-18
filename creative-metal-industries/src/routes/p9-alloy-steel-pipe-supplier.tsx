@@ -29,7 +29,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function P9AlloySteelPipeSupplier() {
   return (
     <>
-      <Title>P9 Alloy Steel Pipe Supplier | ASTM A335 P9 | 9Cr-1Mo | IBR | CMI</Title>
+      <Title>P9 Alloy Steel Pipe Supplier | ASTM A335 P9 | 9Cr-1Mo | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="P9 alloy steel pipe supplier India — ASTM A335 P9 (9Cr-1Mo) seamless pipe for heater tubes and superheaters. Sizes 1/2 inch to 16 inch, SCH 40–160. IBR Form III-C certified. Creative Metal Industries Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/p9-alloy-steel-pipe-supplier" />

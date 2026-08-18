@@ -29,7 +29,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SsUBendTubeSupplierIndia() {
   return (
     <>
-      <Title>SS U-Bend Tube Supplier India | ASTM A213 304L 316L 321 | CMI</Title>
+      <Title>SS U-Bend Tube Supplier India | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Leading SS U-bend tube supplier in India. 304L, 316L, 321, 347, Duplex 2205 to ASTM A213/A249. OD 12.7-38.1mm. Shell-and-tube heat exchanger bundles. Stress relieved, ECT tested. Ready stock Vadodara. Creative Metal Industries." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-u-bend-tube-supplier-india" />

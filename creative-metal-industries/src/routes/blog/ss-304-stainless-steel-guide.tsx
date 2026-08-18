@@ -31,7 +31,7 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function SS304Guide() {
   return (
     <>
-      <Title>SS 304 Stainless Steel — Grades, Properties & Applications | CMI</Title>
+      <Title>SS 304 Stainless Steel | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to SS 304 stainless steel — 18/8 composition, mechanical properties, applications in food, chemical, pharma industries. SS pipe supplier Vadodara. Creative Metal Industries." />
       <Meta name="keywords" content="SS 304 stainless steel, SS 304 properties, SS 304 chemical composition, stainless steel pipe manufacturer India, SS pipe supplier Vadodara, 304 stainless steel applications" />
