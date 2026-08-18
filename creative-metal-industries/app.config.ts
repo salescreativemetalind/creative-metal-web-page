@@ -565,6 +565,14 @@ export default defineConfig({
         // COMPARISON & GUIDE BLOGS
         "/blog/what-is-ibr-certification",
 
+        // Listed in sitemaps and have route files, but were never in the
+        // prerender list, so they fell back to on-demand SSR.
+        "/blog/inconel-vs-monel-guide",
+        "/blog/industrial-raw-material-supplier-india",
+        "/blog/ss-flange-types-guide",
+        "/blog/ss-pipe-supplier-vadodara-explained",
+        "/blog/why-creative-metal-industries",
+
         "/sitemap",
       ],
     },
