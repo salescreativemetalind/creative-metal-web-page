@@ -239,7 +239,7 @@ export default function CuproNickel7030PipeIndia() {
               { href: "/titanium-grade-2-pipe-india", label: "Titanium Grade 2 Pipe Supplier India" },
               { href: "/duplex-steel-supplier-vadodara", label: "Duplex Steel Supplier Vadodara" },
               { href: "/nickel-200-pipe-supplier-india", label: "Nickel 200 Pipe Supplier India" },
-              { href: "/inconel-625-pipe-supplier-india", label: "Inconel 625 Pipe Supplier India" },
+              { href: "/inconel-pipe-supplier-india", label: "Inconel 625 Pipe Supplier India" },
               { href: "/alloy-20-pipe-supplier-india", label: "Alloy 20 Pipe Supplier India" },
             ].map(link => (
               <a href={link.href} style={{display:"block",background:"#fff",border:"1px solid #e5e7eb","border-radius":"8px",padding:"1rem","text-decoration":"none",color:"#E8821A","font-weight":"600","font-size":"0.9rem"}}>

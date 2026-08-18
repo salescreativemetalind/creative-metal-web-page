@@ -159,7 +159,7 @@ export default function SteelPipeSupplierGoa() {
               Call +91 99982 80619
             </a>
             <a
-              href="/contact"
+              href="/#contact"
               class="inline-flex items-center border-2 border-[#E8821A] text-[#E8821A] hover:bg-[#E8821A] hover:text-white font-semibold py-3 px-6 rounded-lg transition-colors"
             >
               Get Free Quote
@@ -330,7 +330,7 @@ export default function SteelPipeSupplierGoa() {
               Call +91 99982 80619
             </a>
             <a
-              href="/contact"
+              href="/#contact"
               class="inline-flex items-center border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-3 px-8 rounded-lg transition-colors"
             >
               Request Quote Online

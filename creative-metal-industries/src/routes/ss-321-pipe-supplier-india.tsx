@@ -156,7 +156,7 @@ export default function Ss321PipeSupplierIndia() {
               {href:"/ss-321h-tube-supplier-india", label:"SS 321H Boiler Tube"},
               {href:"/ss-347-pipe-supplier-india", label:"SS 347 Pipe (Nb Stabilized)"},
               {href:"/ss-310-pipe-supplier-india", label:"SS 310 Pipe (High Temp)"},
-              {href:"/ss-304-pipe-supplier-india", label:"SS 304 Pipe (Standard)"},
+              {href:"/ss-304-316l-pipe-supplier-india", label:"SS 304 Pipe (Standard)"},
               {href:"/inconel-pipe-supplier-india", label:"Inconel 625/600 Pipe"},
               {href:"/alloy-steel-pipe-supplier-india", label:"Alloy Steel P91/P22 Pipe"},
             ].map(l => (

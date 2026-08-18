@@ -160,7 +160,7 @@ export default function SuperDuplex2507FittingsSupplier() {
               {href:"/super-duplex-2507-pipe-supplier", label:"Super Duplex 2507 Pipe"},
               {href:"/super-duplex-2507-flanges-supplier", label:"Super Duplex 2507 Flanges"},
               {href:"/duplex-2205-fittings-supplier-india", label:"Duplex 2205 Fittings"},
-              {href:"/duplex-2205-pipe-supplier-india", label:"Duplex 2205 Pipe"},
+              {href:"/duplex-steel-supplier-vadodara", label:"Duplex 2205 Pipe"},
               {href:"/duplex-2205-flanges-supplier-india", label:"Duplex 2205 Flanges"},
               {href:"/duplex-steel-supplier-vadodara", label:"Duplex Steel Supplier Vadodara"},
             ].map(l => (

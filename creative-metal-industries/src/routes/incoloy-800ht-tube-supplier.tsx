@@ -651,7 +651,7 @@ export default function Incoloy800htTubeSupplier() {
             Inconel 600 Pipe Supplier India
           </a>
           <a
-            href="/inconel-625-pipe-supplier-india"
+            href="/inconel-pipe-supplier-india"
             style={{
               padding: "1rem 1.25rem",
               "background-color": "#f9fafb",

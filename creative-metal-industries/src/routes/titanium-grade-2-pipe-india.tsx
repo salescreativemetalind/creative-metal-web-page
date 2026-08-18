@@ -155,7 +155,7 @@ export default function TitaniumGrade2PipeIndia() {
             {[
               {href:"/titanium-grade-5-pipe-india", label:"Titanium Grade 5 Pipe"},
               {href:"/hastelloy-c22-pipe-supplier-india", label:"Hastelloy C22 Pipe"},
-              {href:"/inconel-625-pipe-supplier-india", label:"Inconel 625 Pipe"},
+              {href:"/inconel-pipe-supplier-india", label:"Inconel 625 Pipe"},
               {href:"/duplex-steel-supplier-vadodara", label:"Duplex Steel Pipe"},
               {href:"/cupro-nickel-9010-pipe-india", label:"CuNi 90/10 Pipe"},
               {href:"/ss-904l-pipe-supplier-india", label:"SS 904L Pipe"},

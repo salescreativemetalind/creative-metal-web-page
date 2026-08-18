@@ -43,7 +43,7 @@ export default function Alloy20PipeSupplierIndia() {
         <a href="/" style={{ display: "flex", "align-items": "center", "text-decoration": "none" }}>
           <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style={{ height: "48px" }} />
         </a>
-        <a href="https://www.creativemetalind.com/contact" style={{ background: "#E8821A", color: "#fff", padding: "10px 22px", "border-radius": "4px", "text-decoration": "none", "font-weight": "bold", "font-size": "15px" }}>Get Quote</a>
+        <a href="https://www.creativemetalind.com/#contact" style={{ background: "#E8821A", color: "#fff", padding: "10px 22px", "border-radius": "4px", "text-decoration": "none", "font-weight": "bold", "font-size": "15px" }}>Get Quote</a>
       </nav>
 
       {/* Breadcrumb */}
@@ -232,7 +232,7 @@ export default function Alloy20PipeSupplierIndia() {
         <div style={{ background: "linear-gradient(135deg, #E8821A 0%, #d4710f 100%)", padding: "40px 32px", "border-radius": "10px", "text-align": "center", "margin-bottom": "40px" }}>
           <h2 style={{ color: "#fff", "font-size": "1.6rem", "margin-bottom": "12px" }}>Need Alloy 20 Pipes? Get Instant Quote</h2>
           <p style={{ color: "#fff", "margin-bottom": "20px", opacity: "0.9" }}>Call +91 99982 80619 or submit your requirement online</p>
-          <a href="https://www.creativemetalind.com/contact" style={{ display: "inline-block", background: "#fff", color: "#E8821A", padding: "14px 36px", "border-radius": "5px", "font-weight": "bold", "text-decoration": "none", "font-size": "16px" }}>Request Quote Now</a>
+          <a href="https://www.creativemetalind.com/#contact" style={{ display: "inline-block", background: "#fff", color: "#E8821A", padding: "14px 36px", "border-radius": "5px", "font-weight": "bold", "text-decoration": "none", "font-size": "16px" }}>Request Quote Now</a>
         </div>
 
         {/* Related Products */}
@@ -242,7 +242,7 @@ export default function Alloy20PipeSupplierIndia() {
           <a href="/ss-904l-pipe-supplier-india" style={{ display: "block", padding: "16px", background: "#f9f9f9", "border-radius": "6px", "text-decoration": "none", color: "#1a1a1a", border: "1px solid #eee", "font-weight": "500", transition: "border-color 0.2s" }}>SS 904L Pipe Supplier India</a>
           <a href="/incoloy-825-pipe-supplier-india" style={{ display: "block", padding: "16px", background: "#f9f9f9", "border-radius": "6px", "text-decoration": "none", color: "#1a1a1a", border: "1px solid #eee", "font-weight": "500", transition: "border-color 0.2s" }}>Incoloy 825 Pipe Supplier India</a>
           <a href="/nickel-200-pipe-supplier-india" style={{ display: "block", padding: "16px", background: "#f9f9f9", "border-radius": "6px", "text-decoration": "none", color: "#1a1a1a", border: "1px solid #eee", "font-weight": "500", transition: "border-color 0.2s" }}>Nickel 200 Pipe Supplier India</a>
-          <a href="/inconel-625-pipe-supplier-india" style={{ display: "block", padding: "16px", background: "#f9f9f9", "border-radius": "6px", "text-decoration": "none", color: "#1a1a1a", border: "1px solid #eee", "font-weight": "500", transition: "border-color 0.2s" }}>Inconel 625 Pipe Supplier India</a>
+          <a href="/inconel-pipe-supplier-india" style={{ display: "block", padding: "16px", background: "#f9f9f9", "border-radius": "6px", "text-decoration": "none", color: "#1a1a1a", border: "1px solid #eee", "font-weight": "500", transition: "border-color 0.2s" }}>Inconel 625 Pipe Supplier India</a>
           <a href="/duplex-steel-supplier-vadodara" style={{ display: "block", padding: "16px", background: "#f9f9f9", "border-radius": "6px", "text-decoration": "none", color: "#1a1a1a", border: "1px solid #eee", "font-weight": "500", transition: "border-color 0.2s" }}>Duplex Steel Supplier Vadodara</a>
         </div>
       

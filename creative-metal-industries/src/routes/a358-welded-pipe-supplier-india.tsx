@@ -147,8 +147,8 @@ export default function A358WeldedPipeSupplierIndia() {
           <h3 style={{"font-size":"1.1rem","font-weight":"700",color:"#111827","margin-bottom":"1rem"}}>Related Products</h3>
           <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
             {[
-              {href:"/ss-304-pipe-supplier-india", label:"SS 304 Pipe Supplier"},
-              {href:"/ss-316l-pipe-supplier-india", label:"SS 316L Pipe Supplier"},
+              {href:"/ss-304-316l-pipe-supplier-india", label:"SS 304 Pipe Supplier"},
+              {href:"/ss-304-316l-pipe-supplier-india", label:"SS 316L Pipe Supplier"},
               {href:"/ss-321-pipe-supplier-india", label:"SS 321 Pipe Supplier"},
               {href:"/duplex-steel-supplier-vadodara", label:"Duplex Steel Pipe"},
               {href:"/alloy-steel-pipe-supplier-india", label:"Alloy Steel Pipe"},

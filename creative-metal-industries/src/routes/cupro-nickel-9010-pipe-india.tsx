@@ -610,7 +610,7 @@ export default function CuproNickel9010PipeIndia() {
               { href: "/cupro-nickel-7030-pipe-india", label: "CuNi 70/30 Pipe Supplier India" },
               { href: "/titanium-grade-2-pipe-india", label: "Titanium Grade 2 Pipe India" },
               { href: "/duplex-steel-supplier-vadodara", label: "Duplex Steel Supplier Vadodara" },
-              { href: "/inconel-625-pipe-supplier-india", label: "Inconel 625 Pipe Supplier India" },
+              { href: "/inconel-pipe-supplier-india", label: "Inconel 625 Pipe Supplier India" },
               { href: "/ss-904l-pipe-supplier-india", label: "SS 904L Pipe Supplier India" },
               { href: "/alloy-20-pipe-supplier-india", label: "Alloy 20 Pipe Supplier India" },
             ].map((link) => (

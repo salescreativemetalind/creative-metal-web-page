@@ -190,7 +190,7 @@ export default function Incoloy800hPipeSupplier() {
           </span>
         </a>
         <a
-          href="https://www.creativemetalind.com/contact"
+          href="https://www.creativemetalind.com/#contact"
           style={{
             background: "#E8821A",
             color: "#ffffff",
@@ -463,7 +463,7 @@ export default function Incoloy800hPipeSupplier() {
               +91 99982 80619
             </a>
             <a
-              href="https://www.creativemetalind.com/contact"
+              href="https://www.creativemetalind.com/#contact"
               style={{
                 background: "transparent",
                 color: "#ffffff",
@@ -495,7 +495,7 @@ export default function Incoloy800hPipeSupplier() {
           {[
             { name: "Incoloy 800HT Tube Supplier", href: "/incoloy-800ht-tube-supplier" },
             { name: "Inconel 600 Pipe Supplier India", href: "/inconel-600-pipe-supplier-india" },
-            { name: "Inconel 625 Pipe Supplier India", href: "/inconel-625-pipe-supplier-india" },
+            { name: "Inconel 625 Pipe Supplier India", href: "/inconel-pipe-supplier-india" },
             { name: "Hastelloy C22 Pipe Supplier India", href: "/hastelloy-c22-pipe-supplier-india" },
             { name: "Alloy 20 Pipe Supplier India", href: "/alloy-20-pipe-supplier-india" },
             { name: "SS 310 Pipe Supplier India", href: "/ss-310-pipe-supplier-india" },

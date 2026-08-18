@@ -125,7 +125,7 @@ const SCHEMA = {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.creativemetalind.com" },
-        { "@type": "ListItem", "position": 2, "name": "Nickel Alloy Pipes", "item": "https://www.creativemetalind.com/nickel-alloy-pipes" },
+        { "@type": "ListItem", "position": 2, "name": "Nickel Alloy Pipes", "item": "https://www.creativemetalind.com/products" },
         { "@type": "ListItem", "position": 3, "name": "Nickel 200 Pipe Supplier India", "item": "https://www.creativemetalind.com/nickel-200-pipe-supplier-india" }
       ]
     }
@@ -179,7 +179,7 @@ export default function Nickel200PipeSupplierIndia() {
           <nav style="font-size:13px;color:#6b7280">
             <a href="/" style="color:#E8821A;text-decoration:none">Home</a>
             <span style="margin:0 8px">›</span>
-            <a href="/nickel-alloy-pipes" style="color:#E8821A;text-decoration:none">Nickel Alloy Pipes</a>
+            <a href="/products" style="color:#E8821A;text-decoration:none">Nickel Alloy Pipes</a>
             <span style="margin:0 8px">›</span>
             <span style="color:#374151;font-weight:600">Nickel 200 Pipe Supplier India</span>
           </nav>
@@ -426,7 +426,7 @@ export default function Nickel200PipeSupplierIndia() {
                 <a href="/" style="color:#9ca3af;text-decoration:none;font-size:14px">Home</a>
                 <a href="/about" style="color:#9ca3af;text-decoration:none;font-size:14px">About Us</a>
                 <a href="/blog" style="color:#9ca3af;text-decoration:none;font-size:14px">Blog</a>
-                <a href="/nickel-alloy-pipes" style="color:#9ca3af;text-decoration:none;font-size:14px">Nickel Alloy Pipes</a>
+                <a href="/products" style="color:#9ca3af;text-decoration:none;font-size:14px">Nickel Alloy Pipes</a>
                 <a href="/nickel-201-pipe-supplier-india" style="color:#9ca3af;text-decoration:none;font-size:14px">Nickel 201 Pipe</a>
               </div>
             </div>

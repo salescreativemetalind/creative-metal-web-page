@@ -181,7 +181,7 @@ export default function Nickel201PipeSupplierIndia() {
             <a href="/about" style="color:#fff;text-decoration:none;font-size:0.95rem">About</a>
             <a href="/products" style="color:#fff;text-decoration:none;font-size:0.95rem">Products</a>
             <a href="/blog" style="color:#fff;text-decoration:none;font-size:0.95rem">Blog</a>
-            <a href="/contact" style="color:#fff;text-decoration:none;font-size:0.95rem">Contact</a>
+            <a href="/#contact" style="color:#fff;text-decoration:none;font-size:0.95rem">Contact</a>
             <a href="tel:+919998280619" style="background:#E8821A;color:#fff;padding:8px 16px;border-radius:5px;text-decoration:none;font-weight:600;font-size:0.9rem">+91 99982 80619</a>
           </div>
         </div>
@@ -211,7 +211,7 @@ export default function Nickel201PipeSupplierIndia() {
           </p>
           <div style="display:flex;gap:15px;justify-content:center;flex-wrap:wrap">
             <a href="tel:+919998280619" style="background:#E8821A;color:#fff;padding:14px 28px;border-radius:5px;text-decoration:none;font-weight:700;font-size:1rem">Call: +91 99982 80619</a>
-            <a href="/contact" style="background:transparent;color:#E8821A;padding:14px 28px;border-radius:5px;text-decoration:none;font-weight:700;font-size:1rem;border:2px solid #E8821A">Request Quote</a>
+            <a href="/#contact" style="background:transparent;color:#E8821A;padding:14px 28px;border-radius:5px;text-decoration:none;font-weight:700;font-size:1rem;border:2px solid #E8821A">Request Quote</a>
           </div>
         </div>
       </section>
@@ -458,7 +458,7 @@ export default function Nickel201PipeSupplierIndia() {
                 <a href="/about" style="color:#ccc;text-decoration:none;font-size:0.9rem">About Us</a>
                 <a href="/products" style="color:#ccc;text-decoration:none;font-size:0.9rem">Products</a>
                 <a href="/blog" style="color:#ccc;text-decoration:none;font-size:0.9rem">Blog</a>
-                <a href="/contact" style="color:#ccc;text-decoration:none;font-size:0.9rem">Contact Us</a>
+                <a href="/#contact" style="color:#ccc;text-decoration:none;font-size:0.9rem">Contact Us</a>
               </div>
             </div>
             <div>

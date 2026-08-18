@@ -150,7 +150,7 @@ export default function Api5ctCasingTubingIndia() {
             {[
               {href:"/alloy-steel-pipe-supplier-india", label:"Alloy Steel Pipe (P91/P22)"},
               {href:"/carbon-steel-pipe-fittings-vadodara", label:"Carbon Steel Pipe Fittings"},
-              {href:"/ss-316l-pipe-supplier-india", label:"SS 316L Pipe Supplier"},
+              {href:"/ss-304-316l-pipe-supplier-india", label:"SS 316L Pipe Supplier"},
               {href:"/inconel-pipe-supplier-india", label:"Inconel Pipe Supplier"},
               {href:"/duplex-steel-supplier-vadodara", label:"Duplex Steel Supplier"},
               {href:"/a358-welded-pipe-supplier-india", label:"A358 EFW Welded Pipe"},
