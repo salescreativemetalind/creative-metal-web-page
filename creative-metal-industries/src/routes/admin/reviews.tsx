@@ -107,6 +107,8 @@ export default function AdminReviews() {
   return (
     <>
       <Title>Reviews Admin | CMI</Title>
+      <Meta property="og:type" content="website" />
+      <Meta property="og:title" content="Reviews Admin | CMI" />
       <Meta name="robots" content="noindex, nofollow" />
 
       {/* ══ LOGIN ══ */}

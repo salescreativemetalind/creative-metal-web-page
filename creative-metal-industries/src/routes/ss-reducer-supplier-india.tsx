@@ -8,15 +8,7 @@ import { RelatedPages } from "../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Product",
-      "name": "SS Reducer Supplier India — Concentric & Eccentric",
-      "description": "SS concentric & eccentric reducer supplier India. 304/316L, ASTM A403. 1/2\" to 48\". Ready stock CMI Vadodara. Call +91 99982 80619.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "manufacturer": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "180", "highPrice": "15000", "offerCount": "500+", "availability": "https://schema.org/InStock" },
-      "url": "https://www.creativemetalind.com/ss-reducer-supplier-india"
-    },
+    
     {
       "@type": "BreadcrumbList",
       "itemListElement": [

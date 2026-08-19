@@ -8,7 +8,7 @@ import { RelatedPages } from "../../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "P11 vs P22 Pipe — Difference in Creep Strength",
+  "headline": "P11 vs P22 Pipe — Difference in Creep Strength", "image": "https://www.creativemetalind.com/og-image.jpg",
   "author": { "@type": "Organization", "name": "Creative Metal Industries" },
   "publisher": { "@type": "Organization", "name": "Creative Metal Industries",
     "logo": { "@type": "ImageObject", "url": "https://www.creativemetalind.com/logo_cmi.png" } },

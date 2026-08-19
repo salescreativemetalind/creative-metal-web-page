@@ -84,34 +84,11 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
+    
     {
-      "@type": "Product",
-      "name": "Monel 400 Pipe",
-      "description": "Monel 400 (UNS N04400) and K-500 seamless pipes per ASTM B165. Nickel-copper alloy for marine, HF acid, and seawater service. Sizes 1/2 inch to 10 inch NB.",
-      "brand": { "@type": "Brand", "name": "Creative Metal Industries" },
-      "sku": "CMI-MONEL-PIPE",
-      "material": "Monel 400 (UNS N04400) / Monel K-500 (UNS N05500)",
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "INR",
-        "lowPrice": "3500",
-        "highPrice": "12000",
-        "unitCode": "KGM",
-        "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Creative Metal Industries" }
-      },
-      "additionalProperty": [
-        { "@type": "PropertyValue", "name": "Standard", "value": "ASTM B165 (Seamless) / B725 (Welded) / B163 (Tube)" },
-        { "@type": "PropertyValue", "name": "Grades", "value": "Monel 400, Monel K-500, Monel R-405" },
-        { "@type": "PropertyValue", "name": "Size Range", "value": "1/2 inch to 12 inch NB" },
-        { "@type": "PropertyValue", "name": "Key Property", "value": "HF acid resistant, marine grade" }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries",
-      "telephone": "+91-99982-80619",
-      "address": { "@type": "PostalAddress", "streetAddress": "F-3, Loha Bhavan, Lakkadpitha Rd", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/monel-400-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
+      "telephone": "+919998280619",
+      "address": { "@type": "PostalAddress", "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
     },
     {
       "@type": "BreadcrumbList",
@@ -137,13 +114,13 @@ export default function Monel400PipeSupplierIndia() {
   return (
     <>
       <Title>Monel 400 Pipe Supplier India | UNS N04400 | ASTM B165 | CMI</Title>
-      <Meta name="description" content="India's leading Monel 400 pipe supplier. UNS N04400 seamless pipes per ASTM B165, tubes per ASTM B163. Nickel-copper alloy for HF acid, marine &amp; seawater service. Sizes 1/2&quot; to 10&quot; NB. Price Rs 3,500-9,000/kg. Ready stock Vadodara." />
+      <Meta name="description" content="India's leading Monel 400 pipe supplier. UNS N04400 seamless pipes per ASTM B165, tubes per ASTM B163." />
       <Meta name="keywords" content="monel 400 pipe supplier india, monel K500 pipe, UNS N04400 pipe, ASTM B165 pipe supplier, nickel copper alloy pipe, monel pipe price india, HF acid resistant pipe, marine alloy pipe india" />
       <Meta property="og:title" content="Monel 400 Pipe Supplier India | UNS N04400 | CMI" />
       <Meta property="og:description" content="India's trusted Monel 400 pipe supplier. ASTM B165 seamless. HF acid and marine grade. Ready stock Vadodara." />
       <Meta property="og:type" content="product" />
       <Meta property="og:url" content="https://www.creativemetalind.com/monel-400-pipe-supplier-india" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/img/monel-400-pipe.jpg" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Link rel="canonical" href="https://www.creativemetalind.com/monel-400-pipe-supplier-india" />
       <script type="application/ld+json">{SCHEMA}</script>
@@ -153,7 +130,7 @@ export default function Monel400PipeSupplierIndia() {
       <nav style="background:#111827;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.3)">
         <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 20px">
           <a href="/" style="display:flex;align-items:center;text-decoration:none">
-            <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
+            <img width="87" height="44" src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
           </a>
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>

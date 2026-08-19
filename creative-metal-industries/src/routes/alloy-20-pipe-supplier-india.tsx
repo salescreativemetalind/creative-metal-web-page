@@ -17,7 +17,7 @@ const FAQS = [
   { q: "What is the price of Alloy 20 pipe in India?", a: "The price of Alloy 20 pipe in India typically ranges from Rs 2,500 to Rs 6,500 per kg depending on the size, schedule, type (seamless vs welded), and current nickel market rates. Seamless pipes command a higher price due to the manufacturing process, while welded pipes offer a cost-effective alternative for lower-pressure applications. At Creative Metal Industries, we offer competitive pricing backed by direct mill relationships and maintain ready stock to avoid premium charges for urgent requirements. Contact us at +91 99982 80619 for exact pricing on your specific requirement." },
 ];
 
-const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"Product","name":"Alloy 20 Pipe — Carpenter 20 (N08020)","description":"Alloy 20 / Carpenter 20 (UNS N08020) seamless and welded pipes per ASTM B729/B464. Superior sulphuric acid resistance. 35Ni-20Cr-3.5Cu-2.5Mo. Sizes 1/2\" to 8\" NB. Creative Metal Industries, Vadodara, India.","brand":{"@type":"Organization","name":"Creative Metal Industries"},"offers":{"@type":"AggregateOffer","priceCurrency":"INR","lowPrice":"2500","highPrice":"6500","offerCount":"70+","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"16","bestRating":"5"}},{"@type":"LocalBusiness","name":"Creative Metal Industries","telephone":"+91-99982-80619","address":{"@type":"PostalAddress","streetAddress":"F-3, Loha Bhavan, Lakkadpitha Rd","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390001","addressCountry":"IN"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Alloy 20 Pipe Supplier India","item":"https://www.creativemetalind.com/alloy-20-pipe-supplier-india"}]}]});
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/alloy-20-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","address":{"@type":"PostalAddress","streetAddress":"F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390001","addressCountry":"IN"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Alloy 20 Pipe Supplier India","item":"https://www.creativemetalind.com/alloy-20-pipe-supplier-india"}]}]});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":FAQS.map(f=>({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}}))});
 
 export default function Alloy20PipeSupplierIndia() {
@@ -25,7 +25,7 @@ export default function Alloy20PipeSupplierIndia() {
     <>
       <Title>Alloy 20 Pipe Supplier India | N08020 Carpenter 20 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Alloy 20 pipe supplier India — ASTM B729 N08020 Carpenter 20 seamless pipes. 35Ni-20Cr-3.5Cu-2.5Mo for sulphuric acid, phosphoric acid. Sizes 1/2&quot; to 8&quot; NB. Call +91 99982 80619." />
+      <Meta name="description" content="Alloy 20 pipe supplier India — ASTM B729 N08020 Carpenter 20 seamless pipes. 35Ni-20Cr-3.5Cu-2.5Mo for sulphuric acid, phosphoric acid." />
       <Link rel="canonical" href="https://www.creativemetalind.com/alloy-20-pipe-supplier-india" />
       <Meta property="og:title" content="Alloy 20 Pipe Supplier India | N08020 | Sulphuric Acid Specialist | CMI" />
       <Meta property="og:type" content="website" />
@@ -41,7 +41,7 @@ export default function Alloy20PipeSupplierIndia() {
       {/* Navigation */}
       <nav style={{ display: "flex", "align-items": "center", "justify-content": "space-between", padding: "12px 24px", "background-color": "#fff", "border-bottom": "2px solid #E8821A", position: "sticky", top: "0", "z-index": "100" }}>
         <a href="/" style={{ display: "flex", "align-items": "center", "text-decoration": "none" }}>
-          <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style={{ height: "48px" }} />
+          <img width="95" height="48" src="/logo_cmi.png" alt="Creative Metal Industries Logo" style={{ height: "48px" }} />
         </a>
         <a href="https://www.creativemetalind.com/#contact" style={{ background: "#E8821A", color: "#fff", padding: "10px 22px", "border-radius": "4px", "text-decoration": "none", "font-weight": "bold", "font-size": "15px" }}>Get Quote</a>
       </nav>

@@ -93,34 +93,11 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
+    
     {
-      "@type": "Product",
-      "name": "Forged Fittings",
-      "description": "Forged pipe fittings — socket weld and threaded — in SS 304/316L, carbon steel A105, alloy steel F11/F22/F91, duplex, and nickel alloys. ASME B16.11 in classes 2000# to 9000#. Sizes 1/8 inch to 4 inch NB.",
-      "brand": { "@type": "Brand", "name": "Creative Metal Industries" },
-      "sku": "CMI-FORGED-FITTINGS",
-      "material": "ASTM A182, A105, B564",
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "INR",
-        "lowPrice": "50",
-        "highPrice": "15000",
-        "unitCode": "C62",
-        "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Creative Metal Industries" }
-      },
-      "additionalProperty": [
-        { "@type": "PropertyValue", "name": "Standard", "value": "ASME B16.11 / MSS SP-79 / BS 3799" },
-        { "@type": "PropertyValue", "name": "Materials", "value": "A182 F304/F316/F11/F22/F91, A105, B564" },
-        { "@type": "PropertyValue", "name": "Size Range", "value": "1/8 inch to 4 inch NB" },
-        { "@type": "PropertyValue", "name": "Classes", "value": "2000#, 3000#, 6000#, 9000#" }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries",
-      "telephone": "+91-99982-80619",
-      "address": { "@type": "PostalAddress", "streetAddress": "F-3, Loha Bhavan, Lakkadpitha Rd", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/forged-fittings-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
+      "telephone": "+919998280619",
+      "address": { "@type": "PostalAddress", "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
     },
     {
       "@type": "BreadcrumbList",
@@ -146,13 +123,13 @@ export default function ForgedFittingsSupplierIndia() {
   return (
     <>
       <Title>Forged Fittings Supplier India | ASME B16.11 | CMI</Title>
-      <Meta name="description" content="India's trusted forged fittings supplier. Socket weld &amp; threaded fittings in SS 304/316L, CS A105, alloy F11/F22/F91, duplex. ASME B16.11, Class 2000# to 9000#. Sizes 1/8&quot; to 4&quot; NB. Ready stock Vadodara. Call +91 99982 80619." />
+      <Meta name="description" content="India's trusted forged fittings supplier. Socket weld &amp; threaded fittings in SS 304/316L, CS A105, alloy F11/F22/F91, duplex." />
       <Meta name="keywords" content="forged fittings supplier india, socket weld fittings india, threaded fittings supplier, ASTM A182 fittings, ASME B16.11 fittings, SS forged fittings, A105 fittings, 3000 lb fittings, 6000 lb fittings india" />
       <Meta property="og:title" content="Forged Fittings Supplier India | Socket Weld & Threaded | CMI" />
       <Meta property="og:description" content="Forged fittings supplier India. Socket weld &amp; threaded. SS, CS, alloy, duplex. ASME B16.11. Ready stock Vadodara." />
       <Meta property="og:type" content="product" />
       <Meta property="og:url" content="https://www.creativemetalind.com/forged-fittings-supplier-india" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/img/forged-fittings.jpg" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Link rel="canonical" href="https://www.creativemetalind.com/forged-fittings-supplier-india" />
       <script type="application/ld+json">{SCHEMA}</script>
@@ -162,7 +139,7 @@ export default function ForgedFittingsSupplierIndia() {
       <nav style="background:#111827;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.3)">
         <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 20px">
           <a href="/" style="display:flex;align-items:center;text-decoration:none">
-            <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
+            <img width="87" height="44" src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
           </a>
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>

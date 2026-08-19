@@ -8,15 +8,7 @@ import { RelatedPages } from "../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Product",
-      "name": "Hardox 400/500 Wear Plate Supplier India",
-      "description": "Hardox 400 & 500 abrasion resistant wear plate supplier India. 6mm to 80mm. Mining & cement. CMI Vadodara. Call +91 99982 80619.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "manufacturer": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "180", "highPrice": "15000", "offerCount": "500+", "availability": "https://schema.org/InStock" },
-      "url": "https://www.creativemetalind.com/hardox-wear-plate-supplier-india"
-    },
+    
     {
       "@type": "BreadcrumbList",
       "itemListElement": [

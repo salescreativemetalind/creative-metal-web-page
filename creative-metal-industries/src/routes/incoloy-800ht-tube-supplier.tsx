@@ -75,58 +75,10 @@ const FAQS = [
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
-  "@type": "Product",
-  name: "Incoloy 800HT Tube",
-  description:
-    "Incoloy 800HT (UNS N08811) seamless and welded tubes for high-temperature service up to 1100°C. ASTM B407/B163 compliant with controlled Al+Ti additions for superior creep-rupture strength.",
-  brand: {
-    "@type": "Brand",
-    name: "Creative Metal Industries",
-  },
-  manufacturer: {
-    "@type": "Organization",
-    name: "Creative Metal Industries",
-    url: "https://www.creativemetalind.com",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "F-3, Loha Bhavan, Lakkadpitha Rd",
-      addressLocality: "Vadodara",
-      addressRegion: "Gujarat",
-      postalCode: "390001",
-      addressCountry: "IN",
-    },
-    telephone: "+91-99982-80619",
-  },
-  offers: {
-    "@type": "AggregateOffer",
-    priceCurrency: "INR",
-    lowPrice: "2000",
-    highPrice: "5500",
-    unitCode: "KGM",
-    availability: "https://schema.org/InStock",
-  },
-  material: "Incoloy 800HT (UNS N08811)",
-  additionalProperty: [
-    {
-      "@type": "PropertyValue",
-      name: "Standard (Seamless Tube)",
-      value: "ASTM B407 / SB407",
-    },
-    {
-      "@type": "PropertyValue",
-      name: "Standard (Tube)",
-      value: "ASTM B163 / SB163",
-    },
-    {
-      "@type": "PropertyValue",
-      name: "Tube Size Range",
-      value: "OD 25mm to 168mm",
-    },
-    {
-      "@type": "PropertyValue",
-      name: "Max Service Temperature",
-      value: "Up to 1100°C",
-    },
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.creativemetalind.com" },
+    { "@type": "ListItem", position: 2, name: "Incoloy 800HT Tube Supplier India", item: "https://www.creativemetalind.com/incoloy-800ht-tube-supplier" },
   ],
 });
 
@@ -147,9 +99,14 @@ export default function Incoloy800htTubeSupplier() {
   return (
     <>
       <Title>Incoloy 800HT Tube Supplier India | ASTM B407 N08811 | CMI</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:title" content="Incoloy 800HT Tube Supplier India | ASTM B407 N08811 | CMI" />
+      <Meta property="og:description" content="Leading Incoloy 800HT tube supplier in India. ASTM B407/B163 seamless tubes, UNS N08811, OD 25-168mm for ethylene crackers & reformers. Ready stock from Vadodara." />
+      <Meta property="og:url" content="https://www.creativemetalind.com/incoloy-800ht-tube-supplier" />
       <Meta
         name="description"
-        content="Leading Incoloy 800HT tube supplier in India. ASTM B407/B163 seamless tubes, UNS N08811, OD 25-168mm for ethylene crackers & reformers. Ready stock from Vadodara."
+        content="Incoloy 800HT tube supplier India. ASTM B407/B163 seamless tubes, UNS N08811, OD 25-168mm for ethylene crackers and reformers."
       />
       <Meta
         name="keywords"
@@ -174,7 +131,7 @@ export default function Incoloy800htTubeSupplier() {
         }}
       >
         <a href="/" style={{ display: "flex", "align-items": "center", "text-decoration": "none" }}>
-          <img
+          <img width="95" height="48"
             src="/logo_cmi.png"
             alt="Creative Metal Industries Logo"
             style={{ height: "48px", width: "auto" }}
@@ -725,7 +682,7 @@ export default function Incoloy800htTubeSupplier() {
         }}
       >
         <div style={{ "max-width": "960px", margin: "0 auto" }}>
-          <img
+          <img width="79" height="40"
             src="/logo_cmi.png"
             alt="Creative Metal Industries"
             style={{ height: "40px", "margin-bottom": "1rem", filter: "brightness(2)" }}

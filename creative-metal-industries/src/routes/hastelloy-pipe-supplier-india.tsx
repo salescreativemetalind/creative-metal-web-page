@@ -93,36 +93,13 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
+    
     {
-      "@type": "Product",
-      "name": "Hastelloy Pipe",
-      "description": "Hastelloy C-276, C-22, B-2, B-3, X seamless and welded pipes per ASTM B622/B619. Corrosion-resistant nickel alloy pipes for chemical, pharmaceutical, and petrochemical industries. Sizes 1/2 inch to 12 inch NB.",
-      "brand": { "@type": "Brand", "name": "Creative Metal Industries" },
-      "sku": "CMI-HASTELLOY-PIPE",
-      "material": "Hastelloy C-276 / C-22 / B-2 / B-3 / X",
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "INR",
-        "lowPrice": "4500",
-        "highPrice": "12000",
-        "unitCode": "KGM",
-        "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Creative Metal Industries" }
-      },
-      "additionalProperty": [
-        { "@type": "PropertyValue", "name": "Standard", "value": "ASTM B622 (Seamless) / ASTM B619 (Welded)" },
-        { "@type": "PropertyValue", "name": "Grades", "value": "C-276, C-22, B-2, B-3, C-4, X" },
-        { "@type": "PropertyValue", "name": "Size Range", "value": "1/2 inch to 12 inch NB" },
-        { "@type": "PropertyValue", "name": "Type", "value": "Seamless / Welded" }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries",
-      "telephone": "+91-99982-80619",
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/hastelloy-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
+      "telephone": "+919998280619",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "F-3, Loha Bhavan, Lakkadpitha Rd",
+        "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
         "addressLocality": "Vadodara",
         "addressRegion": "Gujarat",
         "postalCode": "390001",
@@ -160,13 +137,13 @@ export default function HastelloyPipeSupplierIndia() {
   return (
     <>
       <Title>Hastelloy Pipe Supplier India | C-276, C-22, B-2 | CMI</Title>
-      <Meta name="description" content="Leading Hastelloy pipe supplier in India. C-276, C-22, B-2, B-3 seamless pipes per ASTM B622. Corrosion-resistant nickel alloy pipes for chemical &amp; pharma industries. Sizes 1/2&quot; to 12&quot; NB. Price Rs 4,500-12,000/kg. Ready stock Vadodara." />
+      <Meta name="description" content="Hastelloy pipe supplier India. C-276, C-22, B-2, B-3 seamless pipes per ASTM B622. Corrosion-resistant nickel alloy for chemical and pharma service." />
       <Meta name="keywords" content="hastelloy pipe supplier india, hastelloy c276 pipe, hastelloy c22 pipe india, ASTM B622 pipe supplier, nickel alloy pipe india, hastelloy pipe price, corrosion resistant pipe india, chemical plant pipe supplier" />
       <Meta property="og:title" content="Hastelloy Pipe Supplier India | C-276, C-22 | Creative Metal Industries" />
       <Meta property="og:description" content="India's trusted Hastelloy pipe supplier. C-276, C-22, B-2 seamless pipes per ASTM B622. Chemical-resistant nickel alloy pipes. Ready stock Vadodara." />
       <Meta property="og:type" content="product" />
       <Meta property="og:url" content="https://www.creativemetalind.com/hastelloy-pipe-supplier-india" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/img/hastelloy-pipe.jpg" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Link rel="canonical" href="https://www.creativemetalind.com/hastelloy-pipe-supplier-india" />
       <script type="application/ld+json">{SCHEMA}</script>
@@ -176,7 +153,7 @@ export default function HastelloyPipeSupplierIndia() {
       <nav style="background:#111827;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.3)">
         <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 20px">
           <a href="/" style="display:flex;align-items:center;text-decoration:none">
-            <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
+            <img width="87" height="44" src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
           </a>
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>

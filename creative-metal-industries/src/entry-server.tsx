@@ -1,7 +1,12 @@
 // @refresh reload
 import { createHandler, StartServer } from "@solidjs/start/server";
 
-export default createHandler(() => (
+// `mode: "async"` renders the full page before the response is sent, which is
+// required for <HttpStatusCode> to take effect. Under the default "stream" mode
+// headers are flushed before the component tree runs, so 404s were served as
+// HTTP 200 (soft 404s). No route uses async SSR data, so nothing is deferred.
+export default createHandler(
+  () => (
   <StartServer
     document={({ assets, children, scripts }) => (
       <html lang="en">
@@ -44,4 +49,6 @@ export default createHandler(() => (
       </html>
     )}
   />
-));
+  ),
+  { mode: "async" },
+);

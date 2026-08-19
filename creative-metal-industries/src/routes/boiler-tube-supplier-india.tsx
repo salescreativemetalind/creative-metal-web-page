@@ -111,36 +111,13 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
+    
     {
-      "@type": "Product",
-      "name": "Boiler Tube",
-      "description": "IBR certified boiler tubes — SA 179, SA 192, SA 210, SA 213 T11/T22/T91. Seamless carbon and alloy steel tubes for power plant boilers, superheaters, economizers. Sizes OD 12.7mm to 127mm.",
-      "brand": { "@type": "Brand", "name": "Creative Metal Industries" },
-      "sku": "CMI-BOILER-TUBE",
-      "material": "SA 179 / SA 192 / SA 210 / SA 213 T11 / T22 / T91",
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "INR",
-        "lowPrice": "90",
-        "highPrice": "900",
-        "unitCode": "KGM",
-        "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Creative Metal Industries" }
-      },
-      "additionalProperty": [
-        { "@type": "PropertyValue", "name": "Standard", "value": "ASTM A179 / A192 / A210 / A213" },
-        { "@type": "PropertyValue", "name": "IBR Certified", "value": "Yes — Form III-C available" },
-        { "@type": "PropertyValue", "name": "Size Range", "value": "OD 12.7mm to 127mm" },
-        { "@type": "PropertyValue", "name": "Type", "value": "Seamless (Hot Finished / Cold Drawn)" }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries",
-      "telephone": "+91-99982-80619",
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/boiler-tube-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
+      "telephone": "+919998280619",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "F-3, Loha Bhavan, Lakkadpitha Rd",
+        "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
         "addressLocality": "Vadodara",
         "addressRegion": "Gujarat",
         "postalCode": "390001",
@@ -171,13 +148,13 @@ export default function BoilerTubeSupplierIndia() {
   return (
     <>
       <Title>Boiler Tube Supplier India | IBR Certified | CMI</Title>
-      <Meta name="description" content="India's leading IBR certified boiler tube supplier. SA 179, SA 192, SA 210, SA 213 T11/T22/T91 seamless tubes for power plant boilers &amp; superheaters. OD 12.7mm to 127mm. IBR Form III-C. Price Rs 90-900/kg. Ready stock Vadodara." />
+      <Meta name="description" content="India's leading IBR certified boiler tube supplier. SA 179, SA 192, SA 210, SA 213 T11/T22/T91 seamless tubes for power plant boilers &amp; superheaters." />
       <Meta name="keywords" content="boiler tube supplier india, SA 213 T11 tube, SA 213 T22 tube, SA 213 T91 tube, IBR boiler tube, SA 179 tube supplier, SA 192 tube india, power plant boiler tube, NTPC boiler tube supplier" />
       <Meta property="og:title" content="Boiler Tube Supplier India | IBR Certified | SA 213 | CMI" />
       <Meta property="og:description" content="IBR certified boiler tube supplier India. SA 179, SA 192, SA 210, SA 213 T11/T22/T91. Power plant grade. Ready stock Vadodara." />
       <Meta property="og:type" content="product" />
       <Meta property="og:url" content="https://www.creativemetalind.com/boiler-tube-supplier-india" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/img/boiler-tube.jpg" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Link rel="canonical" href="https://www.creativemetalind.com/boiler-tube-supplier-india" />
       <script type="application/ld+json">{SCHEMA}</script>
@@ -187,7 +164,7 @@ export default function BoilerTubeSupplierIndia() {
       <nav style="background:#111827;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.3)">
         <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 20px">
           <a href="/" style="display:flex;align-items:center;text-decoration:none">
-            <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
+            <img width="87" height="44" src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
           </a>
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>

@@ -79,58 +79,10 @@ const FAQS = [
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
-  "@type": "Product",
-  name: "Incoloy 800H Pipe",
-  description:
-    "Incoloy 800H (UNS N08810) seamless and welded pipes per ASTM B407 and B514 for high-temperature creep service up to 1100°C. Supplier in India.",
-  brand: {
-    "@type": "Brand",
-    name: "Creative Metal Industries",
-  },
-  manufacturer: {
-    "@type": "Organization",
-    name: "Creative Metal Industries",
-    url: "https://www.creativemetalind.com",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "F-3, Loha Bhavan, Lakkadpitha Rd",
-      addressLocality: "Vadodara",
-      addressRegion: "Gujarat",
-      postalCode: "390001",
-      addressCountry: "IN",
-    },
-    telephone: "+91-99982-80619",
-  },
-  offers: {
-    "@type": "AggregateOffer",
-    priceCurrency: "INR",
-    lowPrice: "1800",
-    highPrice: "5000",
-    unitCode: "KGM",
-    availability: "https://schema.org/InStock",
-  },
-  material: "Incoloy 800H (UNS N08810) - 32Ni-21Cr-46Fe",
-  additionalProperty: [
-    {
-      "@type": "PropertyValue",
-      name: "Standard (Seamless)",
-      value: "ASTM B407 / SB407",
-    },
-    {
-      "@type": "PropertyValue",
-      name: "Standard (Welded)",
-      value: "ASTM B514 / SB514",
-    },
-    {
-      "@type": "PropertyValue",
-      name: "Size Range",
-      value: '1/2" to 10" NB',
-    },
-    {
-      "@type": "PropertyValue",
-      name: "Max Service Temperature",
-      value: "1100°C",
-    },
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.creativemetalind.com" },
+    { "@type": "ListItem", position: 2, name: "Incoloy 800H Pipe Supplier India", item: "https://www.creativemetalind.com/incoloy-800h-pipe-supplier" },
   ],
 });
 
@@ -151,9 +103,14 @@ export default function Incoloy800hPipeSupplier() {
   return (
     <>
       <Title>Incoloy 800H Pipe Supplier India | CMI</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:title" content="Incoloy 800H Pipe Supplier India | CMI" />
+      <Meta property="og:description" content="Leading Incoloy 800H pipe supplier in India. ASTM B407 seamless & B514 welded pipes, UNS N08810, for reformer tubes & high-temp service up to 1100°C. Ready stock Vadodara." />
+      <Meta property="og:url" content="https://www.creativemetalind.com/incoloy-800h-pipe-supplier" />
       <Meta
         name="description"
-        content="Leading Incoloy 800H pipe supplier in India. ASTM B407 seamless & B514 welded pipes, UNS N08810, for reformer tubes & high-temp service up to 1100°C. Ready stock Vadodara."
+        content="Incoloy 800H pipe supplier India. ASTM B407 seamless and B514 welded pipes, UNS N08810, for reformer tubes and high-temp service to 1100°C."
       />
       <Meta
         name="keywords"
@@ -180,7 +137,7 @@ export default function Incoloy800hPipeSupplier() {
         }}
       >
         <a href="/" style={{ display: "flex", "align-items": "center", "text-decoration": "none" }}>
-          <img
+          <img width="95" height="48"
             src="/logo_cmi.png"
             alt="Creative Metal Industries Logo"
             style={{ height: "48px", "margin-right": "12px" }}
@@ -533,7 +490,7 @@ export default function Incoloy800hPipeSupplier() {
         }}
       >
         <div style={{ "max-width": "960px", margin: "0 auto" }}>
-          <img
+          <img width="79" height="40"
             src="/logo_cmi.png"
             alt="Creative Metal Industries"
             style={{ height: "40px", "margin-bottom": "16px", opacity: "0.9" }}

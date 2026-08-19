@@ -8,7 +8,7 @@ import { RelatedPages } from "../../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Carbon Steel Pipe Welding Procedure — A106 Gr.B",
+  "headline": "Carbon Steel Pipe Welding Procedure — A106 Gr.B", "image": "https://www.creativemetalind.com/og-image.jpg",
   "author": { "@type": "Organization", "name": "Creative Metal Industries" },
   "publisher": { "@type": "Organization", "name": "Creative Metal Industries",
     "logo": { "@type": "ImageObject", "url": "https://www.creativemetalind.com/logo_cmi.png" } },

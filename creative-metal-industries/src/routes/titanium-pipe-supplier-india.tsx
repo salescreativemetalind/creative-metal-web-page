@@ -102,34 +102,11 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
+    
     {
-      "@type": "Product",
-      "name": "Titanium Pipe",
-      "description": "Titanium Grade 1, 2, 5, 7, 9 seamless and welded pipes per ASTM B861/B862. Lightweight, corrosion-proof piping for chemical, desalination, aerospace, and marine applications. Sizes 1/2 inch to 12 inch NB.",
-      "brand": { "@type": "Brand", "name": "Creative Metal Industries" },
-      "sku": "CMI-TITANIUM-PIPE",
-      "material": "Titanium Grade 2 (CP) / Grade 5 (Ti-6Al-4V)",
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "INR",
-        "lowPrice": "5000",
-        "highPrice": "25000",
-        "unitCode": "KGM",
-        "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Creative Metal Industries" }
-      },
-      "additionalProperty": [
-        { "@type": "PropertyValue", "name": "Standard", "value": "ASTM B861 (Seamless) / B862 (Welded) / B338 (Tube)" },
-        { "@type": "PropertyValue", "name": "Grades", "value": "Grade 1, 2, 5, 7, 9" },
-        { "@type": "PropertyValue", "name": "Size Range", "value": "1/2 inch to 12 inch NB" },
-        { "@type": "PropertyValue", "name": "Density", "value": "4.51 g/cm³ (43% lighter than steel)" }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries",
-      "telephone": "+91-99982-80619",
-      "address": { "@type": "PostalAddress", "streetAddress": "F-3, Loha Bhavan, Lakkadpitha Rd", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/titanium-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
+      "telephone": "+919998280619",
+      "address": { "@type": "PostalAddress", "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
     },
     {
       "@type": "BreadcrumbList",
@@ -155,13 +132,13 @@ export default function TitaniumPipeSupplierIndia() {
   return (
     <>
       <Title>Titanium Pipe Supplier India | Grade 2 &amp; Grade 5 | CMI</Title>
-      <Meta name="description" content="India's leading titanium pipe supplier. Grade 1, 2, 5, 7, 9 seamless pipes per ASTM B861. Lightweight corrosion-proof piping for chemical, desalination, aerospace. Sizes 1/2&quot; to 12&quot; NB. Price Rs 5,000-25,000/kg. Ready stock Vadodara." />
+      <Meta name="description" content="Titanium pipe supplier India. Grade 1, 2, 5, 7, 9 seamless pipes per ASTM B861. Lightweight corrosion-proof piping for chemical and desalination." />
       <Meta name="keywords" content="titanium pipe supplier india, titanium grade 2 pipe, titanium grade 5 pipe, Ti-6Al-4V pipe, ASTM B861 pipe india, titanium tube supplier, titanium seamless pipe, CP titanium pipe, titanium condenser tube" />
       <Meta property="og:title" content="Titanium Pipe Supplier India | Grade 2 & Grade 5 | CMI" />
       <Meta property="og:description" content="India's trusted titanium pipe supplier. Grade 2 and Grade 5. ASTM B861. Chemical, desalination, aerospace grade. Ready stock." />
       <Meta property="og:type" content="product" />
       <Meta property="og:url" content="https://www.creativemetalind.com/titanium-pipe-supplier-india" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/img/titanium-pipe.jpg" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Link rel="canonical" href="https://www.creativemetalind.com/titanium-pipe-supplier-india" />
       <script type="application/ld+json">{SCHEMA}</script>
@@ -171,7 +148,7 @@ export default function TitaniumPipeSupplierIndia() {
       <nav style="background:#111827;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.3)">
         <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 20px">
           <a href="/" style="display:flex;align-items:center;text-decoration:none">
-            <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
+            <img width="87" height="44" src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
           </a>
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>

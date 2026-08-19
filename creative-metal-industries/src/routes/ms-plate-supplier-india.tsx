@@ -8,15 +8,7 @@ import { RelatedPages } from "../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Product",
-      "name": "MS Plate Supplier India — IS 2062 All Sizes",
-      "description": "MS plate IS 2062 E250 supplier India. 6mm to 150mm thick, SAIL & Essar. All sizes ready stock. CMI Vadodara. Call +91 99982 80619.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "manufacturer": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "180", "highPrice": "15000", "offerCount": "500+", "availability": "https://schema.org/InStock" },
-      "url": "https://www.creativemetalind.com/ms-plate-supplier-india"
-    },
+    
     {
       "@type": "BreadcrumbList",
       "itemListElement": [

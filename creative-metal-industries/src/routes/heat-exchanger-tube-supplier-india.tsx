@@ -111,34 +111,11 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
+    
     {
-      "@type": "Product",
-      "name": "Heat Exchanger Tube",
-      "description": "Heat exchanger and condenser tubes in SS 304/316L, duplex 2205, CuNi, titanium, and Inconel. ASTM A249/A213/B111/B338/B444. OD 9.53mm to 50.8mm. For shell-and-tube HX, condensers, coolers.",
-      "brand": { "@type": "Brand", "name": "Creative Metal Industries" },
-      "sku": "CMI-HX-TUBE",
-      "material": "SS 304/316/321/904L, Duplex 2205, CuNi, Titanium, Inconel",
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "INR",
-        "lowPrice": "250",
-        "highPrice": "15000",
-        "unitCode": "KGM",
-        "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Creative Metal Industries" }
-      },
-      "additionalProperty": [
-        { "@type": "PropertyValue", "name": "Standards", "value": "ASTM A249, A213, B111, B338, B444" },
-        { "@type": "PropertyValue", "name": "OD Range", "value": "9.53mm to 50.8mm" },
-        { "@type": "PropertyValue", "name": "Wall Thickness", "value": "BWG 14 to 24" },
-        { "@type": "PropertyValue", "name": "Type", "value": "Seamless / Welded / U-Bend" }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries",
-      "telephone": "+91-99982-80619",
-      "address": { "@type": "PostalAddress", "streetAddress": "F-3, Loha Bhavan, Lakkadpitha Rd", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/heat-exchanger-tube-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
+      "telephone": "+919998280619",
+      "address": { "@type": "PostalAddress", "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
     },
     {
       "@type": "BreadcrumbList",
@@ -164,13 +141,13 @@ export default function HeatExchangerTubeSupplierIndia() {
   return (
     <>
       <Title>Heat Exchanger Tube Supplier India | Condenser Tubes | CMI</Title>
-      <Meta name="description" content="India's trusted heat exchanger &amp; condenser tube supplier. SS 304/316L, Duplex 2205, CuNi, Titanium, Inconel tubes per ASTM A249/A213/B111/B338. OD 9.53mm to 50.8mm. 100% ECT tested. Ready stock Vadodara." />
+      <Meta name="description" content="India's trusted heat exchanger &amp; condenser tube supplier. SS 304/316L, Duplex 2205, CuNi, Titanium, Inconel tubes per ASTM A249/A213/B111/B338." />
       <Meta name="keywords" content="heat exchanger tube supplier india, condenser tube supplier, ASTM A249 tube, shell and tube exchanger, SS 316L HX tube, CuNi condenser tube, titanium condenser tube, duplex 2205 tube india" />
       <Meta property="og:title" content="Heat Exchanger Tube Supplier India | Condenser Tubes | CMI" />
       <Meta property="og:description" content="Heat exchanger &amp; condenser tube supplier India. SS, CuNi, Titanium, Inconel. ASTM A249/B111/B338. 100% ECT. Ready stock." />
       <Meta property="og:type" content="product" />
       <Meta property="og:url" content="https://www.creativemetalind.com/heat-exchanger-tube-supplier-india" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/img/heat-exchanger-tube.jpg" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Link rel="canonical" href="https://www.creativemetalind.com/heat-exchanger-tube-supplier-india" />
       <script type="application/ld+json">{SCHEMA}</script>
@@ -180,7 +157,7 @@ export default function HeatExchangerTubeSupplierIndia() {
       <nav style="background:#111827;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.3)">
         <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 20px">
           <a href="/" style="display:flex;align-items:center;text-decoration:none">
-            <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
+            <img width="87" height="44" src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
           </a>
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>

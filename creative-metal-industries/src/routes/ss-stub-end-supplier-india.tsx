@@ -8,15 +8,7 @@ import { RelatedPages } from "../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Product",
-      "name": "Stainless Steel Stub End Supplier India — Lap Joint",
-      "description": "SS stub end lap joint supplier India. 304, 316L, duplex grades. ASTM A403 WP304/316L. Type A & B. Stock at CMI. Call +91 99982 80619.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "manufacturer": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "180", "highPrice": "15000", "offerCount": "500+", "availability": "https://schema.org/InStock" },
-      "url": "https://www.creativemetalind.com/ss-stub-end-supplier-india"
-    },
+    
     {
       "@type": "BreadcrumbList",
       "itemListElement": [

@@ -19,33 +19,11 @@ const FAQS = [
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "CuNi 70/30 (C71500) Pipe",
-  "description": "CuNi 70/30 seamless and welded pipes as per ASTM B466 and ASTM B467 supplied by Creative Metal Industries, Vadodara, India. Sizes 1/2\" to 10\" NB for naval, marine, and offshore applications.",
-  "brand": { "@type": "Brand", "name": "Creative Metal Industries" },
-  "manufacturer": {
-    "@type": "Organization",
-    "name": "Creative Metal Industries",
-    "address": { "@type": "PostalAddress", "streetAddress": "F-3, Loha Bhavan, Lakkadpitha Rd", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" },
-    "telephone": "+91-99982-80619",
-    "url": "https://www.creativemetalind.com"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "priceCurrency": "INR",
-    "lowPrice": "1500",
-    "highPrice": "4000",
-    "unitCode": "KGM",
-    "availability": "https://schema.org/InStock"
-  },
-  "material": "Copper-Nickel 70/30 (UNS C71500)",
-  "additionalProperty": [
-    { "@type": "PropertyValue", "name": "Standard (Seamless)", "value": "ASTM B466 / SB466" },
-    { "@type": "PropertyValue", "name": "Standard (Welded)", "value": "ASTM B467 / SB467" },
-    { "@type": "PropertyValue", "name": "Composition", "value": "70% Cu, 30% Ni, 0.5% Fe, 1% Mn" },
-    { "@type": "PropertyValue", "name": "Size Range", "value": "1/2\" to 10\" NB" },
-    { "@type": "PropertyValue", "name": "Schedules", "value": "SCH 10S, 20S, 40S, 80S" }
-  ]
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.creativemetalind.com" },
+    { "@type": "ListItem", position: 2, name: "CuNi 70/30 Pipe Supplier India", item: "https://www.creativemetalind.com/cupro-nickel-7030-pipe-india" },
+  ],
 });
 
 const FAQ_SCHEMA = JSON.stringify({
@@ -62,7 +40,8 @@ export default function CuproNickel7030PipeIndia() {
   return (
     <>
       <Title>CuNi 70/30 Pipe Supplier India | CMI</Title>
-      <Meta name="description" content="Leading CuNi 70/30 (C71500) pipe supplier in India. ASTM B466 seamless & ASTM B467 welded cupro-nickel pipes, 1/2&quot; to 10&quot; NB, for naval condensers, seawater systems & offshore platforms. Ready stock from Vadodara." />
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="description" content="CuNi 70/30 (C71500) pipe supplier India. ASTM B466 seamless and B467 welded cupro-nickel pipes, 1/2&quot; to 10&quot; NB, for naval and seawater systems." />
       <Meta name="keywords" content="CuNi 70/30 pipe, cupro nickel 70/30 pipe supplier India, ASTM B466, ASTM B467, C71500 pipe, CuNi seamless pipe, CuNi welded pipe, naval condenser pipe, seawater pipe, copper nickel pipe India, Creative Metal Industries" />
       <Meta property="og:title" content="CuNi 70/30 Pipe Supplier India | ASTM B466 C71500 — Creative Metal Industries" />
       <Meta property="og:description" content="Premium CuNi 70/30 (C71500) pipes for naval, marine & offshore applications. ASTM B466 seamless & ASTM B467 welded. Ready stock from Vadodara, Gujarat." />

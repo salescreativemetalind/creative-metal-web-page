@@ -40,9 +40,9 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function SsPipeSupplierVadodaraExplained() {
   return (
     <>
-      <Title>SS Pipe Supplier Vadodara — What Are SS Pipes & Their Uses in Construction | CMI</Title>
+      <Title>SS Pipes Explained — Types, Grades &amp; Uses | CMI Vadodara</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="SS Pipe Supplier Vadodara explains what SS pipes are, their meaning, types, properties and uses in building construction, industrial plants & infrastructure. Stainless steel pipe guide by Creative Metal Industries." />
+      <Meta name="description" content="SS Pipe Supplier Vadodara explains what SS pipes are, their meaning, types, properties and uses in building construction, industrial plants & infrastructure." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-pipe-supplier-vadodara-explained" />
       <Meta property="og:title" content="SS Pipe Supplier Vadodara — What Are SS Pipes & Their Uses in Construction" />
       <Meta property="og:type" content="article" />

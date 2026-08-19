@@ -130,6 +130,44 @@ const LOCATION_PAGES = [
   { href: "/steel-supplier-nagpur", label: "Nagpur" },
   { href: "/ss-pipe-supplier-baroda", label: "Baroda" },
   { href: "/ss-pipe-supplier-ankleshwar", label: "Ankleshwar" },
+  { href: "/steel-pipe-supplier-aurangabad", label: "Aurangabad" },
+  { href: "/steel-pipe-supplier-bhubaneswar", label: "Bhubaneswar" },
+  { href: "/steel-pipe-supplier-gandhidham", label: "Gandhidham" },
+  { href: "/steel-pipe-supplier-goa", label: "Goa" },
+  { href: "/steel-pipe-supplier-hubli", label: "Hubli" },
+  { href: "/steel-pipe-supplier-kochi", label: "Kochi" },
+  { href: "/steel-pipe-supplier-ludhiana", label: "Ludhiana" },
+  { href: "/steel-pipe-supplier-madurai", label: "Madurai" },
+  { href: "/steel-pipe-supplier-navi-mumbai", label: "Navi Mumbai" },
+  { href: "/steel-pipe-supplier-thane", label: "Thane" },
+  { href: "/steel-pipe-supplier-trichy", label: "Trichy" },
+  { href: "/steel-pipe-supplier-vasai", label: "Vasai" },
+  { href: "/steel-supplier-ankleshwar-gidc", label: "Ankleshwar GIDC" },
+  { href: "/steel-supplier-bhopal", label: "Bhopal" },
+  { href: "/steel-supplier-chakan-pune", label: "Chakan Pune" },
+  { href: "/steel-supplier-chandigarh", label: "Chandigarh" },
+  { href: "/steel-supplier-durgapur", label: "Durgapur" },
+  { href: "/steel-supplier-haldia", label: "Haldia" },
+  { href: "/steel-supplier-jamnagar", label: "Jamnagar" },
+  { href: "/steel-supplier-jhagadia", label: "Jhagadia" },
+  { href: "/steel-supplier-kakinada", label: "Kakinada" },
+  { href: "/steel-supplier-kandla", label: "Kandla" },
+  { href: "/steel-supplier-kanpur", label: "Kanpur" },
+  { href: "/steel-supplier-koyali", label: "Koyali" },
+  { href: "/steel-supplier-mangalore", label: "Mangalore" },
+  { href: "/steel-supplier-mathura", label: "Mathura" },
+  { href: "/steel-supplier-mundra", label: "Mundra" },
+  { href: "/steel-supplier-numaligarh", label: "Numaligarh" },
+  { href: "/steel-supplier-panipat", label: "Panipat" },
+  { href: "/steel-supplier-panoli-gidc", label: "Panoli GIDC" },
+  { href: "/steel-supplier-paradip", label: "Paradip" },
+  { href: "/steel-supplier-patalganga", label: "Patalganga" },
+  { href: "/steel-supplier-raipur", label: "Raipur" },
+  { href: "/steel-supplier-rourkela", label: "Rourkela" },
+  { href: "/steel-supplier-salem", label: "Salem" },
+  { href: "/steel-supplier-silvassa", label: "Silvassa" },
+  { href: "/steel-supplier-vadodara-gidc", label: "Vadodara GIDC" },
+  { href: "/steel-supplier-vapi-gidc", label: "Vapi GIDC" },
 ];
 
 const PRICE_BLOG_PAGES = [
@@ -177,6 +215,37 @@ const GUIDE_BLOG_PAGES = [
   { href: "/blog/erw-vs-seamless-pipe", label: "ERW vs Seamless" },
   { href: "/blog/wn-flange-vs-so-flange", label: "WN vs SO Flange" },
   { href: "/blog/pipe-fittings-selection-guide", label: "Fittings Selection Guide" },
+  { href: "/blog/can-carbon-steel-resist-corrosion", label: "Can Carbon Steel Resist Corrosion?" },
+  { href: "/blog/can-ss-pipe-be-painted", label: "Can SS Pipe Be Painted?" },
+  { href: "/blog/difference-supplier-stockist-dealer", label: "Supplier vs Stockist vs Dealer" },
+  { href: "/blog/inconel-vs-monel-guide", label: "Inconel vs Monel" },
+  { href: "/blog/industrial-raw-material-supplier-india", label: "Industrial Raw Material Supply" },
+  { href: "/blog/ss-flange-types-guide", label: "SS Flange Types" },
+  { href: "/blog/ss-pipe-supplier-vadodara-explained", label: "SS Pipes Explained" },
+  { href: "/blog/what-is-annealing-ss-pipe", label: "What is Annealing?" },
+  { href: "/blog/what-is-bright-annealing-tube", label: "What is Bright Annealing?" },
+  { href: "/blog/what-is-cold-worked-pipe", label: "What is Cold Working?" },
+  { href: "/blog/what-is-eddy-current-testing", label: "Eddy Current Testing" },
+  { href: "/blog/what-is-flattening-test", label: "Flattening Test" },
+  { href: "/blog/what-is-heat-number-steel", label: "What is a Heat Number?" },
+  { href: "/blog/what-is-hydrostatic-test", label: "Hydrostatic Test" },
+  { href: "/blog/what-is-igc-test-ss", label: "IGC Test for SS" },
+  { href: "/blog/when-to-use-ss-310-high-temp", label: "When to Use SS 310" },
+  { href: "/blog/when-to-use-ss-321-vs-304", label: "SS 321 vs SS 304" },
+  { href: "/blog/why-creative-metal-industries", label: "Why Creative Metal Industries" },
+];
+
+// Top-level pages every route should reach. These were previously only linked
+// from SiteFooter, which renders on the few <PageLayout> routes, leaving them
+// with very few internal links (/reviews had 7, /metal-trading 10, /about 19).
+const SITE_PAGES = [
+  { href: "/products", label: "All Products" },
+  { href: "/stainless-steel-supplier-gujarat", label: "Stainless Steel Gujarat" },
+  { href: "/blog", label: "Technical Blog" },
+  { href: "/about", label: "About CMI" },
+  { href: "/metal-trading", label: "Metal Trading" },
+  { href: "/reviews", label: "Customer Reviews" },
+  { href: "/sitemap", label: "Site Map" },
 ];
 
 // ── Category definitions with their page sets ─────────────────────────────────
@@ -235,6 +304,15 @@ function getRelatedLinks(currentPath: string): { title: string; links: { href: s
 
     results.push({ title: cat.title, links: picked });
   }
+
+  // Always finish with the company and top-level pages. Only the handful of
+  // routes wrapped in <PageLayout> render SiteNav/SiteFooter, so without this
+  // the other ~570 pages offered no route to /about, /products, /reviews,
+  // /metal-trading or the state-level hub at all.
+  results.push({
+    title: "Company & Resources",
+    links: SITE_PAGES.filter(p => p.href !== currentPath),
+  });
 
   return results;
 }

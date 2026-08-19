@@ -724,7 +724,7 @@ function ProductsSection() {
           <div class="prod-modal">
             <button class="prod-modal-close" aria-label="Close" onClick={() => setSelected(null)}>✕</button>
             <div class="prod-modal-img">
-              <img src={selected()!.imgs[0]} alt={selected()!.name}/>
+              <img src={selected()!.imgs[0]} alt={selected()!.name} loading="lazy" decoding="async" />
             </div>
             <div class="prod-modal-body">
               <span class="section-label">{activeCategory().icon} {activeCategory().label}</span>
@@ -1612,13 +1612,12 @@ function Footer() {
 // ─── JSON-LD Schema ───────────────────────────────────────────────────────────
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Creative Metal Industries",
+  "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
   "alternateName": ["CMI Vadodara", "SS Pipe Supplier Vadodara", "Creative Metal Industries Vadodara"],
   "priceRange": "₹₹₹",
   "description": "Leading SS pipe supplier in Vadodara, Gujarat. Creative Metal Industries is a manufacturer, stockist and supplier of Stainless Steel pipes (SS 304, 316L, 321, Duplex 2205), fittings, flanges and plates. IBR Form III-C, NACE, MTC certified. Ready stock at GIDC Makarpura, Vadodara — same-day dispatch.",
   "url": "https://www.creativemetalind.com",
-  "telephone": "+91-99982-80619",
+  "telephone": "+919998280619",
   "email": "creativemetalind@gmail.com",
   "foundingDate": "2012",
   "logo": {
@@ -1655,7 +1654,7 @@ const SCHEMA = JSON.stringify({
   "geo": { "@type": "GeoCoordinates", "latitude": 22.3072, "longitude": 73.1812 },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road",
+    "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
     "addressLocality": "Vadodara",
     "addressRegion": "Gujarat",
     "postalCode": "390001",
@@ -1670,7 +1669,7 @@ const SCHEMA = JSON.stringify({
   "contactPoint": [
     {
       "@type": "ContactPoint",
-      "telephone": "+91-99982-80619",
+      "telephone": "+919998280619",
       "contactType": "sales",
       "name": "Sunny Shah",
       "availableLanguage": ["English", "Hindi", "Gujarati"],
@@ -1678,7 +1677,7 @@ const SCHEMA = JSON.stringify({
     },
     {
       "@type": "ContactPoint",
-      "telephone": "+91-98255-06110",
+      "telephone": "+919825506110",
       "contactType": "customer support",
       "name": "Ghewar Shah",
       "areaServed": "IN"
@@ -1879,7 +1878,7 @@ export default function Home() {
     <>
       <Title>SS Pipe Supplier Vadodara | Pipes, Plates &amp; Fittings | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Leading SS pipe supplier in Vadodara — Creative Metal Industries stocks SS 304, 316L, Duplex 2205 seamless &amp; welded pipes, fittings, flanges &amp; plates. IBR, NACE, MTC certified. Call +91 99982 80619." />
+      <Meta name="description" content="Leading SS pipe supplier in Vadodara — Creative Metal Industries stocks SS 304, 316L, Duplex 2205 seamless &amp; welded pipes, fittings, flanges &amp; plates." />
       <Link rel="canonical" href="https://www.creativemetalind.com/" />
       {/* Open Graph */}
       <Meta property="og:type" content="website" />

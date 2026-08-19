@@ -8,15 +8,7 @@ import { RelatedPages } from "../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Product",
-      "name": "Carbon Steel Spectacle Blind Flange Supplier India",
-      "description": "Carbon steel spectacle blind flange supplier India. ASTM A516 Gr.70, figure 8 blinds, all sizes. Ready stock at CMI Vadodara. Call +91 99982 80619.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "manufacturer": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "180", "highPrice": "15000", "offerCount": "500+", "availability": "https://schema.org/InStock" },
-      "url": "https://www.creativemetalind.com/carbon-steel-spectacle-blind-india"
-    },
+    
     {
       "@type": "BreadcrumbList",
       "itemListElement": [

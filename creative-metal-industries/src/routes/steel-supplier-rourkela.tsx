@@ -60,8 +60,10 @@ export default function SteelSupplierRourkela() {
   const jsonLdLocal = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": `${defined.domain}${defined.slug}#business`,
+    parentOrganization: { "@id": `${defined.domain}/#organization` },
     name: defined.business,
-    image: `${defined.domain}/logo.png`,
+    image: `${defined.domain}/og-image.jpg`,
     url: `${defined.domain}${defined.slug}`,
     telephone: defined.phone,
     address: {
@@ -102,13 +104,14 @@ export default function SteelSupplierRourkela() {
   return (
     <>
       <Title>Steel Supplier in Rourkela | SAIL RSP Alloys</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Leading steel supplier in Rourkela, Odisha. Alloy steel pipes P5-P91, IBR boiler tubes, duplex & exotic alloys for SAIL RSP maintenance. 2-3 day delivery." />
       <Link rel="canonical" href={`${defined.domain}${defined.slug}`} />
       <Meta property="og:title" content="Steel Supplier in Rourkela | SAIL RSP Alloys | Creative Metal Industries" />
       <Meta property="og:description" content="Specialized alloy steel, IBR pipes, duplex & exotic alloys for SAIL Rourkela Steel Plant maintenance and Odisha industries. 2-3 day delivery from Vadodara." />
       <Meta property="og:url" content={`${defined.domain}${defined.slug}`} />
       <Meta property="og:type" content="website" />
-      <Meta property="og:image" content={`${defined.domain}/logo.png`} />
+      <Meta property="og:image" content={`${defined.domain}/og-image.jpg`} />
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:title" content="Steel Supplier in Rourkela | SAIL RSP Alloys" />
       <Meta name="twitter:description" content="Alloy steel pipes, IBR boiler tubes, duplex & exotic alloys for SAIL RSP and Western Odisha industries. Fast delivery from Creative Metal Industries." />

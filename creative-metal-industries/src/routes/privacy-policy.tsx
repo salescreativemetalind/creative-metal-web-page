@@ -5,6 +5,7 @@ export default function PrivacyPolicyPage() {
   return (
     <PageLayout breadcrumb={[{ label: "Home", href: "/" }, { label: "Privacy Policy" }]}>
       <Title>Privacy Policy | Creative Metal Industries — Vadodara</Title>
+      <Meta property="og:type" content="website" />
       <Meta name="description" content="Privacy Policy for Creative Metal Industries. Learn how we collect, use and protect your personal information when you visit our website or submit enquiries." />
       <Meta name="robots" content="index, follow" />
       <Link rel="canonical" href="https://www.creativemetalind.com/privacy-policy" />
@@ -12,7 +13,7 @@ export default function PrivacyPolicyPage() {
       <Meta property="og:description" content="Privacy Policy — how Creative Metal Industries handles your personal data and enquiry information." />
       <Meta property="og:url" content="https://www.creativemetalind.com/privacy-policy" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
-      <Meta name="twitter:card" content="summary" />
+      <Meta name="twitter:card" content="summary_large_image" />
 
       <section class="page-hero" style="padding:3rem 0 2rem">
         <div class="container">

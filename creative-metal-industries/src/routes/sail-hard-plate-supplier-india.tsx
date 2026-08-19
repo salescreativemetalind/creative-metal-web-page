@@ -8,15 +8,7 @@ import { RelatedPages } from "../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Product",
-      "name": "SAIL Hard Abrasion Resistant Plate Supplier India",
-      "description": "SAIL Hard abrasion resistant plate supplier India. 400-500 BHN. Mining, cement, power. CMI Vadodara Gujarat. Call +91 99982 80619.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "manufacturer": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "180", "highPrice": "15000", "offerCount": "500+", "availability": "https://schema.org/InStock" },
-      "url": "https://www.creativemetalind.com/sail-hard-plate-supplier-india"
-    },
+    
     {
       "@type": "BreadcrumbList",
       "itemListElement": [

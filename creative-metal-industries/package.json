@@ -7,8 +7,8 @@
     "dev": "vinxi dev",
     "build": "vinxi build",
     "start": "vinxi start",
-    "ping": "node ping-google.mjs",
-    "postbuild": "node ping-google.mjs"
+    "sitemap": "node generate-sitemap.mjs",
+    "check:sitemap": "node verify-sitemap.mjs"
   },
   "dependencies": {
     "@solidjs/meta": "^0.29.4",

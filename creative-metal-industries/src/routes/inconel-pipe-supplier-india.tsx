@@ -21,7 +21,7 @@ const FAQS = [
   { q:"What industries use Inconel pipe?", a:"Inconel pipe is used in gas turbines and jet engines (718), chemical reactors and flue gas desulfurisation (625), nuclear reactors and furnace components (600), oil well tubing and acid production (825), aerospace exhaust systems, offshore subsea pipelines, bellows and expansion joints, and heat exchangers in corrosive environments." },
 ];
 
-const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"Product","name":"Inconel Pipe","description":"Inconel seamless and welded pipe — Inconel 625, 600, 718, 825 to ASTM B444, B167. Sizes 1/2\" to 12\". High-temperature corrosion resistant. MTC, NACE certified.","brand":{"@type":"Organization","name":"Creative Metal Industries"},"offers":{"@type":"AggregateOffer","priceCurrency":"INR","lowPrice":"2500","highPrice":"85000","offerCount":"200+","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"31","bestRating":"5"}},{"@type":"LocalBusiness","name":"Creative Metal Industries","telephone":"+91-99982-80619","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Inconel Pipe Supplier India","item":"https://www.creativemetalind.com/inconel-pipe-supplier-india"}]}]});
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/inconel-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Inconel Pipe Supplier India","item":"https://www.creativemetalind.com/inconel-pipe-supplier-india"}]}]});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":FAQS.map(f=>({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}}))});
 
 export default function InconelPipeSupplierIndia() {
@@ -29,7 +29,7 @@ export default function InconelPipeSupplierIndia() {
     <>
       <Title>Inconel Pipe Supplier India | 625, 600, 718 | CMI Vadodara</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Inconel pipe supplier India — Inconel 625 (N06625), Inconel 600 (N06600), Inconel 718, Inconel 825 seamless and welded pipes. ASTM B444/B167. High-temperature corrosion resistant. Creative Metal Industries." />
+      <Meta name="description" content="Inconel pipe supplier India — Inconel 625 (N06625), Inconel 600 (N06600), Inconel 718, Inconel 825 seamless and welded pipes. ASTM B444/B167." />
       <Link rel="canonical" href="https://www.creativemetalind.com/inconel-pipe-supplier-india" />
       <Meta property="og:title" content="Inconel Pipe Supplier India | 625, 600, 718, 825 | Creative Metal Industries" />
       <Meta property="og:type" content="website" />

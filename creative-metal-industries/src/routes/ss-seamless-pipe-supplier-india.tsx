@@ -26,7 +26,7 @@ const FAQS = [
   { q:"Do you deliver SS seamless pipe across India?", a:"Yes. We deliver pan-India from our Vadodara stockyard. Same-day dispatch for Gujarat (Vadodara, Ahmedabad, Surat, Bharuch, Dahej). 2-4 day delivery to Mumbai, Delhi, Chennai, Kolkata, Hyderabad and all other locations." },
 ];
 
-const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"Product","name":"SS Seamless Pipe","description":"Stainless steel seamless pipe to ASTM A312 in grades SS 304, 316L, 321, 310S, Duplex 2205. Sizes 6NB–600NB, schedules SCH 5S–XXS. IBR, MTC certified.","brand":{"@type":"Organization","name":"Creative Metal Industries"},"offers":{"@type":"AggregateOffer","priceCurrency":"INR","lowPrice":"280","highPrice":"1800","offerCount":"500+","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"47","bestRating":"5"}},{"@type":"LocalBusiness","name":"Creative Metal Industries","telephone":"+91-99982-80619","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"SS Seamless Pipe Supplier India","item":"https://www.creativemetalind.com/ss-seamless-pipe-supplier-india"}]}]});
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/ss-seamless-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"SS Seamless Pipe Supplier India","item":"https://www.creativemetalind.com/ss-seamless-pipe-supplier-india"}]}]});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":FAQS.map(f=>({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}}))});
 
 export default function SsSeamlessPipeSupplierIndia() {
@@ -34,7 +34,7 @@ export default function SsSeamlessPipeSupplierIndia() {
     <>
       <Title>SS Seamless Pipe Supplier India | ASTM A312 All Grades | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="India's leading SS seamless pipe supplier and manufacturer. SS 304, 316L, 321, 310S, 904L, Duplex 2205 to ASTM A312. 6NB–600NB, SCH 5S–XXS. IBR, MTC certified. Ready stock Vadodara. Creative Metal Industries." />
+      <Meta name="description" content="India's leading SS seamless pipe supplier and manufacturer. SS 304, 316L, 321, 310S, 904L, Duplex 2205 to ASTM A312. 6NB–600NB, SCH 5S–XXS." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-seamless-pipe-supplier-india" />
       <Meta property="og:title" content="SS Seamless Pipe Supplier India | ASTM A312 | Creative Metal Industries" />
       <Meta property="og:type" content="website" />

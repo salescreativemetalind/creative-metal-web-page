@@ -5,15 +5,17 @@
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../../components/RelatedPages";
 
-const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Pipe Schedule SCH 40, 80, and 160 — Complete Weight and Thickness Chart Guide","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/img/ss_seamless_pipe.webp","url":"https://www.creativemetalind.com/blog/pipe-schedule-chart"});
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Pipe Schedule SCH 40, 80, and 160 — Complete Weight and Thickness Chart Guide","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17", "dateModified": "2026-06-17","image":"https://www.creativemetalind.com/img/ss_seamless_pipe.webp","url":"https://www.creativemetalind.com/blog/pipe-schedule-chart"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does pipe schedule mean?","acceptedAnswer":{"@type":"Answer","text":"Pipe schedule is a dimensionless number that defines the wall thickness of a pipe relative to its nominal size. The formula is: Schedule ≈ 1000 × (P/S), where P = internal pressure (psi) and S = allowable stress (psi). Higher schedule = thicker wall = higher pressure rating. SCH 40 is 'standard weight', SCH 80 is 'extra strong', SCH 160 and XXS are for extreme pressure service."}},{"@type":"Question","name":"What is the difference between SCH 40 and SCH 80 pipe?","acceptedAnswer":{"@type":"Answer","text":"For the same nominal pipe size, SCH 80 has a thicker wall than SCH 40 but the SAME outside diameter. Example: 2-inch pipe OD = 60.3mm always. SCH 40 wall = 3.91mm, SCH 80 wall = 5.54mm. This means SCH 80 has a smaller inside diameter (bore), higher pressure rating (~60% more than SCH 40), and weighs more per metre."}},{"@type":"Question","name":"How do I calculate pipe weight per metre?","acceptedAnswer":{"@type":"Answer","text":"Formula: Weight (kg/m) = (OD - WT) × WT × 0.02466 × density factor. For carbon steel (density 7.85): Weight = (OD - WT) × WT × 0.02466. For stainless steel (density 8.0): multiply by 1.02. Example: 2-inch SCH 40 CS pipe: (60.3 - 3.91) × 3.91 × 0.02466 = 5.44 kg/m."}}]});
 
 export default function PipeScheduleChart() {
   return (
     <>
       <Title>Pipe Schedule Chart | CMI</Title>
+      <Meta property="og:description" content="Complete pipe schedule chart — SCH 5S, 10S, 40, 80, 160, XXS wall thickness and weight per metre for all sizes. Weight calculation formula. Steel stockist Vadodara. Creative Metal Industries." />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/pipe-schedule-chart" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Complete pipe schedule chart — SCH 5S, 10S, 40, 80, 160, XXS wall thickness and weight per metre for all sizes. Weight calculation formula. Steel stockist Vadodara. Creative Metal Industries." />
+      <Meta name="description" content="Complete pipe schedule chart — SCH 5S, 10S, 40, 80, 160, XXS wall thickness and weight per metre for all sizes. Weight calculation formula." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/pipe-schedule-chart" />
       <Meta property="og:title" content="Pipe Schedule SCH 40, 80, 160 — Complete Chart Guide" />
       <Meta property="og:type" content="article" />

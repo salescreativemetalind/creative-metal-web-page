@@ -73,49 +73,16 @@ const FAQS = [
 const SCHEMA = {
   "@context": "https://schema.org",
   "@graph": [
+    
     {
-      "@type": "Product",
-      "name": "Nickel 201 Pipe",
-      "description": "Premium quality Nickel 201 (UNS N02201) seamless and welded pipes manufactured to ASTM B161 and ASTM B163 standards. Low carbon nickel pipe ideal for caustic evaporators, NaOH service above 315°C, hydrogen generation, and electronics applications.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Creative Metal Industries"
-      },
-      "manufacturer": {
-        "@type": "Organization",
-        "name": "Creative Metal Industries"
-      },
-      "material": "Nickel 201 (UNS N02201)",
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "INR",
-        "lowPrice": "3200",
-        "highPrice": "8000",
-        "unitCode": "KGM",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "Creative Metal Industries"
-        }
-      },
-      "additionalProperty": [
-        { "@type": "PropertyValue", "name": "Standard", "value": "ASTM B161 / ASTM B163" },
-        { "@type": "PropertyValue", "name": "Grade", "value": "Nickel 201 (UNS N02201)" },
-        { "@type": "PropertyValue", "name": "Size Range", "value": "1/2 inch to 6 inch NB" },
-        { "@type": "PropertyValue", "name": "Schedule", "value": "SCH 10S to 80S" },
-        { "@type": "PropertyValue", "name": "Carbon Content", "value": "0.02% max" }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries",
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/nickel-201-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
       "description": "Leading supplier of Nickel 201 pipes, tubes, and fittings in India. Stockist of ASTM B161 seamless nickel 201 pipes for caustic evaporator and NaOH plant applications.",
       "url": "https://www.creativemetalind.com",
-      "telephone": "+91-99982-80619",
+      "telephone": "+919998280619",
       "email": "info@creativemetalind.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "F-3, Loha Bhavan, Lakkadpitha Road",
+        "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
         "addressLocality": "Vadodara",
         "addressRegion": "Gujarat",
         "postalCode": "390001",
@@ -157,14 +124,14 @@ export default function Nickel201PipeSupplierIndia() {
   return (
     <>
       <Title>Nickel 201 Pipe Supplier India | CMI</Title>
-      <Meta name="description" content="Leading Nickel 201 pipe supplier in India. UNS N02201 seamless pipe stockist per ASTM B161 & B163. Low carbon nickel pipe for caustic evaporators, NaOH service above 315°C. Sizes 1/2 to 6 inch NB. Best price from Vadodara." />
+      <Meta name="description" content="Nickel 201 pipe supplier India. UNS N02201 seamless pipe per ASTM B161 and B163. Low-carbon nickel for caustic evaporators and NaOH above 315°C." />
       <Meta name="keywords" content="nickel 201 pipe supplier india, nickel 201 seamless pipe, UNS N02201 pipe, ASTM B161 nickel pipe, nickel 201 tube supplier india, low carbon nickel pipe, nickel 201 pipe price india, caustic evaporator pipe, nickel 201 welded pipe, nickel pipe stockist vadodara" />
       <Meta name="robots" content="index, follow" />
       <Meta property="og:title" content="Nickel 201 Pipe Supplier India | UNS N02201 | Creative Metal Industries" />
       <Meta property="og:description" content="Premium Nickel 201 (UNS N02201) seamless and welded pipes per ASTM B161/B163. Low carbon nickel pipe for caustic service above 315°C. Supplier from Vadodara, India." />
       <Meta property="og:type" content="product" />
       <Meta property="og:url" content="https://www.creativemetalind.com/nickel-201-pipe-supplier-india" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/logo_cmi.png" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Link rel="canonical" href="https://www.creativemetalind.com/nickel-201-pipe-supplier-india" />
       <script type="application/ld+json">{JSON.stringify(SCHEMA)}</script>
       <script type="application/ld+json">{JSON.stringify(FAQ_SCHEMA)}</script>
@@ -173,7 +140,7 @@ export default function Nickel201PipeSupplierIndia() {
       <nav style="background:#1a1a2e;padding:12px 0;border-bottom:3px solid #E8821A;position:sticky;top:0;z-index:1000">
         <div style="max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap">
           <a href="/" style="display:flex;align-items:center;text-decoration:none">
-            <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:45px;margin-right:10px" loading="lazy" />
+            <img width="89" height="45" src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:45px;margin-right:10px" loading="lazy" />
             <span style="color:#E8821A;font-size:1.3rem;font-weight:700">Creative Metal Industries</span>
           </a>
           <div style="display:flex;gap:20px;align-items:center;flex-wrap:wrap">
@@ -446,7 +413,7 @@ export default function Nickel201PipeSupplierIndia() {
         <div style="max-width:1200px;margin:0 auto;padding:0 20px">
           <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:32px;margin-bottom:36px">
             <div>
-              <img src="/logo_cmi.png" alt="Creative Metal Industries" style="height:45px;margin-bottom:16px" loading="lazy" />
+              <img width="89" height="45" src="/logo_cmi.png" alt="Creative Metal Industries" style="height:45px;margin-bottom:16px" loading="lazy" />
               <p style="color:#ccc;font-size:0.9rem;line-height:1.7;margin:0">
                 Creative Metal Industries is a leading supplier of nickel alloy pipes, tubes, fittings, and flanges in India. Specializing in Nickel 201, Nickel 200, Monel, Inconel, Hastelloy, and other high-performance alloys for critical industrial applications.
               </p>

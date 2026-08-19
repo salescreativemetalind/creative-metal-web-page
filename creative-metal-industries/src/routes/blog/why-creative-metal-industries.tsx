@@ -5,15 +5,17 @@
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../../components/RelatedPages";
 
-const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Why Creative Metal Industries is Gujarat's Preferred Steel Trading Company","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17","image":"https://www.creativemetalind.com/logo_cmi.png","url":"https://www.creativemetalind.com/blog/why-creative-metal-industries"});
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Why Creative Metal Industries is Gujarat's Preferred Steel Trading Company","author":{"@type":"Organization","name":"Creative Metal Industries"},"publisher":{"@type":"Organization","name":"Creative Metal Industries","logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},"datePublished":"2026-06-17", "dateModified": "2026-06-17","image":"https://www.creativemetalind.com/logo_cmi.png","url":"https://www.creativemetalind.com/blog/why-creative-metal-industries"});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does Creative Metal Industries supply?","acceptedAnswer":{"@type":"Answer","text":"Creative Metal Industries supplies the complete range of industrial metals: Stainless Steel (304, 316L, 321, 310S, 904L), Carbon Steel (IS 2062, SA 516, A106), Alloy Steel (P5, P9, P11, P22, P91), Duplex & Super Duplex (2205, 2507), and Exotic Alloys (Inconel, Monel, Hastelloy, Titanium, Aluminium, Copper). Product forms: pipes, plates, sheets, fittings, flanges, bars, structural sections, and TMT bars."}},{"@type":"Question","name":"Where is Creative Metal Industries located?","acceptedAnswer":{"@type":"Answer","text":"Office: F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Vadodara 390001, Gujarat. Warehouse/Yard: 386/B, GIDC Estate, Makarpura, Vadodara 390010. The 1,092 sq.mtr warehouse at GIDC Makarpura holds ready stock for immediate dispatch. Open Monday to Saturday, 9 AM to 7 PM. Contact: +91 99982 80619 (Sunny Shah)."}},{"@type":"Question","name":"Does Creative Metal Industries deliver outside Gujarat?","acceptedAnswer":{"@type":"Answer","text":"Yes — we deliver pan-India (2-5 working days) and export to 50+ countries including UAE, Saudi Arabia, Oman, Kuwait, Bahrain, UK, and USA. For Gujarat: same-day delivery to Vadodara, Ahmedabad, Surat, Rajkot, Bharuch, Ankleshwar, Dahej, Gandhinagar. Dedicated transport arrangements for full-truck-load quantities."}}]});
 
 export default function WhyCMI() {
   return (
     <>
-      <Title>Why Creative Metal Industries — Gujarat's Steel Trading Company | Vadodara</Title>
+      <Title>Why Creative Metal Industries — Steel Trading, Vadodara</Title>
+      <Meta property="og:description" content="Why Gujarat's industries choose Creative Metal Industries Vadodara — 15+ years, 1092 sq.mtr stock yard, SS/CS/alloy/exotic metals, IBR/MTC certified. Steel trading company Gujarat. Steel stockist Vadodara." />
+      <Meta property="og:url" content="https://www.creativemetalind.com/blog/why-creative-metal-industries" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Why Gujarat's industries choose Creative Metal Industries Vadodara — 15+ years, 1092 sq.mtr stock yard, SS/CS/alloy/exotic metals, IBR/MTC certified. Steel trading company Gujarat. Steel stockist Vadodara." />
+      <Meta name="description" content="Why Gujarat's industries choose Creative Metal Industries Vadodara — 15+ years, 1092 sq.mtr stock yard, SS/CS/alloy/exotic metals, IBR/MTC certified." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/why-creative-metal-industries" />
       <Meta property="og:title" content="Why Creative Metal Industries is Gujarat's Preferred Steel Supplier" />
       <Meta property="og:type" content="article" />

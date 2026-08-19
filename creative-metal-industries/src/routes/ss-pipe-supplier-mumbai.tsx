@@ -32,7 +32,7 @@ const FAQS = [
 ];
 
 const SCHEMA = JSON.stringify({ "@context": "https://schema.org", "@graph": [
-  { "@type": "LocalBusiness", "name": "Creative Metal Industries — SS Pipe Supplier Mumbai", "description": "Leading SS pipe supplier in Mumbai for refineries, chemical plants, offshore and infrastructure projects.", "telephone": "+91-99982-80619", "url": "https://www.creativemetalind.com/ss-pipe-supplier-mumbai", "address": { "@type": "PostalAddress", "streetAddress": "386/B GIDC Estate, Makarpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390010", "addressCountry": "IN" }, "areaServed": { "@type": "City", "name": "Mumbai", "containedInPlace": { "@type": "State", "name": "Maharashtra" } }, "priceRange": "$$" },
+  { "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/ss-pipe-supplier-mumbai#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries — SS Pipe Supplier Mumbai", "description": "Leading SS pipe supplier in Mumbai for refineries, chemical plants, offshore and infrastructure projects.", "telephone": "+919998280619", "url": "https://www.creativemetalind.com/ss-pipe-supplier-mumbai", "address": { "@type": "PostalAddress", "streetAddress": "386/B GIDC Estate, Makarpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390010", "addressCountry": "IN" }, "areaServed": { "@type": "City", "name": "Mumbai", "containedInPlace": { "@type": "State", "name": "Maharashtra" } }, "priceRange": "$$" },
   { "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.creativemetalind.com" }, { "@type": "ListItem", "position": 2, "name": "SS Pipe Supplier Mumbai", "item": "https://www.creativemetalind.com/ss-pipe-supplier-mumbai" }] }
 ] });
 const FAQ_SCHEMA = JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": FAQS.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) });
@@ -41,7 +41,7 @@ export default function SSPipeSupplierMumbai() {
   return (<>
     <Title>SS Pipe Supplier Mumbai | Stainless Steel Pipe Mumbai | CMI</Title>
     <Meta name="robots" content="index, follow, max-image-preview:large" />
-    <Meta name="description" content="SS pipe supplier Mumbai — stainless steel 304/316L, carbon steel, alloy steel, duplex pipes, fittings & flanges. BPCL/HPCL approved. Delivery 1-2 days. Call +91 99982 80619." />
+    <Meta name="description" content="SS pipe supplier Mumbai — stainless steel 304/316L, carbon steel, alloy steel, duplex pipes, fittings & flanges. BPCL/HPCL approved. Delivery 1-2 days." />
     <Link rel="canonical" href="https://www.creativemetalind.com/ss-pipe-supplier-mumbai" />
     <Meta property="og:title" content="SS Pipe Supplier Mumbai | Stainless Steel Pipe | CMI" />
     <Meta property="og:type" content="website" />

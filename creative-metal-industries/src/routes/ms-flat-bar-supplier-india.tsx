@@ -8,15 +8,7 @@ import { RelatedPages } from "../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Product",
-      "name": "MS Flat Bar Supplier India — IS 2062",
-      "description": "MS flat bar supplier India IS 2062. 20mm to 300mm width, 3mm to 50mm thick. SAIL. Ready stock CMI. Call +91 99982 80619.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "manufacturer": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "180", "highPrice": "15000", "offerCount": "500+", "availability": "https://schema.org/InStock" },
-      "url": "https://www.creativemetalind.com/ms-flat-bar-supplier-india"
-    },
+    
     {
       "@type": "BreadcrumbList",
       "itemListElement": [

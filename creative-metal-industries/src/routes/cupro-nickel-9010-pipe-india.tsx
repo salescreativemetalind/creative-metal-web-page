@@ -79,44 +79,10 @@ const FAQS = [
 
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
-  "@type": "Product",
-  name: "CuNi 90/10 Pipe (C70600)",
-  description:
-    "CuNi 90/10 (UNS C70600) Seamless & Welded Pipes as per ASTM B466 / B467. Sizes 1/2\" to 12\" NB. Supplied by Creative Metal Industries, Vadodara, India.",
-  brand: { "@type": "Brand", name: "Creative Metal Industries" },
-  manufacturer: {
-    "@type": "Organization",
-    name: "Creative Metal Industries",
-    url: "https://www.creativemetalind.com",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "F-3, Loha Bhavan, Lakkadpitha Rd",
-      addressLocality: "Vadodara",
-      addressRegion: "Gujarat",
-      postalCode: "390001",
-      addressCountry: "IN",
-    },
-    telephone: "+91-99982-80619",
-  },
-  offers: {
-    "@type": "AggregateOffer",
-    priceCurrency: "INR",
-    lowPrice: "1200",
-    highPrice: "3500",
-    unitCode: "KGM",
-    availability: "https://schema.org/InStock",
-    seller: {
-      "@type": "Organization",
-      name: "Creative Metal Industries",
-    },
-  },
-  material: "Copper Nickel 90/10 (UNS C70600)",
-  additionalProperty: [
-    { "@type": "PropertyValue", name: "Standard (Seamless)", value: "ASTM B466 / SB466" },
-    { "@type": "PropertyValue", name: "Standard (Welded)", value: "ASTM B467 / SB467" },
-    { "@type": "PropertyValue", name: "Grade", value: "CuNi 90/10 (UNS C70600)" },
-    { "@type": "PropertyValue", name: "Size Range", value: "1/2\" to 12\" NB" },
-    { "@type": "PropertyValue", name: "Schedules", value: "SCH 10S, 20S, 40S, 80S" },
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.creativemetalind.com" },
+    { "@type": "ListItem", position: 2, name: "CuNi 90/10 Pipe Supplier India", item: "https://www.creativemetalind.com/cupro-nickel-9010-pipe-india" },
   ],
 });
 
@@ -134,9 +100,10 @@ export default function CuproNickel9010PipeIndia() {
   return (
     <>
       <Title>CuNi 90/10 Pipe Supplier India | CMI</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta
         name="description"
-        content="Leading CuNi 90/10 (C70600) pipe supplier in India. ASTM B466 seamless & B467 welded CuNi pipes 1/2&quot; to 12&quot; NB. Seawater cooling, offshore, desalination. Rs 1,200-3,500/kg. Ready stock Vadodara."
+        content="CuNi 90/10 (C70600) pipe supplier India. ASTM B466 seamless and B467 welded pipes 1/2&quot; to 12&quot; NB for seawater cooling and desalination."
       />
       <Meta name="keywords" content="CuNi 90/10 pipe, copper nickel pipe india, C70600 pipe, ASTM B466, ASTM B467, cupro nickel pipe supplier, seawater pipe india, CuNi pipe vadodara, copper nickel 90/10 seamless pipe" />
       <Meta property="og:title" content="CuNi 90/10 Pipe Supplier India | Creative Metal Industries" />
@@ -170,7 +137,7 @@ export default function CuproNickel9010PipeIndia() {
           }}
         >
           <a href="/" style={{ display: "flex", "align-items": "center", "text-decoration": "none" }}>
-            <img
+            <img width="87" height="44"
               src="/logo_cmi.png"
               alt="Creative Metal Industries Logo"
               style={{ height: "44px", "margin-right": "10px" }}
@@ -657,7 +624,7 @@ export default function CuproNickel9010PipeIndia() {
           }}
         >
           <div>
-            <img src="/logo_cmi.png" alt="Creative Metal Industries" style={{ height: "40px", "margin-bottom": "14px" }} />
+            <img width="79" height="40" src="/logo_cmi.png" alt="Creative Metal Industries" style={{ height: "40px", "margin-bottom": "14px" }} />
             <p style={{ color: "#9ca3af", "font-size": "0.9rem", "line-height": "1.6" }}>
               Creative Metal Industries — Your trusted CuNi 90/10 Pipe Supplier in India. We supply copper-nickel alloy
               pipes, tubes, and fittings for marine, offshore, and industrial applications from Vadodara, Gujarat.

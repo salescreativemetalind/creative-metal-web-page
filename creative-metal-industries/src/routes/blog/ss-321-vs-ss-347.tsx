@@ -8,7 +8,7 @@ import { RelatedPages } from "../../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "SS 321 vs SS 347 — Titanium vs Niobium Stabilised",
+  "headline": "SS 321 vs SS 347 — Titanium vs Niobium Stabilised", "image": "https://www.creativemetalind.com/og-image.jpg",
   "author": { "@type": "Organization", "name": "Creative Metal Industries" },
   "publisher": { "@type": "Organization", "name": "Creative Metal Industries",
     "logo": { "@type": "ImageObject", "url": "https://www.creativemetalind.com/logo_cmi.png" } },

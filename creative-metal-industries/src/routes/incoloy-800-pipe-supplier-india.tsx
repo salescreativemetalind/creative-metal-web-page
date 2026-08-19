@@ -93,34 +93,11 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
+    
     {
-      "@type": "Product",
-      "name": "Incoloy 800/825 Pipe",
-      "description": "Incoloy 800, 800H, 800HT, and 825 seamless pipes per ASTM B407/B423. High-temperature and corrosion-resistant nickel-iron-chromium alloys for petrochemical reformers, ethylene crackers, and acid handling. Sizes 1/2 inch to 12 inch NB.",
-      "brand": { "@type": "Brand", "name": "Creative Metal Industries" },
-      "sku": "CMI-INCOLOY-PIPE",
-      "material": "Incoloy 800 (N08800) / 800H (N08810) / 800HT (N08811) / 825 (N08825)",
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "INR",
-        "lowPrice": "1800",
-        "highPrice": "8000",
-        "unitCode": "KGM",
-        "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Creative Metal Industries" }
-      },
-      "additionalProperty": [
-        { "@type": "PropertyValue", "name": "Standard", "value": "ASTM B407 (800/H/HT) / B423 (825) Seamless" },
-        { "@type": "PropertyValue", "name": "Grades", "value": "800, 800H, 800HT, 825" },
-        { "@type": "PropertyValue", "name": "Size Range", "value": "1/2 inch to 12 inch NB" },
-        { "@type": "PropertyValue", "name": "Key Property", "value": "800H: Creep at 1000°C | 825: H2SO4/HCl resistant" }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries",
-      "telephone": "+91-99982-80619",
-      "address": { "@type": "PostalAddress", "streetAddress": "F-3, Loha Bhavan, Lakkadpitha Rd", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/incoloy-800-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
+      "telephone": "+919998280619",
+      "address": { "@type": "PostalAddress", "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
     },
     {
       "@type": "BreadcrumbList",
@@ -146,13 +123,13 @@ export default function Incoloy800PipeSupplierIndia() {
   return (
     <>
       <Title>Incoloy 800 / 825 Pipe Supplier India | 800H, 800HT | CMI</Title>
-      <Meta name="description" content="India's leading Incoloy pipe supplier. 800, 800H, 800HT (N08810/N08811) for reformers &amp; crackers. 825 (N08825) for acid service. ASTM B407/B423. Sizes 1/2&quot; to 12&quot; NB. Price Rs 1,800-8,000/kg. Ready stock Vadodara." />
+      <Meta name="description" content="India's leading Incoloy pipe supplier. 800, 800H, 800HT (N08810/N08811) for reformers &amp; crackers. 825 (N08825) for acid service. ASTM B407/B423." />
       <Meta name="keywords" content="incoloy 800 pipe supplier india, incoloy 800H pipe, incoloy 800HT tube, incoloy 825 pipe, UNS N08800 pipe, UNS N08825 pipe, ASTM B407 pipe, reformer tube india, ethylene cracker tube" />
       <Meta property="og:title" content="Incoloy 800/825 Pipe Supplier India | 800H, 800HT | CMI" />
       <Meta property="og:description" content="Incoloy 800/800H/800HT and 825 pipe supplier India. ASTM B407/B423. Reformers, crackers, acid service. Ready stock." />
       <Meta property="og:type" content="product" />
       <Meta property="og:url" content="https://www.creativemetalind.com/incoloy-800-pipe-supplier-india" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/img/incoloy-800-pipe.jpg" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Link rel="canonical" href="https://www.creativemetalind.com/incoloy-800-pipe-supplier-india" />
       <script type="application/ld+json">{SCHEMA}</script>
@@ -162,7 +139,7 @@ export default function Incoloy800PipeSupplierIndia() {
       <nav style="background:#111827;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.3)">
         <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 20px">
           <a href="/" style="display:flex;align-items:center;text-decoration:none">
-            <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
+            <img width="87" height="44" src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
           </a>
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>

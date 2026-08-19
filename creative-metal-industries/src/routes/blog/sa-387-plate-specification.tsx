@@ -8,7 +8,7 @@ import { RelatedPages } from "../../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "SA 387 Gr.11/22/91 Plate Specification Guide",
+  "headline": "SA 387 Gr.11/22/91 Plate Specification Guide", "image": "https://www.creativemetalind.com/og-image.jpg",
   "author": { "@type": "Organization", "name": "Creative Metal Industries" },
   "publisher": { "@type": "Organization", "name": "Creative Metal Industries",
     "logo": { "@type": "ImageObject", "url": "https://www.creativemetalind.com/logo_cmi.png" } },

@@ -8,15 +8,7 @@ import { RelatedPages } from "../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Product",
-      "name": "MS Channel ISMC Supplier India — IS 808",
-      "description": "MS ISMC channel supplier India per IS 808. ISMC 75 to 400. SAIL, Jindal. Ready stock CMI Vadodara Gujarat. Call +91 99982 80619.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "manufacturer": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "180", "highPrice": "15000", "offerCount": "500+", "availability": "https://schema.org/InStock" },
-      "url": "https://www.creativemetalind.com/ms-channel-ismc-supplier-india"
-    },
+    
     {
       "@type": "BreadcrumbList",
       "itemListElement": [

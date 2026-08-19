@@ -38,7 +38,7 @@ const FAQS = [
   { q:"Do you deliver SS buttweld fittings across India?", a:"Yes. We deliver pan-India from our Vadodara warehouse. Same-day dispatch for Gujarat (Vadodara, Ahmedabad, Surat, Bharuch, Dahej GIDC). 2-4 day delivery to Mumbai, Delhi, Chennai, Kolkata, Hyderabad, Pune, Visakhapatnam and all industrial locations across India." },
 ];
 
-const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"Product","name":"SS Buttweld Fittings","description":"Stainless steel buttweld fittings to ASTM A403, A815 — elbows, tees, reducers, caps in SS 304, 316L, 321, Duplex 2205. ASME B16.9, sizes 1/2\" to 48\". IBR, MTC certified.","brand":{"@type":"Organization","name":"Creative Metal Industries"},"offers":{"@type":"AggregateOffer","priceCurrency":"INR","lowPrice":"150","highPrice":"45000","offerCount":"2000+","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"52","bestRating":"5"}},{"@type":"LocalBusiness","name":"Creative Metal Industries","telephone":"+91-99982-80619","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"SS Buttweld Fittings Supplier India","item":"https://www.creativemetalind.com/ss-buttweld-fittings-supplier-india"}]}]});
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/ss-buttweld-fittings-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"SS Buttweld Fittings Supplier India","item":"https://www.creativemetalind.com/ss-buttweld-fittings-supplier-india"}]}]});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":FAQS.map(f=>({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}}))});
 
 export default function SsButtweldFittingsSupplierIndia() {
@@ -46,7 +46,7 @@ export default function SsButtweldFittingsSupplierIndia() {
     <>
       <Title>SS Buttweld Fittings Supplier India | ASTM A403 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="SS buttweld fittings supplier India — elbows, tees, reducers, caps in SS 304, 316L, 321, Duplex 2205. ASTM A403, ASME B16.9. SCH 10S–XXS. MTC, IBR certified. Creative Metal Industries Vadodara." />
+      <Meta name="description" content="SS buttweld fittings supplier India — elbows, tees, reducers, caps in SS 304, 316L, 321, Duplex 2205. ASTM A403, ASME B16.9. SCH 10S–XXS." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-buttweld-fittings-supplier-india" />
       <Meta property="og:title" content="SS Buttweld Fittings Supplier India | ASTM A403 | Creative Metal Industries" />
       <Meta property="og:type" content="website" />

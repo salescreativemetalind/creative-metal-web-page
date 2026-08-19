@@ -269,8 +269,7 @@ export default function ReviewsPage() {
     if (!d || d.total === 0) return "";
     return JSON.stringify({
       "@context":    "https://schema.org",
-      "@type":       "LocalBusiness",
-      "name":        "Creative Metal Industries",
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/reviews#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":        "Creative Metal Industries",
       "url":         "https://www.creativemetalind.com",
       "aggregateRating": {
         "@type":       "AggregateRating",

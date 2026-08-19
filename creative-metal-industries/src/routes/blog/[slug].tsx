@@ -1,5 +1,6 @@
 import { Title, Meta, Link } from "@solidjs/meta";
 import { useParams } from "@solidjs/router";
+import { HttpStatusCode } from "@solidjs/start";
 import { PageLayout } from "../../components/Layout";
 import { RelatedPages } from "../../components/RelatedPages";
 
@@ -230,6 +231,8 @@ export default function BlogPost() {
   if (!article) {
     return (
       <PageLayout active="Blog">
+        {/* Unknown slug is a real 404, not a 200 page saying "not found". */}
+        <HttpStatusCode code={404} />
         <Title>Article Not Found | Creative Metal Industries Blog</Title>
         <Meta name="robots" content="noindex, follow" />
         <Meta name="description" content="This article is not available. Browse our technical guides on stainless steel, alloy steel, duplex and exotic alloys." />
@@ -246,13 +249,14 @@ export default function BlogPost() {
   return (
     <PageLayout active="Blog">
       <Title>{article.seoTitle}</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content={article.seoDesc} />
       <Link rel="canonical" href={`https://www.creativemetalind.com/blog/${params.slug}`} />
       <Meta property="og:type"        content="article" />
       <Meta property="og:title"       content={article.seoTitle} />
       <Meta property="og:description" content={article.seoDesc} />
       <Meta property="og:url"         content={`https://www.creativemetalind.com/blog/${params.slug}`} />
-      <Meta property="og:image"       content="https://www.creativemetalind.com/logo_cmi.png" />
+      <Meta property="og:image"       content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card"        content="summary_large_image" />
       <Meta name="twitter:title"       content={article.seoTitle} />
       <Meta name="twitter:description" content={article.seoDesc} />

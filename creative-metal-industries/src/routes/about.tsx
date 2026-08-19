@@ -9,8 +9,8 @@ const ABOUT_SCHEMA = JSON.stringify({
   "logo":"https://www.creativemetalind.com/logo_cmi.png",
   "foundingDate":"2012",
   "description":"Manufacturer, stockist and supplier of Stainless Steel, Carbon Steel, Alloy Steel pipes, plates, fittings, flanges and exotic alloys. Headquartered in Vadodara, Gujarat, India. Exporting to 50+ countries.",
-  "address":{"@type":"PostalAddress","streetAddress":"F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390001","addressCountry":"IN"},
-  "contactPoint":[{"@type":"ContactPoint","telephone":"+91-99982-80619","contactType":"sales","name":"Sunny Shah"},{"@type":"ContactPoint","telephone":"+91-98255-06110","contactType":"customer support","name":"Ghewar Shah"}],
+  "address":{"@type":"PostalAddress","streetAddress":"F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390001","addressCountry":"IN"},
+  "contactPoint":[{"@type":"ContactPoint","telephone":"+919998280619","contactType":"sales","name":"Sunny Shah"},{"@type":"ContactPoint","telephone":"+919825506110","contactType":"customer support","name":"Ghewar Shah"}],
   "sameAs":["https://www.indiamart.com/creativemetalindustries/","https://x.com/CreativeMetal","https://t.me/Creativemetal_Industries"],
   "areaServed":[{"@type":"State","name":"Gujarat"},{"@type":"Country","name":"India"},{"@type":"Country","name":"United Arab Emirates"},{"@type":"Country","name":"Oman"},{"@type":"Country","name":"Saudi Arabia"}],
   "knowsAbout":["Stainless Steel Pipes","Carbon Steel Plates","Alloy Steel P91","Duplex Steel","Inconel","Monel","Hastelloy","Titanium","IBR Certification","NACE Compliance"]
@@ -21,7 +21,7 @@ export default function AboutPage() {
     <PageLayout active="About Us" breadcrumb={[{ label: "Home", href: "/" }, { label: "About Us" }]}>
       <Title>About Creative Metal Industries | Vadodara | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Creative Metal Industries — Vadodara's leading steel supplier since 2012. Manufacturer, stockist and exporter of SS, CS, alloy steel pipes, plates, fittings, flanges and exotic alloys. 1092 sq.mtr warehouse at GIDC Makarpura. IBR, NACE, MTC certified. Export to 50+ countries." />
+      <Meta name="description" content="Vadodara steel supplier since 2012. Stockist and exporter of SS, carbon and alloy steel pipes, plates, fittings, flanges and exotic alloys." />
       <Link rel="canonical" href="https://www.creativemetalind.com/about" />
       <Meta property="og:type" content="website" />
       <Meta property="og:title" content="About Creative Metal Industries | Steel Supplier Since 2012 | Vadodara" />

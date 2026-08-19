@@ -161,13 +161,12 @@ const SERVICE_SCHEMA = JSON.stringify({
   "name": "Industrial Metal Trading & Supply",
   "serviceType": "Metal Trading, Stockist and Supply",
   "provider": {
-    "@type": "LocalBusiness",
-    "name": "Creative Metal Industries",
+    "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/metal-trading#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
     "url": "https://www.creativemetalind.com",
     "telephone": "+919998280619",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road",
+      "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
       "addressLocality": "Vadodara",
       "addressRegion": "Gujarat",
       "postalCode": "390001",
@@ -206,7 +205,7 @@ export default function MetalTradingPage() {
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta
         name="description"
-        content="Steel trading company Vadodara, Gujarat — metal importer exporter India. SS, Carbon & Alloy Steel Pipes, Plates, Fittings, Flanges. Industrial raw material supplier Gujarat. IBR, MTC certified. PAN India & export delivery. Creative Metal Industries."
+        content="Steel trading company Vadodara — metal importer and exporter. SS, carbon and alloy steel pipes, plates, fittings and flanges. IBR and MTC certified."
       />
       <Link rel="canonical" href="https://www.creativemetalind.com/metal-trading" />
 
@@ -215,14 +214,14 @@ export default function MetalTradingPage() {
       <Meta property="og:title"       content="Metal Trading Company in Vadodara | Creative Metal Industries" />
       <Meta property="og:description" content="Trusted industrial metal stockist & supplier in Vadodara, Gujarat. SS, Carbon & Alloy Steel Pipes, Plates, Fittings, Flanges. IBR certified. PAN India supply." />
       <Meta property="og:url"         content="https://www.creativemetalind.com/metal-trading" />
-      <Meta property="og:image"       content="https://www.creativemetalind.com/logo_cmi.png" />
+      <Meta property="og:image"       content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta property="og:locale"      content="en_IN" />
 
       {/* Twitter */}
       <Meta name="twitter:card"        content="summary_large_image" />
       <Meta name="twitter:title"       content="Metal Trading Company in Vadodara | Creative Metal Industries" />
       <Meta name="twitter:description" content="Ready stock industrial metals — SS, CS, Alloy Steel, Pipes, Plates, Fittings, Flanges. PAN India. IBR certified. Call +91 99982 80619." />
-      <Meta name="twitter:image"       content="https://www.creativemetalind.com/logo_cmi.png" />
+      <Meta name="twitter:image"       content="https://www.creativemetalind.com/og-image.jpg" />
 
       {/* Schema */}
       <script type="application/ld+json" innerHTML={SERVICE_SCHEMA} />

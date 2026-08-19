@@ -38,22 +38,13 @@ const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries — SS Pipe Supplier Ahmedabad",
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/ss-pipe-supplier-ahmedabad#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries — SS Pipe Supplier Ahmedabad",
       "description": "Leading SS pipe supplier in Ahmedabad offering stainless steel, carbon steel, alloy steel, duplex and exotic alloy pipes, fittings and flanges for chemical, pharma and industrial projects.",
-      "telephone": "+91-99982-80619",
+      "telephone": "+919998280619",
       "url": "https://www.creativemetalind.com/ss-pipe-supplier-ahmedabad",
       "address": { "@type": "PostalAddress", "streetAddress": "386/B GIDC Estate, Makarpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390010", "addressCountry": "IN" },
       "areaServed": { "@type": "City", "name": "Ahmedabad", "containedInPlace": { "@type": "State", "name": "Gujarat" } },
-      "priceRange": "$$",
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "72", "bestRating": "5" }
-    },
-    {
-      "@type": "Product",
-      "name": "SS Pipes & Fittings — Ahmedabad Supply",
-      "description": "Complete range of stainless steel, carbon steel, alloy steel, duplex and exotic alloy pipes, fittings and flanges supplied to Ahmedabad industries.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "170", "highPrice": "15000", "offerCount": "5000+", "availability": "https://schema.org/InStock" }
+      "priceRange": "$$"
     },
     {
       "@type": "BreadcrumbList",
@@ -71,7 +62,7 @@ export default function SSPipeSupplierAhmedabad() {
     <>
       <Title>SS Pipe Supplier Ahmedabad | Stainless Steel Pipe | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="SS pipe supplier Ahmedabad — stainless steel 304/316L, carbon steel, alloy steel pipes, fittings & flanges. Same-day delivery from Vadodara. Call +91 99982 80619." />
+      <Meta name="description" content="SS pipe supplier Ahmedabad — stainless steel 304/316L, carbon steel, alloy steel pipes, fittings & flanges. Same-day delivery from Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-pipe-supplier-ahmedabad" />
       <Meta property="og:title" content="SS Pipe Supplier Ahmedabad | Stainless Steel Pipe | Creative Metal Industries" />
       <Meta property="og:type" content="website" />

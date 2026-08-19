@@ -6,7 +6,12 @@ export default function SitemapPage() {
   return (
     <PageLayout>
       <Title>All Pages — Site Map | Creative Metal Industries</Title>
-      <Meta name="description" content="Complete site map of Creative Metal Industries — 500+ pages covering SS, CS, alloy steel pipes, plates, fittings. Price guides, weight charts, specifications, comparisons." />
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:title" content="All Pages — Site Map | Creative Metal Industries" />
+      <Meta property="og:description" content="Complete site map of Creative Metal Industries — 500+ pages covering SS, CS, alloy steel pipes, plates, fittings. Price guides, weight charts, specifications, comparisons." />
+      <Meta property="og:url" content="https://www.creativemetalind.com/sitemap" />
+      <Meta name="description" content="Complete site map of Creative Metal Industries — 500+ pages covering SS, CS, alloy steel pipes, plates, fittings." />
       <Link rel="canonical" href="https://www.creativemetalind.com/sitemap" />
 
       <section style={{ padding: "3rem 0", "min-height": "80vh" }}>

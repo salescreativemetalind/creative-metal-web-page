@@ -8,7 +8,7 @@ import { RelatedPages } from "../../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Steel Price Forecast India 2026-2027 — Trends",
+  "headline": "Steel Price Forecast India 2026-2027 — Trends", "image": "https://www.creativemetalind.com/og-image.jpg",
   "author": { "@type": "Organization", "name": "Creative Metal Industries" },
   "publisher": { "@type": "Organization", "name": "Creative Metal Industries",
     "logo": { "@type": "ImageObject", "url": "https://www.creativemetalind.com/logo_cmi.png" } },

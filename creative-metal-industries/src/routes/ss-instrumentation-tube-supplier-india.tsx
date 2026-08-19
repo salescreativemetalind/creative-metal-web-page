@@ -93,28 +93,11 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
+    
     {
-      "@type": "Product",
-      "name": "SS Instrumentation Tube",
-      "description": "Stainless steel instrumentation tubing — SS 316L, 304L, Duplex 2205, Inconel 625 per ASTM A269/A213. Fractional OD sizes 1/8 inch to 1 inch. Bright annealed finish. For process instrumentation, transmitter impulse lines, and chemical injection.",
-      "brand": { "@type": "Brand", "name": "Creative Metal Industries" },
-      "sku": "CMI-INST-TUBE",
-      "material": "SS 316L / 304L / Duplex 2205 / Alloy 625 / Monel 400",
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "INR",
-        "lowPrice": "250",
-        "highPrice": "2500",
-        "unitCode": "MTR",
-        "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Creative Metal Industries" }
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries",
-      "telephone": "+91-99982-80619",
-      "address": { "@type": "PostalAddress", "streetAddress": "F-3, Loha Bhavan, Lakkadpitha Rd", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/ss-instrumentation-tube-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
+      "telephone": "+919998280619",
+      "address": { "@type": "PostalAddress", "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
     },
     {
       "@type": "BreadcrumbList",
@@ -140,13 +123,13 @@ export default function SSInstrumentationTubeSupplierIndia() {
   return (
     <>
       <Title>SS Instrumentation Tube Supplier India | 316L | CMI</Title>
-      <Meta name="description" content="India's leading SS instrumentation tube supplier. 316L, 304L bright annealed tubing per ASTM A269. Fractional OD 1/8&quot; to 1&quot;. For process instruments, transmitters, analysers. Coils &amp; straight lengths. Ready stock Vadodara." />
+      <Meta name="description" content="India's leading SS instrumentation tube supplier. 316L, 304L bright annealed tubing per ASTM A269. Fractional OD 1/8&quot; to 1&quot;." />
       <Meta name="keywords" content="SS instrumentation tube supplier india, ASTM A269 tube, SS 316L instrument tubing, fractional tubing india, bright annealed tube, swagelok tube, instrument impulse line, 316L BA tube india" />
       <Meta property="og:title" content="SS Instrumentation Tube Supplier India | 316L BA | ASTM A269 | CMI" />
       <Meta property="og:description" content="SS 316L instrumentation tube supplier India. ASTM A269. Bright annealed. Fractional OD. Ready stock Vadodara." />
       <Meta property="og:type" content="product" />
       <Meta property="og:url" content="https://www.creativemetalind.com/ss-instrumentation-tube-supplier-india" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/img/instrumentation-tube.jpg" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-instrumentation-tube-supplier-india" />
       <script type="application/ld+json">{SCHEMA}</script>
@@ -156,7 +139,7 @@ export default function SSInstrumentationTubeSupplierIndia() {
       <nav style="background:#111827;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.3)">
         <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 20px">
           <a href="/" style="display:flex;align-items:center;text-decoration:none">
-            <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
+            <img width="87" height="44" src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
           </a>
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>

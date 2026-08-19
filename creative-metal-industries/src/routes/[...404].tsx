@@ -1,11 +1,18 @@
 import { Title, Meta } from "@solidjs/meta";
 import { A } from "@solidjs/router";
+import { HttpStatusCode } from "@solidjs/start";
 import { PageLayout } from "../components/Layout";
 
 export default function NotFoundPage() {
   return (
     <PageLayout>
+      {/* Send a real 404 status, not 200 — otherwise Google records a soft 404
+          and genuinely broken links never surface in Search Console. */}
+      <HttpStatusCode code={404} />
       <Title>Page Not Found | Creative Metal Industries</Title>
+      <Meta property="og:type" content="website" />
+      <Meta property="og:title" content="Page Not Found | Creative Metal Industries" />
+      <Meta property="og:description" content="The page you are looking for does not exist. Browse our products or return to the homepage." />
       <Meta name="robots" content="noindex, nofollow" />
       <Meta name="description" content="The page you are looking for does not exist. Browse our products or return to the homepage." />
 

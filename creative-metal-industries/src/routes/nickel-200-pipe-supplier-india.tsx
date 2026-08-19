@@ -73,41 +73,15 @@ const FAQS = [
 const SCHEMA = {
   "@context": "https://schema.org",
   "@graph": [
+    
     {
-      "@type": "Product",
-      "name": "Nickel 200 Pipe",
-      "description": "Nickel 200 (UNS N02200) seamless and welded pipes as per ASTM B161 and ASTM B163. 99.6% pure nickel pipes for caustic soda handling, food processing, and chemical applications. Sizes 1/2\" to 8\" NB.",
-      "brand": { "@type": "Brand", "name": "Creative Metal Industries" },
-      "sku": "CMI-NI200-PIPE",
-      "material": "Nickel 200 (UNS N02200)",
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "INR",
-        "lowPrice": "3000",
-        "highPrice": "7500",
-        "unitCode": "KGM",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "Creative Metal Industries"
-        }
-      },
-      "additionalProperty": [
-        { "@type": "PropertyValue", "name": "Standard", "value": "ASTM B161 / ASTM B163" },
-        { "@type": "PropertyValue", "name": "Grade", "value": "Nickel 200 (UNS N02200)" },
-        { "@type": "PropertyValue", "name": "Size Range", "value": "1/2\" to 8\" NB" },
-        { "@type": "PropertyValue", "name": "Type", "value": "Seamless / Welded / Tube" }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries",
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/nickel-200-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
       "description": "Leading supplier of Nickel 200 pipes, tubes, and fittings in India. ASTM B161 seamless pipes and ASTM B163 tubes from Vadodara, Gujarat.",
       "url": "https://www.creativemetalind.com",
-      "telephone": "+91-99982-80619",
+      "telephone": "+919998280619",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "F-3, Loha Bhavan, Lakkadpitha Road",
+        "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
         "addressLocality": "Vadodara",
         "addressRegion": "Gujarat",
         "postalCode": "390001",
@@ -146,13 +120,13 @@ export default function Nickel200PipeSupplierIndia() {
   return (
     <>
       <Title>Nickel 200 Pipe Supplier India | ASTM B161 | CMI</Title>
-      <Meta name="description" content="Leading Nickel 200 pipe supplier in India. UNS N02200 seamless pipes per ASTM B161, tubes per ASTM B163. 99.6% pure nickel pipes for caustic soda, NaOH handling. Sizes 1/2&quot; to 8&quot; NB. Price Rs 3,000-7,500/kg. Free delivery from Vadodara." />
+      <Meta name="description" content="Leading Nickel 200 pipe supplier in India. UNS N02200 seamless pipes per ASTM B161, tubes per ASTM B163." />
       <Meta name="keywords" content="nickel 200 pipe supplier india, nickel 200 seamless pipe, UNS N02200 pipe, ASTM B161 nickel pipe, nickel 200 tube supplier, nickel 200 pipe price india, nickel 200 caustic soda pipe, nickel pipe manufacturer vadodara, pure nickel pipe supplier" />
       <Meta property="og:title" content="Nickel 200 Pipe Supplier India | UNS N02200 | Creative Metal Industries" />
       <Meta property="og:description" content="India's trusted Nickel 200 pipe supplier. ASTM B161 seamless pipes & ASTM B163 tubes. 99.6% pure nickel for caustic soda handling. Ready stock Vadodara." />
       <Meta property="og:type" content="product" />
       <Meta property="og:url" content="https://www.creativemetalind.com/nickel-200-pipe-supplier-india" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/img/nickel-200-pipe.jpg" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="robots" content="index, follow" />
       <Link rel="canonical" href="https://www.creativemetalind.com/nickel-200-pipe-supplier-india" />
       <script type="application/ld+json">{JSON.stringify(SCHEMA)}</script>
@@ -162,7 +136,7 @@ export default function Nickel200PipeSupplierIndia() {
       <nav style="background:#111827;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.3)">
         <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 20px">
           <a href="/" style="display:flex;align-items:center;text-decoration:none">
-            <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
+            <img width="87" height="44" src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
           </a>
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>
@@ -407,7 +381,7 @@ export default function Nickel200PipeSupplierIndia() {
         <div style="max-width:1200px;margin:0 auto;padding:0 20px">
           <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:36px;margin-bottom:36px">
             <div>
-              <img src="/logo_cmi.png" alt="Creative Metal Industries" style="height:40px;margin-bottom:16px" loading="lazy" />
+              <img width="79" height="40" src="/logo_cmi.png" alt="Creative Metal Industries" style="height:40px;margin-bottom:16px" loading="lazy" />
               <p style="color:#9ca3af;font-size:14px;line-height:1.6;margin:0">
                 Creative Metal Industries is a leading supplier of Nickel 200 pipes, high-alloy pipes, and specialty metal products in India. Based in Vadodara, Gujarat, we serve chemical, petrochemical, and process industries nationwide.
               </p>

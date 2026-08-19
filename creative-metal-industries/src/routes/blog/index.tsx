@@ -254,13 +254,13 @@ export default function BlogPage() {
     <PageLayout active="Blog">
       <Title>Steel &amp; Alloy Technical Blog | Creative Metal Industries</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="500+ technical guides on SS, Carbon Steel, Alloy, Duplex, Inconel, Hastelloy, Titanium — price charts, weight calculators, specifications, comparisons. Creative Metal Industries, Vadodara." />
+      <Meta name="description" content="500+ technical guides on SS, Carbon Steel, Alloy, Duplex, Inconel, Hastelloy, Titanium — price charts, weight calculators, specifications, comparisons." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog" />
       <Meta property="og:type" content="website" />
       <Meta property="og:title" content="Steel & Alloy Technical Blog | Creative Metal Industries" />
       <Meta property="og:description" content="500+ guides on steel pricing, weight charts, specifications, material comparisons, industry applications. By CMI Vadodara." />
       <Meta property="og:url" content="https://www.creativemetalind.com/blog" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/logo_cmi.png" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
 
       <section class="page-hero">

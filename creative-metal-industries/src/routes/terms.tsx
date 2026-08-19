@@ -5,6 +5,7 @@ export default function TermsPage() {
   return (
     <PageLayout breadcrumb={[{ label: "Home", href: "/" }, { label: "Terms of Trade" }]}>
       <Title>Terms of Trade | Creative Metal Industries — Vadodara</Title>
+      <Meta property="og:type" content="website" />
       <Meta name="description" content="Terms of Trade for Creative Metal Industries. General terms and conditions for purchase orders, quotations, delivery, payment and returns." />
       <Meta name="robots" content="index, follow" />
       <Link rel="canonical" href="https://www.creativemetalind.com/terms" />
@@ -12,7 +13,7 @@ export default function TermsPage() {
       <Meta property="og:description" content="General terms and conditions for purchase orders, deliveries, and payments at Creative Metal Industries." />
       <Meta property="og:url" content="https://www.creativemetalind.com/terms" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
-      <Meta name="twitter:card" content="summary" />
+      <Meta name="twitter:card" content="summary_large_image" />
 
       <section class="page-hero" style="padding:3rem 0 2rem">
         <div class="container">

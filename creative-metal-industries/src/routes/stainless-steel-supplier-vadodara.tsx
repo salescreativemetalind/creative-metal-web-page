@@ -107,11 +107,10 @@ const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries",
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/stainless-steel-supplier-vadodara#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
       "description": "Stainless steel supplier and pipe manufacturer stockist in Vadodara, Gujarat. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges — IBR, NACE, MTC certified.",
       "url": "https://www.creativemetalind.com",
-      "telephone": "+91-99982-80619",
+      "telephone": "+919998280619",
       "foundingDate": "2012",
       "address": {
         "@type": "PostalAddress",
@@ -148,8 +147,9 @@ export default function StainlessSteelSupplierVadodara() {
   return (
     <>
       <Title>Stainless Steel Supplier Vadodara | SS Pipes Gujarat | CMI</Title>
+      <Meta property="og:type" content="website" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Top stainless steel supplier in Vadodara Gujarat — Creative Metal Industries. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges. IBR, NACE, MTC certified. GIDC Makarpura Vadodara. Call +91 99982 80619." />
+      <Meta name="description" content="Top stainless steel supplier in Vadodara Gujarat — Creative Metal Industries. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges." />
       <Meta name="keywords" content="stainless steel supplier Vadodara, stainless steel pipe manufacturer Vadodara, stainless steel supplier Vadodara Gujarat, SS 304 supplier Vadodara, SS 316L supplier Gujarat, duplex steel supplier Vadodara" />
       <Link rel="canonical" href="https://www.creativemetalind.com/stainless-steel-supplier-vadodara" />
       <Meta property="og:title" content="Stainless Steel Supplier Vadodara | SS Pipe Manufacturer Gujarat | CMI" />

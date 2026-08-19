@@ -45,7 +45,7 @@ export default function SsPipeSupplierVadodaraGuide() {
     <>
       <Title>Best SS Pipe Supplier in Vadodara — Buyer's Guide 2026 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="How to choose the best SS pipe supplier in Vadodara. Compare SS pipe stockists, dealers and manufacturers. SS seamless pipe, SS welded pipe — grades, certification, pricing. Stainless steel pipe supplier Vadodara guide." />
+      <Meta name="description" content="How to choose the best SS pipe supplier in Vadodara. Compare SS pipe stockists, dealers and manufacturers." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-pipe-supplier-vadodara-guide" />
       <Meta property="og:title" content="Best SS Pipe Supplier in Vadodara — Buyer's Guide 2026" />
       <Meta property="og:type" content="article" />

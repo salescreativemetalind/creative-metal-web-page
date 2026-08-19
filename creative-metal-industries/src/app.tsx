@@ -16,10 +16,9 @@ export default function App() {
     <Router
       root={(props) => (
         <MetaProvider>
+          {/* charset + viewport live in entry-server.tsx (the document shell).
+              Declaring them here as well produced two of each on every page. */}
           <Title>Creative Metal Industries | SS Pipes, Plates &amp; Fittings Manufacturer — Vadodara</Title>
-          <Meta charset="utf-8" />
-          <Meta name="viewport" content="width=device-width, initial-scale=1" />
-          <Meta name="robots" content="index, follow" />
 
           {/* ── Google Search Console Verification ────────────── */}
           {/* Set VITE_GSC_VERIFICATION in .env to emit this tag */}
@@ -47,45 +46,51 @@ export default function App() {
           <Meta name="msapplication-TileColor" content="#E8821A" />
           <Meta name="msapplication-TileImage"  content="/favicon-192x192.png" />
 
-          {/* ── Open Graph (Facebook / WhatsApp / LinkedIn) ──── */}
-          <Meta property="og:type"        content="website" />
+          {/* ── Open Graph / Twitter — SITE-WIDE VALUES ONLY ───────────────
+              @solidjs/meta only collapses a duplicate <Meta> when `content`
+              matches exactly (getTagKey() hashes `content` together with
+              `name`). Anything a route overrides with a page-specific value
+              must therefore NOT be declared here, or both tags ship — and the
+              one declared here renders first, which is the value scrapers read.
+
+              Only values identical on every page belong here. Page-level
+              og:title / og:description / og:url / og:type / robots are set by
+              each route. twitter:title / twitter:description are deliberately
+              omitted: X falls back to og:title / og:description, which are
+              page-specific and therefore more accurate. */}
           <Meta property="og:site_name"   content="Creative Metal Industries" />
-          <Meta property="og:title"       content="Creative Metal Industries | SS Pipes, Plates & Fittings — Vadodara" />
-          <Meta property="og:description" content="Leading supplier of SS pipes, plates, fittings and flanges in Vadodara, Gujarat. IS / ASTM certified material." />
           <Meta property="og:image"       content="https://www.creativemetalind.com/og-image.jpg" />
           <Meta property="og:image:width"  content="1200" />
           <Meta property="og:image:height" content="630" />
           <Meta property="og:image:alt"   content="Creative Metal Industries logo" />
-          <Meta property="og:url"         content="https://www.creativemetalind.com" />
           <Meta property="og:locale"      content="en_IN" />
-
-          {/* ── Twitter Card ──────────────────────────────────── */}
           <Meta name="twitter:card"        content="summary_large_image" />
-          <Meta name="twitter:title"       content="Creative Metal Industries — SS Pipes & Fittings, Vadodara" />
-          <Meta name="twitter:description" content="Leading supplier of SS pipes, plates, fittings and flanges in Vadodara, Gujarat." />
           <Meta name="twitter:image"       content="https://www.creativemetalind.com/og-image.jpg" />
 
-          {/* ── JSON-LD WebSite schema (Sitelinks Search Box in Google) ── */}
+          {/* ── JSON-LD WebSite schema ──────────────────────────────────────
+              No potentialAction/SearchAction: it previously pointed at
+              /products?q={search_term_string}, but /products is a static
+              catalogue and weight-chart page with no query-parameter search.
+              Declaring a search endpoint that does not exist is invalid, so it
+              is omitted until an actual site search is implemented. */}
           <script type="application/ld+json" innerHTML={JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
+            "@id": "https://www.creativemetalind.com/#website",
             "name": "Creative Metal Industries",
             "alternateName": "CMI",
             "url": "https://www.creativemetalind.com",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://www.creativemetalind.com/products?q={search_term_string}"
-              },
-              "query-input": "required name=search_term_string"
-            }
+            "publisher": { "@id": "https://www.creativemetalind.com/#organization" }
           })} />
 
           {/* ── JSON-LD Organization schema (Google Knowledge Panel logo) ── */}
           <script type="application/ld+json" innerHTML={JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
+            // Stable identity so the per-page LocalBusiness nodes can point at
+            // this single entity via parentOrganization instead of each reading
+            // as a separate, unrelated business.
+            "@id": "https://www.creativemetalind.com/#organization",
             "name": "Creative Metal Industries",
             "alternateName": "CMI",
             "url": "https://www.creativemetalind.com",
@@ -99,7 +104,7 @@ export default function App() {
             "description": "Leading supplier of SS pipes, plates, fittings and flanges in Vadodara, Gujarat. IS / ASTM certified material.",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road",
+              "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
               "addressLocality": "Vadodara",
               "addressRegion": "Gujarat",
               "postalCode": "390001",
@@ -107,7 +112,7 @@ export default function App() {
             },
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+91-9998280619",
+              "telephone": "+919998280619",
               "contactType": "sales"
             },
             "sameAs": [
@@ -128,7 +133,7 @@ export default function App() {
             "alternateName": "CMI Vadodara",
             "description": "Leading supplier and stockist of stainless steel pipes, carbon steel plates, alloy steel products, pipe fittings, flanges, and structural steel in Vadodara, Gujarat. Serving oil & gas, chemical, pharma, power, and construction industries since 2012.",
             "url": "https://www.creativemetalind.com",
-            "telephone": "+91-9998280619",
+            "telephone": "+919998280619",
             "email": "info@creativemetalind.com",
             "image": "https://www.creativemetalind.com/og-image.jpg",
             "logo": "https://www.creativemetalind.com/logo_cmi.png",
@@ -183,13 +188,6 @@ export default function App() {
               "TMT Bars",
               "Structural Steel"
             ],
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5.0",
-              "reviewCount": "1",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
             "sameAs": [
               "https://www.indiamart.com/creativemetalindustries/",
               "https://www.justdial.com/Vadodara/Creative-Metal-Industries",

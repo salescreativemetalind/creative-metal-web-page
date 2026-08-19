@@ -34,15 +34,13 @@ const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
-      "@id": "https://www.creativemetalind.com/#organization",
-      "name": "Creative Metal Industries",
-      "image": "https://www.creativemetalind.com/logo.png",
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/steel-supplier-koyali#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
+      "image": "https://www.creativemetalind.com/logo_cmi.png",
       "url": "https://www.creativemetalind.com",
       "telephone": "+919998280619",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "386/B GIDC Estate Makarpura",
+        "streetAddress": "386/B GIDC Estate, Makarpura",
         "addressLocality": "Vadodara",
         "addressRegion": "Gujarat",
         "postalCode": "390010",
@@ -55,18 +53,6 @@ const SCHEMA = JSON.stringify({
       },
       "areaServed": ["Koyali", "Vadodara", "Gujarat"],
       "priceRange": "₹₹₹"
-    },
-    {
-      "@type": "Product",
-      "name": "Steel Pipes and Fittings Supplier Koyali",
-      "description": "Complete range of carbon steel, alloy steel, stainless steel pipes, fittings, flanges and NACE/HIC plates for IOCL Gujarat Refinery and Koyali industries with same-day delivery.",
-      "brand": { "@type": "Brand", "name": "Creative Metal Industries" },
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Creative Metal Industries" }
-      }
     },
     {
       "@type": "BreadcrumbList",
@@ -100,14 +86,15 @@ export default function SteelSupplierKoyali() {
   return (
     <>
       <Title>Steel Supplier Koyali | IOCL Refinery Pipe &amp; Fittings | CMI</Title>
-      <Meta name="description" content="Leading steel supplier in Koyali, Gujarat. SAME-DAY delivery to IOCL Gujarat Refinery (just 15 km away). Carbon steel, alloy steel pipes, NACE/HIC plates, flanges & fittings. Call +91 99982 80619." />
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="description" content="Leading steel supplier in Koyali, Gujarat. SAME-DAY delivery to IOCL Gujarat Refinery (just 15 km away)." />
       <Meta name="keywords" content="steel supplier Koyali IOCL, refinery pipe Gujarat, steel supplier Koyali, IOCL Gujarat Refinery supplier, pipe fittings Koyali, NACE steel Koyali, alloy steel pipe Koyali, carbon steel Koyali" />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-koyali" />
       <Meta property="og:title" content="Steel Supplier Koyali | IOCL Refinery Pipe & Fittings | Same-Day Delivery" />
       <Meta property="og:description" content="Closest steel supplier to IOCL Gujarat Refinery Koyali - just 15 km away! SAME-DAY delivery of pipes, fittings, flanges & NACE plates. Creative Metal Industries Vadodara." />
       <Meta property="og:url" content="https://www.creativemetalind.com/steel-supplier-koyali" />
       <Meta property="og:type" content="website" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/logo.png" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:title" content="Steel Supplier Koyali | IOCL Refinery Pipe & Fittings | Same-Day Delivery" />
       <Meta name="twitter:description" content="Closest steel supplier to IOCL Gujarat Refinery Koyali - just 15 km away! SAME-DAY delivery of pipes, fittings, flanges & NACE plates." />
@@ -118,7 +105,7 @@ export default function SteelSupplierKoyali() {
       {/* Navigation */}
       <nav style="background:#1a1a2e;padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;">
         <a href="https://www.creativemetalind.com" style="display:flex;align-items:center;text-decoration:none;">
-          <img src="/logo.png" alt="Creative Metal Industries Logo" width="50" height="50" style="margin-right:0.75rem;" />
+          <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" width="50" height="50" style="margin-right:0.75rem;" />
           <span style="color:#E8821A;font-size:1.4rem;font-weight:bold;">Creative Metal Industries</span>
         </a>
         <div style="display:flex;gap:1.5rem;flex-wrap:wrap;">

@@ -38,22 +38,13 @@ const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries — Steel Pipe Supplier Bangalore",
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/steel-pipe-supplier-bangalore#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries — Steel Pipe Supplier Bangalore",
       "description": "Leading steel pipe supplier in Bangalore offering SS pipes, CS pipes, alloy steel, duplex pipes, SS fittings, flanges and steel plates for aerospace, pharma and heavy engineering.",
-      "telephone": "+91-99982-80619",
+      "telephone": "+919998280619",
       "url": "https://www.creativemetalind.com/steel-pipe-supplier-bangalore",
       "address": { "@type": "PostalAddress", "streetAddress": "386/B GIDC Estate, Makarpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390010", "addressCountry": "IN" },
       "areaServed": { "@type": "City", "name": "Bangalore", "containedInPlace": { "@type": "State", "name": "Karnataka" } },
-      "priceRange": "$$",
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "52", "bestRating": "5" }
-    },
-    {
-      "@type": "Product",
-      "name": "Steel Pipes, Fittings & Plates — Bangalore Supply",
-      "description": "Complete range of SS, CS, alloy steel pipes, SS fittings, flanges and steel plates supplied to Bangalore industries.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "180", "highPrice": "18000", "offerCount": "5000+", "availability": "https://schema.org/InStock" }
+      "priceRange": "$$"
     },
     {
       "@type": "BreadcrumbList",

@@ -55,7 +55,12 @@ const INTERNAL_LINKS = [
 // ============================================================
 function getInternalLinks(slug, count = 3) {
   const filtered = INTERNAL_LINKS.filter(l => !l.href.includes(slug));
-  const shuffled = filtered.sort(() => Math.random() - 0.5);
+  // Deterministic per-slug rotation. `Math.random()` here meant a page's
+  // internal links changed on every regeneration, producing noisy diffs and
+  // making link equity impossible to reason about. Hashing the slug keeps the
+  // spread even while staying stable across runs.
+  const hash = [...slug].reduce((a, c) => a + c.charCodeAt(0), 0);
+  const shuffled = filtered.map((_, i) => filtered[(hash + i) % filtered.length]);
   return shuffled.slice(0, count);
 }
 

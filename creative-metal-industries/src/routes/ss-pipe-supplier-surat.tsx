@@ -34,8 +34,7 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "LocalBusiness", "name": "Creative Metal Industries — SS Pipe Supplier Surat", "description": "Leading SS pipe supplier in Surat offering stainless steel, carbon steel, alloy steel pipes, fittings and flanges for chemical, textile, ONGC and construction projects.", "telephone": "+91-99982-80619", "url": "https://www.creativemetalind.com/ss-pipe-supplier-surat", "address": { "@type": "PostalAddress", "streetAddress": "386/B GIDC Estate, Makarpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390010", "addressCountry": "IN" }, "areaServed": { "@type": "City", "name": "Surat", "containedInPlace": { "@type": "State", "name": "Gujarat" } }, "priceRange": "$$", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "65", "bestRating": "5" } },
-    { "@type": "Product", "name": "SS Pipes & Fittings — Surat Supply", "description": "Complete range of stainless steel pipes and fittings supplied to Surat industries.", "brand": { "@type": "Organization", "name": "Creative Metal Industries" }, "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "175", "highPrice": "15000", "offerCount": "5000+", "availability": "https://schema.org/InStock" } },
+    { "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/ss-pipe-supplier-surat#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries — SS Pipe Supplier Surat", "description": "Leading SS pipe supplier in Surat offering stainless steel, carbon steel, alloy steel pipes, fittings and flanges for chemical, textile, ONGC and construction projects.", "telephone": "+919998280619", "url": "https://www.creativemetalind.com/ss-pipe-supplier-surat", "address": { "@type": "PostalAddress", "streetAddress": "386/B GIDC Estate, Makarpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390010", "addressCountry": "IN" }, "areaServed": { "@type": "City", "name": "Surat", "containedInPlace": { "@type": "State", "name": "Gujarat" } }, "priceRange": "$$" },
     { "@type": "BreadcrumbList", "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.creativemetalind.com" }, { "@type": "ListItem", "position": 2, "name": "SS Pipe Supplier Surat", "item": "https://www.creativemetalind.com/ss-pipe-supplier-surat" } ] }
   ]
 });
@@ -46,7 +45,7 @@ export default function SSPipeSupplierSurat() {
     <>
       <Title>SS Pipe Supplier Surat | Stainless Steel Pipe Surat | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="SS pipe supplier Surat — stainless steel 304/316L, carbon steel, alloy steel pipes, fittings & flanges. Next-day delivery from Vadodara. Sachin GIDC, Hazira. Call +91 99982 80619." />
+      <Meta name="description" content="SS pipe supplier Surat — stainless steel 304/316L, carbon steel, alloy steel pipes, fittings & flanges. Next-day delivery from Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-pipe-supplier-surat" />
       <Meta property="og:title" content="SS Pipe Supplier Surat | Stainless Steel Pipe | Creative Metal Industries" />
       <Meta property="og:type" content="website" />

@@ -36,7 +36,7 @@ const FAQS = [
   { q:"Do you deliver flanges across Vadodara and Gujarat same day?", a:"Yes. We maintain ready stock of 5,000+ SS flanges at our GIDC Makarpura, Vadodara warehouse. Same-day dispatch for Vadodara city, Bharuch, Dahej, Ankleshwar, Ahmedabad, Surat, Rajkot and all Gujarat industrial areas. 2-4 day delivery across India — Mumbai, Delhi, Chennai, Hyderabad, Pune." },
 ];
 
-const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"Product","name":"SS Flanges","description":"Stainless steel flanges to ASTM A182 — Weld Neck, Slip-On, Blind, Socket Weld in SS 304L, 316L, 321, Duplex F51. ASME B16.5/B16.47. Class 150–2500. IBR, MTC certified.","brand":{"@type":"Organization","name":"Creative Metal Industries"},"offers":{"@type":"AggregateOffer","priceCurrency":"INR","lowPrice":"250","highPrice":"95000","offerCount":"5000+","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"63","bestRating":"5"}},{"@type":"LocalBusiness","name":"Creative Metal Industries","telephone":"+91-99982-80619","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"SS Flanges Supplier Vadodara","item":"https://www.creativemetalind.com/ss-flanges-supplier-vadodara"}]}]});
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/ss-flanges-supplier-vadodara#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"SS Flanges Supplier Vadodara","item":"https://www.creativemetalind.com/ss-flanges-supplier-vadodara"}]}]});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":FAQS.map(f=>({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}}))});
 
 export default function SsFlangesSupplierVadodara() {
@@ -44,7 +44,7 @@ export default function SsFlangesSupplierVadodara() {
     <>
       <Title>SS Flanges Supplier Vadodara | ASTM A182 | ASME B16.5 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="SS flanges supplier Vadodara — weld neck, slip-on, blind, socket weld, threaded in SS 304L, 316L, 321, Duplex F51, Super Duplex F53. ASTM A182, ASME B16.5/B16.47. IBR certified. Creative Metal Industries." />
+      <Meta name="description" content="SS flanges supplier Vadodara — weld neck, slip-on, blind, socket weld, threaded in SS 304L, 316L, 321, Duplex F51, Super Duplex F53." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-flanges-supplier-vadodara" />
       <Meta property="og:title" content="SS Flanges Supplier Vadodara | ASTM A182 | Creative Metal Industries" />
       <Meta property="og:type" content="website" />

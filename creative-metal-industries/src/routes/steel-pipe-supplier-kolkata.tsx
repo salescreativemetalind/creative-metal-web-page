@@ -38,22 +38,13 @@ const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries — Steel Pipe Supplier Kolkata",
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/steel-pipe-supplier-kolkata#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries — Steel Pipe Supplier Kolkata",
       "description": "Trusted steel pipe supplier in Kolkata — SS pipes, CS pipes, alloy steel, flanges, fittings for power plants, refineries and shipbuilding in Eastern India.",
-      "telephone": "+91-99982-80619",
+      "telephone": "+919998280619",
       "url": "https://www.creativemetalind.com/steel-pipe-supplier-kolkata",
       "address": { "@type": "PostalAddress", "streetAddress": "386/B GIDC Estate, Makarpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390010", "addressCountry": "IN" },
       "areaServed": { "@type": "City", "name": "Kolkata", "containedInPlace": { "@type": "State", "name": "West Bengal" } },
-      "priceRange": "$$",
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "39", "bestRating": "5" }
-    },
-    {
-      "@type": "Product",
-      "name": "Steel Pipes, Flanges & Fittings — Kolkata Supply",
-      "description": "SS, CS, alloy steel pipes, flanges and fittings supplied to Kolkata and Eastern India industries.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "55", "highPrice": "15000", "offerCount": "5000+", "availability": "https://schema.org/InStock" }
+      "priceRange": "$$"
     },
     {
       "@type": "BreadcrumbList",

@@ -48,12 +48,10 @@ const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
-      "@id": "https://www.creativemetalind.com/#business",
-      name: "Creative Metal Industries",
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/steel-pipe-supplier-goa#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},name: "Creative Metal Industries",
       url: "https://www.creativemetalind.com",
-      logo: "https://www.creativemetalind.com/logo.png",
-      image: "https://www.creativemetalind.com/logo.png",
+      logo: "https://www.creativemetalind.com/logo_cmi.png",
+      image: "https://www.creativemetalind.com/logo_cmi.png",
       telephone: "+91-99982-80619",
       email: "info@creativemetalind.com",
       address: {
@@ -79,22 +77,6 @@ const SCHEMA = JSON.stringify({
         "Creative Metal Industries is a leading steel pipe supplier in Goa offering SS pipes, CS pipes, pharma-grade SS tubes, alloy steel pipes, steel plates, and fittings for Zuari Agro, Mormugao Port, Goa Shipyard, pharma, mining, and tourism infrastructure.",
     },
     {
-      "@type": "Product",
-      name: "Steel Pipes and Fittings for Goa Industries",
-      description:
-        "Premium quality steel pipes, pharma-grade SS tubes, fittings, flanges, and structural steel supplied to industries in Goa including fertilizer, port, shipyard, pharma, and mining sectors.",
-      brand: { "@type": "Brand", name: "Creative Metal Industries" },
-      offers: {
-        "@type": "AggregateOffer",
-        priceCurrency: "INR",
-        lowPrice: "180",
-        highPrice: "15000",
-        offerCount: "5000+",
-        availability: "https://schema.org/InStock",
-        seller: { "@type": "Organization", name: "Creative Metal Industries" },
-      },
-    },
-    {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://www.creativemetalind.com" },
@@ -118,9 +100,10 @@ export default function SteelPipeSupplierGoa() {
   return (
     <>
       <Title>Steel Pipe Supplier in Goa | SS, CS, Alloy Pipes | CMI</Title>
+      <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta
         name="description"
-        content="Leading steel pipe supplier in Goa. SS pipes, CS pipes, pharma-grade SS tubes, alloy steel pipes for Zuari Agro, Mormugao Port, Goa Shipyard, pharma & mining. 1-2 day delivery from Vadodara."
+        content="Steel pipe supplier in Goa — SS and CS pipes, pharma-grade tubes and alloy steel for Zuari Agro, Mormugao Port and Goa Shipyard. 1-2 day delivery."
       />
       <Meta
         name="keywords"

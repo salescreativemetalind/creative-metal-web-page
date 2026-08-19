@@ -93,34 +93,11 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
+    
     {
-      "@type": "Product",
-      "name": "Copper Nickel Pipe",
-      "description": "Copper Nickel 90/10 (C70600) and 70/30 (C71500) seamless and welded pipes per ASTM B466/B467. Marine-grade seawater resistant piping for Navy, offshore, desalination. Sizes 1/2 inch to 24 inch NB.",
-      "brand": { "@type": "Brand", "name": "Creative Metal Industries" },
-      "sku": "CMI-CUNI-PIPE",
-      "material": "CuNi 90/10 (C70600) / CuNi 70/30 (C71500)",
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "INR",
-        "lowPrice": "1500",
-        "highPrice": "6500",
-        "unitCode": "KGM",
-        "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Creative Metal Industries" }
-      },
-      "additionalProperty": [
-        { "@type": "PropertyValue", "name": "Standard", "value": "ASTM B466 (Seamless) / ASTM B467 (Welded) / ASTM B111 (Tube)" },
-        { "@type": "PropertyValue", "name": "Grades", "value": "CuNi 90/10 (C70600), CuNi 70/30 (C71500)" },
-        { "@type": "PropertyValue", "name": "Size Range", "value": "1/2 inch to 24 inch NB" },
-        { "@type": "PropertyValue", "name": "Type", "value": "Seamless / Welded" }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries",
-      "telephone": "+91-99982-80619",
-      "address": { "@type": "PostalAddress", "streetAddress": "F-3, Loha Bhavan, Lakkadpitha Rd", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/copper-nickel-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
+      "telephone": "+919998280619",
+      "address": { "@type": "PostalAddress", "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390001", "addressCountry": "IN" }
     },
     {
       "@type": "BreadcrumbList",
@@ -146,13 +123,13 @@ export default function CopperNickelPipeSupplierIndia() {
   return (
     <>
       <Title>Copper Nickel Pipe Supplier India | CuNi 90/10 &amp; 70/30 | CMI</Title>
-      <Meta name="description" content="India's leading copper nickel pipe supplier. CuNi 90/10 (C70600) &amp; 70/30 (C71500) seamless pipes per ASTM B466. Marine-grade seawater piping for Navy, offshore, desalination. Sizes 1/2&quot; to 24&quot; NB. Price Rs 1,500-6,500/kg. Ready stock Vadodara." />
+      <Meta name="description" content="India's leading copper nickel pipe supplier. CuNi 90/10 (C70600) &amp; 70/30 (C71500) seamless pipes per ASTM B466." />
       <Meta name="keywords" content="copper nickel pipe supplier india, CuNi 90/10 pipe, CuNi 70/30 pipe, C70600 pipe india, C71500 pipe supplier, ASTM B466 pipe, seawater pipe india, marine pipe supplier, cupro nickel pipe india" />
       <Meta property="og:title" content="Copper Nickel Pipe Supplier India | CuNi 90/10 & 70/30 | CMI" />
       <Meta property="og:description" content="India's trusted CuNi pipe supplier. 90/10 (C70600) and 70/30 (C71500). ASTM B466 seamless. Marine grade. Ready stock." />
       <Meta property="og:type" content="product" />
       <Meta property="og:url" content="https://www.creativemetalind.com/copper-nickel-pipe-supplier-india" />
-      <Meta property="og:image" content="https://www.creativemetalind.com/img/copper-nickel-pipe.jpg" />
+      <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Link rel="canonical" href="https://www.creativemetalind.com/copper-nickel-pipe-supplier-india" />
       <script type="application/ld+json">{SCHEMA}</script>
@@ -162,7 +139,7 @@ export default function CopperNickelPipeSupplierIndia() {
       <nav style="background:#111827;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.3)">
         <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 20px">
           <a href="/" style="display:flex;align-items:center;text-decoration:none">
-            <img src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
+            <img width="87" height="44" src="/logo_cmi.png" alt="Creative Metal Industries Logo" style="height:44px;width:auto" loading="eager" />
           </a>
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>

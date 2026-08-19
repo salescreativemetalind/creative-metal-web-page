@@ -8,15 +8,7 @@ import { RelatedPages } from "../components/RelatedPages";
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Product",
-      "name": "Corten Steel Plate Supplier India — Weathering Steel",
-      "description": "Corten A & B weathering steel plate supplier India. ASTM A588, A242. 3mm-50mm. Architecture & bridges. CMI. Call +91 99982 80619.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "manufacturer": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "180", "highPrice": "15000", "offerCount": "500+", "availability": "https://schema.org/InStock" },
-      "url": "https://www.creativemetalind.com/corten-steel-plate-supplier-india"
-    },
+    
     {
       "@type": "BreadcrumbList",
       "itemListElement": [

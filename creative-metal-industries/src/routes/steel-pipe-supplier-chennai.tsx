@@ -38,22 +38,13 @@ const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
-      "name": "Creative Metal Industries — Steel Pipe Supplier Chennai",
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/steel-pipe-supplier-chennai#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries — Steel Pipe Supplier Chennai",
       "description": "Leading steel pipe supplier in Chennai offering SS, carbon steel, alloy steel, duplex and exotic alloy pipes, fittings and flanges for refineries, power plants and industrial projects.",
-      "telephone": "+91-99982-80619",
+      "telephone": "+919998280619",
       "url": "https://www.creativemetalind.com/steel-pipe-supplier-chennai",
       "address": { "@type": "PostalAddress", "streetAddress": "386/B GIDC Estate, Makarpura", "addressLocality": "Vadodara", "addressRegion": "Gujarat", "postalCode": "390010", "addressCountry": "IN" },
       "areaServed": { "@type": "City", "name": "Chennai", "containedInPlace": { "@type": "State", "name": "Tamil Nadu" } },
-      "priceRange": "$$",
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "56", "bestRating": "5" }
-    },
-    {
-      "@type": "Product",
-      "name": "Steel Pipes & Fittings — Chennai Supply",
-      "description": "Complete range of SS, CS, alloy steel, duplex and exotic alloy pipes, fittings and flanges supplied to Chennai industries.",
-      "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
-      "offers": { "@type": "AggregateOffer", "priceCurrency": "INR", "lowPrice": "180", "highPrice": "15000", "offerCount": "5000+", "availability": "https://schema.org/InStock" }
+      "priceRange": "$$"
     },
     {
       "@type": "BreadcrumbList",
@@ -71,7 +62,7 @@ export default function SteelPipeSupplierChennai() {
     <>
       <Title>Steel Pipe Supplier Chennai | SS CS Alloy | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Steel pipe supplier Chennai — SS 304/316L, carbon steel, alloy steel P91/P22, duplex pipes, fittings & flanges. CPCL/IOCL approved. Free delivery. Call +91 99982 80619." />
+      <Meta name="description" content="Steel pipe supplier Chennai — SS 304/316L, carbon steel, alloy steel P91/P22, duplex pipes, fittings & flanges. CPCL/IOCL approved. Free delivery." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-chennai" />
       <Meta property="og:title" content="Steel Pipe Supplier Chennai | SS, Carbon Steel, Alloy Steel | Creative Metal Industries" />
       <Meta property="og:type" content="website" />
