@@ -15,7 +15,6 @@
       ]
     },
     {
-      "comment": "Static assets under public/ are served by the filesystem handler, which only sets cache-control for /_build/assets/*. Without this they were revalidated on every request.",
       "source": "/(.*)\\.(png|jpg|jpeg|webp|avif|gif|svg|ico|woff|woff2)",
       "headers": [
         {
@@ -25,7 +24,6 @@
       ]
     },
     {
-      "comment": "Sitemaps and robots change on deploy, so allow a short cache but let crawlers revalidate.",
       "source": "/(sitemap[^/]*\\.xml|robots\\.txt|llms\\.txt)",
       "headers": [
         {
