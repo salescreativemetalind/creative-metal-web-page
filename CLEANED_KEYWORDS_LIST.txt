@@ -1,0 +1,615 @@
+CREATIVE METAL INDUSTRIES - CLEANED KEYWORD LIST
+Source: Google Search Console 'Performance on Search' export (last 3 months, to 2026-09-01)
+Format per line:  keyword  |  impressions  |  avg position
+
+NOTE: This file = keywords that ALREADY brought impressions to the site (cleaned
+of off-topic/competitor/junk queries). For the FULL set of real-world search
+terms people type for these products (grade synonyms like UNS/EN/ASTM, comparison
+queries, 'metal/steel' variants, price/supplier intent) - researched from the
+live web - see EXPANDED_KEYWORDS_LIST.txt.
+
+RELEVANT KEYWORDS (aligned to real site pages): 476
+OFF-TOPIC / EXCLUDED KEYWORDS: 32
+======================================================================
+
+### Brand / Company  (6 keywords)
+    Target page(s): / (home) + /about
+    creative metal industries  |  146  |  3.74
+    creative metals  |  3  |  15.67
+    creative metal products  |  2  |  41.5
+    creative metal  |  1  |  7.0
+    creative metal india  |  1  |  61.0
+    creative metal fabrication  |  1  |  95.0
+
+### IBR Certification  (44 keywords)
+    Target page(s): /blog/ibr-certification-guide, /blog/what-is-ibr-certification, /blog/ibr-form-iiic-complete-guide, /blog/why-ibr-certification-mandatory
+    ibr certification  |  74  |  13.38
+    ibr certificate  |  31  |  16.55
+    ibr approval  |  22  |  22.64
+    ibr form iii-c  |  18  |  10.06
+    ibr full form  |  18  |  35.28
+    ibr  |  15  |  25.0
+    ibr regulations  |  11  |  43.64
+    technical features of ibr  |  10  |  31.3
+    when ibr certification is required  |  9  |  9.89
+    ibr form iii c  |  8  |  10.12
+    what is ibr certification  |  8  |  12.88
+    ibr inspection  |  6  |  18.0
+    ibr certified  |  4  |  9.0
+    ibr india  |  4  |  25.25
+    ibr full form in boiler  |  4  |  42.0
+    ibr welder full form  |  4  |  67.75
+    ibr certificate full form  |  3  |  4.67
+    what is ibr  |  3  |  19.0
+    full form of ibr  |  3  |  20.0
+    use of ibr  |  3  |  38.33
+    ibr regulation  |  2  |  19.0
+    ibr piping  |  2  |  21.5
+    ibr material  |  2  |  24.0
+    ibr test certificate  |  2  |  26.5
+    ibr boiler full form  |  2  |  34.0
+    how to become ibr inspector  |  2  |  42.0
+    ibr boiler definition  |  2  |  48.5
+    ibr indian boiler regulation  |  2  |  52.5
+    ibr welder qualification  |  2  |  86.5
+    ibr company  |  2  |  90.5
+    what is ibr certificate  |  1  |  1.0
+    ibr license  |  1  |  11.0
+    ibr exam  |  1  |  13.0
+    ibr certification requirements  |  1  |  14.0
+    ibr standards  |  1  |  21.0
+    ibr rating  |  1  |  27.0
+    ibr act  |  1  |  29.0
+    boiler definition as per ibr  |  1  |  35.0
+    indian boiler regulations (ibr)  |  1  |  53.0
+    what is ibr boiler  |  1  |  53.0
+    ibr standard  |  1  |  68.0
+    ibr specification  |  1  |  79.0
+    boiler ibr  |  1  |  88.0
+    ibr study  |  1  |  90.0
+
+### SS 304 / 304L  (73 keywords)
+    Target page(s): /ss-304-316l-pipe-supplier-india, /blog/ss-304-stainless-steel-guide, /blog/ss-304-vs-ss-304l
+    321 vs 304 stainless  |  18  |  59.83
+    ss 304  |  14  |  79.21
+    304 stainless steel  |  10  |  84.6
+    304 vs 316l  |  9  |  84.56
+    304 vs 321 stainless steel  |  8  |  77.38
+    ss304 stainless steel  |  7  |  64.57
+    321 ss vs 304 ss  |  6  |  68.0
+    ss 321 vs ss 304  |  6  |  76.0
+    ss321 vs ss304  |  4  |  27.5
+    stainless steel 321 vs 304  |  4  |  63.0
+    ss304 stainless steel properties  |  4  |  63.25
+    321 stainless steel vs 304  |  4  |  70.5
+    ss304  |  4  |  77.25
+    316l stainless steel vs 304  |  4  |  87.0
+    ss304 material  |  3  |  56.0
+    stainless steel 304  |  3  |  77.67
+    304 stainless steel material properties  |  3  |  87.0
+    ss 304 vs ss 321  |  2  |  37.5
+    321 vs 304 stainless steel  |  2  |  54.0
+    ss 321 vs ss 304 price  |  2  |  60.0
+    ss 321 vs ss 304 chemical composition  |  2  |  67.5
+    304 ss temperature rating  |  2  |  77.0
+    304 vs 321 stainless  |  2  |  77.5
+    ss 304 properties  |  2  |  77.5
+    ss 304 material properties  |  2  |  79.0
+    stainless steel 304 properties  |  2  |  80.5
+    304 ss density  |  2  |  81.5
+    316l vs 304  |  2  |  88.0
+    stainless steel grades 304  |  2  |  88.5
+    304 stainless steel properties  |  2  |  92.5
+    ss304 density  |  1  |  2.0
+    steel 304 grade  |  1  |  18.0
+    chemical composition ss304  |  1  |  54.0
+    ss304 properties  |  1  |  59.0
+    stainless steel ss 304  |  1  |  62.0
+    stainless steel grade 304  |  1  |  67.0
+    maximum allowable stress for stainless steel 304  |  1  |  70.0
+    304 vs 321  |  1  |  73.0
+    ss 304 specification  |  1  |  73.0
+    ss 304 steel  |  1  |  73.0
+    304 ss properties  |  1  |  76.0
+    ss 304 grade  |  1  |  76.0
+    304 ss material  |  1  |  77.0
+    304 stainless steel specifications  |  1  |  79.0
+    304ss material properties  |  1  |  82.0
+    what is the difference between 304 and 321 stainless steel  |  1  |  82.0
+    304 stainless steel grades  |  1  |  83.0
+    ss304 yield strength  |  1  |  83.0
+    ss density 304  |  1  |  84.0
+    304 steel  |  1  |  85.0
+    304 vs 304l difference  |  1  |  85.0
+    304 ss composition  |  1  |  86.0
+    304 stainless steel composition  |  1  |  86.0
+    a182 f304 material  |  1  |  86.0
+    density of ss304  |  1  |  86.0
+    grades of stainless steel 304  |  1  |  86.0
+    304 vs 316l stainless steel  |  1  |  87.0
+    material stainless steel 304  |  1  |  87.0
+    ss 304 material  |  1  |  87.0
+    stainless steel 316l vs 304  |  1  |  87.0
+    304 stainless steel plate sizes factory  |  1  |  88.0
+    ss 304 chemical composition  |  1  |  89.0
+    stainless steel density 304  |  1  |  89.0
+    steel grade 304  |  1  |  89.0
+    ss 304 material specification  |  1  |  90.0
+    ss 304 sheet thickness chart  |  1  |  90.0
+    what is type 304 stainless steel  |  1  |  90.0
+    304 stainless steel material  |  1  |  91.0
+    304 stainless steel plate sizes manufacturer  |  1  |  93.0
+    ss 304 material composition  |  1  |  94.0
+    ss 304 grade chemical composition  |  1  |  95.0
+    high strength 304 hss  |  1  |  98.0
+    what is the difference between 304 and 304l stainless steel  |  1  |  100.0
+
+### SS 316 / 316L  (16 keywords)
+    Target page(s): /ss-304-316l-pipe-supplier-india, /blog/ss-316l-stainless-steel-guide, /blog/ss-316-vs-ss-316l
+    316l  |  5  |  83.8
+    ss316l  |  4  |  51.75
+    316l stainless steel properties  |  3  |  79.33
+    material 316l  |  3  |  84.0
+    316l properties  |  2  |  68.5
+    316l specification  |  1  |  72.0
+    stainless steel 316l properties  |  1  |  80.0
+    type 316l  |  1  |  82.0
+    grade 316l  |  1  |  84.0
+    ss316 l  |  1  |  85.0
+    stainless steel grade 316l  |  1  |  85.0
+    316l stainless steel specifications  |  1  |  86.0
+    aisi 316l properties  |  1  |  86.0
+    ss 316l means  |  1  |  88.0
+    316l corrosion resistance  |  1  |  89.0
+    ss 316l chemical composition  |  1  |  92.0
+
+### SS 321 / 321H  (11 keywords)
+    Target page(s): /ss-321-pipe-supplier-india, /ss-321h-tube-supplier-india, /blog/ss-304-vs-321-guide, /blog/when-to-use-ss-321-vs-304
+    stainless steel 321 grade  |  10  |  89.4
+    321ss  |  7  |  83.86
+    ss321  |  5  |  76.8
+    321 stainless steel  |  5  |  97.4
+    ss 321 stainless steel  |  3  |  89.0
+    stainless steel 321  |  3  |  95.67
+    ss 321  |  2  |  79.0
+    321 stainless steel special washers  |  1  |  80.0
+    ss 321 equivalent material  |  1  |  84.0
+    ss 321 material  |  1  |  90.0
+    321 stainless steel rolling  |  1  |  98.0
+
+### Duplex 2205 / Super Duplex 2507  (32 keywords)
+    Target page(s): /duplex-2205-*-supplier-india, /super-duplex-2507-*-supplier, /blog/duplex-2205-steel-guide, /blog/super-duplex-2507-guide, /blog/duplex-vs-super-duplex
+    duplex 2205  |  7  |  79.86
+    2205 duplex  |  7  |  83.43
+    duplex stainless steel 2205  |  7  |  86.29
+    2205 duplex stainless steel  |  7  |  93.86
+    25 chrome duplex  |  5  |  17.0
+    super duplex 2205  |  4  |  27.5
+    duplex vs super duplex  |  3  |  30.67
+    super duplex pren  |  3  |  31.67
+    super duplex 2507  |  3  |  70.67
+    2205 duplex reactor  |  3  |  75.67
+    duplex 2205 stainless steel  |  3  |  91.0
+    super duplex  |  2  |  52.0
+    duplex ss 2205  |  2  |  80.5
+    2205 stainless steel industrial uses  |  2  |  84.0
+    2205 vs 2507 duplex  |  1  |  10.0
+    super duplex vs duplex  |  1  |  13.0
+    superduplex 2507  |  1  |  15.0
+    duplex 2205 microstructure  |  1  |  19.0
+    super duplex stainless 25crs alloy surplus  |  1  |  23.0
+    super 25 chrome material  |  1  |  28.0
+    super duplex chemical composition  |  1  |  30.0
+    super duplex 2507 datasheet  |  1  |  52.0
+    saf 2507 super duplex  |  1  |  74.0
+    duplex steel 2205  |  1  |  77.0
+    2205 stainless steel  |  1  |  82.0
+    ss 2205 material  |  1  |  83.0
+    duplex steel 2205 plate  |  1  |  85.0
+    2207 duplex stainless steel  |  1  |  90.0
+    2205/2507 duplex stainless steel plate  |  1  |  94.0
+    2205/2507 stainless steel sheet  |  1  |  97.0
+    super duplex stainless steel coil 2507  |  1  |  97.0
+    super duplex 2507 mechanical properties  |  1  |  98.0
+
+### Inconel  (31 keywords)
+    Target page(s): /inconel-pipe-supplier-india, /inconel-600-pipe-supplier-india, /inconel-718-supplier-india, /blog/inconel-625-guide, /blog/what-is-inconel-alloy
+    hastelloy vs inconel  |  53  |  84.42
+    inconel vs hastelloy  |  18  |  90.56
+    monel vs inconel  |  13  |  52.08
+    inconel c276  |  9  |  70.22
+    hastelloy vs inconel price  |  6  |  87.0
+    inconel c276 pipe  |  5  |  89.8
+    inconel hastelloy  |  4  |  88.0
+    hastelloy c276 vs inconel 625  |  3  |  53.33
+    inconel 625 pipes & tubes in india  |  3  |  66.33
+    hastelloy x vs inconel 625  |  3  |  75.33
+    inconel 625 pipes & tubes exporters  |  3  |  94.33
+    monel inconel  |  2  |  36.5
+    inconel vs monel  |  2  |  44.0
+    inconel 625  |  2  |  82.5
+    inconel 625 applications  |  2  |  88.0
+    inconel 625 properties  |  2  |  88.0
+    inconel and hastelloy standards  |  2  |  96.5
+    inconel nickel alloy  |  1  |  16.0
+    monel and inconel  |  1  |  49.0
+    what is inconel 625  |  1  |  68.0
+    difference between monel and inconel  |  1  |  80.0
+    inconel 625 pipe suppliers  |  1  |  80.0
+    inconel625  |  1  |  86.0
+    tubo inconel  |  1  |  86.0
+    inconel tubing  |  1  |  88.0
+    inconel 276  |  1  |  90.0
+    inconel 715  |  1  |  93.0
+    inconel 600 tube suppliers  |  1  |  94.0
+    inconel 625 uses  |  1  |  94.0
+    inconel manufacturer  |  1  |  96.0
+    monel vs inconel vs hastelloy  |  1  |  100.0
+
+### Hastelloy  (14 keywords)
+    Target page(s): /hastelloy-pipe-supplier-india, /hastelloy-c22-*, /hastelloy-b2-*, /blog/hastelloy-c276-guide, /blog/what-is-hastelloy
+    hastelloy c276 nickel alloy applications  |  5  |  80.8
+    hastelloy c276  |  4  |  106.0
+    c 276  |  2  |  72.5
+    c-276  |  1  |  70.0
+    hastelloy c276 industrial corrosion solution  |  1  |  75.0
+    alloy c276  |  1  |  79.0
+    what is hastelloy c276  |  1  |  79.0
+    c276  |  1  |  82.0
+    hastelloy 276  |  1  |  88.0
+    hastelloy c 276  |  1  |  89.0
+    c-276 hastelloy  |  1  |  90.0
+    hastelloy 625  |  1  |  90.0
+    hastelloy c chemical composition  |  1  |  95.0
+    nickel alloy c276 autoclave  |  1  |  98.0
+
+### Monel  (1 keywords)
+    Target page(s): /monel-400-pipe-supplier-india, /monel-k500-supplier-india, /blog/what-is-monel-alloy, /blog/inconel-vs-monel-guide, /blog/monel-400-vs-monel-k500
+    monel nickel  |  1  |  49.0
+
+### Titanium  (5 keywords)
+    Target page(s): /titanium-pipe-supplier-india, /titanium-grade-2-pipe-india, /titanium-grade-5-pipe-india, /blog/titanium-grade-2-vs-grade-5
+    titanium grade 5  |  9  |  89.56
+    titanium grade 2  |  4  |  96.75
+    titanium grades comparison  |  2  |  86.0
+    titanium grade 2 vs grade 5  |  1  |  84.0
+    what is grade 2 titanium  |  1  |  90.0
+
+### Copper Nickel / Cupro Nickel  (1 keywords)
+    Target page(s): /copper-nickel-pipe-supplier-india, /cupro-nickel-9010-*, /cupro-nickel-7030-*, /blog/what-is-copper-nickel-alloy
+    cuni alloys  |  1  |  97.0
+
+### Alloy Steel P91 / P22 / P11 / P92 / P9 / P5  (7 keywords)
+    Target page(s): /alloy-steel-pipe-supplier-india, /p91-*, /p22-*, /p11-*, /p92-*, /blog/p91-alloy-steel-guide, /blog/p91-vs-p22-alloy-steel
+    p91  |  21  |  56.67
+    p91-5ja-140a-4a3  |  14  |  53.36
+    alloy steel p91  |  7  |  70.0
+    difference between p91 and p92 material  |  5  |  1.0
+    p91 material  |  2  |  59.5
+    p92 chemical composition  |  1  |  3.0
+    p91 metal  |  1  |  77.0
+
+### Carbon Steel / SA516 / A106  (10 keywords)
+    Target page(s): /carbon-steel-sa516-plate-stockist-india, /a106-gr-b-seamless-pipe-india, /blog/sa-516-carbon-steel-plate-guide, /blog/carbon-steel-pipe-guide
+    sa 516 grade 60 steel plate supplier  |  2  |  77.0
+    sa 516 grade 60 steel plate  |  2  |  78.0
+    c516  |  1  |  63.0
+    asme sa516 supplier  |  1  |  65.0
+    sa 516  |  1  |  65.0
+    chloride stress corrosion cracking carbon steel  |  1  |  77.0
+    sa 516 grade 65  |  1  |  86.0
+    positive material identification for carbon steel  |  1  |  92.0
+    sa 516 grade 65 steel plate  |  1  |  95.0
+    sa516 carbon steel reactor  |  1  |  98.0
+
+### ERW vs Seamless / Pipe manufacturing  (45 keywords)
+    Target page(s): /blog/erw-vs-seamless-pipe, /ss-seamless-pipe-supplier-india, /ss-erw-pipe-supplier-vadodara, /blog/what-is-erw-pipe, /blog/what-is-seamless-pipe
+    erw vs seamless pipe  |  8  |  67.75
+    erw seamless pipe  |  7  |  66.14
+    seamless vs erw pipe  |  5  |  62.8
+    erw pipe vs seamless pipe  |  5  |  73.2
+    seamless erw pipe  |  4  |  63.75
+    erw vs seamless pipe comparison  |  4  |  66.75
+    erw vs seamless line pipe  |  4  |  74.75
+    erw pipe vs seamless  |  3  |  73.33
+    efw pipe vs erw pipe  |  3  |  82.0
+    erw tube dimensions  |  3  |  94.0
+    erw vs seamless pipe cost  |  2  |  52.5
+    erw pipe and seamless pipe  |  2  |  62.0
+    erw pipe meaning  |  2  |  62.0
+    seamless and erw  |  2  |  63.5
+    erw and seamless steel piping  |  2  |  78.5
+    erw and seamless pipe  |  2  |  79.0
+    erw pipe vs saw pipe  |  2  |  82.5
+    erw and seamless pipe difference  |  1  |  53.0
+    erw pipe definition  |  1  |  54.0
+    erw and seamless difference  |  1  |  56.0
+    difference between erw and seamless pipe  |  1  |  57.0
+    seamless and erw pipe difference  |  1  |  57.0
+    seamless vs erw  |  1  |  58.0
+    seamless pipe rajkot  |  1  |  59.0
+    difference between seamless pipe and erw pipe  |  1  |  61.0
+    erw pipe seam  |  1  |  61.0
+    meaning of erw pipe  |  1  |  62.0
+    pipe erw meaning  |  1  |  64.0
+    pipe erw vs seamless  |  1  |  65.0
+    difference between erw pipe and seamless pipe  |  1  |  67.0
+    erw pipes means  |  1  |  69.0
+    erw seamless pipe difference  |  1  |  70.0
+    erw vs seamless  |  1  |  72.0
+    seamless erw  |  1  |  72.0
+    erw pipes meaning  |  1  |  73.0
+    seamless pipe vs erw  |  1  |  79.0
+    erw pipe means  |  1  |  82.0
+    seamless of erw steel pipe  |  1  |  83.0
+    erw steel pipe replace seamless steel pipe  |  1  |  84.0
+    erw vs saw pipe  |  1  |  84.0
+    ms erw pipe meaning  |  1  |  88.0
+    astm a513 erw pipe advantages  |  1  |  90.0
+    seamless pipe and erw pipe difference  |  1  |  90.0
+    geometric seamless of erw steel pipe  |  1  |  94.0
+    difference between erw and efw pipe  |  1  |  96.0
+
+### Pipe Schedule / NB-OD / Sizing  (38 keywords)
+    Target page(s): /blog/what-is-pipe-schedule, /blog/pipe-schedule-chart, /blog/schedule-10-vs-schedule-40, /blog/sch-80-vs-sch-160-pipe, /blog/pipe-nb-to-od-conversion, /blog/inch-to-mm-conversion-pipes
+    sch 5s meaning  |  12  |  15.67
+    inch to nb chart  |  7  |  1.0
+    schedule number  |  7  |  28.71
+    schedule in piping  |  3  |  52.67
+    what is a pipe schedule  |  3  |  52.67
+    schedule 160 pipe  |  3  |  80.33
+    schedule meaning in pipe  |  2  |  9.0
+    what is pipe schedule  |  2  |  40.5
+    pipe schedule meaning  |  2  |  51.0
+    pipe schedule  |  2  |  58.0
+    what does pipe schedule mean  |  2  |  59.0
+    schedule 160  |  2  |  74.5
+    18 sch  |  2  |  79.0
+    what is class 300 pressure rating  |  2  |  85.0
+    high productivity schedule 10 pipe vs schedule 40  |  2  |  98.0
+    nb sizes  |  1  |  1.0
+    nb to inch chart  |  1  |  1.0
+    nb to mm chart  |  1  |  1.0
+    pipe schedules explained  |  1  |  11.0
+    what is pipe schedule number  |  1  |  17.0
+    schedule for pipe  |  1  |  33.0
+    schedule 40s  |  1  |  46.0
+    schedule in pipes  |  1  |  55.0
+    what is schedule in piping  |  1  |  57.0
+    what is schedule of pipe  |  1  |  60.0
+    what does schedule mean for pipe  |  1  |  66.0
+    different schedules of pipe  |  1  |  67.0
+    schedule pressure  |  1  |  71.0
+    what is schedule in pipe  |  1  |  71.0
+    schedule in pipe  |  1  |  74.0
+    sch 160  |  1  |  75.0
+    what is schedule in pipes  |  1  |  79.0
+    what is class 150 pressure rating  |  1  |  84.0
+    what does schedule mean in pipe  |  1  |  86.0
+    sch pipe  |  1  |  89.0
+    what is class 150 pipe  |  1  |  89.0
+    sch std  |  1  |  93.0
+    class 300 flange rating  |  1  |  96.0
+
+### Flanges  (23 keywords)
+    Target page(s): /ss-flanges-supplier-vadodara, /duplex-2205-flanges-supplier-india, /blog/ss-flange-types-guide, /blog/what-is-flanges-types, /blog/wn-flange-vs-so-flange, /blog/rf-vs-ff-vs-rtj-flange
+    sorf vs wnrf flange  |  9  |  7.11
+    ss flange types  |  9  |  10.11
+    sorf vs wnrf  |  6  |  5.17
+    wnrf vs sorf  |  6  |  5.5
+    difference between wnrf and sorf flange  |  6  |  6.5
+    sorf flange vs wnrf flange  |  4  |  7.0
+    wnrf full form  |  3  |  10.67
+    wnrf flange meaning  |  3  |  19.33
+    difference between sorf and soff flange  |  2  |  13.0
+    sorf flange  |  2  |  26.0
+    sorf flange meaning  |  2  |  32.5
+    ss blind flange  |  2  |  70.5
+    ss flange  |  2  |  84.5
+    ss flanges  |  2  |  88.5
+    flange wnrf  |  1  |  3.0
+    difference between sorf and swrf flange  |  1  |  12.0
+    sorf vs swrf  |  1  |  12.0
+    flange so ff  |  1  |  24.0
+    wnrf flange full form  |  1  |  27.0
+    what is sorf flange  |  1  |  48.0
+    flange bolt length chart  |  1  |  63.0
+    weld neck flange weight chart  |  1  |  75.0
+    b16 5 flange dimensions  |  1  |  96.0
+
+### Fittings (buttweld/forged/reducer/stub-end)  (4 keywords)
+    Target page(s): /ss-buttweld-fittings-supplier-india, /forged-fittings-supplier-india, /ss-reducer-supplier-india, /ss-stub-end-supplier-india, /blog/what-is-buttweld-fitting, /blog/forged-vs-cast-fittings, /blog/butt-weld-vs-socket-weld
+    oil refinery fittings  |  1  |  22.0
+    elbow weight  |  1  |  66.0
+    oil refinery pipe fittings  |  1  |  79.0
+    wrought fittings vs forged fittings  |  1  |  89.0
+
+### MTC / MTR / Traceability  (17 keywords)
+    Target page(s): /blog/what-is-mill-test-certificate, /blog/mill-test-certificate-guide, /blog/how-to-read-mill-test-certificate, /blog/material-traceability-steel
+    mtc full form in safety  |  5  |  71.2
+    steel product traceability  |  5  |  98.8
+    mtc meaning  |  3  |  62.33
+    mtc full form in engineering  |  2  |  48.0
+    certificate mill  |  2  |  53.5
+    mtc full form in material  |  2  |  70.0
+    mill certificate  |  2  |  70.5
+    mtc full form  |  2  |  86.5
+    mill test for steel  |  1  |  52.0
+    mtc sample  |  1  |  52.0
+    mtc means  |  1  |  61.0
+    mtc certificate  |  1  |  72.0
+    mtc certificate meaning  |  1  |  72.0
+    mtr meaning engineering  |  1  |  74.0
+    material mtc  |  1  |  79.0
+    mtc full form in construction  |  1  |  85.0
+    mtc report  |  1  |  86.0
+
+### NACE / Sour service / HIC  (4 keywords)
+    Target page(s): /nace-hic-steel-plate-supplier-india, /blog/what-is-nace-mr0175, /blog/nace-mr0175-vs-mr0103, /blog/what-is-hic-testing
+    hic quality plate distributor  |  2  |  53.5
+    mr0103 vs mr0175  |  1  |  63.0
+    nace mr0175 vs mr0103  |  1  |  64.0
+    nace mr0103 vs mr0175  |  1  |  69.0
+
+### Corrosion (SCC/pitting/IGC/embrittlement)  (8 keywords)
+    Target page(s): /blog/what-is-stress-corrosion-cracking, /blog/what-is-pitting-corrosion, /blog/types-of-corrosion-in-steel, /blog/what-is-hydrogen-embrittlement
+    scc corrosion  |  3  |  98.67
+    chloride stress corrosion cracking temperature  |  1  |  77.0
+    chloride stress cracking  |  1  |  85.0
+    chloride scc  |  1  |  90.0
+    chloride stress corrosion  |  1  |  91.0
+    chloride stress corrosion cracking  |  1  |  94.0
+    scc cracking  |  1  |  99.0
+    hydrogen embrittlement in steel  |  1  |  100.0
+
+### NDT / Testing (PMI/DPT/RT/PWHT)  (8 keywords)
+    Target page(s): /blog/what-is-pmi-testing, /blog/how-to-do-pmi-testing, /blog/how-to-do-dye-penetrant-test, /blog/what-is-pwht, /blog/ndt-testing-methods-pipes
+    pmi metal  |  2  |  98.5
+    dpt test procedure  |  1  |  65.0
+    dpt test for welding  |  1  |  66.0
+    pwht requirement  |  1  |  72.0
+    dpt test  |  1  |  75.0
+    dpt test full form  |  1  |  82.0
+    pwht procedures  |  1  |  85.0
+    pmi inspection  |  1  |  100.0
+
+### Structural Steel (MS beam/channel/angle/plate)  (12 keywords)
+    Target page(s): /ms-beam-ismb-supplier-india, /ms-channel-ismc-supplier-india, /ms-plate-supplier-india, /ms-angle-channel-supplier-vadodara, /blog/ms-structural-steel-guide
+    ss round bar weight chart  |  1  |  1.0
+    steel tee bar size chart  |  1  |  65.0
+    ms patti size chart  |  1  |  66.0
+    e250 vs e350 steel  |  1  |  74.0
+    exotic alloy metal shapes  |  1  |  78.0
+    is 3601  |  1  |  80.0
+    specialty stainless steel  |  1  |  82.0
+    square bar size chart  |  1  |  87.0
+    exotic metal alloys  |  1  |  92.0
+    bridge structural steel  |  1  |  93.0
+    exotic steel alloys  |  1  |  95.0
+    exotic stainless steel alloys supplier  |  1  |  99.0
+
+### Weight / Size charts  (7 keywords)
+    Target page(s): /blog/ss-pipe-weight-chart, /blog/ss-round-bar-weight-chart, /blog/ss-sheet-size-chart, /blog/ss-plate-thickness-chart
+    sic polished sheet sizes  |  5  |  79.6
+    stainless steel plate dimensions  |  3  |  62.33
+    standard ss sheet size  |  1  |  63.0
+    ss size chart  |  1  |  67.0
+    steel length  |  1  |  69.0
+    stainless steel sheet size  |  1  |  72.0
+    stainless steel sheet sizes  |  1  |  77.0
+
+### Hardox / Wear plate  (4 keywords)
+    Target page(s): /hardox-wear-plate-supplier-india, /blog/hardox-plate-price-india
+    hardox steel india  |  6  |  60.33
+    hardox wear plate minimum order  |  1  |  58.0
+    hardox wearcalc  |  1  |  68.0
+    hardox wear bars wear strips  |  1  |  72.0
+
+### Corten / Weathering steel  (7 keywords)
+    Target page(s): /corten-steel-plate-supplier-india
+    corten suppliers  |  3  |  61.33
+    corten plate supplier  |  2  |  66.5
+    corten a steel plate manufacturers in india  |  2  |  76.0
+    corten b steel plate manufacturers in india  |  1  |  80.0
+    corten steel astm a242 plates  |  1  |  84.0
+    corten b steel plate manufacturers  |  1  |  85.0
+    corten steel manufacturer  |  1  |  88.0
+
+### TMT Bars  (12 keywords)
+    Target page(s): /tmt-bars-supplier-gujarat, /blog/tmt-bars-guide, /blog/fe500-vs-fe500d-tmt
+    tmt bar manufacturers in gujarat  |  5  |  57.2
+    tmt bars manufacturers in gujarat  |  5  |  62.6
+    tmt manufacturers in gujarat  |  3  |  57.33
+    fe 500d steel tmt bar manufacturer  |  2  |  70.0
+    fe500d  |  2  |  90.0
+    ctd bars full form  |  1  |  43.0
+    tmt bar specification  |  1  |  63.0
+    fe 500d reinforcement bars manufacturers  |  1  |  77.0
+    fe 500 means  |  1  |  92.0
+    fe500d meaning  |  1  |  97.0
+    fe500  |  1  |  100.0
+    tmt bars sizes  |  1  |  100.0
+
+### Location / Supplier intent  (13 keywords)
+    Target page(s): location supplier pages (Vadodara, Gujarat, Ahmedabad, Rajkot, etc.)
+    steel manufacturing company in gujarat  |  5  |  84.6
+    pipe manufacturing companies in hyderabad  |  2  |  47.5
+    stainless steel pipe dealers in hyderabad  |  2  |  68.0
+    steel pipe manufacturers in bangalore  |  2  |  79.5
+    ss pipe suppliers in gujarat  |  2  |  88.5
+    pipe manufacturers in coimbatore  |  1  |  52.0
+    pipe manufacturers in jaipur  |  1  |  53.0
+    pipe manufacturers in pune  |  1  |  53.0
+    ss pipe dealer in ahmedabad  |  1  |  60.0
+    s s pipe dealers in ahmedabad  |  1  |  66.0
+    raipur steel manufacturers  |  1  |  74.0
+    steel pipe manufacturers in gujarat  |  1  |  87.0
+    steel company in gujarat  |  1  |  97.0
+
+### Specifications / Standards (ASTM/ASME/API/IS)  (11 keywords)
+    Target page(s): /blog/astm-* spec guides, /blog/api-5l-*, /blog/is-*
+    is 3965  |  8  |  52.88
+    astm a269  |  4  |  90.75
+    astm a182  |  3  |  58.33
+    astm a312  |  3  |  83.0
+    astm a778 vs a312  |  2  |  48.0
+    hsn code steel pipe  |  1  |  59.0
+    astm a841  |  1  |  65.0
+    astm a960  |  1  |  75.0
+    astm a269 pressure rating  |  1  |  82.0
+    api 5l certified pipeline solutions  |  1  |  91.0
+    astm a 269  |  1  |  91.0
+
+### Other relevant (general steel/pipe intent)  (12 keywords)
+    Target page(s): /products, /blog index, home
+    steel pipes manufacturer in chennai  |  17  |  61.06
+    chs pipes in tamil nadu  |  15  |  64.93
+    chs pipes in chennai  |  14  |  57.79
+    ss cladding sheet  |  2  |  66.5
+    austenitic vs ferritic  |  1  |  72.0
+    stainless steel sections catalogue india  |  1  |  76.0
+    is code 2062  |  1  |  78.0
+    austenitic stainless steel vs ferritic stainless steel  |  1  |  82.0
+    austenitic vs ferritic stainless steel  |  1  |  82.0
+    ss size  |  1  |  84.0
+    stainless steel plate specifications  |  1  |  87.0
+    production of metal products for storage  |  1  |  89.0
+
+======================================================================
+OFF-TOPIC / EXCLUDED KEYWORDS  (32)
+These are NOT related to your products/pages. Do NOT create pages or
+target these. They are competitor names, directory lookups, search
+operators, or non-topical junk that Search Console happened to record.
+
+    www.creativemetalind.com  |  83  |  junk / non-topical query
+    ibr full form in medical  |  3  |  junk / non-topical query
+    vadodara company list  |  3  |  other company / directory query
+    ("india" or "indian") and ("steel manufacturing" or "pipe fabrication" or "pi...  |  2  |  search operator / boolean query
+    tmt steel bar manufacturers in chandigarh  |  2  |  local rebar market we don't target
+    coimbatore tube company  |  2  |  other company / directory query
+    s s metal industries  |  1  |  other company / directory query
+    yes  |  1  |  junk / non-topical query
+    hbw insight  |  1  |  other company / directory query
+    vadodara all company list  |  1  |  other company / directory query
+    ibr ka full form  |  1  |  junk / non-topical query
+    manufacturing company in vadodara  |  1  |  other company / directory query
+    creative piping solutions private limited  |  1  |  other company / directory query
+    -site:facebook.com -site:fb.me -site:youtube.com -site:youtu.be -site:youtube...  |  1  |  search operator / boolean query
+    vadodara industries  |  1  |  other company / directory query
+    tmt bar manufacturers in chandigarh  |  1  |  local rebar market we don't target
+    blast furnace steel bars in chandigarh  |  1  |  local rebar market we don't target
+    green construction steel tmt bars in chandigarh  |  1  |  local rebar market we don't target
+    ibr.  |  1  |  junk / non-topical query
+    fe 500d steel rebars manufacturers  |  1  |  generic rebar-brand intent
+    green steel tmt bars in chandigarh  |  1  |  local rebar market we don't target
+    kandi steel  |  1  |  other company / directory query
+    jain steel gandhidham  |  1  |  other company / directory query
+    chennai steel tubes  |  1  |  other company / directory query
+    cochin steel  |  1  |  other company / directory query
+    special metal industries  |  1  |  other company / directory query
+    panoli industries  |  1  |  other company / directory query
+    variety metal corporation  |  1  |  other company / directory query
+    creative carve pvt ltd chakan  |  1  |  other company / directory query
+    profile rt  |  1  |  other company / directory query
+    fe 500sd reinforcement bars manufacturers  |  1  |  generic rebar-brand intent
+    creative carbon pvt. ltd.  |  1  |  other company / directory query
