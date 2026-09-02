@@ -1,6 +1,7 @@
 CREATIVE METAL INDUSTRIES - CLEANED KEYWORD LIST
 Source: Google Search Console 'Performance on Search' export (last 3 months, to 2026-09-01)
 Format per line:  keyword  |  impressions  |  avg position
+Maintained by: Himanshu Sharma
 
 NOTE: This file = keywords that ALREADY brought impressions to the site (cleaned
 of off-topic/competitor/junk queries). For the FULL set of real-world search
