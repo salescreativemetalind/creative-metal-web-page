@@ -5,6 +5,7 @@
 
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
+import { LocationContent } from "../components/LocationContent";
 
 const GRADES = [
   { grade: "SS 304 Pipe",        spec: "ASTM A312 TP304",        sizes: "6NB–600NB, SCH 5S–XXS",     stock: "Ready Stock" },
@@ -442,6 +443,9 @@ export default function SsPipeSupplierVadodara() {
             </p>
           </div>
         </section>
+
+      
+        <LocationContent slug="vadodara" />
 
       
         <RelatedPages currentPath="/ss-pipe-supplier-vadodara" />

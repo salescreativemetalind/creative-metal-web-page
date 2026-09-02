@@ -4,6 +4,7 @@
  */
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
+import { LocationContent } from "../components/LocationContent";
 
 const SCHEMA = '{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/ss-pipe-supplier-baroda#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries — Baroda (Vadodara)","description":"Steel pipe and fittings supplier serving Baroda (Vadodara), Gujarat. SS, CS, alloy steel, duplex and exotic alloy pipes.","telephone":"+919998280619","url":"https://www.creativemetalind.com/ss-pipe-supplier-baroda","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"},"areaServed":{"@type":"City","name":"Baroda (Vadodara)","containedInPlace":{"@type":"State","name":"Gujarat"}},"priceRange":"$$"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Steel Supplier Baroda (Vadodara)","item":"https://www.creativemetalind.com/ss-pipe-supplier-baroda"}]}]}';
 const FAQ_SCHEMA = '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Where is the best SS pipe supplier in Baroda?","acceptedAnswer":{"@type":"Answer","text":"Creative Metal Industries is located in Vadodara (Baroda) itself — at Lakkadpitha Road and GIDC Makarpura. Walk-in and pick up or same-day delivery anywhere in Baroda. We are the city\'s largest SS and alloy steel stockist since 2012. Call +91 99982 80619."}},{"@type":"Question","name":"Can I visit your warehouse in Baroda?","acceptedAnswer":{"@type":"Answer","text":"Yes! Our warehouse is at 386/B, GIDC Estate, Makarpura, Vadodara. Walk-in welcome. View stock, select material, and take delivery same day. Office hours: 10 AM to 7 PM, Monday to Saturday."}}]}';
@@ -66,6 +67,8 @@ export default function SsPipeSupplierBaroda() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
+    
+        <LocationContent slug="baroda" />
     
         <RelatedPages currentPath="/ss-pipe-supplier-baroda" />
       </main>

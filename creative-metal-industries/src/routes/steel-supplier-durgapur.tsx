@@ -5,6 +5,7 @@
  */
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
+import { LocationContent } from "../components/LocationContent";
 
 const PRODUCTS = [
   { category: "Alloy Steel Pipes (IBR)", grades: "ASTM A335 P5, P9, P11, P22, P91", sizes: "1/2\" to 24\"", type: "Seamless (IBR)", stock: "Ready Stock" },
@@ -153,6 +154,8 @@ export default function SteelSupplierDurgapur() {
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} {"\u2192"}</a>
           ))}
         </div>
+      
+        <LocationContent slug="durgapur" />
       
         <RelatedPages currentPath="/steel-supplier-durgapur" />
       </main>

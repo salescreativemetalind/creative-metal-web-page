@@ -4,6 +4,7 @@
  */
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
+import { LocationContent } from "../components/LocationContent";
 
 const SCHEMA = '{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/steel-supplier-bharuch#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries — Bharuch","description":"Steel pipe and fittings supplier serving Bharuch, Gujarat. SS, CS, alloy steel, duplex and exotic alloy pipes.","telephone":"+919998280619","url":"https://www.creativemetalind.com/steel-supplier-bharuch","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"},"areaServed":{"@type":"City","name":"Bharuch","containedInPlace":{"@type":"State","name":"Gujarat"}},"priceRange":"$$"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Steel Supplier Bharuch","item":"https://www.creativemetalind.com/steel-supplier-bharuch"}]}]}';
 const FAQ_SCHEMA = '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who is the best steel supplier in Bharuch?","acceptedAnswer":{"@type":"Answer","text":"Creative Metal Industries is just 75 km from Bharuch. Same-day delivery of SS, CS, alloy steel pipes. We supply to GNFC, Dahej PCPIR, Ankleshwar GIDC. Complete range with MTC. Call +91 99982 80619."}},{"@type":"Question","name":"Do you supply to Dahej industrial area from Vadodara?","acceptedAnswer":{"@type":"Answer","text":"Yes, Dahej is 90 km from our Vadodara warehouse. Same-day delivery. We supply SS, duplex, alloy steel, and exotic alloy pipes to ONGC, Reliance, IOCL, and all Dahej PCPIR companies."}}]}';
@@ -66,6 +67,8 @@ export default function SteelSupplierBharuch() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
+    
+        <LocationContent slug="bharuch" />
     
         <RelatedPages currentPath="/steel-supplier-bharuch" />
       </main>

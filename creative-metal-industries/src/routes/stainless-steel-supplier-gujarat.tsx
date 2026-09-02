@@ -4,6 +4,7 @@
  */
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
+import { LocationContent } from "../components/LocationContent";
 
 const SCHEMA = '{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/stainless-steel-supplier-gujarat#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries — Gujarat (State-wide)","description":"Steel pipe and fittings supplier serving Gujarat (State-wide), Gujarat. SS, CS, alloy steel, duplex and exotic alloy pipes.","telephone":"+919998280619","url":"https://www.creativemetalind.com/stainless-steel-supplier-gujarat","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"},"areaServed":{"@type":"City","name":"Gujarat (State-wide)","containedInPlace":{"@type":"State","name":"Gujarat"}},"priceRange":"$$"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Steel Supplier Gujarat (State-wide)","item":"https://www.creativemetalind.com/stainless-steel-supplier-gujarat"}]}]}';
 const FAQ_SCHEMA = '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who is the largest stainless steel supplier in Gujarat?","acceptedAnswer":{"@type":"Answer","text":"Creative Metal Industries is one of Gujarat\'s leading stainless steel suppliers with 2000+ tonnes ready stock at GIDC Makarpura, Vadodara. We supply SS 304, 316L, 321, 310, 904L, duplex 2205, and exotic alloys to all districts of Gujarat. Same-day delivery within 200 km, 1-3 days state-wide."}},{"@type":"Question","name":"Do you deliver stainless steel across Gujarat?","acceptedAnswer":{"@type":"Answer","text":"Yes, we deliver across Gujarat — Ahmedabad, Surat, Rajkot, Bharuch, Ankleshwar, Vapi, Jamnagar, Bhavnagar, Gandhinagar, Mehsana and all GIDC areas. Own transport for local areas, dedicated carriers for long-distance. Call +91 99982 80619."}}]}';
@@ -67,6 +68,8 @@ export default function StainlessSteelSupplierGujarat() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
+    
+        <LocationContent slug="gujarat" />
     
         <RelatedPages currentPath="/stainless-steel-supplier-gujarat" />
       </main>

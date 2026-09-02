@@ -4,6 +4,7 @@
  */
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
+import { LocationContent } from "../components/LocationContent";
 
 const SCHEMA = '{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/steel-supplier-nandesari-gidc#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries — Nandesari GIDC, Vadodara","description":"Steel pipe and fittings supplier serving Nandesari GIDC, Vadodara, Gujarat. SS, CS, alloy steel, duplex and exotic alloy pipes.","telephone":"+919998280619","url":"https://www.creativemetalind.com/steel-supplier-nandesari-gidc","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"},"areaServed":{"@type":"City","name":"Nandesari GIDC, Vadodara","containedInPlace":{"@type":"State","name":"Gujarat"}},"priceRange":"$$"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Steel Supplier Nandesari GIDC, Vadodara","item":"https://www.creativemetalind.com/steel-supplier-nandesari-gidc"}]}]}';
 const FAQ_SCHEMA = '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do you supply to Nandesari GIDC?","acceptedAnswer":{"@type":"Answer","text":"Yes, Nandesari GIDC is just 15 km from our Makarpura warehouse. We deliver within hours. Regular supply to chemical, pharma, and dye plants in Nandesari. SS 304, 316L, 321, duplex 2205, Hastelloy C276 — all grades stocked. Call +91 99982 80619."}},{"@type":"Question","name":"What pipe material is suitable for chemical plants in Nandesari?","acceptedAnswer":{"@type":"Answer","text":"SS 316L for general service, SS 316Ti for high-temp acids, Hastelloy C276 for HCl/mixed acids, Duplex 2205 for chloride media, Alloy 20 for sulphuric acid. We stock all and can recommend based on your process. Free material consultation available."}}]}';
@@ -66,6 +67,8 @@ export default function SteelSupplierNandesariGidc() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
+    
+        <LocationContent slug="nandesari" />
     
         <RelatedPages currentPath="/steel-supplier-nandesari-gidc" />
       </main>

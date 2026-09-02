@@ -4,6 +4,7 @@
  */
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
+import { LocationContent } from "../components/LocationContent";
 
 const PRODUCTS = [
   { category: "Stainless Steel Pipes", grades: "SS 304, 316L, 321, 310, 904L", sizes: "1/2\" to 24\"", stock: "Ready Stock" },
@@ -112,6 +113,8 @@ export default function SSPipeSupplierMumbai() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
+    
+        <LocationContent slug="mumbai" />
     
         <RelatedPages currentPath="/ss-pipe-supplier-mumbai" />
       </main>

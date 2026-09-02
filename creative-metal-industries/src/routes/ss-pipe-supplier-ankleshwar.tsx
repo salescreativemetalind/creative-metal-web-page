@@ -4,6 +4,7 @@
  */
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
+import { LocationContent } from "../components/LocationContent";
 
 const SCHEMA = '{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/ss-pipe-supplier-ankleshwar#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries — Ankleshwar","description":"Steel pipe and fittings supplier serving Ankleshwar, Gujarat. SS, CS, alloy steel, duplex and exotic alloy pipes.","telephone":"+919998280619","url":"https://www.creativemetalind.com/ss-pipe-supplier-ankleshwar","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"},"areaServed":{"@type":"City","name":"Ankleshwar","containedInPlace":{"@type":"State","name":"Gujarat"}},"priceRange":"$$"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Steel Supplier Ankleshwar","item":"https://www.creativemetalind.com/ss-pipe-supplier-ankleshwar"}]}]}';
 const FAQ_SCHEMA = '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who supplies SS pipes to Ankleshwar GIDC?","acceptedAnswer":{"@type":"Answer","text":"Creative Metal Industries is the closest SS pipe supplier to Ankleshwar GIDC (just 95 km from Vadodara). Same-day delivery. SS 304, 316L, 321, duplex 2205, Hastelloy C276 — all grades for chemical industry. Call +91 99982 80619."}},{"@type":"Question","name":"What material is best for chemical plants in Ankleshwar?","acceptedAnswer":{"@type":"Answer","text":"For acid environments: SS 316L for mild acids, Hastelloy C276 for HCl/mixed acids, Duplex 2205 for chloride environments. We stock all these grades. Our team can recommend the right material based on your process conditions."}}]}';
@@ -66,6 +67,8 @@ export default function SsPipeSupplierAnkleshwar() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
+    
+        <LocationContent slug="ankleshwar" />
     
         <RelatedPages currentPath="/ss-pipe-supplier-ankleshwar" />
       </main>

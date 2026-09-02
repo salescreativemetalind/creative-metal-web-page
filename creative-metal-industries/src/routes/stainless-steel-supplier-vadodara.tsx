@@ -5,6 +5,7 @@
 
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
+import { LocationContent } from "../components/LocationContent";
 
 const GRADES = [
   {
@@ -366,6 +367,9 @@ export default function StainlessSteelSupplierVadodara() {
             </div>
           </div>
         </section>
+
+      
+        <LocationContent slug="vadodara" />
 
       
         <RelatedPages currentPath="/stainless-steel-supplier-vadodara" />

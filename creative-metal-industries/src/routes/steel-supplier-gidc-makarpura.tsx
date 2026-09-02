@@ -4,6 +4,7 @@
  */
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
+import { LocationContent } from "../components/LocationContent";
 
 const SCHEMA = '{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/steel-supplier-gidc-makarpura#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries — GIDC Makarpura, Vadodara","description":"Steel pipe and fittings supplier serving GIDC Makarpura, Vadodara, Gujarat. SS, CS, alloy steel, duplex and exotic alloy pipes.","telephone":"+919998280619","url":"https://www.creativemetalind.com/steel-supplier-gidc-makarpura","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"},"areaServed":{"@type":"City","name":"GIDC Makarpura, Vadodara","containedInPlace":{"@type":"State","name":"Gujarat"}},"priceRange":"$$"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Steel Supplier GIDC Makarpura, Vadodara","item":"https://www.creativemetalind.com/steel-supplier-gidc-makarpura"}]}]}';
 const FAQ_SCHEMA = '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Where is CMI warehouse in GIDC Makarpura?","acceptedAnswer":{"@type":"Answer","text":"Our warehouse is at 386/B, GIDC Estate, Makarpura, Vadodara 390010. Walk-in welcome. We stock 2000+ tonnes of SS, CS, alloy steel, structural steel. Self-pickup or immediate delivery within GIDC. Call +91 99982 80619 for directions."}},{"@type":"Question","name":"Can I buy small quantities from your Makarpura warehouse?","acceptedAnswer":{"@type":"Answer","text":"Yes, we supply from single piece/plate to bulk quantities. Walk-in customers welcome. No minimum order for ready stock items. Cut-to-size service available on-site for plates and pipes."}}]}';
@@ -66,6 +67,8 @@ export default function SteelSupplierGidcMakarpura() {
           <a href="https://wa.me/919998280619" style={{ background: "#25D366", color: "#fff", padding: "0.8rem 1.5rem", "border-radius": "8px", "font-weight": "700", "text-decoration": "none" }}>💬 WhatsApp Us</a>
         </div>
       </div>
+    
+        <LocationContent slug="makarpura" />
     
         <RelatedPages currentPath="/steel-supplier-gidc-makarpura" />
       </main>
