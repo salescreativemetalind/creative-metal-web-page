@@ -21,6 +21,13 @@
   --border:    #E8D5BC;
   --white:     #FFFFFF;
 
+  /* Product-image surface: a single, clean, near-white neutral used behind
+     every product photo so the mixed source backgrounds (white cut-outs,
+     grey studio gradients, busy photographs) all sit on one consistent base
+     instead of clashing. Kept subtly warm to match the cream palette. */
+  --product-surface:    #FBF7F1;
+  --product-surface-2:  #F2EADE;
+
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --radius-sm: 6px;
   --radius:    12px;
@@ -714,7 +721,10 @@ footer nav ul li a:hover,
 .hss-img-wrap {
   position: relative;
   overflow: hidden;
-  background: var(--horizon);
+  /* Consistent neutral surface + soft radial highlight so the subject reads
+     clearly regardless of the source image's own background. */
+  background:
+    radial-gradient(120% 100% at 50% 30%, var(--product-surface) 0%, var(--product-surface-2) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -728,7 +738,7 @@ footer nav ul li a:hover,
   object-position: center;
   opacity: 0;
   transition: opacity 0.7s ease;
-  padding: 1rem;
+  padding: 1.25rem;
 }
 .hss-img.active { opacity: 1; }
 
@@ -794,12 +804,21 @@ footer nav ul li a:hover,
 
 /* ── Category Banner ────────────────────────────────────── */
 .cat-banner { display: grid; grid-template-columns: 280px 1fr; gap: 2rem; align-items: center; background: linear-gradient(135deg, var(--peach), var(--horizon)); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 2rem; }
-.cat-banner-img { height: 180px; overflow: hidden; position: relative; background: var(--ink); }
+.cat-banner-img {
+  height: 180px; overflow: hidden; position: relative;
+  /* Was a dark --ink fill with object-fit:cover, which cropped tall/wide
+     images and clashed with white-background product cut-outs. Now a single
+     light neutral surface with contain so the whole subject is visible. */
+  background:
+    radial-gradient(120% 100% at 50% 35%, var(--product-surface) 0%, var(--product-surface-2) 100%);
+}
 .cat-banner-slide {
   position: absolute;
   inset: 0;
   width: 100%; height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  padding: 0.85rem;
   opacity: 0;
   transition: opacity 0.7s ease;
 }
@@ -840,10 +859,15 @@ footer nav ul li a:hover,
 
 /* ── Product image wrapper — mini slideshow ─────────────── */
 .pdc-img-wrap {
-  width: 100%; height: 160px;
+  width: 100%; height: 180px;
   border-radius: var(--radius-sm);
   overflow: hidden;
-  background: var(--horizon);
+  /* One consistent light surface behind every card image + a hairline frame,
+     so cards read as a uniform set even though the source photos have very
+     different backgrounds and aspect ratios. */
+  background:
+    radial-gradient(120% 100% at 50% 35%, var(--product-surface) 0%, var(--product-surface-2) 100%);
+  border: 1px solid var(--border);
   flex-shrink: 0;
   position: relative;
 }
@@ -851,7 +875,11 @@ footer nav ul li a:hover,
   position: absolute;
   inset: 0;
   width: 100%; height: 100%;
-  object-fit: cover;
+  /* contain (not cover): show the full product without cropping key detail;
+     padding keeps the subject off the container edges for a catalogue look. */
+  object-fit: contain;
+  object-position: center;
+  padding: 0.75rem;
   opacity: 0;
   transition: opacity 0.6s ease;
 }
@@ -882,8 +910,16 @@ footer nav ul li a:hover,
 .prod-modal { background: var(--white); border-radius: var(--radius-lg); max-width: 680px; width: 100%; max-height: 90vh; overflow-y: auto; position: relative; box-shadow: 0 24px 80px rgba(30,12,4,0.25); }
 .prod-modal-close { position: absolute; top: 1rem; right: 1rem; width: 36px; height: 36px; border-radius: 50%; background: var(--cream2); border: 1px solid var(--border); font-size: 1rem; cursor: pointer; display: flex; align-items: center; justify-content: center; color: var(--charcoal); transition: var(--transition); z-index: 1; font-family: var(--font-sans); }
 .prod-modal-close:hover { background: var(--rose); color: var(--white); border-color: var(--rose); }
-.prod-modal-img { height: 240px; overflow: hidden; border-radius: var(--radius-lg) var(--radius-lg) 0 0; }
-.prod-modal-img img { width: 100%; height: 100%; object-fit: cover; }
+.prod-modal-img {
+  height: 260px; overflow: hidden;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  /* Same neutral product surface as the cards/banner for a consistent look;
+     contain so the full product shows in the detail view without cropping. */
+  background:
+    radial-gradient(120% 100% at 50% 35%, var(--product-surface) 0%, var(--product-surface-2) 100%);
+  border-bottom: 1px solid var(--border);
+}
+.prod-modal-img img { width: 100%; height: 100%; object-fit: contain; object-position: center; padding: 1.25rem; }
 .prod-modal-body { padding: 2rem; }
 .prod-modal-body h2 { margin: 0.5rem 0 1.5rem; font-size: 1.6rem; }
 .prod-modal-specs { display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.75rem; }

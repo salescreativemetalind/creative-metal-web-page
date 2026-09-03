@@ -9,42 +9,50 @@ const IH = (name: string) => `/img-hq/${name}`;   // hero slideshow (max 1600px)
 const P = (id: number) =>
   `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop`;
 
+// Graceful fallback: if a product image ever fails to load, hide the broken
+// <img> so only the clean neutral container surface shows — no broken-image
+// glyph, no layout shift (the container keeps its fixed height).
+const hideOnError = (e: Event) => {
+  const img = e.currentTarget as HTMLImageElement;
+  img.style.visibility = "hidden";
+};
+
 // ─── Hero slideshow — local /img/ files, split layout ────────────────────────
 const SLIDESHOW = [
-  { img: IH("ss_seamless_pipe.webp"),     caption: "SS Seamless Pipes",          grade: "TP 304, 304L, 316, 316L, 317L, 321, 310S, 347, 904L",        spec: "ASTM A312 / A213 · SCH 5S to XXS · 6NB–600NB · IBR Form III-C" },
+  { img: IH("ss_seamless_pipe.png"),     caption: "SS Seamless Pipes",          grade: "TP 304, 304L, 316, 316L, 317L, 321, 310S, 347, 904L",        spec: "ASTM A312 / A213 · SCH 5S to XXS · 6NB–600NB · IBR Form III-C" },
   { img: IH("ss_welded_pipe.jpeg"),       caption: "SS Welded Pipes",            grade: "TP 304, 316L, 321, 309, 310S",                                spec: "ASTM A312 ERW/EFW/SAW · 15NB–1200NB · All Schedules" },
-  { img: IH("cs_seamless_pipe.webp"),     caption: "Carbon Steel Seamless Pipes",grade: "API 5L Gr.B, ASTM A106 Gr.B/C",                              spec: "ASTM A106/A53 · IBR Form III-C · ISMT, Jindal, Maharashtra Seamless" },
+  { img: IH("cs_seamless_pipe.png"),     caption: "Carbon Steel Seamless Pipes",grade: "API 5L Gr.B, ASTM A106 Gr.B/C",                              spec: "ASTM A106/A53 · IBR Form III-C · ISMT, Jindal, Maharashtra Seamless" },
   { img: IH("alloy_steel_pipe.jpeg"),     caption: "Alloy Steel Pipes",          grade: "P-5, P-9, P-11, P-12, P-22, P-91, P-92",                    spec: "ASTM A335 · High-Temp Service · Sumitomo, Vallourec, ISMT" },
   { img: IH("erw_pipe.jpeg"),             caption: "ERW Pipes",                  grade: "IS 1239 / IS 3589 / API 5L",                                 spec: "15NB–600NB · Light/Medium/Heavy · APL Apollo, Tata, JSW" },
   { img: IH("ss_tubes.jpeg"),             caption: "SS Tubes",                   grade: "TP 304, 316L, 321, 347, Duplex 2205",                        spec: "ASTM A213/A249/A269/A270 · Heat Exchanger & Instrumentation" },
   { img: IH("boiler_tubes.jpeg"),         caption: "Boiler Tubes",               grade: "SA 179, SA 192, SA 210 Gr.A1, SA 213 T11/T22/T91",          spec: "IBR Form III-C · Hydraulic Test Cert · ISMT, Sandvik" },
-  { img: IH("line_pipes.webp"),           caption: "Line Pipes",                 grade: "API 5L x42, x52, x60, x65, x70, x80",                       spec: "PSL1 & PSL2 · Seamless / ERW / HSAW / LSAW" },
+  { img: IH("line_pipes.png"),           caption: "Line Pipes",                 grade: "API 5L x42, x52, x60, x65, x70, x80",                       spec: "PSL1 & PSL2 · Seamless / ERW / HSAW / LSAW" },
   { img: IH("ss_buttweld_fittings.jpg"),  caption: "SS Buttweld Fittings",       grade: "TP 304, 316L, 317L, 321, 310, 904L, Duplex 2205",           spec: "ASTM A403/A815 · Elbows, Tees, Reducers · ASME B16.9" },
-  { img: IH("forged_fittings.webp"),      caption: "Forged Fittings — SS",       grade: "F304, F316L, F321, F51 Duplex, F53 Super Duplex",            spec: "ASTM A182 · SW & Threaded · 2000# to 9000# · ASME B16.11" },
-  { img: IH("olets_branch_fitting.webp"), caption: "Olets & Branch Fittings",    grade: "All grades SS / CS / AS / Duplex / Inconel",                 spec: "Weldolet, Sockolet, Threadolet · MSS SP-97" },
-  { img: IH("ss_flanges.webp"),           caption: "SS Flanges",                 grade: "F304, F316L, F321, F51 Duplex, F53 Super Duplex",            spec: "ASTM A182 · ASME B16.5 (2500#) & B16.47 · IBR" },
-  { img: IH("cs-flanges.webp"),           caption: "CS / AS Flanges",            grade: "A105, A350 LF2, F11, F22, F91, F92",                        spec: "ASTM A105/A182 · ASME B16.5/B16.47 · IBR Form III-C" },
-  { img: IH("SS-Sheets.webp"),            caption: "SS Sheets & Plates",         grade: "SS 304, 316L, 317L, 321, 310, 409, 410, 904L",              spec: "ASTM A240/A480 · CR 0.4mm–6mm · Plates 5mm–150mm · Cut-to-size" },
-  { img: IH("duplex-plates.webp"),        caption: "Duplex Steel Plates",        grade: "UNS S31803 (2205), S32205",                                  spec: "ASTM A240 · 3mm–100mm · Chemical, Desalination" },
-  { img: IH("super_duplex-plates.webp"),  caption: "Super Duplex Plates",        grade: "UNS S32750 (2507), S32760, S32520",                          spec: "ASTM A240 · PREN > 40 · Offshore, Subsea, Seawater" },
-  { img: IH("carbon-steel-plate.webp"),   caption: "Carbon Steel Plates",        grade: "IS 2062 E250/E350, SA 516 Gr.60/70, A36, A572 Gr.50",       spec: "Boiler Quality · NACE/HIC · IBR · 5mm–200mm · SAIL, AMNS" },
-  { img: IH("alloy-steel-plate.webp"),    caption: "Alloy Steel Plates",         grade: "ASTM A387 Gr.5, 9, 11, 12, 22, 91 Cl.1 & 2",               spec: "High-Temp Pressure Vessel · Normalised & Tempered · IBR" },
-  { img: IH("hardox-sheet-plate.webp"),   caption: "Hardox / Wear Plates",       grade: "Hardox 400/450/500/600, Abrex 400/500, S690QL",             spec: "SSAB, TATA, SAIL · Mining, Cement, Construction" },
-  { img: IH("clad_plates.webp"),          caption: "Clad Plates",                grade: "CS/SS · CS/Inconel · CS/Monel · CS/Titanium",               spec: "ASTM A263/A264/A265 · Explosion & Roll Bonded" },
-  { img: IH("ms-angle.webp"),             caption: "MS Angles (ISMC)",           grade: "IS 2062 E250/E350, ASTM A36",                               spec: "Equal 25×25 to 200×200mm · SAIL, VSP, JSW, TATA" },
-  { img: IH("ms-channel.webp"),           caption: "MS Channels (ISMC)",         grade: "IS 2062 E250",                                               spec: "ISMC 75 to ISMC 400 · IS 808 · Crane Girders, Structures" },
-  { img: IH("ms_beam.webp"),              caption: "MS Beams (ISMB / ISWB)",     grade: "IS 2062 E250",                                               spec: "ISMB 100–600, ISWB 150–600 · IS 808 · Heavy Structural" },
-  { img: IH("ms-round-bar.webp"),         caption: "MS Round Bars",              grade: "IS 2062, EN8, EN9, EN24, EN31",                              spec: "6mm–500mm dia · Bright Drawn Available · SAIL, Rolling Mills" },
-  { img: IH("TMT-Bars.webp"),             caption: "TMT Bars",                   grade: "Fe 500 / 500D / 550D / 600",                                 spec: "IS 1786 · 8mm–40mm · BIS Marked · SAIL, JSW, TATA, VSP" },
-  { img: IH("duplex-steel.webp"),         caption: "Duplex Steel",               grade: "UNS S31803 (2205), S32205, S32304, S32101",                  spec: "ASTM A790/A240/A182 · Pipes, Plates, Fittings · 2× SS Strength" },
-  { img: IH("super-duplex-steel.webp"),   caption: "Super Duplex Steel",         grade: "UNS S32750 (2507), S32760 (Zeron 100)",                      spec: "PREN > 40 · Seawater, Offshore, Subsea, Chemical Plants" },
-  { img: IH("Inconel.webp"),              caption: "Inconel Alloys",             grade: "Alloy 600 (N06600), 625 (N06625), 718 (N07718), 825",       spec: "ASTM B444/B443/B407 · High-Temp Oxidation Resistant" },
-  { img: IH("Monel.webp"),                caption: "Monel Alloys",               grade: "Monel 400 (N04400), K-500 (N05500)",                         spec: "ASTM B165/B127/B164 · Seawater & HF Acid Resistant" },
-  { img: IH("hastelloy.webp"),            caption: "Hastelloy",                  grade: "C-22 (N06022), C-276 (N10276), B-2 (N10665), B-3",         spec: "ASTM B622/B575 · HCl, H₂SO₄, Wet Chlorine Resistant" },
-  { img: IH("incoloy.webp"),              caption: "Incoloy / Alloy 20",         grade: "Incoloy 800/800H/800HT, Alloy 20 (N08020)",                 spec: "ASTM B407/B409/B729 · Carburisation Resistant" },
-  { img: IH("titanium.webp"),             caption: "Titanium",                   grade: "Grade 1 (CP), Grade 2 (CP), Grade 5 (Ti-6Al-4V), Gr.7, 9", spec: "ASTM B337/B338/B265 · Seawater, HNO₃ · Aerospace, Chemical" },
-  { img: IH("aluminium-alloys.webp"),     caption: "Aluminium & Alloys",         grade: "1100, 3003, 5052, 5083, 6061-T6, 6063-T5, 7075-T6",        spec: "ASTM B209/B210/B241 · Marine, Aerospace, Automotive" },
-  { img: IH("brass-vs-copper.webp"),      caption: "Copper, Brass & Bronze",     grade: "ETP C11000, DHP C12200, CuNi 70/30, Naval Brass C46400",    spec: "ASTM B88/B111/B152 · Marine, Electrical, Heat Exchanger Tubes" },
+  { img: IH("forged_fittings.png"),      caption: "Forged Fittings — SS",       grade: "F304, F316L, F321, F51 Duplex, F53 Super Duplex",            spec: "ASTM A182 · SW & Threaded · 2000# to 9000# · ASME B16.11" },
+  { img: IH("olets_branch_fitting.png"), caption: "Olets & Branch Fittings",    grade: "All grades SS / CS / AS / Duplex / Inconel",                 spec: "Weldolet, Sockolet, Threadolet · MSS SP-97" },
+  { img: IH("ss_flanges.png"),           caption: "SS Flanges",                 grade: "F304, F316L, F321, F51 Duplex, F53 Super Duplex",            spec: "ASTM A182 · ASME B16.5 (2500#) & B16.47 · IBR" },
+  { img: IH("cs-flanges.png"),           caption: "CS / AS Flanges",            grade: "A105, A350 LF2, F11, F22, F91, F92",                        spec: "ASTM A105/A182 · ASME B16.5/B16.47 · IBR Form III-C" },
+  { img: IH("SS-Sheets.png"),            caption: "SS Sheets & Plates",         grade: "SS 304, 316L, 317L, 321, 310, 409, 410, 904L",              spec: "ASTM A240/A480 · CR 0.4mm–6mm · Plates 5mm–150mm · Cut-to-size" },
+  { img: IH("duplex-plates.png"),        caption: "Duplex Steel Plates",        grade: "UNS S31803 (2205), S32205",                                  spec: "ASTM A240 · 3mm–100mm · Chemical, Desalination" },
+  { img: IH("super_duplex-plates.png"),  caption: "Super Duplex Plates",        grade: "UNS S32750 (2507), S32760, S32520",                          spec: "ASTM A240 · PREN > 40 · Offshore, Subsea, Seawater" },
+  { img: IH("carbon-steel-plate.png"),   caption: "Carbon Steel Plates",        grade: "IS 2062 E250/E350, SA 516 Gr.60/70, A36, A572 Gr.50",       spec: "Boiler Quality · NACE/HIC · IBR · 5mm–200mm · SAIL, AMNS" },
+  { img: IH("alloy-steel-plate.png"),    caption: "Alloy Steel Plates",         grade: "ASTM A387 Gr.5, 9, 11, 12, 22, 91 Cl.1 & 2",               spec: "High-Temp Pressure Vessel · Normalised & Tempered · IBR" },
+  { img: IH("hardox-sheet-plate.png"),   caption: "Hardox / Wear Plates",       grade: "Hardox 400/450/500/600, Abrex 400/500, S690QL",             spec: "SSAB, TATA, SAIL · Mining, Cement, Construction" },
+  { img: IH("clad_plates.png"),          caption: "Clad Plates",                grade: "CS/SS · CS/Inconel · CS/Monel · CS/Titanium",               spec: "ASTM A263/A264/A265 · Explosion & Roll Bonded" },
+  { img: IH("ms-angle.png"),             caption: "MS Angles (ISMC)",           grade: "IS 2062 E250/E350, ASTM A36",                               spec: "Equal 25×25 to 200×200mm · SAIL, VSP, JSW, TATA" },
+  { img: IH("ms-channel.png"),           caption: "MS Channels (ISMC)",         grade: "IS 2062 E250",                                               spec: "ISMC 75 to ISMC 400 · IS 808 · Crane Girders, Structures" },
+  { img: IH("ms_beam.png"),              caption: "MS Beams (ISMB / ISWB)",     grade: "IS 2062 E250",                                               spec: "ISMB 100–600, ISWB 150–600 · IS 808 · Heavy Structural" },
+  { img: IH("ms-round-bar.png"),         caption: "MS Round Bars",              grade: "IS 2062, EN8, EN9, EN24, EN31",                              spec: "6mm–500mm dia · Bright Drawn Available · SAIL, Rolling Mills" },
+  { img: IH("TMT-Bars.png"),             caption: "TMT Bars",                   grade: "Fe 500 / 500D / 550D / 600",                                 spec: "IS 1786 · 8mm–40mm · BIS Marked · SAIL, JSW, TATA, VSP" },
+  { img: IH("duplex-steel.png"),         caption: "Duplex Steel",               grade: "UNS S31803 (2205), S32205, S32304, S32101",                  spec: "ASTM A790/A240/A182 · Pipes, Plates, Fittings · 2× SS Strength" },
+  { img: IH("super-duplex-steel.png"),   caption: "Super Duplex Steel",         grade: "UNS S32750 (2507), S32760 (Zeron 100)",                      spec: "PREN > 40 · Seawater, Offshore, Subsea, Chemical Plants" },
+  { img: IH("Inconel.png"),              caption: "Inconel Alloys",             grade: "Alloy 600 (N06600), 625 (N06625), 718 (N07718), 825",       spec: "ASTM B444/B443/B407 · High-Temp Oxidation Resistant" },
+  { img: IH("Monel.png"),                caption: "Monel Alloys",               grade: "Monel 400 (N04400), K-500 (N05500)",                         spec: "ASTM B165/B127/B164 · Seawater & HF Acid Resistant" },
+  { img: IH("hastelloy.png"),            caption: "Hastelloy",                  grade: "C-22 (N06022), C-276 (N10276), B-2 (N10665), B-3",         spec: "ASTM B622/B575 · HCl, H₂SO₄, Wet Chlorine Resistant" },
+  { img: IH("incoloy.png"),              caption: "Incoloy / Alloy 20",         grade: "Incoloy 800/800H/800HT, Alloy 20 (N08020)",                 spec: "ASTM B407/B409/B729 · Carburisation Resistant" },
+  { img: IH("titanium.png"),             caption: "Titanium",                   grade: "Grade 1 (CP), Grade 2 (CP), Grade 5 (Ti-6Al-4V), Gr.7, 9", spec: "ASTM B337/B338/B265 · Seawater, HNO₃ · Aerospace, Chemical" },
+  { img: IH("aluminium-alloys.png"),     caption: "Aluminium & Alloys",         grade: "1100, 3003, 5052, 5083, 6061-T6, 6063-T5, 7075-T6",        spec: "ASTM B209/B210/B241 · Marine, Aerospace, Automotive" },
+  { img: IH("brass-vs-copper.png"),      caption: "Copper, Brass & Bronze",     grade: "ETP C11000, DHP C12200, CuNi 70/30, Naval Brass C46400",    spec: "ASTM B88/B111/B152 · Marine, Electrical, Heat Exchanger Tubes" },
 ];
 
 const PRODUCT_CATEGORIES = [
@@ -55,14 +63,14 @@ const PRODUCT_CATEGORIES = [
     image: "/products/ss-pipe-fitting.webp",
     tagline: "Seamless & Welded Pipes and Tubes in SS, Carbon, Alloy Steel and Exotic Metals",
     items: [
-      { name: "SS Seamless Pipe",  imgs: [I("ss_seamless_pipe.webp")], grade: "TP 304, 304L, 316, 316L, 316Ti, 321, 310, 317L, 347, 410, 420, 904L", make: "Sandvik, Salzgitter, Ratnamani, Venus",   note: "ASTM A312/A213. All schedules SCH5S to XXS. 6NB to 600NB. IBR Form III-C. Oil & Gas, Petrochemical, Power." },
+      { name: "SS Seamless Pipe",  imgs: [I("ss_seamless_pipe.png")], grade: "TP 304, 304L, 316, 316L, 316Ti, 321, 310, 317L, 347, 410, 420, 904L", make: "Sandvik, Salzgitter, Ratnamani, Venus",   note: "ASTM A312/A213. All schedules SCH5S to XXS. 6NB to 600NB. IBR Form III-C. Oil & Gas, Petrochemical, Power." },
       { name: "SS Welded Pipe",    imgs: [I("ss_welded_pipe.jpeg")],                               grade: "TP 304, 316, 316L, 321, 309, 310S",                                     make: "Various approved mills",                note: "ASTM A312 ERW/EFW/SAW. 15NB to 1200NB. All schedules. Longitudinal and spiral welded." },
-      { name: "CS Seamless Pipe",  imgs: [I("cs_seamless_pipe.webp")],                             grade: "Gr.B, Gr.C — IBR available",                                            make: "ISMT, Jindal, Maharashtra Seamless",    note: "ASTM A106/A53. 6NB to 600NB SCH 40 to XXS. API 5L Gr.B available. IBR Form III-C." },
-      { name: "Alloy Steel Pipe",  imgs: [I("alloy_steel_pipe.jpeg"), I("Alloy.webp")],            grade: "P-5, P-9, P-11, P-12, P-22, P-91, P-92",                               make: "Sumitomo, Vallourec, ISMT",             note: "ASTM A335. High-temperature service. Creep-resistant P91/P92 for ultra-supercritical boilers. IBR." },
+      { name: "CS Seamless Pipe",  imgs: [I("cs_seamless_pipe.png")],                             grade: "Gr.B, Gr.C — IBR available",                                            make: "ISMT, Jindal, Maharashtra Seamless",    note: "ASTM A106/A53. 6NB to 600NB SCH 40 to XXS. API 5L Gr.B available. IBR Form III-C." },
+      { name: "Alloy Steel Pipe",  imgs: [I("alloy_steel_pipe.jpeg"), I("Alloy.png")],            grade: "P-5, P-9, P-11, P-12, P-22, P-91, P-92",                               make: "Sumitomo, Vallourec, ISMT",             note: "ASTM A335. High-temperature service. Creep-resistant P91/P92 for ultra-supercritical boilers. IBR." },
       { name: "ERW Pipe",          imgs: [I("erw_pipe.jpeg")],                                     grade: "IS 1239 / IS 3589 / API 5L",                                            make: "APL Apollo, Tata, JSW",                 note: "15NB to 600NB. Light/Medium/Heavy class. Black, galvanized, epoxy coated. SHS/RHS also available." },
       { name: "SS Tubes",          imgs: [I("ss_tubes.jpeg")],                                     grade: "TP 304, 316L, 321, 347, Duplex 2205",                                   make: "Sandvik, Plymouth, Tubacex",            note: "ASTM A213/A249/A269/A270. Heat exchanger, condenser, instrumentation, hygienic and U-bend tubes." },
       { name: "Boiler Tubes",      imgs: [I("boiler_tubes.jpeg")],                                 grade: "SA 179, SA 192, SA 210 Gr.A1, SA 213 T11/T22/T91",                     make: "ISMT, Sandvik",                         note: "Seamless boiler and superheater tubes. IBR Form III-C. Hydraulic test certification available." },
-      { name: "Line Pipes",        imgs: [I("line_pipes.webp")],                                   grade: "API 5L x42, x46, x52, x56, x60, x65, x70, x80",                       make: "Jindal, APL, JSW",                      note: "Seamless/ERW/HSAW/LSAW. PSL1 and PSL2. Mill hydro test certificates and MTC provided." },
+      { name: "Line Pipes",        imgs: [I("line_pipes.png")],                                   grade: "API 5L x42, x46, x52, x56, x60, x65, x70, x80",                       make: "Jindal, APL, JSW",                      note: "Seamless/ERW/HSAW/LSAW. PSL1 and PSL2. Mill hydro test certificates and MTC provided." },
     ],
   },
   {
@@ -73,13 +81,13 @@ const PRODUCT_CATEGORIES = [
     tagline: "Buttweld, Forged, Branch Fittings & Flanges in SS, Carbon, Alloy and Exotic Metals — IBR & Non-IBR",
     items: [
       { name: "SS Buttweld Fittings",      imgs: [I("ss_buttweld_fittings.jpg")],                                grade: "TP 304, 316, 316L, 317L, 321, 310, 904L, Duplex 2205, Super Duplex 2507", make: "Various", note: "ASTM A403/A815. Elbows 45°/90°/180°, equal/reducing tees, reducers, stub ends, caps. SCH 10S to XXS. ASME B16.9." },
-      { name: "CS/AS Buttweld Fittings",   imgs: [I("cs_buttweld_fitting.webp"), I("as_buttweld_fitting.webp")], grade: "WPB, WPC, WP11, WP22, WP91",                                              make: "Various", note: "ASTM A234/A420. All types. IBR Form III-C. ASME B16.9. SCH 40 to XXS. Power plants, oil refineries." },
-      { name: "Forged Fittings (SS)",      imgs: [I("forged_fittings.webp")],                                    grade: "F304, F316L, F321, F51 Duplex, F53 Super Duplex",                         make: "Various", note: "ASTM A182. Socket weld and threaded. 2000# to 9000# class. ASME B16.11. Elbows, tees, couplings, plugs." },
-      { name: "Forged Fittings (CS/AS)",   imgs: [I("forged_fitting_cs.webp"), I("forged_fitting_as.webp")],     grade: "A105, A350 LF2, F11, F22, F91",                                           make: "Various", note: "ASTM A105/A182. SW/Threaded. 2000# to 9000#. IBR Form III-C. ASME B16.11." },
-      { name: "Olets / Branch Fittings",   imgs: [I("olets_branch_fitting.webp")],                               grade: "All grades SS/CS/AS/Duplex/Inconel",                                       make: "Various", note: "Weldolet, sockolet, threadolet, elbolet, latrolet, nipolet. MSS SP-97. All pressure classes." },
-      { name: "SS Flanges",                imgs: [I("ss_flanges.webp")],                                         grade: "F304, F316, F316L, F317L, F321, F310, F904L, F51 Duplex, F53 Super Duplex",make: "Various", note: "ASTM A182. Slip-on, weld neck, blind, SW, threaded, lap joint, orifice. ASME B16.5 (2500#) & B16.47. IBR." },
-      { name: "CS/AS Flanges",             imgs: [I("cs-flanges.webp"), I("as_flanges.webp")],                   grade: "A105, A350 LF2, F11, F22, F91, F92",                                      make: "Various", note: "ASTM A105/A182. All types. ASME B16.5/B16.47. IBR Form III-C. Raised face, flat face, RTJ." },
-      { name: "Compression Tube Fittings", imgs: [I("compression-tube-fittings.webp")],                          grade: "SS 316/316L, CS, Duplex",                                                  make: "Swagelok / Parker type", note: "Double & single ferrule. 3mm to 38mm tube OD. Instrumentation, chemical injection, hydraulic systems." },
+      { name: "CS/AS Buttweld Fittings",   imgs: [I("cs_buttweld_fitting.png"), I("as_buttweld_fitting.png")], grade: "WPB, WPC, WP11, WP22, WP91",                                              make: "Various", note: "ASTM A234/A420. All types. IBR Form III-C. ASME B16.9. SCH 40 to XXS. Power plants, oil refineries." },
+      { name: "Forged Fittings (SS)",      imgs: [I("forged_fittings.png")],                                    grade: "F304, F316L, F321, F51 Duplex, F53 Super Duplex",                         make: "Various", note: "ASTM A182. Socket weld and threaded. 2000# to 9000# class. ASME B16.11. Elbows, tees, couplings, plugs." },
+      { name: "Forged Fittings (CS/AS)",   imgs: [I("forged_fitting_cs.png"), I("forged_fitting_as.png")],     grade: "A105, A350 LF2, F11, F22, F91",                                           make: "Various", note: "ASTM A105/A182. SW/Threaded. 2000# to 9000#. IBR Form III-C. ASME B16.11." },
+      { name: "Olets / Branch Fittings",   imgs: [I("olets_branch_fitting.png")],                               grade: "All grades SS/CS/AS/Duplex/Inconel",                                       make: "Various", note: "Weldolet, sockolet, threadolet, elbolet, latrolet, nipolet. MSS SP-97. All pressure classes." },
+      { name: "SS Flanges",                imgs: [I("ss_flanges.png")],                                         grade: "F304, F316, F316L, F317L, F321, F310, F904L, F51 Duplex, F53 Super Duplex",make: "Various", note: "ASTM A182. Slip-on, weld neck, blind, SW, threaded, lap joint, orifice. ASME B16.5 (2500#) & B16.47. IBR." },
+      { name: "CS/AS Flanges",             imgs: [I("cs-flanges.png"), I("as_flanges.png")],                   grade: "A105, A350 LF2, F11, F22, F91, F92",                                      make: "Various", note: "ASTM A105/A182. All types. ASME B16.5/B16.47. IBR Form III-C. Raised face, flat face, RTJ." },
+      { name: "Compression Tube Fittings", imgs: [I("compression-tube-fittings.png")],                          grade: "SS 316/316L, CS, Duplex",                                                  make: "Swagelok / Parker type", note: "Double & single ferrule. 3mm to 38mm tube OD. Instrumentation, chemical injection, hydraulic systems." },
     ],
   },
   {
@@ -89,12 +97,12 @@ const PRODUCT_CATEGORIES = [
     image: "/products/ss-sheet.jpeg",
     tagline: "Stainless, Carbon, Alloy, Boiler Quality, Wear Resistant Plates and Sheets — all mill standards",
     items: [
-      { name: "SS Sheet / Plate",            imgs: [I("SS-Sheets.webp")],                                    grade: "TP 301, 304, 304L, 316, 316L, 317L, 321, 310, 309, 347, 409, 410, 420, 904L", make: "Jindal, POSCO, Aperam, Outokumpu", note: "ASTM A240/A480. CR sheets 0.4mm-6mm: 2B, BA, No.4, Mirror finishes. Plates 5mm-150mm. Cut-to-size." },
-      { name: "Duplex / Super Duplex Plate", imgs: [I("duplex-plates.webp"), I("super_duplex-plates.webp")],  grade: "UNS S31803 (2205), UNS S32750 (2507), UNS S32760, S32205",                  make: "Outokumpu, Sandvik, POSCO",        note: "ASTM A240. Plates 3mm-100mm. High strength with excellent corrosion resistance. Chemical, desalination." },
-      { name: "Carbon Steel Plate",          imgs: [I("carbon-steel-plate.webp"), I("ms_plate.webp")],        grade: "IS 2062 E250/E350, SA 516 Gr.60/70, SA 537 Cl.1/2, ASTM A36, A572 Gr.50",   make: "SAIL, AMNS, TATA, JSW",           note: "Boiler quality, pressure vessel, structural. NACE, HIC stock available. IBR. 5mm-200mm thick." },
-      { name: "Alloy Steel Plate",           imgs: [I("alloy-steel-plate.webp")],                             grade: "ASTM A387 Gr.5, 9, 11, 12, 22, 91 Class 1 & 2",                             make: "SAIL, AMNS, TATA",                 note: "High-temperature pressure vessel service. Normalised and tempered. PWR tested. IBR available." },
-      { name: "Hardox / Wear Plate",         imgs: [I("hardox-sheet-plate.webp"), I("wear_plate.webp")],      grade: "Hardox 400/450/500/600, Abrex 400/500, S690QL, Weldox 700/900",             make: "SSAB, TATA, SAIL, AMNS",          note: "Corten A/B, S355J2+N, Hiten, Welten in all sizes. Abrasion & impact resistant. Mining, cement, construction." },
-      { name: "Clad Plates",                 imgs: [I("clad_plates.webp")],                                   grade: "CS/SS, CS/Inconel, CS/Monel, CS/Titanium",                                   make: "NobelClad, Titanium Industries",   note: "Explosion bonded and roll bonded. ASTM A263/A264/A265. Corrosion resistance + structural strength." },
+      { name: "SS Sheet / Plate",            imgs: [I("SS-Sheets.png")],                                    grade: "TP 301, 304, 304L, 316, 316L, 317L, 321, 310, 309, 347, 409, 410, 420, 904L", make: "Jindal, POSCO, Aperam, Outokumpu", note: "ASTM A240/A480. CR sheets 0.4mm-6mm: 2B, BA, No.4, Mirror finishes. Plates 5mm-150mm. Cut-to-size." },
+      { name: "Duplex / Super Duplex Plate", imgs: [I("duplex-plates.png"), I("super_duplex-plates.png")],  grade: "UNS S31803 (2205), UNS S32750 (2507), UNS S32760, S32205",                  make: "Outokumpu, Sandvik, POSCO",        note: "ASTM A240. Plates 3mm-100mm. High strength with excellent corrosion resistance. Chemical, desalination." },
+      { name: "Carbon Steel Plate",          imgs: [I("carbon-steel-plate.png"), I("ms_plate.png")],        grade: "IS 2062 E250/E350, SA 516 Gr.60/70, SA 537 Cl.1/2, ASTM A36, A572 Gr.50",   make: "SAIL, AMNS, TATA, JSW",           note: "Boiler quality, pressure vessel, structural. NACE, HIC stock available. IBR. 5mm-200mm thick." },
+      { name: "Alloy Steel Plate",           imgs: [I("alloy-steel-plate.png")],                             grade: "ASTM A387 Gr.5, 9, 11, 12, 22, 91 Class 1 & 2",                             make: "SAIL, AMNS, TATA",                 note: "High-temperature pressure vessel service. Normalised and tempered. PWR tested. IBR available." },
+      { name: "Hardox / Wear Plate",         imgs: [I("hardox-sheet-plate.png"), I("wear_plate.png")],      grade: "Hardox 400/450/500/600, Abrex 400/500, S690QL, Weldox 700/900",             make: "SSAB, TATA, SAIL, AMNS",          note: "Corten A/B, S355J2+N, Hiten, Welten in all sizes. Abrasion & impact resistant. Mining, cement, construction." },
+      { name: "Clad Plates",                 imgs: [I("clad_plates.png")],                                   grade: "CS/SS, CS/Inconel, CS/Monel, CS/Titanium",                                   make: "NobelClad, Titanium Industries",   note: "Explosion bonded and roll bonded. ASTM A263/A264/A265. Corrosion resistance + structural strength." },
     ],
   },
   {
@@ -104,12 +112,12 @@ const PRODUCT_CATEGORIES = [
     image: "/products/structure.jpeg",
     tagline: "IS 2062 structural sections, bars and TMT — SAIL, JSW, TATA, VSP",
     items: [
-      { name: "MS Angle",                     imgs: [I("ms-angle.webp")],                                                                grade: "IS 2062 E250/E350, ASTM A36",  make: "SAIL, VSP, JSW, TATA",            note: "Equal: 25×25 to 200×200mm. Unequal: 75×50 to 200×150mm. 3mm-20mm thick. Hot rolled. 6/9/12m lengths." },
-      { name: "MS Channel (ISMC)",            imgs: [I("ms-channel.webp")],                                                             grade: "IS 2062 E250",                 make: "SAIL, VSP, JSW",                  note: "ISMC 75 to ISMC 400 as per IS 808. Crane girders, conveyor structures, building frames." },
-      { name: "MS Beam (ISMB/ISWB/ISHB)",    imgs: [I("ms_beam.webp")],                                                                grade: "IS 2062 E250",                 make: "SAIL, VSP, JSW",                  note: "ISMB 100-600, ISWB 150-600, ISHB 150-450 per IS 808. Heavy structural applications." },
-      { name: "MS Plate (HR / Chequered)",   imgs: [I("ms_plate.webp")],                                                               grade: "IS 2062 E250/E350, ASTM A36",  make: "SAIL, AMNS, JSW, TATA",           note: "3mm-150mm thick. All standard sizes. Cut-to-size. Chequered plates IS 3502 available." },
-      { name: "MS Round/Square/Flat/Hex Bar", imgs: [I("ms-round-bar.webp"), I("ms_square_bar.webp"), I("ms-flat-bar.webp"), I("ms-hex-bar.webp")], grade: "IS 2062, EN8, EN9, EN24, EN31", make: "SAIL, Rolling Mills", note: "Round 6-500mm, Square 6-200mm, Flat 10-300mm, Hex 6-100mm A/F. Bright drawn available." },
-      { name: "TMT / CRS Bars",              imgs: [I("TMT-Bars.webp"), I("CRS_Bars.webp")],                                          grade: "Fe 500 / 500D / 550D / 600",   make: "SAIL, JSW, TATA, VSP, Gallantt, Varrsana", note: "IS 1786. 8mm-40mm dia. 12m lengths. BIS marked. Primary and secondary ISI approved makes." },
+      { name: "MS Angle",                     imgs: [I("ms-angle.png")],                                                                grade: "IS 2062 E250/E350, ASTM A36",  make: "SAIL, VSP, JSW, TATA",            note: "Equal: 25×25 to 200×200mm. Unequal: 75×50 to 200×150mm. 3mm-20mm thick. Hot rolled. 6/9/12m lengths." },
+      { name: "MS Channel (ISMC)",            imgs: [I("ms-channel.png")],                                                             grade: "IS 2062 E250",                 make: "SAIL, VSP, JSW",                  note: "ISMC 75 to ISMC 400 as per IS 808. Crane girders, conveyor structures, building frames." },
+      { name: "MS Beam (ISMB/ISWB/ISHB)",    imgs: [I("ms_beam.png")],                                                                grade: "IS 2062 E250",                 make: "SAIL, VSP, JSW",                  note: "ISMB 100-600, ISWB 150-600, ISHB 150-450 per IS 808. Heavy structural applications." },
+      { name: "MS Plate (HR / Chequered)",   imgs: [I("ms_plate.png")],                                                               grade: "IS 2062 E250/E350, ASTM A36",  make: "SAIL, AMNS, JSW, TATA",           note: "3mm-150mm thick. All standard sizes. Cut-to-size. Chequered plates IS 3502 available." },
+      { name: "MS Round/Square/Flat/Hex Bar", imgs: [I("ms-round-bar.png"), I("ms_square_bar.png"), I("ms-flat-bar.png"), I("ms-hex-bar.png")], grade: "IS 2062, EN8, EN9, EN24, EN31", make: "SAIL, Rolling Mills", note: "Round 6-500mm, Square 6-200mm, Flat 10-300mm, Hex 6-100mm A/F. Bright drawn available." },
+      { name: "TMT / CRS Bars",              imgs: [I("TMT-Bars.png"), I("CRS_Bars.png")],                                          grade: "Fe 500 / 500D / 550D / 600",   make: "SAIL, JSW, TATA, VSP, Gallantt, Varrsana", note: "IS 1786. 8mm-40mm dia. 12m lengths. BIS marked. Primary and secondary ISI approved makes." },
     ],
   },
   {
@@ -119,15 +127,15 @@ const PRODUCT_CATEGORIES = [
     image: "/products/ss-pipe-fitting.webp",
     tagline: "Exotic & Special Alloys — Duplex, Inconel, Monel, Hastelloy, Incoloy, Titanium, Aluminium, Copper, Bronze",
     items: [
-      { name: "Duplex Steel",       imgs: [I("duplex-steel.webp"), I("duplex-plates.webp")],             grade: "UNS S31803 (2205), S32205, S32304, S32101",                                  make: "Sandvik, Outokumpu, Tubacex",        note: "ASTM A790/A240/A182/A815. Pipes, plates, fittings, flanges, bars. 2× strength of austenitic SS. Chloride SCC resistant. Oil & gas, desalination." },
-      { name: "Super Duplex",       imgs: [I("super-duplex-steel.webp"), I("super_duplex-plates.webp")], grade: "UNS S32750 (2507), UNS S32760 (Zeron 100), S32520",                          make: "Sandvik, Outokumpu, Voestalpine",    note: "ASTM A790/A240/A182. PREN > 40. Seawater, offshore, subsea, chemical plants. All product forms." },
-      { name: "Inconel",            imgs: [I("Inconel.webp")],                                           grade: "Alloy 600 (N06600), 625 (N06625), 718 (N07718), 800 (N08800), 825 (N08825)", make: "Special Metals, Haynes, ThyssenKrupp", note: "ASTM B444/B443/B407/B409. Pipes, plates, bars, fittings, flanges. High-temp oxidation and corrosion resistance." },
-      { name: "Monel",              imgs: [I("Monel.webp")],                                             grade: "Monel 400 (N04400), K-500 (N05500)",                                          make: "Special Metals, Corrotherm",         note: "ASTM B165/B127/B164/B366. Pipes, plates, bars, fittings. Excellent in seawater and hydrofluoric acid. Marine, oil refining." },
-      { name: "Hastelloy",          imgs: [I("hastelloy.webp")],                                         grade: "C-22 (N06022), C-276 (N10276), C-4 (N06455), B-2 (N10665), B-3, X",         make: "Haynes, Special Metals",             note: "ASTM B622/B575/B574/B619. Pipes, plates, bars, fittings. Resists HCl, H2SO4, wet chlorine. Chemical, pharmaceutical." },
-      { name: "Incoloy / Alloy 20", imgs: [I("incoloy.webp")],                                          grade: "Incoloy 800/800H/800HT (N08800), Alloy 20 (N08020)",                         make: "Special Metals, Haynes",             note: "ASTM B407/B409/B729. Carburisation and sulphidation resistance. Petrochemical furnace components, heat exchangers." },
-      { name: "Titanium",           imgs: [I("titanium.webp")],                                          grade: "Grade 1 (CP), Grade 2 (CP), Grade 5 (Ti-6Al-4V), Grade 7, Grade 9",          make: "VSMPO, ATI, Timet",                  note: "ASTM B337/B338/B265/B348/B363. Pipes, sheets, bars, fittings, flanges. Seawater and HNO3 resistance. Aerospace, chemical." },
-      { name: "Aluminium & Alloys", imgs: [I("aluminium-alloys.webp")],                                  grade: "1100, 2024, 3003, 5052, 5083, 6061-T6, 6063-T5, 7075-T6",                   make: "Hindalco, Nalco, Imported",          note: "ASTM B209/B210/B211/B241. Sheets 0.4-200mm, Pipes 6NB-300NB, Bars all shapes, Sections. Marine, aerospace, automotive." },
-      { name: "Copper & Brass",     imgs: [I("brass-vs-copper.webp")],                                   grade: "ETP C11000, DHP C12200, CuNi 70/30 C71500, CuNi 90/10 C70600, Naval Brass C46400, Phosphor Bronze C51000", make: "Hindalco, Mueller, KME", note: "ASTM B88/B111/B152/B187. Pipes, tubes, sheets, bars, strips. Heat exchanger tubes, electrical conductors, marine, plumbing." },
+      { name: "Duplex Steel",       imgs: [I("duplex-steel.png"), I("duplex-plates.png")],             grade: "UNS S31803 (2205), S32205, S32304, S32101",                                  make: "Sandvik, Outokumpu, Tubacex",        note: "ASTM A790/A240/A182/A815. Pipes, plates, fittings, flanges, bars. 2× strength of austenitic SS. Chloride SCC resistant. Oil & gas, desalination." },
+      { name: "Super Duplex",       imgs: [I("super-duplex-steel.png"), I("super_duplex-plates.png")], grade: "UNS S32750 (2507), UNS S32760 (Zeron 100), S32520",                          make: "Sandvik, Outokumpu, Voestalpine",    note: "ASTM A790/A240/A182. PREN > 40. Seawater, offshore, subsea, chemical plants. All product forms." },
+      { name: "Inconel",            imgs: [I("Inconel.png")],                                           grade: "Alloy 600 (N06600), 625 (N06625), 718 (N07718), 800 (N08800), 825 (N08825)", make: "Special Metals, Haynes, ThyssenKrupp", note: "ASTM B444/B443/B407/B409. Pipes, plates, bars, fittings, flanges. High-temp oxidation and corrosion resistance." },
+      { name: "Monel",              imgs: [I("Monel.png")],                                             grade: "Monel 400 (N04400), K-500 (N05500)",                                          make: "Special Metals, Corrotherm",         note: "ASTM B165/B127/B164/B366. Pipes, plates, bars, fittings. Excellent in seawater and hydrofluoric acid. Marine, oil refining." },
+      { name: "Hastelloy",          imgs: [I("hastelloy.png")],                                         grade: "C-22 (N06022), C-276 (N10276), C-4 (N06455), B-2 (N10665), B-3, X",         make: "Haynes, Special Metals",             note: "ASTM B622/B575/B574/B619. Pipes, plates, bars, fittings. Resists HCl, H2SO4, wet chlorine. Chemical, pharmaceutical." },
+      { name: "Incoloy / Alloy 20", imgs: [I("incoloy.png")],                                          grade: "Incoloy 800/800H/800HT (N08800), Alloy 20 (N08020)",                         make: "Special Metals, Haynes",             note: "ASTM B407/B409/B729. Carburisation and sulphidation resistance. Petrochemical furnace components, heat exchangers." },
+      { name: "Titanium",           imgs: [I("titanium.png")],                                          grade: "Grade 1 (CP), Grade 2 (CP), Grade 5 (Ti-6Al-4V), Grade 7, Grade 9",          make: "VSMPO, ATI, Timet",                  note: "ASTM B337/B338/B265/B348/B363. Pipes, sheets, bars, fittings, flanges. Seawater and HNO3 resistance. Aerospace, chemical." },
+      { name: "Aluminium & Alloys", imgs: [I("aluminium-alloys.png")],                                  grade: "1100, 2024, 3003, 5052, 5083, 6061-T6, 6063-T5, 7075-T6",                   make: "Hindalco, Nalco, Imported",          note: "ASTM B209/B210/B211/B241. Sheets 0.4-200mm, Pipes 6NB-300NB, Bars all shapes, Sections. Marine, aerospace, automotive." },
+      { name: "Copper & Brass",     imgs: [I("brass-vs-copper.png")],                                   grade: "ETP C11000, DHP C12200, CuNi 70/30 C71500, CuNi 90/10 C70600, Naval Brass C46400, Phosphor Bronze C51000", make: "Hindalco, Mueller, KME", note: "ASTM B88/B111/B152/B187. Pipes, tubes, sheets, bars, strips. Heat exchanger tubes, electrical conductors, marine, plumbing." },
     ],
   },
 ];
@@ -463,6 +471,8 @@ function CardImgSlider(props: { imgs: string[]; name: string }) {
           src={src()}
           alt={`${props.name} ${i + 1}`}
           loading="lazy"
+          decoding="async"
+          onError={hideOnError}
           class={`pdc-slide-img ${idx() === i ? "active" : ""}`}
         />
       )}</Index>
@@ -628,6 +638,8 @@ function ProductsSection() {
               src={s.img}
               alt={s.caption}
               loading={i() === 0 ? "eager" : "lazy"}
+              decoding="async"
+              onError={hideOnError}
               class={`hss-img ${slide() === i() ? "active" : ""}`}
             />
           )}</For>
@@ -674,6 +686,8 @@ function ProductsSection() {
                 src={src()}
                 alt={`${activeCategory().label} ${i + 1}`}
                 loading="lazy"
+                decoding="async"
+                onError={hideOnError}
                 class={`cat-banner-slide ${bannerIdx() === i ? "active" : ""}`}
               />
             )}</Index>
@@ -724,7 +738,7 @@ function ProductsSection() {
           <div class="prod-modal">
             <button class="prod-modal-close" aria-label="Close" onClick={() => setSelected(null)}>✕</button>
             <div class="prod-modal-img">
-              <img src={selected()!.imgs[0]} alt={selected()!.name} loading="lazy" decoding="async" />
+              <img src={selected()!.imgs[0]} alt={selected()!.name} loading="lazy" decoding="async" onError={hideOnError} />
             </div>
             <div class="prod-modal-body">
               <span class="section-label">{activeCategory().icon} {activeCategory().label}</span>
@@ -885,7 +899,7 @@ function BrandsSection() {
           <div class="brands-track">
             <For each={logos}>{(b) => (
               <div class="brand-logo-item">
-                <img src={b.img} alt={b.name} loading="lazy" width="120" height="60"/>
+                <img src={b.img} alt={b.name} loading="lazy" decoding="async" onError={hideOnError} width="120" height="60"/>
               </div>
             )}</For>
           </div>
