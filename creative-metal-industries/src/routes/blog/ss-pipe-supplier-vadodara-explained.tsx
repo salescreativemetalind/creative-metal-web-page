@@ -16,7 +16,7 @@ const SCHEMA = JSON.stringify({
   "publisher":{"@type":"Organization","name":"Creative Metal Industries",
     "logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},
   "datePublished":"2026-07-20","dateModified":"2026-07-20",
-  "image":"https://www.creativemetalind.com/img/ss_seamless_pipe.webp",
+  "image":"https://www.creativemetalind.com/img/ss_seamless_pipes.jpeg",
   "url":"https://www.creativemetalind.com/blog/ss-pipe-supplier-vadodara-explained",
   "description":"Complete guide explaining what SS pipes are, their meaning, types, properties and where they are used in building construction, industrial plants and infrastructure. Trusted SS Pipe Supplier Vadodara — Creative Metal Industries."
 });

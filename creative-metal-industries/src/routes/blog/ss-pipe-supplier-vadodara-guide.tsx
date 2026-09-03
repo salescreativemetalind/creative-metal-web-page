@@ -19,7 +19,7 @@ const SCHEMA = JSON.stringify({
   "publisher":{"@type":"Organization","name":"Creative Metal Industries",
     "logo":{"@type":"ImageObject","url":"https://www.creativemetalind.com/logo_cmi.png"}},
   "datePublished":"2026-06-23","dateModified":"2026-06-23",
-  "image":"https://www.creativemetalind.com/img/ss_seamless_pipe.webp",
+  "image":"https://www.creativemetalind.com/img/ss_seamless_pipes.jpeg",
   "url":"https://www.creativemetalind.com/blog/ss-pipe-supplier-vadodara-guide",
   "description":"Complete buyer's guide to choosing the best SS pipe supplier in Vadodara. Covers SS seamless pipe, SS welded pipe, grades, certification, pricing and what to look for in a stainless steel pipe dealer."
 });

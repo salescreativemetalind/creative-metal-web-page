@@ -14,7 +14,7 @@ const SCHEMA = JSON.stringify({
     "logo": {"@type": "ImageObject", "url": "https://www.creativemetalind.com/logo_cmi.png"}},
   "datePublished": "2026-06-17",
   "dateModified": "2026-06-17",
-  "image": "https://www.creativemetalind.com/img/ss_seamless_pipe.png",
+  "image": "https://www.creativemetalind.com/img/ss_seamless_pipes.jpeg",
   "url": "https://www.creativemetalind.com/blog/ss-304-stainless-steel-guide",
   "description": "Complete guide to SS 304 stainless steel — chemical composition, mechanical properties, applications, welding tips, and sourcing from India's leading manufacturer."
 });
