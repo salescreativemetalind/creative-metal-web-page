@@ -97,7 +97,7 @@ const SCHEMA = JSON.stringify({
     },
     {
       "@type": "Product",
-      "image": "https://www.creativemetalind.com/img/ms-angle.webp", "name": "MS Angle & Channel Supplier Vadodara",
+      "image": "https://www.creativemetalind.com/img/ms-angle.png", "name": "MS Angle & Channel Supplier Vadodara",
       "description": "MS Equal Angle, Unequal Angle, ISMC Channel, MS Flat Bar, MS Round Bar, TMT Bar Fe500D — IS 808, IS 2062 E250, IS 1786. Ready stock Vadodara.",
       "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
       "offers": {
