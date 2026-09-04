@@ -21,10 +21,11 @@ const SCHEMA = JSON.stringify({
 const FAQ_SCHEMA = JSON.stringify({
   "@context": "https://schema.org", "@type": "FAQPage",
   "mainEntity": [
-    { "@type": "Question", "name": "How accurate is this weight chart?", "acceptedAnswer": { "@type": "Answer", "text": "This chart shows theoretical (calculated) weights based on nominal dimensions. Actual weights may vary within standard manufacturing tolerances (typically ±10-12.5% on wall thickness per ASTM standards). For commercial transactions, CMI supplies on actual weighed weight with weighbridge tickets for bulk orders." } },
-    { "@type": "Question", "name": "What density value is used for stainless steel?", "acceptedAnswer": { "@type": "Answer", "text": "Stainless steel 304/316 density is 8.00 g/cm³ (versus 7.85 for carbon steel). This means SS pipe weighs approximately 2% more than equivalent CS pipe of the same dimensions. For duplex 2205, density is 7.80 g/cm³ (slightly lighter than CS). Exotic alloys vary: Inconel 625 = 8.44, Monel 400 = 8.83, Titanium = 4.51 g/cm³." } },
-    { "@type": "Question", "name": "How do I calculate pipe weight for my MTO?", "acceptedAnswer": { "@type": "Answer", "text": "Use formula: Weight (kg/m) = (OD - WT) x WT x 0.02466 x density factor. Multiply by total length required. Add 5-10% wastage for cutting and fitup. For quick reference, use this chart or contact CMI at +91 99982 80619 for assistance with MTO estimation." } },
-    { "@type": "Question", "name": "Does CMI supply all sizes shown in this chart?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Creative Metal Industries stocks most standard sizes from this chart for immediate dispatch. Non-standard sizes can be arranged on indent within 2-4 weeks. Call +91 99982 80619 for specific size availability — we maintain real-time inventory tracking." } }
+    { "@type": "Question", "name": "How much does 2 inch SS 316 SCH 40 pipe weigh per metre?", "acceptedAnswer": { "@type": "Answer", "text": "About 5.54 kg/m. It is calculated from OD 60.3 mm and wall 3.91 mm: (60.3 − 3.91) × 3.91 × 0.02466 × 1.020 (the SS density factor) ≈ 5.54 kg/m. A 6 m random length therefore weighs roughly 33 kg." } },
+    { "@type": "Question", "name": "Is SS pipe heavier than carbon steel pipe of the same size?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, by about 2%. Austenitic stainless (304/316) has a density of ~8.0 g/cm³ versus 7.85 for carbon steel. So a size that weighs 5.43 kg/m in carbon steel weighs about 5.54 kg/m in SS 316. Duplex 2205 is actually slightly lighter than CS (7.8 g/cm³)." } },
+    { "@type": "Question", "name": "Do 304 and 316 pipe weigh differently?", "acceptedAnswer": { "@type": "Answer", "text": "No, not for practical purposes. SS 304 and 316/316L have essentially the same density (7.9–8.0 g/cm³), so the kg/m figures in this chart apply to both. The difference between them is corrosion resistance and price, not weight." } },
+    { "@type": "Question", "name": "What is the formula to calculate SS pipe weight per metre?", "acceptedAnswer": { "@type": "Answer", "text": "Weight (kg/m) = (OD − WT) × WT × 0.02466 × density factor, with OD and WT in mm. Use density factor 1.020 for SS 304/316, 0.994 for Duplex 2205, 1.078 for Inconel 625 and 0.574 for Titanium Gr.2. The 0.02466 constant already includes carbon-steel density." } },
+    { "@type": "Question", "name": "Should I order SS pipe on theoretical or actual weight?", "acceptedAnswer": { "@type": "Answer", "text": "For MTO and freight, theoretical (chart) weight is fine. For invoicing, insist on actual weighed weight — ASTM allows +12.5%/−0% on wall thickness, so actual weight can run several percent above theoretical. CMI bills on actual weight with weighbridge tickets on bulk orders." } }
   ]
 });
 
@@ -69,46 +70,89 @@ export default function SSPipeWeightChart() {
           </p>
         </div>
 
-        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Weight Calculation Formula</h2>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>The weight of any hollow pipe/tube is calculated using the formula: Weight (kg/m) = (OD - WT) × WT × 0.02466 × Density Factor. Where OD = Outside Diameter in mm, WT = Wall Thickness in mm. The density factor varies by material: Carbon Steel = 1.000 (7.85 g/cm³), Stainless Steel 304/316 = 1.020 (8.00 g/cm³), Duplex 2205 = 0.994 (7.80 g/cm³), Inconel 625 = 1.078 (8.44 g/cm³), Monel 400 = 1.130 (8.83 g/cm³), Titanium Gr.2 = 0.574 (4.51 g/cm³), Copper Nickel 70/30 = 1.129 (8.86 g/cm³).</p>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>For solid bars: Weight (kg/m) = D² × 0.006165 × Density Factor (where D = diameter in mm). For flat bars: Weight (kg/m) = Width × Thickness × 0.00785 × Density Factor. For plates/sheets: Weight (kg) = Length × Width × Thickness × 7.85 / 1000000 (for CS/MS). Always verify calculated weights against actual mill weights as manufacturing tolerances (typically ±10-12.5% on wall thickness per ASTM standards) create minor deviations.</p>
-
-        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Standard Sizes & Weight Per Metre</h2>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>The chart below covers the most commonly specified sizes in the Indian market. All weights are theoretical (calculated) based on nominal dimensions. Actual weights may vary within ASTM/IS standard tolerances. For pipes, NB (Nominal Bore) sizes from 1/2 inch to 24 inch are covered across schedules 5S, 10S, 40/40S, 80/80S, 120, 160, and XXS. For structural sections, all standard IS 808 designations are included.</p>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>Creative Metal Industries maintains ready stock of the most demanded sizes highlighted in the chart. For non-standard sizes, we source from approved mills within 2-4 weeks. Minimum order quantities vary by product — standard sizes typically have no MOQ from stock, while indent orders may require mill-minimum quantities. Contact us for specific availability.</p>
-
-        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>How to Use This Chart for MTO</h2>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>When preparing a Material Take-Off (MTO) for a piping project, multiply the weight per metre by the total length required for each size/schedule combination. Add 5-10% wastage allowance for cutting, bevelling, and fitup. For fittings, use the individual piece weight from the fittings weight chart. For flanges, refer to the flange weight chart by class and size. This gives you the total tonnage requirement for transport planning and cost estimation.</p>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>Pro tip: When comparing quotations from different suppliers, always verify that the weight basis matches — some suppliers quote on theoretical weight while others quote on actual (weighed) weight. ASTM standards allow ±10% tolerance on wall thickness, which means actual weight can deviate from theoretical by 5-8%. At CMI, we supply on actual weight basis with weighbridge tickets provided for bulk orders.</p>
-
-        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Download & Bookmark This Chart</h2>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>This weight chart is maintained and updated by the technical team at Creative Metal Industries, Vadodara. Bookmark this page for quick reference during your procurement and estimation work. For custom calculations, material selection guidance, or to source any of the sizes listed above, contact our technical sales team at +91 99982 80619. We provide free technical support for grade selection, size optimization, and material equivalent queries — because we understand that engineers need more than just a supplier, they need a knowledge partner.</p>
-
-        {/* Cross-sell: Other CMI Products */}
-        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Other Products from Creative Metal Industries</h2>
+        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>SS Pipe Weight Chart — kg/m by NB &amp; Schedule (ASTM A312 / B36.19M)</h2>
         <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>
-          Beyond the subject of this article, Creative Metal Industries stocks a comprehensive range of industrial metals: <strong>Stainless Steel</strong> pipes, plates, sheets, fittings and flanges in grades 304, 316L, 321, 310, 904L. <strong>Carbon Steel</strong> seamless and ERW pipes per ASTM A106, A53, IS 1239, API 5L. <strong>Alloy Steel</strong> pipes P91, P22, P11 with IBR certification. <strong>Duplex & Super Duplex</strong> 2205/2507 pipes, plates, and fittings. <strong>Exotic Alloys</strong> including Inconel 625/600, Hastelloy C276, Monel 400, Titanium Grade 2/5, and Copper Nickel 70/30. <strong>Structural Steel</strong> TMT bars, MS angle, channel, beam, plate, and flat bar.
+          Theoretical weight per metre for austenitic stainless steel pipe (density 8.0 g/cm³, i.e. ~2% heavier than the carbon-steel figures you may be used to). Values are calculated from nominal OD and wall thickness per ASME B36.19M and rounded to two decimals. Use these for MTO, freight and costing; verify against weighbridge/actual for invoicing.
+        </p>
+        <div style={{ overflow: "auto", border: "1px solid #e5e7eb", "border-radius": "10px", "margin-bottom": "1rem" }}>
+          {(() => {
+            const ROWS = [
+              { nb: '1/2"',  od: "21.3",  s10: "0.93", s40: "1.29", s80: "1.65" },
+              { nb: '3/4"',  od: "26.7",  s10: "1.19", s40: "1.71", s80: "2.24" },
+              { nb: '1"',    od: "33.4",  s10: "1.75", s40: "2.55", s80: "3.39" },
+              { nb: '1.1/2"',od: "48.3",  s10: "2.72", s40: "4.11", s80: "5.69" },
+              { nb: '2"',    od: "60.3",  s10: "3.43", s40: "5.54", s80: "7.72" },
+              { nb: '3"',    od: "88.9",  s10: "6.16", s40: "11.63", s80: "16.07" },
+              { nb: '4"',    od: "114.3", s10: "8.77", s40: "16.62", s80: "23.54" },
+              { nb: '6"',    od: "168.3", s10: "16.85", s40: "29.30", s80: "44.68" },
+              { nb: '8"',    od: "219.1", s10: "22.36", s40: "43.42", s80: "66.36" },
+              { nb: '10"',   od: "273.0", s10: "31.30", s40: "62.53", s80: "97.35" },
+              { nb: '12"',   od: "323.8", s10: "40.85", s40: "83.29", s80: "132.9" },
+            ];
+            return (
+              <table style={{ width: "100%", "border-collapse": "collapse", "font-size": "0.88rem", "min-width": "560px" }}>
+                <thead><tr style={{ background: "linear-gradient(135deg,#E8821A,#d85c2a)", color: "#fff" }}>
+                  <th style={{ padding: "0.6rem 0.9rem", "text-align": "left" }}>NB</th>
+                  <th style={{ padding: "0.6rem 0.9rem", "text-align": "left" }}>OD (mm)</th>
+                  <th style={{ padding: "0.6rem 0.9rem", "text-align": "left" }}>SCH 10S (kg/m)</th>
+                  <th style={{ padding: "0.6rem 0.9rem", "text-align": "left" }}>SCH 40S (kg/m)</th>
+                  <th style={{ padding: "0.6rem 0.9rem", "text-align": "left" }}>SCH 80S (kg/m)</th>
+                </tr></thead>
+                <tbody>
+                  {ROWS.map((r, i) => (
+                    <tr style={{ background: i % 2 === 0 ? "#fff" : "#f9fafb" }}>
+                      <td style={{ padding: "0.5rem 0.9rem", "font-weight": "700" }}>{r.nb}</td>
+                      <td style={{ padding: "0.5rem 0.9rem" }}>{r.od}</td>
+                      <td style={{ padding: "0.5rem 0.9rem" }}>{r.s10}</td>
+                      <td style={{ padding: "0.5rem 0.9rem" }}>{r.s40}</td>
+                      <td style={{ padding: "0.5rem 0.9rem" }}>{r.s80}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            );
+          })()}
+        </div>
+        <p style={{ "font-size": "0.82rem", color: "#6b7280", "line-height": "1.7", "margin-bottom": "1rem" }}>
+          For 304, 304L, 316, 316L and 321 the figures above are effectively identical (density 7.9–8.0 g/cm³). For SS 310/310S multiply by ~1.005, and for Duplex 2205 multiply by ~0.975 (density 7.8). Need SCH 5S, 160 or XXS, or a size above 12"? Call +91 99982 80619 — we hold the full ASME B36.19M table.
         </p>
 
-        {/* Internal Links */}
-        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Related Articles & Resources</h2>
+        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>The Formula (so you can check any size)</h2>
+        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>
+          For any hollow pipe: <strong>Weight (kg/m) = (OD − WT) × WT × 0.02466 × density factor</strong>, where OD and WT are in mm. The constant 0.02466 already bakes in carbon-steel density (7.85 g/cm³), so apply a density factor to convert: SS 304/316 = <strong>1.020</strong>, Duplex 2205 = 0.994, SS 310 = 1.005, Inconel 625 = 1.078, Monel 400 = 1.130, Titanium Gr.2 = 0.574, CuNi 70/30 = 1.129.
+        </p>
+        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>
+          Worked example — 2" NB SCH 40S SS 316: OD 60.3, WT 3.91 → (60.3 − 3.91) × 3.91 × 0.02466 × 1.020 ≈ <strong>5.54 kg/m</strong>, matching the table. That is why SS pipe costs a little more to ship than the same CS size: it is genuinely ~2% heavier.
+        </p>
+
+        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Using This Chart for MTO &amp; Costing</h2>
+        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>
+          Multiply kg/m by total run length per size/schedule, sum for total tonnage, then add 5–10% for cutting, bevelling and fit-up wastage. To convert to cost, multiply tonnage by the ₹/kg rate for your grade — see our <a href="/blog/ss-304-pipe-price-per-kg" style={{ color: "#E8821A", "font-weight": "600" }}>SS 304 price</a> and <a href="/blog/ss-316l-pipe-price-per-kg" style={{ color: "#E8821A", "font-weight": "600" }}>SS 316L price</a> guides. One caution when comparing quotes: confirm whether a supplier bills on <em>theoretical</em> or <em>actual</em> weight. ASTM allows +12.5%/−0% on wall thickness, so actual weight can sit several percent above theoretical. CMI invoices on actual weighed weight with weighbridge tickets on bulk lots.
+        </p>
+
+        {/* Internal Links — weight/size context */}
+        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Related Charts &amp; Calculators</h2>
         <ul style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.9", "padding-left": "1.25rem" }}>
-          <li><a href="/blog/super-duplex-2507-guide" style={{ color: "#E8821A", "font-weight": "600" }}>Super Duplex 2507 Guide</a></li>
-          <li><a href="/blog/titanium-grade-2-vs-grade-5" style={{ color: "#E8821A", "font-weight": "600" }}>Titanium Grade 2 vs Grade 5</a></li>
-          <li><a href="/ss-seamless-pipe-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>SS Seamless Pipe Supplier India</a></li>
+          <li><a href="/blog/ss-pipe-size-chart" style={{ color: "#E8821A", "font-weight": "600" }}>SS Pipe Size Chart — OD &amp; wall thickness by schedule</a></li>
+          <li><a href="/blog/pipe-nb-to-od-conversion" style={{ color: "#E8821A", "font-weight": "600" }}>NB to OD Conversion Chart</a></li>
+          <li><a href="/blog/cs-pipe-weight-chart" style={{ color: "#E8821A", "font-weight": "600" }}>Carbon Steel Pipe Weight Chart (A106)</a></li>
+          <li><a href="/blog/duplex-pipe-weight-chart" style={{ color: "#E8821A", "font-weight": "600" }}>Duplex Pipe Weight Chart</a></li>
+          <li><a href="/ss-seamless-pipe-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>SS Seamless Pipe Supplier — stock &amp; sizes</a></li>
         </ul>
 
         {/* FAQ Section */}
         <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Frequently Asked Questions</h2>
         <div style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "10px", padding: "1.5rem", "margin-bottom": "2rem" }}>
-          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "0 0 0.5rem" }}>How accurate is this weight chart?</h3>
-          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>This chart shows theoretical (calculated) weights based on nominal dimensions. Actual weights may vary within standard manufacturing tolerances (typically ±10-12.5% on wall thickness per ASTM standards). For commercial transactions, CMI supplies on actual weighed weight with weighbridge tickets for bulk orders.</p>
-          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>What density value is used for stainless steel?</h3>
-          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>Stainless steel 304/316 density is 8.00 g/cm³ (versus 7.85 for carbon steel). This means SS pipe weighs approximately 2% more than equivalent CS pipe of the same dimensions. For duplex 2205, density is 7.80 g/cm³ (slightly lighter than CS). Exotic alloys vary: Inconel 625 = 8.44, Monel 400 = 8.83, Titanium = 4.51 g/cm³.</p>
-          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>How do I calculate pipe weight for my MTO?</h3>
-          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>Use formula: Weight (kg/m) = (OD - WT) x WT x 0.02466 x density factor. Multiply by total length required. Add 5-10% wastage for cutting and fitup. For quick reference, use this chart or contact CMI at +91 99982 80619 for assistance with MTO estimation.</p>
-          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>Does CMI supply all sizes shown in this chart?</h3>
-          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "0" }}>Yes, Creative Metal Industries stocks most standard sizes from this chart for immediate dispatch. Non-standard sizes can be arranged on indent within 2-4 weeks. Call +91 99982 80619 for specific size availability — we maintain real-time inventory tracking.</p>
+          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "0 0 0.5rem" }}>How much does 2 inch SS 316 SCH 40 pipe weigh per metre?</h3>
+          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>About 5.54 kg/m — from OD 60.3 mm and wall 3.91 mm: (60.3 − 3.91) × 3.91 × 0.02466 × 1.020 ≈ 5.54 kg/m. A 6 m random length is therefore roughly 33 kg.</p>
+          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>Is SS pipe heavier than carbon steel pipe of the same size?</h3>
+          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>Yes, by about 2%. Austenitic SS (304/316) is ~8.0 g/cm³ versus 7.85 for carbon steel. Duplex 2205 is actually slightly lighter than CS (7.8 g/cm³).</p>
+          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>Do 304 and 316 pipe weigh differently?</h3>
+          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>No — 304 and 316/316L have essentially the same density, so the kg/m figures here apply to both. Their difference is corrosion resistance and price, not weight.</p>
+          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>What is the formula to calculate SS pipe weight per metre?</h3>
+          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>Weight (kg/m) = (OD − WT) × WT × 0.02466 × density factor (OD, WT in mm). Use 1.020 for SS 304/316, 0.994 for Duplex 2205, 1.078 for Inconel 625, 0.574 for Titanium Gr.2.</p>
+          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>Should I order SS pipe on theoretical or actual weight?</h3>
+          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "0" }}>Theoretical (chart) weight is fine for MTO and freight; for invoicing insist on actual weighed weight, since ASTM allows +12.5%/−0% on wall so actual can run several percent higher. CMI bills on actual weight with weighbridge tickets on bulk orders.</p>
         </div>
 
         {/* CTA */}

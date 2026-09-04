@@ -15,6 +15,20 @@ const NAV_LINKS = [
   { href: "/#contact",         label: "Contact"    },
 ];
 
+// Real hub pages surfaced directly from the header, on every PageLayout page.
+// The NAV_LINKS above are mostly homepage anchors (/#about, /#product-tabs)
+// which give crawlers no path into the product/location hubs from an interior
+// page. These direct links do, and they resolve from anywhere on the site.
+const HUB_LINKS = [
+  { href: "/ss-pipe-supplier-vadodara",        label: "SS Pipes" },
+  { href: "/alloy-steel-pipe-supplier-india",  label: "Alloy Steel" },
+  { href: "/duplex-steel-supplier-vadodara",   label: "Duplex" },
+  { href: "/inconel-pipe-supplier-india",      label: "Exotic Alloys" },
+  { href: "/ss-flanges-supplier-vadodara",     label: "Fittings & Flanges" },
+  { href: "/tmt-bars-supplier-gujarat",        label: "Structural & TMT" },
+  { href: "/products",                         label: "Charts & Specs" },
+];
+
 export function SiteNav(props: { active?: string }) {
   return (
     <nav class="nav scrolled" id="site-nav" aria-label="Main navigation">
@@ -50,9 +64,22 @@ export function SiteNav(props: { active?: string }) {
           <span/><span/><span/>
         </button>
       </div>
+      {/* Secondary hub bar — crawlable links from the header into the main
+          product/location hubs (the primary nav is mostly homepage anchors). */}
+      <div class="nav-hub-bar" aria-label="Product categories">
+        <div class="container" style="display:flex;flex-wrap:wrap;gap:0.35rem 1.1rem;align-items:center;justify-content:center;padding-top:0.4rem;padding-bottom:0.4rem">
+          <For each={HUB_LINKS}>{(l) => (
+            <a href={l.href} style="font-size:0.8rem;font-weight:600;color:#374151;text-decoration:none;white-space:nowrap">{l.label}</a>
+          )}</For>
+        </div>
+      </div>
       <div class="mobile-menu" id="mobile-nav" role="dialog" aria-label="Navigation menu">
         <button class="mobile-close" id="mobile-close-btn" aria-label="Close menu">✕</button>
         <For each={NAV_LINKS}>{(l) => (
+          <a href={l.href}>{l.label}</a>
+        )}</For>
+        <div style="border-top:1px solid rgba(255,255,255,0.1);margin:0.5rem 0;padding-top:0.5rem" />
+        <For each={HUB_LINKS}>{(l) => (
           <a href={l.href}>{l.label}</a>
         )}</For>
         <a href="/#contact" class="btn btn-primary">Get a Quote</a>

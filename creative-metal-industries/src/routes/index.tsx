@@ -350,6 +350,19 @@ function Nav() {
     { href: "/blog",       label: "Blog" },
     { href: "#contact",    label: "Contact" },
   ];
+  // Real hub pages surfaced directly from the header. The primary nav above is
+  // built on same-page anchors (#about, #products) which only resolve on the
+  // homepage — they gave Google no crawlable path from the header into the
+  // product/location hubs. These direct links do, and they work from any page.
+  const hubLinks = [
+    { href: "/ss-pipe-supplier-vadodara",        label: "SS Pipes" },
+    { href: "/alloy-steel-pipe-supplier-india",  label: "Alloy Steel" },
+    { href: "/duplex-steel-supplier-vadodara",   label: "Duplex" },
+    { href: "/inconel-pipe-supplier-india",      label: "Exotic Alloys" },
+    { href: "/ss-flanges-supplier-vadodara",     label: "Fittings & Flanges" },
+    { href: "/tmt-bars-supplier-gujarat",        label: "Structural & TMT" },
+    { href: "/products",                         label: "Charts & Specs" },
+  ];
   return (
     <>
       <nav class={`nav ${scrolled() ? "scrolled" : ""}`} aria-label="Main navigation">
@@ -373,10 +386,22 @@ function Nav() {
           </div>
           <button class="hamburger" aria-label="Open menu" onClick={() => setMenuOpen(true)}><span/><span/><span/></button>
         </div>
+        {/* Secondary hub bar — crawlable links from the header into the main
+            product/location hubs (the primary nav is anchor-only). */}
+        <div class="nav-hub-bar" aria-label="Product categories">
+          <div class="container" style="display:flex;flex-wrap:wrap;gap:0.35rem 1.1rem;align-items:center;justify-content:center;padding-top:0.4rem;padding-bottom:0.4rem">
+            <For each={hubLinks}>{(l) => (
+              <a href={l.href} style="font-size:0.8rem;font-weight:600;color:var(--charcoal);text-decoration:none;white-space:nowrap">{l.label}</a>
+            )}</For>
+          </div>
+        </div>
       </nav>
       <div class={`mobile-menu ${menuOpen() ? "open" : ""}`} role="dialog">
         <button class="mobile-close" onClick={() => setMenuOpen(false)}>✕</button>
         <For each={links}>{(l) => <a href={l.href} onClick={() => setMenuOpen(false)}>{l.label}</a>}</For>
+        {/* Hub pages in the mobile menu too */}
+        <div style="border-top:1px solid rgba(0,0,0,0.08);margin:0.5rem 0;padding-top:0.5rem" />
+        <For each={hubLinks}>{(l) => <a href={l.href} onClick={() => setMenuOpen(false)}>{l.label}</a>}</For>
         <a href="#contact" class="btn btn-primary" onClick={() => setMenuOpen(false)}>Get a Quote</a>
       </div>
     </>

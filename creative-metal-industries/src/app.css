@@ -2089,3 +2089,16 @@ body:has(.why-buy-overlay) {
   .why-buy-content { padding: 1.5rem 1.25rem 2rem; }
   .prod-modal-title-row { flex-direction: column; align-items: flex-start; gap: 0.6rem; }
 }
+
+/* ── Secondary hub bar (crawlable header links into product/location hubs) ──
+   Sits under the primary nav. Hidden on small screens, where the same hub
+   links are carried inside the mobile menu instead. */
+.nav-hub-bar {
+  border-top: 1px solid var(--border);
+  margin-top: 0.6rem;
+  background: rgba(253, 244, 236, 0.65);
+}
+.nav-hub-bar a:hover { color: var(--amber); }
+@media (max-width: 900px) {
+  .nav-hub-bar { display: none; }
+}

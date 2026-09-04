@@ -18,13 +18,25 @@ const SCHEMA = JSON.stringify({
   "description": "SS 316L pipe price per kg India — seamless & welded. July 2026 updated rates. Bulk discount at CMI Vadodara. Call +91 99982 80619."
 });
 
+// Indicative SS 316 / 316L price bands (₹/kg, ex-Vadodara, July 2026). Reference
+// bands for buyers, not a live quote — 316L tracks LME nickel AND molybdenum.
+const PRICE_BANDS = [
+  { form: "SS 316L welded pipe (ERW/EFW)", size: '1/2" – 2" NB', band: "₹300 – 370" },
+  { form: "SS 316L welded pipe (ERW/EFW)", size: '3" – 8" NB',   band: "₹280 – 340" },
+  { form: "SS 316L seamless pipe",         size: '1/2" – 2" NB', band: "₹430 – 600" },
+  { form: "SS 316L seamless pipe",         size: '3" – 6" NB',   band: "₹390 – 520" },
+  { form: "SS 316 (standard carbon)",      size: "all sizes",    band: "−₹5 – 15 vs 316L" },
+  { form: "SS 316Ti (titanium-stabilised)",size: "all sizes",    band: "+₹20 – 45 over 316L" },
+];
+
 const FAQ_SCHEMA = JSON.stringify({
   "@context": "https://schema.org", "@type": "FAQPage",
   "mainEntity": [
-    { "@type": "Question", "name": "What is the current SS 316L pipe price per kg rate?", "acceptedAnswer": { "@type": "Answer", "text": "The current rate varies based on grade, size, quantity, and market conditions (LME nickel, import duty, demand). Creative Metal Industries provides real-time pricing — call +91 99982 80619 for today's rate with quantity discounts. We offer 3-7 day price validity on formal quotations." } },
-    { "@type": "Question", "name": "Why do steel prices fluctuate in India?", "acceptedAnswer": { "@type": "Answer", "text": "Steel prices in India fluctuate due to: LME metal rates (nickel, chromium, molybdenum), import parity changes, domestic demand from infrastructure projects, mill production capacity, government policy (anti-dumping duty, BIS certification), and seasonal demand patterns. Monthly and sometimes weekly revisions are normal." } },
-    { "@type": "Question", "name": "Does CMI offer bulk discount on this material?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Creative Metal Industries offers volume-based pricing: 1-5 tonnes (standard market rate), 5-20 tonnes (3-5% discount), 20+ tonnes (5-8% discount), annual rate contracts (best pricing with price protection). Contact +91 99982 80619 for quantity-specific quotation." } },
-    { "@type": "Question", "name": "What payment terms does CMI offer?", "acceptedAnswer": { "@type": "Answer", "text": "Payment terms: 100% advance for new customers, 50% advance + balance before dispatch for orders above Rs 5 lakh, 15-30 day credit for established accounts with approved credit limit, LC accepted for export orders. All payments via NEFT/RTGS with GST invoice." } }
+    { "@type": "Question", "name": "What is the SS 316L pipe price per kg in India today?", "acceptedAnswer": { "@type": "Answer", "text": "As of July 2026, SS 316L welded pipe sits roughly in the ₹280–370/kg range and SS 316L seamless pipe roughly ₹390–600/kg ex-Vadodara, depending on size, schedule and quantity. 316L runs about 20–40% higher than 304 because of its molybdenum and higher nickel content. These are indicative bands — call +91 99982 80619 for a firm quote." } },
+    { "@type": "Question", "name": "Why is SS 316L more expensive than SS 304?", "acceptedAnswer": { "@type": "Answer", "text": "316L adds 2–3% molybdenum and carries about 10–12% nickel versus 8% in 304. Molybdenum is a costly ferro-alloy and the extra nickel adds more. Together they push 316L roughly 20–40% above 304 per kg — but they also give it the chloride pitting resistance that 304 lacks." } },
+    { "@type": "Question", "name": "Is there a price difference between SS 316 and 316L?", "acceptedAnswer": { "@type": "Answer", "text": "Very little. 316L is the low-carbon version of 316 (carbon max 0.03% vs 0.08%). Pricing is usually within ₹5–15/kg of each other. 316L is preferred for welded fabrication because it resists sensitisation, so most Indian stock is dual-certified 316/316L." } },
+    { "@type": "Question", "name": "How does the molybdenum price affect SS 316L rates?", "acceptedAnswer": { "@type": "Answer", "text": "Unlike 304, which is driven almost purely by nickel, 316L has a second cost lever: molybdenum. When moly (traded as ferro-molybdenum) spikes, 316L can rise even if nickel is flat. This is why the 316L-over-304 premium widens and narrows over time rather than staying fixed." } },
+    { "@type": "Question", "name": "When is it worth paying for 316L instead of 304?", "acceptedAnswer": { "@type": "Answer", "text": "Whenever chlorides are present — seawater, coastal air, brine, swimming pools, many pharma and chemical streams. In those services 304 will pit and fail; 316L is the correct, lower-lifetime-cost choice. In non-chloride service (general water, food, structural), 304 does the same job for less." } }
   ]
 });
 
@@ -65,50 +77,78 @@ export default function SS316lPipePricePerKg() {
             SS 316L Pipe Price Per Kg in India — Latest Rates
           </h1>
           <p style={{ "font-size": "1.05rem", color: "#374151", "line-height": "1.8" }}>
-            Looking for the latest <strong>ss 316l pipe price per kg in india</strong>? Creative Metal Industries, Vadodara provides updated pricing for SS 316L pipe price per kg with real-time market rates. As one of India's leading steel stockists with direct mill relationships, we offer competitive pricing without broker margins. This page is updated monthly to reflect current market conditions influenced by LME nickel rates, import duties, demand-supply dynamics, and mill production schedules. Contact us at <strong>+91 99982 80619</strong> for today's exact rate with quantity-based discounts.
+            SS 316L is the workhorse grade for chloride and corrosive service — 16–18% chromium, 10–12% nickel, and crucially <strong>2–3% molybdenum</strong>, the element that gives it pitting resistance that plain 304 does not have. That molybdenum is also why <strong>316L costs 20–40% more per kg than 304</strong>. Unlike 304, whose price is driven almost purely by nickel, 316L has two commodity levers — nickel <em>and</em> molybdenum — so its premium over 304 widens and narrows as ferro-moly moves. Below are the indicative bands we see in July 2026, then a plain explanation of what drives them and when the extra spend is genuinely justified. For a firm rate, call <strong>+91 99982 80619</strong>.
           </p>
         </div>
 
-        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Current Price Range (July 2026)</h2>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>The current market price for SS 316L pipe price per kg varies based on grade, size, schedule/thickness, quantity ordered, and mill source. Prices fluctuate weekly based on London Metal Exchange (LME) nickel and molybdenum rates, import parity pricing, domestic demand from infrastructure projects, and seasonal patterns. For an accurate real-time quotation, contact Creative Metal Industries at +91 99982 80619 — we provide formal quotes within 4 hours with guaranteed price validity of 3-7 days depending on material type.</p>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>Factors that influence pricing include: raw material costs (nickel, chromium, molybdenum on LME), mill production costs and capacity utilization, import duties and anti-dumping levies, GST (18% on most steel products), transportation costs, and order quantity. Bulk orders typically receive 3-8% discount over single-piece pricing. Annual rate contracts offer further savings for regular offtakers.</p>
-
-        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Price Factors & Market Trends</h2>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>Steel pricing in India is influenced by global commodity markets and domestic policy. The LME nickel price directly impacts stainless steel rates — every $1000/tonne movement in nickel translates to approximately Rs 15-20/kg change in SS pipe prices. For carbon and alloy steel, iron ore prices and coking coal rates are the primary drivers. Government policies including BIS mandatory certification, import restrictions, and infrastructure spending (PM Gati Shakti, Smart Cities) create demand-side pressure.</p>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>Current market trends (July 2026): Infrastructure spending continues to drive demand for structural steel (MS angle, channel, beam, TMT). Stainless steel demand is growing at 8-10% annually driven by pharma, food processing, and water treatment sectors. Exotic alloy demand is rising due to new refinery and petrochemical projects. Alloy steel (P91, P22) demand remains steady from power sector maintenance and new AUSC projects.</p>
-
-        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>How to Get the Best Price from CMI</h2>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>Creative Metal Industries offers several advantages for price-conscious buyers: Direct mill sourcing eliminates middlemen margins. Ready stock availability means no premium for urgent requirements. Quantity discounts on bulk orders (typically 5+ tonnes). Annual rate contracts for regular buyers with price protection. No hidden charges — quoted price includes GST, packing, and local loading. Transparent pricing with market reference. Call +91 99982 80619 or WhatsApp for instant pricing.</p>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>For project-based procurement, we offer phased delivery schedules with price locking at order confirmation. This protects you from market fluctuations during extended project timelines. We also offer credit terms for established buyers with track record. Our pricing is benchmarked against Jindal (JSAL), SAIL, Ratnamani, Venus, and imported mills — ensuring you get the best market rate without compromising on material quality or documentation.</p>
-
-        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Delivery & Payment Terms</h2>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>Creative Metal Industries delivers across India from our Vadodara warehouse. Delivery timelines: Gujarat (same day to 1 day), Maharashtra/Rajasthan (2-3 days), South India (3-5 days), North India (3-4 days), East India (4-5 days). Payment terms: advance payment for new buyers, 15-30 day credit for established accounts with approved credit limit. Modes accepted: NEFT/RTGS, cheque, LC for export orders. GST invoice provided on all supplies.</p>
-
-        {/* Cross-sell: Other CMI Products */}
-        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Other Products from Creative Metal Industries</h2>
-        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>
-          Beyond the subject of this article, Creative Metal Industries stocks a comprehensive range of industrial metals: <strong>Stainless Steel</strong> pipes, plates, sheets, fittings and flanges in grades 304, 316L, 321, 310, 904L. <strong>Carbon Steel</strong> seamless and ERW pipes per ASTM A106, A53, IS 1239, API 5L. <strong>Alloy Steel</strong> pipes P91, P22, P11 with IBR certification. <strong>Duplex & Super Duplex</strong> 2205/2507 pipes, plates, and fittings. <strong>Exotic Alloys</strong> including Inconel 625/600, Hastelloy C276, Monel 400, Titanium Grade 2/5, and Copper Nickel 70/30. <strong>Structural Steel</strong> TMT bars, MS angle, channel, beam, plate, and flat bar.
+        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>SS 316L Pipe Price Bands — July 2026 (₹/kg, ex-Vadodara)</h2>
+        <div style={{ overflow: "auto", border: "1px solid #e5e7eb", "border-radius": "10px", "margin-bottom": "1rem" }}>
+          <table style={{ width: "100%", "border-collapse": "collapse", "font-size": "0.9rem", "min-width": "520px" }}>
+            <thead><tr style={{ background: "linear-gradient(135deg,#E8821A,#d85c2a)", color: "#fff" }}>
+              <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Product form</th>
+              <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Size</th>
+              <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Indicative ₹/kg</th>
+            </tr></thead>
+            <tbody>
+              {PRICE_BANDS.map((r, i) => (
+                <tr style={{ background: i % 2 === 0 ? "#fff" : "#f9fafb" }}>
+                  <td style={{ padding: "0.6rem 1rem", "font-weight": "600" }}>{r.form}</td>
+                  <td style={{ padding: "0.6rem 1rem" }}>{r.size}</td>
+                  <td style={{ padding: "0.6rem 1rem", "font-weight": "700", color: "#b45309" }}>{r.band}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p style={{ "font-size": "0.82rem", color: "#6b7280", "line-height": "1.7", "margin-bottom": "1rem" }}>
+          Indicative for planning, not a firm offer. Excludes GST (18%) and freight; assumes ASTM A312 TP316L with EN 10204 3.1 MTC. As a rough guide, 316L welded lands about ₹90–110/kg above equivalent 304 welded, and the gap moves with molybdenum.
         </p>
 
-        {/* Internal Links */}
-        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Related Articles & Resources</h2>
+        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>The Two Commodity Levers Behind 316L</h2>
+        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>
+          <strong>Nickel (LME).</strong> With ~10–12% nickel, 316L is even more nickel-sensitive than 304. A US$1,000/tonne nickel move shifts 316L by roughly ₹20–25/kg.
+        </p>
+        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>
+          <strong>Molybdenum (ferro-moly).</strong> This is the lever 304 buyers never deal with. Moly is volatile and can spike independently of nickel; when it does, the 316L-over-304 premium widens even if nickel is flat. If you are budgeting a 316L project months ahead, watch moly as well as nickel — that is where the surprises come from.
+        </p>
+        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>
+          <strong>316 vs 316L vs 316Ti.</strong> 316L (low carbon) resists weld sensitisation and is the default for fabricated lines; it prices within ₹5–15/kg of standard 316, so most Indian stock is dual-certified 316/316L. 316Ti (titanium-stabilised, for sustained high temperature) is a specialty grade and carries a ₹20–45/kg premium — only specify it if the temperature genuinely requires stabilisation.
+        </p>
+
+        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>When the 316L Premium Is Worth It (and When It Isn't)</h2>
+        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>
+          Pay for 316L when chlorides are in play: seawater and coastal installations, brine, swimming pools, pharmaceutical purified-water and WFI loops, chemical process streams, and food lines exposed to salt. In those services 304 will pit and perforate, and the "saving" turns into a re-pipe. Do <em>not</em> pay for 316L on plain water, structural, dry gas or non-chloride food service — 304 delivers identical mechanical performance for 20–40% less. For borderline coastal-but-mild cases, our team will help you decide against your actual chloride level; see the <a href="/blog/ss-304-vs-ss-316-difference" style={{ color: "#E8821A", "font-weight": "600" }}>304 vs 316 comparison</a> and the cheaper baseline in our <a href="/blog/ss-304-pipe-price-per-kg" style={{ color: "#E8821A", "font-weight": "600" }}>SS 304 price guide</a>.
+        </p>
+
+        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>How to Buy SS 316L Pipe at the Right Price from CMI</h2>
+        <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>
+          We hold dual-certified 316/316L seamless and welded pipe ready at GIDC Makarpura, Vadodara, mill-direct from Jindal, Ratnamani and Venus, with EN 10204 3.1 (or 3.2 on request) MTC and, for pharma work, electropolished and bright-annealed options. Send grade, size, schedule, quantity and destination for a GST-inclusive quote within about 4 hours, valid 3–7 days. Same-day dispatch within Gujarat, 2–5 days across India, with export documentation for overseas orders.
+        </p>
+
+        {/* Internal Links — SS 316L price context */}
+        <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Related SS 316L Pricing &amp; Grade Resources</h2>
         <ul style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.9", "padding-left": "1.25rem" }}>
-          <li><a href="/blog/duplex-2205-steel-guide" style={{ color: "#E8821A", "font-weight": "600" }}>Duplex 2205 Steel Guide</a></li>
-          <li><a href="/blog/hastelloy-c276-guide" style={{ color: "#E8821A", "font-weight": "600" }}>Hastelloy C276 Guide</a></li>
-          <li><a href="/blog/ss-316l-stainless-steel-guide" style={{ color: "#E8821A", "font-weight": "600" }}>SS 316L Stainless Steel Guide</a></li>
+          <li><a href="/ss-304-316l-pipe-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>SS 304 / 316L Pipe Supplier — stock, sizes &amp; specs</a></li>
+          <li><a href="/blog/ss-316l-stainless-steel-guide" style={{ color: "#E8821A", "font-weight": "600" }}>SS 316L Stainless Steel Guide — properties &amp; uses</a></li>
+          <li><a href="/blog/ss-304-pipe-price-per-kg" style={{ color: "#E8821A", "font-weight": "600" }}>SS 304 Pipe Price Per Kg — the cheaper baseline</a></li>
+          <li><a href="/blog/ss-304-vs-ss-316-difference" style={{ color: "#E8821A", "font-weight": "600" }}>SS 304 vs 316 — which grade you actually need</a></li>
+          <li><a href="/blog/duplex-2205-pipe-price-india" style={{ color: "#E8821A", "font-weight": "600" }}>Duplex 2205 Price — when chlorides exceed 316L's limit</a></li>
+          <li><a href="/blog/ss-pipe-price-list-india" style={{ color: "#E8821A", "font-weight": "600" }}>Full SS Pipe Price List India — all grades</a></li>
         </ul>
 
         {/* FAQ Section */}
         <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2.5rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Frequently Asked Questions</h2>
         <div style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "10px", padding: "1.5rem", "margin-bottom": "2rem" }}>
-          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "0 0 0.5rem" }}>What is the current SS 316L pipe price per kg rate?</h3>
-          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>The current rate varies based on grade, size, quantity, and market conditions (LME nickel, import duty, demand). Creative Metal Industries provides real-time pricing — call +91 99982 80619 for today's rate with quantity discounts. We offer 3-7 day price validity on formal quotations.</p>
-          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>Why do steel prices fluctuate in India?</h3>
-          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>Steel prices in India fluctuate due to: LME metal rates (nickel, chromium, molybdenum), import parity changes, domestic demand from infrastructure projects, mill production capacity, government policy (anti-dumping duty, BIS certification), and seasonal demand patterns. Monthly and sometimes weekly revisions are normal.</p>
-          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>Does CMI offer bulk discount on this material?</h3>
-          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>Yes, Creative Metal Industries offers volume-based pricing: 1-5 tonnes (standard market rate), 5-20 tonnes (3-5% discount), 20+ tonnes (5-8% discount), annual rate contracts (best pricing with price protection). Contact +91 99982 80619 for quantity-specific quotation.</p>
-          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>What payment terms does CMI offer?</h3>
-          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "0" }}>Payment terms: 100% advance for new customers, 50% advance + balance before dispatch for orders above Rs 5 lakh, 15-30 day credit for established accounts with approved credit limit, LC accepted for export orders. All payments via NEFT/RTGS with GST invoice.</p>
+          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "0 0 0.5rem" }}>What is the SS 316L pipe price per kg in India today?</h3>
+          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>As of July 2026, SS 316L welded pipe sits roughly in the ₹280–370/kg range and seamless roughly ₹390–600/kg ex-Vadodara, depending on size, schedule and quantity. 316L runs about 20–40% higher than 304 because of its molybdenum and higher nickel content. Call +91 99982 80619 for a firm quote.</p>
+          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>Why is SS 316L more expensive than SS 304?</h3>
+          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>316L adds 2–3% molybdenum and carries ~10–12% nickel versus 8% in 304. Molybdenum is a costly ferro-alloy and the extra nickel adds more, pushing 316L roughly 20–40% above 304 per kg — but that buys the chloride pitting resistance 304 lacks.</p>
+          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>Is there a price difference between SS 316 and 316L?</h3>
+          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>Very little — usually within ₹5–15/kg. 316L is the low-carbon version preferred for welded fabrication because it resists sensitisation, so most Indian stock is dual-certified 316/316L.</p>
+          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>How does the molybdenum price affect SS 316L rates?</h3>
+          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "1rem" }}>Unlike 304 (driven purely by nickel), 316L has a second lever: molybdenum. When ferro-moly spikes, 316L can rise even if nickel is flat, so the premium over 304 widens and narrows over time.</p>
+          <h3 style={{ "font-size": "1rem", "font-weight": "700", color: "#111827", margin: "1.25rem 0 0.5rem" }}>When is it worth paying for 316L instead of 304?</h3>
+          <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.7", "margin-bottom": "0" }}>Whenever chlorides are present — seawater, coastal air, brine, pools, many pharma and chemical streams. There, 304 pits and fails and 316L is the lower-lifetime-cost choice. In non-chloride service, 304 does the same job for less.</p>
         </div>
 
         {/* CTA */}
