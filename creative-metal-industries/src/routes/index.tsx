@@ -1637,8 +1637,9 @@ function Footer() {
         <div class="footer-bottom">
           <p>© {year} Creative Metal Industries, Vadodara. All rights reserved.</p>
           <nav class="footer-bottom-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Trade</a>
+            <a href="/privacy-policy">Privacy Policy</a>
+            <a href="/terms">Terms of Trade</a>
+            <a href="/sitemap">Site Map</a>
             <a href="https://www.creativemetalind.com" target="_blank" rel="noopener">www.creativemetalind.com</a>
           </nav>
         </div>
@@ -2026,6 +2027,25 @@ export default function Home() {
                 {href:"/corten-steel-plate-supplier-india",label:"Corten Steel Plate"},
                 {href:"/ss-stub-end-supplier-india",label:"SS Stub End"},
                 {href:"/ss-reducer-supplier-india",label:"SS Reducer"},
+              ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.4rem 0.8rem","font-size":"0.8rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label}</a>)}
+            </div>
+
+            <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Guides, Price Lists &amp; Reference Charts</h3>
+            <div style={{display:"flex","flex-wrap":"wrap",gap:"0.5rem","margin-bottom":"1.5rem"}}>
+              {[
+                {href:"/products",label:"📐 Size & Weight Charts Hub"},
+                {href:"/blog",label:"📚 Technical Blog (500+ Guides)"},
+                {href:"/blog/ss-pipe-price-list-india",label:"SS Pipe Price List India"},
+                {href:"/blog/ss-304-pipe-price-per-kg",label:"SS 304 Pipe Price/kg"},
+                {href:"/blog/ss-316l-pipe-price-per-kg",label:"SS 316L Pipe Price/kg"},
+                {href:"/blog/tmt-bar-price-today-gujarat",label:"TMT Bar Price Gujarat"},
+                {href:"/blog/ss-pipe-weight-chart",label:"SS Pipe Weight Chart"},
+                {href:"/blog/pipe-schedule-chart",label:"Pipe Schedule Chart"},
+                {href:"/blog/flange-dimensions-chart-150-300",label:"Flange Dimensions Chart"},
+                {href:"/blog/ss-304-vs-ss-316-difference",label:"SS 304 vs 316"},
+                {href:"/blog/erw-vs-seamless-pipe",label:"ERW vs Seamless Pipe"},
+                {href:"/blog/what-is-ibr-certification",label:"What is IBR Certification?"},
+                {href:"/blog/what-is-mill-test-certificate",label:"What is an MTC?"},
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.4rem 0.8rem","font-size":"0.8rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 

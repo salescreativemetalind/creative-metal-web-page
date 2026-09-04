@@ -1243,14 +1243,13 @@ writeFileSync(
 console.log("📄 Route list saved to NEW_ROUTES_LIST.txt");
 console.log("   Add these to app.config.ts > server.prerender.routes\\n");
 
-// Write sitemap entries
-const sitemapEntries = allRoutes.map(r =>
-  `<url><loc>${SITE_URL}${r}</loc><lastmod>${DATE_NOW}</lastmod><changefreq>${r.includes("price") ? "weekly" : "monthly"}</changefreq><priority>${r.startsWith("/blog/") ? "0.7" : "0.8"}</priority></url>`
-).join("\n");
-writeFileSync(
-  join(import.meta.dirname, "NEW_SITEMAP_ENTRIES.xml"),
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapEntries}\n</urlset>`,
-  "utf-8"
-);
-console.log("🗺️  Sitemap entries saved to NEW_SITEMAP_ENTRIES.xml");
+// NOTE: This generator does NOT write a sitemap.
+// generate-sitemap.mjs is the single source of truth for the sitemap set
+// (segmented sitemap-index.xml + child sitemaps that robots.txt points at).
+// It derives lastmod from each route file's real git history, so it stays
+// accurate as content changes — a hand-typed flat sitemap emitted here would
+// only drift from it. After scaffolding new pages, regenerate the sitemap:
+//   npm run sitemap      # rebuild the authoritative segmented sitemaps
+//   npm run check:sitemap  # verify no drift against the build
+console.log("🗺️  Sitemap: run `npm run sitemap` (generate-sitemap.mjs is authoritative).");
 console.log("\\n🎉 All done! Run 'npm run build' to verify compilation.\\n");
