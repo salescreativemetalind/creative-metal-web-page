@@ -30,9 +30,9 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function WhatIsPipeSchedule() {
   return (
     <>
-      <Title>What is Pipe Schedule? — SCH 40, 80 & 160 Meaning | CMI I...</Title>
+      <Title>What is Pipe Schedule? SCH 40, 80 &amp; 160 Meaning Explained</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="what is pipe schedule meaning SCH 40 80 160. Expert guide by Creative Metal Industries Vadodara. Call +91 99982 80619 for enquiry." />
+      <Meta name="description" content="What pipe schedule means and how SCH 40, 80 and 160 affect wall thickness and pressure rating — a clear guide with examples from Creative Metal Industries, Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/what-is-pipe-schedule" />
       <Meta property="og:title" content="What is Pipe Schedule? — SCH 40, 80 & 160 Meaning | CMI I..." />
       <Meta property="og:type" content="article" />

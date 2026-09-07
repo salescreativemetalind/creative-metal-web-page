@@ -11,11 +11,11 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function PipeScheduleChart() {
   return (
     <>
-      <Title>Pipe Schedule Chart | CMI</Title>
-      <Meta property="og:description" content="Complete pipe schedule chart — SCH 5S, 10S, 40, 80, 160, XXS wall thickness and weight per metre for all sizes. Weight calculation formula. Steel stockist Vadodara. Creative Metal Industries." />
+      <Title>Pipe Schedule Chart: SCH 5S, 10S, 40, 80, 160 &amp; NB Sizes</Title>
+      <Meta property="og:description" content="Complete pipe schedule chart — SCH 5S, 10S, 40, 80, 160, XXS wall thickness and weight per metre for all sizes, with inch-to-NB reference and weight formula." />
       <Meta property="og:url" content="https://www.creativemetalind.com/blog/pipe-schedule-chart" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Complete pipe schedule chart — SCH 5S, 10S, 40, 80, 160, XXS wall thickness and weight per metre for all sizes. Weight calculation formula." />
+      <Meta name="description" content="Complete pipe schedule chart — SCH 5S, 10S, 40, 80, 160, XXS wall thickness and weight per metre, plus inch-to-NB sizes and the weight calculation formula." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/pipe-schedule-chart" />
       <Meta property="og:title" content="Pipe Schedule SCH 40, 80, 160 — Complete Chart Guide" />
       <Meta property="og:type" content="article" />

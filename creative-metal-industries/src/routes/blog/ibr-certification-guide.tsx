@@ -11,9 +11,9 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function IbrCertificationGuide() {
   return (
     <>
-      <Title>IBR Certification Explained | CMI</Title>
+      <Title>IBR Certification: Full Form, Form III-C &amp; When It's Required</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="IBR certification explained — what is IBR Form III-C, when is it mandatory, which materials need IBR approval, how to verify certificates, common mistakes." />
+      <Meta name="description" content="IBR certification explained: full form, Form III-C, when it is mandatory, which materials need IBR approval, and how to verify a certificate. A practical buyer's guide." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ibr-certification-guide" />
       <Meta property="og:title" content="IBR Certification Explained — What Indian Buyers Need to Know" />
       <Meta property="og:description" content="Complete guide to IBR (Indian Boiler Regulations) certification for pipes, tubes, fittings. Form III-C explained, mandatory requirements, approved mills." />

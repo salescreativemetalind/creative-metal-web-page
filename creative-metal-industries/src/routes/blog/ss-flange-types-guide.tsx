@@ -11,9 +11,9 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SsFlangeTypesGuide() {
   return (
     <>
-      <Title>SS Flange Types Explained — WNRF vs SORF vs Blind | CMI</Title>
+      <Title>SS Flange Types: SORF vs WNRF, Blind &amp; RF/FF/RTJ Explained</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="SS flange types explained — WNRF vs SORF vs Blind vs Socket Weld, pressure class selection, RF vs FF vs RTJ faces, ASME B16.5 class ratings." />
+      <Meta name="description" content="Stainless steel flange types compared: SORF vs WNRF, slip-on, blind and socket weld, plus RF vs FF vs RTJ faces and ASME B16.5 pressure classes. With a selection table." />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-flange-types-guide" />
       <Meta property="og:title" content="SS Flange Types Explained — WNRF vs SORF vs Blind vs Socket Weld" />
       <Meta property="og:description" content="Complete guide to stainless steel flange types. WNRF, SORF, blind, socket-weld, lap-joint — when to use each, pressure ratings, face types." />
