@@ -42,7 +42,7 @@ export default function SteelSupplierRaipur() {
   return (
     <>
       <Title>Steel Supplier Raipur | SS Pipe & Alloy Steel | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Raipur — SS pipes, alloy steel, structural steel for Bhilai, NTPC Korba & sponge iron plants. 1-2 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-raipur" />
       <Meta property="og:title" content="Steel Supplier Raipur | SS Pipe, Alloy Steel, Exotic Alloys | Creative Metal Industries" />

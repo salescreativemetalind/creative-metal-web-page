@@ -124,7 +124,6 @@ export default function SsPipeSupplierVadodara() {
         name="description"
         content="SS pipe supplier in Vadodara — ready stock of SS 304, 316L, 321 and Duplex 2205 seamless &amp; welded pipes. IBR Form III-C, NACE and MTC certified."
       />
-      <Meta name="keywords" content="SS pipe supplier Vadodara, stainless steel pipe supplier Vadodara, SS 304 pipe Vadodara, SS 316L pipe Vadodara, duplex pipe supplier Vadodara, seamless pipe supplier Vadodara, IBR pipe supplier Vadodara, SS pipe stockist Vadodara Gujarat" />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-pipe-supplier-vadodara" />
       <Meta property="og:title"       content="SS Pipe Supplier Vadodara | Creative Metal Industries" />
       <Meta property="og:description" content="Vadodara's leading SS pipe supplier — SS 304, 316L, Duplex 2205 ready stock. IBR, NACE, MTC certified. Same-day dispatch. Call +91 99982 80619." />

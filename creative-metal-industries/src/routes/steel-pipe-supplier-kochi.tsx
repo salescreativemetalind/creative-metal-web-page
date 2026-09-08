@@ -42,7 +42,7 @@ export default function SteelPipeSupplierKochi() {
   return (
     <>
       <Title>Pipe Supplier Kochi | SS Fittings & BPCL Vendor | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Pipe supplier Kochi Kerala — SS 316L pipes, fittings, alloy steel for BPCL Refinery & Cochin Shipyard. 2-3 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-kochi" />
       <Meta property="og:title" content="Pipe Supplier Kochi Kerala | SS Fittings, Alloy Steel | Creative Metal Industries" />

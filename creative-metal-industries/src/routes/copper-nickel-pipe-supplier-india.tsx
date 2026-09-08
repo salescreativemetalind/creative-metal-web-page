@@ -124,7 +124,6 @@ export default function CopperNickelPipeSupplierIndia() {
     <>
       <Title>Copper Nickel Pipe Supplier India | CuNi 90/10 &amp; 70/30 | CMI</Title>
       <Meta name="description" content="India's leading copper nickel pipe supplier. CuNi 90/10 (C70600) &amp; 70/30 (C71500) seamless pipes per ASTM B466." />
-      <Meta name="keywords" content="copper nickel pipe supplier india, CuNi 90/10 pipe, CuNi 70/30 pipe, C70600 pipe india, C71500 pipe supplier, ASTM B466 pipe, seawater pipe india, marine pipe supplier, cupro nickel pipe india" />
       <Meta property="og:title" content="Copper Nickel Pipe Supplier India | CuNi 90/10 & 70/30 | CMI" />
       <Meta property="og:description" content="India's trusted CuNi pipe supplier. 90/10 (C70600) and 70/30 (C71500). ASTM B466 seamless. Marine grade. Ready stock." />
       <Meta property="og:type" content="product" />

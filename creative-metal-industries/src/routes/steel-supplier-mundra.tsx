@@ -42,7 +42,7 @@ export default function SteelSupplierMundra() {
   return (
     <>
       <Title>Steel Supplier Mundra | Adani Port & Power Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Mundra — structural steel, API pipes for Adani Port, alloy steel for power plants. SAME-DAY delivery from Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-mundra" />
       <Meta property="og:title" content="Steel Supplier Mundra | Adani Port, Power Plants | Creative Metal Industries" />

@@ -42,7 +42,7 @@ export default function SteelSupplierBhopal() {
   return (
     <>
       <Title>Steel Supplier Bhopal | SS Pipe & Structural | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Bhopal — SS pipes, structural steel, pipe fittings for BHEL & Mandideep industries. 1-day delivery from Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-bhopal" />
       <Meta property="og:title" content="Steel Supplier Bhopal | SS Pipe, Structural Steel | Creative Metal Industries" />

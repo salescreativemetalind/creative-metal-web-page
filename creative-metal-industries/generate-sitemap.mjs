@@ -79,6 +79,15 @@ function collectRoutes(dir, prefix = "") {
     }
     if (!/\.(tsx|ts)$/.test(name)) continue;
     if (name.endsWith(".css") || name === "app.tsx") continue;
+    // Skip pages that opt out of indexing. A noindexed page must never appear
+    // in the sitemap. We detect the robots meta directive by its content value
+    // (`content="noindex...`), so this stays correct no matter which pages are
+    // pruned in future — it is driven purely by the meta, not a hardcoded list.
+    // NOTE: dynamic blog articles live in blog/[slug].tsx (skipped above by the
+    // "[" prefix) and are collected separately, so the 404-fallback noindex
+    // inside that file never affects real article URLs.
+    const contents = readFileSync(abs, "utf8");
+    if (/content="noindex/.test(contents)) continue;
     let slug = name.replace(/\.(tsx|ts)$/, "");
     if (slug === "index") slug = "";
     // Build the URL, collapse duplicate slashes, then strip any trailing slash

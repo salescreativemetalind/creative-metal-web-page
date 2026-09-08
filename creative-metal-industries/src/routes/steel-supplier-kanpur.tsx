@@ -42,7 +42,7 @@ export default function SteelSupplierKanpur() {
   return (
     <>
       <Title>Steel Supplier Kanpur | MS Plate & TMT Bar | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Kanpur — MS plates, TMT bars, SS pipes, pipe fittings for leather, IOCL & construction. 2-3 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-kanpur" />
       <Meta property="og:title" content="Steel Supplier Kanpur | MS Plate, TMT Bar, SS Pipes | Creative Metal Industries" />

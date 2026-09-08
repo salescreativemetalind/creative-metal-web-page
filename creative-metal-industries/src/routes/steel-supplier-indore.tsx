@@ -42,7 +42,7 @@ export default function SteelSupplierIndore() {
   return (
     <>
       <Title>Steel Supplier Indore | SS Pipe & Structural | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Indore — SS 304/316L pipes, structural steel, TMT bars, pipe fittings. Pithampur SEZ specialist. 1-day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-indore" />
       <Meta property="og:title" content="Steel Supplier Indore | SS Pipe, Structural Steel | Creative Metal Industries" />

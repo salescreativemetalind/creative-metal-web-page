@@ -42,7 +42,7 @@ export default function SteelSupplierPatalganga() {
   return (
     <>
       <Title>Steel Supplier Patalganga MIDC | Chemical Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Patalganga MIDC — SS 316L, Hastelloy, duplex for RIL, Gharda & chemical plants. 1-2 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-patalganga" />
       <Meta property="og:title" content="Steel Supplier Patalganga MIDC | Chemical-Grade Pipes | Creative Metal Industries" />

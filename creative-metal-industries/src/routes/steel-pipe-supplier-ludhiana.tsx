@@ -42,7 +42,7 @@ export default function SteelPipeSupplierLudhiana() {
   return (
     <>
       <Title>Pipe Supplier Ludhiana | SS Tube & ERW Pipe | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Pipe supplier Ludhiana — ERW pipes, SS tubes, precision tubes for bicycle & auto industry. Ready stock. 2-3 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-ludhiana" />
       <Meta property="og:title" content="Pipe Supplier Ludhiana | SS Tube, ERW Pipe, Precision Tubes | Creative Metal Industries" />

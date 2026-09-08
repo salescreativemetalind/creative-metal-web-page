@@ -42,7 +42,7 @@ export default function SteelSupplierSalem() {
   return (
     <>
       <Title>Steel Supplier Salem | SS Pipes &amp; IBR Alloy | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Salem — SS pipes, duplex, IBR alloy for SAIL Salem region, Mettur TPS. 2-3 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-salem" />
       <Meta property="og:title" content="Steel Supplier Salem | SS Pipes & IBR Alloy | Creative Metal Industries" />

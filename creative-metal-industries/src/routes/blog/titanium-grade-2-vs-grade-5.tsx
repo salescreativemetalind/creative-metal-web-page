@@ -168,6 +168,7 @@ export default function TitaniumGuide() {
             <li><strong>Technical support:</strong> Grade selection guidance based on your specific media, temperature, and stress conditions</li>
             <li><strong>As a specialist <strong>metal importer exporter in India</strong></strong>, we maintain import channels that ensure availability of these strategic materials even during global supply constraints</li>
           </ul>
+          <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin":"1rem 0 0"}}>Explore grade-specific stock on our <a href="/titanium-grade-2-pipe-india" style={{color:"#E8821A","font-weight":"600"}}>Titanium Grade 2</a> and <a href="/titanium-grade-5-pipe-india" style={{color:"#E8821A","font-weight":"600"}}>Titanium Grade 5</a> supplier pages.</p>
         </div>
 
         {/* FAQ */}

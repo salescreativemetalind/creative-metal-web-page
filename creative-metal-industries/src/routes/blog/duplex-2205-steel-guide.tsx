@@ -16,7 +16,6 @@ export default function Duplex2205Guide() {
       <Meta property="og:url" content="https://www.creativemetalind.com/blog/duplex-2205-steel-guide" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to Duplex 2205 (UNS S31803 / S32205 / 1.4462) — dual-phase structure, 2× strength of 316L, PREN 35, chloride SCC resistance, chemical composition and price per kg. Duplex 2205 supplier India." />
-      <Meta name="keywords" content="duplex 2205, 2205 duplex, duplex stainless steel 2205, uns s31803, uns s32205, 1.4462, saf 2205, alloy 2205, duplex 2205 metal, duplex 2205 chemical composition, duplex 2205 properties, duplex 2205 pren, duplex 2205 vs 316l, duplex 2205 vs super duplex, duplex 2205 pipe, duplex 2205 plate, duplex 2205 flange, duplex 2205 price per kg, duplex 2205 supplier india" />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/duplex-2205-steel-guide" />
       <Meta property="og:title" content="Duplex 2205 — Why This Super Steel Outperforms Standard Grades" />
       <Meta property="og:type" content="article" />
@@ -128,6 +127,7 @@ export default function Duplex2205Guide() {
           <li><strong>Specialist knowledge:</strong> 15+ years supplying duplex to offshore, desalination, and chemical EPC contractors across India</li>
           <li><strong>Export ready:</strong> Dubai, Abu Dhabi, Oman, Saudi Arabia, Kuwait — complete documentation for Middle East projects</li>
         </ul>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>For stock, sizes and pricing, see our <a href="/duplex-steel-supplier-vadodara" style={{color:"#E8821A","font-weight":"600"}}>Duplex 2205 pipe supplier page</a>.</p>
 
         {/* FAQ */}
         <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Frequently Asked Questions — Duplex 2205</h2>

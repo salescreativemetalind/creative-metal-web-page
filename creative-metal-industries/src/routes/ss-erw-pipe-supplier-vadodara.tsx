@@ -136,7 +136,6 @@ export default function SSErwPipeSupplierVadodara() {
       <Meta property="og:type" content="website" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="SS ERW pipe supplier Vadodara — SS 304, 202, 316 welded pipe in round, square &amp; rectangular. ASTM A312/A554. Mirror, satin, mill finish. Price ₹180-400/kg." />
-      <Meta name="keywords" content="SS ERW pipe supplier Vadodara, stainless steel welded pipe Vadodara, SS 304 ERW pipe, SS pipe for railing Vadodara, SS square pipe Vadodara, SS rectangular pipe Vadodara" />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-erw-pipe-supplier-vadodara" />
       <Meta property="og:title" content="SS ERW Pipe Supplier Vadodara | SS 304 202 316 | Round Square Rect | CMI" />
       <Meta property="og:description" content="SS ERW pipe — round, square &amp; rectangular. SS 304, 202, 316. Mirror/satin/mill finish. Ready stock Vadodara. ₹180-400/kg. Call +91 99982 80619." />

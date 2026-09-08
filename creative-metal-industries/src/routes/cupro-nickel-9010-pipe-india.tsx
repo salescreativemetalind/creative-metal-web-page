@@ -105,7 +105,6 @@ export default function CuproNickel9010PipeIndia() {
         name="description"
         content="CuNi 90/10 (C70600) pipe supplier India. ASTM B466 seamless and B467 welded pipes 1/2&quot; to 12&quot; NB for seawater cooling and desalination."
       />
-      <Meta name="keywords" content="CuNi 90/10 pipe, copper nickel pipe india, C70600 pipe, ASTM B466, ASTM B467, cupro nickel pipe supplier, seawater pipe india, CuNi pipe vadodara, copper nickel 90/10 seamless pipe" />
       <Meta property="og:title" content="CuNi 90/10 Pipe Supplier India | Creative Metal Industries" />
       <Meta property="og:description" content="ASTM B466/B467 CuNi 90/10 (C70600) pipes 1/2&quot; to 12&quot; NB. Seawater cooling, offshore, desalination applications. Ready stock from Vadodara." />
       <Meta property="og:type" content="product" />

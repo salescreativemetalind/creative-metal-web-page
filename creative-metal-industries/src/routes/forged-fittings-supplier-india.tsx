@@ -124,7 +124,6 @@ export default function ForgedFittingsSupplierIndia() {
     <>
       <Title>Forged Fittings Supplier India | ASME B16.11 | CMI</Title>
       <Meta name="description" content="India's trusted forged fittings supplier. Socket weld &amp; threaded fittings in SS 304/316L, CS A105, alloy F11/F22/F91, duplex." />
-      <Meta name="keywords" content="forged fittings supplier india, socket weld fittings india, threaded fittings supplier, ASTM A182 fittings, ASME B16.11 fittings, SS forged fittings, A105 fittings, 3000 lb fittings, 6000 lb fittings india" />
       <Meta property="og:title" content="Forged Fittings Supplier India | Socket Weld & Threaded | CMI" />
       <Meta property="og:description" content="Forged fittings supplier India. Socket weld &amp; threaded. SS, CS, alloy, duplex. ASME B16.11. Ready stock Vadodara." />
       <Meta property="og:type" content="product" />

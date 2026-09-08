@@ -42,7 +42,7 @@ export default function SteelPipeSupplierJaipur() {
   return (
     <>
       <Title>Pipe Supplier Jaipur | SS Fittings & Alloy Steel | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Pipe supplier Jaipur — SS 304/316L pipes, fittings, flanges, alloy steel P91/P22, carbon steel. 1-2 day delivery from Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-jaipur" />
       <Meta property="og:title" content="Pipe Supplier Jaipur | SS Fittings, Alloy Steel | Creative Metal Industries" />

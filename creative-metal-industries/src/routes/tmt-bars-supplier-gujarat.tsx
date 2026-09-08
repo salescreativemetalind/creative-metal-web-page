@@ -16,7 +16,6 @@ export default function TmtBarsPage() {
       <Meta property="og:url" content="https://www.creativemetalind.com/tmt-bars-supplier-gujarat" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="TMT bars and structural steel supplier Gujarat — Fe 500D, 550D. SAIL, JSW, TATA, VSP. BIS certified 8mm–40mm. MS angle, channel, beam also available." />
-      <Meta name="keywords" content="TMT bars supplier Gujarat, TMT bars Vadodara, Fe 500D TMT bars Gujarat, SAIL TMT bars Gujarat, JSW NeoSteel Gujarat, TATA Tiscon Gujarat, reinforcement bars Gujarat" />
       <Link rel="canonical" href="https://www.creativemetalind.com/tmt-bars-supplier-gujarat" />
       <Meta property="og:title" content="TMT Bars Supplier Gujarat | Fe 500D | CMI Vadodara" />
       <Meta property="og:description" content="Gujarat's trusted TMT bars supplier. Fe 500/500D/550D. SAIL, JSW, TATA. BIS certified. Ready stock. Call +91 99982 80619." />

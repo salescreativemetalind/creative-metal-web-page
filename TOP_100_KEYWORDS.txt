@@ -1,0 +1,122 @@
+# TOP 100 METAL KEYWORDS (highest-value shortlist)
+# Curated from ALL_KEYWORDS.txt for Creative Metal Industries
+# Selection logic: head terms (buyer intent) + top comparison/informational queries per material.
+# Generated: 2026-09-07
+
+## MILD STEEL (MS) -- 8
+mild steel supplier india
+ms plate
+ms angle
+ms channel
+ms beam
+ms flat bar
+ms plate weight calculator
+ms angle weight chart
+
+## CARBON STEEL -- 10
+carbon steel pipe
+carbon steel seamless pipe supplier india
+astm a106
+a106 gr b
+astm a516
+sa 516 gr 70
+sa516 grade 70 plate
+erw vs seamless pipe
+seamless vs erw
+a106 vs api 5l
+
+## ALLOY STEEL / CHROME-MOLY -- 12
+alloy steel pipe manufacturer in india
+alloy steel seamless pipe
+chrome moly pipe
+astm a335 p11
+astm a335 p22
+astm a335 p91
+astm a335 p92
+p91 pipe
+p91 vs p92 material
+p22 vs p11
+sa387 grade 11 plate
+sa387 grade 22 plate
+
+## STAINLESS STEEL -- 22
+stainless steel 304
+stainless steel 316
+ss 304 pipe
+ss 316 pipe
+ss 304 plate
+ss 316 plate
+ss 321
+ss 347
+ss 310
+ss 410
+ss 430
+ss 904l
+316l stainless steel
+304 vs 316
+304 vs 316 which is better
+304 vs 304l
+316l vs 304
+321 vs 304 stainless steel
+types of stainless steel
+marine grade stainless steel
+ss 304 price per kg
+ss 316 price per kg
+
+## DUPLEX / SUPER DUPLEX -- 10
+duplex 2205
+super duplex 2507
+duplex 2205 pipe
+duplex 2205 plate
+super duplex 2507 pipe
+2205 vs 2507
+duplex vs super duplex
+what is duplex stainless steel
+duplex 2205 price per kg
+saf 2205
+
+## INCONEL / INCOLOY -- 12
+inconel 625
+inconel 600
+inconel 718
+inconel 625 pipe
+inconel 625 plate
+inconel 600 pipe
+what is inconel
+inconel vs hastelloy
+inconel 625 price per kg
+incoloy 800
+incoloy 825
+inconel 625 vs 600
+
+## HASTELLOY -- 10
+hastelloy c276
+hastelloy c22
+hastelloy b2
+hastelloy c276 pipe
+hastelloy c276 plate
+what is hastelloy c276
+hastelloy vs inconel
+hastelloy c276 price per kg
+inconel 625 vs hastelloy c276
+hastelloy c276 uses
+
+## MONEL -- 8
+monel 400
+monel k500
+monel 400 pipe
+monel 400 plate
+what is monel
+monel vs inconel
+monel 400 price per kg
+why monel used in marine
+
+## TITANIUM -- 8
+titanium grade 2
+titanium grade 5
+titanium pipe
+titanium grade 2 pipe
+titanium grade 5 pipe
+ti 6al 4v
+titanium vs stainless steel
+titanium grade 2 vs grade 5

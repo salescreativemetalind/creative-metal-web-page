@@ -42,7 +42,7 @@ export default function SteelSupplierJhagadia() {
   return (
     <>
       <Title>Steel Supplier Jhagadia GIDC | Chemical Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Jhagadia GIDC — SS 316L, Hastelloy C276, duplex pipes for chemical & pharma plants. SAME-DAY delivery from Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-jhagadia" />
       <Meta property="og:title" content="Steel Supplier Jhagadia GIDC | Chemical-Grade Pipes | Creative Metal Industries" />

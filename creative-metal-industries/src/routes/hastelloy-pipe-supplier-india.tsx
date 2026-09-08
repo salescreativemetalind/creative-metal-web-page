@@ -137,8 +137,7 @@ export default function HastelloyPipeSupplierIndia() {
   return (
     <>
       <Title>Hastelloy Pipe Supplier India | C-276, C-22, B-2 | CMI</Title>
-      <Meta name="description" content="Hastelloy pipe supplier India. C-276, C-22, B-2, B-3 seamless pipes per ASTM B622. Corrosion-resistant nickel alloy for chemical and pharma service." />
-      <Meta name="keywords" content="hastelloy pipe supplier india, hastelloy c276 pipe, hastelloy c22 pipe india, ASTM B622 pipe supplier, nickel alloy pipe india, hastelloy pipe price, corrosion resistant pipe india, chemical plant pipe supplier" />
+      <Meta name="description" content="Hastelloy pipe supplier India — Hastelloy C276 (N10276), C-22, B-2 seamless pipes per ASTM B622. Corrosion-resistant nickel alloy for chemical & pharma." />
       <Meta property="og:title" content="Hastelloy Pipe Supplier India | C-276, C-22 | Creative Metal Industries" />
       <Meta property="og:description" content="India's trusted Hastelloy pipe supplier. C-276, C-22, B-2 seamless pipes per ASTM B622. Chemical-resistant nickel alloy pipes. Ready stock Vadodara." />
       <Meta property="og:type" content="product" />
@@ -232,6 +231,18 @@ export default function HastelloyPipeSupplierIndia() {
               </tbody>
             </table>
           </div>
+        </div>
+      </section>
+
+      {/* Hastelloy C276 */}
+      <section style="padding:60px 0;background:#fff">
+        <div style="max-width:900px;margin:0 auto;padding:0 20px">
+          <h2 style="color:#111827;font-size:28px;font-weight:700;text-align:center;margin:0 0 20px">
+            Hastelloy C276 Pipe Supplier — Grade &amp; Specifications
+          </h2>
+          <p style="color:#4b5563;font-size:16px;line-height:1.8;margin:0">
+            As a specialist <strong>Hastelloy C276 supplier</strong>, we hold ready stock of <strong>Hastelloy C276 pipe</strong> (UNS N10276) in seamless form to ASTM B622, sizes 1/2" to 12" NB. Its 57Ni-16Cr-16Mo-5Fe-4W chemistry makes C-276 the most versatile corrosion-resistant alloy for both oxidizing and reducing media — the standard choice for hydrochloric acid, sulfuric acid, wet chlorine and FGD systems where stainless and duplex grades fail. Every length ships solution annealed with full MTC and heat traceability; see the grade table above for complete C-276 data. For metallurgy and selection background, read our <a href="/blog/hastelloy-c276-guide" style="color:#E8821A;text-decoration:underline">Hastelloy C276 guide</a>.
+          </p>
         </div>
       </section>
 

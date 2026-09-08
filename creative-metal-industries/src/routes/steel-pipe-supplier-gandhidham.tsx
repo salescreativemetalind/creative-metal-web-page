@@ -42,7 +42,7 @@ export default function SteelPipeSupplierGandhidham() {
   return (
     <>
       <Title>Steel Pipe Supplier Gandhidham | Kutch Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel pipe supplier Gandhidham — CS, SS, API pipes for Kandla port, GIDC & Kutch industries. SAME-DAY delivery from Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-gandhidham" />
       <Meta property="og:title" content="Steel Pipe Supplier Gandhidham Kutch | Kandla Port & GIDC | Creative Metal Industries" />

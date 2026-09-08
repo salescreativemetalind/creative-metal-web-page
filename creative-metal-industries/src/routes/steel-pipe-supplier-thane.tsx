@@ -42,7 +42,7 @@ export default function SteelPipeSupplierThane() {
   return (
     <>
       <Title>Steel Pipe Supplier Thane | SS Fittings | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel pipe supplier Thane — SS 316L, CS pipes, fittings & flanges for Wagle Estate, Thane-Belapur MIDC. 1-2 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-thane" />
       <Meta property="og:title" content="Steel Pipe Supplier Thane | Wagle Estate & MIDC | Creative Metal Industries" />

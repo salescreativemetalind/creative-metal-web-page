@@ -16,7 +16,6 @@ export default function Inconel625Guide() {
       <Meta property="og:url" content="https://www.creativemetalind.com/blog/inconel-625-guide" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Inconel 625 (UNS N06625 / Alloy 625) — nickel-chromium-molybdenum-niobium alloy for high-temperature and corrosive service. Composition, properties, applications, Inconel vs Hastelloy vs Monel, and price per kg. Inconel supplier India." />
-      <Meta name="keywords" content="inconel 625, alloy 625, uns n06625, inconel 625 metal, inconel alloy, inconel 625 chemical composition, inconel 625 properties, inconel 625 applications, inconel 625 vs hastelloy c276, inconel vs hastelloy vs monel, inconel 625 pipe, inconel 625 plate, inconel 625 round bar, inconel 625 price per kg, inconel 600, alloy 600, inconel supplier india" />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/inconel-625-guide" />
       <Meta property="og:title" content="Inconel 625 — High-Temperature & Corrosion-Resistant Solutions" />
       <Meta property="og:type" content="article" />
@@ -117,6 +116,7 @@ export default function Inconel625Guide() {
           <li><strong>Cut-to-size:</strong> Waterjet and plasma cutting for plates; pipe cutting to exact lengths — minimising exotic alloy wastage and your project cost</li>
           <li><strong>Technical support:</strong> Grade selection advice — 625 vs C-276 vs 825 vs 718 — based on your specific operating conditions (temperature, media, stress)</li>
         </ul>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>Ready to order? See stock, sizes and pricing on our <a href="/inconel-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>Inconel 625 pipe supplier page</a>.</p>
 
         {/* FAQ */}
         <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Frequently Asked Questions — Inconel 625</h2>

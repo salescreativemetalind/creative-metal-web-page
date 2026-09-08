@@ -43,7 +43,7 @@ export default function SteelSupplierMathura() {
   return (
     <>
       <Title>Steel Supplier Mathura | IOCL Refinery Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Mathura — API pipes, NACE materials for IOCL Mathura refinery, shutdown support. 2-day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-mathura" />
       <Meta property="og:title" content="Steel Supplier Mathura | IOCL Refinery & Industrial Pipes | Creative Metal Industries" />

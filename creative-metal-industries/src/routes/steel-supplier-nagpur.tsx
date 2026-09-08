@@ -42,7 +42,7 @@ export default function SteelSupplierNagpur() {
   return (
     <>
       <Title>Steel Supplier Nagpur | Pipe Fittings & MS Angle | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Nagpur — SS pipes, MS angles, pipe fittings, structural steel for MIHAN SEZ & Butibori MIDC. 1-2 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-nagpur" />
       <Meta property="og:title" content="Steel Supplier Nagpur | Pipe Fittings, MS Angle, SS Pipes | Creative Metal Industries" />

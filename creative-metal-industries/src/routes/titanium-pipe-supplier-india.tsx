@@ -133,7 +133,6 @@ export default function TitaniumPipeSupplierIndia() {
     <>
       <Title>Titanium Pipe Supplier India | Grade 2 &amp; Grade 5 | CMI</Title>
       <Meta name="description" content="Titanium pipe supplier India. Grade 1, 2, 5, 7, 9 seamless pipes per ASTM B861. Lightweight corrosion-proof piping for chemical and desalination." />
-      <Meta name="keywords" content="titanium pipe supplier india, titanium grade 2 pipe, titanium grade 5 pipe, Ti-6Al-4V pipe, ASTM B861 pipe india, titanium tube supplier, titanium seamless pipe, CP titanium pipe, titanium condenser tube" />
       <Meta property="og:title" content="Titanium Pipe Supplier India | Grade 2 & Grade 5 | CMI" />
       <Meta property="og:description" content="India's trusted titanium pipe supplier. Grade 2 and Grade 5. ASTM B861. Chemical, desalination, aerospace grade. Ready stock." />
       <Meta property="og:type" content="product" />
@@ -177,7 +176,7 @@ export default function TitaniumPipeSupplierIndia() {
             Titanium Pipe Supplier India
           </h1>
           <p style="color:#d1d5db;font-size:18px;margin:0 0 10px;line-height:1.7">
-            India's specialist supplier of <strong style="color:#E8821A">titanium Grade 2 and Grade 5 (Ti-6Al-4V)</strong> seamless and welded pipes per ASTM B861/B862. The lightest and most corrosion-resistant metal for industrial piping — immune to seawater, chlorides, and oxidizing acids where stainless steel fails. 43% lighter than steel with infinite fatigue life. Sizes 1/2" to 12" NB. Stock and indent supply from Vadodara.
+India's specialist <strong style="color:#E8821A">titanium supplier</strong> and <strong style="color:#E8821A">titanium pipe supplier</strong>, stocking titanium Grade 2 and Grade 5 (Ti-6Al-4V) seamless and welded pipes per ASTM B861/B862. The lightest and most corrosion-resistant metal for industrial piping — immune to seawater, chlorides, and oxidizing acids where stainless steel fails. 43% lighter than steel with infinite fatigue life. Sizes 1/2" to 12" NB. Stock and indent supply from Vadodara. For round, square and hex bar, see our <a href="/titanium-bar-supplier-india" style="color:#E8821A;text-decoration:underline">titanium bar supplier</a> page.
           </p>
           <p style="color:#9ca3af;font-size:15px;margin:0 0 28px">
             Price Range: <strong style="color:#E8821A">Rs 5,000 – 25,000/kg</strong> | Full Traceability | Delivery across India & Export
@@ -347,6 +346,7 @@ export default function TitaniumPipeSupplierIndia() {
           <h3 style="font-size:20px;font-weight:700;color:#111827;margin:0 0 20px;text-align:center">Related Products</h3>
           <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px">
             {[
+              { href: "/titanium-bar-supplier-india", label: "Titanium Bar Supplier" },
               { href: "/titanium-grade-2-pipe-india", label: "Titanium Grade 2 Details" },
               { href: "/titanium-grade-5-pipe-india", label: "Titanium Grade 5 Details" },
               { href: "/nickel-200-pipe-supplier-india", label: "Nickel 200 Pipe" },

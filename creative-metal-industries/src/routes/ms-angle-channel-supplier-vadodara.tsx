@@ -136,7 +136,6 @@ export default function MSAngleChannelSupplierVadodara() {
       <Meta property="og:type" content="website" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="MS angle supplier Vadodara, MS channel ISMC supplier Gujarat. IS 808, IS 2062 E250. Equal angle 25×25 to 200×200, ISMC 75 to 400, TMT Fe500D." />
-      <Meta name="keywords" content="MS angle supplier Vadodara, MS channel supplier Vadodara, ISMC channel, structural steel Vadodara, ISMB beam Vadodara, TMT bar supplier Vadodara, MS flat bar Vadodara" />
       <Link rel="canonical" href="https://www.creativemetalind.com/ms-angle-channel-supplier-vadodara" />
       <Meta property="og:title" content="MS Angle &amp; Channel Supplier Vadodara | Structural Steel | CMI" />
       <Meta property="og:description" content="MS angle, ISMC channel, TMT bar, MS flat &amp; round bar supplier in Vadodara. IS 2062 E250, IS 808. Ready stock. ₹55-75/kg. Call +91 99982 80619." />

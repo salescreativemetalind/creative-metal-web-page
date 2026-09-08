@@ -42,7 +42,7 @@ export default function SteelSupplierSilvassa() {
   return (
     <>
       <Title>Steel Supplier Silvassa | Pipes & Fittings | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Silvassa — SS, CS, GI pipes & fittings for pharma, engineering & manufacturing. SAME-DAY delivery from Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-silvassa" />
       <Meta property="og:title" content="Steel Supplier Silvassa | Dadra & Nagar Haveli | Creative Metal Industries" />

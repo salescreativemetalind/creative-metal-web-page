@@ -42,7 +42,7 @@ export default function SteelSupplierKakinada() {
   return (
     <>
       <Title>Steel Supplier Kakinada | ONGC KG Basin Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Kakinada — offshore-grade API pipes, NACE materials, duplex for ONGC KG Basin & deep water port. 3-4 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-kakinada" />
       <Meta property="og:title" content="Steel Supplier Kakinada | ONGC KG Basin & Offshore | Creative Metal Industries" />

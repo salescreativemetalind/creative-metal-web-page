@@ -29,7 +29,7 @@ export default function InconelPipeSupplierIndia() {
     <>
       <Title>Inconel Pipe Supplier India | 625, 600, 718 | CMI Vadodara</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Inconel pipe supplier India — Inconel 625 (N06625), Inconel 600 (N06600), Inconel 718, Inconel 825 seamless and welded pipes. ASTM B444/B167." />
+      <Meta name="description" content="Inconel pipe supplier in India — Inconel 625 (N06625), 600 (N06600), 718 & 825 seamless and welded pipes. ASTM B444/B167. NACE + MTC certified." />
       <Link rel="canonical" href="https://www.creativemetalind.com/inconel-pipe-supplier-india" />
       <Meta property="og:title" content="Inconel Pipe Supplier India | 625, 600, 718, 825 | Creative Metal Industries" />
       <Meta property="og:type" content="website" />
@@ -75,6 +75,12 @@ export default function InconelPipeSupplierIndia() {
             </tbody>
           </table>
         </div>
+
+        {/* Inconel 625 */}
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Inconel 625 Pipe Supplier — Grades &amp; Specifications</h2>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
+          As a dedicated <strong>Inconel 625 supplier</strong>, we hold ready stock of <strong>Inconel 625 pipe</strong> (UNS N06625) in seamless and welded form to ASTM B444 and B705, sizes 1/2" to 12". The 61Ni-21.5Cr-9Mo-3.6Nb composition delivers standout resistance to pitting, crevice corrosion and stress-corrosion cracking, which is why 625 is the grade of choice for offshore, flue gas desulfurisation and chemical reactor duty. Every length ships with full MTC and heat traceability — see the grade table above for the complete 625 specification. For alloy selection background, our <a href="/blog/inconel-625-guide" style={{color:"#E8821A","text-decoration":"underline"}}>Inconel 625 technical guide</a> covers metallurgy and applications in depth.
+        </p>
 
         {/* Specifications */}
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Specifications &amp; Technical Details</h2>

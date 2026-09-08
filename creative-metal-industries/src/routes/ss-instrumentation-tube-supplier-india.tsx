@@ -124,7 +124,6 @@ export default function SSInstrumentationTubeSupplierIndia() {
     <>
       <Title>SS Instrumentation Tube Supplier India | 316L | CMI</Title>
       <Meta name="description" content="India's leading SS instrumentation tube supplier. 316L, 304L bright annealed tubing per ASTM A269. Fractional OD 1/8&quot; to 1&quot;." />
-      <Meta name="keywords" content="SS instrumentation tube supplier india, ASTM A269 tube, SS 316L instrument tubing, fractional tubing india, bright annealed tube, swagelok tube, instrument impulse line, 316L BA tube india" />
       <Meta property="og:title" content="SS Instrumentation Tube Supplier India | 316L BA | ASTM A269 | CMI" />
       <Meta property="og:description" content="SS 316L instrumentation tube supplier India. ASTM A269. Bright annealed. Fractional OD. Ready stock Vadodara." />
       <Meta property="og:type" content="product" />

@@ -42,7 +42,7 @@ export default function SteelSupplierKandla() {
   return (
     <>
       <Title>Steel Supplier Kandla | Port & SEZ Export Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Kandla — export pipes for SEZ, structural steel for port, SS for IFFCO. SAME-DAY delivery from Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-kandla" />
       <Meta property="og:title" content="Steel Supplier Kandla | Port, SEZ & Export Pipes | Creative Metal Industries" />

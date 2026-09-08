@@ -16,7 +16,6 @@ export default function SS304316LPage() {
       <Meta property="og:url" content="https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="SS 304 and SS 316L pipe supplier and seamless pipe manufacturer in India. ASTM A312 TP304/TP316L, 6NB–600NB, SCH 5S–XXS. IBR, NACE, MTC certified." />
-      <Meta name="keywords" content="SS 304 pipe supplier India, SS 316L pipe supplier India, stainless steel 304 pipe, stainless steel 316L seamless pipe, ASTM A312 pipe supplier, SS pipe manufacturer India" />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india" />
       <Meta property="og:title" content="SS 304 316L Pipe Supplier India | CMI" />
       <Meta property="og:description" content="SS 304 & 316L seamless/welded pipes — ASTM A312. All sizes & schedules. IBR, NACE certified. Ready stock India." />
@@ -39,7 +38,7 @@ export default function SS304316LPage() {
 
       <main style={{"max-width":"960px",margin:"0 auto",padding:"3rem 1.5rem"}}>
         <h1 style={{"font-size":"clamp(1.8rem,4vw,2.8rem)","font-weight":"800",color:"#111827","margin-bottom":"1.5rem"}}>SS 304 &amp; SS 316L Pipe Supplier in India</h1>
-        <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>Creative Metal Industries is India's leading supplier of <strong>SS 304 and SS 316L seamless and welded pipes</strong> per ASTM A312/A213. We stock both grades in all sizes from 6NB to 600NB, all schedules from SCH 5S to XXS, with IBR Form III-C, NACE MR-01-75, and complete Mill Test Certificates from India's top mills — <strong>Sandvik, Ratnamani, Venus Pipes, Salzgitter, and Tubacex</strong>.</p>
+        <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>Creative Metal Industries is India's leading <strong>SS 304 pipe supplier</strong> and <strong>SS 316 pipe supplier</strong>, stocking SS 304 and SS 316L seamless and welded pipes per ASTM A312/A213. We stock both grades in all sizes from 6NB to 600NB, all schedules from SCH 5S to XXS, with IBR Form III-C, NACE MR-01-75, and complete Mill Test Certificates from India's top mills — <strong>Sandvik, Ratnamani, Venus Pipes, Salzgitter, and Tubacex</strong>.</p>
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>SS 304 (UNS S30400) and SS 316L (UNS S31603) are the two most widely used austenitic stainless steel grades globally. Together they account for over 65% of all stainless steel pipe consumption in India. Established in <strong>2012</strong>, Creative Metal Industries maintains deep ready stock at GIDC Makarpura, Vadodara ensuring same-day dispatch to anywhere in India. Third-party inspection under <strong>DNV, TUV, SGS, BVIS, LRIS</strong> accepted at our facility.</p>
 
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS 304 vs SS 316L — Quick Comparison</h2>

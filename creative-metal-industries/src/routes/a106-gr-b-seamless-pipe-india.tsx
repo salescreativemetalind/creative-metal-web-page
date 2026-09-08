@@ -62,7 +62,7 @@ export default function A106GrBSeamlessPipeIndia() {
             A106 Gr.B Seamless Pipe Supplier India — ASTM A106 Grade B
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is a leading <strong>ASTM A106 Grade B seamless pipe supplier in India</strong> with 500+ tonnes ready stock for high-temperature service in power plants, refineries and process industries. A106 Gr.B is the industry standard carbon steel seamless pipe for service up to 425°C, used for boiler feedwater, steam distribution, process piping and heat exchanger connections. All pipes supplied with Mill Test Certificate per EN 10204 3.1. <strong>IBR Form III-C</strong> available for boiler-connected piping. Ready stock 1/2" to 24", SCH 40 to XXS at Vadodara.
+            Creative Metal Industries is a leading <strong>ASTM A106 Grade B seamless pipe supplier in India</strong> with 500+ tonnes ready stock for high-temperature service in power plants, refineries and process industries. As a specialist carbon steel seamless pipe supplier, we stock A106 Gr.B — the industry standard carbon steel seamless pipe for service up to 425°C, used for boiler feedwater, steam distribution, process piping and heat exchanger connections. All pipes supplied with Mill Test Certificate per EN 10204 3.1. <strong>IBR Form III-C</strong> available for boiler-connected piping. Ready stock 1/2" to 24", SCH 40 to XXS at Vadodara.
           </p>
         </div>
 
@@ -155,6 +155,7 @@ export default function A106GrBSeamlessPipeIndia() {
         <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Related Pages</h3>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
           {[
+            {href:"/carbon-steel-pipe-supplier-india",label:"Carbon Steel Pipe Supplier India"},
             {href:"/a53-erw-pipe-supplier-india",label:"A53 ERW Pipe Supplier India"},
             {href:"/a333-low-temp-pipe-supplier",label:"A333 Low Temp Pipe Supplier"},
             {href:"/carbon-steel-pipe-fittings-vadodara",label:"Carbon Steel Pipe & Fittings"},

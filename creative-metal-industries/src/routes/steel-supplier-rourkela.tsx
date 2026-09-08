@@ -104,7 +104,7 @@ export default function SteelSupplierRourkela() {
   return (
     <>
       <Title>Steel Supplier in Rourkela | SAIL RSP Alloys</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Leading steel supplier in Rourkela, Odisha. Alloy steel pipes P5-P91, IBR boiler tubes, duplex & exotic alloys for SAIL RSP maintenance. 2-3 day delivery." />
       <Link rel="canonical" href={`${defined.domain}${defined.slug}`} />
       <Meta property="og:title" content="Steel Supplier in Rourkela | SAIL RSP Alloys | Creative Metal Industries" />
@@ -115,7 +115,6 @@ export default function SteelSupplierRourkela() {
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:title" content="Steel Supplier in Rourkela | SAIL RSP Alloys" />
       <Meta name="twitter:description" content="Alloy steel pipes, IBR boiler tubes, duplex & exotic alloys for SAIL RSP and Western Odisha industries. Fast delivery from Creative Metal Industries." />
-      <Meta name="keywords" content="steel supplier Rourkela, SAIL Rourkela steel Odisha, alloy steel pipe Rourkela, IBR pipes Rourkela, stainless steel supplier Odisha, duplex steel Rourkela, Inconel supplier Rourkela, boiler tubes SAIL RSP" />
 
       <script type="application/ld+json" innerHTML={JSON.stringify(jsonLdLocal)} />
       <script type="application/ld+json" innerHTML={JSON.stringify(jsonLdFaq)} />

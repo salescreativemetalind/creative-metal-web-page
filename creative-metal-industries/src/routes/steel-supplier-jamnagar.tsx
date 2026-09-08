@@ -42,7 +42,7 @@ export default function SteelSupplierJamnagar() {
   return (
     <>
       <Title>Steel Supplier Jamnagar | Reliance Refinery Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Jamnagar — alloy steel, SS pipes for Reliance & Nayara refineries. SAME-DAY delivery from Vadodara (300 km). Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-jamnagar" />
       <Meta property="og:title" content="Steel Supplier Jamnagar | Reliance & Nayara Refinery Pipes | Creative Metal Industries" />

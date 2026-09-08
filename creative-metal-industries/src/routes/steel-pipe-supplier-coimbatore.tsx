@@ -42,7 +42,7 @@ export default function SteelPipeSupplierCoimbatore() {
   return (
     <>
       <Title>Pipe Supplier Coimbatore | SS Tubes & Flanges | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Pipe supplier Coimbatore — SS tubes, pipes, flanges for pump & valve industry. SS 304/316L, carbon steel. 2-3 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-coimbatore" />
       <Meta property="og:title" content="Pipe Supplier Coimbatore | SS Tubes, Flanges | Creative Metal Industries" />

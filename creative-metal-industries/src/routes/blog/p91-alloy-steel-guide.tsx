@@ -116,6 +116,7 @@ export default function P91AlloyGuide() {
           <li><strong>Fittings & flanges:</strong> ASTM A234 WP91 butt-weld fittings + A182 F91 flanges available as a complete <strong>SS pipe fittings flanges supplier in India</strong> covering alloy grades</li>
           <li><strong>Technical guidance:</strong> We advise on WPS parameters, PWHT requirements, and post-weld hardness acceptance — drawing on 15 years of supplying P91 to NTPC, BHEL, L&T, and state genco projects</li>
         </ul>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>For P91, P22 and P11 stock, sizes and pricing, visit our <a href="/alloy-steel-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>alloy steel pipe supplier page</a>.</p>
 
         {/* FAQ */}
         <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Frequently Asked Questions — P91 Alloy Steel</h2>

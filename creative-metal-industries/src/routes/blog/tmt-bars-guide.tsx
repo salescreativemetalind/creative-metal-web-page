@@ -16,7 +16,6 @@ export default function TmtBarsGuide() {
       <Meta property="og:url" content="https://www.creativemetalind.com/blog/tmt-bars-guide" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete TMT bars guide — Fe 500D meaning & full form, thermo-mechanical treatment process, Fe 500 vs Fe 500D vs Fe 550D grades, yield strength, weight chart & price per kg. TMT bars supplier Gujarat." />
-      <Meta name="keywords" content="fe500d, fe 500d, fe500d meaning, fe500d full form, fe500d metal, fe500d steel, fe500d tmt bar, fe500d yield strength, fe500d chemical composition, fe500 vs fe500d, fe500d vs fe550d, tmt bar, tmt bar price per kg, tmt bar weight chart, tmt bar grades, best tmt bar, is 1786, tmt bars supplier gujarat, tmt bar manufacturer gujarat" />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/tmt-bars-guide" />
       <Meta property="og:title" content="TMT Bars — The Backbone of Gujarat's Infrastructure" />
       <Meta property="og:type" content="article" />

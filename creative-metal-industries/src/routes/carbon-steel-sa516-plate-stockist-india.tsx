@@ -38,11 +38,10 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function SA516PlatePage() {
   return (
     <>
-      <Title>SA 516 Plate Stockist India | Gr.60/70 | CMI</Title>
+      <Title>Carbon Steel Plate &amp; SA 516 Stockist India | CMI</Title>
       <Meta property="og:type" content="website" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Leading carbon steel SA 516 Grade 60/70 plate stockist in India. Boiler quality, NACE/HIC, IBR certified. 6mm-200mm thickness. Ready stock Vadodara." />
-      <Meta name="keywords" content="SA 516 plate stockist India, carbon steel SA 516 Gr 70, SA 516 Gr 60 plate, boiler quality plate India, pressure vessel plate stockist, NACE HIC plate India, IBR plate supplier, carbon steel plate Vadodara" />
+      <Meta name="description" content="Carbon steel plate supplier & SA 516 Grade 60/70 plate stockist in India. Boiler quality, NACE/HIC, IBR certified. 6mm-200mm thickness. Ready stock Vadodara." />
       <Link rel="canonical" href="https://www.creativemetalind.com/carbon-steel-sa516-plate-stockist-india" />
       <Meta property="og:title" content="Carbon Steel SA 516 Plate Stockist India | CMI" />
       <Meta property="og:description" content="India's trusted SA 516 Gr.60/70 plate stockist — boiler quality, NACE/HIC, IBR. Ready stock 6mm-200mm. GIDC Makarpura, Vadodara." />
@@ -78,7 +77,7 @@ export default function SA516PlatePage() {
         </h1>
 
         <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Creative Metal Industries — established in <strong>2012</strong> — is India's trusted stockist and supplier of <strong>ASTM SA 516 Grade 60 and Grade 70 carbon steel plates</strong> for pressure vessel, boiler, and heat exchanger fabrication. We maintain ready stock of SA 516 plates from <strong>6mm to 200mm thickness</strong> at our GIDC Makarpura, Vadodara facility — with IBR Form III-C certification, NACE MR-01-75 compliance, and HIC test reports available for every heat.
+          Creative Metal Industries — established in <strong>2012</strong> — is a trusted <strong>carbon steel plate supplier</strong> and stockist of <strong>ASTM SA 516 Grade 60 and Grade 70 carbon steel plates</strong> in India for pressure vessel, boiler, and heat exchanger fabrication. We maintain ready stock of SA 516 plates from <strong>6mm to 200mm thickness</strong> at our GIDC Makarpura, Vadodara facility — with IBR Form III-C certification, NACE MR-01-75 compliance, and HIC test reports available for every heat.
         </p>
 
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
@@ -94,6 +93,9 @@ export default function SA516PlatePage() {
         </p>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
           SA 516 plates are characterised by their excellent weldability (no preheat required up to 40mm thickness), good low-temperature impact toughness when normalised, and suitability for post-weld heat treatment (PWHT). They are manufactured through the hot rolling process and can be supplied in as-rolled, normalised, or stress-relieved conditions.
+        </p>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
+          For structural fabrication and general engineering — where pressure-vessel certification is not required — a structural carbon steel is more economical. See our <a href="/astm-a36-steel-plate-supplier-india" style={{color:"#E8821A","text-decoration":"underline"}}>ASTM A36 steel plate</a> for base plates, frames, and general fabrication.
         </p>
 
         {/* Grades Table */}
@@ -256,6 +258,7 @@ export default function SA516PlatePage() {
         </h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(220px,1fr))",gap:"0.75rem","margin-bottom":"2rem"}}>
           {[
+            {href:"/astm-a36-steel-plate-supplier-india",label:"ASTM A36 Structural Plate"},
             {href:"/ss-pipe-supplier-vadodara",label:"SS Pipe Supplier Vadodara"},
             {href:"/carbon-steel-pipe-fittings-vadodara",label:"Carbon Steel Pipe & Fittings"},
             {href:"/nace-hic-steel-plate-supplier-india",label:"NACE HIC Steel Plate"},

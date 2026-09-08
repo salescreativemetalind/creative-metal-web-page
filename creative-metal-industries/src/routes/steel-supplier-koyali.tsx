@@ -86,9 +86,8 @@ export default function SteelSupplierKoyali() {
   return (
     <>
       <Title>Steel Supplier Koyali | IOCL Refinery Pipe &amp; Fittings | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Leading steel supplier in Koyali, Gujarat. SAME-DAY delivery to IOCL Gujarat Refinery (just 15 km away)." />
-      <Meta name="keywords" content="steel supplier Koyali IOCL, refinery pipe Gujarat, steel supplier Koyali, IOCL Gujarat Refinery supplier, pipe fittings Koyali, NACE steel Koyali, alloy steel pipe Koyali, carbon steel Koyali" />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-koyali" />
       <Meta property="og:title" content="Steel Supplier Koyali | IOCL Refinery Pipe & Fittings | Same-Day Delivery" />
       <Meta property="og:description" content="Closest steel supplier to IOCL Gujarat Refinery Koyali - just 15 km away! SAME-DAY delivery of pipes, fittings, flanges & NACE plates. Creative Metal Industries Vadodara." />

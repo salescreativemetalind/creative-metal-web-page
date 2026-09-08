@@ -16,7 +16,6 @@ export default function SS316LGuide() {
       <Meta property="og:url" content="https://www.creativemetalind.com/blog/ss-316l-stainless-steel-guide" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Guide to SS 316L stainless steel — molybdenum-enhanced corrosion resistance, composition, mechanical properties and pharma, marine and chemical uses." />
-      <Meta name="keywords" content="ss 316l, ss316l, 316l stainless steel, ss 316, aisi 316l, uns s31603, 1.4404, marine grade stainless steel, ss 316 vs 316l, ss 304 vs ss 316, 316l chemical composition, 316l properties, 316l price per kg, ss 316l pipe, ss 316l plate, ss 316l sheet, stainless steel pipe manufacturer india, ss pipe supplier vadodara" />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-316l-stainless-steel-guide" />
       <Meta property="og:title" content="SS 316L Stainless Steel — Complete Material Guide" />
       <Meta property="og:type" content="article" />

@@ -125,8 +125,7 @@ export default function DuplexSteelSupplierVadodara() {
       <Title>Duplex Steel Supplier Vadodara | IBR Certified Pipes | CMI</Title>
       <Meta property="og:type" content="website" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Leading duplex steel supplier in Vadodara — Duplex 2205, Super Duplex 2507, Alloy Steel P91/P22/P11 pipes with IBR Form III-C. NACE, MTC certified." />
-      <Meta name="keywords" content="duplex steel supplier Vadodara, alloy steel P91 pipe stockist Gujarat, IBR certified pipe supplier Gujarat, super duplex 2507 Vadodara, duplex 2205 pipe Gujarat, P91 pipe IBR Gujarat" />
+      <Meta name="description" content="Leading duplex steel supplier in Vadodara — Duplex 2205 pipe, Super Duplex 2507, Alloy Steel P91/P22/P11 with IBR Form III-C. NACE, MTC certified." />
       <Link rel="canonical" href="https://www.creativemetalind.com/duplex-steel-supplier-vadodara" />
       <Meta property="og:title" content="Duplex Steel Supplier Vadodara | P91 Alloy Steel | IBR Certified | CMI" />
       <Meta property="og:description" content="Duplex 2205, Super Duplex 2507, Alloy Steel P91/P22/P11 pipes with IBR Form III-C. NACE, MTC certified. GIDC Makarpura Vadodara. Call +91 99982 80619." />
@@ -201,7 +200,7 @@ export default function DuplexSteelSupplierVadodara() {
               Duplex &amp; Super Duplex Steel — Grades &amp; Specifications
             </h2>
             <p style={{ color: "#6b7280", "margin-bottom": "2rem", "font-size": "0.95rem" }}>
-              All duplex grades available as seamless &amp; welded pipes, plates, fittings and flanges with ASTM MTC.
+              As a trusted <strong>Duplex 2205 pipe</strong> and <strong>2205 pipe supplier</strong>, we hold ready stock of Duplex 2205 (S31803/S32205) in seamless and welded form to ASTM A790, alongside Super Duplex 2507 and Zeron 100. All duplex grades are available as pipes, plates, fittings and flanges with ASTM MTC — dispatched from Vadodara across Gujarat and India.
             </p>
             <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(280px,1fr))", gap: "1.25rem" }}>
               {DUPLEX_GRADES.map(g => (

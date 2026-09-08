@@ -42,7 +42,7 @@ export default function SteelSupplierDurgapur() {
   return (
     <>
       <Title>Steel Supplier Durgapur | IBR Pipes & Alloys | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Durgapur — IBR alloy pipes, exotic alloys, SS pipes for SAIL DSP & DVC power plants. 3-4 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-durgapur" />
       <Meta property="og:title" content="Steel Supplier Durgapur | SAIL DSP & Power Plant Pipes | Creative Metal Industries" />

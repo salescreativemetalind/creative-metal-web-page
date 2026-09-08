@@ -48,13 +48,12 @@ export default function SteelPipeSupplierHubli() {
   return (
     <>
       <Title>Pipe Supplier Hubli | SS & CS Pipes Karnataka | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta property="og:type" content="website" />
       <Meta property="og:title" content="Pipe Supplier Hubli | SS & CS Pipes Karnataka | CMI" />
       <Meta property="og:description" content="Pipe supplier Hubli-Dharwad — SS, CS, structural pipes for engineering, textile, food industries. 1-2 day delivery. Call +91 99982 80619." />
       <Meta property="og:url" content="https://www.creativemetalind.com/steel-pipe-supplier-hubli" />
       <Meta name="description" content="Pipe supplier Hubli-Dharwad — SS, CS, structural pipes for engineering, textile, food industries. 1-2 day delivery. Call +91 99982 80619." />
-      <Meta name="keywords" content="pipe supplier Hubli Karnataka, steel Dharwad, steel pipe supplier Hubli, SS pipes Hubli, CS pipes Karnataka, structural steel Hubli-Dharwad" />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-hubli" />
 
       {/* Hero Section */}

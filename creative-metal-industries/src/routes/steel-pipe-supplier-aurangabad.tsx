@@ -42,7 +42,7 @@ export default function SteelPipeSupplierAurangabad() {
   return (
     <>
       <Title>Pipe Supplier Aurangabad | Waluj MIDC Steel | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel pipe supplier Aurangabad — SS, CS, precision tubes for Waluj MIDC, breweries & pharma. 1-day delivery from Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-aurangabad" />
       <Meta property="og:title" content="Pipe Supplier Aurangabad | Waluj MIDC & Brewery | Creative Metal Industries" />

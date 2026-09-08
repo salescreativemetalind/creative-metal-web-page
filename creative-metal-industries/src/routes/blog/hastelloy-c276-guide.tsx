@@ -16,7 +16,6 @@ export default function HasteloyC276Guide() {
       <Meta property="og:url" content="https://www.creativemetalind.com/blog/hastelloy-c276-guide" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Hastelloy C-276 (UNS N10276 / Alloy C276) — the ultimate nickel alloy for HCl, H₂SO₄, wet chlorine, and mixed acid environments. Composition, properties, Hastelloy vs Inconel comparison, and price per kg in India." />
-      <Meta name="keywords" content="hastelloy c276, hastelloy c-276, alloy c276, uns n10276, hastelloy metal, hastelloy alloy, c276 chemical composition, hastelloy c276 properties, hastelloy c276 applications, hastelloy vs inconel, hastelloy c276 vs inconel 625, inconel vs hastelloy vs monel, hastelloy c276 pipe, hastelloy c276 plate, hastelloy c276 price per kg, hastelloy c276 price in india, hastelloy supplier india" />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/hastelloy-c276-guide" />
       <Meta property="og:title" content="Hastelloy C-276 — The Ultimate Nickel Alloy for Extreme Environments" />
       <Meta property="og:type" content="article" />
@@ -118,6 +117,7 @@ export default function HasteloyC276Guide() {
           <li><strong>Cut-to-size:</strong> Plasma/waterjet cutting for plates, pipe cutting to length — minimising your exotic alloy wastage</li>
           <li><strong>Also supplying:</strong> Complete plant material packages — combining C-276 with <a href="/ss-pipe-supplier-vadodara" style={{color:"#E8821A"}}>SS pipes</a>, <a href="/carbon-steel-pipe-fittings-vadodara" style={{color:"#E8821A"}}>CS fittings</a>, flanges, and gaskets as a one-stop <strong>SS pipe fittings flanges supplier in India</strong></li>
         </ul>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>For grades, stock and pricing, visit our <a href="/hastelloy-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>Hastelloy C276 pipe supplier page</a>.</p>
 
         {/* FAQ */}
         <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Frequently Asked Questions — Hastelloy C-276</h2>

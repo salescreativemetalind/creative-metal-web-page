@@ -42,7 +42,7 @@ export default function SteelSupplierPanipat() {
   return (
     <>
       <Title>Steel Supplier Panipat | IOCL Refinery Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Panipat — API pipes, NACE materials for IOCL refinery, IBR alloy for NTPC. 2-day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-panipat" />
       <Meta property="og:title" content="Steel Supplier Panipat | IOCL Refinery & NTPC Pipes | Creative Metal Industries" />

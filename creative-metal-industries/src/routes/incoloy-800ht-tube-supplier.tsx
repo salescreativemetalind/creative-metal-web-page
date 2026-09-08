@@ -108,10 +108,6 @@ export default function Incoloy800htTubeSupplier() {
         name="description"
         content="Incoloy 800HT tube supplier India. ASTM B407/B163 seamless tubes, UNS N08811, OD 25-168mm for ethylene crackers and reformers."
       />
-      <Meta
-        name="keywords"
-        content="Incoloy 800HT tube supplier, Incoloy 800HT seamless tube, ASTM B407, UNS N08811, ethylene cracker tubes, reformer tubes, high temperature tubes India"
-      />
       <Link rel="canonical" href="https://www.creativemetalind.com/incoloy-800ht-tube-supplier" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />

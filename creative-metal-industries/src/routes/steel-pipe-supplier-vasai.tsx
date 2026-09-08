@@ -52,13 +52,12 @@ export default function SteelPipeSupplierVasai() {
   return (
     <>
       <Title>Pipe Supplier Vasai | SS & CS Pipes Palghar | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta property="og:type" content="website" />
       <Meta property="og:title" content="Pipe Supplier Vasai | SS & CS Pipes Palghar | CMI" />
       <Meta property="og:description" content="Pipe supplier Vasai-Virar — SS 316L pharma-grade, CS pipes, structural steel for Palghar industries. 1-day delivery. Call +91 99982 80619." />
       <Meta property="og:url" content={`${domain}/steel-pipe-supplier-vasai`} />
       <Meta name="description" content="Pipe supplier Vasai-Virar — SS 316L pharma-grade, CS pipes, structural steel for Palghar industries. 1-day delivery. Call +91 99982 80619." />
-      <Meta name="keywords" content="pipe supplier Vasai Palghar, industrial steel Vasai, steel pipe supplier Vasai-Virar, SS pipes Palghar, CS pipes Vasai, pharma grade pipes Vasai" />
       <Link rel="canonical" href={`${domain}/steel-pipe-supplier-vasai`} />
 
       {/* Hero Section */}

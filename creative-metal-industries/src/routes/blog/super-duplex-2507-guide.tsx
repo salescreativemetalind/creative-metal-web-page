@@ -16,7 +16,6 @@ export default function SuperDuplex2507Guide() {
       <Meta property="og:url" content="https://www.creativemetalind.com/blog/super-duplex-2507-guide" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Super Duplex 2507 (UNS S32750 / 1.4410) — PREN 42 for seawater and offshore. Chemical composition, 550 MPa yield strength, 2205 vs 2507 comparison, subsea applications and price per kg." />
-      <Meta name="keywords" content="super duplex 2507, 2507 super duplex, uns s32750, uns s32760, 1.4410, saf 2507, alloy 2507, super duplex 2507 metal, super duplex 2507 chemical composition, super duplex 2507 properties, super duplex 2507 pren, 2205 vs 2507, super duplex 2507 pipe, super duplex 2507 plate, super duplex 2507 flange, super duplex 2507 price per kg, super duplex supplier india" />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/super-duplex-2507-guide" />
       <Meta property="og:title" content="Super Duplex 2507 — The Oil & Gas Industry's Preferred Alloy" />
       <Meta property="og:type" content="article" />
@@ -118,6 +117,7 @@ export default function SuperDuplex2507Guide() {
           <li><strong>Project quantities:</strong> From single trial lengths to full platform requirements — 5 MT to 500+ MT supply capability</li>
           <li><strong>Also stocking:</strong> <a href="/carbon-steel-sa516-plate-stockist-india" style={{color:"#E8821A"}}>SA 516 plates</a> and other materials for complete project supply as a one-stop <strong>industrial metal supplier</strong></li>
         </ul>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>See sizes, stock and pricing on our <a href="/super-duplex-2507-pipe-supplier" style={{color:"#E8821A","font-weight":"600"}}>Super Duplex 2507 pipe supplier page</a>.</p>
 
         {/* FAQ */}
         <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Frequently Asked Questions — Super Duplex 2507</h2>

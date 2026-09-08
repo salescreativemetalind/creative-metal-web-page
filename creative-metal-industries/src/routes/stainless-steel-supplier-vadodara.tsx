@@ -150,8 +150,7 @@ export default function StainlessSteelSupplierVadodara() {
       <Title>Stainless Steel Supplier Vadodara | SS Pipes Gujarat | CMI</Title>
       <Meta property="og:type" content="website" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Top stainless steel supplier in Vadodara Gujarat — Creative Metal Industries. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges." />
-      <Meta name="keywords" content="stainless steel supplier Vadodara, stainless steel pipe manufacturer Vadodara, stainless steel supplier Vadodara Gujarat, SS 304 supplier Vadodara, SS 316L supplier Gujarat, duplex steel supplier Vadodara" />
+      <Meta name="description" content="Trusted stainless steel supplier in Vadodara, Gujarat serving all India — Creative Metal Industries. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges." />
       <Link rel="canonical" href="https://www.creativemetalind.com/stainless-steel-supplier-vadodara" />
       <Meta property="og:title" content="Stainless Steel Supplier Vadodara | SS Pipe Manufacturer Gujarat | CMI" />
       <Meta property="og:description" content="Top stainless steel supplier in Vadodara Gujarat. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges. IBR, NACE, MTC certified. Call +91 99982 80619." />
@@ -194,7 +193,8 @@ export default function StainlessSteelSupplierVadodara() {
               <span style={{ color: "#E8821A" }}>Vadodara, Gujarat</span>
             </h1>
             <p style={{ "font-size": "1.1rem", color: "#374151", "max-width": "720px", "line-height": "1.75", "margin-bottom": "2rem" }}>
-              Creative Metal Industries is Vadodara's most trusted stainless steel supplier and mill-authorised stockist.
+              Creative Metal Industries is Vadodara's most trusted stainless steel supplier and mill-authorised stockist,
+              serving customers as a reliable <strong>stainless steel supplier</strong> across Gujarat and pan-India.
               We supply <strong>SS 304, 316L, 317L, 321, 310S, 347, 904L, Duplex 2205 and Super Duplex 2507</strong> in
               pipes, plates, sheets, fittings, flanges and bars — all with full MTC, IBR Form III-C and NACE documentation.
               Ready stock at our <strong>GIDC Makarpura, Vadodara</strong> yard.

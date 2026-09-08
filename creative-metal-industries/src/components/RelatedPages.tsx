@@ -48,8 +48,10 @@ const ALLOY_STEEL_PAGES = [
 ];
 
 const CARBON_STEEL_PAGES = [
+  { href: "/carbon-steel-pipe-supplier-india", label: "Carbon Steel Pipe Supplier" },
   { href: "/carbon-steel-pipe-fittings-vadodara", label: "CS Pipe Fittings Vadodara" },
   { href: "/carbon-steel-sa516-plate-stockist-india", label: "SA 516 Plate Stockist" },
+  { href: "/astm-a36-steel-plate-supplier-india", label: "ASTM A36 Steel Plate" },
   { href: "/carbon-steel-spectacle-blind-india", label: "CS Spectacle Blind" },
   { href: "/a106-gr-b-seamless-pipe-india", label: "A106 Gr B Seamless Pipe" },
   { href: "/a53-erw-pipe-supplier-india", label: "A53 ERW Pipe" },
@@ -82,6 +84,7 @@ const EXOTIC_ALLOY_PAGES = [
   { href: "/hastelloy-c22-pipe-supplier-india", label: "Hastelloy C22 Pipe" },
   { href: "/hastelloy-b2-pipe-supplier-india", label: "Hastelloy B2 Pipe" },
   { href: "/titanium-pipe-supplier-india", label: "Titanium Pipe India" },
+  { href: "/titanium-bar-supplier-india", label: "Titanium Bar Supplier" },
   { href: "/titanium-grade-2-pipe-india", label: "Titanium Grade 2 Pipe" },
   { href: "/titanium-grade-5-pipe-india", label: "Titanium Grade 5 Pipe" },
   { href: "/copper-nickel-pipe-supplier-india", label: "Copper Nickel Pipe" },

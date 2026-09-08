@@ -37,7 +37,6 @@ export default function SS304Guide() {
       <Meta property="og:url" content="https://www.creativemetalind.com/blog/ss-304-stainless-steel-guide" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Complete guide to SS 304 stainless steel — 18/8 composition, mechanical properties, applications in food, chemical, pharma industries." />
-      <Meta name="keywords" content="ss 304, ss304, 304 stainless steel, aisi 304, uns s30400, 1.4301, 18/8 stainless steel, ss 304 vs ss 316, ss 304 vs ss 202, is ss 304 magnetic, ss 304 food grade, ss 304 chemical composition, ss 304 properties, ss 304 price per kg, ss 304 pipe, ss 304 sheet, ss 304 plate, stainless steel pipe manufacturer india, ss pipe supplier vadodara" />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/ss-304-stainless-steel-guide" />
       <Meta property="og:title" content="SS 304 Stainless Steel — Complete Guide | CMI India" />
       <Meta property="og:description" content="Everything about SS 304 — composition, properties, applications, welding, and sourcing from India's leading stainless steel pipe manufacturer." />

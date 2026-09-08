@@ -42,7 +42,7 @@ export default function SteelSupplierChandigarh() {
   return (
     <>
       <Title>Steel Supplier Chandigarh | Pipe Fittings Punjab | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Chandigarh — SS pipes, CS pipes, pipe fittings, flanges, GI pipes for Punjab & Haryana industries. Ready stock. 2-day delivery." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-chandigarh" />
       <Meta property="og:title" content="Steel Supplier Chandigarh | Pipe Fittings Punjab Haryana | Creative Metal Industries" />

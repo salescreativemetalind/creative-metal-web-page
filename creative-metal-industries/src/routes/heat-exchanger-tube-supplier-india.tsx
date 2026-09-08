@@ -142,7 +142,6 @@ export default function HeatExchangerTubeSupplierIndia() {
     <>
       <Title>Heat Exchanger Tube Supplier India | Condenser Tubes | CMI</Title>
       <Meta name="description" content="India's trusted heat exchanger &amp; condenser tube supplier. SS 304/316L, Duplex 2205, CuNi, Titanium, Inconel tubes per ASTM A249/A213/B111/B338." />
-      <Meta name="keywords" content="heat exchanger tube supplier india, condenser tube supplier, ASTM A249 tube, shell and tube exchanger, SS 316L HX tube, CuNi condenser tube, titanium condenser tube, duplex 2205 tube india" />
       <Meta property="og:title" content="Heat Exchanger Tube Supplier India | Condenser Tubes | CMI" />
       <Meta property="og:description" content="Heat exchanger &amp; condenser tube supplier India. SS, CuNi, Titanium, Inconel. ASTM A249/B111/B338. 100% ECT. Ready stock." />
       <Meta property="og:type" content="product" />

@@ -41,7 +41,6 @@ export default function ErwVsSeamlessPipe() {
       <Meta property="og:url" content="https://www.creativemetalind.com/blog/erw-vs-seamless-pipe" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="ERW vs seamless pipe — manufacturing difference, strength, pressure rating, cost, standards (IS 1239, ASTM A106, API 5L), and when to use each." />
-      <Meta name="keywords" content="ERW vs seamless pipe, ERW pipe vs seamless pipe difference, ERW vs seamless pipe India, electric resistance welded pipe, seamless pipe ASTM A106, IS 1239 ERW pipe" />
       <Link rel="canonical" href="https://www.creativemetalind.com/blog/erw-vs-seamless-pipe" />
       <Meta property="og:title" content="ERW vs Seamless Pipe — Which Should You Choose?" />
       <Meta property="og:description" content="Complete technical comparison for Indian buyers — manufacturing, pressure, cost, standards, applications." />
@@ -225,6 +224,8 @@ export default function ErwVsSeamlessPipe() {
             <details style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1rem 1.25rem"}}><summary style={{"font-weight":"700","font-size":"0.92rem",color:"#111827",cursor:"pointer"}}>{f.q}</summary><p style={{"font-size":"0.88rem",color:"#374151","line-height":"1.7","margin-top":"0.6rem","margin-bottom":0}}>{f.a}</p></details>
           ))}
         </div>
+
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>Ready to buy? Explore our <a href="/a53-erw-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>A53 ERW pipe supplier</a> and <a href="/a106-gr-b-seamless-pipe-india" style={{color:"#E8821A","font-weight":"600"}}>A106 seamless pipe supplier</a> pages for grades, sizes and pricing.</p>
 
         {/* CTA */}
         <div style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)","border-radius":"12px",padding:"2rem","text-align":"center","margin-bottom":"2rem"}}>

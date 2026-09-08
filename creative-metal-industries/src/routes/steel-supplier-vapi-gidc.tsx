@@ -42,7 +42,7 @@ export default function SteelSupplierVapiGIDC() {
   return (
     <>
       <Title>Steel Supplier Vapi GIDC | Chemical & Paper Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Vapi GIDC — SS 316L, Hastelloy, duplex pipes for chemical, paper & textile industry. SAME-DAY delivery from Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-vapi-gidc" />
       <Meta property="og:title" content="Steel Supplier Vapi GIDC | Chemical, Paper & Pharma Pipes | Creative Metal Industries" />

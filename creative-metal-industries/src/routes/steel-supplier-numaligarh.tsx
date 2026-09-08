@@ -42,7 +42,7 @@ export default function SteelSupplierNumaligarh() {
   return (
     <>
       <Title>Steel Supplier Numaligarh | NRL Refinery Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Numaligarh — API pipes, alloy steel for NRL refinery expansion, ONGC & OIL Assam. 5-6 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-numaligarh" />
       <Meta property="og:title" content="Steel Supplier Numaligarh | NRL Refinery & NE India Pipes | Creative Metal Industries" />

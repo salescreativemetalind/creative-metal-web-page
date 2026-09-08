@@ -94,6 +94,7 @@ export default function MsStructuralSteelGuide() {
           <li><strong>Cut-to-size:</strong> Plate and section cutting to your drawing — saves fabrication time on site</li>
           <li><strong>Gujarat-wide delivery:</strong> Vadodara, Ahmedabad, Surat, Rajkot, Bharuch, Ankleshwar — bulk and retail</li>
         </ul>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>For form-specific stock and sizes see our <a href="/ms-plate-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>MS plate supplier</a> and <a href="/ms-angle-channel-supplier-vadodara" style={{color:"#E8821A","font-weight":"600"}}>MS angle &amp; channel supplier</a> pages.</p>
 
         <h2 style={{"font-size":"1.5rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Frequently Asked Questions — MS Structural Steel</h2>
         <div style={{display:"flex","flex-direction":"column",gap:"0.75rem","margin-bottom":"3rem"}}>

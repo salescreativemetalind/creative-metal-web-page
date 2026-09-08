@@ -62,7 +62,7 @@ export default function AlloySteelPipeSupplierIndia() {
             Alloy Steel Pipe Supplier in India — ASTM A335 P91, P22, P11
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is India's trusted <strong>alloy steel pipe supplier</strong> stocking ASTM A335 seamless pipes in all P-grades — P5, P9, P11, P12, P22, P91 and P92. These chrome-moly (Cr-Mo) alloy steel pipes are engineered for high-temperature, high-pressure service in power plant boilers, superheaters, main steam lines and HRSG systems. All pipes supplied with <strong>IBR Form III-C</strong> certification, sourced from world-class mills including Sumitomo (Japan), Vallourec (France) and ISMT (India). Ready stock at our Vadodara warehouse with same-day dispatch across India.
+            Creative Metal Industries is India's trusted <strong>alloy steel pipe supplier</strong> stocking ASTM A335 seamless pipes in all P-grades — P5, P9, P11, P12, P22, P91 and P92. These chrome moly (Cr-Mo) alloy steel pipes — often called chrome-moly pipe — are engineered for high-temperature, high-pressure service in power plant boilers, superheaters, main steam lines and HRSG systems. All pipes supplied with <strong>IBR Form III-C</strong> certification, sourced from world-class mills including Sumitomo (Japan), Vallourec (France) and ISMT (India). Ready stock at our Vadodara warehouse with same-day dispatch across India.
           </p>
         </div>
 
@@ -116,6 +116,12 @@ export default function AlloySteelPipeSupplierIndia() {
             We maintain dedicated IBR-certified stock of P11, P22 and P91 pipes at our Vadodara warehouse for immediate dispatch to power plant projects.
           </p>
         </div>
+
+        {/* P91 Section */}
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>ASTM A335 P91 Pipe — Grade Focus</h2>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
+          Among the chrome-moly range, <strong>P91 pipe</strong> (9Cr-1Mo-V-Nb) is the workhorse of modern supercritical and ultra-supercritical boilers. Its high creep strength allows thinner, lighter main steam lines and headers at temperatures up to 600°C. P91 owes its performance to a precise tempered-martensitic microstructure — normalised at 1040-1080°C then tempered at 730-780°C — so correct heat treatment is critical. We hold IBR-certified <strong>ASTM A335 P91</strong> seamless pipe in heavy-wall schedules up to XXS, each supplied with heat treatment certificates and PMI verification. For deeper metallurgy, see our <a href="/blog/p91-alloy-steel-guide" style={{color:"#E8821A","text-decoration":"underline"}}>P91 alloy steel guide</a>.
+        </p>
 
         {/* Why Choose CMI */}
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Why Choose CMI as Your Alloy Steel Pipe Supplier in India?</h2>

@@ -42,7 +42,7 @@ export default function SteelSupplierPanoliGIDC() {
   return (
     <>
       <Title>Steel Supplier Panoli GIDC | Dye Chemical Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Panoli GIDC — Hastelloy, SS 316L, duplex pipes for India's largest dye cluster. SAME-DAY delivery from Vadodara (120 km). Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-panoli-gidc" />
       <Meta property="og:title" content="Steel Supplier Panoli GIDC | Dye & Chemical Pipes | Creative Metal Industries" />

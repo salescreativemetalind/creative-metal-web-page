@@ -42,7 +42,7 @@ export default function SteelSupplierHaldia() {
   return (
     <>
       <Title>Steel Supplier Haldia | Refinery Pipes & Fittings | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Haldia — SS pipes, alloy steel P91/P22, fittings for IOCL Refinery & petrochemical plants. 3-4 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-haldia" />
       <Meta property="og:title" content="Steel Supplier Haldia | IOCL Refinery Pipes & Fittings | Creative Metal Industries" />

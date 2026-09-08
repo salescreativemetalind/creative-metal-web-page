@@ -43,7 +43,7 @@ export default function SteelPipeSupplierMadurai() {
   return (
     <>
       <Title>Pipe Supplier Madurai | SS & CS Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Pipe supplier Madurai — SS 304/316L, carbon steel, structural pipes for textile, auto, food industries. 2-3 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-madurai" />
       <Meta property="og:title" content="Pipe Supplier Madurai | Industrial SS & CS Pipes | Creative Metal Industries" />

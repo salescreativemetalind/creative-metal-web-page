@@ -42,7 +42,7 @@ export default function SteelPipeSupplierBhubaneswar() {
   return (
     <>
       <Title>Pipe Supplier Bhubaneswar | IOCL Paradip | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel pipe supplier Bhubaneswar — API pipes for IOCL Paradip, alloy steel for Tata Steel Kalinganagar & NALCO. 2-3 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-bhubaneswar" />
       <Meta property="og:title" content="Pipe Supplier Bhubaneswar | IOCL Paradip & Odisha Industries | Creative Metal Industries" />

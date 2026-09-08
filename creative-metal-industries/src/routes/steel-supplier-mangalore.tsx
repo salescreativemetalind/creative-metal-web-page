@@ -42,7 +42,7 @@ export default function SteelSupplierMangalore() {
   return (
     <>
       <Title>Steel Supplier Mangalore | MRPL Refinery Pipes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Steel supplier Mangalore — alloy steel, SS pipes for MRPL Refinery, BASF, port. 2-day delivery from Vadodara. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-supplier-mangalore" />
       <Meta property="og:title" content="Steel Supplier Mangalore | MRPL Refinery Pipes & SS Fittings | Creative Metal Industries" />

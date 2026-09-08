@@ -42,7 +42,7 @@ export default function SteelPipeSupplierVizag() {
   return (
     <>
       <Title>Pipe Supplier Vizag | HPCL Steel Vizag | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Pipe supplier Vizag — SS, carbon steel, alloy, duplex pipes for HPCL refinery, Vizag Steel Plant, NTPC Simhadri. IBR certified. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-vizag" />
       <Meta property="og:title" content="Pipe Supplier Vizag | HPCL, RINL, NTPC | Creative Metal Industries" />

@@ -42,7 +42,7 @@ export default function SteelPipeSupplierTrichy() {
   return (
     <>
       <Title>Pipe Supplier Trichy | BHEL Boiler Tubes | CMI</Title>
-      <Meta name="robots" content="index, follow, max-image-preview:large" />
+      <Meta name="robots" content="noindex, follow" />
       <Meta name="description" content="Pipe supplier Trichy — alloy P91/P22 boiler tubes for BHEL, IBR pipes for NLC power plants. 2-3 day delivery. Call +91 99982 80619." />
       <Link rel="canonical" href="https://www.creativemetalind.com/steel-pipe-supplier-trichy" />
       <Meta property="og:title" content="Pipe Supplier Trichy | BHEL Boiler Tubes & Alloy Steel | Creative Metal Industries" />
