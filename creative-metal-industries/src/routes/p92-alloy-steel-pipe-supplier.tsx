@@ -158,8 +158,8 @@ export default function P92AlloySteelPipeSupplier() {
             {href:"/alloy-steel-pipe-supplier-india",label:"Alloy Steel Pipe Supplier India"},
             {href:"/p22-alloy-steel-pipe-supplier",label:"P22 Alloy Steel Pipe Supplier"},
             {href:"/p9-alloy-steel-pipe-supplier",label:"P9 Alloy Steel Pipe Supplier"},
-            {href:"/sa-387-alloy-plate-supplier-india",label:"SA387 Alloy Plate Supplier"},
-            {href:"/a691-pipe-supplier-india",label:"A691 EFW Pipe Supplier"},
+            {href:"/carbon-steel-sa516-plate-stockist-india",label:"SA 516 Plate Stockist"},
+            {href:"/api-5l-line-pipe-supplier-india",label:"API 5L Line Pipe"},
           ].map(l => (
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}

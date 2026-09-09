@@ -152,7 +152,7 @@ export default function TitaniumPipeSupplierIndia() {
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>
             <a href="/about" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">About</a>
-            <a href="/blog" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Blog</a>
+            <a href="/products" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Products</a>
             <a href="tel:+919998280619" style="background:#E8821A;color:#fff;padding:8px 18px;border-radius:6px;text-decoration:none;font-size:14px;font-weight:600">+91 99982 80619</a>
           </div>
         </div>
@@ -349,12 +349,11 @@ India's specialist <strong style="color:#E8821A">titanium supplier</strong> and 
               { href: "/titanium-bar-supplier-india", label: "Titanium Bar Supplier" },
               { href: "/titanium-grade-2-pipe-india", label: "Titanium Grade 2 Details" },
               { href: "/titanium-grade-5-pipe-india", label: "Titanium Grade 5 Details" },
-              { href: "/nickel-200-pipe-supplier-india", label: "Nickel 200 Pipe" },
+              { href: "/monel-400-pipe-supplier-india", label: "Monel 400 Pipe" },
               { href: "/hastelloy-pipe-supplier-india", label: "Hastelloy C-276 Pipe" },
               { href: "/inconel-pipe-supplier-india", label: "Inconel 625/600 Pipe" },
-              { href: "/copper-nickel-pipe-supplier-india", label: "Copper Nickel Pipe" },
+              { href: "/incoloy-800-pipe-supplier-india", label: "Incoloy 800/825 Pipe" },
               { href: "/duplex-steel-supplier-vadodara", label: "Duplex 2205/2507" },
-              { href: "/heat-exchanger-tube-supplier-india", label: "Heat Exchanger Tubes" },
             ].map(link => (
               <a href={link.href} style="background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:14px 16px;text-decoration:none;font-size:14px;font-weight:600;color:#E8821A;text-align:center">
                 {link.label} →

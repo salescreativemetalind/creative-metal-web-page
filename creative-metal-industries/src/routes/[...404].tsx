@@ -32,9 +32,6 @@ export default function NotFoundPage() {
             <A href="/products" class="btn btn-outline" style="padding:0.75rem 1.5rem">
               Browse Products
             </A>
-            <A href="/blog" class="btn btn-outline" style="padding:0.75rem 1.5rem">
-              Read Our Blog
-            </A>
           </div>
 
           <div style="background:#f9fafb;border-radius:12px;padding:2rem;text-align:left">
@@ -44,10 +41,9 @@ export default function NotFoundPage() {
               <li style="margin-bottom:0.5rem"><A href="/alloy-steel-pipe-supplier-india">Alloy Steel Pipe</A></li>
               <li style="margin-bottom:0.5rem"><A href="/duplex-steel-supplier-vadodara">Duplex Steel</A></li>
               <li style="margin-bottom:0.5rem"><A href="/inconel-pipe-supplier-india">Inconel Pipe</A></li>
-              <li style="margin-bottom:0.5rem"><A href="/ss-buttweld-fittings-supplier-india">SS Fittings</A></li>
-              <li style="margin-bottom:0.5rem"><A href="/ss-flanges-supplier-vadodara">SS Flanges</A></li>
+              <li style="margin-bottom:0.5rem"><A href="/stainless-steel-supplier-vadodara">Stainless Steel Vadodara</A></li>
               <li style="margin-bottom:0.5rem"><A href="/carbon-steel-sa516-plate-stockist-india">CS SA516 Plate</A></li>
-              <li style="margin-bottom:0.5rem"><A href="/tmt-bars-supplier-gujarat">TMT Bars Gujarat</A></li>
+              <li style="margin-bottom:0.5rem"><A href="/ms-plate-supplier-india">MS Plate</A></li>
             </ul>
           </div>
 

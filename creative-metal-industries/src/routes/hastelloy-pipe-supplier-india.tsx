@@ -116,7 +116,7 @@ const SCHEMA = JSON.stringify({
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.creativemetalind.com" },
-        { "@type": "ListItem", "position": 2, "name": "Exotic Alloy Pipes", "item": "https://www.creativemetalind.com/exotic-alloy-pipes" },
+        { "@type": "ListItem", "position": 2, "name": "Exotic Alloy Pipes", "item": "https://www.creativemetalind.com/inconel-pipe-supplier-india" },
         { "@type": "ListItem", "position": 3, "name": "Hastelloy Pipe Supplier India", "item": "https://www.creativemetalind.com/hastelloy-pipe-supplier-india" }
       ]
     }
@@ -157,7 +157,7 @@ export default function HastelloyPipeSupplierIndia() {
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>
             <a href="/about" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">About</a>
-            <a href="/blog" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Blog</a>
+            <a href="/products" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Products</a>
             <a href="tel:+919998280619" style="background:#E8821A;color:#fff;padding:8px 18px;border-radius:6px;text-decoration:none;font-size:14px;font-weight:600">+91 99982 80619</a>
           </div>
         </div>
@@ -241,7 +241,7 @@ export default function HastelloyPipeSupplierIndia() {
             Hastelloy C276 Pipe Supplier — Grade &amp; Specifications
           </h2>
           <p style="color:#4b5563;font-size:16px;line-height:1.8;margin:0">
-            As a specialist <strong>Hastelloy C276 supplier</strong>, we hold ready stock of <strong>Hastelloy C276 pipe</strong> (UNS N10276) in seamless form to ASTM B622, sizes 1/2" to 12" NB. Its 57Ni-16Cr-16Mo-5Fe-4W chemistry makes C-276 the most versatile corrosion-resistant alloy for both oxidizing and reducing media — the standard choice for hydrochloric acid, sulfuric acid, wet chlorine and FGD systems where stainless and duplex grades fail. Every length ships solution annealed with full MTC and heat traceability; see the grade table above for complete C-276 data. For metallurgy and selection background, read our <a href="/blog/hastelloy-c276-guide" style="color:#E8821A;text-decoration:underline">Hastelloy C276 guide</a>.
+            As a specialist <strong>Hastelloy C276 supplier</strong>, we hold ready stock of <strong>Hastelloy C276 pipe</strong> (UNS N10276) in seamless form to ASTM B622, sizes 1/2" to 12" NB. Its 57Ni-16Cr-16Mo-5Fe-4W chemistry makes C-276 the most versatile corrosion-resistant alloy for both oxidizing and reducing media — the standard choice for hydrochloric acid, sulfuric acid, wet chlorine and FGD systems where stainless and duplex grades fail. Every length ships solution annealed with full MTC and heat traceability; see the grade table above for complete C-276 data.
           </p>
         </div>
       </section>
@@ -369,10 +369,10 @@ export default function HastelloyPipeSupplierIndia() {
             {[
               { href: "/inconel-pipe-supplier-india", label: "Inconel 625/600 Pipe" },
               { href: "/monel-400-pipe-supplier-india", label: "Monel 400 Pipe" },
-              { href: "/nickel-200-pipe-supplier-india", label: "Nickel 200 Pipe" },
+              { href: "/hastelloy-c22-pipe-supplier-india", label: "Hastelloy C22 Pipe" },
               { href: "/incoloy-800-pipe-supplier-india", label: "Incoloy 800/825 Pipe" },
               { href: "/titanium-pipe-supplier-india", label: "Titanium Pipe" },
-              { href: "/copper-nickel-pipe-supplier-india", label: "Copper Nickel Pipe" },
+              { href: "/hastelloy-b2-pipe-supplier-india", label: "Hastelloy B2 Pipe" },
               { href: "/duplex-steel-supplier-vadodara", label: "Duplex 2205/2507" },
               { href: "/ss-seamless-pipe-supplier-india", label: "SS Seamless Pipe" },
             ].map(link => (

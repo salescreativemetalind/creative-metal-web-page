@@ -23,7 +23,7 @@ const FAQS = [
   { q:"Do you supply galvanised A53 ERW pipe?", a:"Yes, Creative Metal Industries stocks ASTM A53 Type E Grade B ERW pipe in both black (uncoated) and hot-dip galvanised finish. Our galvanised pipe meets the zinc coating requirements of ASTM A53 Section 14 — minimum 610 g/m² zinc coating on outside and 305 g/m² on inside. Galvanised pipe is stocked in sizes 1/2 inch to 8 inches, SCH 40, in 6-metre lengths. Available with threaded ends (BSP or NPT) and sockets, or plain/bevelled ends. Ideal for water supply, potable water systems, fire protection, outdoor structural and corrosive environment applications." },
 ];
 
-const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/a53-erw-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","address":{"@type":"PostalAddress","streetAddress":"F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390001","addressCountry":"IN"},"url":"https://www.creativemetalind.com","openingHours":"Mo-Sa 09:00-18:00"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Carbon Steel Pipe","item":"https://www.creativemetalind.com/carbon-steel-pipe-fittings-vadodara"},{"@type":"ListItem","position":3,"name":"A53 ERW Pipe Supplier India","item":"https://www.creativemetalind.com/a53-erw-pipe-supplier-india"}]}]});
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/a53-erw-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","address":{"@type":"PostalAddress","streetAddress":"F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390001","addressCountry":"IN"},"url":"https://www.creativemetalind.com","openingHours":"Mo-Sa 09:00-18:00"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Carbon Steel Pipe","item":"https://www.creativemetalind.com/carbon-steel-pipe-supplier-india"},{"@type":"ListItem","position":3,"name":"A53 ERW Pipe Supplier India","item":"https://www.creativemetalind.com/a53-erw-pipe-supplier-india"}]}]});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":FAQS.map(f=>({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}}))});
 
 export default function A53ErwPipeSupplierIndia() {
@@ -52,7 +52,7 @@ export default function A53ErwPipeSupplierIndia() {
       </nav>
       <div style={{background:"#f9fafb","border-bottom":"1px solid #e5e7eb",padding:"0.6rem 1.5rem","font-size":"0.82rem",color:"#6b7280"}}>
         <a href="/" style={{color:"#E8821A","text-decoration":"none"}}>Home</a><span style={{margin:"0 0.5rem"}}>{"\u203A"}</span>
-        <a href="/carbon-steel-pipe-fittings-vadodara" style={{color:"#E8821A","text-decoration":"none"}}>Carbon Steel Pipe</a><span style={{margin:"0 0.5rem"}}>{"\u203A"}</span>
+        <a href="/carbon-steel-pipe-supplier-india" style={{color:"#E8821A","text-decoration":"none"}}>Carbon Steel Pipe</a><span style={{margin:"0 0.5rem"}}>{"\u203A"}</span>
         <span>A53 ERW Pipe Supplier India</span>
       </div>
 
@@ -156,9 +156,9 @@ export default function A53ErwPipeSupplierIndia() {
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
           {[
             {href:"/a106-gr-b-seamless-pipe-india",label:"A106 Gr.B Seamless Pipe India"},
-            {href:"/a333-low-temp-pipe-supplier",label:"A333 Low Temp Pipe Supplier"},
-            {href:"/carbon-steel-pipe-fittings-vadodara",label:"Carbon Steel Pipe & Fittings"},
-            {href:"/a691-pipe-supplier-india",label:"A691 EFW Pipe Supplier"},
+            {href:"/carbon-steel-pipe-supplier-india",label:"Carbon Steel Pipe Supplier India"},
+            {href:"/api-5l-line-pipe-supplier-india",label:"API 5L Line Pipe Supplier"},
+            {href:"/carbon-steel-sa516-plate-stockist-india",label:"Carbon Steel SA516 Plate"},
             {href:"/alloy-steel-pipe-supplier-india",label:"Alloy Steel Pipe Supplier"},
           ].map(l => (
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>

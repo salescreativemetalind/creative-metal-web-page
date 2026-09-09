@@ -118,7 +118,7 @@ export default function MSFlatBarSupplierIndia() {
         <ul style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.9", "padding-left": "1.25rem" }}>
           <li><a href="/stainless-steel-supplier-vadodara" style={{ color: "#E8821A", "font-weight": "600" }}>Stainless Steel Supplier Vadodara</a></li>
           <li><a href="/inconel-pipe-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>Inconel Pipe Supplier India</a></li>
-          <li><a href="/blog/carbon-steel-pipe-guide" style={{ color: "#E8821A", "font-weight": "600" }}>Carbon Steel Pipe Guide</a></li>
+          <li><a href="/carbon-steel-pipe-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>Carbon Steel Pipe India</a></li>
         </ul>
 
         {/* FAQ Section */}

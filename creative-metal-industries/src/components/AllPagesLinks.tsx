@@ -1,6 +1,9 @@
 /**
- * AllPagesLinks — SEO internal links section for homepage
- * Professional card-based layout with pill-style links
+ * AllPagesLinks — SEO internal links section for homepage.
+ *
+ * The blog/guide content this component used to link to has been removed as
+ * part of focusing the site strictly on the target product keywords.
+ * It now renders the product/supplier landing pages grouped by metal category.
  */
 
 const cardStyle = {
@@ -44,16 +47,16 @@ const gridStyle = {
   gap: "0.5rem",
 };
 
-function LinkCard(props: { icon: string; title: string; links: {href: string; label: string}[] }) {
+function LinkCard(props: { icon: string; title: string; links: { href: string; label: string }[] }) {
   return (
     <div style={cardStyle}>
       <h3 style={cardHeadingStyle}>
-        <span style={{"font-size":"1.2rem"}}>{props.icon}</span>
+        <span style={{ "font-size": "1.2rem" }}>{props.icon}</span>
         {props.title}
-        <span style={{"margin-left":"auto","font-size":"0.75rem","font-weight":"500",color:"#9ca3af"}}>{props.links.length} pages</span>
+        <span style={{ "margin-left": "auto", "font-size": "0.75rem", "font-weight": "500", color: "#9ca3af" }}>{props.links.length} pages</span>
       </h3>
       <div style={gridStyle}>
-        {props.links.map(l => (
+        {props.links.map((l) => (
           <a href={l.href} style={pillStyle}>{l.label}</a>
         ))}
       </div>
@@ -61,440 +64,83 @@ function LinkCard(props: { icon: string; title: string; links: {href: string; la
   );
 }
 
+const STAINLESS_LINKS = [
+  { href: "/ss-304-316l-pipe-supplier-india", label: "SS 304/316L Pipe" },
+  { href: "/ss-seamless-pipe-supplier-india", label: "SS Seamless Pipe" },
+  { href: "/ss-310-pipe-supplier-india", label: "SS 310 Pipe" },
+  { href: "/ss-310s-plate-supplier-india", label: "SS 310S Plate" },
+  { href: "/ss-321-pipe-supplier-india", label: "SS 321 Pipe" },
+  { href: "/ss-347-pipe-supplier-india", label: "SS 347 Pipe" },
+  { href: "/ss-410-pipe-supplier-india", label: "SS 410 Pipe" },
+  { href: "/ss-430-sheet-supplier-india", label: "SS 430 Sheet" },
+  { href: "/ss-904l-pipe-supplier-india", label: "SS 904L Pipe" },
+  { href: "/ss-sheet-supplier-vadodara", label: "SS Sheet Supplier" },
+  { href: "/stainless-steel-supplier-vadodara", label: "Stainless Steel Vadodara" },
+  { href: "/stainless-steel-supplier-gujarat", label: "Stainless Steel Gujarat" },
+];
+
+const CARBON_LINKS = [
+  { href: "/carbon-steel-pipe-supplier-india", label: "Carbon Steel Pipe" },
+  { href: "/carbon-steel-sa516-plate-stockist-india", label: "SA 516 Plate" },
+  { href: "/a106-gr-b-seamless-pipe-india", label: "A106 Gr B Seamless Pipe" },
+  { href: "/a53-erw-pipe-supplier-india", label: "A53 ERW Pipe" },
+  { href: "/api-5l-line-pipe-supplier-india", label: "API 5L Line Pipe" },
+  { href: "/astm-a36-steel-plate-supplier-india", label: "ASTM A36 Steel Plate" },
+];
+
+const ALLOY_LINKS = [
+  { href: "/alloy-steel-pipe-supplier-india", label: "Alloy Steel Pipe" },
+  { href: "/p5-alloy-steel-pipe-supplier", label: "P5 Alloy Steel Pipe" },
+  { href: "/p9-alloy-steel-pipe-supplier", label: "P9 Alloy Steel Pipe" },
+  { href: "/p11-alloy-steel-pipe-supplier", label: "P11 Alloy Steel Pipe" },
+  { href: "/p22-alloy-steel-pipe-supplier", label: "P22 Alloy Steel Pipe" },
+  { href: "/p92-alloy-steel-pipe-supplier", label: "P92 Alloy Steel Pipe" },
+];
+
+const DUPLEX_LINKS = [
+  { href: "/duplex-steel-supplier-vadodara", label: "Duplex Steel Supplier" },
+  { href: "/duplex-2205-plate-supplier-india", label: "Duplex 2205 Plate" },
+  { href: "/super-duplex-2507-pipe-supplier", label: "Super Duplex 2507 Pipe" },
+];
+
+const NICKEL_LINKS = [
+  { href: "/inconel-pipe-supplier-india", label: "Inconel Pipe" },
+  { href: "/inconel-600-pipe-supplier-india", label: "Inconel 600 Pipe" },
+  { href: "/inconel-718-supplier-india", label: "Inconel 718" },
+  { href: "/incoloy-800-pipe-supplier-india", label: "Incoloy 800 Pipe" },
+  { href: "/incoloy-825-pipe-supplier-india", label: "Incoloy 825 Pipe" },
+  { href: "/hastelloy-pipe-supplier-india", label: "Hastelloy Pipe" },
+  { href: "/hastelloy-c22-pipe-supplier-india", label: "Hastelloy C22 Pipe" },
+  { href: "/hastelloy-b2-pipe-supplier-india", label: "Hastelloy B2 Pipe" },
+  { href: "/monel-400-pipe-supplier-india", label: "Monel 400 Pipe" },
+  { href: "/monel-k500-supplier-india", label: "Monel K500" },
+];
+
+const TITANIUM_LINKS = [
+  { href: "/titanium-pipe-supplier-india", label: "Titanium Pipe" },
+  { href: "/titanium-bar-supplier-india", label: "Titanium Bar" },
+  { href: "/titanium-grade-2-pipe-india", label: "Titanium Grade 2 Pipe" },
+  { href: "/titanium-grade-5-pipe-india", label: "Titanium Grade 5 Pipe" },
+];
+
+const STRUCTURAL_LINKS = [
+  { href: "/ms-plate-supplier-india", label: "MS Plate" },
+  { href: "/ms-angle-channel-supplier-vadodara", label: "MS Angle / Channel" },
+  { href: "/ms-beam-ismb-supplier-india", label: "MS Beam ISMB" },
+  { href: "/ms-channel-ismc-supplier-india", label: "MS Channel ISMC" },
+  { href: "/ms-flat-bar-supplier-india", label: "MS Flat Bar" },
+];
+
 export function AllPagesLinks() {
   return (
-    <div style={{"display":"grid","grid-template-columns":"repeat(auto-fit, minmax(340px, 1fr))","gap":"1.5rem"}}>
-      <LinkCard icon="💰" title="Price & Rate Guides" links={PRICE_LINKS} />
-      <LinkCard icon="⚖️" title="Weight Charts & Calculators" links={WEIGHT_LINKS} />
-      <LinkCard icon="⚔️" title="Material Comparisons" links={COMPARISON_LINKS} />
-      <LinkCard icon="📋" title="Specifications & Standards" links={SPEC_LINKS} />
-      <LinkCard icon="🏭" title="Industry Application Guides" links={INDUSTRY_LINKS} />
-      <LinkCard icon="🔧" title="How-To & Process Guides" links={HOWTO_LINKS} />
-      <LinkCard icon="📚" title="Material Knowledge" links={KNOWLEDGE_LINKS} />
-      <LinkCard icon="🛒" title="Buyer Guides & Procurement" links={BUYER_LINKS} />
-      <LinkCard icon="📏" title="Size Charts & Dimensions" links={SIZE_LINKS} />
-      <LinkCard icon="❓" title="FAQ & Questions" links={FAQ_LINKS} />
-      <LinkCard icon="📂" title="Case Studies & Projects" links={CASE_LINKS} />
+    <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit, minmax(340px, 1fr))", gap: "1.5rem" }}>
+      <LinkCard icon="⚪" title="Stainless Steel" links={STAINLESS_LINKS} />
+      <LinkCard icon="⚫" title="Carbon Steel" links={CARBON_LINKS} />
+      <LinkCard icon="🔩" title="Alloy Steel (Chrome-Moly)" links={ALLOY_LINKS} />
+      <LinkCard icon="🟡" title="Duplex & Super Duplex" links={DUPLEX_LINKS} />
+      <LinkCard icon="🟠" title="Nickel Alloys" links={NICKEL_LINKS} />
+      <LinkCard icon="🔵" title="Titanium" links={TITANIUM_LINKS} />
+      <LinkCard icon="🏗️" title="Mild / Structural Steel" links={STRUCTURAL_LINKS} />
     </div>
   );
 }
-
-const PRICE_LINKS = [
-  {href:"/blog/ss-304-pipe-price-per-kg",label:"SS 304 Pipe Price/Kg"},
-  {href:"/blog/ss-316l-pipe-price-per-kg",label:"SS 316L Pipe Price/Kg"},
-  {href:"/blog/ss-304-sheet-price-per-kg",label:"SS 304 Sheet Price"},
-  {href:"/blog/ss-316-sheet-price-per-kg",label:"SS 316 Sheet Price"},
-  {href:"/blog/ss-304-plate-price-india",label:"SS 304 Plate Price"},
-  {href:"/blog/ss-316l-plate-price-india",label:"SS 316L Plate Price"},
-  {href:"/blog/duplex-2205-pipe-price-india",label:"Duplex 2205 Pipe"},
-  {href:"/blog/super-duplex-2507-pipe-price",label:"Super Duplex 2507"},
-  {href:"/blog/duplex-2205-plate-price",label:"Duplex 2205 Plate"},
-  {href:"/blog/inconel-625-pipe-price-india",label:"Inconel 625 Pipe"},
-  {href:"/blog/inconel-600-pipe-price",label:"Inconel 600 Pipe"},
-  {href:"/blog/monel-400-pipe-price-india",label:"Monel 400 Pipe"},
-  {href:"/blog/hastelloy-c276-pipe-price",label:"Hastelloy C276"},
-  {href:"/blog/titanium-pipe-price-india",label:"Titanium Pipe"},
-  {href:"/blog/copper-nickel-pipe-price",label:"Copper Nickel Pipe"},
-  {href:"/blog/alloy-20-pipe-price-india",label:"Alloy 20 Pipe"},
-  {href:"/blog/alloy-steel-p91-pipe-price",label:"P91 Alloy Pipe"},
-  {href:"/blog/alloy-steel-p22-pipe-price",label:"P22 Alloy Pipe"},
-  {href:"/blog/alloy-steel-p11-pipe-price",label:"P11 Alloy Pipe"},
-  {href:"/blog/carbon-steel-a106-pipe-price",label:"A106 CS Pipe"},
-  {href:"/blog/erw-pipe-price-india",label:"ERW Pipe Price"},
-  {href:"/blog/api-5l-pipe-price-india",label:"API 5L Pipe"},
-  {href:"/blog/ss-pipe-price-list-india",label:"SS Price List 2026"},
-  {href:"/blog/ss-fittings-price-india",label:"SS Fittings Price"},
-  {href:"/blog/ss-flange-price-india",label:"SS Flange Price"},
-  {href:"/blog/forged-fittings-price-india",label:"Forged Fittings"},
-  {href:"/blog/sa-516-plate-price-india",label:"SA 516 Plate"},
-  {href:"/blog/sa-387-plate-price-india",label:"SA 387 Plate"},
-  {href:"/blog/boiler-tube-price-india",label:"Boiler Tube"},
-  {href:"/blog/ss-round-bar-price-india",label:"SS Round Bar"},
-  {href:"/blog/ms-angle-price-today",label:"MS Angle Today"},
-  {href:"/blog/ms-channel-price-today",label:"MS Channel Today"},
-  {href:"/blog/ms-beam-price-today",label:"MS Beam Today"},
-  {href:"/blog/ms-plate-price-vadodara",label:"MS Plate Vadodara"},
-  {href:"/blog/tmt-bar-price-today-gujarat",label:"TMT Bar Gujarat"},
-  {href:"/blog/incoloy-800-price-india",label:"Incoloy 800"},
-  {href:"/blog/nickel-200-price-india",label:"Nickel 200"},
-  {href:"/blog/hardox-plate-price-india",label:"Hardox Plate"},
-  {href:"/blog/nickel-lme-price-impact-ss",label:"Nickel LME Impact"},
-  {href:"/blog/steel-price-forecast-india-2026",label:"Price Forecast 2026"},
-];
-
-const WEIGHT_LINKS = [
-  {href:"/blog/pipe-weight-calculator",label:"Pipe Weight Calculator"},
-  {href:"/blog/steel-weight-calculator",label:"Steel Weight Calculator"},
-  {href:"/blog/ss-pipe-weight-chart",label:"SS Pipe Weight"},
-  {href:"/blog/cs-pipe-weight-chart",label:"CS Pipe Weight"},
-  {href:"/blog/alloy-steel-pipe-weight-chart",label:"Alloy Pipe Weight"},
-  {href:"/blog/erw-pipe-weight-chart",label:"ERW Pipe Weight"},
-  {href:"/blog/ms-angle-weight-chart",label:"MS Angle Weight"},
-  {href:"/blog/ismc-channel-weight-chart",label:"ISMC Channel"},
-  {href:"/blog/ismb-beam-weight-chart",label:"ISMB Beam"},
-  {href:"/blog/tmt-bar-weight-chart",label:"TMT Bar Weight"},
-  {href:"/blog/ms-flat-bar-weight-chart",label:"MS Flat Bar"},
-  {href:"/blog/ms-round-bar-weight-chart",label:"MS Round Bar"},
-  {href:"/blog/ms-square-bar-weight-chart",label:"MS Square Bar"},
-  {href:"/blog/ss-plate-weight-calculator",label:"SS Plate Calculator"},
-  {href:"/blog/ms-plate-weight-calculator",label:"MS Plate Calculator"},
-  {href:"/blog/ss-round-bar-weight-chart",label:"SS Round Bar"},
-  {href:"/blog/flange-weight-chart",label:"Flange Weight"},
-  {href:"/blog/gi-pipe-weight-chart",label:"GI Pipe Weight"},
-  {href:"/blog/copper-nickel-pipe-weight",label:"CuNi Pipe"},
-  {href:"/blog/inconel-pipe-weight-chart",label:"Inconel Pipe"},
-  {href:"/blog/duplex-pipe-weight-chart",label:"Duplex Pipe"},
-  {href:"/blog/titanium-pipe-weight-chart",label:"Titanium Pipe"},
-  {href:"/blog/monel-pipe-weight-chart",label:"Monel Pipe"},
-  {href:"/blog/hastelloy-pipe-weight-chart",label:"Hastelloy Pipe"},
-  {href:"/blog/pipe-elbow-weight-chart",label:"Pipe Elbow"},
-  {href:"/blog/ss-sheet-weight-calculator",label:"SS Sheet Calculator"},
-  {href:"/blog/hollow-section-weight-chart",label:"Hollow Section"},
-  {href:"/blog/chequered-plate-weight-chart",label:"Chequered Plate"},
-  {href:"/blog/ss-angle-weight-chart",label:"SS Angle"},
-  {href:"/blog/pipe-volume-calculator",label:"Pipe Volume"},
-];
-
-const COMPARISON_LINKS = [
-  {href:"/blog/carbon-steel-vs-stainless-steel",label:"CS vs SS"},
-  {href:"/blog/ss-304-vs-ss-316-difference",label:"SS 304 vs 316"},
-  {href:"/blog/alloy-steel-vs-carbon-steel",label:"Alloy vs Carbon"},
-  {href:"/blog/duplex-2205-vs-inconel-625",label:"Duplex vs Inconel"},
-  {href:"/blog/astm-vs-asme-difference",label:"ASTM vs ASME"},
-  {href:"/blog/is-1239-vs-is-3589",label:"IS 1239 vs 3589"},
-  {href:"/blog/ss-304-vs-ss-202",label:"SS 304 vs 202"},
-  {href:"/blog/seamless-vs-spiral-welded-pipe",label:"Seamless vs Spiral"},
-  {href:"/blog/ss-pipe-vs-gi-pipe",label:"SS vs GI Pipe"},
-  {href:"/blog/forged-vs-cast-fittings",label:"Forged vs Cast"},
-  {href:"/blog/indian-mill-vs-imported-pipe",label:"Indian vs Import"},
-  {href:"/blog/ss-304-vs-ss-304l",label:"304 vs 304L"},
-  {href:"/blog/ss-316-vs-ss-316l",label:"316 vs 316L"},
-  {href:"/blog/wn-flange-vs-so-flange",label:"WN vs SO Flange"},
-  {href:"/blog/socket-weld-vs-threaded",label:"SW vs Threaded"},
-  {href:"/blog/a312-vs-a358-pipe",label:"A312 vs A358"},
-  {href:"/blog/duplex-2205-vs-ss-316l",label:"Duplex vs 316L"},
-  {href:"/blog/sa516-gr60-vs-gr70",label:"SA516 Gr60 vs 70"},
-  {href:"/blog/ss-310-vs-ss-304",label:"SS 310 vs 304"},
-  {href:"/blog/ss-321-vs-ss-347",label:"SS 321 vs 347"},
-  {href:"/blog/inconel-625-vs-inconel-600",label:"Inconel 625 vs 600"},
-  {href:"/blog/inconel-625-vs-hastelloy-c276",label:"Inconel vs Hastelloy"},
-  {href:"/blog/monel-400-vs-monel-k500",label:"Monel 400 vs K500"},
-  {href:"/blog/titanium-vs-stainless-steel",label:"Titanium vs SS"},
-  {href:"/blog/duplex-vs-super-duplex",label:"Duplex vs Super"},
-  {href:"/blog/p91-vs-p22-alloy-steel",label:"P91 vs P22"},
-  {href:"/blog/p11-vs-p22-difference",label:"P11 vs P22"},
-  {href:"/blog/sa-179-vs-sa-192-boiler-tube",label:"SA 179 vs 192"},
-  {href:"/blog/sa-213-vs-sa-249-tube",label:"SA 213 vs 249"},
-  {href:"/blog/sa-106-vs-api-5l",label:"A106 vs API 5L"},
-  {href:"/blog/rf-vs-ff-vs-rtj-flange",label:"RF vs FF vs RTJ"},
-  {href:"/blog/ansi-flange-vs-din-flange",label:"ANSI vs DIN"},
-  {href:"/blog/class-150-vs-class-300-flange",label:"Class 150 vs 300"},
-  {href:"/blog/schedule-10-vs-schedule-40",label:"SCH 10 vs 40"},
-  {href:"/blog/sch-80-vs-sch-160-pipe",label:"SCH 80 vs 160"},
-  {href:"/blog/butt-weld-vs-socket-weld",label:"BW vs SW"},
-  {href:"/blog/3000-vs-6000-lb-fittings",label:"3000# vs 6000#"},
-  {href:"/blog/nace-mr0175-vs-mr0103",label:"MR0175 vs MR0103"},
-  {href:"/blog/psl1-vs-psl2-api-5l",label:"PSL1 vs PSL2"},
-  {href:"/blog/hot-rolled-vs-cold-rolled-steel",label:"HR vs CR Steel"},
-  {href:"/blog/austenitic-vs-ferritic-stainless",label:"Austenitic vs Ferritic"},
-  {href:"/blog/austenitic-vs-martensitic",label:"Austenitic vs Martensitic"},
-  {href:"/blog/seamless-vs-welded-ss-pipe",label:"Seamless vs Welded SS"},
-  {href:"/blog/a234-wpb-vs-a420-wpl6",label:"WPB vs WPL6"},
-  {href:"/blog/cs-plate-vs-alloy-plate",label:"CS vs Alloy Plate"},
-  {href:"/blog/fe500-vs-fe500d-tmt",label:"Fe500 vs Fe500D"},
-  {href:"/blog/sail-vs-jsw-tmt-bars",label:"SAIL vs JSW"},
-  {href:"/blog/ss-304-vs-316-food-industry",label:"304 vs 316 Food"},
-  {href:"/blog/copper-nickel-9010-vs-7030",label:"CuNi 90/10 vs 70/30"},
-  {href:"/blog/en10204-31-vs-32-certificate",label:"3.1 vs 3.2 MTC"},
-];
-
-const SPEC_LINKS = [
-  {href:"/blog/asme-b16-5-flange-dimensions",label:"ASME B16.5"},
-  {href:"/blog/asme-b16-9-fittings-dimensions",label:"ASME B16.9"},
-  {href:"/blog/asme-b16-11-forged-fittings",label:"ASME B16.11"},
-  {href:"/blog/asme-b16-47-large-flanges",label:"ASME B16.47"},
-  {href:"/blog/asme-b36-10-pipe-dimensions",label:"ASME B36.10"},
-  {href:"/blog/asme-b36-19-ss-pipe-dimensions",label:"ASME B36.19"},
-  {href:"/blog/is-1239-pipe-specification",label:"IS 1239"},
-  {href:"/blog/is-3589-pipe-specification",label:"IS 3589"},
-  {href:"/blog/is-2062-steel-specification",label:"IS 2062"},
-  {href:"/blog/is-1786-tmt-bar-specification",label:"IS 1786 TMT"},
-  {href:"/blog/is-808-structural-sections",label:"IS 808"},
-  {href:"/blog/astm-a182-forged-fittings",label:"ASTM A182"},
-  {href:"/blog/astm-a403-buttweld-fittings",label:"ASTM A403"},
-  {href:"/blog/astm-a240-ss-plate-spec",label:"ASTM A240"},
-  {href:"/blog/astm-a269-tube-specification",label:"ASTM A269"},
-  {href:"/blog/astm-a249-tube-specification",label:"ASTM A249"},
-  {href:"/blog/astm-a335-alloy-pipe-spec",label:"ASTM A335"},
-  {href:"/blog/astm-a105-flange-spec",label:"ASTM A105"},
-  {href:"/blog/astm-a106-pipe-specification",label:"ASTM A106"},
-  {href:"/blog/astm-a333-low-temp-pipe",label:"ASTM A333"},
-  {href:"/blog/astm-a358-welded-pipe-spec",label:"ASTM A358"},
-  {href:"/blog/astm-a691-pipe-spec",label:"ASTM A691"},
-  {href:"/blog/astm-a815-duplex-fittings",label:"ASTM A815"},
-  {href:"/blog/astm-b444-inconel-pipe-spec",label:"ASTM B444"},
-  {href:"/blog/astm-b574-hastelloy-spec",label:"ASTM B574"},
-  {href:"/blog/astm-b861-titanium-pipe-spec",label:"ASTM B861"},
-  {href:"/blog/astm-b165-monel-pipe-spec",label:"ASTM B165"},
-  {href:"/blog/astm-b466-copper-nickel-spec",label:"ASTM B466"},
-  {href:"/blog/api-5l-specification-guide",label:"API 5L"},
-  {href:"/blog/api-5ct-casing-specification",label:"API 5CT"},
-  {href:"/blog/din-flange-dimensions-chart",label:"DIN Flanges"},
-  {href:"/blog/en-10216-seamless-pipe-spec",label:"EN 10216"},
-  {href:"/blog/en-10217-welded-pipe-spec",label:"EN 10217"},
-  {href:"/blog/nace-mr0175-material-guide",label:"NACE MR0175"},
-  {href:"/blog/nace-tm0284-hic-test-procedure",label:"NACE TM0284"},
-  {href:"/blog/ibr-form-iiic-complete-guide",label:"IBR Form III-C"},
-  {href:"/blog/pmi-testing-complete-guide",label:"PMI Testing"},
-  {href:"/blog/ndt-testing-methods-pipes",label:"NDT Methods"},
-  {href:"/blog/sa-516-plate-specification",label:"SA 516 Spec"},
-  {href:"/blog/sa-387-plate-specification",label:"SA 387 Spec"},
-];
-
-const INDUSTRY_LINKS = [
-  {href:"/blog/piping-material-oil-refinery",label:"Oil Refinery"},
-  {href:"/blog/steel-for-power-plant-boiler",label:"Power Plant"},
-  {href:"/blog/piping-for-chemical-plant",label:"Chemical Plant"},
-  {href:"/blog/ss-pipe-for-pharma-industry",label:"Pharma"},
-  {href:"/blog/ss-pipe-for-dairy-food",label:"Dairy & Food"},
-  {href:"/blog/piping-for-fertilizer-plant",label:"Fertilizer"},
-  {href:"/blog/ss-pipe-for-water-treatment",label:"Water Treatment"},
-  {href:"/blog/piping-for-sugar-mill",label:"Sugar Mill"},
-  {href:"/blog/ss-pipe-for-marine-offshore",label:"Marine & Offshore"},
-  {href:"/blog/structural-steel-for-building",label:"Building"},
-  {href:"/blog/steel-for-cement-plant",label:"Cement Plant"},
-  {href:"/blog/piping-for-pulp-paper-mill",label:"Pulp & Paper"},
-  {href:"/blog/piping-for-desalination-plant",label:"Desalination"},
-  {href:"/blog/steel-for-solar-power-plant",label:"Solar Power"},
-  {href:"/blog/piping-for-lng-terminal",label:"LNG Terminal"},
-  {href:"/blog/steel-for-shipbuilding",label:"Shipbuilding"},
-  {href:"/blog/piping-for-brewery-distillery",label:"Brewery"},
-  {href:"/blog/steel-for-nuclear-power-plant",label:"Nuclear"},
-  {href:"/blog/piping-for-paint-chemical",label:"Paint & Chemical"},
-  {href:"/blog/piping-for-gas-distribution",label:"Gas Distribution"},
-  {href:"/blog/ss-pipe-for-hospital-medical-gas",label:"Hospital Gas"},
-  {href:"/blog/piping-for-ethanol-biofuel",label:"Ethanol & Biofuel"},
-  {href:"/blog/steel-for-peb-warehouse",label:"PEB Warehouse"},
-  {href:"/blog/piping-for-cng-station",label:"CNG Station"},
-  {href:"/blog/ss-pipe-for-swimming-pool",label:"Swimming Pool"},
-  {href:"/blog/piping-for-oil-gas-pipeline",label:"Oil & Gas Pipeline"},
-  {href:"/blog/steel-for-metro-rail",label:"Metro Rail"},
-  {href:"/blog/piping-for-hydrogen-plant",label:"Hydrogen Plant"},
-  {href:"/blog/piping-for-ammonia-urea",label:"Ammonia & Urea"},
-  {href:"/blog/steel-for-cold-storage",label:"Cold Storage"},
-  {href:"/blog/ss-for-architecture-building",label:"Architecture"},
-  {href:"/blog/piping-for-effluent-treatment",label:"ETP"},
-  {href:"/blog/piping-for-geothermal-plant",label:"Geothermal"},
-  {href:"/blog/steel-for-wind-turbine",label:"Wind Turbine"},
-  {href:"/blog/ss-pipe-for-kitchen-equipment",label:"Kitchen"},
-  {href:"/blog/piping-for-natural-gas-city",label:"CGD Gas"},
-  {href:"/blog/piping-for-textile-industry",label:"Textile"},
-  {href:"/blog/steel-for-bridge-construction",label:"Bridge"},
-  {href:"/blog/piping-for-oil-well-drilling",label:"Oil Drilling"},
-  {href:"/blog/material-for-heat-exchanger",label:"Heat Exchanger"},
-];
-
-const HOWTO_LINKS = [
-  {href:"/blog/how-to-calculate-pipe-weight",label:"Pipe Weight Formula"},
-  {href:"/blog/how-to-read-pipe-marking",label:"Read Pipe Marking"},
-  {href:"/blog/how-to-identify-ss-grade",label:"Identify SS Grade"},
-  {href:"/blog/how-to-do-hydrostatic-test",label:"Hydrostatic Test"},
-  {href:"/blog/how-to-weld-p91-steel",label:"Weld P91"},
-  {href:"/blog/how-to-weld-duplex-2205",label:"Weld Duplex 2205"},
-  {href:"/blog/how-to-weld-inconel-625",label:"Weld Inconel 625"},
-  {href:"/blog/how-to-weld-ss-304-316",label:"Weld SS 304/316"},
-  {href:"/blog/how-to-weld-carbon-steel-pipe",label:"Weld CS Pipe"},
-  {href:"/blog/how-to-weld-monel-400",label:"Weld Monel 400"},
-  {href:"/blog/how-to-passivate-ss-pipe",label:"Passivation"},
-  {href:"/blog/how-to-do-pmi-testing",label:"PMI Testing"},
-  {href:"/blog/how-to-read-mill-test-certificate",label:"Read MTC"},
-  {href:"/blog/how-to-calculate-flange-bolt-load",label:"Bolt Torque"},
-  {href:"/blog/how-to-select-gasket-type",label:"Select Gasket"},
-  {href:"/blog/how-to-do-radiography-testing",label:"RT Testing"},
-  {href:"/blog/how-to-do-ultrasonic-testing",label:"UT Testing"},
-  {href:"/blog/how-to-check-ss-pipe-quality",label:"Check SS Quality"},
-  {href:"/blog/how-to-check-tmt-bar-quality",label:"Check TMT"},
-  {href:"/blog/how-to-store-stainless-steel",label:"Store SS"},
-  {href:"/blog/how-to-store-carbon-steel-pipe",label:"Store CS"},
-  {href:"/blog/how-to-prevent-galvanic-corrosion",label:"Galvanic Corrosion"},
-  {href:"/blog/how-to-do-hardness-testing",label:"Hardness Test"},
-  {href:"/blog/how-to-do-impact-test-charpy",label:"Charpy Test"},
-  {href:"/blog/how-to-select-pipe-schedule",label:"Select Schedule"},
-  {href:"/blog/how-to-do-dye-penetrant-test",label:"DPT"},
-  {href:"/blog/how-to-bend-ss-pipe",label:"Bend SS Pipe"},
-  {href:"/blog/how-to-calculate-plate-weight",label:"Plate Weight"},
-  {href:"/blog/how-to-read-piping-isometric",label:"Read Isometric"},
-  {href:"/blog/how-to-do-ferrite-testing",label:"Ferrite Test"},
-  {href:"/blog/how-to-pickle-passivate-ss",label:"Pickling SS"},
-  {href:"/blog/how-to-select-expansion-joint",label:"Expansion Joint"},
-  {href:"/blog/how-to-do-magnetic-particle-test",label:"MPT"},
-  {href:"/blog/how-to-calculate-thermal-expansion",label:"Thermal Expansion"},
-  {href:"/blog/how-to-do-heat-treatment",label:"Heat Treatment"},
-  {href:"/blog/how-to-insulate-hot-pipe",label:"Pipe Insulation"},
-  {href:"/blog/how-to-do-pwht-procedure",label:"PWHT Procedure"},
-  {href:"/blog/how-to-choose-valve-piping",label:"Valve Selection"},
-  {href:"/blog/how-to-prepare-piping-mto",label:"Prepare MTO"},
-  {href:"/blog/how-to-prevent-stress-corrosion",label:"SCC Prevention"},
-];
-
-const KNOWLEDGE_LINKS = [
-  {href:"/blog/what-is-stainless-steel",label:"Stainless Steel"},
-  {href:"/blog/what-is-duplex-stainless-steel",label:"Duplex Steel"},
-  {href:"/blog/what-is-super-duplex-steel",label:"Super Duplex"},
-  {href:"/blog/what-is-alloy-steel",label:"Alloy Steel"},
-  {href:"/blog/what-is-carbon-steel",label:"Carbon Steel"},
-  {href:"/blog/what-is-mild-steel",label:"Mild Steel"},
-  {href:"/blog/what-is-inconel-alloy",label:"Inconel"},
-  {href:"/blog/what-is-monel-alloy",label:"Monel"},
-  {href:"/blog/what-is-hastelloy",label:"Hastelloy"},
-  {href:"/blog/what-is-titanium-alloy",label:"Titanium"},
-  {href:"/blog/what-is-nickel-alloy",label:"Nickel Alloy"},
-  {href:"/blog/what-is-copper-nickel-alloy",label:"Copper Nickel"},
-  {href:"/blog/what-is-alloy-20",label:"Alloy 20"},
-  {href:"/blog/what-is-incoloy-800",label:"Incoloy 800"},
-  {href:"/blog/what-is-ibr-certification",label:"IBR Certification"},
-  {href:"/blog/what-is-nace-mr0175",label:"NACE MR0175"},
-  {href:"/blog/what-is-hic-testing",label:"HIC Testing"},
-  {href:"/blog/what-is-pwht",label:"PWHT"},
-  {href:"/blog/what-is-pmi-testing",label:"PMI Testing"},
-  {href:"/blog/what-is-ndt-testing",label:"NDT Testing"},
-  {href:"/blog/what-is-mill-test-certificate",label:"MTC"},
-  {href:"/blog/what-is-seamless-pipe",label:"Seamless Pipe"},
-  {href:"/blog/what-is-erw-pipe",label:"ERW Pipe"},
-  {href:"/blog/what-is-lsaw-pipe",label:"LSAW Pipe"},
-  {href:"/blog/what-is-pipe-schedule",label:"Pipe Schedule"},
-  {href:"/blog/what-is-nominal-bore",label:"Nominal Bore"},
-  {href:"/blog/what-is-buttweld-fitting",label:"BW Fitting"},
-  {href:"/blog/what-is-forged-fitting",label:"Forged Fitting"},
-  {href:"/blog/what-is-flanges-types",label:"Flange Types"},
-  {href:"/blog/what-is-gasket-types",label:"Gasket Types"},
-  {href:"/blog/what-is-pren-number",label:"PREN Number"},
-  {href:"/blog/what-is-sensitization-ss",label:"Sensitization"},
-  {href:"/blog/what-is-intergranular-corrosion",label:"IGC"},
-  {href:"/blog/what-is-pitting-corrosion",label:"Pitting Corrosion"},
-  {href:"/blog/what-is-crevice-corrosion",label:"Crevice Corrosion"},
-  {href:"/blog/what-is-stress-corrosion-cracking",label:"SCC"},
-  {href:"/blog/what-is-creep-in-steel",label:"Creep in Steel"},
-  {href:"/blog/what-is-hydrogen-embrittlement",label:"H2 Embrittlement"},
-  {href:"/blog/what-is-sigma-phase",label:"Sigma Phase"},
-  {href:"/blog/what-is-heat-affected-zone",label:"HAZ"},
-  {href:"/blog/what-is-cathodic-protection",label:"Cathodic Protection"},
-  {href:"/blog/what-is-solution-annealing",label:"Solution Annealing"},
-  {href:"/blog/what-is-normalizing-steel",label:"Normalizing"},
-  {href:"/blog/what-is-quenching-tempering",label:"Quench & Temper"},
-  {href:"/blog/what-is-electropolishing",label:"Electropolishing"},
-  {href:"/blog/what-is-pickling-passivation",label:"Pickling & Passivation"},
-  {href:"/blog/types-of-stainless-steel",label:"Types of SS"},
-  {href:"/blog/types-of-corrosion-in-steel",label:"Types of Corrosion"},
-  {href:"/blog/types-of-pipe-manufacturing",label:"Pipe Manufacturing"},
-  {href:"/blog/types-of-steel-plates",label:"Steel Plate Types"},
-];
-
-const BUYER_LINKS = [
-  {href:"/blog/how-to-buy-steel-pipe-online-india",label:"Buy Online India"},
-  {href:"/blog/bulk-steel-procurement-tips",label:"Bulk Procurement"},
-  {href:"/blog/third-party-inspection-guide",label:"TPI Guide"},
-  {href:"/blog/packing-marking-export-pipes",label:"Export Packing"},
-  {href:"/blog/material-selection-corrosive-service",label:"CRA Selection"},
-  {href:"/blog/how-to-verify-steel-supplier",label:"Verify Supplier"},
-  {href:"/blog/steel-pipe-import-procedure-india",label:"Import Procedure"},
-  {href:"/blog/steel-pipe-export-documentation",label:"Export Docs"},
-  {href:"/blog/hs-code-for-steel-pipes",label:"HS Codes"},
-  {href:"/blog/gst-on-steel-pipes-india",label:"GST Rates"},
-  {href:"/blog/bis-certification-steel-india",label:"BIS/ISI Mark"},
-  {href:"/blog/astm-equivalent-indian-standards",label:"ASTM to IS"},
-  {href:"/blog/how-to-read-piping-specification",label:"Piping Spec"},
-  {href:"/blog/how-to-prepare-material-requisition",label:"Material MR"},
-  {href:"/blog/approved-vendor-list-steel",label:"AVL Guide"},
-  {href:"/blog/how-to-calculate-piping-cost",label:"Piping Cost"},
-  {href:"/blog/lead-time-steel-pipes-india",label:"Lead Time"},
-  {href:"/blog/minimum-order-quantity-steel",label:"MOQ Guide"},
-  {href:"/blog/what-is-indent-steel-buying",label:"Indent Process"},
-  {href:"/blog/epc-contractor-steel-supply",label:"EPC Supply"},
-  {href:"/blog/material-traceability-steel",label:"Traceability"},
-  {href:"/blog/quality-assurance-plan-steel",label:"QAP"},
-  {href:"/blog/inspection-test-plan-steel",label:"ITP"},
-  {href:"/blog/how-to-check-fake-mtc",label:"Fake MTC"},
-  {href:"/blog/steel-procurement-common-mistakes",label:"Mistakes"},
-  {href:"/blog/how-to-negotiate-steel-price",label:"Negotiate Price"},
-  {href:"/blog/steel-storage-best-practices",label:"Storage"},
-  {href:"/blog/packaging-standard-steel-export",label:"Packaging Std"},
-  {href:"/blog/shipping-terms-fob-cif-steel",label:"FOB vs CIF"},
-  {href:"/blog/letter-of-credit-steel-buying",label:"LC Guide"},
-];
-
-const SIZE_LINKS = [
-  {href:"/blog/ss-pipe-size-chart",label:"SS Pipe Sizes"},
-  {href:"/blog/cs-pipe-size-chart",label:"CS Pipe Sizes"},
-  {href:"/blog/flange-dimensions-chart-150-300",label:"Flange 150/300"},
-  {href:"/blog/flange-dimensions-chart-600-900",label:"Flange 600/900"},
-  {href:"/blog/flange-dimensions-chart-1500-2500",label:"Flange 1500/2500"},
-  {href:"/blog/elbow-dimensions-chart",label:"Elbow Dims"},
-  {href:"/blog/tee-dimensions-chart",label:"Tee Dims"},
-  {href:"/blog/reducer-dimensions-chart",label:"Reducer Dims"},
-  {href:"/blog/stub-end-dimensions-chart",label:"Stub End Dims"},
-  {href:"/blog/ss-sheet-size-chart",label:"SS Sheet Sizes"},
-  {href:"/blog/ss-plate-thickness-chart",label:"SS Plate Thickness"},
-  {href:"/blog/ms-plate-size-chart",label:"MS Plate Sizes"},
-  {href:"/blog/ms-angle-size-chart-is-808",label:"MS Angle IS 808"},
-  {href:"/blog/ismc-dimensions-chart",label:"ISMC Dims"},
-  {href:"/blog/ismb-dimensions-chart",label:"ISMB Dims"},
-  {href:"/blog/pipe-nb-to-od-conversion",label:"NB to OD"},
-  {href:"/blog/inch-to-mm-conversion-pipes",label:"Inch to mm"},
-  {href:"/blog/swg-to-mm-wire-gauge",label:"SWG to mm"},
-  {href:"/blog/ss-tube-size-chart",label:"SS Tube Sizes"},
-  {href:"/blog/forged-fittings-dimensions",label:"Forged Dims"},
-  {href:"/blog/pipe-bend-dimensions-chart",label:"Pipe Bend 3D/5D"},
-  {href:"/blog/olet-fittings-size-chart",label:"Olet Sizes"},
-  {href:"/blog/spiral-wound-gasket-sizes",label:"Gasket Sizes"},
-  {href:"/blog/ring-joint-gasket-dimensions",label:"RTJ Dims"},
-  {href:"/blog/flange-bolt-chart",label:"Bolt Chart"},
-  {href:"/blog/pipe-pressure-rating-chart",label:"Pressure Rating"},
-  {href:"/blog/alloy-pipe-dimensions-chart",label:"Alloy Pipe Dims"},
-  {href:"/blog/duplex-pipe-dimensions-chart",label:"Duplex Pipe Dims"},
-  {href:"/blog/inconel-pipe-size-chart",label:"Inconel Sizes"},
-  {href:"/blog/copper-nickel-pipe-size-chart",label:"CuNi Sizes"},
-];
-
-const FAQ_LINKS = [
-  {href:"/blog/why-ss-pipe-is-expensive",label:"Why SS Expensive?"},
-  {href:"/blog/why-inconel-is-costly",label:"Why Inconel Costly?"},
-  {href:"/blog/why-duplex-steel-preferred-offshore",label:"Why Duplex Offshore?"},
-  {href:"/blog/why-ibr-certification-mandatory",label:"Why IBR?"},
-  {href:"/blog/why-pwht-required-p91",label:"Why PWHT P91?"},
-  {href:"/blog/why-pmi-test-important",label:"Why PMI?"},
-  {href:"/blog/why-nace-compliance-needed",label:"Why NACE?"},
-  {href:"/blog/why-seamless-pipe-preferred",label:"Why Seamless?"},
-  {href:"/blog/why-titanium-used-chemical",label:"Why Titanium?"},
-  {href:"/blog/why-monel-used-marine",label:"Why Monel?"},
-  {href:"/blog/when-to-use-duplex-steel",label:"When Duplex?"},
-  {href:"/blog/when-to-use-inconel-alloy",label:"When Inconel?"},
-  {href:"/blog/when-to-use-hastelloy",label:"When Hastelloy?"},
-  {href:"/blog/when-to-use-titanium-pipe",label:"When Titanium?"},
-  {href:"/blog/when-to-use-copper-nickel",label:"When CuNi?"},
-  {href:"/blog/when-to-use-alloy-steel-pipe",label:"When Alloy Steel?"},
-  {href:"/blog/can-ss-304-be-used-outdoor",label:"SS 304 Outdoor?"},
-  {href:"/blog/can-erw-pipe-be-used-gas",label:"ERW for Gas?"},
-  {href:"/blog/can-duplex-be-welded-easily",label:"Duplex Weldable?"},
-  {href:"/blog/difference-pipe-and-tube",label:"Pipe vs Tube"},
-  {href:"/blog/difference-seamless-erw-spiral",label:"Seamless vs ERW"},
-  {href:"/blog/faq-ss-pipe-buying-india",label:"SS Buying FAQ"},
-  {href:"/blog/faq-carbon-steel-pipe-buying",label:"CS Buying FAQ"},
-  {href:"/blog/faq-alloy-steel-pipe-buying",label:"Alloy FAQ"},
-  {href:"/blog/faq-exotic-alloy-buying",label:"Exotic Alloy FAQ"},
-  {href:"/blog/faq-structural-steel-buying",label:"Structural FAQ"},
-  {href:"/blog/faq-pipe-fittings-flanges",label:"Fittings FAQ"},
-];
-
-const CASE_LINKS = [
-  {href:"/blog/project-oil-refinery-ss-cs-supply",label:"Oil Refinery Project"},
-  {href:"/blog/project-power-plant-p91-boiler",label:"Power Plant P91"},
-  {href:"/blog/project-chemical-plant-exotic-alloy",label:"Chemical Plant Exotic"},
-  {href:"/blog/project-offshore-duplex-supply",label:"Offshore Duplex"},
-  {href:"/blog/project-pharma-ss316l-electropolished",label:"Pharma SS 316L"},
-  {href:"/blog/project-water-treatment-ss-pipe",label:"Water Treatment"},
-  {href:"/blog/project-fertilizer-plant-piping",label:"Fertilizer Plant"},
-  {href:"/blog/project-export-middle-east-steel",label:"Export Middle East"},
-  {href:"/blog/project-building-construction-tmt",label:"Building Construction"},
-  {href:"/blog/project-lng-cryogenic-piping",label:"LNG Cryogenic"},
-];

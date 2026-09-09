@@ -9,7 +9,6 @@ const NAV_LINKS = [
   { href: "/#services",        label: "Services"   },
   { href: "/#industries",      label: "Industries" },
   { href: "/#faq",             label: "FAQ"        },
-  { href: "/blog",             label: "Blog"       },
   { href: "/metal-trading",    label: "Trading"    },
   { href: "/reviews",          label: "Reviews"    },
   { href: "/#contact",         label: "Contact"    },
@@ -20,13 +19,13 @@ const NAV_LINKS = [
 // which give crawlers no path into the product/location hubs from an interior
 // page. These direct links do, and they resolve from anywhere on the site.
 const HUB_LINKS = [
-  { href: "/ss-pipe-supplier-vadodara",        label: "SS Pipes" },
+  { href: "/ss-304-316l-pipe-supplier-india",  label: "SS Pipes" },
   { href: "/alloy-steel-pipe-supplier-india",  label: "Alloy Steel" },
   { href: "/duplex-steel-supplier-vadodara",   label: "Duplex" },
   { href: "/inconel-pipe-supplier-india",      label: "Exotic Alloys" },
-  { href: "/ss-flanges-supplier-vadodara",     label: "Fittings & Flanges" },
-  { href: "/tmt-bars-supplier-gujarat",        label: "Structural & TMT" },
-  { href: "/products",                         label: "Charts & Specs" },
+  { href: "/carbon-steel-pipe-supplier-india", label: "Carbon Steel" },
+  { href: "/ms-plate-supplier-india",          label: "Mild Steel" },
+  { href: "/products",                         label: "All Products" },
 ];
 
 export function SiteNav(props: { active?: string }) {
@@ -129,11 +128,8 @@ export function SiteFooter() {
               <li><a href="/monel-400-pipe-supplier-india">Monel Pipes</a></li>
               <li><a href="/hastelloy-pipe-supplier-india">Hastelloy Pipes</a></li>
               <li><a href="/titanium-pipe-supplier-india">Titanium Pipes</a></li>
-              <li><a href="/copper-nickel-pipe-supplier-india">Copper Nickel Pipes</a></li>
-              <li><a href="/boiler-tube-supplier-india">Boiler Tubes</a></li>
-              <li><a href="/heat-exchanger-tube-supplier-india">Heat Exchanger Tubes</a></li>
-              <li><a href="/forged-fittings-supplier-india">Forged Fittings</a></li>
-              <li><a href="/ss-round-bar-supplier-vadodara">SS Round Bars</a></li>
+              <li><a href="/incoloy-800-pipe-supplier-india">Incoloy Pipes</a></li>
+              <li><a href="/carbon-steel-pipe-supplier-india">Carbon Steel Pipes</a></li>
               <li><a href="/ms-plate-supplier-india">MS Plates</a></li>
               <li><a href="/ss-sheet-supplier-vadodara">SS Sheets &amp; Plates</a></li>
               <li><a href="/api-5l-line-pipe-supplier-india">API 5L Line Pipe</a></li>
@@ -157,57 +153,52 @@ export function SiteFooter() {
             </div>
           </div>
         </div>
-        {/* SEO Internal Links — Locations & Industries */}
+        {/* SEO Internal Links — Product categories */}
         <div class="footer-grid" style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,0.1)">
-          <nav aria-label="Supply locations">
-            <h4>Supply Locations</h4>
+          <nav aria-label="Stainless steel products">
+            <h4>Stainless Steel</h4>
             <ul>
-              <li><a href="/ss-pipe-supplier-vadodara">Vadodara</a></li>
-              <li><a href="/ss-pipe-supplier-ahmedabad">Ahmedabad</a></li>
-              <li><a href="/ss-pipe-supplier-surat">Surat</a></li>
-              <li><a href="/ss-pipe-supplier-mumbai">Mumbai</a></li>
-              <li><a href="/ss-pipe-supplier-rajkot">Rajkot</a></li>
-              <li><a href="/steel-supplier-bharuch">Bharuch</a></li>
-              <li><a href="/steel-supplier-dahej">Dahej</a></li>
-              <li><a href="/ss-pipe-supplier-pune">Pune</a></li>
-              <li><a href="/stainless-steel-supplier-gujarat">All Gujarat</a></li>
+              <li><a href="/ss-304-316l-pipe-supplier-india">SS 304 / 316L Pipe</a></li>
+              <li><a href="/ss-seamless-pipe-supplier-india">SS Seamless Pipe</a></li>
+              <li><a href="/ss-310-pipe-supplier-india">SS 310 Pipe</a></li>
+              <li><a href="/ss-321-pipe-supplier-india">SS 321 Pipe</a></li>
+              <li><a href="/ss-347-pipe-supplier-india">SS 347 Pipe</a></li>
+              <li><a href="/ss-904l-pipe-supplier-india">SS 904L Pipe</a></li>
+              <li><a href="/ss-sheet-supplier-vadodara">SS Sheet &amp; Plate</a></li>
             </ul>
           </nav>
-          <nav aria-label="Industries served">
-            <h4>Industries</h4>
+          <nav aria-label="Carbon and alloy steel products">
+            <h4>Carbon &amp; Alloy Steel</h4>
             <ul>
-              <li><a href="/blog/piping-material-oil-refinery">Refinery</a></li>
-              <li><a href="/blog/steel-for-power-plant-boiler">Power Plant</a></li>
-              <li><a href="/blog/ss-pipe-for-pharma-industry">Pharmaceutical</a></li>
-              <li><a href="/blog/piping-for-oil-gas-pipeline">Oil &amp; Gas</a></li>
+              <li><a href="/carbon-steel-pipe-supplier-india">Carbon Steel Pipe</a></li>
+              <li><a href="/carbon-steel-sa516-plate-stockist-india">SA 516 Plate</a></li>
+              <li><a href="/a106-gr-b-seamless-pipe-india">A106 Gr B Pipe</a></li>
+              <li><a href="/a53-erw-pipe-supplier-india">A53 ERW Pipe</a></li>
+              <li><a href="/api-5l-line-pipe-supplier-india">API 5L Line Pipe</a></li>
+              <li><a href="/alloy-steel-pipe-supplier-india">Alloy Steel Pipe</a></li>
+              <li><a href="/astm-a36-steel-plate-supplier-india">ASTM A36 Plate</a></li>
             </ul>
           </nav>
-          <nav aria-label="Price guides">
-            <h4>Price Guides</h4>
+          <nav aria-label="Duplex and exotic alloys">
+            <h4>Duplex &amp; Exotic Alloys</h4>
             <ul>
-              <li><a href="/blog/ss-pipe-price-list-india">SS Pipe Price List</a></li>
-              <li><a href="/blog/ss-304-pipe-price-per-kg">SS 304 Pipe Price</a></li>
-              <li><a href="/blog/ss-316l-pipe-price-per-kg">SS 316L Pipe Price</a></li>
-              <li><a href="/blog/tmt-bar-price-today-gujarat">TMT Bar Price Gujarat</a></li>
-              <li><a href="/blog/ms-plate-price-vadodara">MS Plate Price</a></li>
-              <li><a href="/blog/erw-pipe-price-india">ERW Pipe Price</a></li>
-              <li><a href="/blog/duplex-2205-pipe-price-india">Duplex Pipe Price</a></li>
-              <li><a href="/blog/inconel-625-pipe-price-india">Inconel Pipe Price</a></li>
+              <li><a href="/duplex-2205-plate-supplier-india">Duplex 2205 Plate</a></li>
+              <li><a href="/super-duplex-2507-pipe-supplier">Super Duplex 2507</a></li>
+              <li><a href="/inconel-pipe-supplier-india">Inconel Pipe</a></li>
+              <li><a href="/hastelloy-pipe-supplier-india">Hastelloy Pipe</a></li>
+              <li><a href="/monel-400-pipe-supplier-india">Monel 400 Pipe</a></li>
+              <li><a href="/titanium-pipe-supplier-india">Titanium Pipe</a></li>
+              <li><a href="/incoloy-800-pipe-supplier-india">Incoloy 800 Pipe</a></li>
             </ul>
           </nav>
-          <nav aria-label="Technical guides">
-            <h4>Guides &amp; Resources</h4>
+          <nav aria-label="Mild and structural steel">
+            <h4>Mild / Structural Steel</h4>
             <ul>
-              <li><a href="/blog/ss-pipe-weight-chart">SS Pipe Weight Chart</a></li>
-              <li><a href="/blog/pipe-fittings-selection-guide">Pipe Fittings Types</a></li>
-              <li><a href="/blog/flange-dimensions-chart-150-300">Flange Dimensions</a></li>
-              <li><a href="/blog/what-is-ibr-certification">What is IBR?</a></li>
-              <li><a href="/blog/what-is-mill-test-certificate">What is MTC?</a></li>
-              <li><a href="/blog/sch-80-vs-sch-160-pipe">SCH 80 vs SCH 160</a></li>
-              <li><a href="/blog/seamless-vs-welded-ss-pipe">Seamless vs Welded</a></li>
-              <li><a href="/blog/wn-flange-vs-so-flange">WN vs SO Flange</a></li>
-              <li><a href="/blog/ss-304-vs-ss-316-difference">SS 304 vs 316</a></li>
-              <li><a href="/blog/butt-weld-vs-socket-weld">Buttweld vs Socket Weld</a></li>
+              <li><a href="/ms-plate-supplier-india">MS Plate</a></li>
+              <li><a href="/ms-angle-channel-supplier-vadodara">MS Angle / Channel</a></li>
+              <li><a href="/ms-beam-ismb-supplier-india">MS Beam ISMB</a></li>
+              <li><a href="/ms-channel-ismc-supplier-india">MS Channel ISMC</a></li>
+              <li><a href="/ms-flat-bar-supplier-india">MS Flat Bar</a></li>
             </ul>
           </nav>
         </div>

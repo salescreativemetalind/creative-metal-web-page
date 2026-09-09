@@ -160,7 +160,7 @@ export default function P5AlloySteelPipeSupplier() {
             {href:"/p9-alloy-steel-pipe-supplier",label:"P9 Alloy Steel Pipe Supplier"},
             {href:"/p11-alloy-steel-pipe-supplier",label:"P11 Alloy Steel Pipe Supplier"},
             {href:"/p22-alloy-steel-pipe-supplier",label:"P22 Alloy Steel Pipe Supplier"},
-            {href:"/carbon-steel-pipe-fittings-vadodara",label:"Carbon Steel Pipe & Fittings"},
+            {href:"/carbon-steel-pipe-supplier-india",label:"Carbon Steel Pipe India"},
           ].map(l => (
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}

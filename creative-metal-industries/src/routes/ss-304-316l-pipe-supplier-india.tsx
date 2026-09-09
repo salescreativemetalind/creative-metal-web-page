@@ -85,7 +85,7 @@ export default function SS304316LPage() {
 
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Related Products</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(220px,1fr))",gap:"0.75rem","margin-bottom":"2rem"}}>
-          {[{href:"/ss-pipe-supplier-vadodara",label:"SS Pipe Supplier Vadodara"},{href:"/carbon-steel-sa516-plate-stockist-india",label:"SA 516 Plate Stockist"},{href:"/nace-hic-steel-plate-supplier-india",label:"NACE HIC Plate India"},{href:"/tmt-bars-supplier-gujarat",label:"TMT Bars Gujarat"}].map(l => (
+          {[{href:"/ss-seamless-pipe-supplier-india",label:"SS Seamless Pipe India"},{href:"/carbon-steel-sa516-plate-stockist-india",label:"SA 516 Plate Stockist"},{href:"/astm-a36-steel-plate-supplier-india",label:"ASTM A36 Steel Plate"},{href:"/ms-beam-ismb-supplier-india",label:"MS Beam ISMB India"}].map(l => (
             <a href={l.href} style={{background:"#fff8f0",border:"1px solid #fde8cc","border-radius":"8px",padding:"0.85rem 1rem","font-size":"0.88rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
         </div>

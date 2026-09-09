@@ -169,90 +169,6 @@ const NEWS = [
   { date: "Apr 2026", title: "P91 Alloy Steel IBR Compliant Stock Available",     body: "We now carry ready stock of SA 335 P91 seamless pipes with IBR Form III-C certification for ultra-supercritical boiler projects." },
 ];
 
-const BLOG_POSTS = [
-  {
-    slug: "ss-304-vs-316l",
-    tag: "Technical Guide",
-    date: "May 2026",
-    title: "SS 304 vs SS 316L — Which Stainless Steel Grade Should You Choose?",
-    excerpt: "Choosing between SS 304 and SS 316L is one of the most common decisions in process piping. This guide covers corrosion resistance, temperature limits, cost difference and ideal applications for each grade so you can make the right call for your project.",
-    readTime: "5 min read",
-    icon: "🔬",
-  },
-  {
-    slug: "how-to-read-mtc",
-    tag: "Buyer's Guide",
-    date: "Apr 2026",
-    title: "How to Read a Mill Test Certificate (MTC) — A Practical Guide for Engineers",
-    excerpt: "A Mill Test Certificate (EN 10204 3.1/3.2) is your proof of material quality. We explain every field — chemical composition, mechanical properties, heat number, test methods — so you can verify your material is exactly what you ordered.",
-    readTime: "6 min read",
-    icon: "📄",
-  },
-  {
-    slug: "duplex-vs-super-duplex",
-    tag: "Material Science",
-    date: "Mar 2026",
-    title: "Duplex 2205 vs Super Duplex 2507 — Understanding the Difference",
-    excerpt: "Both are dual-phase austenitic-ferritic steels but with very different performance profiles. Learn the PREN values, chloride resistance, strength levels, and when to specify each for offshore, desalination and chemical processing.",
-    readTime: "7 min read",
-    icon: "⚗️",
-  },
-  {
-    slug: "p91-alloy-steel-power-plants",
-    tag: "Industry Insight",
-    date: "Feb 2026",
-    title: "Why P91 Alloy Steel is Critical for Modern Power Plants",
-    excerpt: "Grade P91 (9Cr-1Mo-V) has become the backbone of ultra-supercritical boiler systems. We explore its creep resistance, PWHT requirements, IBR compliance and why it commands a premium over P22 and P11 in high-temperature service.",
-    readTime: "8 min read",
-    icon: "⚡",
-  },
-  {
-    slug: "astm-a312-vs-api-5l",
-    tag: "Specification Guide",
-    date: "Jan 2026",
-    title: "ASTM A312 vs API 5L — Choosing the Right Pipe Standard for Your Application",
-    excerpt: "Both cover steel pipes but for entirely different services. ASTM A312 governs austenitic stainless steel for chemical and general service, while API 5L covers carbon and low-alloy steel for oil and gas transmission. Full comparison inside.",
-    readTime: "6 min read",
-    icon: "📐",
-  },
-  {
-    slug: "hastelloy-vs-inconel",
-    tag: "Corrosion Control",
-    date: "Dec 2025",
-    title: "Hastelloy C-276 vs Inconel 625 — Which Nickel Alloy for Corrosive Service?",
-    excerpt: "Two of the most popular exotic alloys, but they behave very differently in service. Hastelloy C-276 excels in reducing environments (HCl, H2SO4), while Inconel 625 is better at high-temperature oxidising conditions. Detailed comparison with use cases.",
-    readTime: "7 min read",
-    icon: "🧪",
-  },
-  {
-    slug: "erw-vs-seamless-pipe",
-    tag: "Buyer's Guide",
-    date: "Jan 2026",
-    title: "ERW vs Seamless Pipe — Complete Technical Comparison for Indian Buyers",
-    excerpt: "Manufacturing difference, strength, pressure rating, cost comparison (India 2026), standards (IS 1239, ASTM A106, API 5L), and when to specify each type for your project.",
-    readTime: "12 min read",
-    icon: "🔩",
-  },
-  {
-    slug: "understanding-pipe-schedules",
-    tag: "Technical Reference",
-    date: "Nov 2025",
-    title: "Pipe Schedule Chart — SCH 5S, 10S, 40, 80, 160, XXS Explained",
-    excerpt: "What does pipe schedule mean? Wall thickness tables for every size from 1/2\" to 24\". How to calculate pressure rating from schedule number.",
-    readTime: "6 min read",
-    icon: "📐",
-  },
-  {
-    slug: "titanium-grades-comparison",
-    tag: "Material Science",
-    date: "Oct 2025",
-    title: "Titanium Grade 2 vs Grade 5 — CP vs Alloy for Industrial Applications",
-    excerpt: "Commercially pure Grade 2 for maximum corrosion resistance vs Ti-6Al-4V Grade 5 for aerospace strength. Properties, applications, and when to specify each.",
-    readTime: "8 min read",
-    icon: "⚪",
-  },
-];
-
 const SERVICES = [
   { icon: "🏭", title: "Manufacturer & Stockist",    desc: "We manufacture, stock and supply. Not a middleman — direct from our Vadodara facility and authorised mill network." },
   { icon: "🌍", title: "Import & Worldwide Sourcing", desc: "Direct import channels from Europe, Japan, Korea and USA for specialty grades not available domestically." },
@@ -347,7 +263,6 @@ function Nav() {
     { href: "#services",      label: "Services" },
     { href: "#industries", label: "Industries" },
     { href: "#faq",        label: "FAQ" },
-    { href: "/blog",       label: "Blog" },
     { href: "#contact",    label: "Contact" },
   ];
   // Real hub pages surfaced directly from the header. The primary nav above is
@@ -355,12 +270,12 @@ function Nav() {
   // homepage — they gave Google no crawlable path from the header into the
   // product/location hubs. These direct links do, and they work from any page.
   const hubLinks = [
-    { href: "/ss-pipe-supplier-vadodara",        label: "SS Pipes" },
+    { href: "/ss-seamless-pipe-supplier-india",  label: "SS Pipes" },
     { href: "/alloy-steel-pipe-supplier-india",  label: "Alloy Steel" },
     { href: "/duplex-steel-supplier-vadodara",   label: "Duplex" },
     { href: "/inconel-pipe-supplier-india",      label: "Exotic Alloys" },
-    { href: "/ss-flanges-supplier-vadodara",     label: "Fittings & Flanges" },
-    { href: "/tmt-bars-supplier-gujarat",        label: "Structural & TMT" },
+    { href: "/carbon-steel-pipe-supplier-india", label: "Carbon Steel" },
+    { href: "/ms-beam-ismb-supplier-india",      label: "Structural Steel" },
     { href: "/products",                         label: "Charts & Specs" },
   ];
   return (
@@ -424,10 +339,8 @@ function Hero() {
               Creative Metal Industries, Vadodara — manufacturer, stockist and supplier of{" "}
               <a href="/stainless-steel-supplier-vadodara" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Stainless Steel</a>,{" "}
               <a href="/duplex-steel-supplier-vadodara" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Duplex &amp; Super Duplex</a>,{" "}
-              <a href="/carbon-steel-pipe-fittings-vadodara" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Carbon Steel</a> &amp;{" "}
-              <a href="/alloy-steel-pipe-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Alloy Steel</a> Pipes, Plates,{" "}
-              <a href="/ss-buttweld-fittings-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Fittings</a>,{" "}
-              <a href="/ss-flanges-supplier-vadodara" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Flanges</a> and{" "}
+              <a href="/carbon-steel-pipe-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Carbon Steel</a> &amp;{" "}
+              <a href="/alloy-steel-pipe-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Alloy Steel</a> Pipes, Plates, Fittings, Flanges and{" "}
               <a href="/inconel-pipe-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Exotic Alloys</a>. Serving Oil &amp; Gas, Petrochemical, Power and
               Fertilizer industries worldwide.
             </p>
@@ -1052,8 +965,8 @@ function AboutSection() {
               With over <strong>15 years of combined industry experience</strong>, our team of
               qualified engineers and procurement specialists delivers a comprehensive range
               of <a href="/ss-seamless-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>SS/CS/AS Pipes</a>,{" "}
-              Tubes, Plates, Sheets, <a href="/ss-buttweld-fittings-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Buttweld &amp; Forged Fittings</a>,{" "}
-              <a href="/ss-flanges-supplier-vadodara" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Flanges</a>, <a href="/tmt-bars-supplier-gujarat" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Structural Steel</a> and Special Alloys including{" "}
+              Tubes, Plates, Sheets, Buttweld &amp; Forged Fittings, Flanges,{" "}
+              <a href="/ms-beam-ismb-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Structural Steel</a> and Special Alloys including{" "}
               <a href="/duplex-steel-supplier-vadodara" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Duplex</a>,{" "}
               <a href="/inconel-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Inconel</a>,{" "}
               <a href="/monel-k500-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Monel</a>,{" "}
@@ -1221,49 +1134,6 @@ function FAQSection() {
               )}</For>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-// ─── Blog Section ─────────────────────────────────────────────────────────────
-function BlogSection() {
-  return (
-    <section class="blog-section" id="blog" aria-label="Technical blog and guides">
-      <div class="container">
-        <div class="blog-header">
-          <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:1rem">
-            <div>
-              <span class="section-label">Technical Blog</span>
-              <h2>Steel &amp; Alloy Knowledge Hub</h2>
-              <p>Technical guides, material comparisons and industry insights — written by our engineers for procurement teams, designers and fabricators.</p>
-            </div>
-            <a href="/blog" class="btn btn-outline" style="flex-shrink:0">View All Articles →</a>
-          </div>
-        </div>
-        <div class="blog-grid" role="list">
-          <For each={BLOG_POSTS}>{(post) => (
-            <article class="blog-card" role="listitem">
-              <div class="blog-card-top">
-                <div class="blog-icon-wrap" aria-hidden="true">
-                  <span>{post.icon}</span>
-                </div>
-                <div class="blog-meta">
-                  <span class="blog-tag">{post.tag}</span>
-                  <span class="blog-date">{post.date}</span>
-                </div>
-              </div>
-              <h3 class="blog-title">{post.title}</h3>
-              <p class="blog-excerpt">{post.excerpt}</p>
-              <div class="blog-footer">
-                <span class="blog-read-time">🕐 {post.readTime}</span>
-                <a href={`/blog/${post.slug}`} class="blog-link">
-                  Read Article →
-                </a>
-              </div>
-            </article>
-          )}</For>
         </div>
       </div>
     </section>
@@ -1578,29 +1448,25 @@ function Footer() {
             <h4>Materials</h4>
             <ul>
               <li><a href="/stainless-steel-supplier-vadodara">Stainless Steel</a></li>
-              <li><a href="/carbon-steel-pipe-fittings-vadodara">Carbon Steel</a></li>
+              <li><a href="/carbon-steel-pipe-supplier-india">Carbon Steel</a></li>
               <li><a href="/alloy-steel-pipe-supplier-india">Alloy Steel</a></li>
               <li><a href="/duplex-steel-supplier-vadodara">Duplex &amp; Super Duplex</a></li>
               <li><a href="/inconel-pipe-supplier-india">Inconel / Monel / Hastelloy</a></li>
-              <li><a href="/blog/exotic-alloy-plate-sheet-guide">Titanium &amp; Aluminium</a></li>
+              <li><a href="/titanium-pipe-supplier-india">Titanium</a></li>
             </ul>
           </nav>
           <nav aria-label="Products">
             <h4>Products</h4>
             <ul>
               <li><a href="/ss-seamless-pipe-supplier-india">Seamless &amp; Welded Pipes</a></li>
-              <li><a href="/blog/ss-sheet-plate-guide">Plates &amp; Sheets</a></li>
-              <li><a href="/ss-buttweld-fittings-supplier-india">Buttweld Fittings</a></li>
-              <li><a href="/ss-flanges-supplier-vadodara">Flanges</a></li>
-              <li><a href="/tmt-bars-supplier-gujarat">Structural Steel &amp; TMT</a></li>
+              <li><a href="/ss-sheet-supplier-vadodara">SS Sheet &amp; Plate</a></li>
+              <li><a href="/carbon-steel-sa516-plate-stockist-india">CS SA516 Plate</a></li>
+              <li><a href="/astm-a36-steel-plate-supplier-india">ASTM A36 Steel Plate</a></li>
               <li><a href="/ms-plate-supplier-india">MS Plate IS 2062</a></li>
               <li><a href="/ms-channel-ismc-supplier-india">MS Channel ISMC</a></li>
               <li><a href="/ms-beam-ismb-supplier-india">MS Beam ISMB</a></li>
-              <li><a href="/hardox-wear-plate-supplier-india">Hardox Wear Plate</a></li>
-              <li><a href="/corten-steel-plate-supplier-india">Corten Steel Plate</a></li>
-              <li><a href="/carbon-steel-spectacle-blind-india">CS Spectacle Blind</a></li>
-              <li><a href="/ss-stub-end-supplier-india">SS Stub End</a></li>
-              <li><a href="/ss-reducer-supplier-india">SS Reducer</a></li>
+              <li><a href="/ms-flat-bar-supplier-india">MS Flat Bar</a></li>
+              <li><a href="/ms-angle-channel-supplier-vadodara">MS Angle &amp; Channel</a></li>
               <li><a href="/metal-trading">Metal Trading</a></li>
               <li><a href="/products">📐 Size &amp; Weight Charts</a></li>
             </ul>
@@ -1609,12 +1475,11 @@ function Footer() {
             <h4>Quick Links</h4>
             <ul>
               <li><a href="/about">About Us</a></li>
-              <li><a href="/ss-pipe-supplier-vadodara">SS Pipe Supplier</a></li>
+              <li><a href="/ss-seamless-pipe-supplier-india">SS Pipe Supplier</a></li>
               <li><a href="/carbon-steel-sa516-plate-stockist-india">SA 516 Plate</a></li>
-              <li><a href="/nace-hic-steel-plate-supplier-india">NACE HIC Plate</a></li>
               <li><a href="/ss-304-316l-pipe-supplier-india">SS 304/316L Pipe India</a></li>
               <li><a href="/reviews">Reviews</a></li>
-              <li><a href="/blog">Technical Blog</a></li>
+              <li><a href="/metal-trading">Metal Trading</a></li>
               <li><a href="/sitemap">All Pages (Site Map)</a></li>
             </ul>
           </nav>
@@ -1813,9 +1678,7 @@ function VadodaraSupplierSection() {
           </h2>
           <p style={{ color: "var(--muted)", "max-width": "680px", margin: "0 auto", "font-size": "1.05rem", "line-height": "1.7" }}>
             Creative Metal Industries is Vadodara's leading stockist and supplier of{" "}
-            <a href="/ss-seamless-pipe-supplier-india" style={{"color":"var(--amber)","font-weight":"600","text-decoration":"none"}}>Stainless Steel pipes</a>, tubes,{" "}
-            <a href="/ss-buttweld-fittings-supplier-india" style={{"color":"var(--amber)","font-weight":"600","text-decoration":"none"}}>fittings</a>,{" "}
-            <a href="/ss-flanges-supplier-vadodara" style={{"color":"var(--amber)","font-weight":"600","text-decoration":"none"}}>flanges</a> and{" "}
+            <a href="/ss-seamless-pipe-supplier-india" style={{"color":"var(--amber)","font-weight":"600","text-decoration":"none"}}>Stainless Steel pipes</a>, tubes, fittings, flanges and{" "}
             <a href="/ss-310s-plate-supplier-india" style={{"color":"var(--amber)","font-weight":"600","text-decoration":"none"}}>plates</a>. Ready stock
             at our GIDC Makarpura yard — same-day dispatch for standard sizes.
           </p>
@@ -1949,7 +1812,6 @@ export default function Home() {
         <ServicesSection />
         <Industries />
         <FAQSection />
-        <BlogSection />
         <NewsSection />
         <ReviewsTeaser />
         <CTABanner />
@@ -1966,21 +1828,18 @@ export default function Home() {
             <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Stainless Steel</h3>
             <div style={{display:"flex","flex-wrap":"wrap",gap:"0.5rem","margin-bottom":"1.5rem"}}>
               {[
-                {href:"/ss-pipe-supplier-vadodara",label:"SS Pipe Vadodara"},
                 {href:"/ss-seamless-pipe-supplier-india",label:"SS Seamless Pipe India"},
                 {href:"/ss-304-316l-pipe-supplier-india",label:"SS 304/316L Pipe"},
                 {href:"/ss-310-pipe-supplier-india",label:"SS 310 Pipe"},
                 {href:"/ss-310s-plate-supplier-india",label:"SS 310S Plate"},
                 {href:"/ss-321-pipe-supplier-india",label:"SS 321 Pipe"},
-                {href:"/ss-321h-tube-supplier-india",label:"SS 321H Tube"},
                 {href:"/ss-347-pipe-supplier-india",label:"SS 347 Pipe"},
-                {href:"/ss-347h-tube-supplier-india",label:"SS 347H Tube"},
                 {href:"/ss-410-pipe-supplier-india",label:"SS 410 Pipe"},
                 {href:"/ss-430-sheet-supplier-india",label:"SS 430 Sheet"},
                 {href:"/ss-904l-pipe-supplier-india",label:"SS 904L Pipe"},
-                {href:"/ss-buttweld-fittings-supplier-india",label:"SS Fittings"},
-                {href:"/ss-flanges-supplier-vadodara",label:"SS Flanges"},
+                {href:"/ss-sheet-supplier-vadodara",label:"SS Sheet Vadodara"},
                 {href:"/stainless-steel-supplier-vadodara",label:"SS Supplier Vadodara"},
+                {href:"/stainless-steel-supplier-gujarat",label:"SS Supplier Gujarat"},
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.4rem 0.8rem","font-size":"0.8rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
@@ -1989,11 +1848,7 @@ export default function Home() {
               {[
                 {href:"/duplex-steel-supplier-vadodara",label:"Duplex Steel Vadodara"},
                 {href:"/duplex-2205-plate-supplier-india",label:"Duplex 2205 Plate"},
-                {href:"/duplex-2205-fittings-supplier-india",label:"Duplex 2205 Fittings"},
-                {href:"/duplex-2205-flanges-supplier-india",label:"Duplex 2205 Flanges"},
                 {href:"/super-duplex-2507-pipe-supplier",label:"Super Duplex 2507 Pipe"},
-                {href:"/super-duplex-2507-fittings-supplier",label:"Super Duplex 2507 Fittings"},
-                {href:"/super-duplex-2507-flanges-supplier",label:"Super Duplex F53 Flanges"},
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.4rem 0.8rem","font-size":"0.8rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
@@ -2003,9 +1858,13 @@ export default function Home() {
                 {href:"/inconel-pipe-supplier-india",label:"Inconel 625 Pipe"},
                 {href:"/inconel-600-pipe-supplier-india",label:"Inconel 600 Pipe"},
                 {href:"/inconel-718-supplier-india",label:"Inconel 718 Bar & Pipe"},
+                {href:"/incoloy-800-pipe-supplier-india",label:"Incoloy 800 Pipe"},
                 {href:"/incoloy-825-pipe-supplier-india",label:"Incoloy 825 Pipe"},
+                {href:"/monel-400-pipe-supplier-india",label:"Monel 400 Pipe"},
                 {href:"/monel-k500-supplier-india",label:"Monel K500 Round Bar"},
+                {href:"/hastelloy-pipe-supplier-india",label:"Hastelloy C276 Pipe"},
                 {href:"/hastelloy-c22-pipe-supplier-india",label:"Hastelloy C22 Pipe"},
+                {href:"/titanium-pipe-supplier-india",label:"Titanium Pipe"},
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.4rem 0.8rem","font-size":"0.8rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
@@ -2013,20 +1872,17 @@ export default function Home() {
             <div style={{display:"flex","flex-wrap":"wrap",gap:"0.5rem","margin-bottom":"1.5rem"}}>
               {[
                 {href:"/alloy-steel-pipe-supplier-india",label:"Alloy Steel P91/P22 Pipe"},
-                {href:"/carbon-steel-pipe-fittings-vadodara",label:"CS Pipe Fittings Vadodara"},
+                {href:"/carbon-steel-pipe-supplier-india",label:"Carbon Steel Pipe India"},
+                {href:"/a106-gr-b-seamless-pipe-india",label:"A106 Gr.B Seamless Pipe"},
+                {href:"/a53-erw-pipe-supplier-india",label:"A53 ERW Pipe"},
+                {href:"/api-5l-line-pipe-supplier-india",label:"API 5L Line Pipe"},
                 {href:"/carbon-steel-sa516-plate-stockist-india",label:"SA 516 Plate"},
-                {href:"/nace-hic-steel-plate-supplier-india",label:"NACE HIC Plate"},
-                {href:"/tmt-bars-supplier-gujarat",label:"TMT Bars Gujarat"},
-                {href:"/carbon-steel-spectacle-blind-india",label:"CS Spectacle Blind"},
+                {href:"/astm-a36-steel-plate-supplier-india",label:"ASTM A36 Steel Plate"},
                 {href:"/ms-plate-supplier-india",label:"MS Plate IS 2062"},
                 {href:"/ms-channel-ismc-supplier-india",label:"MS Channel ISMC"},
                 {href:"/ms-beam-ismb-supplier-india",label:"MS Beam ISMB"},
                 {href:"/ms-flat-bar-supplier-india",label:"MS Flat Bar"},
-                {href:"/hardox-wear-plate-supplier-india",label:"Hardox Wear Plate"},
-                {href:"/sail-hard-plate-supplier-india",label:"SAIL Hard Plate"},
-                {href:"/corten-steel-plate-supplier-india",label:"Corten Steel Plate"},
-                {href:"/ss-stub-end-supplier-india",label:"SS Stub End"},
-                {href:"/ss-reducer-supplier-india",label:"SS Reducer"},
+                {href:"/ms-angle-channel-supplier-vadodara",label:"MS Angle & Channel"},
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.4rem 0.8rem","font-size":"0.8rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
@@ -2034,38 +1890,11 @@ export default function Home() {
             <div style={{display:"flex","flex-wrap":"wrap",gap:"0.5rem","margin-bottom":"1.5rem"}}>
               {[
                 {href:"/products",label:"📐 Size & Weight Charts Hub"},
-                {href:"/blog",label:"📚 Technical Blog (500+ Guides)"},
-                {href:"/blog/ss-pipe-price-list-india",label:"SS Pipe Price List India"},
-                {href:"/blog/ss-304-pipe-price-per-kg",label:"SS 304 Pipe Price/kg"},
-                {href:"/blog/ss-316l-pipe-price-per-kg",label:"SS 316L Pipe Price/kg"},
-                {href:"/blog/tmt-bar-price-today-gujarat",label:"TMT Bar Price Gujarat"},
-                {href:"/blog/ss-pipe-weight-chart",label:"SS Pipe Weight Chart"},
-                {href:"/blog/pipe-schedule-chart",label:"Pipe Schedule Chart"},
-                {href:"/blog/flange-dimensions-chart-150-300",label:"Flange Dimensions Chart"},
-                {href:"/blog/ss-304-vs-ss-316-difference",label:"SS 304 vs 316"},
-                {href:"/blog/erw-vs-seamless-pipe",label:"ERW vs Seamless Pipe"},
-                {href:"/blog/what-is-ibr-certification",label:"What is IBR Certification?"},
-                {href:"/blog/what-is-mill-test-certificate",label:"What is an MTC?"},
+                {href:"/about",label:"ℹ️ About Us"},
+                {href:"/metal-trading",label:"🔄 Metal Trading"},
+                {href:"/reviews",label:"⭐ Customer Reviews"},
+                {href:"/sitemap",label:"🗺️ All Pages (Site Map)"},
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.4rem 0.8rem","font-size":"0.8rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label}</a>)}
-            </div>
-
-            <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Supply Locations — Pan India</h3>
-            <div style={{display:"flex","flex-wrap":"wrap",gap:"0.5rem","margin-bottom":"1.5rem"}}>
-              {[
-                {href:"/steel-pipe-supplier-chennai",label:"Chennai"},{href:"/steel-pipe-supplier-hyderabad",label:"Hyderabad"},
-                {href:"/steel-pipe-supplier-bangalore",label:"Bangalore"},{href:"/steel-pipe-supplier-kolkata",label:"Kolkata"},
-                {href:"/steel-pipe-supplier-delhi",label:"Delhi"},{href:"/steel-pipe-supplier-jaipur",label:"Jaipur"},
-                {href:"/steel-supplier-indore",label:"Indore"},{href:"/steel-pipe-supplier-coimbatore",label:"Coimbatore"},
-                {href:"/steel-pipe-supplier-vizag",label:"Vizag"},{href:"/steel-supplier-nagpur",label:"Nagpur"},
-                {href:"/steel-supplier-bhopal",label:"Bhopal"},{href:"/steel-pipe-supplier-ludhiana",label:"Ludhiana"},
-                {href:"/steel-supplier-raipur",label:"Raipur"},{href:"/steel-pipe-supplier-kochi",label:"Kochi"},
-                {href:"/steel-supplier-haldia",label:"Haldia"},{href:"/steel-supplier-jamnagar",label:"Jamnagar"},
-                {href:"/steel-supplier-hazira",label:"Hazira"},{href:"/steel-supplier-mundra",label:"Mundra"},
-                {href:"/steel-supplier-dahej",label:"Dahej"},{href:"/steel-pipe-supplier-navi-mumbai",label:"Navi Mumbai"},
-                {href:"/steel-pipe-supplier-thane",label:"Thane"},{href:"/steel-supplier-chandigarh",label:"Chandigarh"},
-                {href:"/steel-pipe-supplier-goa",label:"Goa"},{href:"/steel-pipe-supplier-gandhidham",label:"Gandhidham"},
-                {href:"/steel-supplier-vadodara-gidc",label:"Vadodara GIDC"},{href:"/steel-supplier-ankleshwar-gidc",label:"Ankleshwar GIDC"},
-              ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.35rem 0.7rem","font-size":"0.78rem","font-weight":"600",color:"#374151","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
             <div style={{"margin-top":"2rem","text-align":"center"}}>

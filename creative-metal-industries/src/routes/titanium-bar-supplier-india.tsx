@@ -150,8 +150,8 @@ export default function TitaniumBarSupplierIndia() {
             {href:"/titanium-pipe-supplier-india",label:"Titanium Pipe Supplier"},
             {href:"/titanium-grade-2-pipe-india",label:"Titanium Grade 2 Pipe"},
             {href:"/titanium-grade-5-pipe-india",label:"Titanium Grade 5 Pipe"},
-            {href:"/ss-round-bar-supplier-vadodara",label:"SS Round Bar Vadodara"},
-            {href:"/nickel-200-pipe-supplier-india",label:"Nickel 200 Products"},
+            {href:"/ms-flat-bar-supplier-india",label:"MS Flat Bar Supplier"},
+            {href:"/monel-400-pipe-supplier-india",label:"Monel 400 Pipe"},
           ].map(link => (
             <a href={link.href} style={{background:"#fff8f0",border:"1px solid #fde8cc","border-radius":"8px",padding:"0.85rem 1rem","font-size":"0.88rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>
               {link.label} →

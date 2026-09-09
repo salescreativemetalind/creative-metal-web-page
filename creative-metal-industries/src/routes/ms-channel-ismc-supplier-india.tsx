@@ -116,9 +116,9 @@ export default function MSChannelIsmcSupplierIndia() {
         {/* Internal Links */}
         <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Related Products & Resources</h2>
         <ul style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.9", "padding-left": "1.25rem" }}>
-          <li><a href="/blog/hastelloy-c276-guide" style={{ color: "#E8821A", "font-weight": "600" }}>Hastelloy C276 Guide</a></li>
-          <li><a href="/blog/ss-sheet-plate-guide" style={{ color: "#E8821A", "font-weight": "600" }}>SS Sheet & Plate Guide</a></li>
-          <li><a href="/carbon-steel-pipe-fittings-vadodara" style={{ color: "#E8821A", "font-weight": "600" }}>CS Pipe Fittings Vadodara</a></li>
+          <li><a href="/ms-beam-ismb-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>MS Beam ISMB Supplier India</a></li>
+          <li><a href="/ms-angle-channel-supplier-vadodara" style={{ color: "#E8821A", "font-weight": "600" }}>MS Angle & Channel Supplier Vadodara</a></li>
+          <li><a href="/carbon-steel-pipe-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>Carbon Steel Pipe India</a></li>
         </ul>
 
         {/* FAQ Section */}

@@ -134,7 +134,7 @@ export default function Monel400PipeSupplierIndia() {
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>
             <a href="/about" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">About</a>
-            <a href="/blog" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Blog</a>
+            <a href="/products" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Products</a>
             <a href="tel:+919998280619" style="background:#E8821A;color:#fff;padding:8px 18px;border-radius:6px;text-decoration:none;font-size:14px;font-weight:600">+91 99982 80619</a>
           </div>
         </div>
@@ -331,10 +331,8 @@ India's specialist <strong style="color:#E8821A">Monel pipe supplier</strong>, s
           <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px">
             {[
               { href: "/monel-k500-supplier-india", label: "Monel K-500 Bar" },
-              { href: "/nickel-200-pipe-supplier-india", label: "Nickel 200 Pipe" },
               { href: "/inconel-pipe-supplier-india", label: "Inconel 625/600 Pipe" },
               { href: "/hastelloy-pipe-supplier-india", label: "Hastelloy C-276 Pipe" },
-              { href: "/copper-nickel-pipe-supplier-india", label: "Copper Nickel Pipe" },
               { href: "/titanium-pipe-supplier-india", label: "Titanium Pipe" },
               { href: "/incoloy-800-pipe-supplier-india", label: "Incoloy 800/825 Pipe" },
               { href: "/duplex-steel-supplier-vadodara", label: "Duplex 2205/2507" },
