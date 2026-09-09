@@ -153,7 +153,7 @@ export default function Ss321PipeSupplierIndia() {
           <h3 style={{"font-size":"1.1rem","font-weight":"700",color:"#111827","margin-bottom":"1rem"}}>Related Products</h3>
           <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
             {[
-              {href:"/ss-321h-tube-supplier-india", label:"SS 321H Boiler Tube"},
+              {href:"/ss-904l-pipe-supplier-india", label:"SS 904L Pipe"},
               {href:"/ss-347-pipe-supplier-india", label:"SS 347 Pipe (Nb Stabilized)"},
               {href:"/ss-310-pipe-supplier-india", label:"SS 310 Pipe (High Temp)"},
               {href:"/ss-304-316l-pipe-supplier-india", label:"SS 304 Pipe (Standard)"},

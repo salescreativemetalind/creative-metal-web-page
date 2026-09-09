@@ -347,12 +347,12 @@ export default function DuplexSteelSupplierVadodara() {
             <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(220px,1fr))", gap: "0.75rem" }}>
               {[
                 { href: "/inconel-pipe-supplier-india", label: "Inconel Pipe Supplier India" },
-                { href: "/blog/duplex-2205-steel-guide", label: "Duplex 2205 Steel Guide" },
-                { href: "/blog/super-duplex-2507-guide", label: "Super Duplex 2507 Guide" },
-                { href: "/blog/hastelloy-c276-guide", label: "Hastelloy C-276 Guide" },
-                { href: "/blog/inconel-625-guide", label: "Inconel 625 Guide" },
-                { href: "/blog/exotic-alloy-plate-sheet-guide", label: "Exotic Alloy Plate & Sheet" },
-                { href: "/blog/titanium-grade-2-vs-grade-5", label: "Titanium Grade 2 vs Grade 5" },
+                { href: "/duplex-2205-plate-supplier-india", label: "Duplex 2205 Plate Supplier India" },
+                { href: "/super-duplex-2507-pipe-supplier", label: "Super Duplex 2507 Pipe Supplier" },
+                { href: "/hastelloy-pipe-supplier-india", label: "Hastelloy C-276 Pipe" },
+                { href: "/incoloy-800-pipe-supplier-india", label: "Incoloy 800/825 Pipe" },
+                { href: "/titanium-pipe-supplier-india", label: "Titanium Pipe Supplier India" },
+                { href: "/ss-904l-pipe-supplier-india", label: "SS 904L Pipe Supplier India" },
                 { href: "/alloy-steel-pipe-supplier-india", label: "Alloy Steel Pipe P91/P22" },
               ].map(l => (
                 <a href={l.href} style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "8px", padding: "0.75rem 1rem", "font-size": "0.85rem", "font-weight": "600", color: "#E8821A", "text-decoration": "none" }}>{l.label} →</a>

@@ -357,9 +357,7 @@ export default function MSAngleChannelSupplierVadodara() {
                 { href: "/ms-channel-ismc-supplier-india", label: "MS Channel ISMC India" },
                 { href: "/ms-flat-bar-supplier-india", label: "MS Flat Bar Supplier India" },
                 { href: "/ms-plate-supplier-india", label: "MS Plate Supplier India" },
-                { href: "/tmt-bars-supplier-gujarat", label: "TMT Bars Supplier Gujarat" },
-                { href: "/carbon-steel-pipe-fittings-vadodara", label: "CS Pipe & Fittings Vadodara" },
-                { href: "/blog/ms-structural-steel-guide", label: "MS Structural Steel Guide" },
+                { href: "/carbon-steel-pipe-supplier-india", label: "Carbon Steel Pipe India" },
                 { href: "/stainless-steel-supplier-vadodara", label: "SS Supplier Vadodara" },
               ].map(l => (
                 <a href={l.href} style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "8px", padding: "0.75rem 1rem", "font-size": "0.85rem", "font-weight": "600", color: "#E8821A", "text-decoration": "none" }}>{l.label} →</a>

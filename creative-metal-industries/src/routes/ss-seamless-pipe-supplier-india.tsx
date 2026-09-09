@@ -148,12 +148,12 @@ export default function SsSeamlessPipeSupplierIndia() {
         <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Related Pages</h3>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
           {[
-            {href:"/ss-pipe-supplier-vadodara",label:"SS Pipe Supplier Vadodara"},
             {href:"/ss-304-316l-pipe-supplier-india",label:"SS 304 316L Pipe India"},
             {href:"/stainless-steel-supplier-vadodara",label:"Full SS Range Vadodara"},
-            {href:"/blog/erw-vs-seamless-pipe",label:"ERW vs Seamless Comparison"},
-            {href:"/blog/pipe-schedule-chart",label:"Pipe Schedule Chart"},
-            {href:"/blog/ss-304-stainless-steel-guide",label:"SS 304 Grade Guide"},
+            {href:"/ss-310-pipe-supplier-india",label:"SS 310 Pipe Supplier India"},
+            {href:"/ss-321-pipe-supplier-india",label:"SS 321 Pipe Supplier India"},
+            {href:"/ss-904l-pipe-supplier-india",label:"SS 904L Pipe Supplier India"},
+            {href:"/ss-sheet-supplier-vadodara",label:"SS Sheet Supplier Vadodara"},
           ].map(l => (
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}

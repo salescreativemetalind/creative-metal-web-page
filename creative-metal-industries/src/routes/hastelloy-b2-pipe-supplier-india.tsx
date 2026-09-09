@@ -155,8 +155,8 @@ export default function HasteloyB2PipeSupplierIndia() {
             {[
               {href:"/hastelloy-c22-pipe-supplier-india", label:"Hastelloy C22 Pipe"},
               {href:"/inconel-600-pipe-supplier-india", label:"Inconel 600 Pipe"},
-              {href:"/nickel-200-pipe-supplier-india", label:"Nickel 200 Pipe"},
-              {href:"/alloy-20-pipe-supplier-india", label:"Alloy 20 Pipe"},
+              {href:"/hastelloy-pipe-supplier-india", label:"Hastelloy Pipe India"},
+              {href:"/incoloy-800-pipe-supplier-india", label:"Incoloy 800 Pipe"},
               {href:"/incoloy-825-pipe-supplier-india", label:"Incoloy 825 Pipe"},
               {href:"/monel-400-pipe-supplier-india", label:"Monel 400 Pipe"},
             ].map(l => (

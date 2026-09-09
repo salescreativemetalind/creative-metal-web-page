@@ -161,10 +161,10 @@ export default function SSSheetSupplierVadodara() {
         <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Related Pages</h3>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
           {[
-            {href:"/ss-round-bar-supplier-vadodara",label:"SS Round Bar Supplier Vadodara"},
-            {href:"/ss-pipe-supplier-vadodara",label:"SS Pipe Supplier Vadodara"},
+            {href:"/ss-seamless-pipe-supplier-india",label:"SS Seamless Pipe India"},
+            {href:"/stainless-steel-supplier-gujarat",label:"SS Supplier Gujarat"},
             {href:"/stainless-steel-supplier-vadodara",label:"Full SS Range Vadodara"},
-            {href:"/ss-flanges-supplier-vadodara",label:"SS Flanges Vadodara"},
+            {href:"/ss-304-316l-pipe-supplier-india",label:"SS 304/316L Pipe India"},
             {href:"/ss-310s-plate-supplier-india",label:"SS 310S Plate Supplier India"},
             {href:"/carbon-steel-sa516-plate-stockist-india",label:"CS SA516 Plate Stockist"},
           ].map(l => (

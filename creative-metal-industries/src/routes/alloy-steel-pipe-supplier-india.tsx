@@ -120,7 +120,7 @@ export default function AlloySteelPipeSupplierIndia() {
         {/* P91 Section */}
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>ASTM A335 P91 Pipe — Grade Focus</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
-          Among the chrome-moly range, <strong>P91 pipe</strong> (9Cr-1Mo-V-Nb) is the workhorse of modern supercritical and ultra-supercritical boilers. Its high creep strength allows thinner, lighter main steam lines and headers at temperatures up to 600°C. P91 owes its performance to a precise tempered-martensitic microstructure — normalised at 1040-1080°C then tempered at 730-780°C — so correct heat treatment is critical. We hold IBR-certified <strong>ASTM A335 P91</strong> seamless pipe in heavy-wall schedules up to XXS, each supplied with heat treatment certificates and PMI verification. For deeper metallurgy, see our <a href="/blog/p91-alloy-steel-guide" style={{color:"#E8821A","text-decoration":"underline"}}>P91 alloy steel guide</a>.
+          Among the chrome-moly range, <strong>P91 pipe</strong> (9Cr-1Mo-V-Nb) is the workhorse of modern supercritical and ultra-supercritical boilers. Its high creep strength allows thinner, lighter main steam lines and headers at temperatures up to 600°C. P91 owes its performance to a precise tempered-martensitic microstructure — normalised at 1040-1080°C then tempered at 730-780°C — so correct heat treatment is critical. We hold IBR-certified <strong>ASTM A335 P91</strong> seamless pipe in heavy-wall schedules up to XXS, each supplied with heat treatment certificates and PMI verification.
         </p>
 
         {/* Why Choose CMI */}
@@ -189,9 +189,9 @@ export default function AlloySteelPipeSupplierIndia() {
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
           {[
             {href:"/duplex-steel-supplier-vadodara",label:"Duplex Steel Supplier Vadodara"},
-            {href:"/blog/p91-alloy-steel-guide",label:"P91 Alloy Steel Complete Guide"},
-            {href:"/carbon-steel-pipe-fittings-vadodara",label:"Carbon Steel Pipe & Fittings"},
-            {href:"/blog/carbon-steel-pipe-guide",label:"Carbon Steel Pipe Guide"},
+            {href:"/p22-alloy-steel-pipe-supplier",label:"P22 Alloy Steel Pipe Supplier"},
+            {href:"/p11-alloy-steel-pipe-supplier",label:"P11 Alloy Steel Pipe Supplier"},
+            {href:"/carbon-steel-pipe-supplier-india",label:"Carbon Steel Pipe India"},
             {href:"/ss-seamless-pipe-supplier-india",label:"SS Seamless Pipe India"},
           ].map(l => (
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>

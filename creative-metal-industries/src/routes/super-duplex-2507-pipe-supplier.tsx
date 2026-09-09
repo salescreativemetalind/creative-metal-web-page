@@ -153,12 +153,12 @@ export default function SuperDuplex2507PipeSupplier() {
           <h3 style={{"font-size":"1.1rem","font-weight":"700",color:"#111827","margin-bottom":"1rem"}}>Related Products</h3>
           <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
             {[
-              {href:"/super-duplex-2507-fittings-supplier", label:"Super Duplex 2507 Fittings"},
-              {href:"/super-duplex-2507-flanges-supplier", label:"Super Duplex 2507 Flanges"},
-              {href:"/duplex-steel-supplier-vadodara", label:"Duplex 2205 Pipe"},
-              {href:"/duplex-2205-fittings-supplier-india", label:"Duplex 2205 Fittings"},
-              {href:"/duplex-2205-flanges-supplier-india", label:"Duplex 2205 Flanges"},
+              {href:"/duplex-2205-plate-supplier-india", label:"Duplex 2205 Plate"},
+              {href:"/ss-904l-pipe-supplier-india", label:"SS 904L Pipe"},
               {href:"/duplex-steel-supplier-vadodara", label:"Duplex Steel Supplier Vadodara"},
+              {href:"/hastelloy-pipe-supplier-india", label:"Hastelloy Pipe"},
+              {href:"/inconel-pipe-supplier-india", label:"Inconel Pipe"},
+              {href:"/ss-304-316l-pipe-supplier-india", label:"SS 316L Pipe"},
             ].map(l => (
               <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
             ))}

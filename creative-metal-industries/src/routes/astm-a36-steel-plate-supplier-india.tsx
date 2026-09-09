@@ -152,7 +152,7 @@ export default function AstmA36SteelPlateSupplierIndia() {
             {href:"/carbon-steel-sa516-plate-stockist-india",label:"SA 516 Pressure Vessel Plate"},
             {href:"/ms-plate-supplier-india",label:"MS Plate Supplier India"},
             {href:"/carbon-steel-pipe-supplier-india",label:"Carbon Steel Pipe Supplier"},
-            {href:"/nace-hic-steel-plate-supplier-india",label:"NACE HIC Steel Plate"},
+            {href:"/ms-channel-ismc-supplier-india",label:"MS Channel ISMC India"},
             {href:"/ms-beam-ismb-supplier-india",label:"MS Beam ISMB India"},
           ].map(link => (
             <a href={link.href} style={{background:"#fff8f0",border:"1px solid #fde8cc","border-radius":"8px",padding:"0.85rem 1rem","font-size":"0.88rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>

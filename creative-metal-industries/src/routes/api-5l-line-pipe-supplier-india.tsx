@@ -25,7 +25,7 @@ const FAQS = [
   { q:"What testing and documentation is provided with API 5L pipe?", a:"API 5L PSL2 pipe is supplied with: Mill Test Certificate per EN 10204 3.2 (with third-party witness), hydrostatic test certificate, chemical analysis (ladle + product), tensile test (longitudinal + transverse), Charpy impact test at specified temperature (0°C or -20°C), hardness test (HRC ≤22 for sour service), NDT reports (UT for seamless, UT + RT for welded), dimensional inspection report, and coating inspection report (for 3LPE/3LPP/FBE). For sour service: HIC test per NACE TM0284 and SSC test per NACE TM0177. OISD-206 compliance certificate for petroleum industry pipelines in India." },
 ];
 
-const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/api-5l-line-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","email":"creativemetalind@gmail.com","address":{"@type":"PostalAddress","streetAddress":"F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390001","addressCountry":"IN"},"url":"https://www.creativemetalind.com","openingHours":"Mo-Sa 09:00-18:00"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Carbon Steel Pipe","item":"https://www.creativemetalind.com/carbon-steel-pipe-fittings-vadodara"},{"@type":"ListItem","position":3,"name":"API 5L Line Pipe Supplier India","item":"https://www.creativemetalind.com/api-5l-line-pipe-supplier-india"}]}]});
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/api-5l-line-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","email":"creativemetalind@gmail.com","address":{"@type":"PostalAddress","streetAddress":"F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390001","addressCountry":"IN"},"url":"https://www.creativemetalind.com","openingHours":"Mo-Sa 09:00-18:00"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Carbon Steel Pipe","item":"https://www.creativemetalind.com/carbon-steel-pipe-supplier-india"},{"@type":"ListItem","position":3,"name":"API 5L Line Pipe Supplier India","item":"https://www.creativemetalind.com/api-5l-line-pipe-supplier-india"}]}]});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":FAQS.map(f=>({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}}))});
 
 export default function API5lLinePipeSupplierIndia() {
@@ -53,7 +53,7 @@ export default function API5lLinePipeSupplierIndia() {
         <div style="flex:1;display:flex;gap:1.5rem;align-items:center">
           <a href="/" style="color:#d1d5db;text-decoration:none;font-size:0.85rem;font-weight:500">Home</a>
           <a href="/about" style="color:#d1d5db;text-decoration:none;font-size:0.85rem;font-weight:500">About</a>
-          <a href="/blog" style="color:#d1d5db;text-decoration:none;font-size:0.85rem;font-weight:500">Blog</a>
+          <a href="/products" style="color:#d1d5db;text-decoration:none;font-size:0.85rem;font-weight:500">Products</a>
         </div>
         <a href="tel:+919998280619" style="background:#E8821A;color:#fff;padding:0.5rem 1.2rem;border-radius:6px;font-weight:700;font-size:0.85rem;text-decoration:none">📞 +91 99982 80619</a>
       </nav>
@@ -61,7 +61,7 @@ export default function API5lLinePipeSupplierIndia() {
       {/* Breadcrumb */}
       <div style="background:#f9fafb;border-bottom:1px solid #e5e7eb;padding:0.6rem 1.5rem;font-size:0.82rem;color:#6b7280">
         <a href="/" style="color:#E8821A;text-decoration:none">Home</a><span style="margin:0 0.5rem">{"\u203A"}</span>
-        <a href="/carbon-steel-pipe-fittings-vadodara" style="color:#E8821A;text-decoration:none">Carbon Steel Pipe</a><span style="margin:0 0.5rem">{"\u203A"}</span>
+        <a href="/carbon-steel-pipe-supplier-india" style="color:#E8821A;text-decoration:none">Carbon Steel Pipe</a><span style="margin:0 0.5rem">{"\u203A"}</span>
         <span>API 5L Line Pipe Supplier India</span>
       </div>
 
@@ -170,12 +170,10 @@ export default function API5lLinePipeSupplierIndia() {
           {[
             {href:"/a106-gr-b-seamless-pipe-india", label:"A106 Gr.B Seamless Pipe"},
             {href:"/a53-erw-pipe-supplier-india", label:"A53 ERW Pipe Supplier"},
-            {href:"/api-5ct-casing-tubing-india", label:"API 5CT Casing & Tubing"},
-            {href:"/carbon-steel-pipe-fittings-vadodara", label:"Carbon Steel Pipe & Fittings"},
+            {href:"/carbon-steel-pipe-supplier-india", label:"Carbon Steel Pipe India"},
+            {href:"/carbon-steel-sa516-plate-stockist-india", label:"Carbon Steel SA516 Plate"},
             {href:"/alloy-steel-pipe-supplier-india", label:"Alloy Steel Pipe Supplier"},
-            {href:"/a333-low-temp-pipe-supplier", label:"A333 Low Temp Pipe"},
-            {href:"/a691-pipe-supplier-india", label:"A691 LSAW Pipe Supplier"},
-            {href:"/a358-welded-pipe-supplier-india", label:"A358 Welded Pipe Supplier"},
+            {href:"/astm-a36-steel-plate-supplier-india", label:"ASTM A36 Steel Plate"},
           ].map(l => (
             <a href={l.href} style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:0.75rem 1rem;font-size:0.85rem;font-weight:600;color:#E8821A;text-decoration:none">{l.label} →</a>
           ))}

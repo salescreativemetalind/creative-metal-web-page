@@ -143,7 +143,7 @@ export default function Incoloy800PipeSupplierIndia() {
           <div style="display:flex;gap:24px;align-items:center">
             <a href="/" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Home</a>
             <a href="/about" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">About</a>
-            <a href="/blog" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Blog</a>
+            <a href="/products" style="color:#fff;text-decoration:none;font-size:14px;font-weight:500">Products</a>
             <a href="tel:+919998280619" style="background:#E8821A;color:#fff;padding:8px 18px;border-radius:6px;text-decoration:none;font-size:14px;font-weight:600">+91 99982 80619</a>
           </div>
         </div>
@@ -339,14 +339,12 @@ export default function Incoloy800PipeSupplierIndia() {
           <h3 style="font-size:20px;font-weight:700;color:#111827;margin:0 0 20px;text-align:center">Related Products</h3>
           <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px">
             {[
-              { href: "/incoloy-800h-pipe-supplier", label: "Incoloy 800H Details" },
               { href: "/incoloy-825-pipe-supplier-india", label: "Incoloy 825 Details" },
               { href: "/inconel-pipe-supplier-india", label: "Inconel 625/600 Pipe" },
               { href: "/hastelloy-pipe-supplier-india", label: "Hastelloy C-276 Pipe" },
-              { href: "/nickel-200-pipe-supplier-india", label: "Nickel 200 Pipe" },
+              { href: "/monel-400-pipe-supplier-india", label: "Monel 400 Pipe" },
               { href: "/alloy-steel-pipe-supplier-india", label: "Alloy Steel P91/P22" },
-              { href: "/heat-exchanger-tube-supplier-india", label: "Heat Exchanger Tubes" },
-              { href: "/boiler-tube-supplier-india", label: "Boiler Tubes" },
+              { href: "/titanium-pipe-supplier-india", label: "Titanium Pipe" },
             ].map(link => (
               <a href={link.href} style="background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:14px 16px;text-decoration:none;font-size:14px;font-weight:600;color:#E8821A;text-align:center">
                 {link.label} →

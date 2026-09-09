@@ -551,10 +551,10 @@ export default function MetalTradingPage() {
             {[
               { href: "/products",                  icon: "📐", label: "Size & Weight Charts",            desc: "IS 808, IS 1239, ASTM A312 spec tables" },
               { href: "/about",                     icon: "🏭", label: "About Us",                        desc: "Our facility, team and certifications"    },
-              { href: "/blog",                      icon: "📚", label: "Technical Blog",                  desc: "Guides for procurement engineers"         },
-              { href: "/blog/ss-304-vs-316l",       icon: "🔬", label: "SS 304 vs 316L Guide",           desc: "Which grade for your application?"        },
-              { href: "/blog/how-to-read-mtc",      icon: "📄", label: "How to Read an MTC",             desc: "EN 10204 3.1 / 3.2 explained"            },
-              { href: "/blog/duplex-vs-super-duplex",icon:"⚗️", label: "Duplex 2205 vs 2507",            desc: "PREN, strength and corrosion comparison"  },
+              { href: "/ss-304-316l-pipe-supplier-india", icon: "🔬", label: "SS 304 / 316L Pipe",         desc: "Austenitic grades for your application"   },
+              { href: "/duplex-steel-supplier-vadodara", icon:"⚗️", label: "Duplex 2205 / 2507",           desc: "PREN, strength and corrosion resistance"  },
+              { href: "/carbon-steel-pipe-supplier-india", icon: "🏗️", label: "Carbon Steel Pipe",         desc: "A106, A53, API 5L line pipe"             },
+              { href: "/reviews",                   icon: "⭐", label: "Customer Reviews",               desc: "What our buyers say about us"            },
               { href: "/#contact",                  icon: "✉️", label: "Contact & Enquiry",               desc: "Send your material requirement"          },
               { href: "/#product-tabs",             icon: "🛢️", label: "Product Catalogue",              desc: "Browse our full product range"           },
             ].map(l => (

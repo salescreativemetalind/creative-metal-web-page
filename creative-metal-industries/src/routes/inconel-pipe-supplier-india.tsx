@@ -79,7 +79,7 @@ export default function InconelPipeSupplierIndia() {
         {/* Inconel 625 */}
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Inconel 625 Pipe Supplier — Grades &amp; Specifications</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
-          As a dedicated <strong>Inconel 625 supplier</strong>, we hold ready stock of <strong>Inconel 625 pipe</strong> (UNS N06625) in seamless and welded form to ASTM B444 and B705, sizes 1/2" to 12". The 61Ni-21.5Cr-9Mo-3.6Nb composition delivers standout resistance to pitting, crevice corrosion and stress-corrosion cracking, which is why 625 is the grade of choice for offshore, flue gas desulfurisation and chemical reactor duty. Every length ships with full MTC and heat traceability — see the grade table above for the complete 625 specification. For alloy selection background, our <a href="/blog/inconel-625-guide" style={{color:"#E8821A","text-decoration":"underline"}}>Inconel 625 technical guide</a> covers metallurgy and applications in depth.
+          As a dedicated <strong>Inconel 625 supplier</strong>, we hold ready stock of <strong>Inconel 625 pipe</strong> (UNS N06625) in seamless and welded form to ASTM B444 and B705, sizes 1/2" to 12". The 61Ni-21.5Cr-9Mo-3.6Nb composition delivers standout resistance to pitting, crevice corrosion and stress-corrosion cracking, which is why 625 is the grade of choice for offshore, flue gas desulfurisation and chemical reactor duty. Every length ships with full MTC and heat traceability — see the grade table above for the complete 625 specification.
         </p>
 
         {/* Specifications */}
@@ -168,9 +168,9 @@ export default function InconelPipeSupplierIndia() {
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
           {[
             {href:"/duplex-steel-supplier-vadodara",label:"Duplex Steel Supplier Vadodara"},
-            {href:"/blog/inconel-625-guide",label:"Inconel 625 Complete Guide"},
-            {href:"/blog/hastelloy-c276-guide",label:"Hastelloy C276 Guide"},
-            {href:"/blog/exotic-alloy-plate-sheet-guide",label:"Exotic Alloy Plate & Sheet Guide"},
+            {href:"/inconel-600-pipe-supplier-india",label:"Inconel 600 Pipe India"},
+            {href:"/inconel-718-supplier-india",label:"Inconel 718 Supplier"},
+            {href:"/hastelloy-pipe-supplier-india",label:"Hastelloy C276 Pipe"},
             {href:"/ss-seamless-pipe-supplier-india",label:"SS Seamless Pipe India"},
           ].map(l => (
             <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>

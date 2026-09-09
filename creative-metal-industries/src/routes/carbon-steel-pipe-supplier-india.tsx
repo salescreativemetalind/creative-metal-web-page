@@ -152,7 +152,7 @@ export default function CarbonSteelPipeSupplierIndia() {
             {href:"/a53-erw-pipe-supplier-india",label:"A53 ERW Pipe"},
             {href:"/api-5l-line-pipe-supplier-india",label:"API 5L Line Pipe"},
             {href:"/carbon-steel-sa516-plate-stockist-india",label:"SA 516 Plate Stockist"},
-            {href:"/carbon-steel-pipe-fittings-vadodara",label:"CS Pipe & Fittings"},
+            {href:"/astm-a36-steel-plate-supplier-india",label:"ASTM A36 Steel Plate"},
           ].map(link => (
             <a href={link.href} style={{background:"#fff8f0",border:"1px solid #fde8cc","border-radius":"8px",padding:"0.85rem 1rem","font-size":"0.88rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>
               {link.label} →

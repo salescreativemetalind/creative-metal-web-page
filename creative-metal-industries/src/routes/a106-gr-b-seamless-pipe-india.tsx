@@ -23,7 +23,7 @@ const FAQS = [
   { q:"What testing does A106 Gr.B pipe undergo?", a:"ASTM A106 Grade B seamless pipe undergoes: hydrostatic testing at pressure calculated per ASTM A530 formula (or pneumatic test as alternative); tensile testing at room temperature confirming minimum 240 MPa yield and 415 MPa UTS; flattening test per ASTM A530; chemical analysis confirming C≤0.30%, Mn 0.29-1.06%, S≤0.035%, P≤0.035%; and for sizes over 2 inches, one bend test per heat. Optional supplementary requirements include ultrasonic examination (S4), hardness testing (S6) and elevated temperature tensile test. All our A106 pipe is supplied with MTC per EN 10204 3.1." },
 ];
 
-const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/a106-gr-b-seamless-pipe-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","address":{"@type":"PostalAddress","streetAddress":"F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390001","addressCountry":"IN"},"url":"https://www.creativemetalind.com","openingHours":"Mo-Sa 09:00-18:00"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Carbon Steel Pipe","item":"https://www.creativemetalind.com/carbon-steel-pipe-fittings-vadodara"},{"@type":"ListItem","position":3,"name":"A106 Gr.B Seamless Pipe India","item":"https://www.creativemetalind.com/a106-gr-b-seamless-pipe-india"}]}]});
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/a106-gr-b-seamless-pipe-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","address":{"@type":"PostalAddress","streetAddress":"F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390001","addressCountry":"IN"},"url":"https://www.creativemetalind.com","openingHours":"Mo-Sa 09:00-18:00"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Carbon Steel Pipe","item":"https://www.creativemetalind.com/carbon-steel-pipe-supplier-india"},{"@type":"ListItem","position":3,"name":"A106 Gr.B Seamless Pipe India","item":"https://www.creativemetalind.com/a106-gr-b-seamless-pipe-india"}]}]});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":FAQS.map(f=>({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}}))});
 
 export default function A106GrBSeamlessPipeIndia() {
@@ -52,7 +52,7 @@ export default function A106GrBSeamlessPipeIndia() {
       </nav>
       <div style={{background:"#f9fafb","border-bottom":"1px solid #e5e7eb",padding:"0.6rem 1.5rem","font-size":"0.82rem",color:"#6b7280"}}>
         <a href="/" style={{color:"#E8821A","text-decoration":"none"}}>Home</a><span style={{margin:"0 0.5rem"}}>{"\u203A"}</span>
-        <a href="/carbon-steel-pipe-fittings-vadodara" style={{color:"#E8821A","text-decoration":"none"}}>Carbon Steel Pipe</a><span style={{margin:"0 0.5rem"}}>{"\u203A"}</span>
+        <a href="/carbon-steel-pipe-supplier-india" style={{color:"#E8821A","text-decoration":"none"}}>Carbon Steel Pipe</a><span style={{margin:"0 0.5rem"}}>{"\u203A"}</span>
         <span>A106 Gr.B Seamless Pipe India</span>
       </div>
 
@@ -157,8 +157,8 @@ export default function A106GrBSeamlessPipeIndia() {
           {[
             {href:"/carbon-steel-pipe-supplier-india",label:"Carbon Steel Pipe Supplier India"},
             {href:"/a53-erw-pipe-supplier-india",label:"A53 ERW Pipe Supplier India"},
-            {href:"/a333-low-temp-pipe-supplier",label:"A333 Low Temp Pipe Supplier"},
-            {href:"/carbon-steel-pipe-fittings-vadodara",label:"Carbon Steel Pipe & Fittings"},
+            {href:"/api-5l-line-pipe-supplier-india",label:"API 5L Line Pipe Supplier"},
+            {href:"/carbon-steel-sa516-plate-stockist-india",label:"Carbon Steel SA516 Plate"},
             {href:"/alloy-steel-pipe-supplier-india",label:"Alloy Steel Pipe Supplier"},
             {href:"/p11-alloy-steel-pipe-supplier",label:"P11 Alloy Steel Pipe Supplier"},
           ].map(l => (

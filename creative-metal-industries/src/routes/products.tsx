@@ -519,9 +519,9 @@ export default function ProductsPage() {
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "SS Pipes & Tubes", "url": "https://www.creativemetalind.com/ss-seamless-pipe-supplier-india" },
           { "@type": "ListItem", "position": 2, "name": "Carbon & Alloy Steel Pipes", "url": "https://www.creativemetalind.com/alloy-steel-pipe-supplier-india" },
-          { "@type": "ListItem", "position": 3, "name": "Pipe Fittings & Flanges", "url": "https://www.creativemetalind.com/ss-buttweld-fittings-supplier-india" },
+          { "@type": "ListItem", "position": 3, "name": "Carbon Steel Pipe", "url": "https://www.creativemetalind.com/carbon-steel-pipe-supplier-india" },
           { "@type": "ListItem", "position": 4, "name": "Steel Plates & Sheets", "url": "https://www.creativemetalind.com/carbon-steel-sa516-plate-stockist-india" },
-          { "@type": "ListItem", "position": 5, "name": "Structural Steel", "url": "https://www.creativemetalind.com/tmt-bars-supplier-gujarat" },
+          { "@type": "ListItem", "position": 5, "name": "Structural Steel", "url": "https://www.creativemetalind.com/ms-beam-ismb-supplier-india" },
           { "@type": "ListItem", "position": 6, "name": "Exotic Alloys", "url": "https://www.creativemetalind.com/inconel-pipe-supplier-india" }
         ]
       })} />
@@ -549,13 +549,13 @@ export default function ProductsPage() {
           <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(240px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
             {[
               {href:"/ss-seamless-pipe-supplier-india", icon:"🛢️", title:"SS Seamless Pipe", desc:"ASTM A312 — 304, 316L, 321, Duplex. 6NB–600NB."},
-              {href:"/ss-buttweld-fittings-supplier-india", icon:"⚙️", title:"SS Buttweld Fittings", desc:"ASTM A403 — Elbows, Tees, Reducers. All grades."},
-              {href:"/ss-flanges-supplier-vadodara", icon:"🔩", title:"SS Flanges", desc:"ASTM A182 — WNRF, SORF, Blind. Class 150–2500."},
+              {href:"/ss-304-316l-pipe-supplier-india", icon:"⚙️", title:"SS 304 / 316L Pipe", desc:"ASTM A312 — austenitic grades. All sizes."},
+              {href:"/ss-sheet-supplier-vadodara", icon:"🔩", title:"SS Sheet & Plate", desc:"304, 316L, 310S, 430. 2B, No.4, mirror finish."},
               {href:"/alloy-steel-pipe-supplier-india", icon:"🔥", title:"Alloy Steel Pipe", desc:"ASTM A335 P91, P22, P11. IBR certified."},
               {href:"/inconel-pipe-supplier-india", icon:"✨", title:"Inconel Pipe", desc:"625, 600, 718, 825. ASTM B444/B167."},
-              {href:"/carbon-steel-pipe-fittings-vadodara", icon:"🏗️", title:"Carbon Steel Pipe & Fittings", desc:"A106 Gr.B, ERW, A234 fittings, A105 flanges."},
+              {href:"/carbon-steel-pipe-supplier-india", icon:"🏗️", title:"Carbon Steel Pipe", desc:"A106 Gr.B, A53 ERW, API 5L line pipe."},
               {href:"/duplex-steel-supplier-vadodara", icon:"🔵", title:"Duplex & Super Duplex", desc:"2205, 2507. Pipes, plates, fittings."},
-              {href:"/tmt-bars-supplier-gujarat", icon:"🏢", title:"TMT Bars & Structural", desc:"Fe 500D. MS Angle, Channel, Beam."},
+              {href:"/ms-beam-ismb-supplier-india", icon:"🏢", title:"Structural Steel", desc:"MS Angle, Channel, Beam, Plate, Flat Bar."},
             ].map(p => (
               <a href={p.href} style={{display:"block",background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.25rem","text-decoration":"none",transition:"border-color 0.2s"}}>
                 <span style={{"font-size":"1.5rem"}}>{p.icon}</span>

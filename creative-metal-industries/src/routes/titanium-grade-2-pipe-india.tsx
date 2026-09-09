@@ -157,7 +157,7 @@ export default function TitaniumGrade2PipeIndia() {
               {href:"/hastelloy-c22-pipe-supplier-india", label:"Hastelloy C22 Pipe"},
               {href:"/inconel-pipe-supplier-india", label:"Inconel 625 Pipe"},
               {href:"/duplex-steel-supplier-vadodara", label:"Duplex Steel Pipe"},
-              {href:"/cupro-nickel-9010-pipe-india", label:"CuNi 90/10 Pipe"},
+              {href:"/monel-400-pipe-supplier-india", label:"Monel 400 Pipe"},
               {href:"/ss-904l-pipe-supplier-india", label:"SS 904L Pipe"},
             ].map(l => (
               <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>

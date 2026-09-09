@@ -116,9 +116,9 @@ export default function MSBeamIsmbSupplierIndia() {
         {/* Internal Links */}
         <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Related Products & Resources</h2>
         <ul style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.9", "padding-left": "1.25rem" }}>
-          <li><a href="/blog/titanium-grade-2-vs-grade-5" style={{ color: "#E8821A", "font-weight": "600" }}>Titanium Grade 2 vs Grade 5</a></li>
-          <li><a href="/blog/ss-316l-stainless-steel-guide" style={{ color: "#E8821A", "font-weight": "600" }}>SS 316L Stainless Steel Guide</a></li>
-          <li><a href="/tmt-bars-supplier-gujarat" style={{ color: "#E8821A", "font-weight": "600" }}>TMT Bars Supplier Gujarat</a></li>
+          <li><a href="/ms-channel-ismc-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>MS Channel ISMC Supplier India</a></li>
+          <li><a href="/ms-angle-channel-supplier-vadodara" style={{ color: "#E8821A", "font-weight": "600" }}>MS Angle & Channel Supplier Vadodara</a></li>
+          <li><a href="/ms-plate-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>MS Plate Supplier India</a></li>
         </ul>
 
         {/* FAQ Section */}
