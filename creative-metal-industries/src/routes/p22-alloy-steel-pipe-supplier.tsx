@@ -156,9 +156,8 @@ export default function P22AlloySteelPipeSupplier() {
         <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Related Pages</h3>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
           {[
-            {href:"/alloy-steel-pipe-supplier-india",label:"Alloy Steel Pipe Supplier India"},
+            {href:"/alloy-steel-pipe-supplier-india",label:"Alloy Steel Pipe Supplier India (P91)"},
             {href:"/p11-alloy-steel-pipe-supplier",label:"P11 Alloy Steel Pipe Supplier"},
-            {href:"/p92-alloy-steel-pipe-supplier",label:"P92 Alloy Steel Pipe Supplier"},
             {href:"/carbon-steel-sa516-plate-stockist-india",label:"SA 516 Plate Stockist"},
             {href:"/api-5l-line-pipe-supplier-india",label:"API 5L Line Pipe"},
           ].map(l => (

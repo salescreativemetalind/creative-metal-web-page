@@ -76,7 +76,6 @@ const STAINLESS_LINKS = [
   { href: "/ss-904l-pipe-supplier-india", label: "SS 904L Pipe" },
   { href: "/ss-sheet-supplier-vadodara", label: "SS Sheet Supplier" },
   { href: "/stainless-steel-supplier-vadodara", label: "Stainless Steel Vadodara" },
-  { href: "/stainless-steel-supplier-gujarat", label: "Stainless Steel Gujarat" },
 ];
 
 const CARBON_LINKS = [
@@ -90,11 +89,8 @@ const CARBON_LINKS = [
 
 const ALLOY_LINKS = [
   { href: "/alloy-steel-pipe-supplier-india", label: "Alloy Steel Pipe" },
-  { href: "/p5-alloy-steel-pipe-supplier", label: "P5 Alloy Steel Pipe" },
-  { href: "/p9-alloy-steel-pipe-supplier", label: "P9 Alloy Steel Pipe" },
   { href: "/p11-alloy-steel-pipe-supplier", label: "P11 Alloy Steel Pipe" },
   { href: "/p22-alloy-steel-pipe-supplier", label: "P22 Alloy Steel Pipe" },
-  { href: "/p92-alloy-steel-pipe-supplier", label: "P92 Alloy Steel Pipe" },
 ];
 
 const DUPLEX_LINKS = [
@@ -111,7 +107,6 @@ const NICKEL_LINKS = [
   { href: "/incoloy-825-pipe-supplier-india", label: "Incoloy 825 Pipe" },
   { href: "/hastelloy-pipe-supplier-india", label: "Hastelloy Pipe" },
   { href: "/hastelloy-c22-pipe-supplier-india", label: "Hastelloy C22 Pipe" },
-  { href: "/hastelloy-b2-pipe-supplier-india", label: "Hastelloy B2 Pipe" },
   { href: "/monel-400-pipe-supplier-india", label: "Monel 400 Pipe" },
   { href: "/monel-k500-supplier-india", label: "Monel K500" },
 ];

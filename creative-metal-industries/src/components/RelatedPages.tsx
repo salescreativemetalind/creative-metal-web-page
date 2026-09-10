@@ -18,16 +18,12 @@ const STAINLESS_STEEL_PAGES = [
   { href: "/ss-430-sheet-supplier-india", label: "SS 430 Sheet Supplier" },
   { href: "/ss-904l-pipe-supplier-india", label: "SS 904L Pipe Supplier" },
   { href: "/stainless-steel-supplier-vadodara", label: "Stainless Steel Vadodara" },
-  { href: "/stainless-steel-supplier-gujarat", label: "Stainless Steel Gujarat" },
 ];
 
 const ALLOY_STEEL_PAGES = [
   { href: "/alloy-steel-pipe-supplier-india", label: "Alloy Steel Pipe India" },
-  { href: "/p5-alloy-steel-pipe-supplier", label: "P5 Alloy Steel Pipe" },
-  { href: "/p9-alloy-steel-pipe-supplier", label: "P9 Alloy Steel Pipe" },
   { href: "/p11-alloy-steel-pipe-supplier", label: "P11 Alloy Steel Pipe" },
   { href: "/p22-alloy-steel-pipe-supplier", label: "P22 Alloy Steel Pipe" },
-  { href: "/p92-alloy-steel-pipe-supplier", label: "P92 Alloy Steel Pipe" },
 ];
 
 const CARBON_STEEL_PAGES = [
@@ -50,7 +46,6 @@ const EXOTIC_ALLOY_PAGES = [
   { href: "/monel-k500-supplier-india", label: "Monel K500 Supplier" },
   { href: "/hastelloy-pipe-supplier-india", label: "Hastelloy Pipe India" },
   { href: "/hastelloy-c22-pipe-supplier-india", label: "Hastelloy C22 Pipe" },
-  { href: "/hastelloy-b2-pipe-supplier-india", label: "Hastelloy B2 Pipe" },
   { href: "/titanium-pipe-supplier-india", label: "Titanium Pipe India" },
   { href: "/titanium-bar-supplier-india", label: "Titanium Bar Supplier" },
   { href: "/titanium-grade-2-pipe-india", label: "Titanium Grade 2 Pipe" },
@@ -70,9 +65,7 @@ const STRUCTURAL_STEEL_PAGES = [
 // Top-level pages every route should reach.
 const SITE_PAGES = [
   { href: "/products", label: "All Products" },
-  { href: "/stainless-steel-supplier-gujarat", label: "Stainless Steel Gujarat" },
   { href: "/about", label: "About CMI" },
-  { href: "/metal-trading", label: "Metal Trading" },
   { href: "/reviews", label: "Customer Reviews" },
   { href: "/sitemap", label: "Site Map" },
 ];

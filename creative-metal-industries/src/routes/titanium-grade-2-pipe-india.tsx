@@ -59,7 +59,7 @@ export default function TitaniumGrade2PipeIndia() {
             Titanium Grade 2 Pipe Supplier in India — R50400
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is a leading <strong>Titanium Grade 2 pipe supplier in India</strong> stocking ASTM B861 seamless and B862 welded pipes in UNS R50400 — the most widely used commercially pure titanium grade. With 99.2% titanium purity, Grade 2 delivers outstanding resistance to chlorides, seawater, oxidizing acids, and wet chlorine gas while offering moderate strength (345 MPa yield), excellent formability, and reliable weldability. The preferred material for desalination plants, chemical processing, power plant condensers, offshore seawater systems, and chlor-alkali plants. Ready stock sizes 1/2" to 10" NB at our Vadodara warehouse.
+            Creative Metal Industries is a leading <strong>Titanium Grade 2 pipe supplier in India</strong> stocking ASTM B861 seamless and B862 welded pipes in UNS R50400 — the most widely used commercially pure titanium grade. With 99.2% titanium purity, Grade 2 delivers outstanding resistance to chlorides, seawater, oxidizing acids, and wet chlorine gas while offering moderate strength (345 MPa yield), excellent formability, and reliable weldability. The preferred material for desalination plants, chemical processing, power plant condensers, offshore seawater systems, and chlor-alkali plants. As a trusted <strong>Titanium Grade 2 supplier</strong>, we hold ready stock in sizes 1/2" to 10" NB at our Vadodara warehouse.
           </p>
         </div>
 

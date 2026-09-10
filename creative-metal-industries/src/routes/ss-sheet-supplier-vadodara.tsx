@@ -22,6 +22,7 @@ const FAQS = [
   { q:"Can you supply cut-pieces of SS sheet?", a:"Yes. We offer cut-to-size service using shearing machine (up to 6mm), plasma cutting (6mm to 100mm), and laser cutting (for precision shapes). Minimum cut size is 100×100mm. Cut pieces attract a small processing charge over the per-kg rate. Same-day cutting available for standard orders." },
   { q:"What is the difference between SS 304 and SS 430 for kitchen use?", a:"SS 304 (18/8 austenitic) is non-magnetic, highly corrosion resistant, and the industry standard for commercial kitchens, food equipment and hospital use. SS 430 (ferritic) is magnetic, has lower corrosion resistance but is 30-40% cheaper — suitable for residential kitchen accessories, sinks and appliances where severe corrosion is not expected." },
   { q:"What is your minimum order quantity?", a:"No strict MOQ for ready-stock items. You can buy even a single sheet. For cut-pieces, minimum billing of Rs 5,000 applies. For indent/import orders (special sizes or mirror/coloured sheets), MOQ is typically 500 kg or 1 MT depending on the mill. Walk-in customers welcome at our Vadodara warehouse." },
+  { q:"Do you supply SS 304 plate and SS 316 plate as well as sheet?", a:"Yes. We stock both stainless steel sheet (0.3mm to 6mm) and stainless steel plate (6mm to 100mm). SS 304 plate and SS 316 plate are our fastest-moving grades in ASTM A240 / SA240, supplied as hot-rolled No.1 annealed & pickled plate with full MTC. We also carry 304 stainless steel plate and 316 stainless steel plate in specialist sizes, plus 321, 310S, 410, 430 and 904L plate on request. Cut-to-size and PMI verification included." },
 ];
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/ss-sheet-supplier-vadodara#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","address":{"@type":"PostalAddress","streetAddress":"F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390001","addressCountry":"IN"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"SS Sheet Supplier Vadodara","item":"https://www.creativemetalind.com/ss-sheet-supplier-vadodara"}]}]});
@@ -30,9 +31,9 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SSSheetSupplierVadodara() {
   return (
     <>
-      <Title>SS Sheet Supplier Vadodara | SS 304 Sheet Price | CMI</Title>
+      <Title>SS Sheet &amp; Plate Supplier Vadodara | SS 304 &amp; 316 Plate | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="SS sheet supplier Vadodara — stainless steel sheet &amp; plate in SS 304, 316L, 430, 321. ASTM A240/SA240. Thickness 0.3mm to 100mm." />
+      <Meta name="description" content="Stainless steel sheet &amp; plate supplier Vadodara — SS 304 plate, SS 316 plate, 430, 321. ASTM A240/SA240. Thickness 0.3mm to 100mm. Cut-to-size, MTC." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-sheet-supplier-vadodara" />
       <Meta property="og:title" content="SS Sheet Supplier Vadodara | SS 304 Sheet Price | Creative Metal Industries" />
       <Meta property="og:type" content="website" />
@@ -83,6 +84,15 @@ export default function SSSheetSupplierVadodara() {
             </tbody>
           </table>
         </div>
+
+        {/* SS 304 & 316 Plate */}
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS 304 Plate &amp; SS 316 Plate — Stainless Steel Plate Stock</h2>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
+          Alongside sheets, we hold ready stock of hot-rolled <strong>stainless steel plate</strong> in the two most-specified austenitic grades. Our <strong>SS 304 plate</strong> (ASTM A240 Type 304 / 304L) covers 6mm to 100mm thickness for general fabrication, structural and food-contact work, while <strong>SS 316 plate</strong> (Type 316 / 316L) adds molybdenum for chloride and marine resistance. Both are supplied as No.1 (HR annealed &amp; pickled) plate with full MTC and heat traceability, cut to your drawing size.
+        </p>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
+          As a national <strong>304 stainless steel plate</strong> and <strong>316 stainless steel plate</strong> supplier, we also stock the specialist grades — 321, 310S, 410, 430 and 904L — in plate form. Every plate is PMI-verified before dispatch. See the grade table below for thickness, size and finish availability, or call for a cut-to-size quotation.
+        </p>
 
         {/* Specifications Grid */}
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Specifications &amp; Technical Details</h2>
@@ -162,7 +172,7 @@ export default function SSSheetSupplierVadodara() {
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
           {[
             {href:"/ss-seamless-pipe-supplier-india",label:"SS Seamless Pipe India"},
-            {href:"/stainless-steel-supplier-gujarat",label:"SS Supplier Gujarat"},
+            {href:"/ss-321-pipe-supplier-india",label:"SS 321 Pipe Supplier India"},
             {href:"/stainless-steel-supplier-vadodara",label:"Full SS Range Vadodara"},
             {href:"/ss-304-316l-pipe-supplier-india",label:"SS 304/316L Pipe India"},
             {href:"/ss-310s-plate-supplier-india",label:"SS 310S Plate Supplier India"},

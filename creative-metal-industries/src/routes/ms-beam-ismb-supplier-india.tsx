@@ -62,7 +62,7 @@ export default function MSBeamIsmbSupplierIndia() {
         </h1>
 
         <p style={{ "font-size": "1.05rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1.5rem" }}>
-          <strong>Creative Metal Industries</strong> is India's trusted supplier and stockist of <strong>Mild Steel Beam (ISMB)</strong> manufactured per <strong>IS 808, IS 2062</strong>. We stock grades ISMB 100, 150, 200, 250, 300, 350, 400, 450, 500, 600 for immediate dispatch from our Vadodara (Gujarat) warehouse. As a leading industrial metal supplier with 13+ years of experience, we serve refineries, power plants, chemical processing units, EPC contractors, and fabrication workshops across India and 50+ export destinations.
+          <strong>Creative Metal Industries</strong> is India's trusted <strong>MS beam supplier</strong> and stockist of <strong>Mild Steel Beam (ISMB)</strong> manufactured per <strong>IS 808, IS 2062</strong>. We stock grades ISMB 100, 150, 200, 250, 300, 350, 400, 450, 500, 600 for immediate dispatch from our Vadodara (Gujarat) warehouse. As a leading industrial metal supplier with 13+ years of experience, we serve refineries, power plants, chemical processing units, EPC contractors, and fabrication workshops across India and 50+ export destinations.
         </p>
 
         <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Available Grades & Specifications</h2>

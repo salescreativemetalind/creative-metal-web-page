@@ -58,7 +58,7 @@ export default function Ss410PipeSupplierIndia() {
             SS 410 Martensitic Pipe Supplier in India
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is a leading <strong>SS 410 martensitic pipe supplier in India</strong> stocking ASTM A268 TP410 and ASTM A240 Type 410 seamless and welded pipes for high-strength applications. SS 410 is a hardenable martensitic stainless steel with 13% chromium — the only stainless steel that can achieve hardness up to 40 HRC through heat treatment. Ideal for valve stems, pump shafts, turbine blades, fasteners, and springs where high strength with moderate corrosion resistance is required. Ready stock in sizes 1/2" to 8" NB, SCH 40 to SCH 80 at our Vadodara warehouse.
+            Creative Metal Industries is a leading <strong>SS 410 martensitic pipe supplier in India</strong> stocking ASTM A268 TP410 and ASTM A240 Type 410 seamless and welded pipes for high-strength applications. SS 410 is a hardenable martensitic stainless steel with 13% chromium — the only stainless steel that can achieve hardness up to 40 HRC through heat treatment. Ideal for valve stems, pump shafts, turbine blades, fasteners, and springs where high strength with moderate corrosion resistance is required. Ready stock in sizes 1/2" to 8" NB, SCH 40 to SCH 80 at our Vadodara warehouse. We also supply <strong>SS 410 plate</strong> (ASTM A240 Type 410) in hardenable condition for wear-resistant liners and structural parts.
           </p>
         </div>
 

@@ -169,7 +169,7 @@ export default function Incoloy800PipeSupplierIndia() {
             Incoloy 800 / 825 Pipe Supplier India
           </h1>
           <p style="color:#d1d5db;font-size:18px;margin:0 0 10px;line-height:1.7">
-            India's specialist supplier of <strong style="color:#E8821A">Incoloy 800H/800HT</strong> for high-temperature petrochemical service and <strong style="color:#E8821A">Incoloy 825</strong> for acid and corrosion resistance. 800H provides superior creep strength for reformer tubes and ethylene cracker coils operating at 900-1100°C. 825 handles sulfuric acid, phosphoric acid, and sour gas environments. ASTM B407/B423 certified. Ready stock from Vadodara.
+            India's specialist supplier of <strong style="color:#E8821A">Incoloy 800H/800HT</strong> for high-temperature petrochemical service and <strong style="color:#E8821A">Incoloy 825</strong> for acid and corrosion resistance. 800H provides superior creep strength for reformer tubes and ethylene cracker coils operating at 900-1100°C. 825 handles sulfuric acid, phosphoric acid, and sour gas environments. ASTM B407/B423 certified. As an established <strong style="color:#E8821A">Incoloy 800 supplier</strong>, we keep these grades in ready stock at Vadodara.
           </p>
           <p style="color:#9ca3af;font-size:15px;margin:0 0 28px">
             Price Range: <strong style="color:#E8821A">Rs 1,800 – 8,000/kg</strong> | Full Mill Traceability | Delivery across India

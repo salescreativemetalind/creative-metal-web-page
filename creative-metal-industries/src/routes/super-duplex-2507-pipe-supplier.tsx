@@ -59,7 +59,7 @@ export default function SuperDuplex2507PipeSupplier() {
             Super Duplex 2507 Pipe Stockist in India — S32750
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is a leading <strong>Super Duplex 2507 pipe stockist in India</strong> supplying ASTM A790 UNS S32750 seamless and welded pipes for offshore oil &amp; gas, subsea pipelines, and desalination plants. With a composition of 25Cr-7Ni-4Mo-0.27N and PREN of ~42, Super Duplex 2507 delivers superior pitting and crevice corrosion resistance compared to standard Duplex 2205 (PREN ~35). We maintain ready stock in sizes 1/2" to 12" NB, SCH 10S to SCH 160, with same-day dispatch from our Vadodara warehouse across India.
+            Creative Metal Industries is a leading <strong>Super Duplex 2507 pipe stockist in India</strong> supplying ASTM A790 UNS S32750 seamless and welded pipes for offshore oil &amp; gas, subsea pipelines, and desalination plants. With a composition of 25Cr-7Ni-4Mo-0.27N and PREN of ~42, Super Duplex 2507 delivers superior pitting and crevice corrosion resistance compared to standard Duplex 2205 (PREN ~35). As a specialist <strong>super duplex pipe supplier</strong> and <strong>Super Duplex 2507 supplier</strong>, we maintain ready stock of super duplex pipe in sizes 1/2" to 12" NB, SCH 10S to SCH 160, with same-day dispatch from our Vadodara warehouse across India.
           </p>
         </div>
 

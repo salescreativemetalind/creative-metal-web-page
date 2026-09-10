@@ -57,7 +57,7 @@ export default function Ss310sPlateSupplierIndia() {
             SS 310S Plate Supplier in India — Furnace Grade Stainless Steel
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is India's leading <strong>SS 310S plate supplier</strong> stocking ASTM A240 TP310S hot rolled plates and cold rolled sheets for high temperature furnace, heat treatment, and thermal processing applications. 25Cr-20Ni composition delivers exceptional oxidation resistance up to 1050°C continuous service. Thickness range 3mm to 80mm, widths up to 2000mm. Cut-to-size service available. Ready stock at Vadodara with same-day dispatch.
+            Creative Metal Industries is India's leading <strong>SS 310S plate supplier</strong> stocking ASTM A240 TP310S hot rolled plates and cold rolled sheets for high temperature furnace, heat treatment, and thermal processing applications. 25Cr-20Ni composition delivers exceptional oxidation resistance up to 1050°C continuous service. Thickness range 3mm to 80mm, widths up to 2000mm. Cut-to-size service available. Ready stock at Vadodara with same-day dispatch. Both <strong>SS 310 plate</strong> and SS 310S plate grades are held for furnace hearths, radiant tubes and high-temperature structural components.
           </p>
         </div>
 

@@ -59,7 +59,7 @@ export default function Inconel600PipeSupplierIndia() {
             Inconel 600 Pipe Supplier in India — N06600 Nickel Alloy
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is a leading <strong>Inconel 600 pipe supplier in India</strong> stocking ASTM B167 seamless and B516 welded pipes in UNS N06600 nickel-chromium alloy. Inconel 600 with its 72Ni-15Cr-8Fe composition delivers exceptional performance in high-temperature applications up to 1100°C, outstanding resistance to chloride stress corrosion cracking, and excellent service in caustic alkali environments. Widely specified for nuclear engineering, chemical processing, aerospace exhaust systems, and heat treating equipment. Ready stock sizes 1/2" to 10" NB at our Vadodara warehouse with full mill test certificates.
+            Creative Metal Industries is a leading <strong>Inconel 600 pipe supplier in India</strong> stocking ASTM B167 seamless and B516 welded pipes in UNS N06600 nickel-chromium alloy. Inconel 600 with its 72Ni-15Cr-8Fe composition delivers exceptional performance in high-temperature applications up to 1100°C, outstanding resistance to chloride stress corrosion cracking, and excellent service in caustic alkali environments. Widely specified for nuclear engineering, chemical processing, aerospace exhaust systems, and heat treating equipment. As a dedicated <strong>Inconel 600 supplier</strong>, we hold ready stock in sizes 1/2" to 10" NB at our Vadodara warehouse with full mill test certificates.
           </p>
         </div>
 

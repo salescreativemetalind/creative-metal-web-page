@@ -155,9 +155,8 @@ export default function P11AlloySteelPipeSupplier() {
         <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Related Pages</h3>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(200px,1fr))",gap:"0.75rem"}}>
           {[
-            {href:"/alloy-steel-pipe-supplier-india",label:"Alloy Steel Pipe Supplier India"},
+            {href:"/alloy-steel-pipe-supplier-india",label:"Alloy Steel Pipe Supplier India (P91)"},
             {href:"/p22-alloy-steel-pipe-supplier",label:"P22 Alloy Steel Pipe Supplier"},
-            {href:"/p5-alloy-steel-pipe-supplier",label:"P5 Alloy Steel Pipe Supplier"},
             {href:"/carbon-steel-sa516-plate-stockist-india",label:"SA 516 Plate Stockist"},
             {href:"/a106-gr-b-seamless-pipe-india",label:"A106 Gr.B Seamless Pipe"},
           ].map(l => (

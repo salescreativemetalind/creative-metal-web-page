@@ -160,7 +160,7 @@ export default function Monel400PipeSupplierIndia() {
             Monel 400 Pipe Supplier India
           </h1>
           <p style="color:#d1d5db;font-size:18px;margin:0 0 10px;line-height:1.7">
-India's specialist <strong style="color:#E8821A">Monel pipe supplier</strong>, stocking <strong style="color:#E8821A">Monel 400 (UNS N04400)</strong> and <strong style="color:#E8821A">Monel K-500</strong> seamless pipes per ASTM B165. The original nickel-copper alloy — unmatched for hydrofluoric acid (HF) service, marine seawater piping, and reducing acid environments. One of the few alloys that resists HF at all concentrations. Sizes 1/2" to 10" NB. Ready stock from Vadodara.
+India's specialist <strong style="color:#E8821A">Monel supplier</strong> and dedicated <strong style="color:#E8821A">Monel 400 supplier</strong>, stocking <strong style="color:#E8821A">Monel 400 (UNS N04400)</strong> and <strong style="color:#E8821A">Monel K-500</strong> seamless pipes per ASTM B165. We supply <strong style="color:#E8821A">Monel seamless pipe</strong> in the original nickel-copper alloy — unmatched for hydrofluoric acid (HF) service, marine seawater piping, and reducing acid environments. One of the few alloys that resists HF at all concentrations. Sizes 1/2" to 10" NB. Ready stock from Vadodara.
           </p>
           <p style="color:#9ca3af;font-size:15px;margin:0 0 28px">
             Price Range: <strong style="color:#E8821A">Rs 3,500 – 9,000/kg</strong> | Mill Test Certificates | Delivery across India

@@ -59,7 +59,7 @@ export default function Incoloy825PipeSupplierIndia() {
             Incoloy 825 Pipe & Tube Supplier in India — N08825
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is a leading <strong>Incoloy 825 pipe and tube supplier in India</strong> stocking ASTM B423 seamless and welded pipes in UNS N08825 nickel-iron-chromium alloy. Incoloy 825 with its 42Ni-21Cr-3Mo-2Cu-Ti composition provides excellent resistance to sulphuric acid, phosphoric acid, and sour gas (H2S) environments at a cost-effective price point between stainless steel and premium nickel alloys. NACE MR0175 compliant for oil & gas sour service. Extensively used in chemical processing, oil & gas production, pickling equipment, and pollution control systems. Ready stock sizes 1/2" to 10" NB at our Vadodara warehouse.
+            Creative Metal Industries is a leading <strong>Incoloy 825 pipe and tube supplier in India</strong> stocking ASTM B423 seamless and welded pipes in UNS N08825 nickel-iron-chromium alloy. Incoloy 825 with its 42Ni-21Cr-3Mo-2Cu-Ti composition provides excellent resistance to sulphuric acid, phosphoric acid, and sour gas (H2S) environments at a cost-effective price point between stainless steel and premium nickel alloys. NACE MR0175 compliant for oil & gas sour service. Extensively used in chemical processing, oil & gas production, pickling equipment, and pollution control systems. As an established <strong>Incoloy 825 supplier</strong>, we hold ready stock in sizes 1/2" to 10" NB at our Vadodara warehouse.
           </p>
         </div>
 

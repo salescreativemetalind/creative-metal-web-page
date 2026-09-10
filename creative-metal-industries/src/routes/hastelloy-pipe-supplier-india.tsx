@@ -183,7 +183,7 @@ export default function HastelloyPipeSupplierIndia() {
             Hastelloy Pipe Supplier India
           </h1>
           <p style="color:#d1d5db;font-size:18px;margin:0 0 10px;line-height:1.7">
-            Leading supplier of <strong style="color:#E8821A">Hastelloy C-276, C-22, B-2, B-3</strong> seamless and welded pipes per ASTM B622 and ASTM B619. The ultimate corrosion-resistant alloy for handling hydrochloric acid, sulfuric acid, wet chlorine, and mixed chemical environments. Sizes 1/2" to 12" NB in all schedules. Ready stock from Vadodara, Gujarat.
+Leading <strong style="color:#E8821A">Hastelloy supplier</strong> of <strong style="color:#E8821A">Hastelloy C-276 and C-22</strong> seamless and welded pipes per ASTM B622 and ASTM B619. This Hastelloy metal is the ultimate corrosion-resistant alloy for handling hydrochloric acid, sulfuric acid, wet chlorine, and mixed chemical environments. Sizes 1/2" to 12" NB in all schedules. Ready stock from Vadodara, Gujarat.
           </p>
           <p style="color:#9ca3af;font-size:15px;margin:0 0 28px">
             Price Range: <strong style="color:#E8821A">Rs 4,500 – 12,000/kg</strong> | Mill Test Certificates | Free Delivery across India
@@ -372,7 +372,6 @@ export default function HastelloyPipeSupplierIndia() {
               { href: "/hastelloy-c22-pipe-supplier-india", label: "Hastelloy C22 Pipe" },
               { href: "/incoloy-800-pipe-supplier-india", label: "Incoloy 800/825 Pipe" },
               { href: "/titanium-pipe-supplier-india", label: "Titanium Pipe" },
-              { href: "/hastelloy-b2-pipe-supplier-india", label: "Hastelloy B2 Pipe" },
               { href: "/duplex-steel-supplier-vadodara", label: "Duplex 2205/2507" },
               { href: "/ss-seamless-pipe-supplier-india", label: "SS Seamless Pipe" },
             ].map(link => (

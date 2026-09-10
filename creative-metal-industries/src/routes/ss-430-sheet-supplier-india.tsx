@@ -58,7 +58,7 @@ export default function Ss430SheetSupplierIndia() {
             SS 430 Ferritic Sheet Supplier in India
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is India's trusted <strong>SS 430 ferritic sheet supplier</strong> stocking ASTM A240 Type 430 stainless steel sheets in all standard finishes. SS 430 contains 17% chromium with zero nickel — making it 30-40% more cost-effective than SS 304 while providing good oxidation resistance up to 815°C intermittent service. Ideal for kitchen sinks, automotive trim, appliance panels, architectural cladding, dishwasher linings, and roofing applications. Available in 2B, BA, No.4, and Mirror finishes from 0.3mm to 6mm thickness at our Vadodara warehouse.
+            Creative Metal Industries is India's trusted <strong>SS 430 ferritic sheet supplier</strong> stocking ASTM A240 Type 430 stainless steel sheets in all standard finishes. SS 430 contains 17% chromium with zero nickel — making it 30-40% more cost-effective than SS 304 while providing good oxidation resistance up to 815°C intermittent service. Ideal for kitchen sinks, automotive trim, appliance panels, architectural cladding, dishwasher linings, and roofing applications. Available in 2B, BA, No.4, and Mirror finishes from 0.3mm to 6mm thickness at our Vadodara warehouse. Thicker <strong>SS 430 plate</strong> (up to 12mm) is available on request for structural and heat-resistant panel work.
           </p>
         </div>
 

@@ -1467,7 +1467,6 @@ function Footer() {
               <li><a href="/ms-beam-ismb-supplier-india">MS Beam ISMB</a></li>
               <li><a href="/ms-flat-bar-supplier-india">MS Flat Bar</a></li>
               <li><a href="/ms-angle-channel-supplier-vadodara">MS Angle &amp; Channel</a></li>
-              <li><a href="/metal-trading">Metal Trading</a></li>
               <li><a href="/products">📐 Size &amp; Weight Charts</a></li>
             </ul>
           </nav>
@@ -1479,7 +1478,6 @@ function Footer() {
               <li><a href="/carbon-steel-sa516-plate-stockist-india">SA 516 Plate</a></li>
               <li><a href="/ss-304-316l-pipe-supplier-india">SS 304/316L Pipe India</a></li>
               <li><a href="/reviews">Reviews</a></li>
-              <li><a href="/metal-trading">Metal Trading</a></li>
               <li><a href="/sitemap">All Pages (Site Map)</a></li>
             </ul>
           </nav>
@@ -1839,7 +1837,6 @@ export default function Home() {
                 {href:"/ss-904l-pipe-supplier-india",label:"SS 904L Pipe"},
                 {href:"/ss-sheet-supplier-vadodara",label:"SS Sheet Vadodara"},
                 {href:"/stainless-steel-supplier-vadodara",label:"SS Supplier Vadodara"},
-                {href:"/stainless-steel-supplier-gujarat",label:"SS Supplier Gujarat"},
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.4rem 0.8rem","font-size":"0.8rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
@@ -1886,19 +1883,18 @@ export default function Home() {
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.4rem 0.8rem","font-size":"0.8rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
-            <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Guides, Price Lists &amp; Reference Charts</h3>
+            <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Company &amp; Resources</h3>
             <div style={{display:"flex","flex-wrap":"wrap",gap:"0.5rem","margin-bottom":"1.5rem"}}>
               {[
                 {href:"/products",label:"📐 Size & Weight Charts Hub"},
                 {href:"/about",label:"ℹ️ About Us"},
-                {href:"/metal-trading",label:"🔄 Metal Trading"},
                 {href:"/reviews",label:"⭐ Customer Reviews"},
                 {href:"/sitemap",label:"🗺️ All Pages (Site Map)"},
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.4rem 0.8rem","font-size":"0.8rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
             <div style={{"margin-top":"2rem","text-align":"center"}}>
-              <a href="/sitemap" style={{display:"inline-block",background:"#f8fafc",border:"1px solid #e2e8f0","border-radius":"8px",padding:"0.75rem 1.5rem","font-size":"0.85rem","font-weight":"600",color:"#334155","text-decoration":"none"}}>View All 500+ Pages — Price Charts, Weight Tables, Specifications &amp; Guides →</a>
+              <a href="/sitemap" style={{display:"inline-block",background:"#f8fafc",border:"1px solid #e2e8f0","border-radius":"8px",padding:"0.75rem 1.5rem","font-size":"0.85rem","font-weight":"600",color:"#334155","text-decoration":"none"}}>View All Product &amp; Supplier Pages (Site Map) →</a>
             </div>
           </div>
         </section>

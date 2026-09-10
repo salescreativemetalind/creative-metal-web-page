@@ -493,9 +493,9 @@ export default function ProductsPage() {
   const [tab, setTab] = createSignal("ms-angle");
   return (
     <>
-      <Title>Steel Products &amp; Weight Charts | CMI</Title>
+      <Title>Steel &amp; Mild Steel Products, Supplier &amp; Weight Charts | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Steel products with size and weight charts — SS pipe, MS angle, ISMC channel, ISMB beam, ERW pipe, TMT bars, SS plate. Complete specifications." />
+      <Meta name="description" content="Mild steel supplier &amp; steel products with size and weight charts — MS angle, ISMC channel, ISMB beam, ERW pipe, MS flat/round bar, SS pipe &amp; plate. Full specifications." />
       <Link rel="canonical" href="https://www.creativemetalind.com/products" />
       <Meta property="og:type" content="website" />
       <Meta property="og:site_name" content="Creative Metal Industries" />
@@ -537,8 +537,8 @@ export default function ProductsPage() {
       <header class="pt-header">
         <div class="container">
           <a href="/" class="pt-back">← Back to Home</a>
-          <h1>Steel Products — Pipes, Plates, Fittings, Flanges &amp; Structural</h1>
-          <p>Complete product catalog with size &amp; weight charts. SS, Carbon, Alloy Steel and Exotic Alloys — Creative Metal Industries, Vadodara</p>
+          <h1>Steel &amp; Mild Steel Products — Pipes, Plates, Structural &amp; Bars</h1>
+          <p>Creative Metal Industries is a complete <strong>mild steel supplier</strong> in Vadodara — this is our full range of <strong>mild steel products</strong> and stainless, carbon, alloy and exotic-alloy steel, with size &amp; weight reference charts for every section.</p>
         </div>
       </header>
 

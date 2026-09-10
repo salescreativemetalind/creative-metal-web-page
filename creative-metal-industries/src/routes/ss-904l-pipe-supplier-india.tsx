@@ -58,7 +58,7 @@ export default function Ss904lPipeSupplierIndia() {
             SS 904L Pipe Supplier in India — Super Austenitic Acid Resistant
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is India's specialist <strong>SS 904L pipe supplier</strong> stocking ASTM A312 TP904L super austenitic seamless and welded pipes for aggressive acid environments. SS 904L (UNS N08904) with its unique 20Cr-25Ni-4.5Mo-1.5Cu composition was specifically designed for sulphuric acid service — the copper addition provides exceptional resistance to hot concentrated H2SO4. With a PREN of ~36, it also excels in seawater, phosphoric acid, and chloride-containing chemical processes. A cost-effective alternative to expensive Hastelloy and Inconel alloys. Ready stock sizes 1/2" to 12" NB at our Vadodara warehouse.
+            Creative Metal Industries is India's specialist <strong>SS 904L pipe supplier</strong> stocking ASTM A312 TP904L super austenitic seamless and welded pipes for aggressive acid environments. SS 904L (UNS N08904) with its unique 20Cr-25Ni-4.5Mo-1.5Cu composition was specifically designed for sulphuric acid service — the copper addition provides exceptional resistance to hot concentrated H2SO4. With a PREN of ~36, it also excels in seawater, phosphoric acid, and chloride-containing chemical processes. A cost-effective alternative to expensive Hastelloy and Inconel alloys. Ready stock sizes 1/2" to 12" NB at our Vadodara warehouse. <strong>SS 904L plate</strong> and sheet (ASTM A240/B625 UNS N08904) are also stocked for acid-plant vessels, tank lining and heat-exchanger tubesheets.
           </p>
         </div>
 

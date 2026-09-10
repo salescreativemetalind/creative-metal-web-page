@@ -62,7 +62,7 @@ export default function AlloySteelPipeSupplierIndia() {
             Alloy Steel Pipe Supplier in India — ASTM A335 P91, P22, P11
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is India's trusted <strong>alloy steel pipe supplier</strong> stocking ASTM A335 seamless pipes in all P-grades — P5, P9, P11, P12, P22, P91 and P92. These chrome moly (Cr-Mo) alloy steel pipes — often called chrome-moly pipe — are engineered for high-temperature, high-pressure service in power plant boilers, superheaters, main steam lines and HRSG systems. All pipes supplied with <strong>IBR Form III-C</strong> certification, sourced from world-class mills including Sumitomo (Japan), Vallourec (France) and ISMT (India). Ready stock at our Vadodara warehouse with same-day dispatch across India.
+            Creative Metal Industries is India's trusted <strong>alloy steel pipe supplier</strong> stocking ASTM A335 seamless pipes in the key chrome-moly P-grades — P11, P22 and P91. These chrome moly (Cr-Mo) alloy steel pipes — the <strong>chrome moly steel pipe</strong> family often searched for as chrome moly pipe — are engineered for high-temperature, high-pressure service in power plant boilers, superheaters, main steam lines and HRSG systems. As a specialist <strong>chrome moly pipe supplier</strong> and <strong>alloy steel seamless pipe supplier</strong>, we supply every length with <strong>IBR Form III-C</strong> certification, sourced from world-class mills including Sumitomo (Japan), Vallourec (France) and ISMT (India). Ready stock at our Vadodara warehouse with same-day dispatch across India.
           </p>
         </div>
 

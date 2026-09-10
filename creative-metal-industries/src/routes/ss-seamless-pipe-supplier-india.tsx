@@ -64,7 +64,7 @@ export default function SsSeamlessPipeSupplierIndia() {
             SS Seamless Pipe Supplier in India — ASTM A312, All Grades
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is India's trusted <strong>SS seamless pipe supplier</strong> and <strong>stainless steel seamless pipe manufacturer</strong> stockist, holding 1,000+ pipe sizes in ready stock. We supply all austenitic grades (SS 304, 316L, 321, 317L, 310S, 347, 904L) plus Duplex 2205 and Super Duplex 2507 seamless pipes to <strong>ASTM A312</strong>, A213 and A790 — with IBR Form III-C, NACE and full MTC documentation. Same-day dispatch from our 1,092 sq.mtr GIDC Makarpura facility in Vadodara, Gujarat to anywhere in India.
+            Creative Metal Industries is India's trusted <strong>SS seamless pipe supplier</strong> and <strong>stainless steel pipe</strong> stockist, holding 1,000+ pipe sizes in ready stock. Whether you need a single length or a full project quantity, we supply <strong>stainless steel seamless pipe</strong> in all austenitic grades (SS 304, 316L, 321, 317L, 310S, 347, 904L) plus Duplex 2205 and Super Duplex 2507 to <strong>ASTM A312</strong>, A213 and A790 — with IBR Form III-C, NACE and full MTC documentation. Same-day dispatch from our 1,092 sq.mtr GIDC Makarpura facility in Vadodara, Gujarat to anywhere in India.
           </p>
         </div>
 

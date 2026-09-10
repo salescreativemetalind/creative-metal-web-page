@@ -9,7 +9,6 @@ const NAV_LINKS = [
   { href: "/#services",        label: "Services"   },
   { href: "/#industries",      label: "Industries" },
   { href: "/#faq",             label: "FAQ"        },
-  { href: "/metal-trading",    label: "Trading"    },
   { href: "/reviews",          label: "Reviews"    },
   { href: "/#contact",         label: "Contact"    },
 ];
@@ -121,7 +120,7 @@ export function SiteFooter() {
           <nav aria-label="Materials">
             <h4>Materials</h4>
             <ul>
-              <li><a href="/stainless-steel-supplier-gujarat">Stainless Steel</a></li>
+              <li><a href="/stainless-steel-supplier-vadodara">Stainless Steel</a></li>
               <li><a href="/alloy-steel-pipe-supplier-india">Alloy Steel Pipes</a></li>
               <li><a href="/duplex-steel-supplier-vadodara">Duplex &amp; Super Duplex</a></li>
               <li><a href="/inconel-pipe-supplier-india">Inconel Pipes</a></li>

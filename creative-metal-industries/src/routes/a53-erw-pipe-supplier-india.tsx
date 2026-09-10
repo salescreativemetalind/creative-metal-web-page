@@ -62,7 +62,7 @@ export default function A53ErwPipeSupplierIndia() {
             A53 ERW Pipe Supplier India — ASTM A53 Type E Grade B
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is one of India's largest <strong>ASTM A53 ERW pipe suppliers</strong> with 1000+ tonnes ready stock of Type E Grade B electric resistance welded pipe for structural, water distribution, fire protection and general-purpose applications. A53 ERW is the industry workhorse for cost-effective carbon steel piping across construction, infrastructure, industrial and commercial projects. Available in black and <strong>hot-dip galvanised</strong> finish. Sizes 1/2 inch to 26", SCH 40, plain end and threaded. Ready stock at Vadodara with same-day dispatch across India.
+            Creative Metal Industries is one of India's largest <strong>ASTM A53 ERW pipe suppliers</strong> with 1000+ tonnes ready stock of Type E Grade B electric resistance welded pipe for structural, water distribution, fire protection and general-purpose applications. A53 ERW is the industry workhorse for cost-effective carbon steel piping across construction, infrastructure, industrial and commercial projects. Because A53 Grade B is a low-carbon steel, it is the grade most buyers mean when they ask for <strong>mild steel pipe</strong> — so this is the page to use for MS ERW pipe requirements. Available in black and <strong>hot-dip galvanised</strong> finish. Sizes 1/2 inch to 26", SCH 40, plain end and threaded. Ready stock at Vadodara with same-day dispatch across India.
           </p>
         </div>
 

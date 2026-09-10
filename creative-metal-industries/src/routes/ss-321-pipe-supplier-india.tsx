@@ -59,7 +59,7 @@ export default function Ss321PipeSupplierIndia() {
             SS 321 Pipe Supplier in India — Titanium Stabilized Stainless Steel
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is a leading <strong>SS 321 pipe supplier in India</strong> stocking ASTM A312 TP321/TP321H titanium-stabilized seamless and welded pipes. The titanium addition (Ti ≥ 5×C%) prevents chromium carbide precipitation at grain boundaries, making SS 321 immune to sensitization in the critical 425-870°C temperature range where unstabilized austenitic grades like 304 fail. Ideal for exhaust manifolds, bellows, expansion joints, refinery piping, and heat exchangers. Ready stock in sizes 1/2" to 16" with same-day dispatch from our Vadodara warehouse.
+            Creative Metal Industries is a leading <strong>SS 321 pipe supplier in India</strong> stocking ASTM A312 TP321/TP321H titanium-stabilized seamless and welded pipes. The titanium addition (Ti ≥ 5×C%) prevents chromium carbide precipitation at grain boundaries, making SS 321 immune to sensitization in the critical 425-870°C temperature range where unstabilized austenitic grades like 304 fail. Ideal for exhaust manifolds, bellows, expansion joints, refinery piping, and heat exchangers. Ready stock in sizes 1/2" to 16" with same-day dispatch from our Vadodara warehouse. We also supply <strong>SS 321 plate</strong> and sheet (ASTM A240 TP321) alongside pipe, so a single order can cover both your piping and plate requirements.
           </p>
         </div>
 

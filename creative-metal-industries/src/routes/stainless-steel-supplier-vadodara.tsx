@@ -358,7 +358,7 @@ export default function StainlessSteelSupplierVadodara() {
                 { href: "/ss-410-pipe-supplier-india", label: "SS 410 Pipe Supplier India" },
                 { href: "/ss-430-sheet-supplier-india", label: "SS 430 Sheet Supplier India" },
                 { href: "/ss-904l-pipe-supplier-india", label: "SS 904L Pipe Supplier India" },
-                { href: "/stainless-steel-supplier-gujarat", label: "SS Supplier Gujarat" },
+                { href: "/ss-seamless-pipe-supplier-india", label: "SS Seamless Pipe Supplier India" },
               ].map(l => (
                 <a href={l.href} style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "8px", padding: "0.75rem 1rem", "font-size": "0.85rem", "font-weight": "600", color: "#E8821A", "text-decoration": "none" }}>{l.label} →</a>
               ))}

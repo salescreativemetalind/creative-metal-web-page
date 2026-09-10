@@ -73,7 +73,7 @@ export default function API5lLinePipeSupplierIndia() {
             API 5L Line Pipe Supplier India — PSL1 &amp; PSL2
           </h1>
           <p style="font-size:1.05rem;color:#d1d5db;line-height:1.8;max-width:750px;margin:0 auto 1.5rem">
-            Creative Metal Industries is India's trusted <strong style="color:#E8821A">API 5L line pipe supplier</strong> with deep stock of PSL1 and PSL2 grades from Gr.B to X70. Seamless, ERW, LSAW and SSAW line pipe for oil & gas transmission, CGD networks, water pipelines and refinery interconnects. NACE MR0175 compliant for sour service. Sourced from GAIL/ONGC-approved mills — Jindal SAW, ISMT, Welspun, Ratnamani and SAIL. Ready stock at Vadodara with pan-India delivery.
+            Creative Metal Industries is India's trusted <strong style="color:#E8821A">API 5L line pipe supplier</strong> with deep stock of PSL1 and PSL2 grades from Gr.B to X70. Seamless, ERW, LSAW and SSAW line pipe for oil & gas transmission, CGD networks, water pipelines and refinery interconnects. NACE MR0175 compliant for sour service. Sourced from GAIL/ONGC-approved mills — Jindal SAW, ISMT, Welspun, Ratnamani and SAIL. As an approved <strong style="color:#E8821A">API 5L pipe supplier</strong>, we hold ready stock at Vadodara with pan-India delivery.
           </p>
           <p style="font-size:1.3rem;font-weight:800;color:#E8821A;margin:0 0 1.5rem">Rs 80 – 400/kg <span style="font-size:0.85rem;font-weight:400;color:#9ca3af">(depending on grade, size & coating)</span></p>
           <a href="tel:+919998280619" style="display:inline-block;background:#E8821A;color:#fff;padding:0.9rem 2rem;border-radius:8px;font-weight:700;font-size:1rem;text-decoration:none">Get Instant Quote — Call Now</a>

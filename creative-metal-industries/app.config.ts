@@ -20,7 +20,6 @@ export default defineConfig({
         "/ss-430-sheet-supplier-india",
         "/ss-904l-pipe-supplier-india",
         "/stainless-steel-supplier-vadodara",
-        "/stainless-steel-supplier-gujarat",
         // ── Carbon Steel ──
         "/carbon-steel-pipe-supplier-india",
         "/carbon-steel-sa516-plate-stockist-india",
@@ -30,11 +29,8 @@ export default defineConfig({
         "/astm-a36-steel-plate-supplier-india",
         // ── Alloy Steel (Chrome-Moly) ──
         "/alloy-steel-pipe-supplier-india",
-        "/p5-alloy-steel-pipe-supplier",
-        "/p9-alloy-steel-pipe-supplier",
         "/p11-alloy-steel-pipe-supplier",
         "/p22-alloy-steel-pipe-supplier",
-        "/p92-alloy-steel-pipe-supplier",
         // ── Duplex / Super Duplex ──
         "/duplex-steel-supplier-vadodara",
         "/duplex-2205-plate-supplier-india",
@@ -48,7 +44,6 @@ export default defineConfig({
         // ── Hastelloy ──
         "/hastelloy-pipe-supplier-india",
         "/hastelloy-c22-pipe-supplier-india",
-        "/hastelloy-b2-pipe-supplier-india",
         // ── Monel ──
         "/monel-400-pipe-supplier-india",
         "/monel-k500-supplier-india",
@@ -64,6 +59,9 @@ export default defineConfig({
         "/ms-channel-ismc-supplier-india",
         "/ms-flat-bar-supplier-india",
         // ── Site pages ──
+        "/about",
+        "/products",
+        "/reviews",
         "/privacy-policy",
         "/terms",
         "/sitemap",
