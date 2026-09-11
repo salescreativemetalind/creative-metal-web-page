@@ -19,7 +19,6 @@ const hideOnError = (e: Event) => {
 
 // ─── Hero slideshow — local /img/ files, split layout ────────────────────────
 const SLIDESHOW = [
-  { img: IH("ss_welded_pipe.jpeg"),       caption: "SS Welded Pipes",            grade: "TP 304, 316L, 321, 309, 310S",                                spec: "ASTM A312 ERW/EFW/SAW · 15NB–1200NB · All Schedules" },
   { img: IH("cs_seamless_pipe.png"),     caption: "Carbon Steel Seamless Pipes",grade: "API 5L Gr.B, ASTM A106 Gr.B/C",                              spec: "ASTM A106/A53 · IBR Form III-C · ISMT, Jindal, Maharashtra Seamless" },
   { img: IH("alloy_steel_pipe.jpeg"),     caption: "Alloy Steel Pipes",          grade: "P-5, P-9, P-11, P-12, P-22, P-91, P-92",                    spec: "ASTM A335 · High-Temp Service · Sumitomo, Vallourec, ISMT" },
   { img: IH("erw_pipe.jpeg"),             caption: "ERW Pipes",                  grade: "IS 1239 / IS 3589 / API 5L",                                 spec: "15NB–600NB · Light/Medium/Heavy · APL Apollo, Tata, JSW" },
@@ -63,7 +62,6 @@ const PRODUCT_CATEGORIES = [
     tagline: "Seamless & Welded Pipes and Tubes in SS, Carbon, Alloy Steel and Exotic Metals",
     items: [
       { name: "SS Seamless Pipe",  imgs: [I("ss_seamless_pipes.jpeg")], grade: "TP 304, 304L, 316, 316L, 316Ti, 321, 310, 317L, 347, 410, 420, 904L", make: "Sandvik, Salzgitter, Ratnamani, Venus",   note: "ASTM A312/A213. All schedules SCH5S to XXS. 6NB to 600NB. IBR Form III-C. Oil & Gas, Petrochemical, Power." },
-      { name: "SS Welded Pipe",    imgs: [I("ss_welded_pipe.jpeg")],                               grade: "TP 304, 316, 316L, 321, 309, 310S",                                     make: "Various approved mills",                note: "ASTM A312 ERW/EFW/SAW. 15NB to 1200NB. All schedules. Longitudinal and spiral welded." },
       { name: "CS Seamless Pipe",  imgs: [I("cs_seamless_pipe.png")],                             grade: "Gr.B, Gr.C — IBR available",                                            make: "ISMT, Jindal, Maharashtra Seamless",    note: "ASTM A106/A53. 6NB to 600NB SCH 40 to XXS. API 5L Gr.B available. IBR Form III-C." },
       { name: "Alloy Steel Pipe",  imgs: [I("alloy_steel_pipe.jpeg"), I("Alloy.png")],            grade: "P-5, P-9, P-11, P-12, P-22, P-91, P-92",                               make: "Sumitomo, Vallourec, ISMT",             note: "ASTM A335. High-temperature service. Creep-resistant P91/P92 for ultra-supercritical boilers. IBR." },
       { name: "ERW Pipe",          imgs: [I("erw_pipe.jpeg")],                                     grade: "IS 1239 / IS 3589 / API 5L",                                            make: "APL Apollo, Tata, JSW",                 note: "15NB to 600NB. Light/Medium/Heavy class. Black, galvanized, epoxy coated. SHS/RHS also available." },
