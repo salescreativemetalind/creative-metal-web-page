@@ -15,6 +15,73 @@ property, and only ONE URL at a time. So work through this list top-to-bottom
 over 4-5 days. Also submit the sitemap once (see bottom of file).
 
 ---
+
+## ALL 48 URLs — plain copy list (for quick manual submission)
+
+https://www.creativemetalind.com/
+https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india
+https://www.creativemetalind.com/ss-seamless-pipe-supplier-india
+https://www.creativemetalind.com/ss-sheet-supplier-vadodara
+https://www.creativemetalind.com/ss-310-pipe-supplier-india
+https://www.creativemetalind.com/ss-310s-plate-supplier-india
+https://www.creativemetalind.com/ss-321-pipe-supplier-india
+https://www.creativemetalind.com/ss-347-pipe-supplier-india
+https://www.creativemetalind.com/ss-410-pipe-supplier-india
+https://www.creativemetalind.com/ss-430-sheet-supplier-india
+https://www.creativemetalind.com/ss-904l-pipe-supplier-india
+https://www.creativemetalind.com/stainless-steel-supplier-vadodara
+https://www.creativemetalind.com/carbon-steel-pipe-supplier-india
+https://www.creativemetalind.com/carbon-steel-sa516-plate-stockist-india
+https://www.creativemetalind.com/a106-gr-b-seamless-pipe-india
+https://www.creativemetalind.com/a53-erw-pipe-supplier-india
+https://www.creativemetalind.com/api-5l-line-pipe-supplier-india
+https://www.creativemetalind.com/astm-a36-steel-plate-supplier-india
+https://www.creativemetalind.com/alloy-steel-pipe-supplier-india
+https://www.creativemetalind.com/p11-alloy-steel-pipe-supplier
+https://www.creativemetalind.com/p22-alloy-steel-pipe-supplier
+https://www.creativemetalind.com/duplex-steel-supplier-vadodara
+https://www.creativemetalind.com/duplex-2205-plate-supplier-india
+https://www.creativemetalind.com/super-duplex-2507-pipe-supplier
+https://www.creativemetalind.com/inconel-pipe-supplier-india
+https://www.creativemetalind.com/inconel-600-pipe-supplier-india
+https://www.creativemetalind.com/inconel-718-supplier-india
+https://www.creativemetalind.com/incoloy-800-pipe-supplier-india
+https://www.creativemetalind.com/incoloy-825-pipe-supplier-india
+https://www.creativemetalind.com/hastelloy-pipe-supplier-india
+https://www.creativemetalind.com/hastelloy-c22-pipe-supplier-india
+https://www.creativemetalind.com/monel-400-pipe-supplier-india
+https://www.creativemetalind.com/monel-k500-supplier-india
+https://www.creativemetalind.com/titanium-pipe-supplier-india
+https://www.creativemetalind.com/titanium-bar-supplier-india
+https://www.creativemetalind.com/titanium-grade-2-pipe-india
+https://www.creativemetalind.com/titanium-grade-5-pipe-india
+https://www.creativemetalind.com/ms-plate-supplier-india
+https://www.creativemetalind.com/ms-angle-channel-supplier-vadodara
+https://www.creativemetalind.com/ms-beam-ismb-supplier-india
+https://www.creativemetalind.com/ms-channel-ismc-supplier-india
+https://www.creativemetalind.com/ms-flat-bar-supplier-india
+https://www.creativemetalind.com/products
+https://www.creativemetalind.com/about
+https://www.creativemetalind.com/reviews
+https://www.creativemetalind.com/sitemap
+https://www.creativemetalind.com/privacy-policy
+https://www.creativemetalind.com/terms
+
+---
+
+## DAY 1 — Top priority (highest-value keyword hubs)
+
+- [ ] https://www.creativemetalind.com/
+- [ ] https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india
+- [ ] https://www.creativemetalind.com/ss-seamless-pipe-supplier-india
+- [ ] https://www.creativemetalind.com/ss-sheet-supplier-vadodara
+- [ ] https://www.creativemetalind.com/carbon-steel-pipe-supplier-india
+- [ ] https://www.creativemetalind.com/alloy-steel-pipe-supplier-india
+- [ ] https://www.creativemetalind.com/duplex-steel-supplier-vadodara
+- [ ] https://www.creativemetalind.com/inconel-pipe-supplier-india
+- [ ] https://www.creativemetalind.com/hastelloy-pipe-supplier-india
+- [ ] https://www.creativemetalind.com/ms-plate-supplier-india
+
 ## DAY 2 — Grade & product pages (strengthened content)
 
 - [ ] https://www.creativemetalind.com/inconel-718-supplier-india
