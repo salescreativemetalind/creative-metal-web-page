@@ -72,8 +72,13 @@ Instead of relying only on manual requests, submit your sitemap so Google
 finds all pages automatically:
 
 1. In GSC, left sidebar -> **Sitemaps**
-2. Enter: `sitemap-index.xml`
+2. Enter: `sitemap.xml`   (full URL: https://www.creativemetalind.com/sitemap.xml)
 3. Click **Submit**
+
+This is now a SINGLE sitemap listing all 48 live URLs — the old split
+sitemaps (sitemap-index.xml, sitemap-pages/products/locations.xml, and the
+stale sitemap-blog-*.xml files) have been removed. If GSC still lists any of
+those old sitemaps, delete them there and keep only `sitemap.xml`.
 
 This covers all 48 URLs in one action and is the most reliable way to get
 the full site re-crawled.
