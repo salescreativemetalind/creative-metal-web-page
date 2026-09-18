@@ -30,8 +30,6 @@ Creative Metal Industries is a trusted industrial metal trading company based in
 - [Home](https://www.creativemetalind.com/): Homepage with full product catalogue and contact form
 - [About](https://www.creativemetalind.com/about): Company history, facility, certifications
 - [Products](https://www.creativemetalind.com/products): Steel size and weight reference charts
-- [Metal Trading](https://www.creativemetalind.com/metal-trading): Industrial metal trading service page
-- [Blog](https://www.creativemetalind.com/blog): Technical guides for procurement engineers
 
 ## Certifications
 

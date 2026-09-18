@@ -26,7 +26,7 @@ const FAQS = [
   { q:"Do you deliver SS seamless pipe across India?", a:"Yes. We deliver pan-India from our Vadodara stockyard. Same-day dispatch for Gujarat (Vadodara, Ahmedabad, Surat, Bharuch, Dahej). 2-4 day delivery to Mumbai, Delhi, Chennai, Kolkata, Hyderabad and all other locations." },
 ];
 
-const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.creativemetalind.com/ss-seamless-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":"Creative Metal Industries","telephone":"+919998280619","address":{"@type":"PostalAddress","streetAddress":"386/B GIDC Estate, Makarpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390010","addressCountry":"IN"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"SS Seamless Pipe Supplier India","item":"https://www.creativemetalind.com/ss-seamless-pipe-supplier-india"}]}]});
+const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"SS Seamless Pipe Supplier India","item":"https://www.creativemetalind.com/ss-seamless-pipe-supplier-india"}]}]});
 const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":FAQS.map(f=>({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}}))});
 
 export default function SsSeamlessPipeSupplierIndia() {

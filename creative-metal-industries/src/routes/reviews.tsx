@@ -269,8 +269,11 @@ export default function ReviewsPage() {
     if (!d || d.total === 0) return "";
     return JSON.stringify({
       "@context":    "https://schema.org",
-      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/reviews#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name":        "Creative Metal Industries",
-      "url":         "https://www.creativemetalind.com",
+      // Same @id as the canonical business in app.tsx so this node MERGES into
+      // that single entity (adds ratings/reviews) instead of creating a second,
+      // conflicting LocalBusiness. Identity fields (name/url/address) live on
+      // the canonical node and are intentionally not repeated here.
+      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/#localbusiness",
       "aggregateRating": {
         "@type":       "AggregateRating",
         "ratingValue": d.avgRating.toFixed(1),

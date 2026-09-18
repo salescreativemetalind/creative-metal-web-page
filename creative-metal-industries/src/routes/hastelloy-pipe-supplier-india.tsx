@@ -94,24 +94,7 @@ const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
     
-    {
-      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/hastelloy-pipe-supplier-india#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
-      "telephone": "+919998280619",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
-        "addressLocality": "Vadodara",
-        "addressRegion": "Gujarat",
-        "postalCode": "390001",
-        "addressCountry": "IN"
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-        "opens": "09:00",
-        "closes": "19:00"
-      }
-    },
+    
     {
       "@type": "BreadcrumbList",
       "itemListElement": [

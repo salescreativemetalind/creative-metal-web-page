@@ -83,22 +83,7 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/duplex-steel-supplier-vadodara#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
-      "description": "Duplex steel supplier and IBR certified alloy steel pipe stockist in Vadodara, Gujarat. Duplex 2205, Super Duplex 2507, Alloy Steel P91/P22/P11 with IBR Form III-C.",
-      "url": "https://www.creativemetalind.com",
-      "telephone": "+919998280619",
-      "foundingDate": "2012",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "386/B GIDC Estate, Makarpura",
-        "addressLocality": "Vadodara",
-        "addressRegion": "Gujarat",
-        "postalCode": "390010",
-        "addressCountry": "IN",
-      },
-      "areaServed": ["Vadodara", "Gujarat", "Ankleshwar", "Bharuch", "Dahej", "Surat", "Ahmedabad"],
-    },
+    
     {
       "@type": "BreadcrumbList",
       "itemListElement": [

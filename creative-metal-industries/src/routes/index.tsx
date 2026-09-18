@@ -200,7 +200,7 @@ const TICKER_ITEMS = [
 const FAQS = [
   {
     q: "Why is Creative Metal Industries the best SS pipe supplier in Vadodara?",
-    a: "Creative Metal Industries is Vadodara's leading SS pipe supplier with over 15 years of experience. We maintain ready stock of SS 304, 304L, 316, 316L, 317L, 321, 310S and Duplex 2205 seamless and welded pipes at our 1092 sq.mtr GIDC Makarpura yard. We provide MTC (EN 10204 3.1/3.2), IBR Form III-C and NACE certification on every consignment, with same-day dispatch for standard sizes. Our location in Vadodara gives us a competitive edge for serving Gujarat's petrochemical, fertilizer and power plant industries. View our complete SS pipe range at /ss-pipe-supplier-vadodara or explore Duplex Steel at /duplex-steel-supplier-vadodara.",
+    a: "Creative Metal Industries is Vadodara's leading SS pipe supplier with over 15 years of experience. We maintain ready stock of SS 304, 304L, 316, 316L, 317L, 321, 310S and Duplex 2205 seamless and welded pipes at our 1092 sq.mtr GIDC Makarpura yard. We provide MTC (EN 10204 3.1/3.2), IBR Form III-C and NACE certification on every consignment, with same-day dispatch for standard sizes. Our location in Vadodara gives us a competitive edge for serving Gujarat's petrochemical, fertilizer and power plant industries. View our complete SS pipe range at /stainless-steel-supplier-vadodara or explore Duplex Steel at /duplex-steel-supplier-vadodara.",
   },
   {
     q: "What types of stainless steel pipes do you supply?",
@@ -1510,123 +1510,10 @@ function Footer() {
 }
 
 // ─── JSON-LD Schema ───────────────────────────────────────────────────────────
-const SCHEMA = JSON.stringify({
-  "@context": "https://schema.org",
-  "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
-  "alternateName": ["CMI Vadodara", "SS Pipe Supplier Vadodara", "Creative Metal Industries Vadodara"],
-  "priceRange": "₹₹₹",
-  "description": "Leading SS pipe supplier in Vadodara, Gujarat. Creative Metal Industries is a manufacturer, stockist and supplier of Stainless Steel pipes (SS 304, 316L, 321, Duplex 2205), fittings, flanges and plates. IBR Form III-C, NACE, MTC certified. Ready stock at GIDC Makarpura, Vadodara — same-day dispatch.",
-  "url": "https://www.creativemetalind.com",
-  "telephone": "+919998280619",
-  "email": "creativemetalind@gmail.com",
-  "foundingDate": "2012",
-  "logo": {
-    "@type": "ImageObject",
-    "url": "https://www.creativemetalind.com/logo_cmi.png",
-    "width": 1424,
-    "height": 720
-  },
-  "image": "https://www.creativemetalind.com/og-image.jpg",
-  "areaServed": [
-    { "@type": "City",    "name": "Vadodara" },
-    { "@type": "City",    "name": "Ankleshwar" },
-    { "@type": "City",    "name": "Bharuch" },
-    { "@type": "City",    "name": "Dahej" },
-    { "@type": "City",    "name": "Surat" },
-    { "@type": "City",    "name": "Ahmedabad" },
-    { "@type": "City",    "name": "Rajkot" },
-    { "@type": "City",    "name": "Jamnagar" },
-    { "@type": "State",   "name": "Gujarat" },
-    { "@type": "Country", "name": "India" },
-    { "@type": "Country", "name": "United Arab Emirates" },
-    { "@type": "Country", "name": "Oman" },
-    { "@type": "Country", "name": "Kuwait" },
-    { "@type": "Country", "name": "Bahrain" },
-    { "@type": "Country", "name": "Saudi Arabia" },
-    { "@type": "Country", "name": "United States" },
-    { "@type": "Country", "name": "United Kingdom" }
-  ],
-  "sameAs": [
-    "https://www.indiamart.com/creativemetalindustries/",
-    "https://x.com/CreativeMetal",
-    "https://t.me/Creativemetal_Industries"
-  ],
-  "geo": { "@type": "GeoCoordinates", "latitude": 22.3072, "longitude": 73.1812 },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
-    "addressLocality": "Vadodara",
-    "addressRegion": "Gujarat",
-    "postalCode": "390001",
-    "addressCountry": "IN"
-  },
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-    "opens": "09:00",
-    "closes": "19:00"
-  }],
-  "contactPoint": [
-    {
-      "@type": "ContactPoint",
-      "telephone": "+919998280619",
-      "contactType": "sales",
-      "name": "Sunny Shah",
-      "availableLanguage": ["English", "Hindi", "Gujarati"],
-      "areaServed": "IN"
-    },
-    {
-      "@type": "ContactPoint",
-      "telephone": "+919825506110",
-      "contactType": "customer support",
-      "name": "Ghewar Shah",
-      "areaServed": "IN"
-    }
-  ],
-  "knowsAbout": [
-    "SS Pipe Supplier Vadodara",
-    "Stainless Steel Pipe Supplier Gujarat",
-    "Stainless Steel Pipe Supplier India",
-    "SS 304 316L Seamless Pipe Vadodara",
-    "SS Seamless Pipe Manufacturer India",
-    "ASTM A312 Pipe Supplier",
-    "Duplex Steel Pipe Supplier Vadodara",
-    "Super Duplex 2507 Pipe Supplier India",
-    "Duplex 2205 Pipe Supplier India",
-    "SS Pipe Fittings Flanges Plates Vadodara",
-    "SS Buttweld Fittings Supplier India",
-    "SS Flange Supplier Vadodara",
-    "Carbon Steel Pipe Supplier Vadodara",
-    "ASTM A106 Gr.B Pipe Supplier India",
-    "Carbon Steel Fittings Supplier",
-    "SA 516 Gr.70 Plate Supplier India",
-    "NACE HIC Steel Plate Supplier India",
-    "Alloy Steel P91 Pipe Supplier India",
-    "ASTM A335 P91 P22 P11 Pipe",
-    "Inconel 625 Pipe Supplier India",
-    "Monel 400 Pipe Supplier India",
-    "Hastelloy C-276 Supplier India",
-    "Titanium Pipe Supplier India",
-    "TMT Bars Supplier Gujarat",
-    "MS Angle Supplier Vadodara",
-    "Structural Steel Supplier Gujarat",
-    "Forged Fittings Supplier India",
-    "IBR Form III-C Certification",
-    "NACE MR0175 Compliant Material",
-    "Industrial Raw Material Supplier Gujarat",
-    "Steel Trading Company Vadodara Gujarat",
-    "Metal Importer Exporter India",
-    "Stainless Steel Pipes and Tubes",
-    "Duplex Steel 2205 and Super Duplex 2507",
-    "Alloy Steel P91 P22 High Temperature Piping",
-    "Carbon Steel Plates IBR Certified",
-    "Inconel Hastelloy Monel Titanium Exotic Alloys",
-    "ASTM ASME API Steel Standards",
-    "Boiler Tube Supplier India",
-    "Heat Exchanger Tube Supplier"
-  ]
-});
-
+// NOTE: The site-wide LocalBusiness / Organization / WebSite JSON-LD is emitted
+// once, globally, from src/app.tsx (@id …/#localbusiness). The homepage does NOT
+// repeat a LocalBusiness node here — doing so produced two conflicting business
+// entities on one page. Only page-specific schema (FAQPage, BreadcrumbList) below.
 const FAQ_SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -1791,7 +1678,6 @@ export default function Home() {
       <Meta name="twitter:title" content="SS Pipe Supplier Vadodara | Creative Metal Industries" />
       <Meta name="twitter:description" content="Leading SS pipe supplier in Vadodara — SS 304, 316L, Duplex 2205 pipes, fittings, flanges & plates. IBR, NACE, MTC certified. Call +91 99982 80619." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
-      <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
       <script type="application/ld+json" innerHTML={JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com/"}]})} />
       <Nav />

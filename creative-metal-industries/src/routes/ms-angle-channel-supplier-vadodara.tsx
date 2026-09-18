@@ -78,23 +78,7 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/ms-angle-channel-supplier-vadodara#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
-      "description": "MS angle supplier Vadodara, MS channel ISMC supplier Gujarat. Structural steel IS 2062, IS 808 sections, TMT bars. Ready stock Lakkadpitha Road, Vadodara.",
-      "url": "https://www.creativemetalind.com",
-      "telephone": "+919998280619",
-      "email": "creativemetalind@gmail.com",
-      "foundingDate": "2012",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
-        "addressLocality": "Vadodara",
-        "addressRegion": "Gujarat",
-        "postalCode": "390001",
-        "addressCountry": "IN",
-      },
-      "areaServed": ["Vadodara", "Gujarat", "GIDC Makarpura", "Halol", "Savli", "Waghodia", "Anand", "Bharuch"],
-    },
+    
     {
       "@type": "Product",
       "image": "https://www.creativemetalind.com/img/ms-angle.png", "name": "MS Angle & Channel Supplier Vadodara",

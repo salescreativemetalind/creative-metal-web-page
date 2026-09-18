@@ -134,7 +134,7 @@ export default function App() {
             "description": "Leading supplier and stockist of stainless steel pipes, carbon steel plates, alloy steel products, pipe fittings, flanges, and structural steel in Vadodara, Gujarat. Serving oil & gas, chemical, pharma, power, and construction industries since 2012.",
             "url": "https://www.creativemetalind.com",
             "telephone": "+919998280619",
-            "email": "info@creativemetalind.com",
+            "email": "creativemetalind@gmail.com",
             "image": "https://www.creativemetalind.com/og-image.jpg",
             "logo": "https://www.creativemetalind.com/logo_cmi.png",
             "priceRange": "₹₹₹",

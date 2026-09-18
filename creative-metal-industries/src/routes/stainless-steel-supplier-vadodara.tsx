@@ -107,23 +107,7 @@ const FAQS = [
 const SCHEMA = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type":"LocalBusiness","@id":"https://www.creativemetalind.com/stainless-steel-supplier-vadodara#business","parentOrganization":{"@id":"https://www.creativemetalind.com/#organization"},"name": "Creative Metal Industries",
-      "description": "Stainless steel supplier and pipe manufacturer stockist in Vadodara, Gujarat. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges — IBR, NACE, MTC certified.",
-      "url": "https://www.creativemetalind.com",
-      "telephone": "+919998280619",
-      "foundingDate": "2012",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "386/B GIDC Estate, Makarpura",
-        "addressLocality": "Vadodara",
-        "addressRegion": "Gujarat",
-        "postalCode": "390010",
-        "addressCountry": "IN",
-      },
-      "areaServed": ["Vadodara", "Gujarat", "Ankleshwar", "Bharuch", "Dahej", "Surat", "Ahmedabad"],
-      "sameAs": ["https://www.creativemetalind.com"],
-    },
+    
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
