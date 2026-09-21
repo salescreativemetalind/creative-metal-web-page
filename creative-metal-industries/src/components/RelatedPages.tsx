@@ -60,6 +60,7 @@ const STRUCTURAL_STEEL_PAGES = [
   { href: "/ms-beam-ismb-supplier-india", label: "MS Beam ISMB India" },
   { href: "/ms-channel-ismc-supplier-india", label: "MS Channel ISMC India" },
   { href: "/ms-flat-bar-supplier-india", label: "MS Flat Bar India" },
+  { href: "/corten-steel-plate-supplier-india", label: "Corten Weathering Steel Plate" },
 ];
 
 // Top-level pages every route should reach.
@@ -87,7 +88,7 @@ function detectCategory(currentPath: string): string {
   if (p.includes("duplex") || p.includes("inconel") || p.includes("monel") || p.includes("hastelloy") || p.includes("titanium") || p.includes("incoloy")) return "exotic";
   if (p.includes("alloy-steel") || p.includes("/p5-") || p.includes("/p9-") || p.includes("/p11-") || p.includes("/p22-") || p.includes("/p92-")) return "alloy";
   if (p.includes("carbon-steel") || p.includes("a106") || p.includes("a53-") || p.includes("api-5") || p.includes("a36")) return "carbon";
-  if (p.includes("ms-")) return "structural";
+  if (p.includes("ms-") || p.includes("corten")) return "structural";
   if (p.includes("ss-") || p.includes("stainless")) return "ss";
   return "ss"; // default
 }

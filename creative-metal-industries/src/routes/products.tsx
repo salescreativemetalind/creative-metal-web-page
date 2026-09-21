@@ -495,7 +495,7 @@ export default function ProductsPage() {
     <>
       <Title>Steel &amp; Mild Steel Products, Supplier &amp; Weight Charts | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Mild steel supplier &amp; steel products with size and weight charts — MS angle, ISMC channel, ISMB beam, ERW pipe, MS flat/round bar, SS pipe &amp; plate. Full specifications." />
+      <Meta name="description" content="Steel products with size and weight charts — MS angle, ISMC channel, ISMB beam, ERW pipe, MS flat and round bar, SS pipe and plate. Full specifications." />
       <Link rel="canonical" href="https://www.creativemetalind.com/products" />
       <Meta property="og:type" content="website" />
       <Meta property="og:site_name" content="Creative Metal Industries" />

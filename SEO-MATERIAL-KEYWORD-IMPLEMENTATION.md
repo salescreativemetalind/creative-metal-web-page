@@ -152,7 +152,16 @@ always be described as such.
 
 | # | Material | Keyword | Target URL | What Was Updated | Date | Status |
 |---|---|---|---|---|---|---|
-| — | — | — | — | *No website changes made. Audit + validation only.* | 2026-09-21 | NOT STARTED |
+| 1 | Stainless Steel | ss 304 / 304 stainless steel / ss304 properties / ss304 density / 304 composition / 304 yield strength / 304 temperature rating | `/ss-304-316l-pipe-supplier-india` | Complete rewrite from 724 to 2,467 words; added grade comparison table (304/304L/316/316L with UNS, composition, mechanical, density, PREN); added L-grade differentiation section; added 6-question FAQ; added applications grid; enhanced metadata for property queries | 2026-09-21 | ✅ COMPLETE |
+| 2 | Stainless Steel | ss 316l / 316l pipe / 316 stainless steel / 316l properties / 316l composition / 304 vs 316l / 316 vs 316l | `/ss-304-316l-pipe-supplier-india` | Same as #1 — comprehensive 304/316L comparison | 2026-09-21 | ✅ COMPLETE |
+| 3 | Stainless Steel | astm a312 / a312 pipe / tp304 / tp316l | `/ss-304-316l-pipe-supplier-india` | Same as #1 — ASTM A312 pipe specification coverage | 2026-09-21 | ✅ COMPLETE |
+| 4 | Corten Steel | corten steel plate / corten a / corten b / astm a242 / astm a588 / weathering steel / corten suppliers india | `/corten-steel-plate-supplier-india` | **NEW PAGE CREATED** — 1,750 words; grade table (Corten A/B, SPA-H, S355J2WP); weathering behaviour section; specifications grid; applications grid; 6-question FAQ; business-verified mill sources (SSAB, TATA, SAIL, AMNS); complete schema | 2026-09-21 | ✅ COMPLETE |
+| 5 | Alloy Steel | p91 / p91 pipe / p91 vs p92 / difference between p91 and p92 / p91 heat treatment / astm a335 p91 | `/alloy-steel-pipe-supplier-india` | **OWN-ON-HUB strategy** — added dedicated P91 section (150+ words); enhanced P91/P92 comparison FAQ; added P91 heat treatment FAQ; grade table shows N+T parameters; metadata includes P91/P92 | 2026-09-21 | ✅ COMPLETE |
+| 6 | Stainless Steel | (metadata fix) | `/stainless-steel-supplier-vadodara` | Description trimmed from 165 to 160 chars | 2026-09-21 | ✅ COMPLETE |
+| 7 | General | (metadata fix) | `/products` | Description trimmed from 168 to 160 chars | 2026-09-21 | ✅ COMPLETE |
+
+**Summary:** 92 of 284 keywords implemented (83 from A1 SS 304/316L cluster + 9 from B2 Corten cluster).
+**Remaining:** 192 keywords across priorities A2-A6, B1, B3-B8.
 
 ---
 

@@ -116,6 +116,8 @@ export default function MSPlateSupplierIndia() {
         {/* Internal Links */}
         <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Related Products & Resources</h2>
         <ul style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.9", "padding-left": "1.25rem" }}>
+          <li><a href="/corten-steel-plate-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>Corten Steel Plate Supplier India</a> — weathering steel for unpainted exposure</li>
+          <li><a href="/astm-a36-steel-plate-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>ASTM A36 Steel Plate Supplier India</a></li>
           <li><a href="/ss-304-316l-pipe-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>SS 304/316L Pipe Supplier India</a></li>
           <li><a href="/duplex-2205-plate-supplier-india" style={{ color: "#E8821A", "font-weight": "600" }}>Duplex 2205 Plate Supplier India</a></li>
           <li><a href="/super-duplex-2507-pipe-supplier" style={{ color: "#E8821A", "font-weight": "600" }}>Super Duplex 2507 Pipe Supplier</a></li>

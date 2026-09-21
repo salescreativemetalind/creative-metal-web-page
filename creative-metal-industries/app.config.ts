@@ -52,6 +52,8 @@ export default defineConfig({
         "/titanium-bar-supplier-india",
         "/titanium-grade-2-pipe-india",
         "/titanium-grade-5-pipe-india",
+        // ── Weathering Steel ──
+        "/corten-steel-plate-supplier-india",
         // ── Mild / Structural Steel ──
         "/ms-plate-supplier-india",
         "/ms-angle-channel-supplier-vadodara",

@@ -124,6 +124,7 @@ const STRUCTURAL_LINKS = [
   { href: "/ms-beam-ismb-supplier-india", label: "MS Beam ISMB" },
   { href: "/ms-channel-ismc-supplier-india", label: "MS Channel ISMC" },
   { href: "/ms-flat-bar-supplier-india", label: "MS Flat Bar" },
+  { href: "/corten-steel-plate-supplier-india", label: "Corten Steel Plate" },
 ];
 
 export function AllPagesLinks() {

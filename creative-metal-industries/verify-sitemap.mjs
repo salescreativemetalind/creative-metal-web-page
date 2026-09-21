@@ -26,30 +26,40 @@ let failures = 0;
 const fail = (msg) => { console.error(`  FAIL  ${msg}`); failures++; };
 const ok = (msg) => console.log(`  ok    ${msg}`);
 
-// ── 1. collect URLs declared by the sitemap index ─────────────────────────────
+// ── 1. collect URLs declared by the sitemap ───────────────────────────────────
+const sitemapPath = join(PUBLIC, "sitemap.xml");
 const indexPath = join(PUBLIC, "sitemap-index.xml");
-if (!existsSync(indexPath)) {
-  console.error("sitemap-index.xml not found");
-  process.exit(1);
-}
-const indexXml = readFileSync(indexPath, "utf8");
-const children = [...indexXml.matchAll(/<loc>([^<]+)<\/loc>/g)]
-  .map((m) => m[1].replace(`${ORIGIN}/`, ""));
-
-console.log(`sitemap-index.xml lists ${children.length} sitemaps`);
 
 const declared = new Set();
-for (const child of children) {
-  const p = join(PUBLIC, child);
-  if (!existsSync(p)) {
-    fail(`${child} referenced by sitemap-index.xml but missing from public/`);
-    continue;
-  }
-  const xml = readFileSync(p, "utf8");
+
+// This project uses a flat sitemap.xml, not a sitemap index
+if (existsSync(sitemapPath)) {
+  const xml = readFileSync(sitemapPath, "utf8");
   const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
   locs.forEach((l) => declared.add(l.replace(ORIGIN, "") || "/"));
+  console.log(`sitemap.xml contains ${declared.size} URLs`);
+} else if (existsSync(indexPath)) {
+  // Fallback: support sitemap index if it exists
+  const indexXml = readFileSync(indexPath, "utf8");
+  const children = [...indexXml.matchAll(/<loc>([^<]+)<\/loc>/g)]
+    .map((m) => m[1].replace(`${ORIGIN}/`, ""));
+  console.log(`sitemap-index.xml lists ${children.length} sitemaps`);
+
+  for (const child of children) {
+    const p = join(PUBLIC, child);
+    if (!existsSync(p)) {
+      fail(`${child} referenced by sitemap-index.xml but missing from public/`);
+      continue;
+    }
+    const xml = readFileSync(p, "utf8");
+    const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+    locs.forEach((l) => declared.add(l.replace(ORIGIN, "") || "/"));
+  }
+  console.log(`declared URLs: ${declared.size}`);
+} else {
+  console.error("Neither sitemap.xml nor sitemap-index.xml found");
+  process.exit(1);
 }
-console.log(`declared URLs: ${declared.size}`);
 
 // ── 2. collect pages the build produced ───────────────────────────────────────
 if (!existsSync(STATIC)) {
@@ -96,19 +106,18 @@ if (noindexInSitemap.length) {
   noindexInSitemap.slice(0, 20).forEach((u) => console.error(`          ${u}`));
 } else ok("no noindex page is listed in a sitemap");
 
-// ── 4. the legacy flat sitemap, if still present, must agree ──────────────────
-const legacy = join(PUBLIC, "sitemap.xml");
-if (existsSync(legacy)) {
-  const locs = new Set(
-    [...readFileSync(legacy, "utf8").matchAll(/<loc>([^<]+)<\/loc>/g)]
+// ── 4. sitemap index cross-check (only if both exist) ─────────────────────────
+if (existsSync(sitemapPath) && existsSync(indexPath)) {
+  const flatLocs = new Set(
+    [...readFileSync(sitemapPath, "utf8").matchAll(/<loc>([^<]+)<\/loc>/g)]
       .map((m) => m[1].replace(ORIGIN, "") || "/"),
   );
-  const onlyLegacy = [...locs].filter((u) => !declared.has(u));
-  const onlySplit = [...declared].filter((u) => !locs.has(u));
-  if (onlyLegacy.length || onlySplit.length) {
-    fail(`public/sitemap.xml disagrees with the split sitemaps `
-      + `(+${onlyLegacy.length} only in flat, +${onlySplit.length} only in split)`);
-  } else ok("public/sitemap.xml agrees with the split sitemaps");
+  const onlyFlat = [...flatLocs].filter((u) => !declared.has(u));
+  const onlyIndex = [...declared].filter((u) => !flatLocs.has(u));
+  if (onlyFlat.length || onlyIndex.length) {
+    fail(`public/sitemap.xml disagrees with sitemap-index.xml `
+      + `(+${onlyFlat.length} only in flat, +${onlyIndex.length} only in index)`);
+  } else ok("public/sitemap.xml agrees with sitemap-index.xml");
 }
 
 console.log(failures ? `\n${failures} check(s) failed.` : "\nAll sitemap checks passed.");

@@ -1,6 +1,37 @@
 {
   "trailingSlash": false,
   "redirects": [
+    { "source": "/blog/ss-304-stainless-steel-guide", "destination": "/ss-304-316l-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/ss-316l-stainless-steel-guide", "destination": "/ss-304-316l-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/ss-304-vs-316l", "destination": "/ss-304-316l-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/ss-304-vs-ss-304l", "destination": "/ss-304-316l-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/ss-316-vs-ss-316l", "destination": "/ss-304-316l-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/ss-304-vs-ss-316-difference", "destination": "/ss-304-316l-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/ss-304-vs-321-guide", "destination": "/ss-321-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/ss-sheet-plate-guide", "destination": "/ss-sheet-supplier-vadodara", "permanent": true },
+    { "source": "/blog/astm-a312-pipe-guide", "destination": "/ss-seamless-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/astm-a312-vs-api-5l", "destination": "/ss-seamless-pipe-supplier-india", "permanent": true },
+
+    { "source": "/blog/erw-vs-seamless-pipe", "destination": "/a53-erw-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/carbon-steel-pipe-guide", "destination": "/carbon-steel-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/sa-516-carbon-steel-plate-guide", "destination": "/carbon-steel-sa516-plate-stockist-india", "permanent": true },
+    { "source": "/blog/api-5l-pipe-guide", "destination": "/api-5l-line-pipe-supplier-india", "permanent": true },
+
+    { "source": "/blog/p91-alloy-steel-guide", "destination": "/alloy-steel-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/p91-alloy-steel-power-plants", "destination": "/alloy-steel-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/p11-vs-p22-difference", "destination": "/alloy-steel-pipe-supplier-india", "permanent": true },
+
+    { "source": "/blog/duplex-vs-super-duplex", "destination": "/duplex-steel-supplier-vadodara", "permanent": true },
+    { "source": "/blog/duplex-2205-steel-guide", "destination": "/duplex-steel-supplier-vadodara", "permanent": true },
+    { "source": "/blog/super-duplex-2507-guide", "destination": "/super-duplex-2507-pipe-supplier", "permanent": true },
+
+    { "source": "/blog/hastelloy-vs-inconel", "destination": "/inconel-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/inconel-625-guide", "destination": "/inconel-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/inconel-vs-monel-guide", "destination": "/monel-400-pipe-supplier-india", "permanent": true },
+
+    { "source": "/blog/titanium-grades-comparison", "destination": "/titanium-pipe-supplier-india", "permanent": true },
+    { "source": "/blog/titanium-grade-2-vs-grade-5", "destination": "/titanium-pipe-supplier-india", "permanent": true },
+
     { "source": "/blog", "destination": "/", "permanent": true },
     { "source": "/blog/(.*)", "destination": "/", "permanent": true },
     { "source": "/steel-pipe-supplier-(.*)", "destination": "/", "permanent": true },
@@ -38,7 +69,6 @@
     { "source": "/a691-pipe-supplier-india", "destination": "/alloy-steel-pipe-supplier-india", "permanent": true },
     { "source": "/api-5ct-casing-tubing-india", "destination": "/api-5l-line-pipe-supplier-india", "permanent": true },
     { "source": "/clad-plate-supplier-india", "destination": "/ms-plate-supplier-india", "permanent": true },
-    { "source": "/corten-steel-plate-supplier-india", "destination": "/ms-plate-supplier-india", "permanent": true },
     { "source": "/hardox-wear-plate-supplier-india", "destination": "/ms-plate-supplier-india", "permanent": true },
     { "source": "/sail-hard-plate-supplier-india", "destination": "/ms-plate-supplier-india", "permanent": true },
     { "source": "/tmt-bars-supplier-gujarat", "destination": "/ms-beam-ismb-supplier-india", "permanent": true }
