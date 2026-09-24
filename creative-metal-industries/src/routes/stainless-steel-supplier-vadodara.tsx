@@ -83,6 +83,22 @@ const WHY = [
 
 const FAQS = [
   {
+    q: "Who is the best SS pipe supplier in India?",
+    a: "Creative Metal Industries is one of India's leading SS pipe suppliers, established in 2012. We supply stainless steel pipes in SS 304, 316L, 321, 310S, 347, 904L, Duplex 2205 and Super Duplex 2507 — seamless and welded, 6NB to 600NB, all schedules. Ready stock at GIDC Makarpura, Vadodara with MTC, IBR and NACE certification. We serve industries across Vadodara, Delhi, Mumbai, Pune, Chennai, Bangalore and all major Indian cities. Call +91 99982 80619.",
+  },
+  {
+    q: "What types of stainless steel pipes do you supply?",
+    a: "We supply SS seamless pipes to ASTM A312, SS welded (ERW/EFW) pipes, SS instrumentation tubes to ASTM A213/A269, and SS boiler tubes. Available in grades TP304, 304L, 316, 316L, 321, 310S, 347, 904L and Duplex 2205. Sizes from 6NB to 600NB in schedules SCH 5S to XXS. All pipes come with Mill Test Certificates (EN 10204 3.1/3.2) and IBR Form III-C where required.",
+  },
+  {
+    q: "Do you supply SS pipe in Delhi, Pune and Chennai?",
+    a: "Yes. As a pan-India SS pipe supplier, we deliver stainless steel pipes from our Vadodara stockyard to Delhi, Pune, Chennai and all major Indian cities. Standard delivery time is 2-4 working days. For urgent requirements, we can arrange express delivery. We also serve nearby industrial hubs like Ankleshwar, Bharuch, Dahej, Ahmedabad, Surat and Mumbai with same-day or next-day dispatch.",
+  },
+  {
+    q: "What is the price of SS pipe?",
+    a: "SS pipe prices vary based on grade (304/316L/321), type (seamless/welded), size, wall thickness and quantity. Current market rates depend on nickel and chromium prices. For accurate SS pipe pricing, please share your requirement — grade, size, schedule, quantity and delivery location. We provide transparent quotes within 2 hours with no hidden costs. Call +91 99982 80619 or send enquiry.",
+  },
+  {
     q: "Who is the top stainless steel supplier in Vadodara, Gujarat?",
     a: "Creative Metal Industries is the leading stainless steel supplier in Vadodara, Gujarat, established in 2012. We stock SS 304, 316L, 317L, 321, 310S, 347, 904L, Duplex 2205 and Super Duplex 2507 in pipes, plates, sheets, fittings, flanges and bars. Located at GIDC Makarpura, Vadodara. Call +91 99982 80619.",
   },
@@ -100,7 +116,7 @@ const FAQS = [
   },
   {
     q: "What is the delivery time for stainless steel supply in Vadodara?",
-    a: "For standard sizes in ready stock, same-day dispatch is available for orders placed before 2 PM. For non-stock grades or large project quantities, delivery is 3–7 working days. We serve all of Gujarat — Vadodara, Ankleshwar, Bharuch, Dahej, Surat, Ahmedabad, Rajkot and more.",
+    a: "For standard sizes in ready stock, same-day dispatch is available for orders placed before 2 PM. For non-stock grades or large project quantities, delivery is 3–7 working days. We serve all of Gujarat — Vadodara, Ankleshwar, Bharuch, Dahej, Surat, Ahmedabad, Rajkot and more. Pan-India delivery typically takes 2-4 working days from order confirmation.",
   },
 ];
 
@@ -112,7 +128,7 @@ const SCHEMA = JSON.stringify({
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.creativemetalind.com" },
-        { "@type": "ListItem", "position": 2, "name": "Stainless Steel Supplier Vadodara", "item": "https://www.creativemetalind.com/stainless-steel-supplier-vadodara" },
+        { "@type": "ListItem", "position": 2, "name": "SS Pipe Supplier Vadodara", "item": "https://www.creativemetalind.com/stainless-steel-supplier-vadodara" },
       ],
     },
   ],
@@ -131,18 +147,18 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function StainlessSteelSupplierVadodara() {
   return (
     <>
-      <Title>Stainless Steel Supplier Vadodara | SS Pipes Gujarat | CMI</Title>
+      <Title>SS Pipe Supplier in India | Stainless Steel Pipes Vadodara | CMI</Title>
       <Meta property="og:type" content="website" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Stainless steel supplier in Vadodara, Gujarat serving all India — SS 304, 316L, 321 and Duplex 2205 pipes, plates, fittings and flanges. MTC supplied." />
+      <Meta name="description" content="Leading SS pipe supplier in India — Creative Metal Industries supplies stainless steel pipes, seamless & welded, SS 304, 316L, 321, Duplex 2205. Ready stock Vadodara. MTC, IBR certified." />
       <Link rel="canonical" href="https://www.creativemetalind.com/stainless-steel-supplier-vadodara" />
-      <Meta property="og:title" content="Stainless Steel Supplier Vadodara | SS Pipe Manufacturer Gujarat | CMI" />
-      <Meta property="og:description" content="Top stainless steel supplier in Vadodara Gujarat. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges. IBR, NACE, MTC certified. Call +91 99982 80619." />
+      <Meta property="og:title" content="SS Pipe Supplier India | Stainless Steel Pipes Vadodara | CMI" />
+      <Meta property="og:description" content="Leading SS pipe supplier in India. Stainless steel pipes — SS 304, 316L, 321, Duplex 2205, seamless & welded. Ready stock Vadodara. IBR, MTC certified. Pan-India delivery." />
       <Meta property="og:url" content="https://www.creativemetalind.com/stainless-steel-supplier-vadodara" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="Stainless Steel Supplier Vadodara | SS Pipe Manufacturer Gujarat | Creative Metal Industries" />
-      <Meta name="twitter:description" content="Top stainless steel supplier in Vadodara Gujarat — Creative Metal Industries. SS 304, 316L, 321, Duplex 2205 pipes, plates, fittings, flanges. IBR, NACE, MTC certified. GIDC Makarpura Vadodara. Call +91 99982 80619." />
+      <Meta name="twitter:title" content="SS Pipe Supplier India | Stainless Steel Pipes Vadodara | Creative Metal Industries" />
+      <Meta name="twitter:description" content="Leading SS pipe supplier in India — Creative Metal Industries. Stainless steel pipes SS 304, 316L, 321, Duplex 2205. Seamless & welded. IBR, MTC certified. Vadodara stock. Call +91 99982 80619." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
@@ -161,7 +177,7 @@ export default function StainlessSteelSupplierVadodara() {
       <div style={{ background: "#f9fafb", "border-bottom": "1px solid #e5e7eb", padding: "0.6rem 1.5rem", "font-size": "0.82rem", color: "#6b7280" }}>
         <a href="/" style={{ color: "#E8821A", "text-decoration": "none" }}>Home</a>
         <span style={{ margin: "0 0.5rem" }}>›</span>
-        <span>Stainless Steel Supplier Vadodara</span>
+        <span>SS Pipe Supplier Vadodara</span>
       </div>
 
       <main>
@@ -173,14 +189,14 @@ export default function StainlessSteelSupplierVadodara() {
               🏭 Vadodara · Gujarat · Since 2012
             </span>
             <h1 style={{ "font-size": "clamp(1.8rem,5vw,3rem)", "font-weight": "800", "line-height": "1.2", "margin-bottom": "1.25rem", color: "#111827" }}>
-              Stainless Steel Supplier &amp; Manufacturer in{" "}
+              SS Pipe Supplier in India — Stainless Steel Pipes{" "}
               <span style={{ color: "#E8821A" }}>Vadodara, Gujarat</span>
             </h1>
             <p style={{ "font-size": "1.1rem", color: "#374151", "max-width": "720px", "line-height": "1.75", "margin-bottom": "2rem" }}>
-              Creative Metal Industries is Vadodara's most trusted stainless steel supplier and mill-authorised stockist,
-              serving customers as a reliable <strong>stainless steel supplier</strong> across Gujarat and pan-India.
-              We supply <strong>SS 304, 316L, 317L, 321, 310S, 347, 904L, Duplex 2205 and Super Duplex 2507</strong> in
-              pipes, plates, sheets, fittings, flanges and bars — all with full MTC, IBR Form III-C and NACE documentation.
+              Creative Metal Industries is India's trusted <strong>SS pipe supplier</strong> and <strong>stainless steel pipe</strong> stockist,
+              serving customers as a reliable <strong>stainless steel supplier</strong> across Vadodara, Gujarat and pan-India.
+              We supply <strong>SS 304, 316L, 317L, 321, 310S, 347, 904L, Duplex 2205 and Super Duplex 2507</strong> stainless steel pipes, seamless and welded,
+              along with plates, sheets, fittings, flanges and bars — all with full MTC, IBR Form III-C and NACE documentation.
               Ready stock at our <strong>GIDC Makarpura, Vadodara</strong> yard.
             </p>
             <div style={{ display: "flex", gap: "1rem", "flex-wrap": "wrap", "margin-bottom": "2.5rem" }}>
@@ -237,6 +253,146 @@ export default function StainlessSteelSupplierVadodara() {
             <p style={{ "font-size": "0.8rem", color: "#9ca3af", "margin-top": "0.75rem" }}>
               All materials supplied with MTC (EN 10204 3.1 / 3.2) · IBR Form III-C available · NACE MR-01-75 on request
             </p>
+          </div>
+        </section>
+
+        {/* ══ SS PIPE SUPPLIER SECTION ══ */}
+        <section style={{ padding: "4rem 1.5rem", background: "#fff", "border-top": "1px solid #e5e7eb" }}>
+          <div style={{ "max-width": "960px", margin: "0 auto" }}>
+            <h2 style={{ "font-size": "clamp(1.4rem,3vw,2rem)", "font-weight": "800", "margin-bottom": "1rem", color: "#111827" }}>
+              SS Pipe Supplier in India — All Grades, All Sizes
+            </h2>
+            <p style={{ "font-size": "1.05rem", color: "#374151", "line-height": "1.8", "margin-bottom": "2rem" }}>
+              Creative Metal Industries is India's leading <strong>SS pipe supplier</strong>, providing comprehensive stainless steel pipe solutions
+              for industries across India. As a trusted <strong>stainless steel pipe supplier</strong> and <strong>SS pipe stockist</strong>, we maintain
+              ready inventory of seamless and welded stainless steel pipes in all major grades — SS 304, SS 304L, SS 316, SS 316L, SS 321, SS 310S, SS 347,
+              SS 904L, Duplex 2205 and Super Duplex 2507.
+            </p>
+
+            {/* SS Pipe Types */}
+            <h3 style={{ "font-size": "1.1rem", "font-weight": "700", "margin-bottom": "1rem", color: "#111827" }}>
+              Types of Stainless Steel Pipes We Supply
+            </h3>
+            <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(260px,1fr))", gap: "1rem", "margin-bottom": "2rem" }}>
+              {[
+                { type: "SS Seamless Pipes", desc: "ASTM A312 seamless stainless steel pipes — 6NB to 600NB, SCH 5S to XXS" },
+                { type: "SS Welded Pipes (ERW)", desc: "Welded stainless steel pipes for general applications — cost-effective for larger diameters" },
+                { type: "SS Instrumentation Tubes", desc: "ASTM A213 / A269 tubes for instrumentation, heat exchangers and condensers" },
+                { type: "SS Boiler Tubes", desc: "ASTM A213 boiler and superheater tubes with IBR Form III-C certification" },
+              ].map(item => (
+                <div style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "10px", padding: "1.25rem" }}>
+                  <h4 style={{ "font-size": "0.92rem", "font-weight": "700", color: "#111827", "margin-bottom": "0.5rem" }}>{item.type}</h4>
+                  <p style={{ "font-size": "0.85rem", color: "#6b7280", "line-height": "1.6", margin: 0 }}>{item.desc}</p>
+                </div>
+              ))}
+            </div>
+
+            {/* SS Pipe Grades & Applications */}
+            <h3 style={{ "font-size": "1.1rem", "font-weight": "700", "margin-bottom": "1rem", color: "#111827" }}>
+              SS Pipe Grades & Applications
+            </h3>
+            <div style={{ overflow: "auto", border: "1px solid #e5e7eb", "border-radius": "10px", "margin-bottom": "2rem" }}>
+              <table style={{ width: "100%", "border-collapse": "collapse", "font-size": "0.875rem", "min-width": "600px" }}>
+                <thead>
+                  <tr style={{ background: "linear-gradient(135deg,#E8821A,#d85c2a)", color: "#fff" }}>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Grade</th>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Standard</th>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Typical Applications</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { grade: "SS 304 / 304L", std: "ASTM A312 TP304/TP304L", app: "General chemical, food processing, dairy, pharmaceutical equipment" },
+                    { grade: "SS 316 / 316L", std: "ASTM A312 TP316/TP316L", app: "Marine environments, chloride service, pharmaceutical, chemical plants" },
+                    { grade: "SS 321", std: "ASTM A312 TP321", app: "High-temperature service, boiler applications, stabilized against sensitization" },
+                    { grade: "SS 310 / 310S", std: "ASTM A312 TP310S", app: "High-temperature furnace components, kiln parts, oxidation resistance" },
+                    { grade: "SS 347", std: "ASTM A312 TP347", app: "High-temperature stabilized service, petrochemical equipment" },
+                    { grade: "SS 904L", std: "ASTM A312 N08904", app: "Sulphuric acid, phosphoric acid, aggressive chemical environments" },
+                    { grade: "Duplex 2205", std: "ASTM A790 S31803", app: "Oil & gas, desalination, seawater handling, petrochemical plants" },
+                    { grade: "Super Duplex 2507", std: "ASTM A790 S32750", app: "Offshore platforms, subsea equipment, high-chloride environments" },
+                  ].map((r, i) => (
+                    <tr style={{ background: i % 2 === 0 ? "#fff" : "#f9fafb" }}>
+                      <td style={{ padding: "0.65rem 1rem", "font-weight": "700", color: "#111827" }}>{r.grade}</td>
+                      <td style={{ padding: "0.65rem 1rem", color: "#374151", "font-size": "0.82rem" }}>{r.std}</td>
+                      <td style={{ padding: "0.65rem 1rem", color: "#6b7280", "font-size": "0.82rem" }}>{r.app}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {/* SS Pipe Sizes & Specifications */}
+            <h3 style={{ "font-size": "1.1rem", "font-weight": "700", "margin-bottom": "1rem", color: "#111827" }}>
+              SS Pipe Sizes & Specifications
+            </h3>
+            <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(240px,1fr))", gap: "1rem", "margin-bottom": "2rem" }}>
+              {[
+                { label: "Size Range", value: "6NB (1/8 inch) to 600NB (24 inch)" },
+                { label: "Wall Thickness", value: "SCH 5S, 10S, 20, 40S, 40, 80S, 80, 120, 160, XXS" },
+                { label: "Pipe Type", value: "Seamless (SMLS) and Welded (ERW/EFW)" },
+                { label: "Length", value: "Random (5-7m), Fixed (6m, 6.1m), Cut-to-length" },
+                { label: "End Finish", value: "Plain end, Bevelled, Threaded" },
+                { label: "Surface Finish", value: "Pickled & Passivated, Bright Annealed, Mill Finish" },
+              ].map(spec => (
+                <div style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "8px", padding: "1rem" }}>
+                  <span style={{ "font-size": "0.75rem", color: "#6b7280", "text-transform": "uppercase", "letter-spacing": "0.05em", display: "block", "margin-bottom": "0.25rem" }}>{spec.label}</span>
+                  <span style={{ "font-size": "0.9rem", "font-weight": "700", color: "#111827" }}>{spec.value}</span>
+                </div>
+              ))}
+            </div>
+
+            {/* Pan-India Delivery Locations */}
+            <div style={{ background: "linear-gradient(135deg,#fff8f0,#ffffff)", border: "1px solid #e5e7eb", "border-radius": "12px", padding: "2rem", "margin-bottom": "2rem" }}>
+              <h3 style={{ "font-size": "1.1rem", "font-weight": "700", "margin-bottom": "0.75rem", color: "#111827", "text-align": "center" }}>
+                SS Pipe Supplier — Serving All Major Indian Cities
+              </h3>
+              <p style={{ "font-size": "0.9rem", color: "#6b7280", "text-align": "center", "margin-bottom": "1.25rem" }}>
+                As a leading <strong>stainless steel pipe supplier</strong>, we deliver SS pipes across India from our Vadodara stockyard
+              </p>
+              <div style={{ display: "flex", "flex-wrap": "wrap", gap: "0.5rem", "justify-content": "center", "margin-bottom": "1.5rem" }}>
+                {[
+                  "Vadodara", "Ahmedabad", "Surat", "Delhi", "Mumbai", "Pune", "Chennai",
+                  "Bangalore", "Hyderabad", "Kolkata", "Ankleshwar", "Bharuch", "Dahej",
+                  "Hazira", "Gandhinagar", "Rajkot", "Jamnagar", "Indore", "Nagpur"
+                ].map(city => (
+                  <span style={{ background: "#fff", border: "1px solid #e5e7eb", "border-radius": "99px", padding: "0.35rem 0.9rem", "font-size": "0.82rem", "font-weight": "600", color: "#374151" }}>
+                    {city}
+                  </span>
+                ))}
+              </div>
+              <p style={{ "font-size": "0.8rem", color: "#9ca3af", "text-align": "center" }}>
+                Same-day dispatch for Gujarat · 2-4 days delivery pan-India · Export worldwide
+              </p>
+            </div>
+
+            {/* Why Choose CMI as SS Pipe Supplier */}
+            <div style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "12px", padding: "2rem" }}>
+              <h3 style={{ "font-size": "1.1rem", "font-weight": "700", "margin-bottom": "1.25rem", color: "#111827" }}>
+                Why Choose Creative Metal Industries as Your SS Pipe Supplier?
+              </h3>
+              <ul style={{ "list-style": "none", padding: 0, display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(280px,1fr))", gap: "0.75rem" }}>
+                {[
+                  "Ready stock of 1000+ SS pipe sizes at Vadodara — immediate availability",
+                  "Mill-authorized stockist for Sandvik, Ratnamani, Venus Pipes, Salzgitter, Tubacex",
+                  "MTC (EN 10204 3.1/3.2) supplied with every consignment",
+                  "IBR Form III-C certified pipes for boiler and pressure vessel applications",
+                  "NACE MR-01-75 compliant material for sour service and oil & gas applications",
+                  "Third-party inspection accepted — DNV, TUV, SGS, BVIS, LRIS",
+                  "Cut-to-size, beveling, threading, polishing services available",
+                  "Competitive pricing with transparent quotes within 2 hours",
+                  "Pan-India delivery from our GIDC Makarpura, Vadodara facility",
+                  "15+ years experience supplying EPC contractors and major industrial projects",
+                  "Export to UAE, Oman, Saudi Arabia, Kuwait, USA, UK and 50+ countries",
+                  "Technical support and material selection assistance from qualified engineers"
+                ].map(point => (
+                  <li style={{ display: "flex", gap: "0.65rem", "align-items": "flex-start", "font-size": "0.875rem", color: "#374151", "line-height": "1.6" }}>
+                    <span style={{ "flex-shrink": "0", color: "#E8821A", "font-weight": "700" }}>✓</span>
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
           </div>
         </section>
 
