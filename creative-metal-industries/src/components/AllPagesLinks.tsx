@@ -65,6 +65,7 @@ function LinkCard(props: { icon: string; title: string; links: { href: string; l
 }
 
 const STAINLESS_LINKS = [
+  { href: "/ss-pipe-supplier", label: "SS Pipe Supplier" },
   { href: "/ss-304-316l-pipe-supplier-india", label: "SS 304/316L Pipe" },
   { href: "/ss-seamless-pipe-supplier-india", label: "SS Seamless Pipe" },
   { href: "/ss-310-pipe-supplier-india", label: "SS 310 Pipe" },

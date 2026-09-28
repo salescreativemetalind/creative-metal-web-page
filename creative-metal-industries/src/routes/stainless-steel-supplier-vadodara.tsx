@@ -88,15 +88,19 @@ const FAQS = [
   },
   {
     q: "What types of stainless steel pipes do you supply?",
-    a: "We supply SS seamless pipes to ASTM A312, SS welded (ERW/EFW) pipes, SS instrumentation tubes to ASTM A213/A269, and SS boiler tubes. Available in grades TP304, 304L, 316, 316L, 321, 310S, 347, 904L and Duplex 2205. Sizes from 6NB to 600NB in schedules SCH 5S to XXS. All pipes come with Mill Test Certificates (EN 10204 3.1/3.2) and IBR Form III-C where required.",
+    a: "We supply SS seamless pipes to ASTM A312, SS welded pipes (ERW/EFW), SS instrumentation tubes to ASTM A213/A269, and SS boiler tubes. We also supply ss square pipe, ss rectangular pipe, and ss round pipe for structural and architectural applications. Available in grades TP304, 304L, 316, 316L, 321, 310S, 347, 904L and Duplex 2205. Sizes from 6NB to 600NB in schedules SCH 5S to XXS. All pipes come with Mill Test Certificates (EN 10204 3.1/3.2) and IBR Form III-C where required.",
+  },
+  {
+    q: "What are the most common SS pipe sizes?",
+    a: "The most commonly used stainless steel pipe sizes are 2 inch ss pipe (50NB), 3 inch ss pipe (80NB), and 4 inch ss pipe (100NB) in schedule 40S for general industrial piping. We also stock 1 inch ss pipe (25NB), 1.5 inch (40NB), 6 inch ss pipe (150NB), and 8 inch (200NB) in ready inventory. For smaller instrument connections, ss pipe 1/2 inch (15NB) and 3/4 inch (20NB) are readily available. All sizes are supplied with complete ss pipe dimensions and weight specifications.",
+  },
+  {
+    q: "What is the price of SS pipe per meter or per kg?",
+    a: "SS pipe prices are quoted either per meter or per kg depending on your preference. Typical pricing ranges from ₹200-₹800 per kg for standard grades like SS 304 and 316L, depending on size, wall thickness (schedule), and quantity ordered. For ss pipe price per meter calculations, we multiply the weight per meter (from our ss pipe weight chart) by the per-kg rate. Factors affecting price include grade (304/316L/321), type (seamless vs welded), market nickel prices, and order quantity. For accurate ss pipe price per kg or per meter quote, share your requirement — grade, size, schedule, quantity. We provide transparent quotes within 2 hours. Call +91 99982 80619.",
   },
   {
     q: "Do you supply SS pipe in Delhi, Pune and Chennai?",
     a: "Yes. As a pan-India SS pipe supplier, we deliver stainless steel pipes from our Vadodara stockyard to Delhi, Pune, Chennai and all major Indian cities. Standard delivery time is 2-4 working days. For urgent requirements, we can arrange express delivery. We also serve nearby industrial hubs like Ankleshwar, Bharuch, Dahej, Ahmedabad, Surat and Mumbai with same-day or next-day dispatch.",
-  },
-  {
-    q: "What is the price of SS pipe?",
-    a: "SS pipe prices vary based on grade (304/316L/321), type (seamless/welded), size, wall thickness and quantity. Current market rates depend on nickel and chromium prices. For accurate SS pipe pricing, please share your requirement — grade, size, schedule, quantity and delivery location. We provide transparent quotes within 2 hours with no hidden costs. Call +91 99982 80619 or send enquiry.",
   },
   {
     q: "Who is the top stainless steel supplier in Vadodara, Gujarat?",
@@ -107,12 +111,20 @@ const FAQS = [
     a: "We supply all major austenitic grades (SS 304, 316L, 317L, 321, 310S, 347, 904L) and duplex grades (2205, Super Duplex 2507) across all product forms. All materials come with ASTM certified MTC documentation and are available with IBR Form III-C and NACE certification as required.",
   },
   {
+    q: "Do you have ss pipe weight chart and schedule chart available?",
+    a: "Yes. We provide a comprehensive ss pipe weight chart covering all common sizes from 1/2 inch to 24 inch in various schedules (5S to XXS). Our ss pipe schedule chart shows weight per meter, OD, wall thickness and ss pipe dimensions for each size-schedule combination. The chart is available in our office or can be shared via email/WhatsApp. For quick reference, our team can provide weight calculations for your specific requirements within minutes. Request the downloadable PDF weight chart by calling +91 99982 80619.",
+  },
+  {
     q: "Are you a stainless steel pipe manufacturer or only a stockist in Vadodara?",
     a: "Creative Metal Industries operates as both a manufacturer's authorised stockist and a service centre. We are authorised by major SS pipe mills and maintain large ready-stock at GIDC Makarpura. We also offer pipe processing services (cutting, beveling, threading) making us a complete SS pipe solution provider in Vadodara.",
   },
   {
     q: "Do you supply IBR certified stainless steel pipes in Gujarat?",
     a: "Yes. We are an authorised IBR supplier in Gujarat. All IBR-required SS pipe materials are supplied with IBR Form III-C certification. This is available for SS 304, 316L, 321 seamless pipes per ASTM A312 for boiler, pressure vessel and high-temperature service applications.",
+  },
+  {
+    q: "What surface finishes are available for SS pipes?",
+    a: "We supply stainless steel pipes in multiple surface finishes: Mill Finish (as-manufactured), Pickled & Passivated (enhanced corrosion resistance), Bright Annealed or BA finish (smooth shiny surface for food/pharma), 2B finish ss pipe (cold-rolled smooth — most common industrial finish), No.4 Brushed/Satin (architectural applications), Mirror Finish or No.8 (highly polished for pharmaceutical/decorative use), and Electropolished (ultra-smooth for cleanroom applications). We also supply ss polished pipe and ss decorative pipe for architectural projects.",
   },
   {
     q: "What is the delivery time for stainless steel supply in Vadodara?",
@@ -331,12 +343,244 @@ export default function StainlessSteelSupplierVadodara() {
                 { label: "Wall Thickness", value: "SCH 5S, 10S, 20, 40S, 40, 80S, 80, 120, 160, XXS" },
                 { label: "Pipe Type", value: "Seamless (SMLS) and Welded (ERW/EFW)" },
                 { label: "Length", value: "Random (5-7m), Fixed (6m, 6.1m), Cut-to-length" },
-                { label: "End Finish", value: "Plain end, Bevelled, Threaded" },
-                { label: "Surface Finish", value: "Pickled & Passivated, Bright Annealed, Mill Finish" },
+                { label: "End Finish", value: "Plain End (PE), Bevelled End (30° bevel), Threaded (NPT/BSP)" },
+                { label: "HSN Code", value: "73041110 (Seamless SS Pipes)" },
               ].map(spec => (
                 <div style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "8px", padding: "1rem" }}>
                   <span style={{ "font-size": "0.75rem", color: "#6b7280", "text-transform": "uppercase", "letter-spacing": "0.05em", display: "block", "margin-bottom": "0.25rem" }}>{spec.label}</span>
                   <span style={{ "font-size": "0.9rem", "font-weight": "700", color: "#111827" }}>{spec.value}</span>
+                </div>
+              ))}
+            </div>
+
+            {/* SS Pipe Forms — Round, Square, Rectangular */}
+            <h3 style={{ "font-size": "1.1rem", "font-weight": "700", "margin-bottom": "1rem", color: "#111827" }}>
+              SS Pipe Forms — Round, Square & Rectangular Pipes
+            </h3>
+            <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1.25rem" }}>
+              We supply stainless steel pipes in multiple forms to suit different applications. Whether you need <strong>ss round pipe</strong> for fluid transport,
+              <strong>ss square pipe</strong> for structural framing, or <strong>ss rectangular pipe</strong> for architectural applications, we maintain
+              ready stock of all forms in SS 304, 316L and other grades. All <strong>ss erw pipe</strong> (electric resistance welded) and seamless pipes
+              are supplied with full MTC documentation and are available in <strong>ss decorative pipe</strong> finishes including <strong>ss polished pipe</strong> for
+              architectural and interior design applications.
+            </p>
+            <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(260px,1fr))", gap: "1rem", "margin-bottom": "2rem" }}>
+              {[
+                {
+                  form: "SS Round Pipe",
+                  desc: "Standard circular pipes for fluid transport, oil & gas, chemical processing, and general piping systems. Available in seamless and welded forms.",
+                  sizes: "6NB to 600NB (1/8\" to 24\")"
+                },
+                {
+                  form: "SS Square Pipe",
+                  desc: "Structural square hollow sections for frames, support structures, architectural elements, and fabrication. Equal sides for uniform strength.",
+                  sizes: "15mm × 15mm to 200mm × 200mm"
+                },
+                {
+                  form: "SS Rectangular Pipe",
+                  desc: "Hollow rectangular sections for architectural facades, handrails, furniture, and structural applications requiring specific aspect ratios.",
+                  sizes: "20mm × 10mm to 200mm × 100mm"
+                },
+              ].map(item => (
+                <div style={{ background: "#fff", border: "1px solid #e5e7eb", "border-radius": "10px", padding: "1.25rem", "box-shadow": "0 1px 3px rgba(0,0,0,0.05)" }}>
+                  <h4 style={{ "font-size": "0.95rem", "font-weight": "700", color: "#E8821A", "margin-bottom": "0.5rem" }}>{item.form}</h4>
+                  <p style={{ "font-size": "0.85rem", color: "#374151", "line-height": "1.6", "margin-bottom": "0.6rem" }}>{item.desc}</p>
+                  <div style={{ "font-size": "0.8rem", color: "#6b7280" }}>
+                    <strong>Size Range:</strong> {item.sizes}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* SS Pipe Weight Chart */}
+            <h3 style={{ "font-size": "1.1rem", "font-weight": "700", "margin-bottom": "1rem", color: "#111827" }}>
+              SS Pipe Weight Chart — Common Sizes
+            </h3>
+            <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1.25rem" }}>
+              Below is an <strong>ss pipe weight chart</strong> showing approximate weights for commonly-used stainless steel pipe sizes.
+              Weight varies slightly based on grade (SS 304, 316L) and wall thickness (schedule). For complete <strong>ss pipe dimensions</strong> and
+              weight calculations, contact our technical team.
+            </p>
+            <div style={{ overflow: "auto", border: "1px solid #e5e7eb", "border-radius": "10px", "margin-bottom": "1.5rem" }}>
+              <table style={{ width: "100%", "border-collapse": "collapse", "font-size": "0.875rem", "min-width": "600px" }}>
+                <thead>
+                  <tr style={{ background: "linear-gradient(135deg,#E8821A,#d85c2a)", color: "#fff" }}>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Pipe Size (NB)</th>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>OD (mm)</th>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Schedule</th>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Wall Thickness (mm)</th>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Weight (kg/m)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { size: "1/2\" (15NB)", od: "21.3", sch: "40S", wt: "2.77", weight: "1.27" },
+                    { size: "3/4\" (20NB)", od: "26.9", sch: "40S", wt: "2.87", weight: "1.69" },
+                    { size: "1\" (25NB)", od: "33.7", sch: "40S", wt: "3.38", weight: "2.50" },
+                    { size: "1.5\" (40NB)", od: "48.3", sch: "40S", wt: "3.68", weight: "3.99" },
+                    { size: "2\" (50NB)", od: "60.3", sch: "40S", wt: "3.91", weight: "5.44" },
+                    { size: "3\" (80NB)", od: "88.9", sch: "40S", wt: "5.49", weight: "11.29" },
+                    { size: "4\" (100NB)", od: "114.3", sch: "40S", wt: "6.02", weight: "16.07" },
+                    { size: "6\" (150NB)", od: "168.3", sch: "40S", wt: "7.11", weight: "28.26" },
+                    { size: "8\" (200NB)", od: "219.1", sch: "40S", wt: "8.18", weight: "42.55" },
+                    { size: "10\" (250NB)", od: "273.0", sch: "40S", wt: "9.27", weight: "60.29" },
+                  ].map((row, i) => (
+                    <tr style={{ background: i % 2 === 0 ? "#fff" : "#f9fafb" }}>
+                      <td style={{ padding: "0.65rem 1rem", "font-weight": "700", color: "#111827" }}>{row.size}</td>
+                      <td style={{ padding: "0.65rem 1rem", color: "#374151" }}>{row.od}</td>
+                      <td style={{ padding: "0.65rem 1rem", color: "#374151" }}>{row.sch}</td>
+                      <td style={{ padding: "0.65rem 1rem", color: "#374151" }}>{row.wt}</td>
+                      <td style={{ padding: "0.65rem 1rem", "font-weight": "600", color: "#E8821A" }}>{row.weight}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p style={{ "font-size": "0.82rem", color: "#6b7280", "margin-bottom": "2rem" }}>
+              <strong>Note:</strong> The above <strong>ss pipe weight chart</strong> is for reference only. Actual weight may vary ±5% based on manufacturing tolerance.
+              For complete <strong>ss pipe schedule chart</strong> covering all schedules (5S to XXS), request our downloadable PDF weight chart.
+            </p>
+
+            {/* SS Pipe Surface Finish Types */}
+            <h3 style={{ "font-size": "1.1rem", "font-weight": "700", "margin-bottom": "1rem", color: "#111827" }}>
+              SS Pipe Surface Finish Types
+            </h3>
+            <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1.25rem" }}>
+              We supply stainless steel pipes in multiple surface finishes to meet different application requirements — from industrial process piping
+              to pharmaceutical cleanroom installations and architectural applications requiring <strong>mirror finish ss pipe</strong> or <strong>2B finish ss pipe</strong>.
+            </p>
+            <div style={{ overflow: "auto", border: "1px solid #e5e7eb", "border-radius": "10px", "margin-bottom": "2rem" }}>
+              <table style={{ width: "100%", "border-collapse": "collapse", "font-size": "0.875rem", "min-width": "600px" }}>
+                <thead>
+                  <tr style={{ background: "linear-gradient(135deg,#E8821A,#d85c2a)", color: "#fff" }}>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Surface Finish</th>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Description</th>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Typical Applications</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { finish: "Mill Finish", desc: "As-manufactured surface from mill, unpolished", app: "Industrial piping, general applications" },
+                    { finish: "Pickled & Passivated", desc: "Chemically treated for enhanced corrosion resistance", app: "Chemical plants, aggressive environments" },
+                    { finish: "Bright Annealed (BA)", desc: "Heat-treated in controlled atmosphere, smooth shiny surface", app: "Food processing, dairy, pharmaceutical" },
+                    { finish: "2B Finish", desc: "Cold-rolled, smooth surface — most common industrial finish", app: "General industrial, architectural, food grade" },
+                    { finish: "No.4 Brushed (Satin)", desc: "Brushed/satin finish, directional grain", app: "Architectural facades, kitchen equipment, decorative" },
+                    { finish: "Mirror Finish (No.8)", desc: "Highly polished reflective surface", app: "Pharmaceutical, decorative, cleanroom, interior design" },
+                    { finish: "Electropolished", desc: "Electrochemical polishing, ultra-smooth surface", app: "Pharmaceutical, biotech, semiconductor, cleanroom" },
+                  ].map((row, i) => (
+                    <tr style={{ background: i % 2 === 0 ? "#fff" : "#f9fafb" }}>
+                      <td style={{ padding: "0.65rem 1rem", "font-weight": "700", color: "#111827", "white-space": "nowrap" }}>{row.finish}</td>
+                      <td style={{ padding: "0.65rem 1rem", color: "#374151", "font-size": "0.82rem" }}>{row.desc}</td>
+                      <td style={{ padding: "0.65rem 1rem", color: "#6b7280", "font-size": "0.82rem" }}>{row.app}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {/* SS Pipe vs SS Tube */}
+            <h3 style={{ "font-size": "1.1rem", "font-weight": "700", "margin-bottom": "1rem", color: "#111827" }}>
+              SS Pipe vs SS Tube — What's the Difference?
+            </h3>
+            <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1.25rem" }}>
+              Many buyers ask about <strong>ss pipe vs tube</strong> differences. While both are hollow cylindrical products, there are important distinctions
+              in measurement, manufacturing, tolerances and applications. Understanding the difference between <strong>seamless vs welded ss pipe</strong> and
+              the distinction between pipes and tubes helps ensure you order the right product for your application.
+            </p>
+            <div style={{ overflow: "auto", border: "1px solid #e5e7eb", "border-radius": "10px", "margin-bottom": "2rem" }}>
+              <table style={{ width: "100%", "border-collapse": "collapse", "font-size": "0.875rem", "min-width": "600px" }}>
+                <thead>
+                  <tr style={{ background: "linear-gradient(135deg,#E8821A,#d85c2a)", color: "#fff" }}>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>Parameter</th>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>SS Pipe</th>
+                    <th style={{ padding: "0.7rem 1rem", "text-align": "left" }}>SS Tube</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    {
+                      param: "Size Measurement",
+                      pipe: "Nominal Pipe Size (NPS) — approximate inside diameter",
+                      tube: "Exact Outside Diameter (OD) in mm or inches"
+                    },
+                    {
+                      param: "Wall Thickness",
+                      pipe: "Schedule-based (SCH 5S, 10S, 40S, 80S, XXS, etc.)",
+                      tube: "Specified in exact mm or inches (e.g., 1.5mm, 2.0mm)"
+                    },
+                    {
+                      param: "Size Range",
+                      pipe: "1/8\" NB to 24\" NB and larger for large-bore pipes",
+                      tube: "Typically smaller — 3mm OD to 200mm OD max"
+                    },
+                    {
+                      param: "Manufacturing Tolerance",
+                      pipe: "Looser tolerances (±12.5% on wall thickness)",
+                      tube: "Tight tolerances (±5-10% on OD and wall)"
+                    },
+                    {
+                      param: "Primary Applications",
+                      pipe: "Fluid transport, oil & gas, chemical piping, structural",
+                      tube: "Instrumentation, heat exchangers, precision equipment"
+                    },
+                    {
+                      param: "Standards",
+                      pipe: "ASTM A312 (pipes), ASME B36.19M",
+                      tube: "ASTM A213, A269 (tubes), ASME B36.19M"
+                    },
+                    {
+                      param: "Cost",
+                      pipe: "Generally lower cost for same size",
+                      tube: "Higher cost due to tighter tolerances"
+                    },
+                    {
+                      param: "Example Product",
+                      pipe: "2\" NB SCH 40S pipe (60.3mm OD, 3.91mm WT)",
+                      tube: "50mm OD × 2mm WT instrumentation tube"
+                    },
+                  ].map((row, i) => (
+                    <tr style={{ background: i % 2 === 0 ? "#fff" : "#f9fafb" }}>
+                      <td style={{ padding: "0.65rem 1rem", "font-weight": "700", color: "#111827", "white-space": "nowrap" }}>{row.param}</td>
+                      <td style={{ padding: "0.65rem 1rem", color: "#374151", "font-size": "0.82rem" }}>{row.pipe}</td>
+                      <td style={{ padding: "0.65rem 1rem", color: "#6b7280", "font-size": "0.82rem" }}>{row.tube}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p style={{ "font-size": "0.9rem", color: "#374151", "line-height": "1.8", "margin-bottom": "2rem" }}>
+              <strong>Bottom line:</strong> For general piping systems (chemical plants, oil & gas, water treatment, HVAC), you need <strong>SS pipes</strong>.
+              For instrumentation, heat exchangers, condensers, boiler tubes and precision applications, you need <strong>SS tubes</strong>.
+              Most industrial projects require pipes, not tubes.
+            </p>
+
+            {/* SS Pipe Manufacturing Process */}
+            <h3 style={{ "font-size": "1.1rem", "font-weight": "700", "margin-bottom": "1rem", color: "#111827" }}>
+              SS Pipe Manufacturing Process
+            </h3>
+            <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1.25rem" }}>
+              Understanding the <strong>ss pipe manufacturing process</strong> helps buyers choose between seamless and welded pipes. We supply both types
+              depending on application requirements, pressure ratings, and budget.
+            </p>
+            <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(280px,1fr))", gap: "1rem", "margin-bottom": "2rem" }}>
+              {[
+                {
+                  type: "Seamless SS Pipe Manufacturing",
+                  process: "Solid round steel billet is heated to 1200°C and pierced using a piercing mill to create a hollow shell. The shell is then rolled and stretched through plug mills and sizing mills to achieve the desired diameter and wall thickness. No welding involved — superior strength and pressure rating.",
+                  advantages: "Higher pressure rating, uniform strength in all directions, no weld seam, suitable for high-temperature service"
+                },
+                {
+                  type: "Welded SS Pipe (ERW) Manufacturing",
+                  process: "Stainless steel coil is uncoiled, edge-trimmed, formed into a tube shape through forming rolls, and welded using Electric Resistance Welding (ERW). The weld seam is then heat-treated, ground smooth if required, and the pipe is sized and cut to length.",
+                  advantages: "Cost-effective for larger diameters, consistent OD and wall thickness, suitable for low-medium pressure applications"
+                },
+              ].map(item => (
+                <div style={{ background: "#f9fafb", border: "1px solid #e5e7eb", "border-radius": "10px", padding: "1.25rem" }}>
+                  <h4 style={{ "font-size": "0.95rem", "font-weight": "700", color: "#E8821A", "margin-bottom": "0.65rem" }}>{item.type}</h4>
+                  <p style={{ "font-size": "0.85rem", color: "#374151", "line-height": "1.6", "margin-bottom": "0.75rem" }}>{item.process}</p>
+                  <p style={{ "font-size": "0.82rem", color: "#6b7280", "line-height": "1.5", margin: 0 }}>
+                    <strong>Advantages:</strong> {item.advantages}
+                  </p>
                 </div>
               ))}
             </div>
