@@ -13,8 +13,12 @@ export default createHandler(
         <head>
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          {/* Preconnect to external domains for faster resource loading */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+          <link rel="dns-prefetch" href="https://images.pexels.com" />
+          <link rel="dns-prefetch" href="https://cdn.lohalive.com" />
+          {/* Load critical fonts with font-display swap for better performance */}
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
             rel="stylesheet"
