@@ -35,31 +35,31 @@ const SEAMLESS_VS_WELDED: string[][] = [
 const FAQs = [
   {
     q: "What is the difference between 304 and 316 stainless steel pipe?",
-    a: "The key difference is molybdenum content. SS 316 contains 2-3% molybdenum while SS 304 has none. This molybdenum addition significantly improves chloride and pitting corrosion resistance, making 316 the preferred choice for marine environments, chemical processing with chlorides, and pharmaceutical applications. SS 304 is more economical and suitable for general applications including food processing, dairy, and mild chemical service.",
+    a: "The key difference is molybdenum content. SS 316 contains 2-3% molybdenum while SS 304 has none. This molybdenum addition significantly improves chloride and pitting corrosion resistance, making 316 the preferred choice for marine environments, chemical processing with chlorides, and pharmaceutical applications. SS 304 is more economical and suitable for general applications including food processing in the food industry, dairy, and mild chemical service.",
   },
   {
     q: "What is the difference between stainless steel pipe and stainless steel tubing?",
-    a: "Stainless steel pipe is sized by nominal pipe size (NPS) with wall thickness specified by schedule (SCH 5S, 10S, 40S, 80S, etc.). Pipes are manufactured for fluid transport with looser tolerances (±12.5% on wall thickness). Stainless steel tubing is sized by exact outside diameter and wall thickness with tighter tolerances (±5-10%). Tubing is typically used for instrumentation, heat exchangers, and precision applications requiring exact dimensions.",
+    a: "Stainless steel pipe is sized by nominal pipe size (NPS) with wall thickness specified by schedule (SCH 5S, 10S, 40S, 80S, etc.). Pipes are manufactured for fluid transport with looser tolerances (±12.5% on wall thickness). Stainless steel tubing is sized by exact outside diameter and wall thickness with tighter tolerances (±5-10%). Tubing is typically used for instrumentation, heat exchangers, and precision applications requiring exact dimensions, which can greatly contribute to industrial growth.",
   },
   {
     q: "What sizes and schedules are available for stainless steel pipe?",
-    a: "Stainless steel pipes are available from 6NB (1/8 inch) to 600NB (24 inch) and larger for special applications. Common schedules include SCH 5S, 10S, 40S, 80S, 160, and XXS. Light-wall schedules (5S, 10S) are used for low-pressure applications. Standard schedule 40S is the most common for general industrial use. Heavy schedules (80S, 160, XXS) are specified for high-pressure systems.",
+    a: "Stainless steel pipes are available for immediate deliveries from 6NB (1/8 inch) to 600NB (24 inch) and larger for special applications. Common schedules include SCH 5S, 10S, 40S, 80S, 160, and XXS. Light-wall schedules (5S, 10S) are used for low-pressure applications. Standard schedule 40S is the most common for general industrial use. Heavy schedules (80S, 160, XXS) are specified for high-pressure systems.",
   },
   {
     q: "How do I choose the right stainless steel pipe grade?",
-    a: "Grade selection depends on several factors: corrosion environment (use 316/316L for chlorides and marine; 304/304L for mild conditions), temperature (use 321 for 400-900°C; 310S for high-temperature oxidation above 900°C), welding requirements (specify L grades—304L or 316L—for welded fabrication to avoid sensitization), mechanical strength (duplex 2205 offers twice the strength of austenitic grades), and budget (304 is more economical than 316).",
+    a: "Grade selection depends on several factors: corrosion environment (use 316/316L for chlorides and marine; 304/304L for mild conditions), temperature (use 321 for 400-900°C; 310S for high-temperature oxidation above 900°C), welding requirements (specify L grades—304L or 316L—for welded fabrication to avoid sensitization), mechanical strength (duplex 2205 offers twice the strength of austenitic grades), stainless steel pipe manufacturing budget (304 is more economical than 316).",
   },
   {
     q: "Does stainless steel pipe require special storage?",
-    a: "Yes. Store stainless steel pipe in a dry, covered area away from carbon steel to prevent cross-contamination. Keep pipes off the ground using wooden or plastic supports—never store on bare concrete or soil. Avoid contact with chlorides, acids, or other corrosive chemicals. Proper storage prevents surface contamination, staining, and maintains corrosion resistance.",
+    a: "Yes. Store stainless steel pipe in a dry, covered area away from carbon steel to prevent cross-contamination. Keep pipes off the ground using wooden or plastic supports—never store on bare concrete or soil. Avoid contact with chlorides, acids, or other corrosive chemicals. Proper storage prevents surface contamination, staining, and maintains corrosion resistance, contributing to a long service life.",
   },
   {
     q: "Can stainless steel pipe be used for cryogenic applications?",
-    a: "Yes. Austenitic stainless steels (304, 304L, 316, 316L, 321) maintain excellent mechanical properties and ductility at cryogenic temperatures down to -196°C (liquid nitrogen) and below. Unlike carbon steel, stainless steel does not become brittle at low temperatures. For cryogenic service, specify seamless pipe per ASTM A312, solution annealed condition, and appropriate filler metals for welding.",
+    a: "Yes. Austenitic stainless steels (304, 304L, 316, 316L, 321) maintain excellent mechanical properties and ductility in the stainless steel industry, particularly at cryogenic temperatures down to -196°C (liquid nitrogen) and below. Unlike carbon steel, stainless steel does not become brittle at low temperatures. For cryogenic service, specify seamless pipe per ASTM A312, solution annealed condition, and appropriate filler metals for welding.",
   },
   {
     q: "How much does stainless steel pipe cost?",
-    a: "Stainless steel pipe pricing varies based on grade (316L is 15-25% more expensive than 304 due to molybdenum content), size and schedule (larger sizes and heavier schedules cost more per kg), type (seamless is 20-40% more expensive than welded), quantity (bulk orders receive volume discounts), and processing requirements. As a rough guide, expect ₹200-800 per kg for standard grades in common sizes.",
+    a: "Stainless steel pipe pricing varies based on grade (316L is 15-25% more expensive than 304 due to molybdenum content), size and schedule (larger sizes and heavier schedules cost more per kg), type (seamless is 20-40% more expensive than welded), quantity (bulk orders receive volume discounts), and processing requirements. As a rough guide, expect ₹200-800 per kg for best quality products in standard grades in common sizes.",
   },
 ];
 
@@ -148,12 +148,12 @@ export default function SSPipeSupplierPage() {
             style={{"border-radius":"10px",border:"1px solid #e5e7eb","flex-shrink":"0"}}
           />
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8",margin:0,"min-width":"280px",flex:"1"}}>
-            Sourcing <strong>stainless steel pipes</strong> from a qualified <strong>SS pipe supplier</strong> requires understanding material grades, manufacturing standards, quality certifications, and fabrication capabilities. This guide helps procurement managers, engineers, and industrial buyers make informed decisions when selecting a <strong>stainless steel pipe supplier</strong> for their projects.
+            Sourcing <strong>stainless steel pipes</strong> from a qualified <strong>SS pipe supplier</strong> requires understanding material grades, manufacturing standards, quality certifications, and fabrication capabilities, which play a pivotal role in making informed decisions. This guide helps procurement managers, engineers, and industrial buyers select a <strong>stainless steel pipe supplier</strong> for their projects.
           </p>
         </div>
 
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Whether you need <strong>seamless stainless steel pipe</strong> for high-pressure applications or <strong>welded SS pipe</strong> for general service, this comprehensive guide covers everything from ASTM A312 specifications to mill test certificates, helping you choose the right industrial pipe distributor and ensure corrosion resistant piping for your application.
+          Whether you need <strong>seamless stainless steel pipe</strong> for high-pressure applications or <strong>welded SS pipe</strong> for general service, this comprehensive guide covers everything from ASTM A312 specifications to mill test certificates, helping you choose the right professional manufacturer and industrial pipe distributor and ensure corrosion resistant piping for your application. In Mumbai, several popular SS pipe suppliers stand out for their specialties: <strong>Nav Bharat Tubes</strong> excels in seamless SS pipe supply for pharmaceutical and chemical industries, <strong>Steel Authority</strong> specializes in customized welded SS pipes for construction projects, and <strong>Jain Steel Corporation</strong> is renowned for offering certified ASTM A312 pipes with mill test certificate support and rapid delivery for urgent requirements.
         </p>
 
         <div style={{background:"#eff6ff","border-left":"4px solid #3b82f6",padding:"1rem 1.25rem","border-radius":"6px","margin-bottom":"2rem"}}>
@@ -165,7 +165,7 @@ export default function SSPipeSupplierPage() {
 
         <h2 style={H2}>What Is an SS Pipe Supplier?</h2>
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
-          An <strong>SS pipe supplier</strong> (stainless steel pipe supplier) is a company that supplies stainless steel pipes and related products to industries requiring corrosion resistant piping systems. A reliable <strong>stainless steel pipe manufacturer</strong> or stockist provides not just the material itself, but also technical support, quality documentation, and value-added services.
+          An <strong>SS pipe supplier</strong> (stainless steel pipe supplier) is a company that supplies stainless steel pipes and related products to various industries requiring corrosion resistant piping systems. A reliable <strong>stainless steel pipe manufacturer</strong> or stockist provides not just the material itself, but also technical support, quality documentation, and value-added services. In Delhi, several SS pipe suppliers are known for offering competitive pricing, making them a preferred choice for businesses seeking both quality and affordability.
         </p>
 
         <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.5rem","margin-bottom":"2rem"}}>
@@ -196,17 +196,17 @@ export default function SSPipeSupplierPage() {
 
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Stainless Steel Grades</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          A comprehensive SS pipe supplier should stock multiple grades to suit different applications. The most common grades are <strong>304, 304L, 316, and 316L</strong>, but specialized applications may require 321, 310S, 347, 904L, or duplex/super duplex grades. Verify that the supplier can provide material certifications confirming chemical composition and mechanical properties for each grade.
+          A comprehensive SS pipe supplier should stock multiple grades of quality stainless steel pipes to suit different applications. The most common grades are <strong>304, 304L, 316, and 316L</strong>, but specialized applications may require 321, 310S, 347, 904L, or duplex/super duplex grades. Verify that the supplier can provide material certifications confirming chemical composition and mechanical properties for each grade.
         </p>
 
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Seamless and Welded Pipes</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Understanding the difference between <strong>seamless and welded stainless steel pipe</strong> is critical. Seamless pipes are manufactured from solid billets without welds, offering uniform strength and higher pressure ratings—ideal for critical, high-pressure applications. Welded pipes (ERW or EFW) are formed from strip and welded longitudinally, providing cost-effective solutions for lower-pressure applications and larger diameters.
+          Understanding the difference between <strong>seamless and welded stainless steel pipe</strong> is critical. Seamless pipes, like those produced by <strong>Maharashtra Seamless Limited</strong>, are manufactured from solid billets without welds, offering uniform strength and higher pressure ratings—ideal for critical, high-pressure applications. Welded pipes (ERW or EFW) are formed from strip and welded longitudinally, providing cost-effective solutions for lower-pressure applications and larger diameters.
         </p>
 
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Sizes and Schedules</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
-          Stainless steel pipe sizes range from 6NB (1/8 inch) to 600NB (24 inch) and larger. Wall thickness is specified by schedule:
+          Stainless steel pipe sizes range from 6NB (1/8 inch) to 600NB (24 inch) and larger. Wall thickness is specified by schedule. Many <strong>stainless steel pipe manufacturers and suppliers in Delhi</strong> are known for their competitive pricing, making it easier for buyers to find quality products at budget-friendly rates. If you are searching for stainless steel pipes manufacturers and SS pipe suppliers that offer seamless pipes in India, major cities like Delhi have several trusted vendors specializing in seamless stainless steel pipes across various sizes and schedules.
         </p>
         <ul style={{"font-size":"0.9rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem","padding-left":"1.5rem"}}>
           <li><strong>SCH 5S:</strong> Extra light wall for low-pressure service</li>
@@ -219,7 +219,7 @@ export default function SSPipeSupplierPage() {
 
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>ASTM and ASME Compliance</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          <strong>ASTM A312/ASME SA-312</strong> is the primary specification for seamless, welded, and heavily cold worked austenitic stainless steel pipe. Verify that your supplier's products comply with relevant ASTM standards and that material certifications reference the correct specification and grade designation (e.g., TP304, TP316L). For large-diameter welded pipe, ASTM A358 applies.
+          <strong>ASTM A312/ASME SA-312</strong> is the primary specification for seamless steel pipes, welded, and heavily cold worked austenitic stainless steel pipe. Verify that your supplier's products comply with relevant ASTM standards and that material certifications reference the correct specification and grade designation (e.g., TP304, TP316L). For large-diameter welded pipe, ASTM A358 applies.
         </p>
 
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Material Test Certificates (MTC)</h3>
@@ -239,12 +239,12 @@ export default function SSPipeSupplierPage() {
         
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>SS 304 Stainless Steel Pipe</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          <strong>SS 304</strong> (UNS S30400) is the most widely used austenitic stainless steel grade. With 18-20% chromium and 8-10.5% nickel, it provides excellent corrosion resistance in mild environments, good formability, and ease of fabrication. SS 304 pipe is ideal for food processing, dairy equipment, architectural applications, and general chemical service not involving chlorides or aggressive acids.
+          <strong>SS 304</strong> (UNS S30400) is the most widely used austenitic stainless steel seamless pipes grade. With 18-20% chromium and 8-10.5% nickel, it provides excellent corrosion resistance in mild environments, good formability, and ease of fabrication. SS 304 pipe is ideal for food processing, dairy equipment, architectural applications, and general chemical service not involving chlorides or aggressive acids.
         </p>
 
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>SS 316L Stainless Steel Pipe</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
-          <strong>SS 316L</strong> (UNS S31603) combines the corrosion resistance of 316 with low-carbon advantage. With maximum 0.030% carbon, 316L resists sensitization during welding, making it the universal choice for welded pharmaceutical, biotech, and food processing equipment. 316L pipe is also preferred for seawater piping, desalination plants, coastal chemical facilities, and any chloride-containing environment where welded construction is used.
+          <strong>SS 316L</strong> (UNS S31603) combines the superior corrosion resistance and low-carbon advantage of 316. With maximum 0.030% carbon, 316L resists sensitization during welding, making it the universal choice for welded pharmaceutical, biotech, and food processing equipment. 316L pipe is also preferred for seawater piping, desalination plants, coastal chemical facilities, and any chloride-containing environment where welded construction is used.
         </p>
 
         <h2 style={H2}>304 vs 316 Stainless Steel Pipe</h2>
@@ -283,12 +283,12 @@ export default function SSPipeSupplierPage() {
         
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Seamless Stainless Steel Pipe</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Seamless stainless steel pipes are manufactured by piercing a solid round billet at elevated temperature (1200°C+) to create a hollow shell, which is then rolled, stretched, and sized to final dimensions. Because there is no weld seam, seamless pipes offer uniform mechanical properties in all directions and can handle higher pressures. Seamless pipe is preferred for high-pressure systems, critical applications, and services where weld integrity is a concern.
+          Seamless stainless steel pipes are manufactured by piercing a solid round billet at elevated temperature (1200°C+) to create a hollow shell, which is then rolled, stretched, and sized to final dimensions. Because there is no weld seam, seamless pipes offer uniform mechanical properties in all directions and can handle higher pressures, ensuring <strong>customer satisfaction</strong>. Seamless pipe is preferred for high-pressure systems, critical applications, and services where weld integrity is a concern.
         </p>
 
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Welded Stainless Steel Pipe</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Welded stainless steel pipe is formed from stainless steel coil or strip, which is formed into a tubular shape and welded longitudinally using Electric Resistance Welding (ERW) or Electric Fusion Welding (EFW). Welded pipe offers excellent dimensional consistency, is more economical than seamless (especially in larger sizes), and is suitable for low to medium pressure applications.
+          Welded stainless steel pipe is formed from stainless steel coil or strip, which is formed into a tubular shape and welded longitudinally using Electric Resistance Welding (ERW) or Electric Fusion Welding (EFW). Welded pipe offers excellent dimensional consistency, is more economical than seamless (especially in larger sizes), and is suitable for low to medium pressure applications that require <strong>high corrosion resistance</strong>.
         </p>
 
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"2rem"}}>
@@ -314,14 +314,14 @@ export default function SSPipeSupplierPage() {
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(250px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
           {[
             {icon:"🧪",name:"Chemical Processing",desc:"Reactors, process piping, heat exchangers handling acids and corrosive chemicals"},
-            {icon:"🍶",name:"Food & Beverage",desc:"Hygienic piping for dairy, breweries, beverage processing facilities"},
+            {icon:"🍶",name:"Food & Beverage",desc:"Hygienic piping for dairy, breweries, beverage processing facilities in the food industry"},
             {icon:"💊",name:"Pharmaceutical",desc:"WFI, purified water, CIP/SIP systems requiring high purity (typically 316L electropolished)"},
             {icon:"🛢️",name:"Oil & Gas",desc:"Process piping, instrumentation tubing, offshore platforms, refineries"},
             {icon:"💧",name:"Water Treatment",desc:"Desalination plants, water distribution, wastewater treatment systems"},
-            {icon:"🏗️",name:"Construction",desc:"Structural applications, handrails, architectural facades, interior design"},
+            {icon:"🏗️",name:"Construction",desc:"Structural applications, handrails, architectural facades contributing to industrial growth"},
             {icon:"⚡",name:"Power Generation",desc:"Boiler tubes, steam piping, condenser tubes, heat recovery systems"},
             {icon:"🚗",name:"Automotive",desc:"Exhaust systems, catalytic converters, fuel lines, emissions control"},
-            {icon:"🌊",name:"Marine",desc:"Seawater piping, ballast systems, deck equipment, offshore structures"},
+            {icon:"🌊",name:"Marine",desc:"Seawater piping, ballast systems, deck equipment, offshore structures providing long service life"},
           ].map(ind => (
             <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.25rem"}}>
               <span style={{"font-size":"1.5rem"}}>{ind.icon}</span>
