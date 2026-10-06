@@ -9,6 +9,7 @@ export default defineConfig({
       crawlLinks: true,
       routes: [
         // ── Stainless Steel ──
+        "/top-stainless-steel-pipe-supplier-india-quality-assured",
         "/ss-304-316l-pipe-supplier-india",
         "/ss-seamless-pipe-supplier-india",
         "/ss-sheet-supplier-vadodara",
