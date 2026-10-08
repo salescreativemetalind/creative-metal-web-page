@@ -34,23 +34,23 @@ const SEAMLESS_VS_WELDED: string[][] = [
 const FAQs = [
   {
     q: "What types of stainless steel pipes can I enquire about?",
-    a: "The website lists stainless-steel seamless and welded pipes. Include the required pipe type, grade, specification, size and quantity in your enquiry; the sales team can confirm availability for your order.",
+    a: "Creative Metal Industries supplies stainless-steel seamless and welded pipes for industrial and commercial requirements. Include the required pipe type, grade, specification, size and quantity so the team can confirm availability for your order.",
   },
   {
-    q: "Which SS pipe grades are listed by Creative Metal Industries?",
-    a: "The website lists SS 304, 304L, 316, 316L, 317L, 321, 310/310S, 347 and 904L, as well as Duplex 2205 and Super Duplex 2507. Confirm the exact grade and availability against your project specification.",
+    q: "Which SS pipe grades can I enquire about?",
+    a: "Our stainless-steel pipe range includes SS 304, 304L, 316, 316L, 317L, 321, 310/310S, 347 and 904L, as well as Duplex 2205 and Super Duplex 2507. Confirm the exact grade and availability against your project specification.",
   },
   {
     q: "What sizes and schedules can I request?",
-    a: "The company product information lists stainless-steel pipes from 6NB to 600NB and schedules from SCH 5S to XXS. These ranges are not a stock commitment; confirm the required dimensions and current availability with the sales team.",
+    a: "Pipe enquiries can cover sizes from 6NB to 600NB and schedules from SCH 5S to XXS. Confirm the required dimensions and current availability with the sales team; the stated range is not a stock commitment.",
   },
   {
     q: "Which standards and documents should I specify?",
-    a: "State the governing product standard and any inspection or documentation requirements from your purchase specification. The website lists standards for some product ranges and MTC/IBR/NACE documentation; confirm applicability for the specific grade and order.",
+    a: "State the governing product standard and any inspection or documentation requirements in your purchase specification. Include any MTC, IBR or NACE requirements in your enquiry so the team can confirm what applies to the specific grade and order.",
   },
   {
     q: "How do I request a quotation?",
-    a: "Call, use WhatsApp or submit the website enquiry form. Include grade, seamless or welded type, size, schedule or wall thickness, quantity, required documents and delivery location so the team can respond to your requirement.",
+    a: "Call, use WhatsApp or submit our enquiry form. Include grade, seamless or welded type, size, schedule or wall thickness, quantity, required documents and delivery location so the team can respond to your requirement.",
   },
 ];
 
@@ -115,7 +115,7 @@ export default function SSPipeSupplierPage() {
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 
       <nav style={{background:"#fff","border-bottom":"1px solid #e5e7eb",padding:"1rem 1.5rem",display:"flex","align-items":"center",gap:"1rem"}}>
-        <a href="/"><img src="/logo_cmi.png" alt="Creative Metal Industries — SS Pipe Supplier" width="140" height="71" /></a>
+        <img src="/logo_cmi.png" alt="Creative Metal Industries" width="140" height="71" />
         <div style={{flex:1}} />
         <a href="tel:+919998280619" class="btn btn-outline" style={{"font-size":"0.85rem",padding:"0.45rem 1rem"}}>📞 Call</a>
         <a href="/#contact" class="btn btn-primary" style={{"font-size":"0.85rem",padding:"0.45rem 1rem"}}>Get Quote</a>
@@ -139,17 +139,17 @@ export default function SSPipeSupplierPage() {
             style={{"border-radius":"10px",border:"1px solid #e5e7eb","flex-shrink":"0"}}
           />
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8",margin:0,"min-width":"280px",flex:"1"}}>
-            Creative Metal Industries supplies stainless-steel pipes from Vadodara for industrial and commercial requirements. The website lists seamless and welded pipes in multiple grades. Share your required grade, standard, size, schedule, quantity and delivery location to request a quotation and confirm availability.
+            Creative Metal Industries supplies stainless-steel seamless and welded pipes from Vadodara for industrial and commercial requirements. Share your grade, standard, size, schedule, quantity and delivery location to request a quotation and confirm availability.
           </p>
         </div>
 
-        <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          For a product-focused local range, visit our <a href="/stainless-steel-supplier-vadodara" style={{color:"#E8821A","font-weight":"600"}}>stainless steel supplier page in Vadodara</a>. This page focuses on stainless-steel pipe types, grades, dimensions and the information needed to request a quote.
+        <p style={{"font-size":"1rem","color":"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
+          For our broader local stainless-steel product range, visit the <a href="/stainless-steel-supplier-vadodara" style={{color:"#E8821A","font-weight":"600"}}>Stainless Steel Supplier in Vadodara</a> page. This page focuses on pipe types, grades, dimensions and the information needed to request a quote.
         </p>
 
         <h2 style={H2}>Stainless Steel Pipe Supply in India</h2>
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
-          Creative Metal Industries is based in Vadodara, Gujarat. The company website lists stainless-steel pipe products and related product pages. Buyers across India can submit their project specification and delivery destination for an order-specific quotation. Supply, documentation and delivery terms are confirmed for each requirement.
+          Based in Vadodara, Gujarat, Creative Metal Industries supplies stainless-steel pipes to industrial and commercial buyers. Send your project specification and delivery destination for an order-specific quotation. Product availability, documentation and delivery terms are confirmed for each requirement.
         </p>
 
         <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.5rem","margin-bottom":"2rem"}}>
@@ -175,22 +175,22 @@ export default function SSPipeSupplierPage() {
 
         <h2 style={H2}>SS Pipe Grades and Product Specifications</h2>
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          The website lists austenitic and duplex stainless-steel pipe grades. Confirm exact grade, standard, dimensions and documentation against your purchase specification before placing an order.
+          Our pipe range covers austenitic and duplex stainless-steel grades. Confirm the exact grade, standard, dimensions and documentation against your purchase specification before placing an order.
         </p>
 
-        <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Grades Listed on the Website</h3>
+        <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>SS Pipe Grades</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          The company's product pages list <strong>SS 304, 304L, 316, 316L, 317L, 321, 310S, 347 and 904L</strong>, plus Duplex 2205 and Super Duplex 2507. Confirm the requested grade, pipe standard and availability against your project specification.
+          We supply stainless-steel pipe grades including <strong>SS 304, 304L, 316, 316L, 317L, 321, 310S, 347 and 904L</strong>, plus Duplex 2205 and Super Duplex 2507. Confirm the requested grade, pipe standard and availability against your project specification.
         </p>
 
         <h2 style={H2}>Seamless and Welded SS Pipes</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          The website lists seamless and welded stainless-steel pipes. Specify the required manufacturing type from your project documents. If the specification permits alternatives, state that in your enquiry so the team can respond accordingly. Selection must follow the project design and service requirements.
+          Creative Metal Industries supplies seamless and welded stainless-steel pipes. Specify the required manufacturing type from your project documents. If your specification permits alternatives, state that in your enquiry. Selection should follow the project design and service requirements.
         </p>
 
         <h2 style={H2}>SS Pipe Sizes and Schedules</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
-          The site's product information lists pipe sizes from 6NB to 600NB and schedules from SCH 5S to XXS. Confirm the size, wall thickness or schedule, length and end preparation required for your project; availability depends on the specific order.
+          Enquiries can cover pipe sizes from 6NB to 600NB and schedules from SCH 5S to XXS. Confirm the size, wall thickness or schedule, length and end preparation required for your project; availability depends on the specific order.
         </p>
         <ul style={{"font-size":"0.9rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem","padding-left":"1.5rem"}}>
           <li><strong>SCH 5S:</strong> Extra light wall for low-pressure service</li>
@@ -203,12 +203,12 @@ export default function SSPipeSupplierPage() {
 
         <h2 style={H2}>Standards and Documentation</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          The website lists ASTM A312 for austenitic stainless-steel pipe and ASTM A790 for duplex pipe among its product information. Identify the governing specification on your enquiry and ask the sales team to confirm the applicable standard and supporting documents for your requested product.
+          Our product range references ASTM A312 for austenitic stainless-steel pipe and ASTM A790 for duplex pipe. Identify the governing specification in your enquiry and ask the sales team to confirm the standard and supporting documents for your requested product.
         </p>
 
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Material Test Certificates and Inspection Requirements</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
-          The website references Mill Test Certificates (MTC). State the required certificate type, inspection and testing requirements in your RFQ, and confirm the documentation available for the specific material and order.
+          We can review Mill Test Certificate (MTC), inspection and testing requirements against the requested material and order. Include the required certificate type and inspection scope in your RFQ so the team can confirm applicable documentation.
         </p>
         <ul style={{"font-size":"0.9rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem","padding-left":"1.5rem"}}>
           <li>Grade and heat/lot identification, where applicable</li>
@@ -348,16 +348,12 @@ export default function SSPipeSupplierPage() {
           Include complete technical and delivery details to help the team review your requirement. Pricing, lead time and order terms are confirmed in the quotation.
         </p>
 
-        <h2 style={H2}>Industries and Applications</h2>
-        <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Stainless-steel pipes are used in applications such as process piping, water treatment, food and pharmaceutical facilities, marine service and power generation. Confirm material suitability with the project engineer against the operating environment and governing specification.
-        </p>
 
         <h2 style={H2}>Why Enquire with Creative Metal Industries</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(240px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
           {[
-            {icon:"📍",title:"Vadodara Location",desc:"The company lists its office and godown/yard in Vadodara, Gujarat."},
-            {icon:"🧰",title:"Pipe Product Range",desc:"The website lists stainless-steel seamless and welded pipes, plus related product pages."},
+            {icon:"📍",title:"Vadodara Location",desc:"Creative Metal Industries is based in Vadodara, Gujarat. Contact the team to confirm the relevant office or godown/yard location."},
+            {icon:"🧰",title:"Pipe Product Range",desc:"We supply stainless-steel seamless and welded pipes; confirm the type and dimensions for your order."},
             {icon:"📋",title:"Specification-Led Enquiry",desc:"Submit grade, product standard, dimensions, quantity and documentation requirements."},
             {icon:"☎️",title:"Contact the Sales Team",desc:"Request a quote by telephone, WhatsApp or the website enquiry form."},
           ].map(benefit => (

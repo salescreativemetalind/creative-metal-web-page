@@ -101,7 +101,7 @@ export default function App() {
               "height": 720
             },
             "image": "https://www.creativemetalind.com/og-image.jpg",
-            "description": "Leading supplier of SS pipes, plates, fittings and flanges in Vadodara, Gujarat. IS / ASTM certified material.",
+            "description": "Creative Metal Industries supplies industrial metal products from Vadodara, Gujarat, including stainless steel products and related pipes, plates, fittings and flanges.",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
@@ -131,7 +131,7 @@ export default function App() {
             "@id": "https://www.creativemetalind.com/#localbusiness",
             "name": "Creative Metal Industries",
             "alternateName": "CMI Vadodara",
-            "description": "Leading supplier and stockist of stainless steel pipes, carbon steel plates, alloy steel products, pipe fittings, flanges, and structural steel in Vadodara, Gujarat. Serving oil & gas, chemical, pharma, power, and construction industries since 2012.",
+            "description": "Creative Metal Industries supplies industrial metal products from Vadodara, Gujarat, including stainless steel and other metal pipes, plates, fittings and flanges.",
             "url": "https://www.creativemetalind.com",
             "telephone": "+919998280619",
             "email": "creativemetalind@gmail.com",

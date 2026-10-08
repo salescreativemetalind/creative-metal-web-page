@@ -17,24 +17,25 @@ The existing URLs and design were retained. The Vadodara page now leads with loc
 **Old H1:** Stainless Steel Pipe Supplier in India — Vadodara, Gujarat
 **New H1:** Stainless Steel Supplier in Vadodara
 
-**Meta description:** Creative Metal Industries supplies stainless steel products in Vadodara, Gujarat, including pipes, plates, sheets, fittings and flanges. Enquire for a quote.
+**Meta description:** `Stainless steel supplier in Vadodara for pipes, tubes, plates, sheets, fittings, flanges and bars. Contact Creative Metal Industries for a quote.`
 
 **Search intent:** Local and commercial supplier search.
 
 **Main content changes:**
 - Repositioned the introduction around the Vadodara-based stainless-steel supply range and commercial enquiries.
 - Retained existing grade and product-form information while making the page's broad product purpose clearer.
-- Condensed the lengthy pipe-only chart/process block into a shorter summary of pipe and tube options, with a contextual link to the dedicated SS pipe page.
+- Kept stainless pipes, tubes, plates, sheets, fittings, flanges and bars, while adding an applications section and retaining a contextual link to the dedicated SS pipe page.
+- Removed the shared `LocationContent` block from this route because it introduced unrelated steel families, broad city-service claims and unverified delivery/documentation statements. Retained the page's Vadodara location badge, GIDC Makarpura address, phone, WhatsApp and enquiry CTA.
 - Replaced unsupported stock-size, delivery, supplier-ranking and experience claims in the edited page sections with company/location and enquiry information.
 - Reworked FAQs to answer local product, grade, location and quotation questions.
 
 **Keywords/topics covered:** stainless steel supplier in Vadodara, stainless steel products, SS 304/316L and other grades listed on the site, pipes, tubes, plates, sheets, fittings and flanges, Vadodara location and quotation enquiry.
 
-**Internal links added/updated:** Link to `/ss-pipe-supplier` in the introduction and pipe section; homepage and footer links to the local supplier page; relevant product links retained.
+**Internal links added/updated:** This page links to `/ss-pipe-supplier` with the anchor “SS Pipe Supplier” and a secondary pipe-specification CTA. The homepage links to this page using “Stainless Steel Supplier in Vadodara”; relevant product links remain.
 
 **Schema changes:** Updated the BreadcrumbList label to match the local supplier page. FAQPage remains based on visible FAQs, and the FAQ content was revised with them.
 
-**Technical SEO changes:** Local supplier title, description, H1, Open Graph and Twitter metadata; self-referencing canonical retained; index/follow directive retained.
+**Technical SEO changes:** Title: `Stainless Steel Supplier in Vadodara | SS 304, 316L Products`. H1: `Stainless Steel Supplier in Vadodara`. Canonical: `https://www.creativemetalind.com/stainless-steel-supplier-vadodara`. Robots: `index, follow, max-image-preview:large`. Open Graph and Twitter metadata match the local stainless-steel purpose.
 
 **Content removed/reworked:** Pipe-only emphasis, unsupported metric claims and unqualified dispatch/stock assertions were reduced in the sections edited. Existing grade standards and technical details remain and should still be confirmed against current business capability.
 
@@ -51,7 +52,7 @@ The existing URLs and design were retained. The Vadodara page now leads with loc
 **Old H1:** Your Guide to Finding the Best SS Pipe Supplier
 **New H1:** SS Pipe Supplier
 
-**Meta description:** Enquire about stainless-steel seamless and welded pipes from Creative Metal Industries. Send your grade, size, schedule and quantity for a quote.
+**Meta description:** `Enquire about stainless-steel seamless and welded pipes from Creative Metal Industries. Send your grade, size, schedule and quantity for a quote.`
 
 **Search intent:** Commercial / transactional supplier search.
 
@@ -65,11 +66,11 @@ The existing URLs and design were retained. The Vadodara page now leads with loc
 
 **Keywords/topics covered:** SS pipe supplier, stainless steel pipe supplier in India, seamless and welded pipe, grades listed on the site, sizes/schedules, applicable standards, documentation enquiry, and quote request.
 
-**Internal links added/updated:** Contextual link to `/stainless-steel-supplier-vadodara`, plus links to related grade-specific and seamless product pages. Homepage and site footer link to this commercial page.
+**Internal links added/updated:** Contextual link to `/stainless-steel-supplier-vadodara` uses “Stainless Steel Supplier in Vadodara”; related grade-specific and seamless product links remain. The homepage and site footer link to this commercial page using “SS Pipe Supplier”.
 
 **Schema changes:** Updated WebPage name and description; retained BreadcrumbList and FAQPage markup. FAQPage questions and answers correspond to visible FAQ content.
 
-**Technical SEO changes:** Updated title, meta description, social metadata and WebPage description; retained self-canonical and index/follow directive. Updated the image alt text descriptively without keyword stuffing.
+**Technical SEO changes:** Title: `SS Pipe Supplier in India | Stainless Steel Seamless & Welded Pipes`. H1: `SS Pipe Supplier`. Canonical: `https://www.creativemetalind.com/ss-pipe-supplier`. Robots: `index, follow, max-image-preview:large`. Updated social metadata, WebPage description and image alt text without keyword stuffing.
 
 **Content removed/reworked:** Removed competitor names/citations, city-vendor recommendations, generic “guide” framing, unsupported price ranges, and unsupported turnaround/availability claims. Reworked supplier-selection copy into buyer RFQ information.
 
@@ -89,7 +90,7 @@ The existing URLs and design were retained. The Vadodara page now leads with loc
 
 **Before:** The homepage title and description led with “SS Pipe Supplier Vadodara”; its H1 emphasized pipe/fitting/flange supply, and a separate section claimed “#1 SS Pipe Supplier in Vadodara.” The separate `/top-stainless-steel-pipe-supplier-india-quality-assured` guide also used a supplier-focused title and H1. These overlapped the target pages.
 
-**Changes:** The homepage title, description and social metadata now describe Creative Metal Industries as a broad industrial metal supplier. Its H1 remains broad and Vadodara-oriented. The local stainless-steel homepage section now introduces the product range and links separately to the Vadodara supplier page and the SS pipe supplier page. Unverified homepage claims about stock quantities, same-day delivery and “15+ years” were removed from that section.
+**Changes:** The homepage title, description, H1 and social metadata describe Creative Metal Industries as a broad industrial metal supplier. Its hero product card no longer asserts SS 316L stock or ready availability; the hero links to the local stainless-steel page and the SS pipe page in the dedicated product links area. The local stainless-steel section uses the requested page anchors. The previous “#1 SS Pipe Supplier” homepage claim is no longer present.
 
 **Intended page mapping:**
 - Homepage: Creative Metal Industries / broad industrial metal supplier.
@@ -118,6 +119,7 @@ The existing URLs and design were retained. The Vadodara page now leads with loc
 - `creative-metal-industries/src/routes/stainless-steel-supplier-vadodara.tsx`
 - `creative-metal-industries/src/routes/ss-pipe-supplier.tsx`
 - `creative-metal-industries/src/routes/index.tsx`
+- `creative-metal-industries/src/app.tsx`
 - `creative-metal-industries/src/components/Layout.tsx`
 - `creative-metal-industries/src/routes/top-stainless-steel-pipe-supplier-india-quality-assured.tsx`
 - `creative-metal-industries/src/components/RelatedPages.tsx`
@@ -130,12 +132,34 @@ The existing URLs and design were retained. The Vadodara page now leads with loc
 
 - **Build:** `npm run build` — passed; 51 routes prerendered.
 - **Sitemap:** `npm run check:sitemap` — passed; all 51 sitemap URLs have built pages, all indexable built pages are listed, and no noindex page is listed.
-- **Diagnostics:** No diagnostics reported for the five edited route/component source files.
+- **Diagnostics:** No warnings or errors for the target route files and homepage changed in this refinement pass; the shared schema change also passed build compilation.
 - **Whitespace/diff:** `git diff --check` passed.
-- **Broken links:** No full internal/external link crawler was run. Sitemap validation confirms routes are built, but does not prove every link works.
-- **Canonical:** Both target source files retain self-referencing canonical URLs; URLs were not changed.
-- **Schema:** Both pages retain structured data matching visible breadcrumbs and FAQs. No external Schema/Rich Results validator was run.
+- **Broken links:** No full internal/external crawler was run. The requested reciprocal links were checked in source, and sitemap validation confirms the target routes are built.
+- **Canonical:** Both target source files declare self-referencing canonical URLs; exact values are documented above. URLs were not changed.
+- **Schema:** Both pages retain structured data matching visible breadcrumbs and FAQs; site-wide Organization and LocalBusiness descriptions are now neutral and broad. No external Schema/Rich Results validator was run.
 - **Metadata:** Unique target-specific title and description values are defined on both pages; homepage metadata now targets broad company intent.
-- **Mobile/layout:** Existing responsive styles, cards, navigation, footer, image sizing and forms were preserved. Build passed, but no visual browser/device test was performed.
+- **Mobile/layout:** Existing responsive styles, cards, navigation, footer, image sizing and forms were preserved; no visual browser/device test was performed.
 - **Functionality:** Existing forms and contact actions were not rewritten. No end-to-end form submission test was performed.
 - **Ranking:** No ranking improvement is claimed. Measure performance in Google Search Console after publication and recrawl.
+
+## Final SEO Refinement Pass
+
+**Target page for stainless steel supplier vadodara:** `/stainless-steel-supplier-vadodara`
+**Target page for ss pipe supplier:** `/ss-pipe-supplier`
+
+### Final source metadata
+
+| Page | Exact `<title>` | Exact `<meta name="description">` | Canonical | Robots | H1 |
+|---|---|---|---|---|---|
+| `/stainless-steel-supplier-vadodara` | `Stainless Steel Supplier in Vadodara | SS 304, 316L Products` | `Stainless steel supplier in Vadodara for pipes, tubes, plates, sheets, fittings, flanges and bars. Contact Creative Metal Industries for a quote.` | `https://www.creativemetalind.com/stainless-steel-supplier-vadodara` | `index, follow, max-image-preview:large` | `Stainless Steel Supplier in Vadodara` |
+| `/ss-pipe-supplier` | `SS Pipe Supplier in India | Stainless Steel Seamless & Welded Pipes` | `Enquire about stainless-steel seamless and welded pipes from Creative Metal Industries. Send your grade, size, schedule and quantity for a quote.` | `https://www.creativemetalind.com/ss-pipe-supplier` | `index, follow, max-image-preview:large` | `SS Pipe Supplier` |
+
+### Refinement summary
+
+- Removed the Vadodara route's shared `LocationContent` render; it had expanded that page into unrelated steel categories and included unsupported generalized regional delivery and documentation claims. The route retains its Vadodara/GIDC Makarpura address, phone, WhatsApp and quote actions.
+- Kept the broad local supplier page centered on stainless products and grades, with a smaller pipe/tube section, applications content and contextual link to the dedicated pipe page.
+- Reworded the pipe page's “website lists” phrasing to direct business language, retained its transactional structure and quotation CTA, and removed a repeated applications paragraph.
+- Homepage title/H1 remain broad company and industrial-metal messaging. Its local stainless section and footer link to both dedicated target URLs with “Stainless Steel Supplier in Vadodara” and “SS Pipe Supplier” anchors. Its hero product card no longer asserts SS 316L ready stock.
+- Replaced the site-wide Organization and LocalBusiness schema’s “leading SS pipe supplier” descriptions with neutral industrial-metal supplier descriptions, keeping the homepage as the broad entity hub.
+- Page 1 FAQPage/BreadcrumbList and Page 2 FAQPage/BreadcrumbList/WebPage JSON-LD remain in place and reflect the visible page content. No new schema types or unsupported claims were added.
+- URLs were not changed. Source inspection confirms one H1 and self-referencing canonical declaration per target route. `npm run build` and `npm run check:sitemap` passed after the code changes. A local Nitro HTTP probe returned the application shell with default homepage metadata rather than the page components, so rendered HTTP head output still needs verification in the deployed environment. No visual browser/device or live-form tests were run.
