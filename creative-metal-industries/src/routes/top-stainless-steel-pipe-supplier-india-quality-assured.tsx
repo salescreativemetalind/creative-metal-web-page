@@ -21,19 +21,19 @@ const BREADCRUMB_SCHEMA = JSON.stringify({
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: "https://www.creativemetalind.com/" },
-    { "@type": "ListItem", position: 2, name: "Stainless Steel Pipe Supplier India", item: "https://www.creativemetalind.com/top-stainless-steel-pipe-supplier-india-quality-assured" },
+    { "@type": "ListItem", position: 2, name: "Stainless Steel Pipe Buying Guide", item: "https://www.creativemetalind.com/top-stainless-steel-pipe-supplier-india-quality-assured" },
   ],
 });
 
 export default function StainlessSteelPipeSupplierIndia() {
   return (
     <>
-      <Title>Top Stainless Steel Pipe Supplier in India | Quality Assured</Title>
-      <Meta name="description" content="Looking for a stainless steel pipe supplier in India? Compare seamless and welded pipes, common grades, applications and supplier quality checks." />
+      <Title>Stainless Steel Pipe Buying Guide | Grades, Types &amp; Supplier Checks</Title>
+      <Meta name="description" content="A practical guide for industrial buyers comparing stainless steel pipe grades, seamless and welded types, specifications and supplier documentation." />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Link rel="canonical" href="https://www.creativemetalind.com/top-stainless-steel-pipe-supplier-india-quality-assured" />
-      <Meta property="og:title" content="Top Stainless Steel Pipe Supplier in India | Creative Metal Industries" />
-      <Meta property="og:description" content="A practical guide to stainless steel pipe grades, types, applications and choosing a reliable supplier in India." />
+      <Meta property="og:title" content="Stainless Steel Pipe Buying Guide | Creative Metal Industries" />
+      <Meta property="og:description" content="Compare stainless steel pipe grades, seamless and welded types, applications and supplier documentation." />
       <Meta property="og:type" content="website" />
       <Meta property="og:url" content="https://www.creativemetalind.com/top-stainless-steel-pipe-supplier-india-quality-assured" />
       <Meta name="twitter:card" content="summary_large_image" />
@@ -41,11 +41,11 @@ export default function StainlessSteelPipeSupplierIndia() {
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
       <SiteNav />
       <main class="ss-guide">
-        <div class="ss-breadcrumb"><a href="/">Home</a><span aria-hidden="true">›</span><span>Stainless Steel Pipe Supplier India</span></div>
+        <div class="ss-breadcrumb"><a href="/">Home</a><span aria-hidden="true">›</span><span>Stainless Steel Pipe Buying Guide</span></div>
         <header class="ss-hero">
           <span class="ss-eyebrow">Stainless steel sourcing guide</span>
-          <h1>Leading Stainless Steel Pipe Supplier in India</h1>
-          <p>Find the right stainless steel pipe for your application. Compare seamless and welded options, understand common grade families and know what to ask a supplier before you buy.</p>
+          <h1>Stainless Steel Pipe Buying Guide for Industrial Buyers</h1>
+          <p>Compare seamless and welded options, understand common grade families and identify the product details and documentation to check before placing an order.</p>
           <a class="ss-button" href="/#contact">Discuss Your Requirements <span aria-hidden="true">→</span></a>
           <div class="ss-highlights"><span>Grade selection support</span><span>Seamless &amp; welded options</span><span>Pan-India enquiries</span></div>
         </header>

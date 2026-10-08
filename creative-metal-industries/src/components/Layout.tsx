@@ -120,7 +120,8 @@ export function SiteFooter() {
           <nav aria-label="Materials">
             <h4>Materials</h4>
             <ul>
-              <li><a href="/stainless-steel-supplier-vadodara">Stainless Steel</a></li>
+              <li><a href="/stainless-steel-supplier-vadodara">Stainless Steel Supplier in Vadodara</a></li>
+              <li><a href="/ss-pipe-supplier">SS Pipe Supplier</a></li>
               <li><a href="/alloy-steel-pipe-supplier-india">Alloy Steel Pipes</a></li>
               <li><a href="/duplex-steel-supplier-vadodara">Duplex &amp; Super Duplex</a></li>
               <li><a href="/inconel-pipe-supplier-india">Inconel Pipes</a></li>
@@ -158,7 +159,8 @@ export function SiteFooter() {
             <h4>Stainless Steel</h4>
             <ul>
               <li><a href="/ss-304-316l-pipe-supplier-india">SS 304 / 316L Pipe</a></li>
-              <li><a href="/ss-seamless-pipe-supplier-india">SS Seamless Pipe</a></li>
+              <li><a href="/ss-pipe-supplier">SS Pipe Supplier</a></li>
+              <li><a href="/ss-seamless-pipe-supplier-india">SS Seamless Pipe Supplier India</a></li>
               <li><a href="/ss-310-pipe-supplier-india">SS 310 Pipe</a></li>
               <li><a href="/ss-321-pipe-supplier-india">SS 321 Pipe</a></li>
               <li><a href="/ss-347-pipe-supplier-india">SS 347 Pipe</a></li>

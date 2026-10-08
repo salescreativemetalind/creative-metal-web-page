@@ -7,7 +7,7 @@
 // ── PAGE REGISTRY: All pages grouped by category ──────────────────────────────
 
 const STAINLESS_STEEL_PAGES = [
-  { href: "/top-stainless-steel-pipe-supplier-india-quality-assured", label: "Stainless Steel Pipe Supplier Guide" },
+  { href: "/top-stainless-steel-pipe-supplier-india-quality-assured", label: "Stainless Steel Pipe Buying Guide" },
   { href: "/ss-304-316l-pipe-supplier-india", label: "SS 304/316L Pipe Supplier" },
   { href: "/ss-seamless-pipe-supplier-india", label: "SS Seamless Pipe India" },
   { href: "/ss-sheet-supplier-vadodara", label: "SS Sheet Supplier Vadodara" },

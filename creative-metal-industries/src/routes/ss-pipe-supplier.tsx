@@ -2,10 +2,9 @@
  * /ss-pipe-supplier
  * 
  * PRIMARY KEYWORD: "ss pipe supplier"
- * Comprehensive buyer's guide for sourcing stainless steel pipes from suppliers
- * 
+ * Commercial landing page for Creative Metal Industries' stainless-steel pipe enquiries
  * Target audience: Procurement managers, engineers, contractors, industrial buyers
- * Search intent: Commercial/transactional + educational
+ * Search intent: Commercial / transactional
  */
 
 import { Title, Meta, Link } from "@solidjs/meta";
@@ -34,32 +33,24 @@ const SEAMLESS_VS_WELDED: string[][] = [
 
 const FAQs = [
   {
-    q: "What is the difference between 304 and 316 stainless steel pipe?",
-    a: "The key difference is molybdenum content. SS 316 contains 2-3% molybdenum while SS 304 has none. This molybdenum addition significantly improves chloride and pitting corrosion resistance, making 316 the preferred choice for marine environments, chemical processing with chlorides, and pharmaceutical applications. SS 304 is more economical and suitable for general applications including food processing in the food industry, dairy, and mild chemical service.",
+    q: "What types of stainless steel pipes can I enquire about?",
+    a: "The website lists stainless-steel seamless and welded pipes. Include the required pipe type, grade, specification, size and quantity in your enquiry; the sales team can confirm availability for your order.",
   },
   {
-    q: "What is the difference between stainless steel pipe and stainless steel tubing?",
-    a: "Stainless steel pipe is sized by nominal pipe size (NPS) with wall thickness specified by schedule (SCH 5S, 10S, 40S, 80S, etc.). Pipes are manufactured for fluid transport with looser tolerances (±12.5% on wall thickness). Stainless steel tubing is sized by exact outside diameter and wall thickness with tighter tolerances (±5-10%). Tubing is typically used for instrumentation, heat exchangers, and precision applications requiring exact dimensions, which can greatly contribute to industrial growth.",
+    q: "Which SS pipe grades are listed by Creative Metal Industries?",
+    a: "The website lists SS 304, 304L, 316, 316L, 317L, 321, 310/310S, 347 and 904L, as well as Duplex 2205 and Super Duplex 2507. Confirm the exact grade and availability against your project specification.",
   },
   {
-    q: "What sizes and schedules are available for stainless steel pipe?",
-    a: "Stainless steel pipes are available for immediate deliveries from 6NB (1/8 inch) to 600NB (24 inch) and larger for special applications. Common schedules include SCH 5S, 10S, 40S, 80S, 160, and XXS. Light-wall schedules (5S, 10S) are used for low-pressure applications. Standard schedule 40S is the most common for general industrial use. Heavy schedules (80S, 160, XXS) are specified for high-pressure systems.",
+    q: "What sizes and schedules can I request?",
+    a: "The company product information lists stainless-steel pipes from 6NB to 600NB and schedules from SCH 5S to XXS. These ranges are not a stock commitment; confirm the required dimensions and current availability with the sales team.",
   },
   {
-    q: "How do I choose the right stainless steel pipe grade?",
-    a: "Grade selection depends on several factors: corrosion environment (use 316/316L for chlorides and marine; 304/304L for mild conditions), temperature (use 321 for 400-900°C; 310S for high-temperature oxidation above 900°C), welding requirements (specify L grades—304L or 316L—for welded fabrication to avoid sensitization), mechanical strength (duplex 2205 offers twice the strength of austenitic grades), stainless steel pipe manufacturing budget (304 is more economical than 316).",
+    q: "Which standards and documents should I specify?",
+    a: "State the governing product standard and any inspection or documentation requirements from your purchase specification. The website lists standards for some product ranges and MTC/IBR/NACE documentation; confirm applicability for the specific grade and order.",
   },
   {
-    q: "Does stainless steel pipe require special storage?",
-    a: "Yes. Store stainless steel pipe in a dry, covered area away from carbon steel to prevent cross-contamination. Keep pipes off the ground using wooden or plastic supports—never store on bare concrete or soil. Avoid contact with chlorides, acids, or other corrosive chemicals. Proper storage prevents surface contamination, staining, and maintains corrosion resistance, contributing to a long service life.",
-  },
-  {
-    q: "Can stainless steel pipe be used for cryogenic applications?",
-    a: "Yes. Austenitic stainless steels (304, 304L, 316, 316L, 321) maintain excellent mechanical properties and ductility in the stainless steel industry, particularly at cryogenic temperatures down to -196°C (liquid nitrogen) and below. Unlike carbon steel, stainless steel does not become brittle at low temperatures. For cryogenic service, specify seamless pipe per ASTM A312, solution annealed condition, and appropriate filler metals for welding.",
-  },
-  {
-    q: "How much does stainless steel pipe cost?",
-    a: "Stainless steel pipe pricing varies based on grade (316L is 15-25% more expensive than 304 due to molybdenum content), size and schedule (larger sizes and heavier schedules cost more per kg), type (seamless is 20-40% more expensive than welded), quantity (bulk orders receive volume discounts), and processing requirements. As a rough guide, expect ₹200-800 per kg for best quality products in standard grades in common sizes.",
+    q: "How do I request a quotation?",
+    a: "Call, use WhatsApp or submit the website enquiry form. Include grade, seamless or welded type, size, schedule or wall thickness, quantity, required documents and delivery location so the team can respond to your requirement.",
   },
 ];
 
@@ -77,8 +68,8 @@ const SCHEMA = JSON.stringify({
       "@type": "WebPage",
       "@id": "https://www.creativemetalind.com/ss-pipe-supplier",
       url: "https://www.creativemetalind.com/ss-pipe-supplier",
-      name: "SS Pipe Supplier — Your Guide to Finding the Best Stainless Steel Pipe Supplier",
-      description: "Complete guide to sourcing from an SS pipe supplier. Learn about grades (304/316), seamless vs welded, ASTM standards, MTC requirements, and how to choose the right stainless steel pipe supplier in India.",
+      name: "SS Pipe Supplier in India | Creative Metal Industries",
+      description: "Enquire about stainless-steel seamless and welded pipes from Creative Metal Industries. Share your grade, size, schedule and quantity to request a quotation.",
       isPartOf: { "@id": "https://www.creativemetalind.com/#website" },
       about: { "@id": "https://www.creativemetalind.com/#organization" },
       primaryImageOfPage: "https://www.creativemetalind.com/img/ss_seamless_pipes.jpeg",
@@ -108,17 +99,17 @@ const H2 = {
 export default function SSPipeSupplierPage() {
   return (
     <>
-      <Title>SS Pipe Supplier — Your Guide to Finding the Best Stainless Steel Pipe Supplier</Title>
+      <Title>SS Pipe Supplier in India | Stainless Steel Seamless &amp; Welded Pipes</Title>
       <Meta property="og:type" content="website" />
       <Meta property="og:url" content="https://www.creativemetalind.com/ss-pipe-supplier" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Complete guide to sourcing from an SS pipe supplier. Learn about grades (304/316), seamless vs welded, ASTM standards, MTC requirements, and how to choose the right stainless steel pipe supplier in India." />
+      <Meta name="description" content="Enquire about stainless-steel seamless and welded pipes from Creative Metal Industries. Send your grade, size, schedule and quantity for a quote." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-pipe-supplier" />
-      <Meta property="og:title" content="SS Pipe Supplier — Finding the Best Stainless Steel Pipe Supplier" />
-      <Meta property="og:description" content="Expert guide to sourcing stainless steel pipes: grades, standards, seamless vs welded, sizing, quality certifications, and fabrication services." />
+      <Meta property="og:title" content="SS Pipe Supplier in India | Creative Metal Industries" />
+      <Meta property="og:description" content="Enquire about stainless-steel seamless and welded pipes. Share your grade, size, schedule and quantity to request a quote." />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="SS Pipe Supplier — Finding the Best Stainless Steel Pipe Supplier" />
-      <Meta name="twitter:description" content="Complete sourcing guide for stainless steel pipes from SS pipe suppliers. Grades, standards, sizing, quality, and fabrication." />
+      <Meta name="twitter:title" content="SS Pipe Supplier in India | Creative Metal Industries" />
+      <Meta name="twitter:description" content="Send your stainless-steel pipe grade, type, size and quantity to Creative Metal Industries to request a quotation." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
@@ -135,12 +126,12 @@ export default function SSPipeSupplierPage() {
       </div>
 
       <main style={{"max-width":"960px",margin:"0 auto",padding:"3rem 1.5rem"}}>
-        <h1 style={{"font-size":"clamp(1.8rem,4vw,2.8rem)","font-weight":"800",color:"#111827","margin-bottom":"1.5rem"}}>Your Guide to Finding the Best SS Pipe Supplier</h1>
+        <h1 style={{"font-size":"clamp(1.8rem,4vw,2.8rem)","font-weight":"800",color:"#111827","margin-bottom":"1.5rem"}}>SS Pipe Supplier</h1>
 
         <div style={{display:"flex",gap:"1.5rem","align-items":"flex-start","flex-wrap":"wrap","margin-bottom":"1.5rem"}}>
           <img
             src="/img/ss_seamless_pipes.jpeg"
-            alt="Stainless steel pipes from SS pipe supplier"
+            alt="Stainless steel pipes for industrial supply"
             width="274"
             height="184"
             loading="eager"
@@ -148,38 +139,31 @@ export default function SSPipeSupplierPage() {
             style={{"border-radius":"10px",border:"1px solid #e5e7eb","flex-shrink":"0"}}
           />
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8",margin:0,"min-width":"280px",flex:"1"}}>
-            Sourcing <strong>stainless steel pipes</strong> from a qualified <strong>SS pipe supplier</strong> requires understanding material grades, manufacturing standards, quality certifications, and fabrication capabilities, which play a pivotal role in making informed decisions. This guide helps procurement managers, engineers, and industrial buyers select a <strong>stainless steel pipe supplier</strong> for their projects.
+            Creative Metal Industries supplies stainless-steel pipes from Vadodara for industrial and commercial requirements. The website lists seamless and welded pipes in multiple grades. Share your required grade, standard, size, schedule, quantity and delivery location to request a quotation and confirm availability.
           </p>
         </div>
 
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Whether you need <strong>seamless stainless steel pipe</strong> for high-pressure applications or <strong>welded SS pipe</strong> for general service, this comprehensive guide covers everything from ASTM A312 specifications to mill test certificates, helping you choose the right professional manufacturer and industrial pipe distributor and ensure corrosion resistant piping for your application. In Mumbai, several popular SS pipe suppliers stand out for their specialties: <strong>Nav Bharat Tubes</strong> excels in seamless SS pipe supply for pharmaceutical and chemical industries, <strong>Steel Authority</strong> specializes in customized welded SS pipes for construction projects, and <strong>Jain Steel Corporation</strong> is renowned for offering certified ASTM A312 pipes with mill test certificate support and rapid delivery for urgent requirements.
+          For a product-focused local range, visit our <a href="/stainless-steel-supplier-vadodara" style={{color:"#E8821A","font-weight":"600"}}>stainless steel supplier page in Vadodara</a>. This page focuses on stainless-steel pipe types, grades, dimensions and the information needed to request a quote.
         </p>
 
-        <div style={{background:"#eff6ff","border-left":"4px solid #3b82f6",padding:"1rem 1.25rem","border-radius":"6px","margin-bottom":"2rem"}}>
-          <p style={{margin:"0 0 0.5rem","font-weight":"600",color:"#1e40af","font-size":"0.95rem"}}>🏆 Top SS Pipe Suppliers in India</p>
-          <p style={{margin:0,"font-size":"0.9rem",color:"#1e3a8a","line-height":"1.7"}}>
-            Among the top SS pipe suppliers in India are <strong>Tata Steel</strong>, <strong>Jindal Stainless</strong>, and <strong>Ratnamani Metals</strong>, known for their strict adherence to quality standards, wide product range, and reliable technical support. These suppliers stand out due to their commitment to providing certified materials, prompt deliveries, and extensive industry expertise.
-          </p>
-        </div>
-
-        <h2 style={H2}>What Is an SS Pipe Supplier?</h2>
+        <h2 style={H2}>Stainless Steel Pipe Supply in India</h2>
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
-          An <strong>SS pipe supplier</strong> (stainless steel pipe supplier) is a company that supplies stainless steel pipes and related products to various industries requiring corrosion resistant piping systems. A reliable <strong>stainless steel pipe manufacturer</strong> or stockist provides not just the material itself, but also technical support, quality documentation, and value-added services. In Delhi, several SS pipe suppliers are known for offering competitive pricing, making them a preferred choice for businesses seeking both quality and affordability.
+          Creative Metal Industries is based in Vadodara, Gujarat. The company website lists stainless-steel pipe products and related product pages. Buyers across India can submit their project specification and delivery destination for an order-specific quotation. Supply, documentation and delivery terms are confirmed for each requirement.
         </p>
 
         <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.5rem","margin-bottom":"2rem"}}>
-          <h3 style={{"font-size":"1.05rem","font-weight":"600",color:"#111827","margin-bottom":"1rem"}}>Key Factors to Assess When Evaluating an SS Pipe Supplier:</h3>
-          <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(240px,1fr))",gap:"1rem"}}>
+          <h3 style={{"font-size":"1.05rem","font-weight":"600",color:"#111827","margin-bottom":"1rem"}}>Details to Include in Your Pipe Enquiry</h3>
+          <div style={{"display":"grid","grid-template-columns":"repeat(auto-fit,minmax(240px,1fr))",gap:"1rem"}}>
             {[
-              {title:"Product Quality",desc:"Compliance with international standards (ASTM, ASME, EN)"},
-              {title:"Grade Availability",desc:"Stock of multiple grades (304, 304L, 316, 316L, 321, duplex)"},
-              {title:"Standards Compliance",desc:"ASTM A312, ASME B36.19M, industry codes"},
-              {title:"Certifications",desc:"Mill Test Certificates (MTC), IBR, NACE, PED"},
-              {title:"Material Traceability",desc:"Heat number tracking, full traceability to mill"},
-              {title:"Inventory Depth",desc:"Ready stock in multiple sizes and schedules"},
-              {title:"Fabrication Capability",desc:"Cutting, bending, threading, polishing services"},
-              {title:"Technical Support",desc:"Material selection and corrosion engineering"},
+              {title:"Pipe type",desc:"Specify seamless or welded as required by the project"},
+              {title:"Grade",desc:"Provide the grade designation from your material specification"},
+              {title:"Dimensions",desc:"Include nominal size, schedule or wall thickness, and length"},
+              {title:"Product standard",desc:"Name the governing ASTM or other project specification"},
+              {title:"Quantity",desc:"State the number of lengths or required total quantity"},
+              {title:"Documentation",desc:"List MTC, inspection and testing requirements for confirmation"},
+              {title:"Delivery",desc:"Provide delivery destination and requested date"},
+              {title:"Processing",desc:"Mention end finish or any required processing"},
             ].map(item => (
               <div style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"8px",padding:"1rem"}}>
                 <h4 style={{"font-size":"0.9rem","font-weight":"600",color:"#111827","margin-bottom":"0.35rem"}}>✓ {item.title}</h4>
@@ -189,24 +173,24 @@ export default function SSPipeSupplierPage() {
           </div>
         </div>
 
-        <h2 style={H2}>How to Choose the Right SS Pipe Supplier</h2>
+        <h2 style={H2}>SS Pipe Grades and Product Specifications</h2>
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Selecting the right <strong>stainless steel pipe supplier</strong> involves evaluating multiple technical and commercial factors. Here's what to look for:
+          The website lists austenitic and duplex stainless-steel pipe grades. Confirm exact grade, standard, dimensions and documentation against your purchase specification before placing an order.
         </p>
 
-        <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Stainless Steel Grades</h3>
+        <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Grades Listed on the Website</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          A comprehensive SS pipe supplier should stock multiple grades of quality stainless steel pipes to suit different applications. The most common grades are <strong>304, 304L, 316, and 316L</strong>, but specialized applications may require 321, 310S, 347, 904L, or duplex/super duplex grades. Verify that the supplier can provide material certifications confirming chemical composition and mechanical properties for each grade.
+          The company's product pages list <strong>SS 304, 304L, 316, 316L, 317L, 321, 310S, 347 and 904L</strong>, plus Duplex 2205 and Super Duplex 2507. Confirm the requested grade, pipe standard and availability against your project specification.
         </p>
 
-        <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Seamless and Welded Pipes</h3>
+        <h2 style={H2}>Seamless and Welded SS Pipes</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Understanding the difference between <strong>seamless and welded stainless steel pipe</strong> is critical. Seamless pipes, like those produced by <strong>Maharashtra Seamless Limited</strong>, are manufactured from solid billets without welds, offering uniform strength and higher pressure ratings—ideal for critical, high-pressure applications. Welded pipes (ERW or EFW) are formed from strip and welded longitudinally, providing cost-effective solutions for lower-pressure applications and larger diameters.
+          The website lists seamless and welded stainless-steel pipes. Specify the required manufacturing type from your project documents. If the specification permits alternatives, state that in your enquiry so the team can respond accordingly. Selection must follow the project design and service requirements.
         </p>
 
-        <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Sizes and Schedules</h3>
+        <h2 style={H2}>SS Pipe Sizes and Schedules</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
-          Stainless steel pipe sizes range from 6NB (1/8 inch) to 600NB (24 inch) and larger. Wall thickness is specified by schedule. Many <strong>stainless steel pipe manufacturers and suppliers in Delhi</strong> are known for their competitive pricing, making it easier for buyers to find quality products at budget-friendly rates. If you are searching for stainless steel pipes manufacturers and SS pipe suppliers that offer seamless pipes in India, major cities like Delhi have several trusted vendors specializing in seamless stainless steel pipes across various sizes and schedules.
+          The site's product information lists pipe sizes from 6NB to 600NB and schedules from SCH 5S to XXS. Confirm the size, wall thickness or schedule, length and end preparation required for your project; availability depends on the specific order.
         </p>
         <ul style={{"font-size":"0.9rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem","padding-left":"1.5rem"}}>
           <li><strong>SCH 5S:</strong> Extra light wall for low-pressure service</li>
@@ -217,25 +201,23 @@ export default function SSPipeSupplierPage() {
           <li><strong>XXS:</strong> Double extra strong for extreme pressure</li>
         </ul>
 
-        <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>ASTM and ASME Compliance</h3>
+        <h2 style={H2}>Standards and Documentation</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          <strong>ASTM A312/ASME SA-312</strong> is the primary specification for seamless steel pipes, welded, and heavily cold worked austenitic stainless steel pipe. Verify that your supplier's products comply with relevant ASTM standards and that material certifications reference the correct specification and grade designation (e.g., TP304, TP316L). For large-diameter welded pipe, ASTM A358 applies.
+          The website lists ASTM A312 for austenitic stainless-steel pipe and ASTM A790 for duplex pipe among its product information. Identify the governing specification on your enquiry and ask the sales team to confirm the applicable standard and supporting documents for your requested product.
         </p>
 
-        <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Material Test Certificates (MTC)</h3>
+        <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Material Test Certificates and Inspection Requirements</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
-          Every stainless steel pipe consignment must come with a <strong>Mill Test Certificate</strong> per EN 10204 Type 3.1 or 3.2. The MTC should document:
+          The website references Mill Test Certificates (MTC). State the required certificate type, inspection and testing requirements in your RFQ, and confirm the documentation available for the specific material and order.
         </p>
         <ul style={{"font-size":"0.9rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem","padding-left":"1.5rem"}}>
-          <li>Material grade and heat number</li>
-          <li>Chemical composition (C, Cr, Ni, Mo, etc.)</li>
-          <li>Mechanical properties (tensile, yield, elongation)</li>
-          <li>Dimensions and applicable standard</li>
-          <li>Test results (hydrostatic, NDE)</li>
-          <li>Manufacturer information</li>
+          <li>Grade and heat/lot identification, where applicable</li>
+          <li>Product standard and dimensional requirements</li>
+          <li>Required chemical and mechanical test documentation</li>
+          <li>Inspection and testing scope required by the order</li>
         </ul>
 
-        <h2 style={H2}>Stainless Steel Pipe Grades Available</h2>
+        <h2 style={H2}>SS 304 and SS 316L Pipe Information</h2>
         
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>SS 304 Stainless Steel Pipe</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
@@ -310,7 +292,7 @@ export default function SSPipeSupplierPage() {
           </table>
         </div>
 
-        <h2 style={H2}>Industries That Use Stainless Steel Pipe</h2>
+        <h2 style={H2}>Industries and Applications</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(250px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
           {[
             {icon:"🧪",name:"Chemical Processing",desc:"Reactors, process piping, heat exchangers handling acids and corrosive chemicals"},
@@ -331,7 +313,7 @@ export default function SSPipeSupplierPage() {
           ))}
         </div>
 
-        <h2 style={H2}>How to Request a Quote From an SS Pipe Supplier</h2>
+        <h2 style={H2}>Request a Quote for Stainless Steel Pipes</h2>
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
           To receive an accurate, complete quotation from a <strong>stainless steel pipe supplier</strong>, provide the following information in your Request for Quotation (RFQ):
         </p>
@@ -363,24 +345,21 @@ export default function SSPipeSupplierPage() {
         </div>
 
         <p style={{"font-size":"0.88rem",color:"#6b7280","line-height":"1.7","margin-bottom":"2rem"}}>
-          The more complete your RFQ, the faster and more accurate the quotation. A professional SS pipe supplier will respond within 24-48 hours with a detailed quote including material specifications, lead time, price breakdown, and terms.
+          Include complete technical and delivery details to help the team review your requirement. Pricing, lead time and order terms are confirmed in the quotation.
         </p>
 
-        <h2 style={H2}>Why Work With a Stainless Steel Pipe Supplier?</h2>
+        <h2 style={H2}>Industries and Applications</h2>
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Partnering with an experienced stainless steel pipe supplier provides multiple advantages beyond just material supply:
+          Stainless-steel pipes are used in applications such as process piping, water treatment, food and pharmaceutical facilities, marine service and power generation. Confirm material suitability with the project engineer against the operating environment and governing specification.
         </p>
 
+        <h2 style={H2}>Why Enquire with Creative Metal Industries</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(240px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
           {[
-            {icon:"📋",title:"Complete Documentation",desc:"MTCs, test reports, certifications, and traceability records"},
-            {icon:"✅",title:"Quality Assurance",desc:"Material sourced from certified mills with established quality systems"},
-            {icon:"🔍",title:"Full Traceability",desc:"Heat number tracking from mill to installation"},
-            {icon:"🔧",title:"Technical Support",desc:"Material selection assistance and corrosion engineering"},
-            {icon:"⚙️",title:"Fabrication Capability",desc:"Value-added services reduce on-site labor"},
-            {icon:"🚚",title:"Reliable Delivery",desc:"Established logistics and on-time shipment"},
-            {icon:"📦",title:"Inventory Availability",desc:"Stock of common sizes for quick turnaround"},
-            {icon:"💰",title:"Competitive Pricing",desc:"Volume purchasing power and efficient operations"},
+            {icon:"📍",title:"Vadodara Location",desc:"The company lists its office and godown/yard in Vadodara, Gujarat."},
+            {icon:"🧰",title:"Pipe Product Range",desc:"The website lists stainless-steel seamless and welded pipes, plus related product pages."},
+            {icon:"📋",title:"Specification-Led Enquiry",desc:"Submit grade, product standard, dimensions, quantity and documentation requirements."},
+            {icon:"☎️",title:"Contact the Sales Team",desc:"Request a quote by telephone, WhatsApp or the website enquiry form."},
           ].map(benefit => (
             <div style={{display:"flex","align-items":"start",gap:"0.75rem"}}>
               <span style={{"font-size":"1.5rem","flex-shrink":"0"}}>{benefit.icon}</span>
@@ -415,12 +394,12 @@ export default function SSPipeSupplierPage() {
         <h2 style={{...H2,margin:"3rem 0 1rem"}}>Related Stainless Steel Pipe Resources</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(220px,1fr))",gap:"0.75rem","margin-bottom":"2rem"}}>
           {[
+            {href:"/stainless-steel-supplier-vadodara",label:"Stainless Steel Supplier in Vadodara"},
             {href:"/ss-304-316l-pipe-supplier-india",label:"SS 304 & 316L Pipe Supplier India"},
             {href:"/ss-seamless-pipe-supplier-india",label:"SS Seamless Pipe Supplier India"},
             {href:"/ss-321-pipe-supplier-india",label:"SS 321 Pipe Supplier India"},
             {href:"/ss-310-pipe-supplier-india",label:"SS 310 Pipe Supplier India"},
             {href:"/duplex-steel-supplier-vadodara",label:"Duplex 2205 Supplier India"},
-            {href:"/stainless-steel-supplier-vadodara",label:"Stainless Steel Supplier Vadodara"},
           ].map(l => (
             <a href={l.href} style={{background:"#fff8f0",border:"1px solid #fde8cc","border-radius":"8px",padding:"0.85rem 1rem","font-size":"0.88rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>
           ))}
@@ -428,7 +407,7 @@ export default function SSPipeSupplierPage() {
 
         <RelatedPages currentPath="/ss-pipe-supplier" />
       </main>
-      <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}><p><strong style={{color:"#fff"}}>Creative Metal Industries</strong> — SS Pipe Supplier | Stainless Steel Pipes 304/316</p></footer>
+      <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}><p><strong style={{color:"#fff"}}>Creative Metal Industries</strong> — SS Pipe Supplier in India | <a href="/stainless-steel-supplier-vadodara" style={{color:"#E8821A"}}>Stainless steel products in Vadodara</a></p></footer>
     </>
   );
 }
