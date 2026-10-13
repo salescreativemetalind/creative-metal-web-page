@@ -64,8 +64,8 @@ const SCHEMA = JSON.stringify({
       "@type": "WebPage",
       "@id": "https://www.creativemetalind.com/ss-pipe-supplier",
       url: "https://www.creativemetalind.com/ss-pipe-supplier",
-      name: "Stainless Steel Pipe Supplier | Creative Metal Industries",
-      description: "Need a stainless steel pipe supplier? Creative Metal Industries supplies seamless and welded pipes from Vadodara. Send your grade, size and schedule for a quote.",
+      name: "Stainless Steel Pipe Supplier in India | Creative Metal Industries",
+      description: "Looking for a stainless steel pipe supplier in India? Creative Metal Industries supplies seamless and welded pipes from Vadodara. Send your specification for a quotation.",
       isPartOf: { "@id": "https://www.creativemetalind.com/#website" },
       about: { "@id": "https://www.creativemetalind.com/#organization" },
       primaryImageOfPage: "https://www.creativemetalind.com/img/ss_seamless_pipes.jpeg",
@@ -95,17 +95,17 @@ const H2 = {
 export default function SSPipeSupplierPage() {
   return (
     <>
-      <Title>Stainless Steel Pipe Supplier | Creative Metal Industries</Title>
+      <Title>Stainless Steel Pipe Supplier in India | Creative Metal Industries</Title>
       <Meta property="og:type" content="website" />
       <Meta property="og:url" content="https://www.creativemetalind.com/ss-pipe-supplier" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Need a stainless steel pipe supplier? Creative Metal Industries supplies seamless and welded pipes from Vadodara. Send your grade, size and schedule for a quote." />
+      <Meta name="description" content="Looking for a stainless steel pipe supplier in India? Creative Metal Industries supplies seamless and welded pipes from Vadodara. Send your specification for a quotation." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-pipe-supplier" />
-      <Meta property="og:title" content="Stainless Steel Pipe Supplier | Creative Metal Industries" />
-      <Meta property="og:description" content="Need a stainless steel pipe supplier? Creative Metal Industries supplies seamless and welded pipes from Vadodara. Send your grade, size and schedule for a quote." />
+      <Meta property="og:title" content="Stainless Steel Pipe Supplier in India | Creative Metal Industries" />
+      <Meta property="og:description" content="Looking for a stainless steel pipe supplier in India? Creative Metal Industries supplies seamless and welded pipes from Vadodara. Send your specification for a quotation." />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="Stainless Steel Pipe Supplier | Creative Metal Industries" />
-      <Meta name="twitter:description" content="Send your stainless-steel pipe grade, type, size and quantity to Creative Metal Industries to request a quotation." />
+      <Meta name="twitter:title" content="Stainless Steel Pipe Supplier in India | Creative Metal Industries" />
+      <Meta name="twitter:description" content="Looking for a stainless steel pipe supplier in India? Send your pipe specification to Creative Metal Industries in Vadodara to request a quotation." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
@@ -118,11 +118,11 @@ export default function SSPipeSupplierPage() {
       </nav>
       <div style={{background:"#f9fafb","border-bottom":"1px solid #e5e7eb",padding:"0.6rem 1.5rem","font-size":"0.82rem",color:"#6b7280"}}>
         <a href="/" style={{color:"#E8821A","text-decoration":"none"}}>Home</a> <span style={{margin:"0 0.5rem"}}>›</span>
-        <span>Stainless Steel Pipe Supplier</span>
+        <span>Stainless Steel Pipe Supplier in India</span>
       </div>
 
       <main style={{"max-width":"960px",margin:"0 auto",padding:"3rem 1.5rem"}}>
-        <h1 style={{"font-size":"clamp(1.8rem,4vw,2.8rem)","font-weight":"800",color:"#111827","margin-bottom":"1.5rem"}}>Stainless Steel Pipe Supplier</h1>
+        <h1 style={{"font-size":"clamp(1.8rem,4vw,2.8rem)","font-weight":"800",color:"#111827","margin-bottom":"1.5rem"}}>Stainless Steel Pipe Supplier in India</h1>
 
         <div style={{display:"flex",gap:"1.5rem","align-items":"flex-start","flex-wrap":"wrap","margin-bottom":"1.5rem"}}>
           <img
@@ -135,7 +135,7 @@ export default function SSPipeSupplierPage() {
             style={{"border-radius":"10px",border:"1px solid #e5e7eb","flex-shrink":"0"}}
           />
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8",margin:0,"min-width":"280px",flex:"1"}}>
-            Looking for a stainless steel pipe supplier for an industrial or commercial requirement? Creative Metal Industries supplies seamless and welded stainless-steel pipes from Vadodara. Send your required grade, product standard, size, schedule, quantity and delivery location to request a quotation and confirm order-specific availability.
+            Looking for a stainless steel pipe supplier in India for an industrial or commercial requirement? Creative Metal Industries supplies seamless and welded stainless-steel pipes from Vadodara, Gujarat. Share your required grade, product standard, size, schedule, quantity and delivery destination to request a quotation. Product availability and delivery terms are confirmed for each order.
           </p>
         </div>
 
