@@ -1,7 +1,7 @@
 /**
  * /ss-pipe-supplier
  * 
- * PRIMARY KEYWORD: "ss pipe supplier"
+ * PRIMARY KEYWORD: "stainless steel pipe supplier"
  * Commercial landing page for Creative Metal Industries' stainless-steel pipe enquiries
  * Target audience: Procurement managers, engineers, contractors, industrial buyers
  * Search intent: Commercial / transactional
@@ -18,17 +18,13 @@ const GRADE_COMPARE: string[][] = [
   ["Carbon max (%)", "0.08", "0.030", "0.08", "0.030"],
   ["Corrosion Resistance", "Good", "Good", "Excellent", "Excellent"],
   ["Chloride Resistance", "Moderate", "Moderate", "High", "High"],
-  ["Cost", "Lower", "Lower", "Higher", "Higher"],
   ["Typical Use", "Food, dairy, general", "Welded fabrication", "Marine, chemical", "Pharmaceutical, chloride service"],
 ];
 
 const SEAMLESS_VS_WELDED: string[][] = [
   ["Factor", "Seamless SS Pipe", "Welded SS Pipe"],
   ["Manufacturing", "Pierced from solid billet", "Welded from coil/strip (ERW/EFW)"],
-  ["Pressure Rating", "Higher pressure capability", "Suitable for low-medium pressure"],
-  ["Cost", "Higher cost", "More economical"],
-  ["Size Availability", "6NB–600NB (limited above 16\")", "6NB–1200NB (better for large sizes)"],
-  ["Typical Applications", "High pressure, critical service", "General piping, low pressure, architectural"],
+  ["Typical Service", "Where a seamless product is required by the project specification", "Where the specified standard and project design permit welded pipe"],
 ];
 
 const FAQs = [
@@ -61,15 +57,15 @@ const SCHEMA = JSON.stringify({
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://www.creativemetalind.com" },
-        { "@type": "ListItem", position: 2, name: "SS Pipe Supplier", item: "https://www.creativemetalind.com/ss-pipe-supplier" },
+        { "@type": "ListItem", position: 2, name: "Stainless Steel Pipe Supplier", item: "https://www.creativemetalind.com/ss-pipe-supplier" },
       ],
     },
     {
       "@type": "WebPage",
       "@id": "https://www.creativemetalind.com/ss-pipe-supplier",
       url: "https://www.creativemetalind.com/ss-pipe-supplier",
-      name: "SS Pipe Supplier in India | Creative Metal Industries",
-      description: "Enquire about stainless-steel seamless and welded pipes from Creative Metal Industries. Share your grade, size, schedule and quantity to request a quotation.",
+      name: "Stainless Steel Pipe Supplier | Creative Metal Industries",
+      description: "Need a stainless steel pipe supplier? Creative Metal Industries supplies seamless and welded pipes from Vadodara. Send your grade, size and schedule for a quote.",
       isPartOf: { "@id": "https://www.creativemetalind.com/#website" },
       about: { "@id": "https://www.creativemetalind.com/#organization" },
       primaryImageOfPage: "https://www.creativemetalind.com/img/ss_seamless_pipes.jpeg",
@@ -99,16 +95,16 @@ const H2 = {
 export default function SSPipeSupplierPage() {
   return (
     <>
-      <Title>SS Pipe Supplier in India | Stainless Steel Seamless &amp; Welded Pipes</Title>
+      <Title>Stainless Steel Pipe Supplier | Creative Metal Industries</Title>
       <Meta property="og:type" content="website" />
       <Meta property="og:url" content="https://www.creativemetalind.com/ss-pipe-supplier" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Enquire about stainless-steel seamless and welded pipes from Creative Metal Industries. Send your grade, size, schedule and quantity for a quote." />
+      <Meta name="description" content="Need a stainless steel pipe supplier? Creative Metal Industries supplies seamless and welded pipes from Vadodara. Send your grade, size and schedule for a quote." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-pipe-supplier" />
-      <Meta property="og:title" content="SS Pipe Supplier in India | Creative Metal Industries" />
-      <Meta property="og:description" content="Enquire about stainless-steel seamless and welded pipes. Share your grade, size, schedule and quantity to request a quote." />
+      <Meta property="og:title" content="Stainless Steel Pipe Supplier | Creative Metal Industries" />
+      <Meta property="og:description" content="Need a stainless steel pipe supplier? Creative Metal Industries supplies seamless and welded pipes from Vadodara. Send your grade, size and schedule for a quote." />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="SS Pipe Supplier in India | Creative Metal Industries" />
+      <Meta name="twitter:title" content="Stainless Steel Pipe Supplier | Creative Metal Industries" />
       <Meta name="twitter:description" content="Send your stainless-steel pipe grade, type, size and quantity to Creative Metal Industries to request a quotation." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
@@ -122,11 +118,11 @@ export default function SSPipeSupplierPage() {
       </nav>
       <div style={{background:"#f9fafb","border-bottom":"1px solid #e5e7eb",padding:"0.6rem 1.5rem","font-size":"0.82rem",color:"#6b7280"}}>
         <a href="/" style={{color:"#E8821A","text-decoration":"none"}}>Home</a> <span style={{margin:"0 0.5rem"}}>›</span>
-        <span>SS Pipe Supplier</span>
+        <span>Stainless Steel Pipe Supplier</span>
       </div>
 
       <main style={{"max-width":"960px",margin:"0 auto",padding:"3rem 1.5rem"}}>
-        <h1 style={{"font-size":"clamp(1.8rem,4vw,2.8rem)","font-weight":"800",color:"#111827","margin-bottom":"1.5rem"}}>SS Pipe Supplier</h1>
+        <h1 style={{"font-size":"clamp(1.8rem,4vw,2.8rem)","font-weight":"800",color:"#111827","margin-bottom":"1.5rem"}}>Stainless Steel Pipe Supplier</h1>
 
         <div style={{display:"flex",gap:"1.5rem","align-items":"flex-start","flex-wrap":"wrap","margin-bottom":"1.5rem"}}>
           <img
@@ -139,7 +135,7 @@ export default function SSPipeSupplierPage() {
             style={{"border-radius":"10px",border:"1px solid #e5e7eb","flex-shrink":"0"}}
           />
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8",margin:0,"min-width":"280px",flex:"1"}}>
-            Creative Metal Industries supplies stainless-steel seamless and welded pipes from Vadodara for industrial and commercial requirements. Share your grade, standard, size, schedule, quantity and delivery location to request a quotation and confirm availability.
+            Looking for a stainless steel pipe supplier for an industrial or commercial requirement? Creative Metal Industries supplies seamless and welded stainless-steel pipes from Vadodara. Send your required grade, product standard, size, schedule, quantity and delivery location to request a quotation and confirm order-specific availability.
           </p>
         </div>
 
@@ -183,11 +179,6 @@ export default function SSPipeSupplierPage() {
           We supply stainless-steel pipe grades including <strong>SS 304, 304L, 316, 316L, 317L, 321, 310S, 347 and 904L</strong>, plus Duplex 2205 and Super Duplex 2507. Confirm the requested grade, pipe standard and availability against your project specification.
         </p>
 
-        <h2 style={H2}>Seamless and Welded SS Pipes</h2>
-        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Creative Metal Industries supplies seamless and welded stainless-steel pipes. Specify the required manufacturing type from your project documents. If your specification permits alternatives, state that in your enquiry. Selection should follow the project design and service requirements.
-        </p>
-
         <h2 style={H2}>SS Pipe Sizes and Schedules</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
           Enquiries can cover pipe sizes from 6NB to 600NB and schedules from SCH 5S to XXS. Confirm the size, wall thickness or schedule, length and end preparation required for your project; availability depends on the specific order.
@@ -221,12 +212,12 @@ export default function SSPipeSupplierPage() {
         
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>SS 304 Stainless Steel Pipe</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          <strong>SS 304</strong> (UNS S30400) is the most widely used austenitic stainless steel seamless pipes grade. With 18-20% chromium and 8-10.5% nickel, it provides excellent corrosion resistance in mild environments, good formability, and ease of fabrication. SS 304 pipe is ideal for food processing, dairy equipment, architectural applications, and general chemical service not involving chlorides or aggressive acids.
+          <strong>SS 304</strong> (UNS S30400) is an austenitic stainless-steel grade containing chromium and nickel. It is commonly specified for general service, food processing and dairy equipment. Check the project specification and operating conditions before selecting it for a particular application.
         </p>
 
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>SS 316L Stainless Steel Pipe</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
-          <strong>SS 316L</strong> (UNS S31603) combines the superior corrosion resistance and low-carbon advantage of 316. With maximum 0.030% carbon, 316L resists sensitization during welding, making it the universal choice for welded pharmaceutical, biotech, and food processing equipment. 316L pipe is also preferred for seawater piping, desalination plants, coastal chemical facilities, and any chloride-containing environment where welded construction is used.
+          <strong>SS 316L</strong> (UNS S31603) is a low-carbon austenitic grade containing molybdenum. It is commonly considered for applications where corrosion resistance and welded fabrication are relevant. Suitability depends on the actual process environment, applicable standard and project design; confirm material selection with the responsible engineer.
         </p>
 
         <h2 style={H2}>304 vs 316 Stainless Steel Pipe</h2>
@@ -257,20 +248,20 @@ export default function SSPipeSupplierPage() {
 
         <div style={{background:"#eff6ff","border-left":"4px solid #3b82f6",padding:"1rem","border-radius":"6px","margin-bottom":"2rem"}}>
           <p style={{margin:0,color:"#1e3a8a","font-size":"0.9rem","line-height":"1.7"}}>
-            <strong>Bottom line:</strong> Use SS 304 for general corrosion service, food processing, and non-chloride environments where cost is a consideration. Use SS 316 (or 316L) wherever chlorides are present, for marine/coastal installations, pharmaceutical applications, and aggressive chemical service. When welding is involved, specify L grades (304L or 316L) to prevent sensitization.
+            <strong>Material selection:</strong> Select a grade against the operating environment, design code and purchase specification. SS 316/316L is often considered for chloride-containing service, but suitability must be confirmed for the actual conditions. Specify low-carbon grades such as 304L or 316L when required by the project standard and fabrication procedure.
           </p>
         </div>
 
-        <h2 style={H2}>Seamless vs Welded Stainless Steel Pipe</h2>
+        <h2 style={H2}>Seamless vs Welded Pipe: Project Requirements</h2>
         
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Seamless Stainless Steel Pipe</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Seamless stainless steel pipes are manufactured by piercing a solid round billet at elevated temperature (1200°C+) to create a hollow shell, which is then rolled, stretched, and sized to final dimensions. Because there is no weld seam, seamless pipes offer uniform mechanical properties in all directions and can handle higher pressures, ensuring <strong>customer satisfaction</strong>. Seamless pipe is preferred for high-pressure systems, critical applications, and services where weld integrity is a concern.
+          Seamless pipe is produced without a longitudinal weld seam. Where a seamless product is required, specify the grade, applicable standard and dimensions in the RFQ. Pressure suitability depends on the complete design, including material, wall thickness, temperature and governing code.
         </p>
 
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>Welded Stainless Steel Pipe</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Welded stainless steel pipe is formed from stainless steel coil or strip, which is formed into a tubular shape and welded longitudinally using Electric Resistance Welding (ERW) or Electric Fusion Welding (EFW). Welded pipe offers excellent dimensional consistency, is more economical than seamless (especially in larger sizes), and is suitable for low to medium pressure applications that require <strong>high corrosion resistance</strong>.
+          Welded pipe is formed from stainless-steel strip or coil and joined along a longitudinal seam. Specify the required product standard, manufacturing type, grade and inspection requirements. Confirm that the selected product is permitted by the project design and service conditions.
         </p>
 
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"2rem"}}>
@@ -403,7 +394,7 @@ export default function SSPipeSupplierPage() {
 
         <RelatedPages currentPath="/ss-pipe-supplier" />
       </main>
-      <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}><p><strong style={{color:"#fff"}}>Creative Metal Industries</strong> — SS Pipe Supplier in India | <a href="/stainless-steel-supplier-vadodara" style={{color:"#E8821A"}}>Stainless steel products in Vadodara</a></p></footer>
+      <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}><p><strong style={{color:"#fff"}}>Creative Metal Industries</strong> — stainless-steel pipe enquiries | <a href="/stainless-steel-supplier-vadodara" style={{color:"#E8821A"}}>Stainless steel products in Vadodara</a></p></footer>
     </>
   );
 }
