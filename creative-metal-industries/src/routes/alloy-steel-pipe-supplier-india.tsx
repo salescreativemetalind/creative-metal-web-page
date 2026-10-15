@@ -20,7 +20,7 @@ const FAQS = [
   { q:"What is the difference between P91 and P22 alloy steel pipe?", a:"P91 (9Cr-1Mo-V-Nb) has higher creep strength than P22 (2.25Cr-1Mo), allowing thinner walls and lighter piping systems at the same temperature and pressure. P91 is used for main steam lines in supercritical and ultra-supercritical power plants (up to 600°C). P22 is used for lower-temperature headers and HRSG piping (up to 565°C). P91 requires strict heat treatment control — normalise at 1040-1080°C followed by temper at 730-780°C." },
   { q:"What is the difference between P91 and P92 material?", a:"Both are 9% chromium creep-strength-enhanced ferritic steels, and the difference is the alloying route used to reach that creep strength. P91 is 9Cr-1Mo-V-Nb. P92 keeps the same chromium base but adds roughly 1.8% tungsten and reduces molybdenum, which raises creep rupture strength further at the same temperature. In practice that means P92 allows thinner walls than P91 for an equivalent duty, which lowers weight and reduces thermal stress at welds — the reason it is specified for ultra-supercritical boiler and main steam service where P91 would need excessive wall thickness. Both require closely controlled normalising and tempering, and P92 is the less forgiving of the two on heat treatment and welding procedure. For either grade, confirm availability and any required IBR Form III-C or heat-treatment documentation against the specific order." },
   { q:"What is IBR Form III-C for alloy steel pipe?", a:"Form III-C is a material manufacturer's certificate used for applicable IBR documentation. Requirements depend on the project and product. Include the required grade and documentation in your enquiry, then confirm that the certificate is available and matches the specific material and heat/lot before purchase." },
-  { q:"Which mills manufacture ASTM A335 alloy steel pipe?", a:"The page describes alloy steel pipes from mills including Sumitomo, Vallourec, ISMT, Maharashtra Seamless and Jindal. State any approved-mill requirement in your enquiry and confirm the source and material test documentation for the specific order." },
+  { q:"Can I specify a mill or manufacturer for an alloy steel pipe order?", a:"Include any approved-manufacturer requirement in your enquiry. Confirm the offered product's source and applicable material documentation for the specific order before purchase." },
   { q:"What sizes of alloy steel pipe can I enquire about?", a:"The listed enquiry range is 1/2 inch (15NB) to 24 inches (600NB), with schedules from SCH 40 through XXS. Specify the required dimensions and length, then confirm current availability and any cut-to-length requirements for your order." },
   { q:"Why does P91 pipe require special heat treatment?", a:"P91 (9Cr-1Mo-V-Nb) derives its superior creep strength from a precise tempered martensitic microstructure formed by normalising at 1040-1080°C (air cooled to below 100°C) followed by tempering at 730-780°C. Incorrect heat treatment — over-tempering, under-normalising, or improper cooling — produces ferrite/bainite instead of martensite, drastically reducing creep life. If heat-treatment records are required for P91, include that requirement in your enquiry and confirm the documents available for the specific material." },
 ];
@@ -91,7 +91,7 @@ export default function AlloySteelPipeSupplierIndia() {
             {label:"Heat Treatment",value:"Normalised + Tempered (mandatory for all grades)"},
             {label:"Testing requirements",value:"Hydrostatic, UT (ASME SA-530), hardness or PMI (confirm scope)"},
             {label:"Documentation to specify",value:"MTC and any required IBR Form III-C (confirm for order)"},
-            {label:"Mills",value:"Sumitomo, Vallourec, ISMT, Maharashtra Seamless, Jindal"},
+            {label:"Mill / source requirements",value:"Specify any approved manufacturer; confirm source and documentation for the order"},
           ].map(s => (
             <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"1rem"}}>
               <span style={{"font-size":"0.78rem",color:"#6b7280","text-transform":"uppercase","letter-spacing":"0.05em"}}>{s.label}</span>
@@ -128,13 +128,12 @@ export default function AlloySteelPipeSupplierIndia() {
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Why Choose CMI as Your Alloy Steel Pipe Supplier in India?</h2>
         <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
           <li><strong>IBR documentation:</strong> Specify Form III-C requirements and confirm documentation scope for the requested grade and order</li>
-          <li><strong>World-class mills:</strong> Authorised stockist for Sumitomo (Japan), Vallourec (France), ISMT (India) — guaranteed authenticity</li>
-          <li><strong>Full P-grade range:</strong> P5, P9, P11, P12, P22, P91, P92 — single source for complete power plant piping</li>
-          <li><strong>Heavy-wall specialist:</strong> SCH 120, 160, XXS in P91 and P22 for main steam and high-pressure headers</li>
-          <li><strong>Technical expertise:</strong> Our team understands P91 heat treatment, PWHT requirements and creep considerations</li>
-          <li><strong>Inspection requirements:</strong> Specify any PMI, hardness or other testing requirements and confirm the scope for your order</li>
-          <li><strong>Competitive pricing:</strong> Direct mill sourcing — no broker markup. Formal quotation within 4 hours</li>
-          <li><strong>Since 2012:</strong> 13+ years supplying India's thermal power plants, boiler manufacturers and EPC contractors</li>
+          <li><strong>Order-specific documentation:</strong> Include required certificates, traceability and inspection scope in your enquiry; confirm what applies to the offered material.</li>
+          <li><strong>Grades to enquire about:</strong> P5, P9, P11, P12, P22, P91 and P92; confirm the required grade and current availability for your order.</li>
+          <li><strong>Dimensions and schedules:</strong> Share the required size and schedule, including heavy-wall requirements, for order-specific confirmation.</li>
+          <li><strong>Material requirements:</strong> Identify heat-treatment, PWHT, PMI, hardness or other project requirements in your enquiry for confirmation.</li>
+          <li><strong>Source requirements:</strong> Specify any approved manufacturer and confirm product source and applicable documents for the specific order.</li>
+          <li><strong>Quotation:</strong> Request a quotation with your grade, size, schedule, quantity and documentation requirements.</li>
         </ul>
 
         {/* Applications */}

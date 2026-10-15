@@ -65,3 +65,40 @@ The separate `Queries` sheet includes site-level rows such as `ibr certification
 - The company should verify grade-specific specifications, mill/source claims, dimensions/schedules, test scope and current availability before publication. The code and existing website copy are not substitutes for actual certificates or order records.
 - No commit, push or deployment is part of this task; production HTML was not rechecked after the local changes.
 - After an authorized deployment and recrawl, inspect this URL in Google Search Console and compare the correct page/query data. Do not claim indexing or ranking improvements without measured evidence.
+
+## Follow-up accuracy review — 2026-10-15
+
+### Evidence review
+
+Reviewed the complete Page 1 route, including metadata, social descriptions, grade table, specifications, IBR copy, visible FAQs and FAQ schema source, `Why Choose` section, and quotation CTA. The project contains no approved company records or order documentation verifying mill authorizations, direct mill sourcing, guaranteed authenticity, guaranteed response times, testing scope, current inventory, or delivery commitments. Existing website copy was not treated as evidence.
+
+| Claim area | Finding | Action |
+|---|---|---|
+| Named mills and manufacturer authorization | Unverified; no supporting authorization/source records found in the project | Removed named mills and “Authorised stockist” claim. Replaced with order-specific source confirmation language. |
+| Guaranteed authenticity | Unverified; no substantiating records found | Removed. Copy now asks buyers to confirm source and applicable documents for the specific order. |
+| Direct mill sourcing / no broker markup | Unverified; no sourcing records found | Removed. Replaced with a request to specify an approved manufacturer and confirm the offered source. |
+| Four-hour formal quotation | Unverified; no response-time policy/evidence found | Removed. CTA now invites a quotation request and lists useful enquiry details without a timing promise. |
+| Ready stock / immediate availability | No live inventory evidence found | Existing grade-table wording remains “Confirm availability”; no ready-stock or dispatch promise was found in the source. |
+| IBR / MTC / traceability / inspection | No order-specific certificates or inspection records found | Retained only as requirements to identify and confirm for the actual order; no blanket certification or testing claim is made. |
+| Product grades, size/schedule ranges, and heat-treatment data | Present in the existing product information, but no independent company records were available to verify actual supply capability | Preserved as page product/specification information; availability, source and documentation are expressly subject to order-specific confirmation. Company should confirm these technical/product statements before publication. |
+| Company experience and customer/industry service claim | “Since 2012” and “13+ years supplying” had no supporting company record in the project | Removed the unsupported experience/customer-sector claim from the page. |
+
+### Changes made
+
+- Replaced the specification card's named-mill list with a neutral approved-manufacturer/source requirement.
+- Rewrote the mill FAQ as an order-specific question about specifying a manufacturer. Since `FAQ_SCHEMA` is generated from `FAQS`, visible FAQ and structured FAQ text remain synchronized.
+- Replaced the `Why Choose` bullets containing mill authorization, guaranteed authenticity, a complete single-source range, specialist capability, expertise, direct sourcing, a four-hour quote promise, and years/industry-supply claims with practical order-enquiry guidance that avoids unverified guarantees.
+- Preserved the page title, meta/social descriptions, H1, canonical, robots directive, URL, grade information, IBR caveats, contact links, and page structure. No claims were added to structured data.
+
+### Validation and publishing status
+
+- `git diff --check`: passed after edits.
+- `npm run build`: passed; rerun with output suppressed after the initial full build log was truncated by the terminal output limit.
+- `npm run check:sitemap`: passed; 51 sitemap URLs matched built pages, all indexable built pages were in the sitemap, and no `noindex` page was listed.
+- Only intended files for this follow-up: `src/routes/alloy-steel-pipe-supplier-india.tsx` and this audit report. Pre-existing unrelated work was preserved.
+- No staging, commit, push, or deployment was performed.
+- Production deployment and live page status remain unverified. See `reports/page-1-production-verification.md`; no claim is made that this follow-up is live, indexed, or ranking.
+
+### Remaining company verification
+
+Before publishing, the company should substantiate the product/grade and dimensional ranges, any specific approved-manufacturer relationships, any IBR/MTC/inspection scope, and any claims about testing or service capability from approved records. This follow-up intentionally makes no such unsupported promise.
