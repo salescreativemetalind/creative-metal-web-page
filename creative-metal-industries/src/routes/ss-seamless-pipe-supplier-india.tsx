@@ -1,29 +1,29 @@
 /**
  * /ss-seamless-pipe-supplier-india
- * Target: "SS seamless pipe supplier India", "SS seamless pipe manufacturer India",
- * "ASTM A312 pipe supplier", "stainless steel seamless pipe India"
+ * Target: "SS seamless pipe supplier India", "ASTM A312 pipe supplier",
+ * "stainless steel seamless pipe India"
  */
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
-  { grade:"SS 304/304L", spec:"ASTM A312 TP304/TP304L", sizes:"6NB–600NB, SCH 5S–XXS", apps:"General chemical, food, dairy", stock:"Ready Stock" },
-  { grade:"SS 316/316L", spec:"ASTM A312 TP316/TP316L", sizes:"6NB–600NB, SCH 5S–XXS", apps:"Marine, pharma, chloride service", stock:"Ready Stock" },
-  { grade:"SS 321", spec:"ASTM A312 TP321", sizes:"6NB–400NB, SCH 10S–160", apps:"High-temp stabilised service", stock:"Ready Stock" },
-  { grade:"SS 317L", spec:"ASTM A312 TP317L", sizes:"6NB–300NB", apps:"Aggressive acid, pulp & paper", stock:"Available" },
-  { grade:"SS 310/310S", spec:"ASTM A312 TP310S", sizes:"6NB–300NB", apps:"Furnace, kiln, high-temp oxidation", stock:"Available" },
-  { grade:"SS 347", spec:"ASTM A312 TP347", sizes:"6NB–300NB", apps:"High-temp Nb-stabilised", stock:"Available" },
-  { grade:"SS 904L", spec:"ASTM A312 N08904", sizes:"6NB–200NB", apps:"Sulphuric/phosphoric acid", stock:"Available" },
-  { grade:"Duplex 2205", spec:"ASTM A790 S31803", sizes:"6NB–300NB, SCH 5S–80S", apps:"Oil & gas, desalination", stock:"Ready Stock" },
-  { grade:"Super Duplex 2507", spec:"ASTM A790 S32750", sizes:"6NB–200NB", apps:"Offshore, subsea, seawater", stock:"Available" },
+  { grade:"SS 304/304L", spec:"ASTM A312 TP304/TP304L", sizes:"6NB–600NB, SCH 5S–XXS", apps:"General chemical, food, dairy", stock:"Confirm per order" },
+  { grade:"SS 316/316L", spec:"ASTM A312 TP316/TP316L", sizes:"6NB–600NB, SCH 5S–XXS", apps:"Marine, pharma, chloride service", stock:"Confirm per order" },
+  { grade:"SS 321", spec:"ASTM A312 TP321", sizes:"6NB–400NB, SCH 10S–160", apps:"High-temp stabilised service", stock:"Confirm per order" },
+  { grade:"SS 317L", spec:"ASTM A312 TP317L", sizes:"6NB–300NB", apps:"Aggressive acid, pulp & paper", stock:"Confirm per order" },
+  { grade:"SS 310/310S", spec:"ASTM A312 TP310S", sizes:"6NB–300NB", apps:"Furnace, kiln, high-temp oxidation", stock:"Confirm per order" },
+  { grade:"SS 347", spec:"ASTM A312 TP347", sizes:"6NB–300NB", apps:"High-temp Nb-stabilised", stock:"Confirm per order" },
+  { grade:"SS 904L", spec:"ASTM A312 N08904", sizes:"6NB–200NB", apps:"Sulphuric/phosphoric acid", stock:"Confirm per order" },
+  { grade:"Duplex 2205", spec:"ASTM A790 S31803", sizes:"6NB–300NB, SCH 5S–80S", apps:"Oil & gas, desalination", stock:"Confirm per order" },
+  { grade:"Super Duplex 2507", spec:"ASTM A790 S32750", sizes:"6NB–200NB", apps:"Offshore, subsea, seawater", stock:"Confirm per order" },
 ];
 
 const FAQS = [
-  { q:"What sizes of SS seamless pipe do you stock in India?", a:"We stock SS seamless pipe from 6NB (1/8 inch) to 600NB (24 inch) in all schedules — SCH 5S, 10S, 20, 40S, 40, 80S, 80, 120, 160 and XXS. Standard random lengths 5-7 metres. Cut-to-length and fixed-length available on request. Ready stock at our Vadodara warehouse for immediate dispatch across India." },
-  { q:"Which mills do you source SS seamless pipe from?", a:"We are authorised stockists for Sandvik (Sweden), Salzgitter Mannesmann (Germany), Ratnamani Metals (India), Venus Pipes (India) and Tubacex (Spain). All pipes come with original Mill Test Certificates and full heat number traceability." },
-  { q:"Do you supply IBR certified SS seamless pipe?", a:"Yes. All grades available with IBR Form III-C certification from the mill for boiler and pressure vessel applications. We are an authorised IBR material supplier servicing power plants and boiler manufacturers across India." },
-  { q:"What is the difference between SS seamless and SS welded pipe?", a:"SS seamless pipe is manufactured by piercing a solid billet — no weld seam exists. This gives uniform wall thickness and higher pressure rating. SS welded pipe (ERW/EFW) is rolled from flat strip and welded longitudinally — more economical for larger diameters and lower-pressure service. We stock both types." },
-  { q:"Do you deliver SS seamless pipe across India?", a:"Yes. We deliver pan-India from our Vadodara stockyard. Same-day dispatch for Gujarat (Vadodara, Ahmedabad, Surat, Bharuch, Dahej). 2-4 day delivery to Mumbai, Delhi, Chennai, Kolkata, Hyderabad and all other locations." },
+  { q:"What sizes and schedules can I request?", a:"The page lists sizes from 6NB to 600NB and schedules from SCH 5S to XXS as enquiry specifications. Share the required grade, outside diameter, wall thickness or schedule, and length so the team can confirm whether it can meet your order." },
+  { q:"Which grades and standards are listed?", a:"The listed range includes austenitic grades such as SS 304/304L, 316/316L, 321, 317L, 310S, 347 and 904L, plus Duplex 2205 and Super Duplex 2507. ASTM A312 and A790 are referenced on this page; confirm the applicable standard and grade for your requirement." },
+  { q:"Can you provide IBR, NACE or MTC documents?", a:"Include any IBR, NACE, MTC or inspection requirements in your enquiry. The team must confirm the documents and compliance applicable to the specific material and order; this page does not guarantee that every grade or order carries each document." },
+  { q:"How do seamless and welded pipes differ?", a:"Seamless pipe has no longitudinal weld seam, while welded pipe is formed from strip or coil and joined along a seam. Select the type specified by your design and governing product standard. Creative Metal Industries also handles general stainless-steel pipe enquiries at /ss-pipe-supplier." },
+  { q:"How do I request a quotation or confirm availability?", a:"Contact the team with grade, product standard, size, schedule or wall thickness, length, quantity, documentation needs and delivery destination. Availability, any requested processing, documentation and delivery terms are confirmed for the individual order." },
 ];
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"SS Seamless Pipe Supplier India","item":"https://www.creativemetalind.com/ss-seamless-pipe-supplier-india"}]}]});
@@ -32,24 +32,24 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SsSeamlessPipeSupplierIndia() {
   return (
     <>
-      <Title>SS Seamless Pipe Supplier India | ASTM A312 All Grades | CMI</Title>
+      <Title>SS Seamless Pipe Supplier in India | ASTM A312 Grades</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="India's leading SS seamless pipe supplier and manufacturer. SS 304, 316L, 321, 310S, 904L, Duplex 2205 to ASTM A312. 6NB–600NB, SCH 5S–XXS." />
+      <Meta name="description" content="Looking for an SS seamless pipe supplier in India? Enquire about listed stainless steel grades and ASTM pipe specifications. Share your size and requirements for an order-specific quotation." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-seamless-pipe-supplier-india" />
       <Meta property="og:title" content="SS Seamless Pipe Supplier India | ASTM A312 | Creative Metal Industries" />
       <Meta property="og:type" content="website" />
-      <Meta property="og:description" content="SS seamless pipe manufacturer India — SS 304, 316L, Duplex 2205. ASTM A312, 6NB–600NB, all schedules. IBR, NACE, MTC. Ready stock Vadodara." />
+      <Meta property="og:description" content="Enquire about stainless steel seamless pipe grades and ASTM specifications. Share your required size and documents for an order-specific quotation." />
       <Meta property="og:url" content="https://www.creativemetalind.com/ss-seamless-pipe-supplier-india" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:title" content="SS Seamless Pipe Supplier India | ASTM A312 All Grades | CMI" />
-      <Meta name="twitter:description" content="SS seamless pipe supplier India — 304, 316L, 321, Duplex 2205. 6NB–600NB. IBR, MTC. Ready stock Vadodara." />
+      <Meta name="twitter:description" content="Enquire about stainless steel seamless pipe grades and ASTM specifications. Share your required size and documents for an order-specific quotation." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 
       <nav style={{background:"#fff","border-bottom":"1px solid #e5e7eb",padding:"1rem 1.5rem",display:"flex","align-items":"center",gap:"1rem"}}>
-        <a href="/"><img src="/logo_cmi.png" alt="Creative Metal Industries — SS Seamless Pipe Supplier India" width="140" height="71" /></a>
+        <img src="/logo_cmi.png" alt="Creative Metal Industries" width="140" height="71" />
         <div style={{flex:1}} />
         <a href="/#contact" style={{background:"#E8821A",color:"#fff",padding:"0.5rem 1.2rem","border-radius":"6px","font-weight":"700","font-size":"0.85rem","text-decoration":"none"}}>Get Quote</a>
       </nav>
@@ -64,18 +64,21 @@ export default function SsSeamlessPipeSupplierIndia() {
             SS Seamless Pipe Supplier in India — ASTM A312, All Grades
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is India's trusted <strong>SS seamless pipe supplier</strong> and <strong>stainless steel pipe</strong> stockist, holding 1,000+ pipe sizes in ready stock. Whether you need a single length or a full project quantity, we supply <strong>stainless steel seamless pipe</strong> in all austenitic grades (SS 304, 316L, 321, 317L, 310S, 347, 904L) plus Duplex 2205 and Super Duplex 2507 to <strong>ASTM A312</strong>, A213 and A790 — with IBR Form III-C, NACE and full MTC documentation. Same-day dispatch from our 1,092 sq.mtr GIDC Makarpura facility in Vadodara, Gujarat to anywhere in India.
+            Creative Metal Industries supplies stainless steel seamless pipe for industrial and commercial enquiries. The grades, standards and size ranges listed below help buyers specify a requirement; confirm the requested material, applicable documents, availability and delivery terms with the team for each order.
           </p>
         </div>
+        <p style={{"font-size":"0.95rem",color:"#4b5563","line-height":"1.7","margin":"0 0 1.5rem","text-align":"center"}}>
+          For general seamless and welded pipe enquiries, visit our <a href="/ss-pipe-supplier" style={{color:"#E8821A","font-weight":"600"}}>SS Pipe Supplier</a> page. For the broader local stainless-steel range, see <a href="/stainless-steel-supplier-vadodara" style={{color:"#E8821A","font-weight":"600"}}>Stainless Steel Supplier in Vadodara</a>.
+        </p>
 
         {/* Grade Table */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS Seamless Pipe Grades — Ready Stock India</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS Seamless Pipe Grades and Listed Specifications</h2>
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"2rem"}}>
           <table style={{width:"100%","border-collapse":"collapse","font-size":"0.85rem","min-width":"650px"}}>
-            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 0.8rem","text-align":"left"}}>Grade</th><th style={{padding:"0.7rem 0.8rem"}}>Specification</th><th style={{padding:"0.7rem 0.8rem"}}>Sizes</th><th style={{padding:"0.7rem 0.8rem"}}>Applications</th><th style={{padding:"0.7rem 0.8rem"}}>Stock</th></tr></thead>
+            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 0.8rem","text-align":"left"}}>Grade</th><th style={{padding:"0.7rem 0.8rem"}}>Specification</th><th style={{padding:"0.7rem 0.8rem"}}>Sizes</th><th style={{padding:"0.7rem 0.8rem"}}>Applications</th><th style={{padding:"0.7rem 0.8rem"}}>Availability</th></tr></thead>
             <tbody>
               {GRADES.map((g,i) => (
-                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 0.8rem","font-weight":"700"}}>{g.grade}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.spec}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.sizes}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.apps}</td><td style={{padding:"0.6rem 0.8rem","text-align":"center",color:g.stock==="Ready Stock"?"#16a34a":"#d97706","font-weight":"700"}}>{g.stock}</td></tr>
+                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 0.8rem","font-weight":"700"}}>{g.grade}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.spec}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.sizes}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.apps}</td><td style={{padding:"0.6rem 0.8rem","text-align":"center",color:"#6b7280","font-weight":"600"}}>{g.stock}</td></tr>
               ))}
             </tbody>
           </table>
@@ -85,14 +88,13 @@ export default function SsSeamlessPipeSupplierIndia() {
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Specifications &amp; Technical Details</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(280px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
           {[
-            {label:"Standards",value:"ASTM A312, A213, A269, A790, A789"},
-            {label:"Size Range",value:"6NB to 600NB (1/8\" to 24\")"},
-            {label:"Schedules",value:"SCH 5S, 10S, 20, 40S, 40, 80S, 80, 120, 160, XXS"},
-            {label:"Length",value:"Random 5–7m, Fixed, Cut-to-length"},
-            {label:"End Finish",value:"Plain end, bevelled, threaded"},
-            {label:"Testing",value:"Hydrostatic, UT, ET, IGC, PMI"},
-            {label:"Certification",value:"MTC EN 10204 3.1/3.2, IBR Form III-C"},
-            {label:"Compliance",value:"NACE MR-01-75, HIC per TM-0284"},
+            {label:"Standards listed",value:"ASTM A312, A213, A269, A790, A789 — confirm for the product"},
+            {label:"Enquiry size range",value:"6NB to 600NB (1/8\" to 24\") — availability confirmed per order"},
+            {label:"Schedules listed",value:"SCH 5S, 10S, 20, 40S, 40, 80S, 80, 120, 160, XXS"},
+            {label:"Length / end finish",value:"Specify random or fixed length, cut-to-length, and end preparation for confirmation"},
+            {label:"Testing",value:"State required tests in the enquiry; applicability and scope confirmed per order"},
+            {label:"Documentation",value:"Specify MTC, IBR or other documents; confirm applicability for the material and order"},
+            {label:"Compliance",value:"State NACE or other project requirements for order-specific confirmation"},
           ].map(s => (
             <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"1rem"}}>
               <span style={{"font-size":"0.78rem",color:"#6b7280","text-transform":"uppercase","letter-spacing":"0.05em"}}>{s.label}</span>
@@ -102,20 +104,17 @@ export default function SsSeamlessPipeSupplierIndia() {
         </div>
 
         {/* Why Choose */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Why Choose CMI as Your SS Seamless Pipe Supplier in India?</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS Seamless Pipe Enquiries for Indian Buyers</h2>
         <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
-          <li><strong>India's largest ready stock:</strong> 1,000+ SS seamless pipe sizes at GIDC Makarpura, Vadodara — same-day dispatch nationwide</li>
-          <li><strong>Mill-authorised stockist:</strong> Sandvik, Ratnamani, Venus Pipes, Salzgitter, Tubacex — direct pricing, full traceability</li>
-          <li><strong>All grades covered:</strong> 304 to 904L + Duplex 2205 + Super Duplex 2507 — one supplier for everything</li>
-          <li><strong>IBR + NACE + MTC:</strong> Every pipe supplied with mandatory certifications for boiler, pressure vessel and sour service</li>
-          <li><strong>TPI accepted:</strong> Inspection under DNV, TUV, SGS, BVIS, LRIS at our Vadodara facility</li>
-          <li><strong>Value-added processing:</strong> Cut-to-length, beveling, threading, polishing, pickling, passivation in-house</li>
-          <li><strong>Competitive pricing:</strong> Direct from manufacturer — no broker markup. Quote within 2 hours</li>
-          <li><strong>Since 2012:</strong> 13+ years supplying India's refineries, power plants and EPC contractors</li>
+          <li><strong>Specify the requirement:</strong> Share grade, standard, size, schedule, length and quantity for an order-specific review.</li>
+          <li><strong>Confirm availability:</strong> Listed grades and dimensions are enquiry specifications, not a guarantee of current stock.</li>
+          <li><strong>Documentation:</strong> Identify MTC, IBR, NACE or inspection requirements; applicability is confirmed for the specific order.</li>
+          <li><strong>Processing:</strong> Include any requested cutting or end preparation so the team can confirm whether it can be provided.</li>
+          <li><strong>Delivery:</strong> Share the destination and requested date; dispatch and delivery terms are confirmed in the quotation.</li>
         </ul>
 
         {/* Industries */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Industries We Supply SS Seamless Pipe To</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Applications for SS Seamless Pipe</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(220px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
           {[{icon:"🛢️",name:"Oil & Gas Refineries"},{icon:"🏭",name:"Petrochemical Plants"},{icon:"⚡",name:"Power & Energy"},{icon:"🧪",name:"Chemical & Pharma"},{icon:"🌱",name:"Fertilizer Industry"},{icon:"💧",name:"Water & Desalination"},{icon:"⚓",name:"Marine & Offshore"},{icon:"🏗️",name:"EPC Contractors"}].map(ind => (
             <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"1rem","text-align":"center"}}>
@@ -135,8 +134,8 @@ export default function SsSeamlessPipeSupplierIndia() {
 
         {/* CTA */}
         <div style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)","border-radius":"12px",padding:"2.5rem","text-align":"center","margin-bottom":"2rem"}}>
-          <h2 style={{color:"#fff","font-size":"1.4rem","font-weight":"800","margin-bottom":"0.6rem"}}>Need SS Seamless Pipe? Get a Quote in 2 Hours.</h2>
-          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.25rem","font-size":"0.95rem"}}>SS 304, 316L, 321, Duplex 2205. ASTM A312. 6NB–600NB. IBR + MTC + NACE. Ready stock India.</p>
+          <h2 style={{color:"#fff","font-size":"1.4rem","font-weight":"800","margin-bottom":"0.6rem"}}>Request a Quote for SS Seamless Pipe</h2>
+          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.25rem","font-size":"0.95rem"}}>Send the required grade, standard, size, schedule, quantity, documentation needs and delivery location. Availability and order terms are confirmed in the quotation.</p>
           <div style={{display:"flex",gap:"1rem","justify-content":"center","flex-wrap":"wrap"}}>
             <a href="tel:+919998280619" style={{background:"#fff",color:"#E8821A","font-weight":"800",padding:"0.75rem 1.5rem","border-radius":"8px","text-decoration":"none","font-size":"0.95rem"}}>📞 +91 99982 80619</a>
             <a href="https://wa.me/919998280619" target="_blank" rel="noopener" style={{background:"#25D366",color:"#fff","font-weight":"800",padding:"0.75rem 1.5rem","border-radius":"8px","text-decoration":"none","font-size":"0.95rem"}}>💬 WhatsApp</a>
@@ -163,7 +162,7 @@ export default function SsSeamlessPipeSupplierIndia() {
       </main>
 
       <footer style={{background:"#111827",color:"#9ca3af",padding:"2rem 1.5rem","text-align":"center","font-size":"0.82rem"}}>
-        <p><strong style={{color:"#fff"}}>Creative Metal Industries</strong> — SS Seamless Pipe Supplier & Manufacturer India | ASTM A312 | Vadodara, Gujarat</p>
+        <p><strong style={{color:"#fff"}}>Creative Metal Industries</strong> — Stainless Steel Seamless Pipe Enquiries | Vadodara, Gujarat</p>
         <p style={{"margin-top":"0.5rem"}}><a href="tel:+919998280619" style={{color:"#E8821A"}}>+91 99982 80619</a> · <a href="https://www.creativemetalind.com" style={{color:"#E8821A"}}>creativemetalind.com</a></p>
       </footer>
     </>

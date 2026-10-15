@@ -7,22 +7,22 @@ import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
-  { grade:"ASTM A335 P5", composition:"5Cr-0.5Mo", sizes:"1/2\" to 24\"", schedule:"SCH 40–XXS", apps:"Crude distillation, heaters", ht:"Normalised + Tempered", stock:"Ready Stock" },
-  { grade:"ASTM A335 P9", composition:"9Cr-1Mo", sizes:"1/2\" to 16\"", schedule:"SCH 40–160", apps:"Heater tubes, superheaters", ht:"Normalised + Tempered", stock:"Available" },
-  { grade:"ASTM A335 P11", composition:"1.25Cr-0.5Mo", sizes:"1/2\" to 24\"", schedule:"SCH 40–XXS", apps:"Boiler tubes, headers, piping", ht:"Normalised + Tempered", stock:"Ready Stock" },
-  { grade:"ASTM A335 P12", composition:"1Cr-0.5Mo", sizes:"1/2\" to 16\"", schedule:"SCH 40–160", apps:"Superheater tubes, headers", ht:"Normalised + Tempered", stock:"Available" },
-  { grade:"ASTM A335 P22", composition:"2.25Cr-1Mo", sizes:"1/2\" to 24\"", schedule:"SCH 40–XXS", apps:"Main steam, HRSG, headers", ht:"Normalised + Tempered", stock:"Ready Stock" },
-  { grade:"ASTM A335 P91", composition:"9Cr-1Mo-V-Nb", sizes:"1/2\" to 24\"", schedule:"SCH 40–XXS", apps:"USC boilers, main steam, HRSG", ht:"Normalised (1040-1080°C) + Tempered (730-780°C)", stock:"Ready Stock" },
-  { grade:"ASTM A335 P92", composition:"9Cr-1.8W-Mo-V-Nb", sizes:"1/2\" to 16\"", schedule:"SCH 40–160", apps:"Ultra-supercritical boilers", ht:"Normalised + Tempered", stock:"Available" },
+  { grade:"ASTM A335 P5", composition:"5Cr-0.5Mo", sizes:"1/2\" to 24\"", schedule:"SCH 40–XXS", apps:"Crude distillation, heaters", ht:"Normalised + Tempered", stock:"Confirm availability" },
+  { grade:"ASTM A335 P9", composition:"9Cr-1Mo", sizes:"1/2\" to 16\"", schedule:"SCH 40–160", apps:"Heater tubes, superheaters", ht:"Normalised + Tempered", stock:"Confirm availability" },
+  { grade:"ASTM A335 P11", composition:"1.25Cr-0.5Mo", sizes:"1/2\" to 24\"", schedule:"SCH 40–XXS", apps:"Boiler tubes, headers, piping", ht:"Normalised + Tempered", stock:"Confirm availability" },
+  { grade:"ASTM A335 P12", composition:"1Cr-0.5Mo", sizes:"1/2\" to 16\"", schedule:"SCH 40–160", apps:"Superheater tubes, headers", ht:"Normalised + Tempered", stock:"Confirm availability" },
+  { grade:"ASTM A335 P22", composition:"2.25Cr-1Mo", sizes:"1/2\" to 24\"", schedule:"SCH 40–XXS", apps:"Main steam, HRSG, headers", ht:"Normalised + Tempered", stock:"Confirm availability" },
+  { grade:"ASTM A335 P91", composition:"9Cr-1Mo-V-Nb", sizes:"1/2\" to 24\"", schedule:"SCH 40–XXS", apps:"USC boilers, main steam, HRSG", ht:"Normalised (1040-1080°C) + Tempered (730-780°C)", stock:"Confirm availability" },
+  { grade:"ASTM A335 P92", composition:"9Cr-1.8W-Mo-V-Nb", sizes:"1/2\" to 16\"", schedule:"SCH 40–160", apps:"Ultra-supercritical boilers", ht:"Normalised + Tempered", stock:"Confirm availability" },
 ];
 
 const FAQS = [
   { q:"What is the difference between P91 and P22 alloy steel pipe?", a:"P91 (9Cr-1Mo-V-Nb) has higher creep strength than P22 (2.25Cr-1Mo), allowing thinner walls and lighter piping systems at the same temperature and pressure. P91 is used for main steam lines in supercritical and ultra-supercritical power plants (up to 600°C). P22 is used for lower-temperature headers and HRSG piping (up to 565°C). P91 requires strict heat treatment control — normalise at 1040-1080°C followed by temper at 730-780°C." },
-  { q:"What is the difference between P91 and P92 material?", a:"Both are 9% chromium creep-strength-enhanced ferritic steels, and the difference is the alloying route used to reach that creep strength. P91 is 9Cr-1Mo-V-Nb. P92 keeps the same chromium base but adds roughly 1.8% tungsten and reduces molybdenum, which raises creep rupture strength further at the same temperature. In practice that means P92 allows thinner walls than P91 for an equivalent duty, which lowers weight and reduces thermal stress at welds — the reason it is specified for ultra-supercritical boiler and main steam service where P91 would need excessive wall thickness. Both require closely controlled normalising and tempering, and P92 is the less forgiving of the two on heat treatment and welding procedure. We stock P91 and supply P92 against project requirements, both with IBR Form III-C and heat treatment certificates." },
-  { q:"What is IBR certification for alloy steel pipe?", a:"IBR (Indian Boiler Regulations) certification is mandatory for pipes used in boilers and pressure vessels in India. IBR Form III-C is the material manufacturer certificate confirming the pipe meets IBR requirements. It includes chemical composition, mechanical properties, heat treatment, and NDT results. Only IBR-approved manufacturers can issue Form III-C. We supply all P-grades with valid IBR Form III-C documentation." },
-  { q:"Which mills manufacture ASTM A335 alloy steel pipe?", a:"We source from world-class mills: Sumitomo Metal Industries (Japan) — premium P91/P92; Vallourec (France/Germany) — P91, P22, P11; ISMT India — P11, P22, P5, P9; Chelpipe (Russia); Maharashtra Seamless; and Jindal SAW. All pipes come with original Mill Test Certificate (MTC) per EN 10204 3.1/3.2 with full heat traceability." },
-  { q:"What sizes of alloy steel pipe do you stock?", a:"We stock ASTM A335 alloy steel seamless pipe from 1/2 inch (15NB) to 24 inches (600NB) in schedules SCH 40, 60, 80, 100, 120, 140, 160 and XXS. Standard random lengths 5-7 metres. Fixed length and cut-to-length available. For P91 and P22, we maintain heavy-wall stock up to SCH XXS for main steam applications." },
-  { q:"Why does P91 pipe require special heat treatment?", a:"P91 (9Cr-1Mo-V-Nb) derives its superior creep strength from a precise tempered martensitic microstructure formed by normalising at 1040-1080°C (air cooled to below 100°C) followed by tempering at 730-780°C. Incorrect heat treatment — over-tempering, under-normalising, or improper cooling — produces ferrite/bainite instead of martensite, drastically reducing creep life. All our P91 pipe is supplied with heat treatment certificates confirming N+T parameters." },
+  { q:"What is the difference between P91 and P92 material?", a:"Both are 9% chromium creep-strength-enhanced ferritic steels, and the difference is the alloying route used to reach that creep strength. P91 is 9Cr-1Mo-V-Nb. P92 keeps the same chromium base but adds roughly 1.8% tungsten and reduces molybdenum, which raises creep rupture strength further at the same temperature. In practice that means P92 allows thinner walls than P91 for an equivalent duty, which lowers weight and reduces thermal stress at welds — the reason it is specified for ultra-supercritical boiler and main steam service where P91 would need excessive wall thickness. Both require closely controlled normalising and tempering, and P92 is the less forgiving of the two on heat treatment and welding procedure. For either grade, confirm availability and any required IBR Form III-C or heat-treatment documentation against the specific order." },
+  { q:"What is IBR Form III-C for alloy steel pipe?", a:"Form III-C is a material manufacturer's certificate used for applicable IBR documentation. Requirements depend on the project and product. Include the required grade and documentation in your enquiry, then confirm that the certificate is available and matches the specific material and heat/lot before purchase." },
+  { q:"Which mills manufacture ASTM A335 alloy steel pipe?", a:"The page describes alloy steel pipes from mills including Sumitomo, Vallourec, ISMT, Maharashtra Seamless and Jindal. State any approved-mill requirement in your enquiry and confirm the source and material test documentation for the specific order." },
+  { q:"What sizes of alloy steel pipe can I enquire about?", a:"The listed enquiry range is 1/2 inch (15NB) to 24 inches (600NB), with schedules from SCH 40 through XXS. Specify the required dimensions and length, then confirm current availability and any cut-to-length requirements for your order." },
+  { q:"Why does P91 pipe require special heat treatment?", a:"P91 (9Cr-1Mo-V-Nb) derives its superior creep strength from a precise tempered martensitic microstructure formed by normalising at 1040-1080°C (air cooled to below 100°C) followed by tempering at 730-780°C. Incorrect heat treatment — over-tempering, under-normalising, or improper cooling — produces ferrite/bainite instead of martensite, drastically reducing creep life. If heat-treatment records are required for P91, include that requirement in your enquiry and confirm the documents available for the specific material." },
 ];
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"Alloy Steel Pipe Supplier India","item":"https://www.creativemetalind.com/alloy-steel-pipe-supplier-india"}]}]});
@@ -33,16 +33,16 @@ export default function AlloySteelPipeSupplierIndia() {
     <>
       <Title>Alloy Steel Pipe Supplier India | P91 P22 P11 | IBR | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Alloy steel pipe supplier India — ASTM A335 P91, P22, P11, P5, P9, P92 seamless pipes for power plants and boilers. IBR Form III-C certified." />
+      <Meta name="description" content="Alloy steel pipe supplier in India for ASTM A335 P91, P22 and P11. Specify size and schedule; confirm IBR Form III-C documents and order availability." />
       <Link rel="canonical" href="https://www.creativemetalind.com/alloy-steel-pipe-supplier-india" />
       <Meta property="og:title" content="Alloy Steel Pipe Supplier India | ASTM A335 P91, P22, P11 | Creative Metal Industries" />
       <Meta property="og:type" content="website" />
-      <Meta property="og:description" content="Alloy steel pipe supplier India — ASTM A335 P91, P22, P11. IBR certified. Sumitomo, Vallourec, ISMT. Ready stock Vadodara." />
+      <Meta property="og:description" content="Enquire about ASTM A335 P91, P22 and P11 alloy steel pipes. Confirm order availability and any required IBR Form III-C documentation with Creative Metal Industries." />
       <Meta property="og:url" content="https://www.creativemetalind.com/alloy-steel-pipe-supplier-india" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:title" content="Alloy Steel Pipe Supplier India | P91 P22 P11 | IBR | CMI" />
-      <Meta name="twitter:description" content="Alloy steel pipe supplier India — P91, P22, P11. ASTM A335. IBR Form III-C. Ready stock Vadodara." />
+      <Meta name="twitter:description" content="Enquire about ASTM A335 P91, P22 and P11 alloy steel pipes. Confirm order availability and any required IBR Form III-C documentation." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
@@ -63,18 +63,18 @@ export default function AlloySteelPipeSupplierIndia() {
             Alloy Steel Pipe Supplier in India — ASTM A335 P91, P22, P11
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is India's trusted <strong>alloy steel pipe supplier</strong> stocking ASTM A335 seamless pipes in the key chrome-moly P-grades — P11, P22 and P91. These chrome moly (Cr-Mo) alloy steel pipes — the <strong>chrome moly steel pipe</strong> family often searched for as chrome moly pipe — are engineered for high-temperature, high-pressure service in power plant boilers, superheaters, main steam lines and HRSG systems. As a specialist <strong>chrome moly pipe supplier</strong> and <strong>alloy steel seamless pipe supplier</strong>, we supply every length with <strong>IBR Form III-C</strong> certification, sourced from world-class mills including Sumitomo (Japan), Vallourec (France) and ISMT (India). Ready stock at our Vadodara warehouse with same-day dispatch across India.
+            Creative Metal Industries supplies ASTM A335 seamless alloy steel pipes in grades including P11, P22 and P91 for high-temperature industrial service. Share your required grade, size, schedule and delivery location to request a quotation. Confirm current availability and any required IBR Form III-C documentation for the specific order before purchase.
           </p>
         </div>
 
         {/* Grade Table */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Alloy Steel Pipe Grades — ASTM A335 Ready Stock India</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Alloy Steel Pipe Grades — ASTM A335</h2>
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"2rem"}}>
           <table style={{width:"100%","border-collapse":"collapse","font-size":"0.85rem","min-width":"800px"}}>
-            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 0.8rem","text-align":"left"}}>Grade</th><th style={{padding:"0.7rem 0.8rem"}}>Composition</th><th style={{padding:"0.7rem 0.8rem"}}>Sizes</th><th style={{padding:"0.7rem 0.8rem"}}>Schedules</th><th style={{padding:"0.7rem 0.8rem"}}>Applications</th><th style={{padding:"0.7rem 0.8rem"}}>Heat Treatment</th><th style={{padding:"0.7rem 0.8rem"}}>Stock</th></tr></thead>
+            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 0.8rem","text-align":"left"}}>Grade</th><th style={{padding:"0.7rem 0.8rem"}}>Composition</th><th style={{padding:"0.7rem 0.8rem"}}>Sizes</th><th style={{padding:"0.7rem 0.8rem"}}>Schedules</th><th style={{padding:"0.7rem 0.8rem"}}>Applications</th><th style={{padding:"0.7rem 0.8rem"}}>Heat Treatment</th><th style={{padding:"0.7rem 0.8rem"}}>Availability</th></tr></thead>
             <tbody>
               {GRADES.map((g,i) => (
-                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 0.8rem","font-weight":"700"}}>{g.grade}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.composition}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.sizes}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.schedule}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.apps}</td><td style={{padding:"0.6rem 0.8rem","font-size":"0.8rem"}}>{g.ht}</td><td style={{padding:"0.6rem 0.8rem","text-align":"center",color:g.stock==="Ready Stock"?"#16a34a":"#d97706","font-weight":"700"}}>{g.stock}</td></tr>
+                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 0.8rem","font-weight":"700"}}>{g.grade}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.composition}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.sizes}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.schedule}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.apps}</td><td style={{padding:"0.6rem 0.8rem","font-size":"0.8rem"}}>{g.ht}</td><td style={{padding:"0.6rem 0.8rem","text-align":"center",color:"#d97706","font-weight":"700"}}>{g.stock}</td></tr>
               ))}
             </tbody>
           </table>
@@ -89,8 +89,8 @@ export default function AlloySteelPipeSupplierIndia() {
             {label:"Size Range",value:"1/2\" to 24\" (15NB to 600NB)"},
             {label:"Schedules",value:"SCH 40, 60, 80, 100, 120, 140, 160, XXS"},
             {label:"Heat Treatment",value:"Normalised + Tempered (mandatory for all grades)"},
-            {label:"Testing",value:"Hydrostatic, UT (ASME SA-530), Hardness, PMI"},
-            {label:"Certification",value:"MTC EN 10204 3.1/3.2, IBR Form III-C"},
+            {label:"Testing requirements",value:"Hydrostatic, UT (ASME SA-530), hardness or PMI (confirm scope)"},
+            {label:"Documentation to specify",value:"MTC and any required IBR Form III-C (confirm for order)"},
             {label:"Mills",value:"Sumitomo, Vallourec, ISMT, Maharashtra Seamless, Jindal"},
           ].map(s => (
             <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"1rem"}}>
@@ -104,35 +104,35 @@ export default function AlloySteelPipeSupplierIndia() {
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>IBR Certification — What You Need to Know</h2>
         <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.5rem","margin-bottom":"2rem"}}>
           <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
-            <strong>Indian Boiler Regulations (IBR)</strong> mandate that all materials used in boiler construction and pressure piping must be certified under IBR. For alloy steel pipes, this means:
+            <strong>Indian Boiler Regulations (IBR)</strong> requirements depend on the boiler application and project specification. For an alloy steel pipe order, identify the applicable requirements and confirm the documentation needed with the responsible project engineer or inspector.
           </p>
           <ul style={{"font-size":"0.9rem",color:"#374151","line-height":"1.8","padding-left":"1.25rem"}}>
-            <li><strong>Form III-C:</strong> Material manufacturer certificate — confirms chemical, mechanical, heat treatment and NDT compliance</li>
-            <li><strong>Approved Mills:</strong> Only IBR-approved manufacturers (Sumitomo, Vallourec, ISMT, MSL) can issue valid Form III-C</li>
-            <li><strong>Traceability:</strong> Every pipe marked with heat number, grade, size, schedule and IBR stamp</li>
-            <li><strong>Inspection:</strong> Subject to inspection by IBR-authorised inspectors before use in boiler service</li>
-            <li><strong>Mandatory for:</strong> Main steam lines, superheater/reheater tubes, headers, economiser tubes in thermal power plants</li>
+            <li><strong>Form III-C:</strong> Request the applicable material manufacturer's certificate and confirm its scope for the offered product.</li>
+            <li><strong>Mill and document checks:</strong> Verify the manufacturer and required documentation against the project specification.</li>
+            <li><strong>Traceability:</strong> Check that grade and heat/lot identification on the material match its documents.</li>
+            <li><strong>Inspection:</strong> Confirm any inspection requirements with the project specification and responsible authority.</li>
+            <li><strong>Application:</strong> Check requirements for the specific boiler or pressure-piping service before ordering.</li>
           </ul>
           <p style={{"font-size":"0.9rem",color:"#374151","line-height":"1.8","margin-top":"1rem"}}>
-            We maintain dedicated IBR-certified stock of P11, P22 and P91 pipes at our Vadodara warehouse for immediate dispatch to power plant projects.
+            For IBR-regulated applications, state the required grade and documentation in your enquiry. Ask the sales team to confirm whether the applicable Form III-C is available for the specific material and order.
           </p>
         </div>
 
         {/* P91 Section */}
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>ASTM A335 P91 Pipe — Grade Focus</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
-          Among the chrome-moly range, <strong>P91 pipe</strong> (9Cr-1Mo-V-Nb) is the workhorse of modern supercritical and ultra-supercritical boilers. Its high creep strength allows thinner, lighter main steam lines and headers at temperatures up to 600°C. P91 owes its performance to a precise tempered-martensitic microstructure — normalised at 1040-1080°C then tempered at 730-780°C — so correct heat treatment is critical. We hold IBR-certified <strong>ASTM A335 P91</strong> seamless pipe in heavy-wall schedules up to XXS, each supplied with heat treatment certificates and PMI verification.
+          <strong>P91 pipe</strong> (9Cr-1Mo-V-Nb) is used in high-temperature boiler and steam-piping applications. Its performance depends on correct material selection and heat treatment. For an ASTM A335 P91 enquiry, specify the required size and schedule, and confirm the heat-treatment records, inspection scope and any IBR documentation required for the order.
         </p>
 
         {/* Why Choose CMI */}
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Why Choose CMI as Your Alloy Steel Pipe Supplier in India?</h2>
         <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
-          <li><strong>IBR-ready stock:</strong> Dedicated inventory of P11, P22 and P91 with IBR Form III-C at our Vadodara warehouse</li>
+          <li><strong>IBR documentation:</strong> Specify Form III-C requirements and confirm documentation scope for the requested grade and order</li>
           <li><strong>World-class mills:</strong> Authorised stockist for Sumitomo (Japan), Vallourec (France), ISMT (India) — guaranteed authenticity</li>
           <li><strong>Full P-grade range:</strong> P5, P9, P11, P12, P22, P91, P92 — single source for complete power plant piping</li>
           <li><strong>Heavy-wall specialist:</strong> SCH 120, 160, XXS in P91 and P22 for main steam and high-pressure headers</li>
           <li><strong>Technical expertise:</strong> Our team understands P91 heat treatment, PWHT requirements and creep considerations</li>
-          <li><strong>PMI + hardness verified:</strong> 100% PMI and hardness testing on every pipe before dispatch (critical for P91)</li>
+          <li><strong>Inspection requirements:</strong> Specify any PMI, hardness or other testing requirements and confirm the scope for your order</li>
           <li><strong>Competitive pricing:</strong> Direct mill sourcing — no broker markup. Formal quotation within 4 hours</li>
           <li><strong>Since 2012:</strong> 13+ years supplying India's thermal power plants, boiler manufacturers and EPC contractors</li>
         </ul>
@@ -176,8 +176,8 @@ export default function AlloySteelPipeSupplierIndia() {
 
         {/* CTA */}
         <div style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)","border-radius":"12px",padding:"2.5rem","text-align":"center","margin-bottom":"2rem"}}>
-          <h2 style={{color:"#fff","font-size":"1.4rem","font-weight":"800","margin-bottom":"0.6rem"}}>Need Alloy Steel Pipe? Get IBR-Certified Quote Today.</h2>
-          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.25rem","font-size":"0.95rem"}}>ASTM A335 P91, P22, P11. IBR Form III-C. Sumitomo, Vallourec, ISMT. Ready stock India.</p>
+          <h2 style={{color:"#fff","font-size":"1.4rem","font-weight":"800","margin-bottom":"0.6rem"}}>Need Alloy Steel Pipe? Request a Quote.</h2>
+          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.25rem","font-size":"0.95rem"}}>Enquire about ASTM A335 P91, P22 and P11. Include your size and schedule; confirm availability and any required IBR Form III-C documentation for your order.</p>
           <div style={{display:"flex",gap:"1rem","justify-content":"center","flex-wrap":"wrap"}}>
             <a href="tel:+919998280619" style={{background:"#fff",color:"#E8821A","font-weight":"800",padding:"0.75rem 1.5rem","border-radius":"8px","text-decoration":"none","font-size":"0.95rem"}}>📞 +91 99982 80619</a>
             <a href="https://wa.me/919998280619" target="_blank" rel="noopener" style={{background:"#25D366",color:"#fff","font-weight":"800",padding:"0.75rem 1.5rem","border-radius":"8px","text-decoration":"none","font-size":"0.95rem"}}>💬 WhatsApp</a>

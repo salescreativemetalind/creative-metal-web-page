@@ -33,28 +33,27 @@ const COMPARE: string[][] = [
   ["Yield min (MPa)", "205", "170", "205", "170"],
   ["Density (g/cm³)", "8.0", "8.0", "8.0", "8.0"],
   ["PREN (approx.)", "~18", "~18", "~24", "~24"],
-  ["Chloride resistance", "Moderate", "Moderate", "Excellent", "Excellent"],
-  ["Max service temp (°C)", "870", "870", "870", "870"],
+  ["Relative chloride pitting resistance", "Baseline", "Baseline", "Improved vs 304", "Improved vs 304"],
+
   ["Typical use", "General, food, dairy", "Welded fabrication", "Marine, chemical", "Pharma, chloride service"],
 ];
 
 const SPECS: string[][] = [
-  ["Size Range", "6NB (1/8 inch) to 600NB (24 inch)"],
-  ["Wall Schedules", "SCH 5S, 10S, 20, 40S, 80S, 120, 160, XXS"],
-  ["Type", "Seamless (SMLS) and Welded (ERW/EFW)"],
-  ["Standard", "ASTM A312 / ASME SA-312 (pipe), ASTM A213 (tube)"],
-  ["Grades Stocked", "TP304, TP304L, TP316, TP316L"],
-  ["End Finish", "Plain end, Bevelled, Threaded"],
-  ["Length", "Random (5-7m) and Fixed (6m, 6.1m)"],
-  ["Surface", "Pickled & Passivated, Bright Annealed, Mill Finish"],
-  ["Testing", "Hydrostatic, Eddy Current, UT, RT"],
-  ["Certification", "MTC EN 10204 3.1/3.2, IBR Form III-C, NACE"],
+  ["Enquiry size range", "6NB (1/8 inch) to 600NB (24 inch); confirm order availability"],
+  ["Wall schedules listed", "SCH 5S, 10S, 20, 40S, 80S, 120, 160, XXS"],
+  ["Pipe types", "Seamless (SMLS) and welded (ERW/EFW); specify the required type"],
+  ["Product standards", "ASTM A312 / ASME SA-312 for pipe; ASTM A213 applies to tube"],
+  ["Grades listed", "TP304, TP304L, TP316, TP316L; confirm for the order"],
+  ["End finish", "Plain end, bevelled or threaded; confirm required option"],
+  ["Length", "Specify random or fixed length for confirmation"],
+  ["Surface finish", "Specify the required finish for confirmation"],
+  ["Testing / documents", "State testing, MTC, IBR or NACE requirements for order-specific confirmation"],
 ];
 
 const FAQS = [
   {
     q: "What is the difference between SS 304 and SS 316L pipe?",
-    a: "SS 316L contains 2–3% molybdenum, which SS 304 does not. That molybdenum addition raises the pitting resistance equivalent number (PREN) from roughly 18 to roughly 24, giving markedly better resistance to chlorides and pitting. SS 304 is the more economical choice for general corrosion service, food and dairy work. SS 316L is specified where chlorides, seawater, acids or pharmaceutical-grade cleanliness are involved. Both grades share the same nominal density of about 8.0 g/cm³ and the same practical upper service temperature of about 870°C.",
+    a: "SS 316L contains molybdenum, which SS 304 does not, and is often considered where improved resistance to pitting in chloride-containing environments is needed. Actual performance depends on concentration, temperature, design and other service conditions. SS 304 is commonly specified for general-purpose applications; SS 316L may be selected for more demanding corrosion conditions. The L suffix indicates lower carbon compared with the corresponding standard grade. Confirm material selection against the project specification and operating environment.",
   },
   {
     q: "What is the difference between 304 and 304L stainless steel?",
@@ -62,19 +61,19 @@ const FAQS = [
   },
   {
     q: "What are the mechanical properties and density of SS 304?",
-    a: "For SS 304 (UNS S30400) the nominal published values are a minimum yield strength of 205 MPa, minimum tensile strength of 515 MPa, and a density of approximately 8.0 g/cm³. Composition is nominally 18–20% chromium and 8–10.5% nickel with carbon held to 0.08% maximum. SS 316L (UNS S31603) is nominally 16–18% chromium, 10–14% nickel and 2–3% molybdenum, with 170 MPa minimum yield and 485 MPa minimum tensile. These are reference values from the grade standards; the actual certified figures for any consignment are stated on its Mill Test Certificate.",
+    a: "For SS 304 (UNS S30400), the table shows nominal reference values for minimum yield and tensile strength, density and composition. SS 316L (UNS S31603) has a different composition, including molybdenum and a lower carbon limit. These figures are general grade references, not a certificate for a particular consignment; request and review the applicable material documentation for the specific order.",
   },
   {
-    q: "What pipe sizes and schedules do you supply in SS 304/316L?",
-    a: "We supply SS 304 and 316L pipe from 6NB (1/8 inch) to 600NB (24 inch) in schedules SCH 5S, 10S, 20, 40S, 80S, 120, 160 and XXS. Both seamless pipe to ASTM A312 and welded (ERW/EFW) pipe are available, in random 5-7 metre and fixed 6 / 6.1 metre lengths, with plain, bevelled or threaded ends.",
+    q: "What pipe sizes and schedules can I enquire about for SS 304/316L?",
+    a: "The page lists sizes from 6NB to 600NB and schedules including SCH 5S, 10S, 20, 40S, 80S, 120, 160 and XXS as enquiry specifications. State the grade, seamless or welded type, dimensions, length and end finish; confirm whether the specific requirement is available for your order.",
   },
   {
-    q: "Do you supply IBR certified SS 304/316L pipes?",
-    a: "Yes. We supply ASTM A312 SS 304/316L seamless pipes with IBR Form III-C certification for boiler and pressure vessel applications, available from Sandvik, Ratnamani and other IBR-approved mills.",
+    q: "Can I request IBR, MTC or NACE documentation for SS 304/316L pipe?",
+    a: "Include required documentation in your enquiry, such as MTC, IBR or NACE requirements. The team must confirm which documents apply to the requested grade, product and order; this page does not guarantee that every product is supplied with each document.",
   },
   {
-    q: "Which mill brands do you stock for SS 304/316L?",
-    a: "We are authorised stockists for Sandvik, Ratnamani, Venus Pipes, Salzgitter Mannesmann, Tubacex and Plymouth Tube. All pipes come with original Mill Test Certificates (EN 10204 3.1/3.2).",
+    q: "How can I request a quotation for SS 304 or SS 316L pipe?",
+    a: "Share the grade, seamless or welded type, applicable standard, nominal size, schedule or wall thickness, length, quantity, required documents and delivery location. Availability and order terms can then be confirmed for your requirement.",
   },
 ];
 
@@ -124,17 +123,17 @@ const H2 = {
 export default function SS304316LPage() {
   return (
     <>
-      <Title>SS 304 &amp; 316L Pipe Supplier India | ASTM A312 | CMI</Title>
+      <Title>SS 304 &amp; SS 316L Pipe Supplier in India | ASTM A312</Title>
       <Meta property="og:type" content="website" />
       <Meta property="og:url" content="https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="SS 304 and SS 316L pipe supplier in India — ASTM A312 TP304, TP304L, TP316, TP316L seamless and welded, 6NB to 600NB, SCH 5S to XXS. Grade data, IBR, MTC." />
+      <Meta name="description" content="Enquire about SS 304 and SS 316L seamless or welded pipe. Compare 304, 304L, 316 and 316L grade properties and ASTM A312 details; send your specification for an order-specific quotation." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india" />
-      <Meta property="og:title" content="SS 304 &amp; 316L Pipe Supplier India | ASTM A312 | CMI" />
-      <Meta property="og:description" content="SS 304, 304L, 316 and 316L pipe to ASTM A312 — grade properties, all sizes and schedules, IBR Form III-C and MTC. Ready stock Vadodara." />
+      <Meta property="og:title" content="SS 304 &amp; SS 316L Pipe Supplier in India | ASTM A312" />
+      <Meta property="og:description" content="Compare SS 304, 304L, 316 and 316L pipe grades, properties and ASTM A312 details. Enquire with your specification for order-specific confirmation." />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="SS 304 &amp; 316L Pipe Supplier India | ASTM A312 | CMI" />
-      <Meta name="twitter:description" content="SS 304, 304L, 316 and 316L pipe to ASTM A312 — grade properties, sizes, schedules, IBR and MTC. Vadodara, pan-India supply." />
+      <Meta name="twitter:title" content="SS 304 &amp; SS 316L Pipe Supplier in India | ASTM A312" />
+      <Meta name="twitter:description" content="Compare SS 304, 304L, 316 and 316L pipe grades, properties and ASTM A312 details. Enquire with your specification for order-specific confirmation." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
@@ -165,17 +164,17 @@ export default function SS304316LPage() {
             style={{"border-radius":"10px",border:"1px solid #e5e7eb","flex-shrink":"0"}}
           />
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8",margin:0,"min-width":"280px",flex:"1"}}>
-            Creative Metal Industries stocks <strong>SS 304 and SS 316L pipe</strong> to ASTM A312 and ASTM A213, in seamless and welded form, from 6NB to 600NB and in schedules from SCH 5S to XXS. Both the standard grades and their low-carbon <strong>304L</strong> and <strong>316L</strong> variants are held for welded fabrication. Material is supplied with Mill Test Certificates to EN 10204 3.1/3.2, and with IBR Form III-C or NACE MR-01-75 documentation where the application calls for it.
+            Creative Metal Industries handles enquiries for <strong>SS 304 and SS 316L pipe</strong> in seamless and welded forms. The page also compares their low-carbon variants, <strong>SS 304L</strong> and <strong>SS 316L</strong>, and lists ASTM A312 / ASME SA-312 pipe specifications. ASTM A213 is a tube specification, not the pipe standard. Share your required grade, dimensions, product type and documentation needs for order-specific confirmation.
           </p>
         </div>
 
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
-          SS 304 (UNS S30400) and SS 316L (UNS S31603) are the two most widely specified austenitic stainless steels. The practical choice between them comes down to molybdenum: 316L has 2–3%, which is what gives it its chloride and pitting resistance, and 304 has none. Established in <strong>2012</strong>, we hold ready stock at GIDC Makarpura, Vadodara and supply from mills including <strong>Sandvik, Ratnamani, Venus Pipes, Salzgitter and Tubacex</strong>. Third-party inspection under DNV, TUV, SGS, BVIS or LRIS is accepted at our facility.
+          SS 304 (UNS S30400) and SS 316L (UNS S31603) differ in composition and intended service. 316L contains molybdenum, which can improve pitting resistance in some chloride environments; its low-carbon limit is relevant to certain welded applications. Neither grade is universally suitable for every process. Compare the project specification, operating conditions and fabrication requirements before selecting material, and confirm documentation or inspection requirements for the specific order.
         </p>
 
         <h2 style={H2}>SS 304, 304L, 316 and 316L — Grade Comparison</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.75","margin-bottom":"1rem"}}>
-          Nominal reference values from the grade standards. Certified figures for a specific consignment are always those stated on its Mill Test Certificate.
+          Nominal reference values from the grade standards. For any supplied material, review the applicable certificate and project specification for order-specific values.
         </p>
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"1.5rem"}}>
           <table style={{width:"100%","border-collapse":"collapse","font-size":"0.85rem","min-width":"640px"}}>
@@ -237,16 +236,15 @@ export default function SS304316LPage() {
           ))}
         </div>
 
-        <h2 style={H2}>Mill Brands We Stock</h2>
-        <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(150px,1fr))",gap:"0.75rem","margin-bottom":"2rem"}}>
-          {["Sandvik","Ratnamani","Venus Pipes","Salzgitter","Tubacex","Plymouth","Nippon Steel","Sumitomo"].map(m => (
-            <div style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.85rem","text-align":"center","font-weight":"700","font-size":"0.88rem",color:"#111827"}}>{m}</div>
-          ))}
-        </div>
+        <h2 style={H2}>Confirming Product and Documentation Requirements</h2>
+        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
+          If a purchase requires a particular mill, heat traceability, inspection scope or certificate, state it in the enquiry. The applicable source, availability and documents should be confirmed for the specific product and order.
+        </p>
 
         <h2 style={H2}>Related Stainless Steel Pages</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(220px,1fr))",gap:"0.75rem","margin-bottom":"2rem"}}>
           {[
+            {href:"/ss-pipe-supplier",label:"General SS pipe supply — seamless and welded"},
             {href:"/stainless-steel-supplier-vadodara",label:"Stainless steel supplier — all grades"},
             {href:"/ss-seamless-pipe-supplier-india",label:"SS seamless pipe to ASTM A312"},
             {href:"/ss-sheet-supplier-vadodara",label:"SS sheet & plate, all finishes"},
