@@ -191,22 +191,6 @@ PRODUCT_WHY_BUY["Forged Fittings — SS"] = `
 <p>Complete range in stock: 1/4" to 2" in Classes 3000# and 6000#. All fittings with heat number traceability. MTC showing mechanical properties (min. tensile 515 MPa for F304). As an <strong>industrial raw material supplier in Gujarat</strong>, we supply complete small-bore material packages: fittings + valves + tubing for instrument and process hookups.</p>
 `;
 
-PRODUCT_WHY_BUY["TMT / CRS Bars"] = `
-<h4>TMT Bars — Gujarat's Most Trusted Reinforcement Steel</h4>
-<p>As Gujarat's leading <strong>TMT bars supplier</strong>, Creative Metal Industries stocks Fe 500, Fe 500D, Fe 550D, and Fe 600 grade TMT reinforcement bars from SAIL, JSW NeoSteel, TATA Tiscon, and VSP. We are a <strong>steel stockist in Vadodara</strong> serving construction projects across Gujarat with BIS-certified primary TMT bars in 8mm to 40mm diameter.</p>
-
-<h4>TMT Bars — Fe 500 vs Fe 500D Explained</h4>
-<p>The <strong>MS angle ISMC weight chart India</strong> question and TMT bar grade selection are the two most common structural steel queries we receive. Fe 500D (the "D" stands for ductility) has: Higher elongation (16% min vs 12%), lower carbon (0.25% max vs 0.30%), stricter UTS/YS ratio (≥1.12), making it superior for earthquake-prone zones (Zone III, IV, V in India). IS 13920 mandates Fe 500D for seismic-resistant structures.</p>
-
-<h4>TMT Bars — Weight Chart</h4>
-<p>8mm = 0.395 kg/m (4.74 kg per 12m bar). 10mm = 0.617 kg/m (7.40 kg). 12mm = 0.888 kg/m (10.66 kg). 16mm = 1.580 kg/m (18.96 kg). 20mm = 2.469 kg/m (29.63 kg). 25mm = 3.854 kg/m (46.25 kg). 32mm = 6.313 kg/m (75.76 kg). Formula: Weight (kg/m) = d² / 162.28 where d = diameter in mm.</p>
-
-<h4>TMT Bars — Applications Across Gujarat</h4>
-<p>Residential buildings (RCC columns, beams, slabs, footings). Commercial complexes and malls. Bridges and flyovers (NHAI projects). Metro rail stations and viaducts. Industrial sheds and foundations. Power plant civil works. Dam and irrigation structures. As a comprehensive <strong>industrial metal supplier in Vadodara</strong>, we deliver TMT bars across Gujarat: Vadodara, Ahmedabad, Surat, Rajkot, Bharuch, Ankleshwar, Gandhinagar, Jamnagar.</p>
-
-<h4>TMT Bars — Why Choose CMI?</h4>
-<p>Only BIS-certified primary TMT bars — we never deal in secondary or non-ISI material. SAIL, JSW, TATA, VSP brands in stock. Single bundles to 500+ MT project loads. Doorstep delivery across Gujarat. Mill test certificates on every lot. As a responsible <strong>steel trading company in Gujarat</strong>, quality and certification are non-negotiable for us.</p>
-`;
 
 PRODUCT_WHY_BUY["MS Angle"] = `
 <h4>MS Angle — Weight Chart & Structural Steel Guide</h4>

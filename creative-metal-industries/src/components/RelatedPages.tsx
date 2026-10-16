@@ -51,8 +51,7 @@ const EXOTIC_ALLOY_PAGES = [
   { href: "/titanium-bar-supplier-india", label: "Titanium Bar Supplier" },
   { href: "/titanium-grade-2-pipe-india", label: "Titanium Grade 2 Pipe" },
   { href: "/titanium-grade-5-pipe-india", label: "Titanium Grade 5 Pipe" },
-  { href: "/incoloy-800-pipe-supplier-india", label: "Incoloy 800 Pipe" },
-  { href: "/incoloy-825-pipe-supplier-india", label: "Incoloy 825 Pipe" },
+
 ];
 
 const STRUCTURAL_STEEL_PAGES = [
@@ -86,7 +85,7 @@ const ALL_CATEGORIES = [
 
 function detectCategory(currentPath: string): string {
   const p = currentPath.toLowerCase();
-  if (p.includes("duplex") || p.includes("inconel") || p.includes("monel") || p.includes("hastelloy") || p.includes("titanium") || p.includes("incoloy")) return "exotic";
+  if (p.includes("duplex") || p.includes("inconel") || p.includes("monel") || p.includes("hastelloy") || p.includes("titanium")) return "exotic";
   if (p.includes("alloy-steel") || p.includes("/p5-") || p.includes("/p9-") || p.includes("/p11-") || p.includes("/p22-") || p.includes("/p92-")) return "alloy";
   if (p.includes("carbon-steel") || p.includes("a106") || p.includes("a53-") || p.includes("api-5") || p.includes("a36")) return "carbon";
   if (p.includes("ms-") || p.includes("corten")) return "structural";

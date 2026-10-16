@@ -55,7 +55,7 @@ export default function AboutPage() {
             <div class="about-top-divider" aria-hidden="true"/>
             <div class="about-top-right">
               <p>Established in <strong>2012</strong> and headquartered at <strong>Loha Bhavan, Lakkadpitha Road, Vadodara, Gujarat</strong>, Creative Metal Industries is a premier manufacturer, stockist and supplier of Stainless Steel, Carbon Steel, Alloy Steel and Exotic Metal products. We are one of the most trusted <strong>steel suppliers in Vadodara</strong> with a proven track record of serving India's largest EPC contractors, refineries and power plants.</p>
-              <p>Our team of qualified engineers and procurement specialists delivers SS/CS/AS Pipes, Tubes, Plates, Sheets, Buttweld &amp; Forged Fittings, Flanges, Structural Steel and Special Alloys including Duplex, Inconel, Monel, Hastelloy, Titanium, Aluminium and Copper — covering over <strong>10 alloy families and 500+ product SKUs</strong>.</p>
+              <p>Our listed product range includes stainless, carbon and alloy steel pipes, tubes, plates, sheets, fittings and flanges, together with Duplex, Inconel, Monel, Hastelloy and titanium products. Confirm product grades, forms and availability for each enquiry.</p>
               <p>Operating from a <strong>1,092 sq.mtr warehouse at GIDC Makarpura, Vadodara</strong>, we maintain deep ready stock with same-day dispatch capability. All materials are inspected and certified by <strong>DNV, TUV, SGS, BVIS and LRIS</strong> third-party agencies before dispatch.</p>
               <p>We export to <strong>UAE, Oman, Bahrain, Kuwait, Saudi Arabia, UK, USA</strong> and 50+ countries globally, serving Oil &amp; Gas, Petrochemical, Power, Fertilizer, Cement, Chemical, Pharmaceutical, Marine and Defence industries.</p>
             </div>
@@ -201,7 +201,7 @@ export default function AboutPage() {
               {qty:"50+ MT",material:"Duplex 2205 Pipe & Fittings",client:"Offshore Desalination Project",year:"2023"},
               {qty:"150+ MT",material:"SA 335 P91 Alloy Steel Pipe",client:"Supercritical Thermal Power Plant",year:"2023"},
               {qty:"80+ MT",material:"SA 516 Gr.70 NACE/HIC Plate",client:"Petrochemical Reactor Fabrication",year:"2024"},
-              {qty:"300+ MT",material:"TMT Bars Fe 500D",client:"High-Rise Construction Ahmedabad",year:"2025"},
+
               {qty:"25+ MT",material:"Inconel 625 Pipe & Fittings",client:"Chemical Plant FGD System",year:"2025"},
             ].map(p => (
               <div class="pillar-card" style="flex-direction:column;gap:0.5rem;padding:1.5rem">

@@ -35,22 +35,22 @@ const SLIDESHOW = [
   { img: IH("super_duplex-plates.png"),  caption: "Super Duplex Plates",        grade: "UNS S32750 (2507), S32760, S32520",                          spec: "ASTM A240 · PREN > 40 · Offshore, Subsea, Seawater" },
   { img: IH("carbon-steel-plate.png"),   caption: "Carbon Steel Plates",        grade: "IS 2062 E250/E350, SA 516 Gr.60/70, A36, A572 Gr.50",       spec: "Boiler Quality · NACE/HIC · IBR · 5mm–200mm · SAIL, AMNS" },
   { img: IH("alloy-steel-plate.png"),    caption: "Alloy Steel Plates",         grade: "ASTM A387 Gr.5, 9, 11, 12, 22, 91 Cl.1 & 2",               spec: "High-Temp Pressure Vessel · Normalised & Tempered · IBR" },
-  { img: IH("hardox-sheet-plate.png"),   caption: "Hardox / Wear Plates",       grade: "Hardox 400/450/500/600, Abrex 400/500, S690QL",             spec: "SSAB, TATA, SAIL · Mining, Cement, Construction" },
+
   { img: IH("clad_plates.png"),          caption: "Clad Plates",                grade: "CS/SS · CS/Inconel · CS/Monel · CS/Titanium",               spec: "ASTM A263/A264/A265 · Explosion & Roll Bonded" },
   { img: IH("ms-angle.png"),             caption: "MS Angles (ISMC)",           grade: "IS 2062 E250/E350, ASTM A36",                               spec: "Equal 25×25 to 200×200mm · SAIL, VSP, JSW, TATA" },
   { img: IH("ms-channel.png"),           caption: "MS Channels (ISMC)",         grade: "IS 2062 E250",                                               spec: "ISMC 75 to ISMC 400 · IS 808 · Crane Girders, Structures" },
   { img: IH("ms_beam.png"),              caption: "MS Beams (ISMB / ISWB)",     grade: "IS 2062 E250",                                               spec: "ISMB 100–600, ISWB 150–600 · IS 808 · Heavy Structural" },
   { img: IH("ms-round-bar.png"),         caption: "MS Round Bars",              grade: "IS 2062, EN8, EN9, EN24, EN31",                              spec: "6mm–500mm dia · Bright Drawn Available · SAIL, Rolling Mills" },
-  { img: IH("TMT-Bars.png"),             caption: "TMT Bars",                   grade: "Fe 500 / 500D / 550D / 600",                                 spec: "IS 1786 · 8mm–40mm · BIS Marked · SAIL, JSW, TATA, VSP" },
+
   { img: IH("duplex-steel.png"),         caption: "Duplex Steel",               grade: "UNS S31803 (2205), S32205, S32304, S32101",                  spec: "ASTM A790/A240/A182 · Pipes, Plates, Fittings · 2× SS Strength" },
   { img: IH("super-duplex-steel.png"),   caption: "Super Duplex Steel",         grade: "UNS S32750 (2507), S32760 (Zeron 100)",                      spec: "PREN > 40 · Seawater, Offshore, Subsea, Chemical Plants" },
   { img: IH("Inconel.png"),              caption: "Inconel Alloys",             grade: "Alloy 600 (N06600), 625 (N06625), 718 (N07718), 825",       spec: "ASTM B444/B443/B407 · High-Temp Oxidation Resistant" },
   { img: IH("Monel.png"),                caption: "Monel Alloys",               grade: "Monel 400 (N04400), K-500 (N05500)",                         spec: "ASTM B165/B127/B164 · Seawater & HF Acid Resistant" },
   { img: IH("hastelloy.png"),            caption: "Hastelloy",                  grade: "C-22 (N06022), C-276 (N10276), B-2 (N10665), B-3",         spec: "ASTM B622/B575 · HCl, H₂SO₄, Wet Chlorine Resistant" },
-  { img: IH("incoloy.png"),              caption: "Incoloy / Alloy 20",         grade: "Incoloy 800/800H/800HT, Alloy 20 (N08020)",                 spec: "ASTM B407/B409/B729 · Carburisation Resistant" },
+
   { img: IH("titanium.png"),             caption: "Titanium",                   grade: "Grade 1 (CP), Grade 2 (CP), Grade 5 (Ti-6Al-4V), Gr.7, 9", spec: "ASTM B337/B338/B265 · Seawater, HNO₃ · Aerospace, Chemical" },
-  { img: IH("aluminium-alloys.png"),     caption: "Aluminium & Alloys",         grade: "1100, 3003, 5052, 5083, 6061-T6, 6063-T5, 7075-T6",        spec: "ASTM B209/B210/B241 · Marine, Aerospace, Automotive" },
-  { img: IH("brass-vs-copper.png"),      caption: "Copper, Brass & Bronze",     grade: "ETP C11000, DHP C12200, CuNi 70/30, Naval Brass C46400",    spec: "ASTM B88/B111/B152 · Marine, Electrical, Heat Exchanger Tubes" },
+
+
 ];
 
 const PRODUCT_CATEGORIES = [
@@ -114,7 +114,7 @@ const PRODUCT_CATEGORIES = [
       { name: "MS Beam (ISMB/ISWB/ISHB)",    imgs: [I("ms_beam.png")],                                                                grade: "IS 2062 E250",                 make: "SAIL, VSP, JSW",                  note: "ISMB 100-600, ISWB 150-600, ISHB 150-450 per IS 808. Heavy structural applications." },
       { name: "MS Plate (HR / Chequered)",   imgs: [I("ms_plate.png")],                                                               grade: "IS 2062 E250/E350, ASTM A36",  make: "SAIL, AMNS, JSW, TATA",           note: "3mm-150mm thick. All standard sizes. Cut-to-size. Chequered plates IS 3502 available." },
       { name: "MS Round/Square/Flat/Hex Bar", imgs: [I("ms-round-bar.png"), I("ms_square_bar.png"), I("ms-flat-bar.png"), I("ms-hex-bar.png")], grade: "IS 2062, EN8, EN9, EN24, EN31", make: "SAIL, Rolling Mills", note: "Round 6-500mm, Square 6-200mm, Flat 10-300mm, Hex 6-100mm A/F. Bright drawn available." },
-      { name: "TMT / CRS Bars",              imgs: [I("TMT-Bars.png"), I("CRS_Bars.png")],                                          grade: "Fe 500 / 500D / 550D / 600",   make: "SAIL, JSW, TATA, VSP, Gallantt, Varrsana", note: "IS 1786. 8mm-40mm dia. 12m lengths. BIS marked. Primary and secondary ISI approved makes." },
+
     ],
   },
   {
@@ -122,17 +122,17 @@ const PRODUCT_CATEGORIES = [
     label: "Special Alloys",
     icon: "✨",
     image: "/products/ss-pipe-fitting.webp",
-    tagline: "Exotic & Special Alloys — Duplex, Inconel, Monel, Hastelloy, Incoloy, Titanium, Aluminium, Copper, Bronze",
+    tagline: "Specialty Metals — Duplex, Inconel, Monel, Hastelloy and Titanium",
     items: [
       { name: "Duplex Steel",       imgs: [I("duplex-steel.png"), I("duplex-plates.png")],             grade: "UNS S31803 (2205), S32205, S32304, S32101",                                  make: "Sandvik, Outokumpu, Tubacex",        note: "ASTM A790/A240/A182/A815. Pipes, plates, fittings, flanges, bars. 2× strength of austenitic SS. Chloride SCC resistant. Oil & gas, desalination." },
       { name: "Super Duplex",       imgs: [I("super-duplex-steel.png"), I("super_duplex-plates.png")], grade: "UNS S32750 (2507), UNS S32760 (Zeron 100), S32520",                          make: "Sandvik, Outokumpu, Voestalpine",    note: "ASTM A790/A240/A182. PREN > 40. Seawater, offshore, subsea, chemical plants. All product forms." },
       { name: "Inconel",            imgs: [I("Inconel.png")],                                           grade: "Alloy 600 (N06600), 625 (N06625), 718 (N07718), 800 (N08800), 825 (N08825)", make: "Special Metals, Haynes, ThyssenKrupp", note: "ASTM B444/B443/B407/B409. Pipes, plates, bars, fittings, flanges. High-temp oxidation and corrosion resistance." },
       { name: "Monel",              imgs: [I("Monel.png")],                                             grade: "Monel 400 (N04400), K-500 (N05500)",                                          make: "Special Metals, Corrotherm",         note: "ASTM B165/B127/B164/B366. Pipes, plates, bars, fittings. Excellent in seawater and hydrofluoric acid. Marine, oil refining." },
       { name: "Hastelloy",          imgs: [I("hastelloy.png")],                                         grade: "C-22 (N06022), C-276 (N10276), C-4 (N06455), B-2 (N10665), B-3, X",         make: "Haynes, Special Metals",             note: "ASTM B622/B575/B574/B619. Pipes, plates, bars, fittings. Resists HCl, H2SO4, wet chlorine. Chemical, pharmaceutical." },
-      { name: "Incoloy / Alloy 20", imgs: [I("incoloy.png")],                                          grade: "Incoloy 800/800H/800HT (N08800), Alloy 20 (N08020)",                         make: "Special Metals, Haynes",             note: "ASTM B407/B409/B729. Carburisation and sulphidation resistance. Petrochemical furnace components, heat exchangers." },
+
       { name: "Titanium",           imgs: [I("titanium.png")],                                          grade: "Grade 1 (CP), Grade 2 (CP), Grade 5 (Ti-6Al-4V), Grade 7, Grade 9",          make: "VSMPO, ATI, Timet",                  note: "ASTM B337/B338/B265/B348/B363. Pipes, sheets, bars, fittings, flanges. Seawater and HNO3 resistance. Aerospace, chemical." },
-      { name: "Aluminium & Alloys", imgs: [I("aluminium-alloys.png")],                                  grade: "1100, 2024, 3003, 5052, 5083, 6061-T6, 6063-T5, 7075-T6",                   make: "Hindalco, Nalco, Imported",          note: "ASTM B209/B210/B211/B241. Sheets 0.4-200mm, Pipes 6NB-300NB, Bars all shapes, Sections. Marine, aerospace, automotive." },
-      { name: "Copper & Brass",     imgs: [I("brass-vs-copper.png")],                                   grade: "ETP C11000, DHP C12200, CuNi 70/30 C71500, CuNi 90/10 C70600, Naval Brass C46400, Phosphor Bronze C51000", make: "Hindalco, Mueller, KME", note: "ASTM B88/B111/B152/B187. Pipes, tubes, sheets, bars, strips. Heat exchanger tubes, electrical conductors, marine, plumbing." },
+
+
     ],
   },
 ];
@@ -155,10 +155,7 @@ const METALS = [
   { icon: "🔵", name: "Duplex & Super Duplex",        grade: "S31803 (2205), S32750 (2507), S32760, S32205",                forms: "Pipes · Plates · Fittings · Flanges · Bars",        tag: "Corrosion Resistant" },
   { icon: "🟡", name: "Inconel / Monel / Hastelloy",  grade: "Inconel 600/625/718, Monel 400, Hastelloy C-276/C-22",       forms: "Pipes · Plates · Bars · Fittings · Flanges",        tag: "Exotic Alloy" },
   { icon: "🔶", name: "Titanium",                     grade: "Grade 1, 2, 5 (Ti-6Al-4V), Grade 7, Grade 9",                forms: "Pipes · Sheets · Bars · Fittings · Flanges",        tag: "High Performance" },
-  { icon: "🟤", name: "Copper & Cupro-Nickel",        grade: "ETP C11000, DHP C12200, CuNi 70/30, 90/10",                  forms: "Pipes · Tubes · Sheets · Bars · Strips",            tag: "Non-Ferrous" },
-  { icon: "⬜", name: "Aluminium & Alloys",            grade: "1100, 5052, 5083, 6061-T6, 6063, 7075-T6",                  forms: "Sheets · Pipes · Bars · Sections",                  tag: "Lightweight" },
-  { icon: "🟫", name: "Bronze & Brass",               grade: "Phosphor Bronze C51000, Naval Brass C46400, Al Bronze C63000",forms: "Pipes · Bars · Sheets · Flanges",                   tag: "Marine Grade" },
-  { icon: "🔴", name: "Wear Resistant & Special Plate",grade: "Hardox 400/500, SA 516, Corten A/B, S690QL",               forms: "Plates · All Sizes · All Shapes",                    tag: "Specialty Steel" },
+  { icon: "🔴", name: "Carbon & Alloy Steel Plates", grade: "SA 516, ASTM A36, A387, Corten weathering steel", forms: "Plates · Sheets", tag: "Steel Products" },
 ];
 
 const NEWS = [
@@ -191,7 +188,7 @@ const TICKER_ITEMS = [
   "Inconel 625 · Monel 400 · Hastelloy C-276",
   "Carbon Steel IBR Certified",
   "Alloy Steel P91 · P22 · P11",
-  "Titanium · Aluminium · Copper",
+  "Titanium Grade 1 · Grade 2 · Grade 5",
   "MTC · IBR · NACE · HIC Certified",
   "Manufacturer · Stockist · Supplier",
   "Export to 50+ Countries",
@@ -211,8 +208,8 @@ const FAQS = [
     a: "Yes. We are stockists of Alloy Steel seamless pipes as per ASTM A335 in grades P5, P9, P11, P12, P22, P91 and P92. These are used in boilers, superheaters and ultra-supercritical power plants. Available with IBR Form III-C certification. Visit /alloy-steel-pipe-supplier-india for complete grade details, specifications and IBR documentation information.",
   },
   {
-    q: "Which exotic alloys do you stock?",
-    a: "We stock Inconel (600/625/718/825), Monel (400/K500), Hastelloy (C-22/C-276/B-2/B-3), Incoloy (800/825), Duplex 2205, Super Duplex 2507, Titanium (Gr.1/2/5), Aluminium alloys (6061/6063/7075), Copper, Cupro-Nickel and Brass in all product forms. See detailed pages: Inconel 625 at /inconel-pipe-supplier-india, Inconel 600 at /inconel-600-pipe-supplier-india, Inconel 718 at /inconel-718-supplier-india, Incoloy 825 at /incoloy-825-pipe-supplier-india, Monel K500 at /monel-k500-supplier-india, Hastelloy C22 at /hastelloy-c22-pipe-supplier-india.",
+    q: "Which specialty metals are covered on the product pages?",
+    a: "The product pages cover Duplex and Super Duplex steel, Inconel, Monel, Hastelloy and titanium, alongside carbon, alloy and stainless steel products. Use the relevant product page to review the listed grades and specifications, then confirm current availability and documentation for your enquiry.",
   },
   {
     q: "What certifications and documentation do you provide?",
@@ -873,9 +870,8 @@ function MetalsSection() {
           <div class="snb-body">
             <strong>We Manufacture &amp; Stock Special &amp; Exotic Grades</strong>
             <p>
-              Duplex 2205 · Super Duplex 2507 · Inconel 600/625/718/825 · Monel 400/K500 ·
-              Hastelloy C-22/C-276 · Aluminium 6061/6063/7075 · Bronze &amp; Brass ·
-              Titanium Gr.1/2/5 · Copper &amp; Cupro-Nickel 70/30 &amp; 90/10
+              Duplex 2205 · Super Duplex 2507 · Inconel 600/625/718 · Monel 400/K500 ·
+              Hastelloy C-22/C-276 · Titanium Grades 1, 2 and 5
             </p>
             <p style="margin-top:0.4rem;font-size:0.8rem;opacity:0.8">
               Available in Pipes, Plates, Sheets, Bars, Fittings &amp; Flanges — all sizes and ASTM/ASME standards.
@@ -968,7 +964,7 @@ function AboutSection() {
               <a href="/duplex-steel-supplier-vadodara" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Duplex</a>,{" "}
               <a href="/inconel-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Inconel</a>,{" "}
               <a href="/monel-k500-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Monel</a>,{" "}
-              <a href="/hastelloy-c22-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Hastelloy</a>, Titanium, Aluminium and Copper products.
+              <a href="/hastelloy-c22-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Hastelloy</a> and Titanium products.
             </p>
             <p>
               Operating from a <strong>1,092 sq.mtr warehouse and yard at GIDC Makarpura,
@@ -1317,8 +1313,7 @@ function ContactForm() {
                       <option value="" disabled selected>Select material</option>
                       <option>Stainless Steel</option><option>Carbon Steel</option><option>Alloy Steel</option>
                       <option>Duplex / Super Duplex</option><option>Inconel / Monel / Hastelloy</option>
-                      <option>Titanium</option><option>Aluminium</option><option>Copper / Brass</option>
-                      <option>Boiler Quality Steel</option><option>Wear Plate / Hardox</option><option>Other</option>
+                      <option>Titanium</option><option>Boiler Quality Steel</option><option>Other</option>
                     </select>
                   </div>
                   <div class="form-group">
@@ -1727,14 +1722,13 @@ export default function Home() {
               ].map(l => <a href={l.href} style={{background:"#fff",border:"1px solid #e5e7eb","border-radius":"6px",padding:"0.4rem 0.8rem","font-size":"0.8rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label}</a>)}
             </div>
 
-            <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Exotic Alloys — Inconel, Monel, Hastelloy, Incoloy</h3>
+            <h3 style={{"font-size":"1rem","font-weight":"700",color:"#111827","margin-bottom":"0.75rem"}}>Inconel, Monel, Hastelloy &amp; Titanium</h3>
             <div style={{display:"flex","flex-wrap":"wrap",gap:"0.5rem","margin-bottom":"1.5rem"}}>
               {[
                 {href:"/inconel-pipe-supplier-india",label:"Inconel 625 Pipe"},
                 {href:"/inconel-600-pipe-supplier-india",label:"Inconel 600 Pipe"},
                 {href:"/inconel-718-supplier-india",label:"Inconel 718 Bar & Pipe"},
-                {href:"/incoloy-800-pipe-supplier-india",label:"Incoloy 800 Pipe"},
-                {href:"/incoloy-825-pipe-supplier-india",label:"Incoloy 825 Pipe"},
+
                 {href:"/monel-400-pipe-supplier-india",label:"Monel 400 Pipe"},
                 {href:"/monel-k500-supplier-india",label:"Monel K500 Round Bar"},
                 {href:"/hastelloy-pipe-supplier-india",label:"Hastelloy C276 Pipe"},

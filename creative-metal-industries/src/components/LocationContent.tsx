@@ -177,8 +177,8 @@ const CITIES: Record<string, CityData> = {
   },
   "jamnagar": {
     city: "Jamnagar", region: "Gujarat", distanceKm: 320, lead: "1-2 days",
-    hubs: ["Reliance Jamnagar Refinery (world's largest)", "Nayara Energy (Vadinar)", "Brass parts cluster"],
-    industries: ["Oil refining (world's largest complex)", "Petrochemicals", "Brass components", "Marine & port"],
+    hubs: ["Reliance Jamnagar Refinery", "Nayara Energy (Vadinar)", "Jamnagar industrial area"],
+    industries: ["Oil refining", "Petrochemicals", "Marine & port"],
     grades: "alloy steel P91/P22 for refinery heaters, super duplex/duplex for seawater, SS 321/347 high-temp, NACE-HIC carbon steel for sour service",
     transport: "Jamnagar is ~320 km from Vadodara — supplied in 1-2 days, with shutdown-priority handling for refinery turnarounds.",
     faqs: [
@@ -649,10 +649,9 @@ export function LocationContent(props: { slug: string }) {
       <h2 style={h2}>Materials & Grades Stocked for {d.city} Projects</h2>
       <p style={p}>
         We hold ready stock across the full catalogue so buyers in {d.city} can source from a single supplier:
-        stainless steel (SS 304, 304L, 316L, 321, 310, 347, 904L), duplex 2205 and super duplex 2507, nickel
-        alloys (Inconel 625/600/718, Monel 400/K500, Hastelloy C276/C22, Incoloy 800/825, Alloy 20),
-        titanium (Grade 2 & Grade 5), copper-nickel, carbon steel (A106, A53, API 5L, SA 516 plate),
-        alloy steel (P5, P9, P11, P22, P91, P92) and structural steel (MS angle, channel, beam, plate, TMT bars).
+        stainless steel (SS 304, 304L, 316L, 321, 310, 347, 904L), Duplex and Super Duplex steel,
+        Inconel, Monel, Hastelloy, titanium, carbon steel (A106, A53, API 5L, SA 516 plate),
+        alloy steel (P5, P9, P11, P22, P91, P92) and related structural steel products.
         All available as pipe, tube, plate, sheet, round bar, buttweld fitting, forged fitting and flange.
       </p>
 

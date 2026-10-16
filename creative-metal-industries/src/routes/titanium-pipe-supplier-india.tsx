@@ -348,7 +348,7 @@ India's specialist <strong style="color:#E8821A">titanium supplier</strong> and 
               { href: "/monel-400-pipe-supplier-india", label: "Monel 400 Pipe" },
               { href: "/hastelloy-pipe-supplier-india", label: "Hastelloy C-276 Pipe" },
               { href: "/inconel-pipe-supplier-india", label: "Inconel 625/600 Pipe" },
-              { href: "/incoloy-800-pipe-supplier-india", label: "Incoloy 800/825 Pipe" },
+
               { href: "/duplex-steel-supplier-vadodara", label: "Duplex 2205/2507" },
             ].map(link => (
               <a href={link.href} style="background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:14px 16px;text-decoration:none;font-size:14px;font-weight:600;color:#E8821A;text-align:center">

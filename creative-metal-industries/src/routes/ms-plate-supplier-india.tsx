@@ -94,7 +94,7 @@ export default function MSPlateSupplierIndia() {
           Mild Steel Plate finds extensive use across multiple industrial sectors. Oil and gas refineries use them in process piping systems. Power plants specify them for steam and condensate service. Chemical and petrochemical facilities require them for corrosive media handling. Pharmaceutical plants need them for sanitary and clean utility systems. Water treatment and desalination projects use them for corrosion-resistant service. EPC contractors source them for large-scale infrastructure projects.
         </p>
         <p style={{ "font-size": "0.95rem", color: "#374151", "line-height": "1.8", "margin-bottom": "1rem" }}>
-          Beyond pipes, Creative Metal Industries also supplies complementary products including SS plates and sheets (304, 316L, Duplex), pipe fittings (buttweld and forged), flanges (WNRF, SORF, blind), and structural steel (TMT bars, MS angle, channel, beam). This one-stop capability means you can source your entire project requirement from a single supplier — reducing coordination effort and ensuring material compatibility.
+          Related steel enquiries may include stainless steel plates and sheets, pipe fittings, flanges and mild-steel structural sections. Confirm the required material, grade and product form for each order.
         </p>
 
         <h2 style={{ "font-size": "1.4rem", "font-weight": "700", color: "#111827", margin: "2rem 0 1rem", "border-bottom": "2px solid #E8821A", "padding-bottom": "0.5rem" }}>Quality Assurance & Documentation</h2>

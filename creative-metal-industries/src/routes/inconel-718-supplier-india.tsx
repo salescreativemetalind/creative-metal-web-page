@@ -157,7 +157,7 @@ export default function Inconel718SupplierIndia() {
               {href:"/inconel-pipe-supplier-india", label:"Inconel 625 Pipe"},
               {href:"/hastelloy-c22-pipe-supplier-india", label:"Hastelloy C22 Pipe"},
               {href:"/monel-k500-supplier-india", label:"Monel K500 Round Bar"},
-              {href:"/incoloy-825-pipe-supplier-india", label:"Incoloy 825 Pipe"},
+
               {href:"/alloy-steel-pipe-supplier-india", label:"Alloy Steel Pipe"},
             ].map(l => (
               <a href={l.href} style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"0.75rem 1rem","font-size":"0.85rem","font-weight":"600",color:"#E8821A","text-decoration":"none"}}>{l.label} →</a>

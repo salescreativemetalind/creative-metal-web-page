@@ -353,7 +353,7 @@ Leading <strong style="color:#E8821A">Hastelloy supplier</strong> of <strong sty
               { href: "/inconel-pipe-supplier-india", label: "Inconel 625/600 Pipe" },
               { href: "/monel-400-pipe-supplier-india", label: "Monel 400 Pipe" },
               { href: "/hastelloy-c22-pipe-supplier-india", label: "Hastelloy C22 Pipe" },
-              { href: "/incoloy-800-pipe-supplier-india", label: "Incoloy 800/825 Pipe" },
+
               { href: "/titanium-pipe-supplier-india", label: "Titanium Pipe" },
               { href: "/duplex-steel-supplier-vadodara", label: "Duplex 2205/2507" },
               { href: "/ss-seamless-pipe-supplier-india", label: "SS Seamless Pipe" },

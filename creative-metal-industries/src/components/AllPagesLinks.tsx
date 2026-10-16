@@ -104,8 +104,7 @@ const NICKEL_LINKS = [
   { href: "/inconel-pipe-supplier-india", label: "Inconel Pipe" },
   { href: "/inconel-600-pipe-supplier-india", label: "Inconel 600 Pipe" },
   { href: "/inconel-718-supplier-india", label: "Inconel 718" },
-  { href: "/incoloy-800-pipe-supplier-india", label: "Incoloy 800 Pipe" },
-  { href: "/incoloy-825-pipe-supplier-india", label: "Incoloy 825 Pipe" },
+
   { href: "/hastelloy-pipe-supplier-india", label: "Hastelloy Pipe" },
   { href: "/hastelloy-c22-pipe-supplier-india", label: "Hastelloy C22 Pipe" },
   { href: "/monel-400-pipe-supplier-india", label: "Monel 400 Pipe" },
@@ -135,7 +134,7 @@ export function AllPagesLinks() {
       <LinkCard icon="⚫" title="Carbon Steel" links={CARBON_LINKS} />
       <LinkCard icon="🔩" title="Alloy Steel (Chrome-Moly)" links={ALLOY_LINKS} />
       <LinkCard icon="🟡" title="Duplex & Super Duplex" links={DUPLEX_LINKS} />
-      <LinkCard icon="🟠" title="Nickel Alloys" links={NICKEL_LINKS} />
+      <LinkCard icon="🟠" title="Inconel, Monel & Hastelloy" links={NICKEL_LINKS} />
       <LinkCard icon="🔵" title="Titanium" links={TITANIUM_LINKS} />
       <LinkCard icon="🏗️" title="Mild / Structural Steel" links={STRUCTURAL_LINKS} />
     </div>

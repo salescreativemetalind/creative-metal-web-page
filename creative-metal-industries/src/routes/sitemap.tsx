@@ -9,9 +9,9 @@ export default function SitemapPage() {
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta property="og:type" content="website" />
       <Meta property="og:title" content="All Pages — Site Map | Creative Metal Industries" />
-      <Meta property="og:description" content="Site map of Creative Metal Industries — stainless steel, carbon steel, alloy steel, duplex, Inconel, Hastelloy, Monel, titanium and mild steel pipe, plate and supplier pages." />
+      <Meta property="og:description" content="Site map of Creative Metal Industries — stainless, carbon and alloy steel, Duplex, Inconel, Hastelloy, Monel and titanium product and supplier pages." />
       <Meta property="og:url" content="https://www.creativemetalind.com/sitemap" />
-      <Meta name="description" content="Site map of Creative Metal Industries — SS, carbon steel, alloy steel, duplex and exotic alloy pipe, plate and supplier pages across India." />
+      <Meta name="description" content="Site map of Creative Metal Industries — stainless, carbon and alloy steel, Duplex, Inconel, Hastelloy, Monel and titanium product pages." />
       <Link rel="canonical" href="https://www.creativemetalind.com/sitemap" />
 
       <section style={{ padding: "3rem 0", "min-height": "80vh" }}>
@@ -21,7 +21,7 @@ export default function SitemapPage() {
               All Pages — Creative Metal Industries
             </h1>
             <p style={{ "font-size": "0.95rem", color: "#6b7280", margin: "0 auto", "max-width": "600px" }}>
-              Every product and supplier page — stainless steel, carbon steel, alloy steel (chrome-moly), duplex and super duplex, Inconel, Incoloy, Hastelloy, Monel, titanium and mild steel pipes, plates and bars.
+              Product and supplier pages for stainless steel, carbon steel, alloy steel (chrome-moly), Duplex and Super Duplex, Inconel, Hastelloy, Monel and titanium.
             </p>
           </div>
 

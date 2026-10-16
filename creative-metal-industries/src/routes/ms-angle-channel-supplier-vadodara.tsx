@@ -12,21 +12,21 @@ const PRODUCTS = [
   { product: "ISMC Channel", standard: "IS 808 / IS 2062 E250", sizes: "ISMC 75 to ISMC 400", weight: "7.14 – 61.6 kg/m", apps: "Industrial sheds, PEB structures, crane rails", stock: "Ready Stock" },
   { product: "MS Flat Bar", standard: "IS 1732 / IS 2062 E250", sizes: "20×3 to 200×25 mm", weight: "0.5 – 39.3 kg/m", apps: "Grills, gates, fabrication, machine parts", stock: "Ready Stock" },
   { product: "MS Round Bar", standard: "IS 2062 E250 / EN8 / EN9", sizes: "8 mm to 200 mm dia", weight: "0.4 – 247 kg/m", apps: "Shafts, axles, bolts, general machining", stock: "Ready Stock" },
-  { product: "TMT Bar (Fe500D)", standard: "IS 1786 Fe500D", sizes: "8 mm to 32 mm dia", weight: "0.39 – 6.31 kg/m", apps: "RCC columns, beams, slabs, foundations", stock: "Ready Stock" },
+
 ];
 
 const SPECS = [
   { label: "Material Grade", value: "IS 2062 E250A / E250B / E250C" },
   { label: "Section Standards", value: "IS 808 (Angle, Channel, Beam sections)" },
-  { label: "TMT Standard", value: "IS 1786 Fe500D — BIS certified" },
+
   { label: "Flat/Round Standard", value: "IS 1732, IS 2062, EN8/EN9" },
   { label: "Lengths Available", value: "6 metre / 12 metre standard, cut-to-length on request" },
   { label: "Dimensional Tolerance", value: "As per IS 808 — weight ±2.5%, length ±50mm" },
-  { label: "Testing", value: "Tensile, bend test, impact test (Charpy), re-bend test for TMT" },
+  { label: "Testing", value: "Confirm applicable testing requirements against the project specification" },
   { label: "Surface Finish", value: "Hot-rolled mill finish, black steel (oiled/non-oiled)" },
   { label: "Origin / Mills", value: "SAIL (Bhilai/Bokaro), Vizag Steel, Rourkela, JSW, RINL" },
   { label: "Certification", value: "ISI mark, BIS certification, mill TC (test certificate)" },
-  { label: "TMT Brands", value: "TATA Tiscon, SAIL TMT, JSW NeoSteel, Vizag TMT, Shyam TMT" },
+
   { label: "Price Range", value: "₹55 – ₹75/kg depending on section and grade" },
 ];
 
@@ -41,11 +41,11 @@ const APPLICATIONS = [
 
 const WHY_BUY = [
   { title: "Located in Vadodara — Same Day Pickup", desc: "Walk in to our F-3 Loha Bhavan, Lakkadpitha Road stockyard. Pick up material same-day without waiting for transport from Ahmedabad or Mumbai." },
-  { title: "Full Structural Range Under One Roof", desc: "Angle, Channel, Beam (ISMB/ISMC), Flat, Round, TMT — all structural sections available from single source. No need to run to multiple dealers." },
+  { title: "Mild-Steel Sections", desc: "Enquire about the listed angle, channel, beam, flat and round bar products; confirm sizes and availability for the order." },
   { title: "Cut-to-Length Available", desc: "We offer cutting facility on-site. Get your angles, channels and flats cut to exact length for your project — saves time and reduces wastage." },
   { title: "Competitive Rates vs Ahmedabad Dealers", desc: "Direct sourcing from SAIL, Vizag and JSW means better rates than Ahmedabad brokers. Save ₹2-5/kg compared to trading desks." },
   { title: "ISI Marked — BIS Certified Material Only", desc: "Every section we sell carries ISI mark and BIS certification. No secondary or defective material. Full mill TC provided on request." },
-  { title: "Construction + Industrial Both Served", desc: "Whether you need TMT for your house construction or ISMC for a factory shed — we supply both residential builders and industrial fabricators in Vadodara." },
+  { title: "Industrial and Fabrication Enquiries", desc: "Share the required section, grade and dimensions so the team can confirm the product and order details." },
 ];
 
 const FAQS = [
@@ -54,25 +54,18 @@ const FAQS = [
     a: "We stock MS Equal Angle from 25×25×3mm to 200×200×25mm, Unequal Angle from 30×20×3 to 200×150×18mm, and ISMC Channel from ISMC 75 to ISMC 400. All sections are IS 808 compliant with IS 2062 E250 grade material. Walk-in at our Lakkadpitha Road stockyard or call +91 99982 80619.",
   },
   {
-    q: "What is the difference between IS 2062 and IS 1786 steel?",
-    a: "IS 2062 covers structural steel (angles, channels, beams, flats, plates) with grades E250A/B/C for general construction and fabrication. IS 1786 specifically covers TMT reinforcement bars (Fe415, Fe500, Fe500D) for RCC construction. Both are BIS certified — we stock both standards at CMI Vadodara.",
-  },
-  {
-    q: "Do you deliver to GIDC Makarpura and all areas of Vadodara?",
+    q: "Do you deliver to GIDC Makarpura and all areas of Vadodara?",},{
     a: "Yes. We deliver across all Vadodara areas — GIDC Makarpura, GIDC Halol, Waghodia, Savli, Gorwa, Maneja, Karelibaug, Alkapuri, Gotri, Fatehgunj and surrounding Gujarat districts including Anand, Bharuch, Dahod. Same-day delivery within Vadodara city limits.",
   },
   {
     q: "What is the price range for MS structural steel in Vadodara?",
-    a: "Current market price for MS structural steel (angle, channel, flat, round) ranges from ₹55 to ₹75 per kg depending on the section, size and grade. TMT bars (Fe500D) are priced separately based on brand. Call +91 99982 80619 for today's live rate.",
+    a: "Pricing for MS structural steel depends on section, size, grade and quantity. Send the required specification to request a current quotation."
   },
   {
     q: "Is there a minimum order quantity (MOQ)?",
     a: "No minimum order for ready stock items. Whether you need 1 piece of ISMC 150 or a full truckload of MS angle — we serve all order sizes. Ideal for small fabricators, construction sites and large industrial projects alike.",
   },
-  {
-    q: "Which TMT bar brands do you stock?",
-    a: "We stock TATA Tiscon, SAIL TMT, JSW NeoSteel, Vizag TMT, Shyam TMT and other BIS-certified Fe500D TMT bars from 8mm to 32mm diameter. All brands carry ISI mark with full mill test certificate. Delivery to your construction site in Vadodara.",
-  },
+
 ];
 
 const SCHEMA = JSON.stringify({
@@ -82,7 +75,7 @@ const SCHEMA = JSON.stringify({
     {
       "@type": "Product",
       "image": "https://www.creativemetalind.com/img/ms-angle.png", "name": "MS Angle & Channel Supplier Vadodara",
-      "description": "MS Equal Angle, Unequal Angle, ISMC Channel, MS Flat Bar, MS Round Bar, TMT Bar Fe500D — IS 808, IS 2062 E250, IS 1786. Ready stock Vadodara.",
+      "description": "MS equal and unequal angle, ISMC channel, flat bar and round bar enquiries in Vadodara; confirm applicable section standards and availability.",
       "brand": { "@type": "Organization", "name": "Creative Metal Industries" },
       "offers": {
         "@type": "AggregateOffer",
@@ -119,15 +112,15 @@ export default function MSAngleChannelSupplierVadodara() {
       <Title>MS Angle &amp; Channel Supplier Vadodara | ISMC | CMI</Title>
       <Meta property="og:type" content="website" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="MS angle supplier Vadodara, MS channel ISMC supplier Gujarat. IS 808, IS 2062 E250. Equal angle 25×25 to 200×200, ISMC 75 to 400, TMT Fe500D." />
+      <Meta name="description" content="MS angle and ISMC channel supplier in Vadodara. Enquire about mild-steel sections by grade and size; confirm current availability and specifications." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ms-angle-channel-supplier-vadodara" />
       <Meta property="og:title" content="MS Angle &amp; Channel Supplier Vadodara | Structural Steel | CMI" />
-      <Meta property="og:description" content="MS angle, ISMC channel, TMT bar, MS flat &amp; round bar supplier in Vadodara. IS 2062 E250, IS 808. Ready stock. ₹55-75/kg. Call +91 99982 80619." />
+      <Meta property="og:description" content="Enquire about mild-steel angles, ISMC channels, flat bars and round bars in Vadodara. Share grade, section and dimensions for a quotation." />
       <Meta property="og:url" content="https://www.creativemetalind.com/ms-angle-channel-supplier-vadodara" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:title" content="MS Angle &amp; Channel Supplier Vadodara | ISMC | Structural Steel | CMI" />
-      <Meta name="twitter:description" content="MS angle, ISMC channel, TMT bar, MS flat &amp; round bar supplier in Vadodara. IS 2062 E250, IS 808. Ready stock. ₹55-75/kg. Call +91 99982 80619." />
+      <Meta name="twitter:description" content="Enquire about mild-steel angles, ISMC channels, flat bars and round bars in Vadodara. Share grade, section and dimensions for a quotation." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
@@ -162,7 +155,7 @@ export default function MSAngleChannelSupplierVadodara() {
               <span style={{ color: "#E8821A" }}>Vadodara</span>
             </h1>
             <p style={{ "font-size": "1.1rem", color: "#374151", "max-width": "720px", "line-height": "1.75", "margin-bottom": "2rem" }}>
-              Creative Metal Industries is your one-stop <strong>structural steel supplier in Vadodara</strong>. We stock <strong>MS Equal & Unequal Angle, ISMC Channel (75–400), MS Flat Bar, MS Round Bar and TMT Bars (Fe500D)</strong> — all compliant with <strong>IS 808, IS 2062 E250 and IS 1786</strong>. Sourced directly from <strong>SAIL, Vizag Steel, Rourkela, JSW</strong>. Walk-in pickup at Lakkadpitha Road or same-day delivery to any Vadodara location. ISI marked, BIS certified — mill test certificate provided.
+              Creative Metal Industries lists mild-steel angles, ISMC channels, flat bars and round bars for Vadodara enquiries. Share the required section, grade, dimensions and quantity so product specifications and current availability can be confirmed.
             </p>
             <div style={{ display: "flex", gap: "1rem", "flex-wrap": "wrap", "margin-bottom": "2.5rem" }}>
               <a href="/#contact" class="btn btn-primary" style={{ "font-size": "1rem", padding: "0.75rem 1.75rem" }}>Get Instant Quote →</a>
@@ -309,7 +302,7 @@ export default function MSAngleChannelSupplierVadodara() {
         <section style={{ padding: "4rem 1.5rem", background: "linear-gradient(135deg,#E8821A,#d85c2a)", "text-align": "center" }}>
           <div style={{ "max-width": "640px", margin: "0 auto" }}>
             <h2 style={{ "font-size": "clamp(1.4rem,3vw,2rem)", "font-weight": "800", color: "#fff", "margin-bottom": "0.75rem" }}>
-              Need MS Angle, Channel or TMT Bar in Vadodara?
+              Need MS Angle or Channel in Vadodara?
             </h2>
             <p style={{ color: "rgba(255,255,255,0.9)", "margin-bottom": "2rem", "font-size": "1rem", "line-height": "1.65" }}>
               Call or WhatsApp for today's rate and stock availability. Same-day pickup from Lakkadpitha Road, Vadodara.

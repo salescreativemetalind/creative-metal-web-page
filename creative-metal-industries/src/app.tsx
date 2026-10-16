@@ -185,7 +185,6 @@ export default function App() {
               "Monel",
               "Hastelloy",
               "Titanium Pipes",
-              "TMT Bars",
               "Structural Steel"
             ],
             "sameAs": [

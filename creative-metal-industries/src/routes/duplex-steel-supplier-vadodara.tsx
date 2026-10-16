@@ -336,7 +336,7 @@ export default function DuplexSteelSupplierVadodara() {
                 { href: "/duplex-2205-plate-supplier-india", label: "Duplex 2205 Plate Supplier India" },
                 { href: "/super-duplex-2507-pipe-supplier", label: "Super Duplex 2507 Pipe Supplier" },
                 { href: "/hastelloy-pipe-supplier-india", label: "Hastelloy C-276 Pipe" },
-                { href: "/incoloy-800-pipe-supplier-india", label: "Incoloy 800/825 Pipe" },
+
                 { href: "/titanium-pipe-supplier-india", label: "Titanium Pipe Supplier India" },
                 { href: "/ss-904l-pipe-supplier-india", label: "SS 904L Pipe Supplier India" },
                 { href: "/alloy-steel-pipe-supplier-india", label: "Alloy Steel Pipe P91/P22" },

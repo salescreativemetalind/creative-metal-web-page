@@ -103,7 +103,7 @@ export function SiteFooter() {
                 loading="lazy"
               />
             </a>
-            <p>Manufacturer, stockist &amp; supplier of SS, Carbon &amp; Alloy Steel Pipes, Plates, Fittings, Flanges and Exotic Alloys. Vadodara, Gujarat. Est. 2012.</p>
+            <p>Industrial supplier of stainless, carbon and alloy steel pipes, plates, fittings and flanges, plus Duplex, Inconel, Monel, Hastelloy and titanium products. Vadodara, Gujarat.</p>
             <nav class="social-links" aria-label="Contact links">
               <a href="mailto:creativemetalind@gmail.com" class="social-link" aria-label="Email">✉</a>
               <a href="tel:+919998280619" class="social-link" aria-label="Phone">📞</a>
@@ -128,7 +128,7 @@ export function SiteFooter() {
               <li><a href="/monel-400-pipe-supplier-india">Monel Pipes</a></li>
               <li><a href="/hastelloy-pipe-supplier-india">Hastelloy Pipes</a></li>
               <li><a href="/titanium-pipe-supplier-india">Titanium Pipes</a></li>
-              <li><a href="/incoloy-800-pipe-supplier-india">Incoloy Pipes</a></li>
+
               <li><a href="/carbon-steel-pipe-supplier-india">Carbon Steel Pipes</a></li>
               <li><a href="/ms-plate-supplier-india">MS Plates</a></li>
               <li><a href="/ss-sheet-supplier-vadodara">SS Sheets &amp; Plates</a></li>
@@ -180,8 +180,8 @@ export function SiteFooter() {
               <li><a href="/astm-a36-steel-plate-supplier-india">ASTM A36 Plate</a></li>
             </ul>
           </nav>
-          <nav aria-label="Duplex and exotic alloys">
-            <h4>Duplex &amp; Exotic Alloys</h4>
+          <nav aria-label="Duplex and specialty metals">
+            <h4>Duplex, Inconel, Monel, Hastelloy &amp; Titanium</h4>
             <ul>
               <li><a href="/duplex-2205-plate-supplier-india">Duplex 2205 Plate</a></li>
               <li><a href="/super-duplex-2507-pipe-supplier">Super Duplex 2507</a></li>
@@ -189,7 +189,7 @@ export function SiteFooter() {
               <li><a href="/hastelloy-pipe-supplier-india">Hastelloy Pipe</a></li>
               <li><a href="/monel-400-pipe-supplier-india">Monel 400 Pipe</a></li>
               <li><a href="/titanium-pipe-supplier-india">Titanium Pipe</a></li>
-              <li><a href="/incoloy-800-pipe-supplier-india">Incoloy 800 Pipe</a></li>
+
             </ul>
           </nav>
           <nav aria-label="Mild and structural steel">
