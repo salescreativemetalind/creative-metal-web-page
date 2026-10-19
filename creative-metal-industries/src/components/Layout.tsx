@@ -34,7 +34,7 @@ export function SiteNav(props: { active?: string }) {
         <a href="/" class="nav-logo" aria-label="Creative Metal Industries — Home">
           <img
             src="/logo_cmi.png"
-            alt="Creative Metal Industries — SS Pipes, Plates & Fittings Manufacturer, Vadodara"
+            alt="Creative Metal Industries"
             class="logo-img"
             width="160"
             height="81"
@@ -144,13 +144,7 @@ export function SiteFooter() {
               <div class="cert-badge">✉ creativemetalind@gmail.com</div>
               <div class="cert-badge">🕐 Mon–Sat: 9 AM – 7 PM</div>
             </div>
-            <h4>Certifications</h4>
-            <div class="footer-cert">
-              <div class="cert-badge">🏅 IBR Form III-C</div>
-              <div class="cert-badge">✅ NACE / HIC Compliant</div>
-              <div class="cert-badge">📄 MTC on All Material</div>
-              <div class="cert-badge">🌍 Export to 50+ Countries</div>
-            </div>
+
           </div>
         </div>
         {/* SEO Internal Links — Product categories */}

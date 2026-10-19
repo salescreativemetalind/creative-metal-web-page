@@ -7,18 +7,18 @@ import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
-  { grade: "SS 310 (TP310)", composition: "25Cr-20Ni", sizes: "1/2\" to 24\"", schedule: "SCH 5S–80S", apps: "Furnace parts, heat treatment baskets, radiant tubes", ht: "Solution Annealed 1040-1100°C", stock: "Ready Stock" },
-  { grade: "SS 310S (TP310S)", composition: "25Cr-20Ni (Low C ≤0.08%)", sizes: "1/2\" to 16\"", schedule: "SCH 5S–80S", apps: "Kiln rollers, thermal oxidizers, incinerators", ht: "Solution Annealed", stock: "Ready Stock" },
-  { grade: "SS 310H (TP310H)", composition: "25Cr-20Ni (High C 0.04-0.10%)", sizes: "1/2\" to 12\"", schedule: "SCH 10S–80S", apps: "High-temp creep service above 600°C", ht: "Solution Annealed", stock: "Available" },
-  { grade: "SS 310MoLN", composition: "25Cr-22Ni-2Mo-N", sizes: "1/2\" to 8\"", schedule: "SCH 10S–40S", apps: "FGD systems, wet scrubbers, urea plants", ht: "Solution Annealed", stock: "Available" },
+  { grade: "SS 310 (TP310)", composition: "25Cr-20Ni", sizes: "1/2\" to 24\"", schedule: "SCH 5S–80S", apps: "Furnace parts, heat treatment baskets, radiant tubes", ht: "Solution Annealed 1040-1100°C", stock: "Confirm per order" },
+  { grade: "SS 310S (TP310S)", composition: "25Cr-20Ni (Low C ≤0.08%)", sizes: "1/2\" to 16\"", schedule: "SCH 5S–80S", apps: "Kiln rollers, thermal oxidizers, incinerators", ht: "Solution Annealed", stock: "Confirm per order" },
+  { grade: "SS 310H (TP310H)", composition: "25Cr-20Ni (High C 0.04-0.10%)", sizes: "1/2\" to 12\"", schedule: "SCH 10S–80S", apps: "High-temp creep service above 600°C", ht: "Solution Annealed", stock: "Confirm per order" },
+  { grade: "SS 310MoLN", composition: "25Cr-22Ni-2Mo-N", sizes: "1/2\" to 8\"", schedule: "SCH 10S–40S", apps: "FGD systems, wet scrubbers, urea plants", ht: "Solution Annealed", stock: "Confirm per order" },
 ];
 
 const FAQS = [
-  { q: "What is the maximum temperature for SS 310/310S pipe?", a: "SS 310/310S can operate continuously up to 1050°C and intermittently up to 1100°C in oxidizing atmospheres. This is significantly higher than SS 304 (870°C) and SS 321 (870°C). The high chromium (25%) and nickel (20%) content provides excellent oxidation resistance and creep strength at elevated temperatures. Creative Metal Industries stocks SS 310/310S pipes for furnace and heat treatment applications across India." },
-  { q: "What is the difference between SS 310, 310S and 310H?", a: "SS 310 is the standard grade (0.25C max). SS 310S has lower carbon (≤0.08%) for better weldability and resistance to intergranular corrosion. SS 310H has controlled higher carbon (0.04-0.10%) for superior creep strength above 600°C. For welded fabrication, specify 310S. For non-welded high-temperature creep service, 310H is preferred. CMI stocks all three variants." },
-  { q: "What sizes of SS 310 pipe do you stock?", a: "We stock SS 310/310S seamless and welded pipes from 1/2 inch (15NB) to 24 inches (600NB) in schedules SCH 5S, 10S, 20S, 40S, and 80S per ASTM A312 TP310S. Standard lengths 5-7 metres (random). Fixed length and cut-to-length available on request. For tube sizes (ASTM A213 TP310S), we stock OD 12.7mm to 114.3mm." },
-  { q: "Which industries use SS 310 pipe in India?", a: "SS 310/310S pipes are used in: cement kilns and rotary furnaces, heat treatment baskets and fixtures, radiant tubes in annealing furnaces, thermal oxidizers and incinerators, glass manufacturing, ceramic industry kilns, steel plant reheating furnaces, and petrochemical ethylene cracker radiant coils. CMI supplies to all these industries from our Vadodara stock." },
-  { q: "What is the price of SS 310 pipe per kg in India?", a: "SS 310/310S pipe prices range from Rs 500-1200 per kg depending on size, schedule, and quantity. SS 310 is more expensive than 304/316L due to higher nickel content (20% vs 8-10%). For accurate pricing, contact Creative Metal Industries at +91 99982 80619. We offer competitive rates with direct mill sourcing from Sandvik, Ratnamani, and imported mills." },
+  { q: "What is the maximum temperature for SS 310/310S pipe?", a: "The service temperature for SS 310/310S depends on the grade, environment, design and applicable specification. Have a qualified engineer confirm suitability for the intended operating conditions. Product details shown on this page are enquiry references and require technical confirmation." },
+  { q: "What is the difference between SS 310, 310S and 310H?", a: "SS 310, 310S and 310H have distinct composition and application requirements. Confirm the required grade against the governing specification and service conditions with a qualified technical professional. The grades shown here are enquiry references; confirm whether a specific grade can be offered for your order." },
+  { q: "What sizes of SS 310 pipe can I enquire about?", a: "The size and schedule details shown on this page are enquiry references, not a stock commitment. Include your required grade, dimensions, schedule and quantity so the team can confirm whether the specification can be offered for your order." },
+  { q: "Which industries use SS 310 pipe in India?", a: "SS 310-family materials may be specified for elevated-temperature applications. The correct grade and product form depend on service conditions and the governing specification; confirm material suitability with a qualified engineer." },
+  { q: "What is the price of SS 310 pipe in India?", a: "No fixed price is published. Pricing depends on the confirmed grade, product form, dimensions, quantity and order requirements. Contact Creative Metal Industries with your specification to request a quotation. Availability, source and terms must be confirmed for the specific order." },
 ];
 
 const SCHEMA = JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.creativemetalind.com"},{"@type":"ListItem","position":2,"name":"SS 310 Pipe Supplier India","item":"https://www.creativemetalind.com/ss-310-pipe-supplier-india"}]}]});
@@ -33,12 +33,12 @@ export default function Ss310PipeSupplierIndia() {
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-310-pipe-supplier-india" />
       <Meta property="og:title" content="SS 310 Pipe Supplier India | High Temperature Stainless Steel | CMI" />
       <Meta property="og:type" content="website" />
-      <Meta property="og:description" content="SS 310/310S pipe supplier India — high temperature service up to 1100°C. ASTM A312. Ready stock Vadodara." />
+      <Meta property="og:description" content="Enquire about SS 310 pipe specifications for high-temperature applications. Share your grade, dimensions and order requirements to request a quotation." />
       <Meta property="og:url" content="https://www.creativemetalind.com/ss-310-pipe-supplier-india" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:title" content="SS 310 Pipe Supplier India | High Temperature | CMI" />
-      <Meta name="twitter:description" content="SS 310/310S pipe supplier India — furnace grade, up to 1100°C. Ready stock." />
+      <Meta name="twitter:description" content="Enquire about SS 310 pipe specifications. Confirm the requested grade, dimensions, availability and order terms for a quotation." />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 
@@ -58,18 +58,18 @@ export default function Ss310PipeSupplierIndia() {
             SS 310 Pipe Supplier in India — High Temperature Stainless Steel
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries is India's trusted <strong>SS 310 pipe supplier</strong> stocking ASTM A312 TP310/310S/310H seamless and welded pipes for high temperature furnace and heat treatment applications. With 25% chromium and 20% nickel, SS 310 offers exceptional oxidation resistance up to 1100°C — significantly outperforming SS 304 and 316L at elevated temperatures. Ready stock in sizes 1/2" to 24" at our Vadodara warehouse with same-day dispatch across India.
+            This page provides SS 310-family pipe information for product enquiries. The listed grades, dimensions and technical details are references only; confirm the applicable specification and material suitability with a qualified engineer, and confirm whether the requested product can be offered for your order.
           </p>
         </div>
 
         {/* Grade Table */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS 310 Pipe Grades — Ready Stock India</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS 310 Pipe Grades — Enquiry References</h2>
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"2rem"}}>
           <table style={{width:"100%","border-collapse":"collapse","font-size":"0.85rem","min-width":"800px"}}>
-            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 0.8rem","text-align":"left"}}>Grade</th><th style={{padding:"0.7rem 0.8rem"}}>Composition</th><th style={{padding:"0.7rem 0.8rem"}}>Sizes</th><th style={{padding:"0.7rem 0.8rem"}}>Schedules</th><th style={{padding:"0.7rem 0.8rem"}}>Applications</th><th style={{padding:"0.7rem 0.8rem"}}>Heat Treatment</th><th style={{padding:"0.7rem 0.8rem"}}>Stock</th></tr></thead>
+            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 0.8rem","text-align":"left"}}>Grade</th><th style={{padding:"0.7rem 0.8rem"}}>Composition</th><th style={{padding:"0.7rem 0.8rem"}}>Sizes</th><th style={{padding:"0.7rem 0.8rem"}}>Schedules</th><th style={{padding:"0.7rem 0.8rem"}}>Applications</th><th style={{padding:"0.7rem 0.8rem"}}>Heat Treatment</th><th style={{padding:"0.7rem 0.8rem"}}>Availability</th></tr></thead>
             <tbody>
               {GRADES.map((g,i) => (
-                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 0.8rem","font-weight":"700"}}>{g.grade}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.composition}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.sizes}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.schedule}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.apps}</td><td style={{padding:"0.6rem 0.8rem","font-size":"0.8rem"}}>{g.ht}</td><td style={{padding:"0.6rem 0.8rem","text-align":"center",color:g.stock==="Ready Stock"?"#16a34a":"#d97706","font-weight":"700"}}>{g.stock}</td></tr>
+                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 0.8rem","font-weight":"700"}}>{g.grade}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.composition}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.sizes}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.schedule}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.apps}</td><td style={{padding:"0.6rem 0.8rem","font-size":"0.8rem"}}>{g.ht}</td><td style={{padding:"0.6rem 0.8rem","text-align":"center",color:"#d97706","font-weight":"700"}}>{g.stock}</td></tr>
               ))}
             </tbody>
           </table>
@@ -87,8 +87,8 @@ export default function Ss310PipeSupplierIndia() {
             {label:"Max Service Temp",value:"1050°C continuous / 1100°C intermittent"},
             {label:"Composition",value:"24-26% Cr, 19-22% Ni, ≤0.25% C (310)"},
             {label:"Testing",value:"Hydrostatic, UT, IGC (A262), PMI, Solution Annealed"},
-            {label:"Certification",value:"MTC EN 10204 3.1/3.2, IBR Form III-C available"},
-            {label:"Mills",value:"Sandvik, Ratnamani, Tubacex, Salzgitter, imported"},
+            {label:"Documentation",value:"Specify required certificates and inspection documents; confirm scope for the specific order"},
+            {label:"Source",value:"Confirm the offered source and supporting documentation for the specific order"},
           ].map(s => (
             <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"1rem"}}>
               <span style={{"font-size":"0.78rem",color:"#6b7280","text-transform":"uppercase","letter-spacing":"0.05em"}}>{s.label}</span>
@@ -115,14 +115,9 @@ export default function Ss310PipeSupplierIndia() {
         {/* Why Choose CMI */}
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Why Buy SS 310 Pipe from Creative Metal Industries?</h2>
         <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","padding-left":"1.25rem"}}>
-          <li><strong>Ready stock:</strong> SS 310/310S in common sizes available for immediate dispatch from Vadodara</li>
-          <li><strong>Complete range:</strong> Seamless pipe, welded pipe, tubes, sheets, plates, fittings — all in 310/310S</li>
-          <li><strong>Mill-direct:</strong> Sourced from Sandvik, Ratnamani, Tubacex, Salzgitter — no middlemen</li>
-          <li><strong>Full documentation:</strong> MTC (EN 10204 3.1/3.2), solution annealing certificate, IGC test report, PMI</li>
-          <li><strong>IBR available:</strong> IBR Form III-C for boiler and pressure vessel applications</li>
-          <li><strong>Technical expertise:</strong> Grade selection assistance — 310 vs 310S vs 310H for your service conditions</li>
-          <li><strong>Pan-India delivery:</strong> Same-day dispatch, 2-5 day delivery anywhere in India</li>
-          <li><strong>Export:</strong> Supply to 50+ countries — UAE, Saudi Arabia, Oman, Kuwait, USA</li>
+          <li>Share the required grade, product form, dimensions and governing specification for review.</li>
+          <li>Confirm availability, source, documentation, inspection scope and delivery terms for the specific order.</li>
+          <li>State any IBR or other project documentation requirements in the enquiry; applicability and availability must be confirmed for the offered material.</li>
         </ul>
 
         {/* FAQ */}
@@ -138,8 +133,8 @@ export default function Ss310PipeSupplierIndia() {
 
         {/* CTA */}
         <div style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)","border-radius":"12px",padding:"2.5rem","text-align":"center","margin-top":"3rem"}}>
-          <h2 style={{color:"#fff","font-size":"1.5rem","font-weight":"800","margin-bottom":"0.75rem"}}>Need SS 310/310S Pipes? Get Instant Quote</h2>
-          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.5rem"}}>Ready stock at Vadodara. Same-day dispatch. Complete MTC documentation.</p>
+          <h2 style={{color:"#fff","font-size":"1.5rem","font-weight":"800","margin-bottom":"0.75rem"}}>Enquire About SS 310/310S Pipe Requirements</h2>
+          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.5rem"}}>Send your specification to request a quotation and confirm availability, documentation and delivery terms for the order.</p>
           <div style={{display:"flex",gap:"1rem","justify-content":"center","flex-wrap":"wrap"}}>
             <a href="tel:+919998280619" style={{background:"#fff",color:"#E8821A","font-weight":"800",padding:"0.75rem 1.5rem","border-radius":"8px","text-decoration":"none"}}>📞 +91 99982 80619</a>
             <a href="https://wa.me/919998280619?text=Hi%2C+I+need+SS+310+pipe+quote" target="_blank" rel="noopener" style={{background:"#25D366",color:"#fff","font-weight":"800",padding:"0.75rem 1.5rem","border-radius":"8px","text-decoration":"none"}}>💬 WhatsApp</a>

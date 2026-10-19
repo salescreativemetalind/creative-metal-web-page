@@ -167,7 +167,7 @@ export default function StainlessSteelSupplierVadodara() {
         <section style={{ background: "linear-gradient(135deg,#fff8f0 0%,#fff 60%)", padding: "4rem 1.5rem 3rem", "border-bottom": "1px solid #e5e7eb" }}>
           <div style={{ "max-width": "900px", margin: "0 auto" }}>
             <span style={{ background: "linear-gradient(135deg,#E8821A,#d85c2a)", color: "#fff", "font-size": "0.78rem", "font-weight": "700", padding: "0.3rem 0.85rem", "border-radius": "99px", "letter-spacing": "0.06em", "text-transform": "uppercase", "margin-bottom": "1rem", display: "inline-block" }}>
-              🏭 Vadodara · Gujarat · Since 2012
+              🏭 Vadodara · Gujarat
             </span>
             <h1 style={{ "font-size": "clamp(1.8rem,5vw,3rem)", "font-weight": "800", "line-height": "1.2", "margin-bottom": "1.25rem", color: "#111827" }}>
               Stainless Steel Supplier in Vadodara
@@ -178,13 +178,13 @@ export default function StainlessSteelSupplierVadodara() {
               For pipe-specific types and specifications, visit our <a href="/ss-pipe-supplier" style={{color:"#E8821A","font-weight":"600"}}>SS Pipe Supplier</a> page. Send your required product form, grade, specification, dimensions and quantity to request a quotation and confirm availability.
             </p>
             <div style={{ display: "flex", gap: "1rem", "flex-wrap": "wrap", "margin-bottom": "2.5rem" }}>
-              <a href="/#contact" class="btn btn-primary" style={{ "font-size": "1rem", padding: "0.75rem 1.75rem" }}>Get Instant Quote →</a>
+              <a href="/#contact" class="btn btn-primary" style={{ "font-size": "1rem", padding: "0.75rem 1.75rem" }}>Request a Quote →</a>
               <a href="tel:+919998280619" class="btn btn-outline" style={{ "font-size": "1rem", padding: "0.75rem 1.75rem" }}>📞 +91 99982 80619</a>
             </div>
             <div style={{ display: "flex", gap: "2rem", "flex-wrap": "wrap" }}>
               {[
                 { num: "Vadodara", label: "Gujarat location" },
-                { num: "Since 2012", label: "Company established" },
+
                 { num: "Pipes to bars", label: "Product forms listed" },
               ].map(s => (
                 <div>
