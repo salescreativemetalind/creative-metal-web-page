@@ -31,7 +31,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function AlloySteelPipeSupplierIndia() {
   return (
     <>
-      <Title>Alloy Steel Pipe Supplier India | P91 P22 P11 | IBR | CMI</Title>
+      <Title>Alloy Steel Pipe Supplier India | ASTM A335 P91, P22, P11 | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Alloy steel pipe supplier in India for ASTM A335 P91, P22 and P11. Specify size and schedule; confirm IBR Form III-C documents and order availability." />
       <Link rel="canonical" href="https://www.creativemetalind.com/alloy-steel-pipe-supplier-india" />
@@ -41,7 +41,7 @@ export default function AlloySteelPipeSupplierIndia() {
       <Meta property="og:url" content="https://www.creativemetalind.com/alloy-steel-pipe-supplier-india" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="Alloy Steel Pipe Supplier India | P91 P22 P11 | IBR | CMI" />
+      <Meta name="twitter:title" content="Alloy Steel Pipe Supplier India | ASTM A335 P91, P22, P11 | CMI" />
       <Meta name="twitter:description" content="Enquire about ASTM A335 P91, P22 and P11 alloy steel pipes. Confirm order availability and any required IBR Form III-C documentation." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
@@ -63,7 +63,7 @@ export default function AlloySteelPipeSupplierIndia() {
             Alloy Steel Pipe Supplier in India — ASTM A335 P91, P22, P11
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries supplies ASTM A335 seamless alloy steel pipes in grades including P11, P22 and P91 for high-temperature industrial service. Share your required grade, size, schedule and delivery location to request a quotation. Confirm current availability and any required IBR Form III-C documentation for the specific order before purchase.
+            The grades listed below are enquiry references for ASTM A335 seamless alloy steel pipe. Confirm whether the requested grade and specification can be offered, along with applicable documents, availability and delivery terms for the specific order.
           </p>
         </div>
 
@@ -79,6 +79,9 @@ export default function AlloySteelPipeSupplierIndia() {
             </tbody>
           </table>
         </div>
+        <p style={{"font-size":"0.85rem",color:"#6b7280","line-height":"1.7","margin":"-1rem 0 1.5rem"}}>
+          The table is a technical enquiry reference, not a live inventory or confirmation that each listed specification can be offered. Verify grade, dimensions, heat treatment and documentation against the governing purchase specification and order documents.
+        </p>
 
         {/* Specifications */}
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Specifications &amp; Technical Details</h2>
@@ -101,7 +104,7 @@ export default function AlloySteelPipeSupplierIndia() {
         </div>
 
         {/* IBR Section */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>IBR Certification — What You Need to Know</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>IBR Requirements for Alloy Steel Pipe Enquiries</h2>
         <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.5rem","margin-bottom":"2rem"}}>
           <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
             <strong>Indian Boiler Regulations (IBR)</strong> requirements depend on the boiler application and project specification. For an alloy steel pipe order, identify the applicable requirements and confirm the documentation needed with the responsible project engineer or inspector.
@@ -124,16 +127,16 @@ export default function AlloySteelPipeSupplierIndia() {
           <strong>P91 pipe</strong> (9Cr-1Mo-V-Nb) is used in high-temperature boiler and steam-piping applications. Its performance depends on correct material selection and heat treatment. For an ASTM A335 P91 enquiry, specify the required size and schedule, and confirm the heat-treatment records, inspection scope and any IBR documentation required for the order.
         </p>
 
-        {/* Why Choose CMI */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Why Choose CMI as Your Alloy Steel Pipe Supplier in India?</h2>
+        {/* RFQ checklist */}
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>What to Include in an Alloy Steel Pipe RFQ</h2>
         <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
-          <li><strong>IBR documentation:</strong> Specify Form III-C requirements and confirm documentation scope for the requested grade and order</li>
-          <li><strong>Order-specific documentation:</strong> Include required certificates, traceability and inspection scope in your enquiry; confirm what applies to the offered material.</li>
-          <li><strong>Grades to enquire about:</strong> P5, P9, P11, P12, P22, P91 and P92; confirm the required grade and current availability for your order.</li>
-          <li><strong>Dimensions and schedules:</strong> Share the required size and schedule, including heavy-wall requirements, for order-specific confirmation.</li>
-          <li><strong>Material requirements:</strong> Identify heat-treatment, PWHT, PMI, hardness or other project requirements in your enquiry for confirmation.</li>
-          <li><strong>Source requirements:</strong> Specify any approved manufacturer and confirm product source and applicable documents for the specific order.</li>
-          <li><strong>Quotation:</strong> Request a quotation with your grade, size, schedule, quantity and documentation requirements.</li>
+          <li><strong>Grade and standard:</strong> State the required ASTM/ASME specification and grade designation.</li>
+          <li><strong>Dimensions:</strong> Provide nominal size or outside diameter, schedule or wall thickness, and required length.</li>
+          <li><strong>Quantity:</strong> Specify number of lengths or total quantity and any cutting requirements.</li>
+          <li><strong>Project requirements:</strong> Include intended service conditions and any project-specific design or inspection requirements.</li>
+          <li><strong>Documents and testing:</strong> List required MTC, traceability, heat-treatment records, tests or inspection scope; identify IBR/Form III-C requirements where applicable.</li>
+          <li><strong>Approved source:</strong> Name any manufacturer or source restrictions in the purchase specification.</li>
+          <li><strong>Delivery:</strong> Provide the destination and requested delivery date so applicable terms can be confirmed for the order.</li>
         </ul>
 
         {/* Applications */}
@@ -155,7 +158,7 @@ export default function AlloySteelPipeSupplierIndia() {
         </div>
 
         {/* Industries */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Industries We Supply Alloy Steel Pipe To</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Industries Where Alloy Steel Pipe May Be Specified</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(220px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
           {[{icon:"\u26A1",name:"Thermal Power Plants"},{icon:"\u{1F6E2}\uFE0F",name:"Oil & Gas Refineries"},{icon:"\u{1F3ED}",name:"Petrochemical Plants"},{icon:"\u{1F331}",name:"Fertilizer Industry"},{icon:"\u2699\uFE0F",name:"Boiler Manufacturers"},{icon:"\u{1F525}",name:"Furnace & Heat Treatment"},{icon:"\u{1F4A8}",name:"Combined Cycle / HRSG"},{icon:"\u{1F3D7}\uFE0F",name:"EPC Contractors"}].map(ind => (
             <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"1rem","text-align":"center"}}>

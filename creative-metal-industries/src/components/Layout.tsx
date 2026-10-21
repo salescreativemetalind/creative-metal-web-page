@@ -18,12 +18,12 @@ const NAV_LINKS = [
 // which give crawlers no path into the product/location hubs from an interior
 // page. These direct links do, and they resolve from anywhere on the site.
 const HUB_LINKS = [
-  { href: "/ss-304-316l-pipe-supplier-india",  label: "SS Pipes" },
+  { href: "/ss-pipe-supplier",                 label: "SS Pipes" },
   { href: "/alloy-steel-pipe-supplier-india",  label: "Alloy Steel" },
   { href: "/duplex-steel-supplier-vadodara",   label: "Duplex" },
-  { href: "/inconel-pipe-supplier-india",      label: "Exotic Alloys" },
-  { href: "/carbon-steel-pipe-supplier-india", label: "Carbon Steel" },
-  { href: "/ms-plate-supplier-india",          label: "Mild Steel" },
+  { href: "/inconel-pipe-supplier-india",      label: "Inconel Pipe" },
+  { href: "/carbon-steel-pipe-supplier-india", label: "Carbon Steel Pipe" },
+  { href: "/ms-plate-supplier-india",          label: "MS Plate" },
   { href: "/products",                         label: "All Products" },
 ];
 

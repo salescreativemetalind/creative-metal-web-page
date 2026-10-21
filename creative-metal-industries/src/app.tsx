@@ -18,7 +18,7 @@ export default function App() {
         <MetaProvider>
           {/* charset + viewport live in entry-server.tsx (the document shell).
               Declaring them here as well produced two of each on every page. */}
-          <Title>Creative Metal Industries | SS Pipes, Plates &amp; Fittings Manufacturer — Vadodara</Title>
+          <Title>Creative Metal Industries | Industrial Metal Supplier in Vadodara</Title>
 
           {/* ── Google Search Console Verification ────────────── */}
           {/* Set VITE_GSC_VERIFICATION in .env to emit this tag */}
@@ -137,15 +137,6 @@ export default function App() {
             "email": "creativemetalind@gmail.com",
             "image": "https://www.creativemetalind.com/og-image.jpg",
             "logo": "https://www.creativemetalind.com/logo_cmi.png",
-            "priceRange": "₹₹₹",
-            "currenciesAccepted": "INR",
-            "paymentAccepted": "Cash, Bank Transfer, NEFT, RTGS, Cheque, LC",
-            "foundingDate": "2012",
-            "numberOfEmployees": {
-              "@type": "QuantitativeValue",
-              "minValue": 5,
-              "maxValue": 10
-            },
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura",
@@ -154,25 +145,6 @@ export default function App() {
               "postalCode": "390001",
               "addressCountry": "IN"
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 22.2964094,
-              "longitude": 73.205506
-            },
-            "hasMap": "https://maps.google.com/?cid=1860157997206534869",
-            "openingHoursSpecification": [
-              {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                "opens": "09:00",
-                "closes": "19:00"
-              }
-            ],
-            "areaServed": [
-              { "@type": "City", "name": "Vadodara" },
-              { "@type": "State", "name": "Gujarat" },
-              { "@type": "Country", "name": "India" }
-            ],
             "knowsAbout": [
               "Stainless Steel Pipes",
               "Carbon Steel Plates",

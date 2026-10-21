@@ -70,7 +70,7 @@ No confirmed on-page issue requiring a code/content change was identified:
 - Canonical and robots metadata are appropriate in the route source.
 - Visible FAQ content matches the FAQ structured data source.
 
-**Implementation decision:** No changes were made to `src/routes/ss-pipe-supplier.tsx`. A rewrite or additional keyword repetition would not be justified by the available evidence. This report is the only file created for this Page 2 audit.
+**Original audit decision (2026-10-15):** No changes were made to `src/routes/ss-pipe-supplier.tsx` at that time. A later focused welded-pipe content refinement is recorded in the follow-up section below.
 
 ## Validation
 
@@ -79,17 +79,31 @@ No confirmed on-page issue requiring a code/content change was identified:
 - Sitemap validation: `npm run check:sitemap` passed; all 51 sitemap URLs have built pages, every indexable built page is in a sitemap, and no noindex page is listed.
 - Lint/type-check/test scripts: `package.json` defines no lint, type-check, or test scripts. The existing build script is `npm run build` (`vinxi build`); sitemap commands are `npm run sitemap` and `npm run check:sitemap`.
 - Mobile layout/functionality: source inspection found responsive flex wrapping, auto-fit grids, overflow-wrapped tables, and existing telephone/WhatsApp/enquiry actions. No interactive browser/device emulation was available, so a full mobile rendering/form submission test was not performed.
-- URL, source functionality, and design were not changed.
+- The original audit did not change the URL, source functionality, or design.
 
 ### Final validation result
 
 - Build: passed (`npm run build`).
 - Sitemap validation: passed (`npm run check:sitemap`).
 - Final `git diff --check`: passed.
-- Git status confirms only this task's report was added; Page 1 work and all unrelated changes remain untouched. The Page 2 route source was not modified.
+- At the time of the original audit, only its report was added; the Page 2 route source was not modified. Subsequent focused source changes are documented below.
 
 ## Remaining uncertainties and recommendations
 
 1. Export Search Console **query + page** data for `/ss-pipe-supplier` over a selected date range to assess query-level performance without combining separate aggregates.
 2. Inspect the deployed raw HTML head or use a browser after a production deployment to independently confirm live title, description, canonical, robots, and structured data.
 3. Validate current grade/specification and application statements with the business's approved technical product records before future copy expansion. This audit did not independently verify commercial inventory or order-specific certificates.
+
+## Follow-up — welded stainless-steel pipe supplier keywords
+
+**Follow-up date:** 2026-10-19
+
+The related query phrases were reviewed against existing routes:
+
+- `stainless steel seamless pipe supplier India` maps to `/ss-seamless-pipe-supplier-india`, whose title, H1, grade/specification content and RFQ guidance already focus on seamless pipe.
+- `stainless steel pipe welded India supplier` and `stainless steel welded pipe supplier` map to the welded-pipe section on `/ss-pipe-supplier`; a separate welded-only page was not created.
+- `SS pipe supplier India` maps to `/ss-pipe-supplier`, which already has an India-focused title, H1, commercial enquiry copy and links to the dedicated seamless page.
+
+**Change:** Added a concise paragraph below the existing welded-pipe explanation in `src/routes/ss-pipe-supplier.tsx`. It gives buyers an RFQ checklist (grade, governing standard, dimensions, quantity and any weld inspection/documentation requirements) and states that availability and terms are confirmed for the order. It does not promise stock, certification, delivery or ranking outcomes. The existing design, URL, metadata, canonical, robots, FAQ/schema, navigation and enquiry actions were not changed.
+
+**Follow-up validation:** `npm run build` passed and prerendered 51 routes; `npm run check:sitemap` passed for all 51 URLs; `git diff --check` passed. The only source file changed in this follow-up is `src/routes/ss-pipe-supplier.tsx`; this report was updated to record the follow-up. Search Console query-by-page evidence remains unavailable in the workbook described above, so no page-specific keyword metrics or ranking impact are claimed. No commit, push or deployment was performed for this follow-up.

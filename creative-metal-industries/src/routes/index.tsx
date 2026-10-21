@@ -19,22 +19,22 @@ const hideOnError = (e: Event) => {
 
 // ─── Hero slideshow — local /img/ files, split layout ────────────────────────
 const SLIDESHOW = [
-  { img: IH("cs_seamless_pipe.png"),     caption: "Carbon Steel Seamless Pipes",grade: "API 5L Gr.B, ASTM A106 Gr.B/C",                              spec: "ASTM A106/A53 · IBR Form III-C · ISMT, Jindal, Maharashtra Seamless" },
+  { img: IH("cs_seamless_pipe.png"),     caption: "Carbon Steel Seamless Pipes",grade: "API 5L Gr.B, ASTM A106 Gr.B/C",                              spec: "ASTM A106/A53 · specify required documentation" },
   { img: IH("alloy_steel_pipe.jpeg"),     caption: "Alloy Steel Pipes",          grade: "P-5, P-9, P-11, P-12, P-22, P-91, P-92",                    spec: "ASTM A335 · High-Temp Service · Sumitomo, Vallourec, ISMT" },
   { img: IH("erw_pipe.jpeg"),             caption: "ERW Pipes",                  grade: "IS 1239 / IS 3589 / API 5L",                                 spec: "15NB–600NB · Light/Medium/Heavy · APL Apollo, Tata, JSW" },
   { img: IH("ss_tubes.jpeg"),             caption: "SS Tubes",                   grade: "TP 304, 316L, 321, 347, Duplex 2205",                        spec: "ASTM A213/A249/A269/A270 · Heat Exchanger & Instrumentation" },
-  { img: IH("boiler_tubes.jpeg"),         caption: "Boiler Tubes",               grade: "SA 179, SA 192, SA 210 Gr.A1, SA 213 T11/T22/T91",          spec: "IBR Form III-C · Hydraulic Test Cert · ISMT, Sandvik" },
+  { img: IH("boiler_tubes.jpeg"),         caption: "Boiler Tubes",               grade: "SA 179, SA 192, SA 210 Gr.A1, SA 213 T11/T22/T91",          spec: "Specify project documentation and inspection requirements" },
   { img: IH("line_pipes.png"),           caption: "Line Pipes",                 grade: "API 5L x42, x52, x60, x65, x70, x80",                       spec: "PSL1 & PSL2 · Seamless / ERW / HSAW / LSAW" },
   { img: IH("ss_buttweld_fittings.jpg"),  caption: "SS Buttweld Fittings",       grade: "TP 304, 316L, 317L, 321, 310, 904L, Duplex 2205",           spec: "ASTM A403/A815 · Elbows, Tees, Reducers · ASME B16.9" },
   { img: IH("forged_fittings.png"),      caption: "Forged Fittings — SS",       grade: "F304, F316L, F321, F51 Duplex, F53 Super Duplex",            spec: "ASTM A182 · SW & Threaded · 2000# to 9000# · ASME B16.11" },
   { img: IH("olets_branch_fitting.png"), caption: "Olets & Branch Fittings",    grade: "All grades SS / CS / AS / Duplex / Inconel",                 spec: "Weldolet, Sockolet, Threadolet · MSS SP-97" },
-  { img: IH("ss_flanges.png"),           caption: "SS Flanges",                 grade: "F304, F316L, F321, F51 Duplex, F53 Super Duplex",            spec: "ASTM A182 · ASME B16.5 (2500#) & B16.47 · IBR" },
-  { img: IH("cs-flanges.png"),           caption: "CS / AS Flanges",            grade: "A105, A350 LF2, F11, F22, F91, F92",                        spec: "ASTM A105/A182 · ASME B16.5/B16.47 · IBR Form III-C" },
+  { img: IH("ss_flanges.png"),           caption: "SS Flanges",                 grade: "F304, F316L, F321, F51 Duplex, F53 Super Duplex",            spec: "ASTM A182 · ASME B16.5 (2500#) & B16.47 · confirm order documents" },
+  { img: IH("cs-flanges.png"),           caption: "CS / AS Flanges",            grade: "A105, A350 LF2, F11, F22, F91, F92",                        spec: "ASTM A105/A182 · ASME B16.5/B16.47 · confirm order documents" },
   { img: IH("SS-Sheets.png"),            caption: "SS Sheets & Plates",         grade: "SS 304, 316L, 317L, 321, 310, 409, 410, 904L",              spec: "ASTM A240/A480 · CR 0.4mm–6mm · Plates 5mm–150mm · Cut-to-size" },
   { img: IH("duplex-plates.png"),        caption: "Duplex Steel Plates",        grade: "UNS S31803 (2205), S32205",                                  spec: "ASTM A240 · 3mm–100mm · Chemical, Desalination" },
   { img: IH("super_duplex-plates.png"),  caption: "Super Duplex Plates",        grade: "UNS S32750 (2507), S32760, S32520",                          spec: "ASTM A240 · PREN > 40 · Offshore, Subsea, Seawater" },
-  { img: IH("carbon-steel-plate.png"),   caption: "Carbon Steel Plates",        grade: "IS 2062 E250/E350, SA 516 Gr.60/70, A36, A572 Gr.50",       spec: "Boiler Quality · NACE/HIC · IBR · 5mm–200mm · SAIL, AMNS" },
-  { img: IH("alloy-steel-plate.png"),    caption: "Alloy Steel Plates",         grade: "ASTM A387 Gr.5, 9, 11, 12, 22, 91 Cl.1 & 2",               spec: "High-Temp Pressure Vessel · Normalised & Tempered · IBR" },
+  { img: IH("carbon-steel-plate.png"),   caption: "Carbon Steel Plates",        grade: "IS 2062 E250/E350, SA 516 Gr.60/70, A36, A572 Gr.50",       spec: "Boiler quality · specify NACE/HIC/IBR clauses for review" },
+  { img: IH("alloy-steel-plate.png"),    caption: "Alloy Steel Plates",         grade: "ASTM A387 Gr.5, 9, 11, 12, 22, 91 Cl.1 & 2",               spec: "Pressure-vessel enquiry · specify condition and documents" },
 
   { img: IH("clad_plates.png"),          caption: "Clad Plates",                grade: "CS/SS · CS/Inconel · CS/Monel · CS/Titanium",               spec: "ASTM A263/A264/A265 · Explosion & Roll Bonded" },
   { img: IH("ms-angle.png"),             caption: "MS Angles (ISMC)",           grade: "IS 2062 E250/E350, ASTM A36",                               spec: "Equal 25×25 to 200×200mm · SAIL, VSP, JSW, TATA" },
@@ -61,13 +61,13 @@ const PRODUCT_CATEGORIES = [
     image: "/products/ss-pipe-fitting.webp",
     tagline: "Seamless & Welded Pipes and Tubes in SS, Carbon, Alloy Steel and Exotic Metals",
     items: [
-      { name: "SS Seamless Pipe",  imgs: [I("ss_seamless_pipes.jpeg")], grade: "TP 304, 304L, 316, 316L, 316Ti, 321, 310, 317L, 347, 410, 420, 904L", make: "Sandvik, Salzgitter, Ratnamani, Venus",   note: "ASTM A312/A213. All schedules SCH5S to XXS. 6NB to 600NB. IBR Form III-C. Oil & Gas, Petrochemical, Power." },
-      { name: "CS Seamless Pipe",  imgs: [I("cs_seamless_pipe.png")],                             grade: "Gr.B, Gr.C — IBR available",                                            make: "ISMT, Jindal, Maharashtra Seamless",    note: "ASTM A106/A53. 6NB to 600NB SCH 40 to XXS. API 5L Gr.B available. IBR Form III-C." },
-      { name: "Alloy Steel Pipe",  imgs: [I("alloy_steel_pipe.jpeg"), I("Alloy.png")],            grade: "P-5, P-9, P-11, P-12, P-22, P-91, P-92",                               make: "Sumitomo, Vallourec, ISMT",             note: "ASTM A335. High-temperature service. Creep-resistant P91/P92 for ultra-supercritical boilers. IBR." },
+      { name: "SS Seamless Pipe",  imgs: [I("ss_seamless_pipes.jpeg")], grade: "TP 304, 304L, 316, 316L, 316Ti, 321, 310, 317L, 347, 410, 420, 904L", make: "Sandvik, Salzgitter, Ratnamani, Venus",   note: "ASTM A312/A213. All schedules SCH5S to XXS. 6NB to 600NB. Specify IBR requirements for order-specific confirmation. Oil & Gas, Petrochemical, Power." },
+      { name: "CS Seamless Pipe",  imgs: [I("cs_seamless_pipe.png")],                             grade: "Gr.B, Gr.C",                                            make: "ISMT, Jindal, Maharashtra Seamless",    note: "ASTM A106/A53. 6NB to 600NB SCH 40 to XXS. API 5L Gr.B availability and IBR Form III-C requirements need order-specific confirmation." },
+      { name: "Alloy Steel Pipe",  imgs: [I("alloy_steel_pipe.jpeg"), I("Alloy.png")],            grade: "P-5, P-9, P-11, P-12, P-22, P-91, P-92",                               make: "Sumitomo, Vallourec, ISMT",             note: "ASTM A335. High-temperature service. Confirm the project grade, product form, applicable specification and IBR requirements for the order." },
       { name: "ERW Pipe",          imgs: [I("erw_pipe.jpeg")],                                     grade: "IS 1239 / IS 3589 / API 5L",                                            make: "APL Apollo, Tata, JSW",                 note: "15NB to 600NB. Light/Medium/Heavy class. Black, galvanized, epoxy coated. SHS/RHS also available." },
       { name: "SS Tubes",          imgs: [I("ss_tubes.jpeg")],                                     grade: "TP 304, 316L, 321, 347, Duplex 2205",                                   make: "Sandvik, Plymouth, Tubacex",            note: "ASTM A213/A249/A269/A270. Heat exchanger, condenser, instrumentation, hygienic and U-bend tubes." },
-      { name: "Boiler Tubes",      imgs: [I("boiler_tubes.jpeg")],                                 grade: "SA 179, SA 192, SA 210 Gr.A1, SA 213 T11/T22/T91",                     make: "ISMT, Sandvik",                         note: "Seamless boiler and superheater tubes. IBR Form III-C. Hydraulic test certification available." },
-      { name: "Line Pipes",        imgs: [I("line_pipes.png")],                                   grade: "API 5L x42, x46, x52, x56, x60, x65, x70, x80",                       make: "Jindal, APL, JSW",                      note: "Seamless/ERW/HSAW/LSAW. PSL1 and PSL2. Mill hydro test certificates and MTC provided." },
+      { name: "Boiler Tubes",      imgs: [I("boiler_tubes.jpeg")],                                 grade: "SA 179, SA 192, SA 210 Gr.A1, SA 213 T11/T22/T91",                     make: "ISMT, Sandvik",                         note: "For boiler and superheater tube enquiries, specify the required product standard, IBR scope and inspection or test documents for confirmation." },
+      { name: "Line Pipes",        imgs: [I("line_pipes.png")],                                   grade: "API 5L x42, x46, x52, x56, x60, x65, x70, x80",                       make: "Jindal, APL, JSW",                      note: "Seamless/ERW/HSAW/LSAW and PSL requirements should be specified; mill hydro test records and MTC availability require order-specific confirmation." },
     ],
   },
   {
@@ -75,15 +75,15 @@ const PRODUCT_CATEGORIES = [
     label: "Pipes, Fittings & Flanges",
     icon: "⚙️",
     image: "/products/ms-fittings.jpeg",
-    tagline: "Buttweld, Forged, Branch Fittings & Flanges in SS, Carbon, Alloy and Exotic Metals — IBR & Non-IBR",
+    tagline: "Buttweld, Forged, Branch Fittings & Flanges in SS, Carbon, Alloy and Exotic Metals — specify applicable compliance requirements",
     items: [
       { name: "SS Buttweld Fittings",      imgs: [I("ss_buttweld_fittings.jpg")],                                grade: "TP 304, 316, 316L, 317L, 321, 310, 904L, Duplex 2205, Super Duplex 2507", make: "Various", note: "ASTM A403/A815. Elbows 45°/90°/180°, equal/reducing tees, reducers, stub ends, caps. SCH 10S to XXS. ASME B16.9." },
-      { name: "CS/AS Buttweld Fittings",   imgs: [I("cs_buttweld_fitting.png"), I("as_buttweld_fitting.png")], grade: "WPB, WPC, WP11, WP22, WP91",                                              make: "Various", note: "ASTM A234/A420. All types. IBR Form III-C. ASME B16.9. SCH 40 to XXS. Power plants, oil refineries." },
+      { name: "CS/AS Buttweld Fittings",   imgs: [I("cs_buttweld_fitting.png"), I("as_buttweld_fitting.png")], grade: "WPB, WPC, WP11, WP22, WP91",                                              make: "Various", note: "ASTM A234/A420. All types. Specify any required IBR scope for order-specific confirmation. ASME B16.9. SCH 40 to XXS. Power plants, oil refineries." },
       { name: "Forged Fittings (SS)",      imgs: [I("forged_fittings.png")],                                    grade: "F304, F316L, F321, F51 Duplex, F53 Super Duplex",                         make: "Various", note: "ASTM A182. Socket weld and threaded. 2000# to 9000# class. ASME B16.11. Elbows, tees, couplings, plugs." },
-      { name: "Forged Fittings (CS/AS)",   imgs: [I("forged_fitting_cs.png"), I("forged_fitting_as.png")],     grade: "A105, A350 LF2, F11, F22, F91",                                           make: "Various", note: "ASTM A105/A182. SW/Threaded. 2000# to 9000#. IBR Form III-C. ASME B16.11." },
+      { name: "Forged Fittings (CS/AS)",   imgs: [I("forged_fitting_cs.png"), I("forged_fitting_as.png")],     grade: "A105, A350 LF2, F11, F22, F91",                                           make: "Various", note: "ASTM A105/A182. SW/Threaded. 2000# to 9000#. Specify any required IBR scope for order-specific confirmation. ASME B16.11." },
       { name: "Olets / Branch Fittings",   imgs: [I("olets_branch_fitting.png")],                               grade: "All grades SS/CS/AS/Duplex/Inconel",                                       make: "Various", note: "Weldolet, sockolet, threadolet, elbolet, latrolet, nipolet. MSS SP-97. All pressure classes." },
-      { name: "SS Flanges",                imgs: [I("ss_flanges.png")],                                         grade: "F304, F316, F316L, F317L, F321, F310, F904L, F51 Duplex, F53 Super Duplex",make: "Various", note: "ASTM A182. Slip-on, weld neck, blind, SW, threaded, lap joint, orifice. ASME B16.5 (2500#) & B16.47. IBR." },
-      { name: "CS/AS Flanges",             imgs: [I("cs-flanges.png"), I("as_flanges.png")],                   grade: "A105, A350 LF2, F11, F22, F91, F92",                                      make: "Various", note: "ASTM A105/A182. All types. ASME B16.5/B16.47. IBR Form III-C. Raised face, flat face, RTJ." },
+      { name: "SS Flanges",                imgs: [I("ss_flanges.png")],                                         grade: "F304, F316, F316L, F317L, F321, F310, F904L, F51 Duplex, F53 Super Duplex",make: "Various", note: "ASTM A182. Slip-on, weld neck, blind, SW, threaded, lap joint, orifice. ASME B16.5 (2500#) & B16.47. Specify applicable IBR requirements for confirmation." },
+      { name: "CS/AS Flanges",             imgs: [I("cs-flanges.png"), I("as-flanges.png")],                   grade: "A105, A350 LF2, F11, F22, F91, F92",                                      make: "Various", note: "ASTM A105/A182. All types. ASME B16.5/B16.47. Specify any required IBR scope for order-specific confirmation. Raised face, flat face, RTJ." },
       { name: "Compression Tube Fittings", imgs: [I("compression-tube-fittings.png")],                          grade: "SS 316/316L, CS, Duplex",                                                  make: "Swagelok / Parker type", note: "Double & single ferrule. 3mm to 38mm tube OD. Instrumentation, chemical injection, hydraulic systems." },
     ],
   },
@@ -96,8 +96,8 @@ const PRODUCT_CATEGORIES = [
     items: [
       { name: "SS Sheet / Plate",            imgs: [I("SS-Sheets.png")],                                    grade: "TP 301, 304, 304L, 316, 316L, 317L, 321, 310, 309, 347, 409, 410, 420, 904L", make: "Jindal, POSCO, Aperam, Outokumpu", note: "ASTM A240/A480. CR sheets 0.4mm-6mm: 2B, BA, No.4, Mirror finishes. Plates 5mm-150mm. Cut-to-size." },
       { name: "Duplex / Super Duplex Plate", imgs: [I("duplex-plates.png"), I("super_duplex-plates.png")],  grade: "UNS S31803 (2205), UNS S32750 (2507), UNS S32760, S32205",                  make: "Outokumpu, Sandvik, POSCO",        note: "ASTM A240. Plates 3mm-100mm. High strength with excellent corrosion resistance. Chemical, desalination." },
-      { name: "Carbon Steel Plate",          imgs: [I("carbon-steel-plate.png"), I("ms_plate.png")],        grade: "IS 2062 E250/E350, SA 516 Gr.60/70, SA 537 Cl.1/2, ASTM A36, A572 Gr.50",   make: "SAIL, AMNS, TATA, JSW",           note: "Boiler quality, pressure vessel, structural. NACE, HIC stock available. IBR. 5mm-200mm thick." },
-      { name: "Alloy Steel Plate",           imgs: [I("alloy-steel-plate.png")],                             grade: "ASTM A387 Gr.5, 9, 11, 12, 22, 91 Class 1 & 2",                             make: "SAIL, AMNS, TATA",                 note: "High-temperature pressure vessel service. Normalised and tempered. PWR tested. IBR available." },
+      { name: "Carbon Steel Plate",          imgs: [I("carbon-steel-plate.png"), I("ms_plate.png")],        grade: "IS 2062 E250/E350, SA 516 Gr.60/70, SA 537 Cl.1/2, ASTM A36, A572 Gr.50",   make: "SAIL, AMNS, TATA, JSW",           note: "Boiler quality, pressure vessel, structural. Specify any NACE/HIC testing, IBR scope and required thickness for order-specific confirmation. 5mm-200mm thickness is a page-listed enquiry range, subject to confirmation." },
+      { name: "Alloy Steel Plate",           imgs: [I("alloy-steel-plate.png")],                             grade: "ASTM A387 Gr.5, 9, 11, 12, 22, 91 Class 1 & 2",                             make: "SAIL, AMNS, TATA",                 note: "High-temperature pressure vessel service. Specify heat-treatment condition, PWR testing and IBR requirements for confirmation; none are confirmed here." },
       { name: "Hardox / Wear Plate",         imgs: [I("hardox-sheet-plate.png"), I("wear_plate.png")],      grade: "Hardox 400/450/500/600, Abrex 400/500, S690QL, Weldox 700/900",             make: "SSAB, TATA, SAIL, AMNS",          note: "Corten A/B, S355J2+N, Hiten, Welten in all sizes. Abrasion & impact resistant. Mining, cement, construction." },
       { name: "Clad Plates",                 imgs: [I("clad_plates.png")],                                   grade: "CS/SS, CS/Inconel, CS/Monel, CS/Titanium",                                   make: "NobelClad, Titanium Industries",   note: "Explosion bonded and roll bonded. ASTM A263/A264/A265. Corrosion resistance + structural strength." },
     ],
@@ -149,8 +149,8 @@ const BRANDS = [
 ];
 
 const METALS = [
-  { icon: "⚪", name: "Stainless Steel (Austenitic)", grade: "SS 304, 304L, 316, 316L, 317L, 321, 310, 347, 904L",          forms: "Pipes · Tubes · Plates · Fittings · Flanges · Bars", tag: "Most Stocked" },
-  { icon: "🔩", name: "Carbon & Low Alloy Steel",     grade: "IS 2062, ASTM A106/A36, SA 516, API 5L",                      forms: "Pipes · Plates · Structural · ERW",                 tag: "IBR Available" },
+  { icon: "⚪", name: "Stainless Steel (Austenitic)", grade: "SS 304, 304L, 316, 316L, 317L, 321, 310, 347, 904L",          forms: "Pipes · Tubes · Plates · Fittings · Flanges · Bars", tag: "Product category" },
+  { icon: "🔩", name: "Carbon & Low Alloy Steel",     grade: "IS 2062, ASTM A106/A36, SA 516, API 5L",                      forms: "Pipes · Plates · Structural · ERW",                 tag: "Product category" },
   { icon: "🟠", name: "Alloy Steel",                  grade: "P5, P9, P11, P22, P91, P92, T11, T22, T91",                  forms: "Seamless Pipes · Tubes · Plates · Fittings",        tag: "High Temp" },
   { icon: "🔵", name: "Duplex & Super Duplex",        grade: "S31803 (2205), S32750 (2507), S32760, S32205",                forms: "Pipes · Plates · Fittings · Flanges · Bars",        tag: "Corrosion Resistant" },
   { icon: "🟡", name: "Inconel / Monel / Hastelloy",  grade: "Inconel 600/625/718, Monel 400, Hastelloy C-276/C-22",       forms: "Pipes · Plates · Bars · Fittings · Flanges",        tag: "Exotic Alloy" },
@@ -159,18 +159,18 @@ const METALS = [
 ];
 
 const NEWS = [
-  { date: "Jun 2026", title: "India Safeguard Duty 12% on Flat Steel Imports",    body: "India imposed 12% safeguard duty on selected flat steel imports from China, Vietnam and Nepal. CMI domestic stock unaffected — full availability maintained." },
+  { date: "Jun 2026", title: "India Safeguard Duty 12% on Flat Steel Imports",    body: "India imposed 12% safeguard duty on selected flat steel imports from China, Vietnam and Nepal. Contact the team to confirm any effect on a specific product enquiry." },
   { date: "May 2026", title: "SS 316L & Duplex 2205 Prices Firm on Nickel Rally", body: "Global nickel price increase pushes 316L and duplex 2205 pipe and plate rates higher. Lock your rates now — contact us for current pricing." },
-  { date: "Apr 2026", title: "P91 Alloy Steel IBR Compliant Stock Available",     body: "We now carry ready stock of SA 335 P91 seamless pipes with IBR Form III-C certification for ultra-supercritical boiler projects." },
+  { date: "Apr 2026", title: "P91 Alloy Steel Pipe Enquiries",                   body: "For a P91 pipe enquiry, share the project specification and any IBR documentation clauses for order-specific review." },
 ];
 
 const SERVICES = [
-  { icon: "🏭", title: "Manufacturer & Stockist",    desc: "We manufacture, stock and supply. Not a middleman — direct from our Vadodara facility and authorised mill network." },
-  { icon: "🌍", title: "Import & Worldwide Sourcing", desc: "Direct import channels from Europe, Japan, Korea and USA for specialty grades not available domestically." },
-  { icon: "📄", title: "MTC & IBR Documentation",    desc: "Mill Test Certificates (EN 10204 3.1/3.2), IBR Form III-C, NACE, HIC, PWHT reports for every consignment." },
-  { icon: "🔬", title: "Third-Party Inspection",     desc: "Inspection under BVIS, DNV, TUV, SGS, LRIS and customer TPI agencies. Stage-wise inspection available." },
-  { icon: "✂️", title: "Value-Added Processing",     desc: "Cut-to-size, bevel cutting, threading, polishing, pickling, passivation and heat treatment services." },
-  { icon: "🚚", title: "Pan-India & Export Delivery", desc: "Dispatched from 1092 sq.mtr GIDC Makarpura yard. Exports to UAE, Oman, Bahrain, Kuwait, UK, USA and worldwide." },
+  { icon: "🏭", title: "Product Enquiries",           desc: "Share the material, grade and product form specified for your project; supply scope must be confirmed for each enquiry." },
+  { icon: "🌍", title: "Sourcing Requirements",       desc: "Include the requested source or mill in your enquiry. Any sourcing option must be confirmed for the specific requirement." },
+  { icon: "📄", title: "Documentation Requirements", desc: "List required MTC, IBR, NACE, HIC, PWHT or other documents so scope can be checked against the specific order." },
+  { icon: "🔬", title: "Inspection Requirements",     desc: "Specify required tests, inspection stages or third-party agencies; confirm applicability and arrangements for the order." },
+  { icon: "✂️", title: "Processing Requirements",    desc: "Include any cutting, threading, finishing or heat-treatment requirements in the RFQ for confirmation." },
+  { icon: "🚚", title: "Delivery Requirements",       desc: "Include the destination and requested delivery date; delivery options and timing require order-specific confirmation." },
 ];
 
 const INDUSTRIES = [
@@ -186,12 +186,12 @@ const TICKER_ITEMS = [
   "SS Pipes · Plates · Fittings · Flanges",
   "Duplex Steel 2205 · Super Duplex 2507",
   "Inconel 625 · Monel 400 · Hastelloy C-276",
-  "Carbon Steel IBR Certified",
+  "Project documentation requirements by order",
   "Alloy Steel P91 · P22 · P11",
   "Titanium Grade 1 · Grade 2 · Grade 5",
-  "MTC · IBR · NACE · HIC Certified",
-  "Manufacturer · Stockist · Supplier",
-  "Export to 50+ Countries",
+  "MTC · IBR · NACE · HIC: confirm order scope",
+  "Industrial metal product enquiries",
+  "Share destination for delivery review",
 ];
 
 const FAQS = [
@@ -201,31 +201,31 @@ const FAQS = [
   },
   {
     q: "What types of stainless steel pipes do you supply?",
-    a: "We supply SS seamless and welded pipes in grades TP 304, 304L, 316, 316L, 317L, 321, 310S, 347, 409, 410, 420 and 904L as per ASTM A312 and A213. Available in all schedules from SCH 5S to XXS, sizes 6NB to 600NB. We also stock Duplex 2205 and Super Duplex 2507 pipes. See our SS 304/316L page at /ss-304-316l-pipe-supplier-india, SS 321 at /ss-321-pipe-supplier-india, SS 310 at /ss-310-pipe-supplier-india, SS 904L at /ss-904l-pipe-supplier-india, or Super Duplex 2507 at /super-duplex-2507-pipe-supplier for grade-specific details.",
+    a: "The site lists SS seamless and welded pipe categories and grade-specific pages. For an enquiry, send the project-specified grade, pipe standard, size, schedule, quantity and delivery destination; product scope and availability require confirmation.",
   },
   {
     q: "Do you supply Alloy Steel Pipes for high-temperature service?",
-    a: "Yes. We are stockists of Alloy Steel seamless pipes as per ASTM A335 in grades P5, P9, P11, P12, P22, P91 and P92. These are used in boilers, superheaters and ultra-supercritical power plants. Available with IBR Form III-C certification. Visit /alloy-steel-pipe-supplier-india for complete grade details, specifications and IBR documentation information.",
+    a: "For an alloy steel pipe enquiry, provide the project-specified grade, ASTM A335 requirements, dimensions, quantity and destination. Include any IBR clauses or documentation requirements for order-specific review. Visit /alloy-steel-pipe-supplier-india for the alloy-pipe enquiry page.",
   },
   {
     q: "Which specialty metals are covered on the product pages?",
-    a: "The product pages cover Duplex and Super Duplex steel, Inconel, Monel, Hastelloy and titanium, alongside carbon, alloy and stainless steel products. Use the relevant product page to review the listed grades and specifications, then confirm current availability and documentation for your enquiry.",
+    a: "The site has pages for Duplex and Super Duplex steel, Inconel, Monel, Hastelloy and titanium, alongside carbon, alloy and stainless steel. Treat page-listed details as enquiry information and confirm product form, specification, availability and documentation for a specific order.",
   },
   {
-    q: "What certifications and documentation do you provide?",
-    a: "We provide Mill Test Certificates (MTC) as per EN 10204 3.1/3.2, IBR Form III-C for boiler and pressure vessel materials, NACE MR-01-75 compliance, HIC tested plates, and third-party inspection under DNV, TUV, SGS, BVIS and LRIS.",
+    q: "How should I request certification or inspection documents?",
+    a: "List the required certificate, inspection clause or standard in your enquiry. The scope and availability of documents must be confirmed against the specific product and order; this page does not claim a certification.",
   },
   {
     q: "Do you supply to Oil & Gas and Petrochemical industries?",
-    a: "Yes. Oil & Gas, Petrochemicals, Fertilizers, Power plants, Cement, Chemicals and Refineries are our primary industries. We supply API 5L Line Pipes (x42 to x80), SS seamless pipes, alloy steel P91/P22 pipes, and exotic alloys used in these critical applications.",
+    a: "These industries may specify metal products covered by the site's product categories. Share your project specification and intended service conditions so the requested material requirements can be reviewed.",
   },
   {
     q: "Do you export outside India?",
-    a: "Yes. We export to UAE, Oman, Bahrain, Kuwait, Saudi Arabia, UK, USA and other countries. We handle export documentation, packing lists, and can arrange third-party inspection at our Vadodara facility before shipment.",
+    a: "For an export enquiry, include the destination, requested product, quantity and documentation requirements. Export scope, shipping options and inspection arrangements require confirmation for the specific order.",
   },
   {
     q: "What is your minimum order quantity?",
-    a: "We supply from single pieces to full truck/container loads. There is no fixed minimum — we cater to both small workshops and large EPC contractors. Contact us with your requirement and we will provide the best price and availability.",
+    a: "Include the required quantity in your enquiry. Minimum order, price and availability depend on the product and order requirements and must be confirmed in a quotation.",
   },
   {
     q: "Where are you located and how can I visit?",
@@ -234,10 +234,10 @@ const FAQS = [
 ];
 
 const ACHIEVEMENTS = [
-  { num: "2012", label: "Year Established", icon: "🏭" },
-  { num: "15+", label: "Years Experience", icon: "📅" },
-  { num: "500+", label: "Projects Delivered", icon: "✅" },
-  { num: "50+", label: "Countries Exported", icon: "🌍" },
+  { num: "RFQ", label: "Project specification", icon: "📄" },
+  { num: "Grade", label: "Material designation", icon: "🔩" },
+  { num: "Size", label: "Product dimensions", icon: "📐" },
+  { num: "Docs", label: "Required documents", icon: "✅" },
   { num: "10+", label: "Metal Alloy Families", icon: "⚙️" },
   { num: "1092", label: "Sq.Mtr Yard Area", icon: "🏗️" },
 ];
@@ -265,12 +265,12 @@ function Nav() {
   // homepage — they gave Google no crawlable path from the header into the
   // product/location hubs. These direct links do, and they work from any page.
   const hubLinks = [
-    { href: "/ss-seamless-pipe-supplier-india",  label: "SS Pipes" },
+    { href: "/ss-pipe-supplier",                 label: "SS Pipes" },
     { href: "/alloy-steel-pipe-supplier-india",  label: "Alloy Steel" },
     { href: "/duplex-steel-supplier-vadodara",   label: "Duplex" },
-    { href: "/inconel-pipe-supplier-india",      label: "Exotic Alloys" },
-    { href: "/carbon-steel-pipe-supplier-india", label: "Carbon Steel" },
-    { href: "/ms-beam-ismb-supplier-india",      label: "Structural Steel" },
+    { href: "/inconel-pipe-supplier-india",      label: "Inconel Pipe" },
+    { href: "/carbon-steel-pipe-supplier-india", label: "Carbon Steel Pipe" },
+    { href: "/ms-beam-ismb-supplier-india",      label: "MS Beam ISMB" },
     { href: "/products",                         label: "Charts & Specs" },
   ];
   return (
@@ -280,7 +280,7 @@ function Nav() {
           <a href="/" class="nav-logo" aria-label="Creative Metal Industries — Home">
             <img
               src="/logo_cmi.png"
-              alt="Creative Metal Industries — SS Pipes, Plates & Fittings Manufacturer, Vadodara"
+              alt="Creative Metal Industries"
               class="logo-img"
               width="160"
               height="81"
@@ -328,15 +328,15 @@ function Hero() {
       <div class="container">
         <div class="hero-inner">
           <div class="hero-content">
-            <div class="hero-badge">🏭 Manufacturer · Stockist · Supplier — Vadodara, Gujarat</div>
+            <div class="hero-badge">Industrial metal product enquiries — Vadodara, Gujarat</div>
             <h1>Industrial Metal Pipes, Plates &amp; Alloys Supplier <em>Vadodara</em></h1>
             <p class="hero-sub">
-              Creative Metal Industries, Vadodara — manufacturer, stockist and supplier of{" "}
-              <a href="/stainless-steel-supplier-vadodara" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Stainless Steel</a>,{" "}
+              Creative Metal Industries, Vadodara — industrial metal product enquiries for{" "}
+              <a href="/stainless-steel-supplier-vadodara" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>stainless-steel products</a>,{" "}
               <a href="/duplex-steel-supplier-vadodara" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Duplex &amp; Super Duplex</a>,{" "}
-              <a href="/carbon-steel-pipe-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Carbon Steel</a> &amp;{" "}
-              <a href="/alloy-steel-pipe-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Alloy Steel</a> Pipes, Plates, Fittings, Flanges and{" "}
-              <a href="/inconel-pipe-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Exotic Alloys</a>. Serving Oil &amp; Gas, Petrochemical, Power and
+              <a href="/carbon-steel-pipe-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>carbon-steel pipes</a>,{" "}
+              <a href="/alloy-steel-pipe-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>alloy-steel pipes</a>, plates, fittings, flanges and{" "}
+              <a href="/inconel-pipe-supplier-india" style={{"color":"inherit","text-decoration":"underline","text-decoration-color":"rgba(232,130,26,0.4)","text-underline-offset":"2px"}}>Inconel pipe</a>. Serving Oil &amp; Gas, Petrochemical, Power and
               Fertilizer industries worldwide.
             </p>
             <div class="hero-actions">
@@ -344,7 +344,7 @@ function Hero() {
               <a href="#product-tabs" class="btn btn-outline">View Products</a>
             </div>
             <div class="hero-stats">
-              <div class="stat-item"><span class="stat-num">Since 2012</span><span class="stat-label">Vadodara-based business</span></div>
+              <div class="stat-item"><span class="stat-num">Vadodara</span><span class="stat-label">Business location</span></div>
               <div class="stat-item"><span class="stat-num">Multiple</span><span class="stat-label">Industrial metal categories</span></div>
               <div class="stat-item"><span class="stat-num">Pipes to plates</span><span class="stat-label">Products for enquiry</span></div>
             </div>
@@ -353,7 +353,7 @@ function Hero() {
             <div class="hero-card-main">
               <div class="hero-card-emoji">🛢️</div>
               <div class="hero-card-tag">📍 Vadodara, Gujarat</div>
-              <h3>Industrial Metal Products</h3>
+              <div class="hero-card-title">Industrial Metal Products</div>
               <p>Stainless, carbon and alloy steel product information for industrial enquiries</p>
             </div>
             <div class="hero-float-badge">
@@ -557,6 +557,9 @@ function ProductsSection() {
             <span class="hss-label">Specification</span>
             <span>{cur().spec}</span>
           </div>
+          <p style={{"font-size":"0.76rem",color:"#6b7280","line-height":"1.5","margin":"0.5rem 0 0"}}>
+            Listed grades, standards, dimensions, product forms and source names are enquiry references only; confirm applicability, availability and documents for the specific order.
+          </p>
           <div class="hss-actions">
             <a href="#contact" class="btn btn-primary">Request a Quote →</a>
             <a href="#product-tabs" class="btn btn-outline">View All Products</a>
@@ -651,13 +654,14 @@ function ProductsSection() {
               <div class="pdc-body">
                 <h4>{item.name}</h4>
                 <div class="pdc-grade"><span class="pdc-label">Grade</span><span>{item.grade}</span></div>
-                <div class="pdc-make"><span class="pdc-label">Make</span><span>{item.make}</span></div>
+                <div class="pdc-make"><span class="pdc-label">Listed source*</span><span>{item.make}</span></div>
                 <p class="pdc-note">{item.note}</p>
               </div>
               <span class="pdc-enquire">View &amp; Enquire →</span>
             </button>
           )}</For>
         </div>
+        <p class="product-data-note">* Product grades, dimensions, standards and source names shown on this page are enquiry references only. They do not confirm current availability, conformance, authorization or a supply relationship; confirm details for the specific order.</p>
         <div class="view-more-wrap">
           <a href="/products" class="btn btn-primary">📐 Steel Product Specifications &amp; Size Charts →</a>
           <a href="#contact" class="btn btn-outline">Can't find your grade? Send us an indent →</a>
@@ -682,7 +686,7 @@ function ProductsSection() {
               </div>
               <div class="prod-modal-specs">
                 <div class="spec-row"><span class="spec-label">Grade / Standard</span><span class="spec-val">{selected()!.grade}</span></div>
-                <div class="spec-row"><span class="spec-label">Available Make</span><span class="spec-val">{selected()!.make}</span></div>
+                <div class="spec-row"><span class="spec-label">Listed source*</span><span class="spec-val">{selected()!.make}</span></div>
                 <div class="spec-row spec-note"><span class="spec-label">Product Details</span><span class="spec-val">{selected()!.note}</span></div>
               </div>
               <div class="prod-modal-actions">
@@ -694,7 +698,7 @@ function ProductsSection() {
                   onClick={openReview}
                 >⭐ Write a Review</button>
               </div>
-              <p class="prod-modal-cert">🏅 IBR Form III-C · MTC on all material · Export worldwide</p>
+              <p class="prod-modal-cert">Product details and listed sources require order-specific confirmation. Include required IBR, MTC, inspection and delivery clauses in your enquiry.</p>
 
               {/* ── Inline product review form ─────────────────── */}
               <Show when={showReviewForm()}>
@@ -821,11 +825,12 @@ function ProductsSection() {
 function BrandsSection() {
   const logos = [...BRANDS, ...BRANDS];
   return (
-    <section class="brands-section" aria-label="Mill sources">
+    <section class="brands-section" aria-label="Steel brand names shown on the site">
       <div class="container">
         <div class="section-head-center">
-          <span class="section-label">Our Mill Sources</span>
-          <h2>Top Brands &amp; Mills</h2>
+          <span class="section-label">Brand references</span>
+          <h2>Steel Brand Names</h2>
+          <p>Logos are shown for identification only and do not establish mill authorization or a current supply relationship.</p>
         </div>
         <div class="brands-track-wrap" aria-hidden="true">
           <div class="brands-track">
@@ -848,10 +853,10 @@ function MetalsSection() {
       <div class="container">
         <div class="services-header">
           <div>
-            <span class="section-label">What We Stock &amp; Supply</span>
+            <span class="section-label">Listed Product Categories</span>
             <h2>Metals &amp; Alloys</h2>
           </div>
-          <p>Manufacturer, stockist and direct importer of all major grades — full traceability and certifications for critical applications.</p>
+          <p>Review the site's product categories and send your project specification for order-specific confirmation.</p>
         </div>
         <div class="services-grid" role="list">
           <For each={METALS}>{(m) => (
@@ -868,13 +873,13 @@ function MetalsSection() {
         <div class="special-note-banner">
           <div class="snb-icon">✨</div>
           <div class="snb-body">
-            <strong>We Manufacture &amp; Stock Special &amp; Exotic Grades</strong>
+            <strong>Specialty Metal Enquiries</strong>
             <p>
               Duplex 2205 · Super Duplex 2507 · Inconel 600/625/718 · Monel 400/K500 ·
               Hastelloy C-22/C-276 · Titanium Grades 1, 2 and 5
             </p>
             <p style="margin-top:0.4rem;font-size:0.8rem;opacity:0.8">
-              Available in Pipes, Plates, Sheets, Bars, Fittings &amp; Flanges — all sizes and ASTM/ASME standards.
+              Specify the product form, governing standard and dimensions required for your project.
             </p>
           </div>
           <a href="#products" class="btn btn-primary snb-btn" style="flex-shrink:0">
@@ -918,7 +923,7 @@ function Industries() {
         <div class="industries-header">
           <span class="section-label">Industries We Serve</span>
           <h2>Critical Industry Supply</h2>
-          <p>Our IBR, NACE and MTC certified materials supply the most demanding industries across the globe.</p>
+          <p>For project requirements, share the material specification and any IBR, NACE, MTC or inspection clauses that need review.</p>
         </div>
         <div class="industries-grid" role="list">
           <For each={INDUSTRIES}>{(ind) => (
@@ -944,38 +949,36 @@ function AboutSection() {
           <div class="about-top-left">
             <span class="section-label">About Us</span>
             <h2>Creative Metal Industries</h2>
-            <p class="about-tagline">Vadodara's Trusted Manufacturer, Stockist &amp; Supplier of Industrial Steel &amp; Alloys</p>
+            <p class="about-tagline">Industrial Metal Product Enquiries in Vadodara</p>
           </div>
           <div class="about-top-divider" aria-hidden="true"/>
           <div class="about-top-right">
             <p>
-              Established in <strong>2012</strong> and headquartered at <strong>Loha Bhavan,
-              Lakkadpitha Road, Vadodara, Gujarat</strong>, Creative Metal Industries is a
-              premier manufacturer, stockist and supplier of Stainless Steel, Carbon Steel,
-              Alloy Steel and Exotic Metal products for the most demanding industrial
-              applications.
+              Creative Metal Industries is based at <strong>Loha Bhavan,
+              Lakkadpitha Road, Vadodara, Gujarat</strong>. The website lists Stainless Steel,
+              Carbon Steel, Alloy Steel and specialty metal product categories; confirm the
+              requested product form and supply scope for each enquiry.
             </p>
             <p>
-              With over <strong>15 years of combined industry experience</strong>, our team of
-              qualified engineers and procurement specialists delivers a comprehensive range
-              of <a href="/ss-seamless-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>SS/CS/AS Pipes</a>,{" "}
+              Product pages cover <a href="/ss-pipe-supplier" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>stainless steel pipes</a>,{" "}
+              <a href="/carbon-steel-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>carbon steel pipes</a> and{" "}
+              <a href="/alloy-steel-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>alloy steel pipes</a>,{" "}
               Tubes, Plates, Sheets, Buttweld &amp; Forged Fittings, Flanges,{" "}
-              <a href="/ms-beam-ismb-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Structural Steel</a> and Special Alloys including{" "}
+              <a href="/ms-beam-ismb-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>MS beams (ISMB)</a> and Special Alloys including{" "}
               <a href="/duplex-steel-supplier-vadodara" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Duplex</a>,{" "}
-              <a href="/inconel-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Inconel</a>,{" "}
-              <a href="/monel-k500-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Monel</a>,{" "}
-              <a href="/hastelloy-c22-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Hastelloy</a> and Titanium products.
+              <a href="/inconel-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Inconel pipe</a>,{" "}
+              <a href="/monel-400-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Monel 400</a>,{" "}
+              <a href="/hastelloy-pipe-supplier-india" style={{"color":"var(--amber)","text-decoration":"none","font-weight":"600"}}>Hastelloy pipe</a> and Titanium products.
             </p>
             <p>
-              Operating from a <strong>1,092 sq.mtr warehouse and yard at GIDC Makarpura,
-              Vadodara</strong>, we maintain deep ready stock and offer value-added services
-              including cut-to-size, bevel cutting, threading and surface finishing. Materials
-              are regularly inspected by <strong>DNV, TUV, SGS, BVIS and LRIS</strong>.
+              For an enquiry, provide product dimensions, quantity, any requested processing,
+              inspection or documentation clauses, and the delivery destination. Each requested
+              service and its scope require confirmation for the specific order.
             </p>
             <p>
-              We export to <strong>UAE, Oman, Bahrain, Kuwait, Saudi Arabia, UK, USA</strong> and
-              over 50 countries globally, serving Oil &amp; Gas, Petrochemical, Power, Fertilizer,
-              Cement, Chemical, Pharmaceutical, Marine and Defence industries.
+              Include the delivery destination and intended service conditions in your request.
+              This helps clarify the product specification and any destination-specific
+              documentation or logistics requirements.
             </p>
           </div>
         </div>
@@ -985,29 +988,29 @@ function AboutSection() {
           <div class="pillar-card">
             <div class="pillar-icon-wrap"><span class="pillar-icon">🎯</span></div>
             <div class="pillar-body">
-              <h4>Our Mission</h4>
-              <p>To supply the highest quality metals with complete documentation, at competitive prices, delivered on time — every time.</p>
+              <h3>Our Mission</h3>
+              <p>Review project specifications carefully and confirm material, document and delivery requirements before placing an order.</p>
             </div>
           </div>
           <div class="pillar-card">
             <div class="pillar-icon-wrap"><span class="pillar-icon">🔬</span></div>
             <div class="pillar-body">
-              <h4>Quality Policy</h4>
-              <p>All material supplied with original Mill Test Certificates. Third-party inspection accepted under any internationally recognised agency.</p>
+              <h3>Quality Policy</h3>
+              <p>State required material certificates and inspection clauses in the enquiry; confirm their applicability and scope for the specific order.</p>
             </div>
           </div>
           <div class="pillar-card">
             <div class="pillar-icon-wrap"><span class="pillar-icon">🌍</span></div>
             <div class="pillar-body">
-              <h4>Global Reach</h4>
-              <p>Export to 50+ countries with full documentation — packing lists, certificate of origin and sea/air freight support.</p>
+              <h3>Global Reach</h3>
+              <p>For delivery outside India, include the destination and requested export documents so logistics can be reviewed for the order.</p>
             </div>
           </div>
           <div class="pillar-card">
             <div class="pillar-icon-wrap"><span class="pillar-icon">⚡</span></div>
             <div class="pillar-body">
-              <h4>Fast Response</h4>
-              <p>Quote within 24 hours. Urgent requirements on priority. Emergency stock dispatch from Vadodara same day.</p>
+              <h3>Timing Confirmation</h3>
+              <p>Include the requested response or delivery timing in your enquiry; timing and availability require confirmation.</p>
             </div>
           </div>
         </div>
@@ -1041,12 +1044,12 @@ function StatsBar() {
 // ─── Why Choose CMI ───────────────────────────────────────────────────────────
 function WhyChooseUs() {
   const points = [
-    { icon: "🏭", title: "Direct Manufacturer & Stockist", body: "We manufacture and stock — no middlemen, no mark-up layers. You get mill-direct pricing with full traceability from our Vadodara facility." },
-    { icon: "📦", title: "Deep Ready Stock", body: "1,092 sq.mtr warehouse at GIDC Makarpura carries ready stock of SS 304/316L pipes, alloy steel P11/P22/P91, duplex 2205, carbon steel plates SA 516, and structural steel sections." },
-    { icon: "🌐", title: "Worldwide Sourcing Network", body: "Direct import channels from Sandvik, Salzgitter, Outokumpu, POSCO, Sumitomo, Vallourec and other approved mills in Europe, Japan, Korea and USA." },
-    { icon: "📄", title: "Complete Documentation", body: "MTC (EN 10204 3.1/3.2), IBR Form III-C, NACE, HIC, PWHT, hydro test and stage-wise inspection reports provided. Accepted by EIL, PDIL, Toyo, Technip and major EPCs." },
-    { icon: "✂️", title: "Value-Added Processing", body: "Cut-to-size, plasma and oxy-fuel cutting, bevel cutting, threading, hot-dip galvanizing, pickling, passivation, polishing and heat treatment at our Vadodara facility." },
-    { icon: "🚀", title: "Fastest Turnaround in Gujarat", body: "Same-day dispatch for stocked items. 48-hour quotation for indent materials. Export shipments handled within 7 working days of order confirmation." },
+    { icon: "🏭", title: "Product Supply Enquiries", body: "Send the grade, product form and governing specification; whether the request can be fulfilled requires order-specific confirmation." },
+    { icon: "📦", title: "Availability Review", body: "Include the exact grade, dimensions and quantity so current product availability can be checked for the enquiry." },
+    { icon: "🌐", title: "Source Requirements", body: "Name any required mill or source in the RFQ; supplier relationship and sourcing options need confirmation for the specific order." },
+    { icon: "📄", title: "Documentation Scope", body: "Specify any MTC, IBR, NACE, HIC, PWHT or inspection requirements. Confirm the documents applicable to the requested material and order." },
+    { icon: "✂️", title: "Processing Requirements", body: "List any cutting, threading, finishing or heat-treatment requirements for review with the product specification." },
+    { icon: "🚚", title: "Delivery Requirements", body: "Include the destination and requested date. Delivery options and timing need order-specific confirmation." },
   ];
   return (
     <section class="why-choose-section" id="why-us" aria-label="Why choose Creative Metal Industries">
@@ -1054,7 +1057,7 @@ function WhyChooseUs() {
         <div class="section-head-center">
           <span class="section-label">Why Choose Us</span>
           <h2>Creative Metal Industries — Industrial Metal Supply</h2>
-          <p>Based in Vadodara since 2012, Creative Metal Industries supplies industrial pipes, plates, fittings, flanges and specialty metals. Contact the team to confirm product scope for your requirement.</p>
+          <p>Creative Metal Industries is based in Vadodara and the site lists industrial pipes, plates, fittings, flanges and specialty metals. Contact the team to confirm product scope for your requirement.</p>
         </div>
         <div class="why-grid-6" role="list">
           <For each={points}>{(p) => (
@@ -1164,7 +1167,7 @@ function CTABanner() {
     <section class="cta-banner" aria-label="Call to action">
       <div class="container">
         <h2>Need a Specific Grade or Hard-to-Find Material?</h2>
-        <p>We accept urgent and indent requirements. Send us the spec — we'll source it with full MTC documentation.</p>
+        <p>Share the requested grade, product form, specification, dimensions and any required documents for order-specific review.</p>
         <div class="cta-actions">
           <a href="#contact" class="btn btn-white">Send Enquiry →</a>
           <a href="tel:+919998280619" class="btn btn-ghost-white btn-outline">📞 +91 99982 80619</a>
@@ -1224,7 +1227,7 @@ function ContactForm() {
           <div class="contact-info">
             <span class="section-label">Get In Touch</span>
             <h2>Request a Quote or Indent</h2>
-            <p>Share material spec, grade, size, quantity and certifications needed. We respond with pricing promptly.</p>
+            <p>Share material specification, grade, dimensions, quantity and required documents for an order-specific quotation review.</p>
             <address class="contact-details" style="font-style:normal">
               <div class="contact-item">
                 <div class="contact-item-icon">📍</div>
@@ -1294,7 +1297,7 @@ function ContactForm() {
             {submitted() ? (
               <div class="form-success" role="alert">
                 <p>✅</p>
-                <p><strong>Enquiry received!</strong> We'll respond with pricing and availability shortly.</p>
+                <p><strong>Enquiry received!</strong> The submitted requirement will be reviewed.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} novalidate aria-label="Enquiry form">
@@ -1362,7 +1365,7 @@ function ReviewsTeaser() {
       <section style="background:var(--sky2);padding:5rem 0;border-top:1px solid var(--border)" aria-label="Customer Reviews">
         <div class="container">
           <div class="section-head-center" style="margin-bottom:2.5rem">
-            <span class="section-label">Verified Reviews</span>
+            <span class="section-label">Customer Reviews</span>
             <h2>What Our Customers Say</h2>
             <div style="display:flex;align-items:center;gap:0.5rem;justify-content:center;margin-top:0.5rem">
               <span style="font-size:1.5rem;color:#E07B00">
@@ -1370,7 +1373,7 @@ function ReviewsTeaser() {
                 {"☆".repeat(5 - Math.round(data()!.avgRating))}
               </span>
               <strong style="font-size:1.1rem">{data()!.avgRating.toFixed(1)}</strong>
-              <span style="color:var(--muted);font-size:0.875rem">({data()!.total} verified reviews)</span>
+              <span style="color:var(--muted);font-size:0.875rem">({data()!.total} reviews)</span>
             </div>
           </div>
           <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem">
@@ -1415,7 +1418,7 @@ function Footer() {
                 loading="lazy"
               />
             </a>
-            <p>Manufacturer, stockist &amp; supplier of SS, Carbon &amp; Alloy Steel Pipes, Plates, Fittings, Flanges and Exotic Alloys. Serving Oil &amp; Gas, Power &amp; Petrochemical industries since 2012.</p>
+            <p>Industrial metal product enquiries in Vadodara. Share your project specification, product form, dimensions and documentation needs for review.</p>
             <nav class="social-links" aria-label="Contact links">
               <a href="mailto:creativemetalind@gmail.com" class="social-link" aria-label="Email">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
@@ -1441,17 +1444,17 @@ function Footer() {
             <h4>Materials</h4>
             <ul>
               <li><a href="/stainless-steel-supplier-vadodara">Stainless Steel Supplier in Vadodara</a></li>
-              <li><a href="/carbon-steel-pipe-supplier-india">Carbon Steel</a></li>
-              <li><a href="/alloy-steel-pipe-supplier-india">Alloy Steel</a></li>
+              <li><a href="/carbon-steel-pipe-supplier-india">Carbon Steel Pipe</a></li>
+              <li><a href="/alloy-steel-pipe-supplier-india">Alloy Steel Pipe</a></li>
               <li><a href="/duplex-steel-supplier-vadodara">Duplex &amp; Super Duplex</a></li>
-              <li><a href="/inconel-pipe-supplier-india">Inconel / Monel / Hastelloy</a></li>
+              <li><a href="/inconel-pipe-supplier-india">Inconel Pipe</a></li>
               <li><a href="/titanium-pipe-supplier-india">Titanium</a></li>
             </ul>
           </nav>
           <nav aria-label="Products">
             <h4>Products</h4>
             <ul>
-              <li><a href="/ss-seamless-pipe-supplier-india">Seamless &amp; Welded Pipes</a></li>
+              <li><a href="/ss-seamless-pipe-supplier-india">SS Seamless Pipe</a></li>
               <li><a href="/ss-sheet-supplier-vadodara">SS Sheet &amp; Plate</a></li>
               <li><a href="/carbon-steel-sa516-plate-stockist-india">CS SA516 Plate</a></li>
               <li><a href="/astm-a36-steel-plate-supplier-india">ASTM A36 Steel Plate</a></li>
@@ -1475,13 +1478,13 @@ function Footer() {
             </ul>
           </nav>
           <div>
-            <h4>Certifications</h4>
+            <h4>Documentation Requirements</h4>
             <div class="footer-cert">
-              <div class="cert-badge">🏅 IBR Form III-C</div>
-              <div class="cert-badge">✅ NACE / HIC Compliant</div>
-              <div class="cert-badge">📄 MTC on All Material</div>
-              <div class="cert-badge">🔬 TPI: DNV, TUV, SGS</div>
-              <div class="cert-badge">🌍 Export to 50+ Countries</div>
+              <div class="cert-badge">IBR: specify order requirement</div>
+              <div class="cert-badge">NACE / HIC: scope to confirm</div>
+              <div class="cert-badge">MTC: specify required standard</div>
+              <div class="cert-badge">Inspection: specify agency and scope</div>
+              <div class="cert-badge">Delivery: provide destination</div>
             </div>
             <div style="margin-top:1.5rem">
               <h4>Contact</h4>
@@ -1651,7 +1654,7 @@ export default function Home() {
     <>
       <Title>Creative Metal Industries | Industrial Metal Supplier in Vadodara</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Creative Metal Industries supplies industrial metals from Vadodara, Gujarat, including stainless, carbon and alloy steel pipes, plates, fittings and flanges." />
+      <Meta name="description" content="Explore industrial metal product pages from Vadodara, Gujarat, for stainless, carbon and alloy steel pipes, plates, fittings and flanges. Confirm product form, specification, availability and documentation for each order." />
       <Link rel="canonical" href="https://www.creativemetalind.com/" />
       {/* Open Graph */}
       <Meta property="og:type" content="website" />

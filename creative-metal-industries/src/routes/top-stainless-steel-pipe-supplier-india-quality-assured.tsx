@@ -69,7 +69,7 @@ export default function StainlessSteelPipeSupplierIndia() {
           <div class="ss-section-heading"><span class="ss-eyebrow">Product types</span><h2>Seamless and welded stainless steel pipes</h2></div>
           <div class="ss-two-col">
             <article class="ss-type-card"><span class="ss-type-number">01</span><h3>Seamless pipe</h3><p>Produced without a longitudinal weld. Consider seamless pipe where required by the design, applicable product standard or service conditions. Confirm dimensions, grade, schedule and testing requirements with the supplier.</p><a href="/ss-seamless-pipe-supplier-india">Explore stainless steel seamless pipe <span aria-hidden="true">→</span></a></article>
-            <article class="ss-type-card"><span class="ss-type-number">02</span><h3>Welded pipe</h3><p>Manufactured by forming steel and joining the seam. Welded pipe serves many industrial applications; verify the manufacturing specification, weld quality controls and suitability for the intended duty.</p><a href="/ss-304-316l-pipe-supplier-india">Explore SS 304/316L pipe <span aria-hidden="true">→</span></a></article>
+            <article class="ss-type-card"><span class="ss-type-number">02</span><h3>Welded pipe</h3><p>Manufactured by forming steel and joining the seam. Welded pipe serves many industrial applications; verify the manufacturing specification, weld quality controls and suitability for the intended duty.</p><a href="/ss-pipe-supplier">Explore stainless steel pipe enquiries <span aria-hidden="true">→</span></a></article>
           </div>
           <p class="ss-note">No pipe type is universally best. Selection should follow the project specification, applicable code and engineering requirements.</p>
         </section>

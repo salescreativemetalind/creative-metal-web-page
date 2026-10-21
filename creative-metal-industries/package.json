@@ -8,7 +8,8 @@
     "build": "vinxi build",
     "start": "vinxi start",
     "sitemap": "node generate-sitemap.mjs",
-    "check:sitemap": "node verify-sitemap.mjs"
+    "check:sitemap": "node verify-sitemap.mjs",
+    "test:seo": "node --test scripts/*.test.mjs"
   },
   "dependencies": {
     "@solidjs/meta": "^0.29.4",

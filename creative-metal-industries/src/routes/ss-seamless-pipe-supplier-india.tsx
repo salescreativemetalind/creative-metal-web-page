@@ -32,7 +32,7 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SsSeamlessPipeSupplierIndia() {
   return (
     <>
-      <Title>SS Seamless Pipe Supplier in India | ASTM A312 Grades</Title>
+      <Title>Stainless Steel Seamless Pipe Supplier India | ASTM A312 Grades | CMI</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Meta name="description" content="Looking for an SS seamless pipe supplier in India? Enquire about listed stainless steel grades and ASTM pipe specifications. Share your size and requirements for an order-specific quotation." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-seamless-pipe-supplier-india" />
@@ -42,7 +42,7 @@ export default function SsSeamlessPipeSupplierIndia() {
       <Meta property="og:url" content="https://www.creativemetalind.com/ss-seamless-pipe-supplier-india" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="SS Seamless Pipe Supplier India | ASTM A312 All Grades | CMI" />
+      <Meta name="twitter:title" content="Stainless Steel Seamless Pipe Supplier India | ASTM A312 Grades | CMI" />
       <Meta name="twitter:description" content="Enquire about stainless steel seamless pipe grades and ASTM specifications. Share your required size and documents for an order-specific quotation." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
@@ -61,10 +61,10 @@ export default function SsSeamlessPipeSupplierIndia() {
       <main style={{"max-width":"960px",margin:"0 auto",padding:"3rem 1.5rem"}}>
         <div style={{"margin-bottom":"2.5rem","text-align":"center"}}>
           <h1 style={{"font-size":"clamp(1.8rem,4vw,2.6rem)","font-weight":"800",color:"#111827","margin":"0 0 1rem","line-height":"1.2"}}>
-            SS Seamless Pipe Supplier in India — ASTM A312, All Grades
+            Stainless Steel Seamless Pipe Supplier in India — Listed Grades & Specifications
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            Creative Metal Industries supplies stainless steel seamless pipe for industrial and commercial enquiries. The grades, standards and size ranges listed below help buyers specify a requirement; confirm the requested material, applicable documents, availability and delivery terms with the team for each order.
+            This page provides enquiry references for stainless-steel seamless pipe, including listed grades, standards and size ranges. Share the specification and delivery destination so the team can confirm whether the requested material, documents and order terms can be offered.
           </p>
         </div>
         <p style={{"font-size":"0.95rem",color:"#4b5563","line-height":"1.7","margin":"0 0 1.5rem","text-align":"center"}}>
@@ -75,7 +75,7 @@ export default function SsSeamlessPipeSupplierIndia() {
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS Seamless Pipe Grades and Listed Specifications</h2>
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"2rem"}}>
           <table style={{width:"100%","border-collapse":"collapse","font-size":"0.85rem","min-width":"650px"}}>
-            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 0.8rem","text-align":"left"}}>Grade</th><th style={{padding:"0.7rem 0.8rem"}}>Specification</th><th style={{padding:"0.7rem 0.8rem"}}>Sizes</th><th style={{padding:"0.7rem 0.8rem"}}>Applications</th><th style={{padding:"0.7rem 0.8rem"}}>Availability</th></tr></thead>
+            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 0.8rem","text-align":"left"}}>Grade</th><th style={{padding:"0.7rem 0.8rem"}}>Specification reference</th><th style={{padding:"0.7rem 0.8rem"}}>Listed size range</th><th style={{padding:"0.7rem 0.8rem"}}>Typical applications</th><th style={{padding:"0.7rem 0.8rem"}}>Order confirmation</th></tr></thead>
             <tbody>
               {GRADES.map((g,i) => (
                 <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 0.8rem","font-weight":"700"}}>{g.grade}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.spec}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.sizes}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.apps}</td><td style={{padding:"0.6rem 0.8rem","text-align":"center",color:"#6b7280","font-weight":"600"}}>{g.stock}</td></tr>
@@ -83,6 +83,9 @@ export default function SsSeamlessPipeSupplierIndia() {
             </tbody>
           </table>
         </div>
+        <p style={{"font-size":"0.85rem",color:"#6b7280","line-height":"1.7","margin":"-1rem 0 1.5rem"}}>
+          Table entries are enquiry references, not a live inventory list or a guarantee that every grade, size or schedule can be offered. Confirm product form, governing standard, dimensions and documentation for the specific requirement.
+        </p>
 
         {/* Specifications */}
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Specifications &amp; Technical Details</h2>
