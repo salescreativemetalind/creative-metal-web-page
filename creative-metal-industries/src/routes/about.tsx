@@ -7,12 +7,12 @@ const ABOUT_SCHEMA = JSON.stringify({
   "alternateName":["CMI Vadodara","Creative Metal Ind"],
   "url":"https://www.creativemetalind.com",
   "logo":"https://www.creativemetalind.com/logo_cmi.png",
-  "description":"Creative Metal Industries is a Vadodara-based industrial metal supplier. Product categories and specifications shown on this website are enquiry references and should be confirmed for each order.",
+  "description":"Creative Metal Industries is a Vadodara-based contact for specification-led industrial metal enquiries. Buyers can submit product form, grade, standard, dimensions, quantity and documentation requirements for order-specific review.",
   "address":{"@type":"PostalAddress","streetAddress":"F-3, 1st Floor, Loha Bhavan, Lakkadpitha Road, Sultanpura","addressLocality":"Vadodara","addressRegion":"Gujarat","postalCode":"390001","addressCountry":"IN"},
   "contactPoint":[{"@type":"ContactPoint","telephone":"+919998280619","contactType":"sales","name":"Sunny Shah"},{"@type":"ContactPoint","telephone":"+919825506110","contactType":"customer support","name":"Ghewar Shah"}],
   "sameAs":["https://www.indiamart.com/creativemetalindustries/","https://x.com/CreativeMetal","https://t.me/Creativemetal_Industries"],
   "areaServed":[{"@type":"State","name":"Gujarat"},{"@type":"Country","name":"India"}],
-  "knowsAbout":["Stainless Steel","Carbon Steel","Alloy Steel","Pipes","Plates","Fittings"]
+  "knowsAbout":["Stainless steel pipe enquiries","Carbon steel pipe enquiries","Alloy steel pipe enquiries","Pipe and tube specification distinctions","Industrial metal procurement requirements","Material documentation requirements"]
 });
 
 export default function AboutPage() {
@@ -53,8 +53,8 @@ export default function AboutPage() {
             </div>
             <div class="about-top-divider" aria-hidden="true"/>
             <div class="about-top-right">
-              <p>Creative Metal Industries is presented on this website as an industrial metal supplier based in Vadodara, Gujarat. Product categories and technical details appearing on the site are enquiry references, not a guarantee that every listed item or specification is available.</p>
-              <p>Contact the team with the required product form, grade, governing specification, dimensions, quantity and documentation needs. Confirm whether the requested product, source, documents, availability and delivery terms can be met for the specific order.</p>
+              <p>Creative Metal Industries is a Vadodara-based contact for specification-led industrial metal enquiries. The website organizes enquiries for stainless, carbon and alloy steel, duplex stainless steel, nickel-alloy and titanium product categories without treating a web-page list as proof of current stock.</p>
+              <p>Industrial buyers can send the required product form, exact grade or UNS designation, governing specification and edition, dimensions, quantity, destination and documentation clauses. The quotation should confirm the offered material, source when required, documents, availability, lead time and commercial terms for the specific order.</p>
             </div>
           </div>
 
@@ -110,41 +110,52 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Facility */}
+      {/* Local contact and enquiry routing */}
       <section style="background:var(--sky2);padding:4rem 0;border-top:1px solid var(--border)">
         <div class="container">
           <div class="section-head-center" style="margin-bottom:2.5rem">
-            <span class="section-label">Our Facility</span>
-            <h2>Office &amp; Warehouse — Vadodara</h2>
+            <span class="section-label">Vadodara Contact</span>
+            <h2>Arrange a Local Product Enquiry</h2>
           </div>
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem">
-            <div class="pillar-card" style="flex-direction:column;gap:0.75rem;padding:2rem">
-              <h4 style="font-size:1rem;margin-bottom:0.25rem">📍 Registered Office</h4>
-              <p style="font-size:0.9rem;color:var(--charcoal)">F-3, 1st Floor, Loha Bhavan,<br/>Lakkadpitha Road,<br/>Vadodara — 390001, Gujarat, India</p>
-              <p style="font-size:0.85rem;color:var(--muted)">Tel: +91 9998280619</p>
-            </div>
-            <div class="pillar-card" style="flex-direction:column;gap:0.75rem;padding:2rem">
-              <h4 style="font-size:1rem;margin-bottom:0.25rem">🏭 Godown &amp; Yard</h4>
-              <p style="font-size:0.9rem;color:var(--charcoal)">386/B, GIDC Estate,<br/>Makarpura,<br/>Vadodara, Gujarat</p>
-              <p style="font-size:0.85rem;color:var(--muted)">Contact the team to confirm facility and visit arrangements.</p>
-            </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem">
+            {[
+              { title:"Before visiting", body:"Call the sales contact to confirm the current office, meeting or collection location and a suitable time. The website does not independently verify warehouse facilities or opening hours." },
+              { title:"For local delivery or collection", body:"State the Vadodara destination or collection requirement, product form, dimensions, quantity and requested date in the RFQ." },
+              { title:"For technical review", body:"Send the governing standard, edition, grade designation, inspection clauses and required documents exactly as written in the purchase specification." },
+            ].map(item => (
+              <div class="pillar-card" style="flex-direction:column;gap:0.75rem;padding:2rem">
+                <h3 style="font-size:1rem;margin:0">{item.title}</h3>
+                <p style="font-size:0.88rem;color:var(--charcoal);line-height:1.7;margin:0">{item.body}</p>
+              </div>
+            ))}
           </div>
           <div style="margin-top:2rem;text-align:center">
-            <p style="font-size:0.9rem;color:var(--charcoal)">Open Monday to Saturday, 9:00 AM to 7:00 PM. Call <a href="tel:+919998280619" style="color:var(--amber);font-weight:700">+91 99982 80619</a> before visiting.</p>
+            <p style="font-size:0.9rem;color:var(--charcoal)">Call <a href="tel:+919998280619" style="color:var(--amber);font-weight:700">+91 99982 80619</a> or use the website enquiry form to confirm contact and order details.</p>
           </div>
         </div>
       </section>
 
-      {/* Industries Served */}
+      {/* Industry procurement context */}
       <section style="background:var(--white);padding:4rem 0;border-top:1px solid var(--border)">
         <div class="container">
           <div class="section-head-center" style="margin-bottom:2rem">
-            <span class="section-label">Material Applications</span>
-            <h2>Industries That May Specify These Materials</h2>
+            <span class="section-label">Industry Procurement Context</span>
+            <h2>Information Industrial Buyers Should Include</h2>
+            <p style="max-width:760px;margin:0.75rem auto 0;color:var(--muted)">These examples explain enquiry requirements; they do not claim completed projects, approvals or suitability for a specific service.</p>
           </div>
-          <div style="display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:center">
-            {["Oil & Gas Refineries","Petrochemical Plants","Thermal & Nuclear Power","Fertilizer Industry","Chemical & Pharmaceutical","Cement & Mining","Railways & Metro","Marine & Offshore","Aerospace & Defence","Food & Dairy Processing","Water & Desalination","EPC Contractors"].map(ind => (
-              <span style="background:var(--sky);border:1px solid var(--border);border-radius:99px;padding:0.4rem 1rem;font-size:0.82rem;font-weight:600;color:var(--charcoal)">{ind}</span>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem">
+            {[
+              { industry:"Process, chemical and refinery projects", requirement:"State process medium, concentration, design temperature and pressure, corrosion allowance, governing code and required inspection clauses." },
+              { industry:"Power and elevated-temperature projects", requirement:"State operating and design temperatures, continuous or cyclic service, applicable code, grade designation and heat-treatment requirements." },
+              { industry:"Water, marine and chloride exposure", requirement:"Provide water chemistry or chloride conditions, temperature, pressure, product form and the engineer-approved material specification." },
+              { industry:"Food, dairy and pharmaceutical systems", requirement:"Distinguish pipe from tube and define grade, finish, cleanliness, dimensional standard, documentation and inspection requirements." },
+              { industry:"Fabrication and EPC procurement", requirement:"Provide drawings or bills of material, item-level standards, dimensions, quantities, end preparation, approved-source clauses and delivery destinations." },
+              { industry:"Structural and general engineering", requirement:"State the product form, grade, dimensional standard, section or plate dimensions, quantity, fabrication condition and required documents." },
+            ].map(item => (
+              <article style="background:var(--sky2);border:1px solid var(--border);border-radius:12px;padding:1.5rem">
+                <h3 style="font-size:1rem;margin:0 0 0.6rem;color:var(--navy)">{item.industry}</h3>
+                <p style="font-size:0.86rem;color:var(--charcoal);line-height:1.7;margin:0">{item.requirement}</p>
+              </article>
             ))}
           </div>
         </div>

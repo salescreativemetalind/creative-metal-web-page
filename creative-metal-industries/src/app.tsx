@@ -1,7 +1,8 @@
 import { MetaProvider, Title, Meta, Link } from "@solidjs/meta";
 import { Router } from "@solidjs/router";
 import { FileRoutes } from "@solidjs/start/router";
-import { Suspense } from "solid-js";
+import { onCleanup, onMount, Suspense } from "solid-js";
+import { installContactIntentTracking } from "./lib/enquiry-tracking";
 import "./app.css";
 
 // ── Public site IDs, injected at build time ──────────────────
@@ -12,6 +13,10 @@ const GA4_ID = import.meta.env.VITE_GA4_ID;
 const GSC_VERIFICATION = import.meta.env.VITE_GSC_VERIFICATION;
 
 export default function App() {
+  let removeContactTracking: undefined | (() => void);
+  onMount(() => { removeContactTracking = installContactIntentTracking(); });
+  onCleanup(() => removeContactTracking?.());
+
   return (
     <Router
       root={(props) => (

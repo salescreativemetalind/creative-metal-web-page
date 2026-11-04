@@ -1,5 +1,6 @@
 import { Title, Meta, Link } from "@solidjs/meta";
 import { createSignal, onMount, onCleanup, For, Index, createMemo, createEffect, Show } from "solid-js";
+import { trackSuccessfulEnquiry } from "../lib/enquiry-tracking";
 
 // ─── Image path helpers ───────────────────────────────────────────────────────
 const I  = (name: string) => `/img/${name}`;      // product cards / banner / modal (max 1200px)
@@ -1210,6 +1211,7 @@ function ContactForm() {
       });
       const json = await res.json();
       if (json.ok) {
+        trackSuccessfulEnquiry(data.metal, data.product);
         setSubmitted(true);
       } else {
         setError(json.error || "Something went wrong. Please call us directly.");
