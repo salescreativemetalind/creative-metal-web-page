@@ -10,13 +10,6 @@
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
 
-const GRADE_COMPARE: string[][] = [
-  ["Grade", "Common UNS designation", "Procurement distinction", "Confirm before ordering"],
-  ["SS 304", "S30400", "Standard-carbon 304 grade", "Service environment and governing standard"],
-  ["SS 304L", "S30403", "Low-carbon 304 grade", "Welding, heat treatment and project requirements"],
-  ["SS 316", "S31600", "Molybdenum-bearing austenitic grade", "Actual corrosion environment and design basis"],
-  ["SS 316L", "S31603", "Low-carbon 316 grade", "Fabrication procedure and project specification"],
-];
 
 const SEAMLESS_VS_WELDED: string[][] = [
   ["Factor", "Seamless SS Pipe", "Welded SS Pipe"],
@@ -213,49 +206,10 @@ export default function SSPipeSupplierPage() {
           <li>Inspection and testing scope required by the order</li>
         </ul>
 
-        <h2 style={H2}>SS 304 and SS 316L Pipe Information</h2>
-        
-        <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>SS 304 Stainless Steel Pipe</h3>
-        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          <strong>SS 304</strong> (UNS S30400) is an austenitic stainless-steel grade containing chromium and nickel. It is commonly specified for general service, food processing and dairy equipment. Check the project specification and operating conditions before selecting it for a particular application.
-        </p>
-
-        <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>SS 316L Stainless Steel Pipe</h3>
+        <h2 style={H2}>Grade-Specific Stainless Steel Pipe Requirements</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
-          <strong>SS 316L</strong> (UNS S31603) is a low-carbon austenitic grade containing molybdenum. It is commonly considered for applications where corrosion resistance and welded fabrication are relevant. Suitability depends on the actual process environment, applicable standard and project design; confirm material selection with the responsible engineer.
+          This national page covers the general pipe enquiry process rather than duplicating detailed grade selection. For composition, low-carbon grade distinctions and order details, use the <a href="/ss-304-316l-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>SS 304, 304L, 316 and 316L pipe page</a>. For elevated-temperature grade enquiries, use the <a href="/ss-310-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>SS 310/310S pipe page</a>. Select material against the project specification and obtain engineering approval before substituting grades.
         </p>
-
-        <h2 style={H2}>304, 304L, 316 and 316L Procurement Distinctions</h2>
-        <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
-          These designations are not interchangeable by default. Use the grade required by the project documents and obtain engineering approval before proposing a substitution. The summary below supports RFQ preparation; the dedicated <a href="/ss-304-316l-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>SS 304 and 316L pipe page</a> contains the grade-focused discussion.
-        </p>
-
-        <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"1.5rem"}}>
-          <table style={{width:"100%","border-collapse":"collapse","font-size":"0.85rem","min-width":"640px"}}>
-            <thead>
-              <tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}>
-                {GRADE_COMPARE[0].map(h => <th style={{padding:"0.7rem 1rem","text-align":h==="Property"?"left":"center"}}>{h}</th>)}
-              </tr>
-            </thead>
-            <tbody>
-              {GRADE_COMPARE.slice(1).map((r,i) => (
-                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}>
-                  <td style={{padding:"0.6rem 1rem","font-weight":"600"}}>{r[0]}</td>
-                  <td style={{padding:"0.6rem 1rem","text-align":"center"}}>{r[1]}</td>
-                  <td style={{padding:"0.6rem 1rem","text-align":"center"}}>{r[2]}</td>
-                  <td style={{padding:"0.6rem 1rem","text-align":"center"}}>{r[3]}</td>
-                  <td style={{padding:"0.6rem 1rem","text-align":"center"}}>{r[4]}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-
-        <div style={{background:"#eff6ff","border-left":"4px solid #3b82f6",padding:"1rem","border-radius":"6px","margin-bottom":"2rem"}}>
-          <p style={{margin:0,color:"#1e3a8a","font-size":"0.9rem","line-height":"1.7"}}>
-            <strong>Material selection:</strong> Select a grade against the operating environment, design code and purchase specification. SS 316/316L is often considered for chloride-containing service, but suitability must be confirmed for the actual conditions. Specify low-carbon grades such as 304L or 316L when required by the project standard and fabrication procedure.
-          </p>
-        </div>
 
         <h2 style={H2}>Seamless vs Welded Pipe: Project Requirements</h2>
         

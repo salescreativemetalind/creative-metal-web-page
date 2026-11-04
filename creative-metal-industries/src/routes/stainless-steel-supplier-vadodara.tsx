@@ -131,15 +131,15 @@ export default function StainlessSteelSupplierVadodara() {
       <Title>Stainless Steel Supplier in Vadodara | SS 304, 316L Products</Title>
       <Meta property="og:type" content="website" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Stainless steel supplier in Vadodara for pipes, tubes, plates, sheets, fittings, flanges and bars. Contact Creative Metal Industries for a quote." />
+      <Meta name="description" content="Local stainless steel supplier in Vadodara for pipe, tube, sheet, plate, fitting, flange and bar enquiries. Send the product form, grade, dimensions and quantity." />
       <Link rel="canonical" href="https://www.creativemetalind.com/stainless-steel-supplier-vadodara" />
       <Meta property="og:title" content="Stainless Steel Supplier in Vadodara | Creative Metal Industries" />
-      <Meta property="og:description" content="Explore stainless steel pipes, plates, sheets, fittings and flanges supplied by Creative Metal Industries in Vadodara, Gujarat." />
+      <Meta property="og:description" content="Vadodara-focused stainless steel product enquiries covering pipe, tube, sheet, plate, fitting, flange and bar requirements." />
       <Meta property="og:url" content="https://www.creativemetalind.com/stainless-steel-supplier-vadodara" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="twitter:title" content="Stainless Steel Supplier in Vadodara | Creative Metal Industries" />
-      <Meta name="twitter:description" content="Stainless steel pipes, plates, sheets, fittings and flanges from Creative Metal Industries in Vadodara, Gujarat. Enquire for a quote." />
+      <Meta name="twitter:description" content="Vadodara-focused stainless steel product enquiries covering pipe, tube, sheet, plate, fitting, flange and bar requirements." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
@@ -173,9 +173,7 @@ export default function StainlessSteelSupplierVadodara() {
               Stainless Steel Supplier in Vadodara
             </h1>
             <p style={{ "font-size": "1.1rem", color: "#374151", "max-width": "720px", "line-height": "1.75", "margin-bottom": "2rem" }}>
-              Creative Metal Industries is a stainless steel supplier based in Vadodara, Gujarat, serving industrial and commercial buyers.
-              The listed product range includes stainless steel pipes, tubes, plates, sheets, fittings, flanges and bars, with grades such as SS 304, 304L, 316, 316L, 317L, 321, 310S, 347 and 904L, plus Duplex and Super Duplex grades.
-              For pipe-specific types and specifications, visit our <a href="/ss-pipe-supplier" style={{color:"#E8821A","font-weight":"600"}}>SS Pipe Supplier</a> page. Send your required product form, grade, specification, dimensions and quantity to request a quotation and confirm availability.
+              This page serves local stainless-steel product enquiries in Vadodara, Gujarat, across pipe, tube, sheet, plate, fitting, flange and bar forms. It is a location and multi-product page—not the national technical landing page for SS pipe. For pipe-specific types, dimensions and RFQ guidance, visit the <a href="/ss-pipe-supplier" style={{color:"#E8821A","font-weight":"600"}}>national SS Pipe Supplier in India page</a>. Send the required product form, grade, specification, dimensions, quantity and delivery location for order-specific review.
             </p>
             <div style={{ display: "flex", gap: "1rem", "flex-wrap": "wrap", "margin-bottom": "2.5rem" }}>
               <a href="/#contact" class="btn btn-primary" style={{ "font-size": "1rem", padding: "0.75rem 1.75rem" }}>Request a Quote →</a>
@@ -300,7 +298,7 @@ export default function StainlessSteelSupplierVadodara() {
               Why Enquire with Creative Metal Industries
             </h2>
             <p style={{ color: "#6b7280", "margin-bottom": "2.5rem", "text-align": "center", "font-size": "0.95rem" }}>
-              Vadodara-based supply of stainless steel products for industrial and commercial requirements.
+              Local, specification-led stainless steel product enquiries from Creative Metal Industries in Vadodara.
             </p>
             <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(280px,1fr))", gap: "1.25rem" }}>
               {WHY.map(w => (
@@ -354,7 +352,7 @@ export default function StainlessSteelSupplierVadodara() {
               </a>
             </div>
             <p style={{ color: "rgba(255,255,255,0.75)", "font-size": "0.82rem", "margin-top": "1.5rem" }}>
-              386/B GIDC Estate, Makarpura, Vadodara 390010 · Open Mon–Sat 9 AM–7 PM
+              Confirm the relevant office or collection location and timing with the team before visiting.
             </p>
           </div>
         </section>
@@ -365,6 +363,7 @@ export default function StainlessSteelSupplierVadodara() {
             <h2 style={{ "font-size": "1.2rem", "font-weight": "700", color: "#111827", "margin-bottom": "1.25rem" }}>Explore Our Stainless Steel Product Range</h2>
             <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(220px,1fr))", gap: "0.75rem" }}>
               {[
+                { href: "/ss-pipe-supplier", label: "National SS Pipe Supplier — Seamless & Welded" },
                 { href: "/ss-seamless-pipe-supplier-india", label: "SS Seamless Pipe Supplier India" },
                 { href: "/ss-304-316l-pipe-supplier-india", label: "SS 304 316L Pipe India" },
                 { href: "/ss-sheet-supplier-vadodara", label: "SS Sheet Supplier Vadodara" },

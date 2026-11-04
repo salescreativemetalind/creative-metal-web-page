@@ -164,7 +164,7 @@ export default function SS304316LPage() {
             style={{"border-radius":"10px",border:"1px solid #e5e7eb","flex-shrink":"0"}}
           />
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8",margin:0,"min-width":"280px",flex:"1"}}>
-            Creative Metal Industries handles enquiries for <strong>SS 304 and SS 316L pipe</strong> in seamless and welded forms. The page also compares their low-carbon variants, <strong>SS 304L</strong> and <strong>SS 316L</strong>, and lists ASTM A312 / ASME SA-312 pipe specifications. ASTM A213 is a tube specification, not the pipe standard. Share your required grade, dimensions, product type and documentation needs for order-specific confirmation.
+            This grade-specific page covers enquiries and procurement distinctions for <strong>SS 304, 304L, 316 and 316L pipe</strong>. It compares the standard- and low-carbon designations and references ASTM A312 / ASME SA-312 for pipe. ASTM A213 is a tube specification, not the pipe standard. For a general seamless-or-welded pipe enquiry, use the <a href="/ss-pipe-supplier" style={{color:"#E8821A","font-weight":"600"}}>national SS pipe page</a>; for seamless-only requirements, use the <a href="/ss-seamless-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>SS seamless pipe page</a>.
           </p>
         </div>
 
@@ -221,12 +221,12 @@ export default function SS304316LPage() {
         <h2 style={H2}>Applications</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(250px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
           {[
-            {icon:"🧪",title:"Chemical Processing",desc:"Reactors, heat exchangers and process piping in acid and alkali service"},
-            {icon:"💊",title:"Pharmaceutical & Biotech",desc:"Purified water, WFI and CIP/SIP systems — typically polished 316L"},
-            {icon:"🍶",title:"Food & Dairy",desc:"Milk, beverage and brewery lines — hygienic welded tube, commonly 304"},
-            {icon:"🛢️",title:"Oil & Gas",desc:"Process piping and instrument tubing"},
-            {icon:"⚡",title:"Power Plants",desc:"Condenser tubes, boiler feed water and steam piping"},
-            {icon:"🌊",title:"Marine & Offshore",desc:"Seawater piping and desalination, where 316L is specified for chlorides"},
+            {icon:"🧪",title:"Chemical Processing",desc:"Confirm grade suitability against the actual chemicals, concentration, temperature and design basis."},
+            {icon:"💊",title:"Pharmaceutical & Biotech",desc:"State the required grade, pipe or tube standard, finish, cleanliness and documentation scope."},
+            {icon:"🍶",title:"Food & Dairy",desc:"Hygienic requirements should define product form, grade, finish and applicable standard."},
+            {icon:"🛢️",title:"Oil & Gas",desc:"The project specification determines grade, pipe form, testing and inspection requirements."},
+            {icon:"⚡",title:"Power Plants",desc:"Use the governing code and service conditions to select material and product specification."},
+            {icon:"🌊",title:"Marine & Offshore",desc:"Confirm material selection for the actual chloride exposure rather than assuming universal suitability."},
           ].map(a => (
             <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.25rem"}}>
               <span style={{"font-size":"1.5rem"}}>{a.icon}</span>
@@ -268,10 +268,10 @@ export default function SS304316LPage() {
 
         <div style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)","border-radius":"12px",padding:"2.5rem","text-align":"center"}}>
           <h2 style={{color:"#fff","font-size":"1.4rem","font-weight":"800","margin-bottom":"0.75rem"}}>Need SS 304 or 316L Pipe?</h2>
-          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.5rem"}}>Send your size, schedule and grade — we will confirm availability and price.</p>
+          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.5rem"}}>Send the exact grade, pipe form, ASTM/ASME specification, dimensions, quantity, documentation requirements and destination for order-specific review.</p>
           <div style={{display:"flex",gap:"1rem","justify-content":"center","flex-wrap":"wrap"}}>
             <a href="tel:+919998280619" style={{background:"#fff",color:"#E8821A","font-weight":"800",padding:"0.75rem 1.75rem","border-radius":"8px","text-decoration":"none"}}>📞 +91 99982 80619</a>
-            <a href="https://wa.me/919998280619" target="_blank" rel="noopener" style={{background:"#25D366",color:"#fff","font-weight":"800",padding:"0.75rem 1.75rem","border-radius":"8px","text-decoration":"none"}}>💬 WhatsApp</a>
+            <a href="https://wa.me/919998280619?text=Hi%2C%20I%20need%20an%20SS%20304%20or%20316L%20pipe%20quotation" target="_blank" rel="noopener" style={{background:"#25D366",color:"#fff","font-weight":"800",padding:"0.75rem 1.75rem","border-radius":"8px","text-decoration":"none"}}>💬 WhatsApp</a>
             <a href="/#contact" style={{background:"rgba(255,255,255,0.15)",color:"#fff",border:"2px solid rgba(255,255,255,0.5)","font-weight":"700",padding:"0.75rem 1.75rem","border-radius":"8px","text-decoration":"none"}}>Send Enquiry →</a>
           </div>
         </div>

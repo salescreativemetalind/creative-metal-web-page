@@ -2,11 +2,15 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 
-const [home, layout, stainlessGuide, ssSeamless, duplex, duplexPlate, superDuplexPipe] = await Promise.all([
+const [home, layout, stainlessGuide, ssNational, ssLocal, ssSeamless, ssGrades, ss310, duplex, duplexPlate, superDuplexPipe] = await Promise.all([
   readFile(new URL("../src/routes/index.tsx", import.meta.url), "utf8"),
   readFile(new URL("../src/components/Layout.tsx", import.meta.url), "utf8"),
   readFile(new URL("../src/routes/top-stainless-steel-pipe-supplier-india-quality-assured.tsx", import.meta.url), "utf8"),
+  readFile(new URL("../src/routes/ss-pipe-supplier.tsx", import.meta.url), "utf8"),
+  readFile(new URL("../src/routes/stainless-steel-supplier-vadodara.tsx", import.meta.url), "utf8"),
   readFile(new URL("../src/routes/ss-seamless-pipe-supplier-india.tsx", import.meta.url), "utf8"),
+  readFile(new URL("../src/routes/ss-304-316l-pipe-supplier-india.tsx", import.meta.url), "utf8"),
+  readFile(new URL("../src/routes/ss-310-pipe-supplier-india.tsx", import.meta.url), "utf8"),
   readFile(new URL("../src/routes/duplex-steel-supplier-vadodara.tsx", import.meta.url), "utf8"),
   readFile(new URL("../src/routes/duplex-2205-plate-supplier-india.tsx", import.meta.url), "utf8"),
   readFile(new URL("../src/routes/super-duplex-2507-pipe-supplier.tsx", import.meta.url), "utf8"),
@@ -40,6 +44,26 @@ test("SS seamless page includes buyer enquiry details without depending on a gen
   assert.match(ssSeamless, /Share grade, standard, size, schedule, length and quantity/);
   assert.match(ssSeamless, /documentation needs and delivery location/);
   assert.match(ssSeamless, /not a guarantee of current stock/);
+});
+
+test("five stainless steel pages retain distinct search intents", () => {
+  assert.match(ssNational, /<Title>SS Pipe Supplier in India \| Seamless &amp; Welded Pipes<\/Title>/);
+  assert.match(ssNational, /general pipe enquiry process rather than duplicating detailed grade selection/);
+  assert.match(ssLocal, /<Title>Stainless Steel Supplier in Vadodara/);
+  assert.match(ssLocal, /location and multi-product page—not the national technical landing page for SS pipe/);
+  assert.match(ssSeamless, /<Title>SS Seamless Pipe Supplier in India \| ASTM A312<\/Title>/);
+  assert.match(ssSeamless, /without a longitudinal weld seam/);
+  assert.match(ssGrades, /<Title>SS 304 &amp; SS 316L Pipe Supplier in India/);
+  assert.match(ssGrades, /grade-specific page covers enquiries and procurement distinctions/);
+  assert.match(ss310, /<Title>SS 310 &amp; 310S Pipe Supplier in India/);
+  assert.match(ss310, /dedicated to SS 310-family pipe grade enquiries/);
+});
+
+test("specialist stainless pages link to the national pipe hub without replacing their intent", () => {
+  for (const source of [ssLocal, ssSeamless, ssGrades, ss310]) assert.match(source, /href="\/ss-pipe-supplier"/);
+  assert.match(ssNational, /href(?:=|:)"\/ss-seamless-pipe-supplier-india"/);
+  assert.match(ssNational, /href(?:=|:)"\/ss-304-316l-pipe-supplier-india"/);
+  assert.match(ssNational, /href(?:=|:)"\/ss-310-pipe-supplier-india"/);
 });
 
 test("duplex page keeps certification terms as buyer requirements, not company or product claims", () => {

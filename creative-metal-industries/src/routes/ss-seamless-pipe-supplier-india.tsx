@@ -7,19 +7,19 @@ import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
-  { grade:"SS 304/304L", spec:"ASTM A312 TP304/TP304L", sizes:"6NB–600NB, SCH 5S–XXS", apps:"General chemical, food, dairy", stock:"Confirm per order" },
-  { grade:"SS 316/316L", spec:"ASTM A312 TP316/TP316L", sizes:"6NB–600NB, SCH 5S–XXS", apps:"Marine, pharma, chloride service", stock:"Confirm per order" },
-  { grade:"SS 321", spec:"ASTM A312 TP321", sizes:"6NB–400NB, SCH 10S–160", apps:"High-temp stabilised service", stock:"Confirm per order" },
-  { grade:"SS 317L", spec:"ASTM A312 TP317L", sizes:"6NB–300NB", apps:"Aggressive acid, pulp & paper", stock:"Confirm per order" },
-  { grade:"SS 310/310S", spec:"ASTM A312 TP310S", sizes:"6NB–300NB", apps:"Furnace, kiln, high-temp oxidation", stock:"Confirm per order" },
-  { grade:"SS 347", spec:"ASTM A312 TP347", sizes:"6NB–300NB", apps:"High-temp Nb-stabilised", stock:"Confirm per order" },
-  { grade:"SS 904L", spec:"ASTM A312 N08904", sizes:"6NB–200NB", apps:"Sulphuric/phosphoric acid", stock:"Confirm per order" },
-  { grade:"Duplex 2205", spec:"ASTM A790 S31803", sizes:"6NB–300NB, SCH 5S–80S", apps:"Oil & gas, desalination", stock:"Confirm per order" },
-  { grade:"Super Duplex 2507", spec:"ASTM A790 S32750", sizes:"6NB–200NB", apps:"Offshore, subsea, seawater", stock:"Confirm per order" },
+  { grade:"SS 304/304L", spec:"ASTM A312 TP304/TP304L", enquiry:"State NPS/OD, wall thickness or schedule, length and quantity" },
+  { grade:"SS 316/316L", spec:"ASTM A312 TP316/TP316L", enquiry:"State the exact grade required by the project specification" },
+  { grade:"SS 321", spec:"ASTM A312 TP321", enquiry:"Confirm grade, dimensions and project documentation" },
+  { grade:"SS 317L", spec:"ASTM A312 TP317L", enquiry:"Confirm grade designation and governing specification" },
+  { grade:"SS 310/310S", spec:"ASTM A312 TP310/TP310S", enquiry:"Use the dedicated SS 310 page for grade-specific details" },
+  { grade:"SS 347", spec:"ASTM A312 TP347", enquiry:"Confirm grade, dimensions and inspection requirements" },
+  { grade:"SS 904L", spec:"ASTM A312 N08904", enquiry:"Confirm product scope and documentation per order" },
+  { grade:"Duplex 2205", spec:"ASTM A790 UNS S31803/S32205", enquiry:"Confirm the project-specified UNS designation" },
+  { grade:"Super Duplex 2507", spec:"ASTM A790 UNS S32750", enquiry:"Confirm specification, testing and documentation clauses" },
 ];
 
 const FAQS = [
-  { q:"What sizes and schedules can I request?", a:"The page lists sizes from 6NB to 600NB and schedules from SCH 5S to XXS as enquiry specifications. Share the required grade, outside diameter, wall thickness or schedule, and length so the team can confirm whether it can meet your order." },
+  { q:"What dimensions should I provide for seamless pipe?", a:"Share the required nominal pipe size or outside diameter, wall thickness or schedule, length and quantity exactly as stated in the purchase specification. The team will confirm whether the requested dimensions can be offered; this page is not a live inventory list." },
   { q:"Which grades and standards are listed?", a:"The listed range includes austenitic grades such as SS 304/304L, 316/316L, 321, 317L, 310S, 347 and 904L, plus Duplex 2205 and Super Duplex 2507. ASTM A312 and A790 are referenced on this page; confirm the applicable standard and grade for your requirement." },
   { q:"Can you provide IBR, NACE or MTC documents?", a:"Include any IBR, NACE, MTC or inspection requirements in your enquiry. The team must confirm the documents and compliance applicable to the specific material and order; this page does not guarantee that every grade or order carries each document." },
   { q:"How do seamless and welded pipes differ?", a:"Seamless pipe has no longitudinal weld seam, while welded pipe is formed from strip or coil and joined along a seam. Select the type specified by your design and governing product standard. Creative Metal Industries also handles general stainless-steel pipe enquiries at /ss-pipe-supplier." },
@@ -32,17 +32,17 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function SsSeamlessPipeSupplierIndia() {
   return (
     <>
-      <Title>Stainless Steel Seamless Pipe Supplier India | ASTM A312 Grades | CMI</Title>
+      <Title>SS Seamless Pipe Supplier in India | ASTM A312</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="Looking for an SS seamless pipe supplier in India? Enquire about listed stainless steel grades and ASTM pipe specifications. Share your size and requirements for an order-specific quotation." />
+      <Meta name="description" content="SS seamless pipe supplier in India for ASTM A312 and project-specified grade enquiries. Send NPS or OD, wall thickness, length, quantity and document requirements." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-seamless-pipe-supplier-india" />
-      <Meta property="og:title" content="SS Seamless Pipe Supplier India | ASTM A312 | Creative Metal Industries" />
+      <Meta property="og:title" content="SS Seamless Pipe Supplier in India | ASTM A312" />
       <Meta property="og:type" content="website" />
       <Meta property="og:description" content="Enquire about stainless steel seamless pipe grades and ASTM specifications. Share your required size and documents for an order-specific quotation." />
       <Meta property="og:url" content="https://www.creativemetalind.com/ss-seamless-pipe-supplier-india" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="Stainless Steel Seamless Pipe Supplier India | ASTM A312 Grades | CMI" />
+      <Meta name="twitter:title" content="SS Seamless Pipe Supplier in India | ASTM A312" />
       <Meta name="twitter:description" content="Enquire about stainless steel seamless pipe grades and ASTM specifications. Share your required size and documents for an order-specific quotation." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
@@ -61,10 +61,10 @@ export default function SsSeamlessPipeSupplierIndia() {
       <main style={{"max-width":"960px",margin:"0 auto",padding:"3rem 1.5rem"}}>
         <div style={{"margin-bottom":"2.5rem","text-align":"center"}}>
           <h1 style={{"font-size":"clamp(1.8rem,4vw,2.6rem)","font-weight":"800",color:"#111827","margin":"0 0 1rem","line-height":"1.2"}}>
-            Stainless Steel Seamless Pipe Supplier in India — Listed Grades & Specifications
+            Stainless Steel Seamless Pipe Supplier in India
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            This page provides enquiry references for stainless-steel seamless pipe, including listed grades, standards and size ranges. Share the specification and delivery destination so the team can confirm whether the requested material, documents and order terms can be offered.
+            This page is dedicated to stainless-steel pipe supplied without a longitudinal weld seam. Send the project-specified grade, pipe standard, NPS or outside diameter, wall thickness or schedule, length, quantity, documentation requirements and destination for order-specific review.
           </p>
         </div>
         <p style={{"font-size":"0.95rem",color:"#4b5563","line-height":"1.7","margin":"0 0 1.5rem","text-align":"center"}}>
@@ -72,13 +72,13 @@ export default function SsSeamlessPipeSupplierIndia() {
         </p>
 
         {/* Grade Table */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS Seamless Pipe Grades and Listed Specifications</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Grades Referenced for Seamless Pipe Enquiries</h2>
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"2rem"}}>
           <table style={{width:"100%","border-collapse":"collapse","font-size":"0.85rem","min-width":"650px"}}>
-            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 0.8rem","text-align":"left"}}>Grade</th><th style={{padding:"0.7rem 0.8rem"}}>Specification reference</th><th style={{padding:"0.7rem 0.8rem"}}>Listed size range</th><th style={{padding:"0.7rem 0.8rem"}}>Typical applications</th><th style={{padding:"0.7rem 0.8rem"}}>Order confirmation</th></tr></thead>
+            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 0.8rem","text-align":"left"}}>Grade</th><th style={{padding:"0.7rem 0.8rem"}}>Pipe specification reference</th><th style={{padding:"0.7rem 0.8rem"}}>Information to confirm</th></tr></thead>
             <tbody>
               {GRADES.map((g,i) => (
-                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 0.8rem","font-weight":"700"}}>{g.grade}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.spec}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.sizes}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.apps}</td><td style={{padding:"0.6rem 0.8rem","text-align":"center",color:"#6b7280","font-weight":"600"}}>{g.stock}</td></tr>
+                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 0.8rem","font-weight":"700"}}>{g.grade}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.spec}</td><td style={{padding:"0.6rem 0.8rem",color:"#4b5563"}}>{g.enquiry}</td></tr>
               ))}
             </tbody>
           </table>
@@ -91,9 +91,9 @@ export default function SsSeamlessPipeSupplierIndia() {
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Specifications &amp; Technical Details</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(280px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
           {[
-            {label:"Standards listed",value:"ASTM A312, A213, A269, A790, A789 — confirm for the product"},
-            {label:"Enquiry size range",value:"6NB to 600NB (1/8\" to 24\") — availability confirmed per order"},
-            {label:"Schedules listed",value:"SCH 5S, 10S, 20, 40S, 40, 80S, 80, 120, 160, XXS"},
+            {label:"Pipe standards referenced",value:"ASTM A312 for austenitic pipe and ASTM A790 for duplex pipe — confirm grade and edition"},
+            {label:"Dimensions",value:"State NPS/NB or outside diameter and the required wall thickness or schedule"},
+            {label:"Product form",value:"Specify seamless pipe; tube standards and welded-pipe requirements belong to separate scopes"},
             {label:"Length / end finish",value:"Specify random or fixed length, cut-to-length, and end preparation for confirmation"},
             {label:"Testing",value:"State required tests in the enquiry; applicability and scope confirmed per order"},
             {label:"Documentation",value:"Specify MTC, IBR or other documents; confirm applicability for the material and order"},
@@ -117,7 +117,7 @@ export default function SsSeamlessPipeSupplierIndia() {
         </ul>
 
         {/* Industries */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Applications for SS Seamless Pipe</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>When a Project Specifies Seamless Stainless Steel Pipe</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(220px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
           {[{icon:"🛢️",name:"Oil & Gas Refineries"},{icon:"🏭",name:"Petrochemical Plants"},{icon:"⚡",name:"Power & Energy"},{icon:"🧪",name:"Chemical & Pharma"},{icon:"🌱",name:"Fertilizer Industry"},{icon:"💧",name:"Water & Desalination"},{icon:"⚓",name:"Marine & Offshore"},{icon:"🏗️",name:"EPC Contractors"}].map(ind => (
             <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"1rem","text-align":"center"}}>

@@ -7,10 +7,10 @@ import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
-  { grade: "SS 310 (TP310)", composition: "25Cr-20Ni", sizes: "1/2\" to 24\"", schedule: "SCH 5S–80S", apps: "Furnace parts, heat treatment baskets, radiant tubes", ht: "Solution Annealed 1040-1100°C", stock: "Confirm per order" },
-  { grade: "SS 310S (TP310S)", composition: "25Cr-20Ni (Low C ≤0.08%)", sizes: "1/2\" to 16\"", schedule: "SCH 5S–80S", apps: "Kiln rollers, thermal oxidizers, incinerators", ht: "Solution Annealed", stock: "Confirm per order" },
-  { grade: "SS 310H (TP310H)", composition: "25Cr-20Ni (High C 0.04-0.10%)", sizes: "1/2\" to 12\"", schedule: "SCH 10S–80S", apps: "High-temp creep service above 600°C", ht: "Solution Annealed", stock: "Confirm per order" },
-  { grade: "SS 310MoLN", composition: "25Cr-22Ni-2Mo-N", sizes: "1/2\" to 8\"", schedule: "SCH 10S–40S", apps: "FGD systems, wet scrubbers, urea plants", ht: "Solution Annealed", stock: "Confirm per order" },
+  { grade: "SS 310", designation: "TP310 / project-specified designation", distinction: "Confirm composition limits and product specification", enquiry: "Grade, standard, dimensions, quantity and service conditions" },
+  { grade: "SS 310S", designation: "TP310S", distinction: "Lower-carbon 310-family designation", enquiry: "Confirm the required designation rather than substituting 310" },
+  { grade: "SS 310H", designation: "TP310H", distinction: "Controlled-carbon 310-family designation", enquiry: "Use only when required by the governing project specification" },
+  { grade: "310-family alternatives", designation: "Project-specific", distinction: "Do not assume equivalence with TP310/TP310S/TP310H", enquiry: "Provide the complete material designation and standard" },
 ];
 
 const FAQS = [
@@ -27,17 +27,17 @@ const FAQ_SCHEMA = JSON.stringify({"@context":"https://schema.org","@type":"FAQP
 export default function Ss310PipeSupplierIndia() {
   return (
     <>
-      <Title>SS 310 Pipe Supplier India | High Temperature | 310S | CMI</Title>
+      <Title>SS 310 &amp; 310S Pipe Supplier in India | Grade Enquiries</Title>
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content={"SS 310 pipe supplier India — ASTM A312 TP310S seamless & welded pipes for high temperature furnace service up to 1100°C. Sizes 1/2\" to 24\"."} />
+      <Meta name="description" content="SS 310 and 310S pipe supplier enquiries in India. Send the grade designation, pipe standard, dimensions, quantity, service conditions and document requirements." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-310-pipe-supplier-india" />
-      <Meta property="og:title" content="SS 310 Pipe Supplier India | High Temperature Stainless Steel | CMI" />
+      <Meta property="og:title" content="SS 310 & 310S Pipe Supplier in India | Grade Enquiries" />
       <Meta property="og:type" content="website" />
       <Meta property="og:description" content="Enquire about SS 310 pipe specifications for high-temperature applications. Share your grade, dimensions and order requirements to request a quotation." />
       <Meta property="og:url" content="https://www.creativemetalind.com/ss-310-pipe-supplier-india" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="SS 310 Pipe Supplier India | High Temperature | CMI" />
+      <Meta name="twitter:title" content="SS 310 & 310S Pipe Supplier in India | Grade Enquiries" />
       <Meta name="twitter:description" content="Enquire about SS 310 pipe specifications. Confirm the requested grade, dimensions, availability and order terms for a quotation." />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
@@ -55,21 +55,21 @@ export default function Ss310PipeSupplierIndia() {
       <main style={{"max-width":"960px",margin:"0 auto",padding:"3rem 1.5rem"}}>
         <div style={{"margin-bottom":"2.5rem","text-align":"center"}}>
           <h1 style={{"font-size":"clamp(1.8rem,4vw,2.6rem)","font-weight":"800",color:"#111827",margin:"0 0 1rem","line-height":"1.2"}}>
-            SS 310 Pipe Supplier in India — High Temperature Stainless Steel
+            SS 310 &amp; 310S Pipe Supplier in India
           </h1>
           <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8","max-width":"750px",margin:"0 auto"}}>
-            This page provides SS 310-family pipe information for product enquiries. The listed grades, dimensions and technical details are references only; confirm the applicable specification and material suitability with a qualified engineer, and confirm whether the requested product can be offered for your order.
+            This page is dedicated to SS 310-family pipe grade enquiries. Send the exact designation required by the project, pipe standard, seamless or welded form, dimensions, quantity, service conditions and documentation clauses. Material suitability and any proposed grade substitution require engineering approval.
           </p>
         </div>
 
         {/* Grade Table */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS 310 Pipe Grades — Enquiry References</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS 310, 310S and 310H Enquiry Distinctions</h2>
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"2rem"}}>
           <table style={{width:"100%","border-collapse":"collapse","font-size":"0.85rem","min-width":"800px"}}>
-            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 0.8rem","text-align":"left"}}>Grade</th><th style={{padding:"0.7rem 0.8rem"}}>Composition</th><th style={{padding:"0.7rem 0.8rem"}}>Sizes</th><th style={{padding:"0.7rem 0.8rem"}}>Schedules</th><th style={{padding:"0.7rem 0.8rem"}}>Applications</th><th style={{padding:"0.7rem 0.8rem"}}>Heat Treatment</th><th style={{padding:"0.7rem 0.8rem"}}>Availability</th></tr></thead>
+            <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 0.8rem","text-align":"left"}}>Grade family</th><th style={{padding:"0.7rem 0.8rem"}}>Designation reference</th><th style={{padding:"0.7rem 0.8rem"}}>Procurement distinction</th><th style={{padding:"0.7rem 0.8rem"}}>Information to provide</th></tr></thead>
             <tbody>
               {GRADES.map((g,i) => (
-                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 0.8rem","font-weight":"700"}}>{g.grade}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.composition}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.sizes}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.schedule}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.apps}</td><td style={{padding:"0.6rem 0.8rem","font-size":"0.8rem"}}>{g.ht}</td><td style={{padding:"0.6rem 0.8rem","text-align":"center",color:"#d97706","font-weight":"700"}}>{g.stock}</td></tr>
+                <tr style={{background:i%2===0?"#fff":"#f9fafb"}}><td style={{padding:"0.6rem 0.8rem","font-weight":"700"}}>{g.grade}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.designation}</td><td style={{padding:"0.6rem 0.8rem"}}>{g.distinction}</td><td style={{padding:"0.6rem 0.8rem",color:"#4b5563"}}>{g.enquiry}</td></tr>
               ))}
             </tbody>
           </table>
@@ -79,14 +79,12 @@ export default function Ss310PipeSupplierIndia() {
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Specifications & Technical Details</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(280px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
           {[
-            {label:"Standard",value:"ASTM A312 / SA312 (Pipe) · ASTM A213 / SA213 (Tube)"},
-            {label:"Grade",value:"TP310, TP310S, TP310H, TP310MoLN"},
-            {label:"Type",value:"Seamless & Welded (EFW/ERW)"},
-            {label:"Size Range",value:"1/2\" to 24\" (15NB to 600NB)"},
-            {label:"Schedules",value:"SCH 5S, 10S, 20S, 40S, 80S"},
-            {label:"Max Service Temp",value:"1050°C continuous / 1100°C intermittent"},
-            {label:"Composition",value:"24-26% Cr, 19-22% Ni, ≤0.25% C (310)"},
-            {label:"Testing",value:"Hydrostatic, UT, IGC (A262), PMI, Solution Annealed"},
+            {label:"Pipe standard",value:"State the governing ASTM/ASME or project specification and edition"},
+            {label:"Exact grade",value:"Specify TP310, TP310S, TP310H or the complete project designation"},
+            {label:"Pipe form",value:"State seamless or welded exactly as required by the project"},
+            {label:"Dimensions",value:"Provide NPS or outside diameter, wall thickness or schedule, and length"},
+            {label:"Service conditions",value:"Provide design temperature, process environment and applicable design code for engineering review"},
+            {label:"Testing",value:"List required tests and acceptance clauses; confirm applicability per order"},
             {label:"Documentation",value:"Specify required certificates and inspection documents; confirm scope for the specific order"},
             {label:"Source",value:"Confirm the offered source and supporting documentation for the specific order"},
           ].map(s => (
@@ -98,22 +96,15 @@ export default function Ss310PipeSupplierIndia() {
         </div>
 
         {/* Applications */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Applications of SS 310/310S Pipe in India</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Elevated-Temperature Project Enquiries</h2>
         <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.5rem","margin-bottom":"2rem"}}>
-          <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","padding-left":"1.25rem",margin:0}}>
-            <li><strong>Cement industry:</strong> Kiln shells, preheater cyclones, cooler grate plates</li>
-            <li><strong>Heat treatment:</strong> Furnace muffles, retorts, radiant tubes, baskets, fixtures</li>
-            <li><strong>Steel plants:</strong> Reheating furnace components, roller hearth furnaces</li>
-            <li><strong>Petrochemical:</strong> Ethylene cracker radiant coils, reformer pigtails</li>
-            <li><strong>Glass industry:</strong> Melting tank components, lehr rollers</li>
-            <li><strong>Thermal oxidizers:</strong> Combustion chambers, waste incinerators</li>
-            <li><strong>Flue gas:</strong> FGD ducting (310MoLN variant for wet environments)</li>
-            <li><strong>Power plants:</strong> Burner nozzles, flame shields, ash handling systems</li>
-          </ul>
+          <p style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9",margin:0}}>SS 310-family materials may be considered in projects involving elevated-temperature oxidation conditions, but this page does not assign a maximum service temperature or approve the material for a specific furnace, kiln, petrochemical or power application. Provide the complete operating conditions and governing design documents so the responsible engineer can confirm grade and product-form suitability.</p>
         </div>
 
+        <p style={{"font-size":"0.92rem",color:"#4b5563","line-height":"1.8","margin-bottom":"2rem"}}>For general stainless-steel pipe enquiries, visit the <a href="/ss-pipe-supplier" style={{color:"#E8821A","font-weight":"600"}}>national SS pipe supplier page</a>. For seamless-only requirements, use the <a href="/ss-seamless-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>SS seamless pipe page</a>.</p>
+
         {/* Why Choose CMI */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Why Buy SS 310 Pipe from Creative Metal Industries?</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Prepare an SS 310/310S Pipe Enquiry</h2>
         <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","padding-left":"1.25rem"}}>
           <li>Share the required grade, product form, dimensions and governing specification for review.</li>
           <li>Confirm availability, source, documentation, inspection scope and delivery terms for the specific order.</li>
