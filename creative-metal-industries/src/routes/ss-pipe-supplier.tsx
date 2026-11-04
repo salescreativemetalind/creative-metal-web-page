@@ -302,23 +302,25 @@ export default function SSPipeSupplierPage() {
         </p>
 
 
-        <h2 style={H2}>Why Enquire with Creative Metal Industries</h2>
-        <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(240px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
+        <h2 style={H2}>How Your Stainless Steel Pipe RFQ Is Reviewed</h2>
+        <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(240px,1fr))",gap:"1rem","margin-bottom":"1.25rem"}}>
           {[
-            {icon:"📍",title:"Vadodara Location",desc:"Creative Metal Industries is based in Vadodara, Gujarat. Contact the team to confirm the relevant office or godown/yard location."},
-            {icon:"🧰",title:"Pipe Enquiry Details",desc:"Specify seamless or welded type, grade, standard and dimensions for order-specific review."},
-            {icon:"📋",title:"Specification-Led Enquiry",desc:"Submit grade, product standard, dimensions, quantity and documentation requirements."},
-            {icon:"☎️",title:"Contact the Sales Team",desc:"Request a quote by telephone, WhatsApp or the website enquiry form."},
-          ].map(benefit => (
-            <div style={{display:"flex","align-items":"start",gap:"0.75rem"}}>
-              <span style={{"font-size":"1.5rem","flex-shrink":"0"}}>{benefit.icon}</span>
-              <div>
-                <h3 style={{"font-size":"0.9rem","font-weight":"600",color:"#111827",margin:"0 0 0.25rem"}}>{benefit.title}</h3>
-                <p style={{"font-size":"0.82rem",color:"#6b7280",margin:0,"line-height":"1.5"}}>{benefit.desc}</p>
-              </div>
+            {title:"Material identity",desc:"State the exact TP or UNS grade designation required by the purchase specification."},
+            {title:"Product definition",desc:"Identify seamless or welded pipe. Do not use a tube standard unless the requirement is actually for tube."},
+            {title:"Dimensional definition",desc:"Provide NPS/NB or outside diameter, wall thickness or schedule, length and end preparation."},
+            {title:"Compliance definition",desc:"Name the governing standard and edition, plus any project clauses that apply to the order."},
+            {title:"Documentation scope",desc:"List certificate, test and inspection requirements exactly as stated in the purchase documents."},
+            {title:"Commercial logistics",desc:"Provide quantity, destination, requested date and the commercial terms needed in the quotation."},
+          ].map(item => (
+            <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"8px",padding:"1rem"}}>
+              <h3 style={{"font-size":"0.9rem","font-weight":"600",color:"#111827",margin:"0 0 0.25rem"}}>{item.title}</h3>
+              <p style={{"font-size":"0.82rem",color:"#6b7280",margin:0,"line-height":"1.5"}}>{item.desc}</p>
             </div>
           ))}
         </div>
+        <p style={{"font-size":"0.88rem",color:"#4b5563","line-height":"1.7","margin-bottom":"2rem"}}>
+          Before ordering, check that the quotation explicitly confirms the offered grade and pipe form, governing standard, dimensions, documentation scope, source when required, availability, lead time and commercial terms. An enquiry submission does not confirm that every requested item or document can be offered.
+        </p>
 
         <h2 style={H2}>Frequently Asked Questions — SS Pipe Supplier</h2>
         <div style={{display:"flex","flex-direction":"column",gap:"0.75rem","margin-bottom":"3rem"}}>

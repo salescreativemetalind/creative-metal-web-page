@@ -107,14 +107,18 @@ export default function SsSeamlessPipeSupplierIndia() {
         </div>
 
         {/* Why Choose */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS Seamless Pipe Enquiries for Indian Buyers</h2>
-        <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"2rem","padding-left":"1.25rem"}}>
-          <li><strong>Specify the requirement:</strong> Share grade, standard, size, schedule, length and quantity for an order-specific review.</li>
-          <li><strong>Confirm availability:</strong> Listed grades and dimensions are enquiry specifications, not a guarantee of current stock.</li>
-          <li><strong>Documentation:</strong> Identify MTC, IBR, NACE or inspection requirements; applicability is confirmed for the specific order.</li>
-          <li><strong>Processing:</strong> Include any requested cutting or end preparation so the team can confirm whether it can be provided.</li>
-          <li><strong>Delivery:</strong> Share the destination and requested date; dispatch and delivery terms are confirmed in the quotation.</li>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>SS Seamless Pipe Enquiries for Indian Buyers</h2>
+        <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","margin-bottom":"1.25rem","padding-left":"1.25rem"}}>
+          <li><strong>Material identity:</strong> State the exact TP or UNS grade designation; no alternate grade is permitted unless the buyer approves it.</li>
+          <li><strong>Governing requirement:</strong> Provide the complete pipe specification, edition and applicable purchase-order or project clauses.</li>
+          <li><strong>Dimensions:</strong> State NPS/NB or outside diameter, whether wall is nominal or minimum, schedule or wall thickness, tolerances and end preparation.</li>
+          <li><strong>Length and quantity:</strong> Specify fixed, random or cut length and quantity by pieces, total length or weight as appropriate.</li>
+          <li><strong>Testing and documents:</strong> Copy required tests, certificates and inspection clauses from the purchase documents for order-specific confirmation.</li>
+          <li><strong>Logistics:</strong> Share destination and requested date; availability, dispatch and delivery terms must be confirmed in the quotation.</li>
         </ul>
+        <p style={{"font-size":"0.88rem",color:"#4b5563","line-height":"1.7","margin-bottom":"2rem"}}>
+          Review the quotation for the offered grade, seamless form, governing standard, dimensions and tolerances, documentation scope, availability and lead time. Listed grades and dimensions are enquiry references, not a guarantee of current stock.
+        </p>
 
         {/* Industries */}
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827","margin":"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>When a Project Specifies Seamless Stainless Steel Pipe</h2>

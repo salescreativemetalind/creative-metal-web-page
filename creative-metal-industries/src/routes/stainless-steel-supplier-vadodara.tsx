@@ -6,82 +6,39 @@
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
 const GRADES = [
-  {
-    grade: "SS 304",
-    forms: "Pipes, Plates, Sheets, Fittings, Flanges, Bars",
-    spec: "ASTM A312 / A240 / A182 / A403 / A276",
-    sizes: "6NB–600NB pipes · 1–100mm plates · Full range fittings",
-  },
-  {
-    grade: "SS 316L",
-    forms: "Pipes, Plates, Sheets, Fittings, Flanges, Bars",
-    spec: "ASTM A312 TP316L / A240 316L / A182 F316L",
-    sizes: "6NB–600NB pipes · 1–100mm plates · Full range fittings",
-  },
-  {
-    grade: "SS 317L",
-    forms: "Pipes, Plates, Fittings, Flanges, Bars",
-    spec: "ASTM A312 TP317L / A240 317L / A182 F317L",
-    sizes: "6NB–300NB pipes · 2–80mm plates",
-  },
-  {
-    grade: "SS 321",
-    forms: "Pipes, Plates, Sheets, Fittings, Flanges, Bars",
-    spec: "ASTM A312 TP321 / A240 321 / A182 F321",
-    sizes: "6NB–400NB pipes · 1.5–80mm plates",
-  },
-  {
-    grade: "SS 310S",
-    forms: "Pipes, Plates, Sheets, Fittings, Bars",
-    spec: "ASTM A312 TP310S / A240 310S / A276",
-    sizes: "6NB–300NB pipes · 2–60mm plates",
-  },
-  {
-    grade: "SS 347",
-    forms: "Pipes, Plates, Fittings, Flanges, Bars",
-    spec: "ASTM A312 TP347 / A240 347 / A182 F347",
-    sizes: "6NB–300NB pipes · 2–60mm plates",
-  },
-  {
-    grade: "SS 904L",
-    forms: "Pipes, Plates, Fittings, Flanges",
-    spec: "ASTM A312 N08904 / A240 N08904",
-    sizes: "6NB–200NB pipes · 3–50mm plates",
-  },
-  {
-    grade: "Duplex 2205",
-    forms: "Pipes, Plates, Fittings, Flanges, Bars",
-    spec: "ASTM A790 S31803 / A240 S31803 / A182 F51",
-    sizes: "6NB–300NB pipes · 3–80mm plates",
-  },
-  {
-    grade: "Super Duplex 2507",
-    forms: "Pipes, Plates, Fittings, Flanges",
-    spec: "ASTM A790 S32750 / A240 S32750 / A182 F53",
-    sizes: "6NB–200NB pipes · 3–60mm plates",
-  },
+  { grade: "SS 304 / 304L", forms: "Pipe, plate, sheet, fittings, flanges and bars", spec: "Confirm the product-form standard and exact grade", details: "Product form, grade, dimensions, quantity and required documents" },
+  { grade: "SS 316 / 316L", forms: "Pipe, plate, sheet, fittings, flanges and bars", spec: "Confirm the product-form standard and exact grade", details: "Product form, grade, dimensions, quantity and required documents" },
+  { grade: "SS 317L", forms: "Website-listed enquiry grade", spec: "Confirm the applicable standard for the requested form", details: "Exact designation, product form, dimensions and quantity" },
+  { grade: "SS 321", forms: "Website-listed enquiry grade", spec: "Confirm the applicable standard for the requested form", details: "Exact designation, product form, dimensions and quantity" },
+  { grade: "SS 310S", forms: "Website-listed enquiry grade", spec: "Confirm the applicable standard for the requested form", details: "Grade, product form, dimensions and service conditions" },
+  { grade: "SS 347", forms: "Website-listed enquiry grade", spec: "Confirm the applicable standard for the requested form", details: "Exact designation, product form, dimensions and quantity" },
+  { grade: "SS 904L", forms: "Website-listed enquiry grade", spec: "Confirm the applicable standard for the requested form", details: "UNS designation, product form, dimensions and quantity" },
+  { grade: "Duplex 2205", forms: "Website-listed enquiry grade", spec: "Confirm grade and product-form standard", details: "UNS designation, form, dimensions and project requirements" },
+  { grade: "Super Duplex 2507", forms: "Website-listed enquiry grade", spec: "Confirm grade and product-form standard", details: "UNS designation, form, dimensions and project requirements" },
 ];
 
 const PRODUCTS = [
-  { cat: "SS Pipes",            desc: "Seamless and welded options; specify grade, dimensions and standard",   std: "ASTM A312, A790" },
-  { cat: "SS Tubes",            desc: "Instrumentation and other tube enquiries; specify grade and dimensions", std: "ASTM A213, A269" },
-  { cat: "SS Plates & Sheets",  desc: "Plate and sheet product forms; specify thickness and dimensions",      std: "ASTM A240" },
-  { cat: "SS Fittings",         desc: "Elbows, Tees, Reducers, End Caps — BW & SW",              std: "ASTM A403, MSS SP-43" },
-  { cat: "SS Flanges",          desc: "WNRF, SORF, BLRF, SWRF, Threaded — class 150–2500",       std: "ASME B16.5 / B16.47" },
-  { cat: "SS Bars & Rounds",    desc: "Round, Hex, Flat, Square — all grades 3mm–300mm dia",     std: "ASTM A276, A484" },
+  { cat: "SS Pipes", desc: "State seamless or welded, grade, NPS/OD, wall thickness or schedule, length and quantity", std: "Provide the governing pipe standard and edition" },
+  { cat: "SS Tubes", desc: "State outside diameter, wall thickness, grade, length, finish and intended tube specification", std: "Do not substitute a pipe standard for a tube requirement" },
+  { cat: "SS Plates & Sheets", desc: "State grade, thickness, width, length, finish and quantity", std: "Provide the governing plate or sheet specification" },
+  { cat: "SS Fittings", desc: "State fitting type, size, schedule, end connection, grade and quantity", std: "Provide the fitting and dimensional standards" },
+  { cat: "SS Flanges", desc: "State flange type, size, pressure class, facing, grade and quantity", std: "Provide the flange standard and project requirements" },
+  { cat: "SS Bars & Rounds", desc: "State shape, diameter or across-flats dimension, length, grade and condition", std: "Provide the governing bar specification" },
 ];
 
 const WHY = [
-  { icon: "📍", head: "Vadodara-Based Supplier", body: "Creative Metal Industries is based in Vadodara, Gujarat, with office and godown/yard locations listed for enquiries." },
-  { icon: "🧰", head: "Multiple Stainless Product Forms", body: "The listed range includes pipes, tubes, plates, sheets, fittings, flanges and bars." },
-  { icon: "📋", head: "Specification-Led Enquiries", body: "Share your grade, product standard, dimensions, quantity and documentation needs for an order-specific quotation." },
-  { icon: "🔗", head: "Related Product Information", body: "Use the linked product pages for specific grades and pipe types; confirm availability and terms with the sales team." },
+  { icon: "🧰", head: "Product form", body: "Identify pipe, tube, plate, sheet, fitting, flange or bar so the requirement is routed correctly." },
+  { icon: "🔎", head: "Grade and standard", body: "Provide the exact grade designation, governing product standard, edition and project clauses." },
+  { icon: "📐", head: "Dimensions and quantity", body: "State all form-specific dimensions, lengths, end or finish requirements and required quantity." },
+  { icon: "📍", head: "Vadodara logistics", body: "State the delivery or collection requirement, destination and requested date for quotation review." },
+  { icon: "📋", head: "Documentation", body: "List certificate, test and inspection requirements exactly as written in the purchase specification." },
+  { icon: "☎️", head: "Order confirmation", body: "Confirm offered scope, availability, lead time, source when required and commercial terms in the quotation." },
 ];
 
 const FAQS = [
   {
     q: "What stainless steel products can I enquire about in Vadodara?",
-    a: "Creative Metal Industries supplies stainless steel pipes, tubes, plates, sheets, fittings, flanges and bars. Include the product form, grade and specification in your enquiry so the team can confirm availability for your order.",
+    a: "The website accepts enquiries for stainless steel pipes, tubes, plates, sheets, fittings, flanges and bars. Include the product form, grade and specification so the team can confirm whether the requested scope can be offered for the order.",
   },
   {
     q: "Which stainless steel grades are listed?",
@@ -93,7 +50,7 @@ const FAQS = [
   },
   {
     q: "Where is Creative Metal Industries located?",
-    a: "Creative Metal Industries is based in Vadodara, Gujarat. The listed address is 386/B GIDC Estate, Makarpura, Vadodara 390010. Contact the team to confirm visit arrangements.",
+    a: "Creative Metal Industries is based in Vadodara, Gujarat. Confirm the current office, visit or collection location by telephone before travelling.",
   },
   {
     q: "How can I request a quotation?",
@@ -201,7 +158,7 @@ export default function StainlessSteelSupplierVadodara() {
               Stainless Steel Grades and Listed Specifications
             </h2>
             <p style={{ color: "#6b7280", "margin-bottom": "2rem", "font-size": "0.95rem" }}>
-              The grades and product forms listed below are shown with their corresponding standards and size information. Confirm current availability and documentation for your requirement.
+              These are website-listed enquiry grades and product forms, not a stock list. Provide the exact product-form standard, designation, dimensions, quantity and documentation requirements for order-specific confirmation.
             </p>
             <div style={{ overflow: "auto", border: "1px solid #e5e7eb", "border-radius": "12px" }}>
               <table style={{ width: "100%", "border-collapse": "collapse", "font-size": "0.88rem", "min-width": "600px" }}>
@@ -210,7 +167,7 @@ export default function StainlessSteelSupplierVadodara() {
                     <th style={{ padding: "0.75rem 1rem", "text-align": "left", "font-weight": "700" }}>Grade</th>
                     <th style={{ padding: "0.75rem 1rem", "text-align": "left", "font-weight": "700" }}>Product Forms</th>
                     <th style={{ padding: "0.75rem 1rem", "text-align": "left", "font-weight": "700" }}>Standard</th>
-                    <th style={{ padding: "0.75rem 1rem", "text-align": "left", "font-weight": "700" }}>Size Range</th>
+                    <th style={{ padding: "0.75rem 1rem", "text-align": "left", "font-weight": "700" }}>Information to Specify</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -219,7 +176,7 @@ export default function StainlessSteelSupplierVadodara() {
                       <td style={{ padding: "0.65rem 1rem", "font-weight": "700", color: "#111827", "white-space": "nowrap" }}>{g.grade}</td>
                       <td style={{ padding: "0.65rem 1rem", color: "#374151", "font-size": "0.82rem" }}>{g.forms}</td>
                       <td style={{ padding: "0.65rem 1rem", color: "#374151", "font-size": "0.8rem" }}>{g.spec}</td>
-                      <td style={{ padding: "0.65rem 1rem", color: "#374151", "font-size": "0.8rem" }}>{g.sizes}</td>
+                      <td style={{ padding: "0.65rem 1rem", color: "#374151", "font-size": "0.8rem" }}>{g.details}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -272,7 +229,7 @@ export default function StainlessSteelSupplierVadodara() {
                 <div style={{ background: "#fff", border: "1px solid #e5e7eb", "border-radius": "10px", padding: "1.4rem", "box-shadow": "0 1px 4px rgba(0,0,0,0.04)" }}>
                   <div style={{ "font-weight": "800", color: "#111827", "margin-bottom": "0.4rem", "font-size": "0.95rem" }}>{p.cat}</div>
                   <div style={{ "font-size": "0.85rem", color: "#374151", "margin-bottom": "0.5rem", "line-height": "1.55" }}>{p.desc}</div>
-                  <div style={{ "font-size": "0.78rem", color: "#E8821A", "font-weight": "700" }}>Std: {p.std}</div>
+                  <div style={{ "font-size": "0.78rem", color: "#E8821A", "font-weight": "700" }}>{p.std}</div>
                 </div>
               ))}
             </div>
@@ -295,10 +252,10 @@ export default function StainlessSteelSupplierVadodara() {
         <section style={{ padding: "4rem 1.5rem", background: "#fff", "border-top": "1px solid #e5e7eb" }}>
           <div style={{ "max-width": "960px", margin: "0 auto" }}>
             <h2 style={{ "font-size": "clamp(1.4rem,3vw,2rem)", "font-weight": "800", "margin-bottom": "0.5rem", color: "#111827", "text-align": "center" }}>
-              Why Enquire with Creative Metal Industries
+              Information to Include in a Vadodara Stainless Steel RFQ
             </h2>
             <p style={{ color: "#6b7280", "margin-bottom": "2.5rem", "text-align": "center", "font-size": "0.95rem" }}>
-              Local, specification-led stainless steel product enquiries from Creative Metal Industries in Vadodara.
+              Complete product and logistics details help distinguish a local multi-product enquiry from a national pipe-only requirement.
             </p>
             <div style={{ display: "grid", "grid-template-columns": "repeat(auto-fit,minmax(280px,1fr))", gap: "1.25rem" }}>
               {WHY.map(w => (
@@ -389,7 +346,7 @@ export default function StainlessSteelSupplierVadodara() {
           <strong style={{ color: "#fff" }}>Creative Metal Industries</strong> — Stainless Steel Supplier in Vadodara, Gujarat
         </p>
         <p style={{ margin: 0 }}>
-          386/B GIDC Estate, Makarpura, Vadodara 390010 &nbsp;|&nbsp;{" "}
+          Vadodara, Gujarat — confirm the current visit or collection location before travelling &nbsp;|&nbsp;{" "}
           <a href="tel:+919998280619" style={{ color: "#E8821A" }}>+91 99982 80619</a> &nbsp;|&nbsp;{" "}
           <a href="https://www.creativemetalind.com" style={{ color: "#E8821A" }}>creativemetalind.com</a>
         </p>

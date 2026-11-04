@@ -41,8 +41,9 @@ test("stainless pipe buying guide sends welded-pipe readers to the general SS pi
 
 test("SS seamless page includes buyer enquiry details without depending on a generic heading", () => {
   assert.match(ssSeamless, /SS Seamless Pipe Enquiries for Indian Buyers/);
-  assert.match(ssSeamless, /Share grade, standard, size, schedule, length and quantity/);
-  assert.match(ssSeamless, /documentation needs and delivery location/);
+  assert.match(ssSeamless, /complete pipe specification, edition and applicable purchase-order or project clauses/);
+  assert.match(ssSeamless, /tests, certificates and inspection clauses/);
+  assert.match(ssSeamless, /destination and requested date/);
   assert.match(ssSeamless, /not a guarantee of current stock/);
 });
 
@@ -64,6 +65,23 @@ test("specialist stainless pages link to the national pipe hub without replacing
   assert.match(ssNational, /href(?:=|:)"\/ss-seamless-pipe-supplier-india"/);
   assert.match(ssNational, /href(?:=|:)"\/ss-304-316l-pipe-supplier-india"/);
   assert.match(ssNational, /href(?:=|:)"\/ss-310-pipe-supplier-india"/);
+});
+
+test("stainless pages provide procurement fields without unsupported range or location promises", () => {
+  assert.match(ssNational, /How Your Stainless Steel Pipe RFQ Is Reviewed/);
+  assert.match(ssNational, /quotation explicitly confirms the offered grade and pipe form/);
+
+  assert.match(ssLocal, /Information to Include in a Vadodara Stainless Steel RFQ/);
+  assert.match(ssLocal, /Confirm the current office, visit or collection location by telephone/);
+  assert.doesNotMatch(ssLocal, /6NB[–-]600NB|class 150[–-]2500|all grades 3mm[–-]300mm|Full range fittings|386\/B GIDC Estate/);
+
+  assert.match(ssSeamless, /complete pipe specification, edition/);
+  assert.match(ssSeamless, /no alternate grade is permitted unless the buyer approves it/);
+  assert.match(ssGrades, /SS 304\/316L Pipe RFQ Requirements/);
+  assert.match(ssGrades, /does not publish a guaranteed size or schedule range/);
+  assert.doesNotMatch(ssGrades, /6NB \(1\/8 inch\) to 600NB|PREN \(approx\.\)|Density \(g\/cm³\)/);
+  assert.match(ss310, /Service Data to Include in an SS 310-Family RFQ/);
+  assert.match(ss310, /continuous, intermittent or cyclic/);
 });
 
 test("duplex page keeps certification terms as buyer requirements, not company or product claims", () => {

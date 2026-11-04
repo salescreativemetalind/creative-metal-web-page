@@ -103,13 +103,19 @@ export default function Ss310PipeSupplierIndia() {
 
         <p style={{"font-size":"0.92rem",color:"#4b5563","line-height":"1.8","margin-bottom":"2rem"}}>For general stainless-steel pipe enquiries, visit the <a href="/ss-pipe-supplier" style={{color:"#E8821A","font-weight":"600"}}>national SS pipe supplier page</a>. For seamless-only requirements, use the <a href="/ss-seamless-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>SS seamless pipe page</a>.</p>
 
-        {/* Why Choose CMI */}
-        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Prepare an SS 310/310S Pipe Enquiry</h2>
+        <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Service Data to Include in an SS 310-Family RFQ</h2>
         <ul style={{"font-size":"0.92rem",color:"#374151","line-height":"1.9","padding-left":"1.25rem"}}>
-          <li>Share the required grade, product form, dimensions and governing specification for review.</li>
-          <li>Confirm availability, source, documentation, inspection scope and delivery terms for the specific order.</li>
-          <li>State any IBR or other project documentation requirements in the enquiry; applicability and availability must be confirmed for the offered material.</li>
+          <li>Exact TP/UNS or project grade designation, with no substitution unless the buyer approves it.</li>
+          <li>Governing product standard and edition, plus the applicable design code and project clauses.</li>
+          <li>Seamless or welded pipe form, NPS/NB or outside diameter, wall thickness or schedule, length and ends.</li>
+          <li>Design and operating temperature, including whether service is continuous, intermittent or cyclic.</li>
+          <li>Process atmosphere or media and other service conditions needed for the buyer's engineering review.</li>
+          <li>Required tests, certificates and inspection clauses copied from the purchase specification.</li>
+          <li>Quantity, destination and requested date for order-specific commercial and logistics review.</li>
         </ul>
+        <p style={{"font-size":"0.88rem",color:"#4b5563","line-height":"1.7","margin-bottom":"2rem"}}>
+          Review the quotation for the offered grade, pipe form, standard, dimensions, documentation, source when required, availability, lead time and commercial terms. This page does not approve SS 310-family material for a particular temperature or process environment.
+        </p>
 
         {/* FAQ */}
         <h2 style={{"font-size":"1.4rem","font-weight":"700",color:"#111827",margin:"2.5rem 0 1rem","border-bottom":"2px solid #E8821A","padding-bottom":"0.5rem"}}>Frequently Asked Questions — SS 310 Pipe</h2>

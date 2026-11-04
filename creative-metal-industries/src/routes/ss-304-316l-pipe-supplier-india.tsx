@@ -14,40 +14,29 @@
  *   - SS sheet & plate forms + finishes   -> /ss-sheet-supplier-vadodara
  *   This page owns 304 / 304L / 316 / 316L in PIPE form.
  *
- * Property figures below are nominal published values for the grades named in
- * ASTM A312 / A240 and are presented as typical reference data, consistent with the
- * grade tables already used across this site. No company-specific capability,
- * certification, stock or price claim has been added.
+ * Grade identifiers below support procurement routing without presenting unsourced
+ * property figures or company-specific capability, certification, stock or price claims.
  */
 import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
 
-// ── Grade comparison (nominal reference values per ASTM A312 / A240) ──────────
 const COMPARE: string[][] = [
-  ["UNS Number", "S30400", "S30403", "S31600", "S31603"],
-  ["Chromium (%)", "18–20", "18–20", "16–18", "16–18"],
-  ["Nickel (%)", "8–10.5", "8–12", "10–14", "10–14"],
-  ["Molybdenum (%)", "—", "—", "2–3", "2–3"],
-  ["Carbon max (%)", "0.08", "0.030", "0.08", "0.030"],
-  ["Tensile min (MPa)", "515", "485", "515", "485"],
-  ["Yield min (MPa)", "205", "170", "205", "170"],
-  ["Density (g/cm³)", "8.0", "8.0", "8.0", "8.0"],
-  ["PREN (approx.)", "~18", "~18", "~24", "~24"],
-  ["Relative chloride pitting resistance", "Baseline", "Baseline", "Improved vs 304", "Improved vs 304"],
-
-  ["Typical use", "General, food, dairy", "Welded fabrication", "Marine, chemical", "Pharma, chloride service"],
+  ["UNS designation", "S30400", "S30403", "S31600", "S31603"],
+  ["Pipe grade designation", "TP304", "TP304L", "TP316", "TP316L"],
+  ["Low-carbon suffix", "No", "Yes — L designation", "No", "Yes — L designation"],
+  ["Procurement instruction", "Specify TP304 exactly", "Do not substitute TP304", "Specify TP316 exactly", "Do not substitute TP316"],
 ];
 
 const SPECS: string[][] = [
-  ["Enquiry size range", "6NB (1/8 inch) to 600NB (24 inch); confirm order availability"],
-  ["Wall schedules listed", "SCH 5S, 10S, 20, 40S, 80S, 120, 160, XXS"],
-  ["Pipe types", "Seamless (SMLS) and welded (ERW/EFW); specify the required type"],
-  ["Product standards", "ASTM A312 / ASME SA-312 for pipe; ASTM A213 applies to tube"],
-  ["Grades listed", "TP304, TP304L, TP316, TP316L; confirm for the order"],
-  ["End finish", "Plain end, bevelled or threaded; confirm required option"],
-  ["Length", "Specify random or fixed length for confirmation"],
-  ["Surface finish", "Specify the required finish for confirmation"],
-  ["Testing / documents", "State testing, MTC, IBR or NACE requirements for order-specific confirmation"],
+  ["Exact material", "State TP304, TP304L, TP316 or TP316L and the corresponding UNS designation where required"],
+  ["Product form", "Specify seamless or welded pipe; do not use tube terminology for a pipe requirement"],
+  ["Product standard", "State ASTM A312 / ASME SA-312 edition or the complete governing project specification"],
+  ["Dimensions", "Provide NPS/NB or outside diameter, schedule or wall thickness, tolerances and length"],
+  ["Ends and finish", "State end preparation and surface-finish requirements from the purchase specification"],
+  ["Fabrication condition", "Describe welding or fabrication requirements relevant to the specified grade"],
+  ["Service data", "Provide process medium and design temperature for review by the buyer's responsible engineer"],
+  ["Testing / documents", "List certificate, test and inspection clauses exactly as required by the order"],
+  ["Substitutions", "State that no alternate grade or product form is permitted without buyer approval when applicable"],
 ];
 
 const FAQS = [
@@ -57,15 +46,15 @@ const FAQS = [
   },
   {
     q: "What is the difference between 304 and 304L stainless steel?",
-    a: "The difference is carbon content. Standard 304 allows up to 0.08% carbon, while 304L is restricted to a maximum of 0.030%. Lower carbon reduces the formation of chromium carbides at grain boundaries during welding — the effect known as sensitisation — which would otherwise leave the weld heat-affected zone vulnerable to intergranular corrosion. 304L is therefore preferred for welded fabrication that will not be solution annealed afterwards. The trade-off is slightly lower minimum strength: 170 MPa yield and 485 MPa tensile for 304L against 205 MPa and 515 MPa for 304. The same relationship applies between 316 and 316L.",
+    a: "304 and 304L are separate grade designations; the L suffix identifies the low-carbon variant. The purchase specification, fabrication route and engineering requirements should determine which designation is ordered. Do not substitute 304 for 304L, or the reverse, without buyer approval.",
   },
   {
-    q: "What are the mechanical properties and density of SS 304?",
-    a: "For SS 304 (UNS S30400), the table shows nominal reference values for minimum yield and tensile strength, density and composition. SS 316L (UNS S31603) has a different composition, including molybdenum and a lower carbon limit. These figures are general grade references, not a certificate for a particular consignment; request and review the applicable material documentation for the specific order.",
+    q: "How should SS 304 or SS 316L be identified in an RFQ?",
+    a: "State the exact TP and UNS designation required by the governing pipe specification, together with seamless or welded form, dimensions and project clauses. Review order-specific material documentation rather than relying on general web-page property values.",
   },
   {
     q: "What pipe sizes and schedules can I enquire about for SS 304/316L?",
-    a: "The page lists sizes from 6NB to 600NB and schedules including SCH 5S, 10S, 20, 40S, 80S, 120, 160 and XXS as enquiry specifications. State the grade, seamless or welded type, dimensions, length and end finish; confirm whether the specific requirement is available for your order.",
+    a: "State the required NPS/NB or outside diameter, schedule or wall thickness, applicable tolerances, length and end finish. The quotation must confirm whether the exact dimensional requirement can be offered; this page does not publish a guaranteed size or schedule range.",
   },
   {
     q: "Can I request IBR, MTC or NACE documentation for SS 304/316L pipe?",
@@ -93,7 +82,7 @@ const SCHEMA = JSON.stringify({
       "@id": "https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india",
       url: "https://www.creativemetalind.com/ss-304-316l-pipe-supplier-india",
       name: "SS 304 & 316L Pipe Supplier India — Creative Metal Industries",
-      description: "SS 304, 304L, 316 and 316L pipe to ASTM A312 — grade properties, sizes, schedules and applications.",
+      description: "Procurement guidance for SS 304, 304L, 316 and 316L pipe enquiries, including grade identity, ASTM A312 requirements, dimensions and documentation.",
       isPartOf: { "@id": "https://www.creativemetalind.com/#website" },
       about: { "@id": "https://www.creativemetalind.com/#organization" },
       primaryImageOfPage: "https://www.creativemetalind.com/img/ss_seamless_pipes.jpeg",
@@ -174,7 +163,7 @@ export default function SS304316LPage() {
 
         <h2 style={H2}>SS 304, 304L, 316 and 316L — Grade Comparison</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.75","margin-bottom":"1rem"}}>
-          Nominal reference values from the grade standards. For any supplied material, review the applicable certificate and project specification for order-specific values.
+          Use the exact designation in the purchase specification. This table identifies the four grades without replacing the governing standard, engineering review or order-specific material documentation.
         </p>
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"1.5rem"}}>
           <table style={{width:"100%","border-collapse":"collapse","font-size":"0.85rem","min-width":"640px"}}>
@@ -201,12 +190,12 @@ export default function SS304316LPage() {
           </table>
         </div>
 
-        <h3 style={{"font-size":"1.05rem","font-weight":"700",color:"#111827",margin:"1.5rem 0 0.5rem"}}>Why the L grades exist</h3>
+        <h3 style={{"font-size":"1.05rem","font-weight":"700",color:"#111827",margin:"1.5rem 0 0.5rem"}}>Keep standard and low-carbon designations distinct</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"2rem"}}>
-          The <strong>L</strong> in 304L and 316L denotes restricted carbon — 0.030% maximum instead of 0.08%. During welding, carbon in the heat-affected zone combines with chromium to form chromium carbides at the grain boundaries, locally depleting the chromium that provides corrosion resistance. This is called sensitisation, and it leaves the weld zone open to intergranular attack. Holding carbon low suppresses it, which is why L grades are specified for fabrication that will be welded and not solution annealed afterwards. The cost is a modest reduction in minimum strength, as the table above shows.
+          The <strong>L</strong> suffix identifies a separate low-carbon grade designation. State TP304, TP304L, TP316 or TP316L exactly as required by the purchase specification. Fabrication route, service conditions and governing design documents should determine grade selection; no alternate grade should be accepted without the buyer's technical approval.
         </p>
 
-        <h2 style={H2}>Pipe Sizes, Schedules &amp; Specifications</h2>
+        <h2 style={H2}>SS 304/316L Pipe RFQ Requirements</h2>
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"2rem"}}>
           <table style={{width:"100%","border-collapse":"collapse","font-size":"0.88rem"}}>
             <thead><tr style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)",color:"#fff"}}><th style={{padding:"0.7rem 1rem","text-align":"left"}}>Parameter</th><th style={{padding:"0.7rem 1rem","text-align":"left"}}>Details</th></tr></thead>
