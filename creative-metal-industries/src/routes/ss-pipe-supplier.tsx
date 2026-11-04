@@ -11,14 +11,11 @@ import { Title, Meta, Link } from "@solidjs/meta";
 import { RelatedPages } from "../components/RelatedPages";
 
 const GRADE_COMPARE: string[][] = [
-  ["Property", "SS 304", "SS 304L", "SS 316", "SS 316L"],
-  ["Chromium (%)", "18–20", "18–20", "16–18", "16–18"],
-  ["Nickel (%)", "8–10.5", "8–12", "10–14", "10–14"],
-  ["Molybdenum (%)", "—", "—", "2–3", "2–3"],
-  ["Carbon max (%)", "0.08", "0.030", "0.08", "0.030"],
-  ["Corrosion Resistance", "Good", "Good", "Excellent", "Excellent"],
-  ["Chloride Resistance", "Moderate", "Moderate", "High", "High"],
-  ["Typical Use", "Food, dairy, general", "Welded fabrication", "Marine, chemical", "Pharmaceutical, chloride service"],
+  ["Grade", "Common UNS designation", "Procurement distinction", "Confirm before ordering"],
+  ["SS 304", "S30400", "Standard-carbon 304 grade", "Service environment and governing standard"],
+  ["SS 304L", "S30403", "Low-carbon 304 grade", "Welding, heat treatment and project requirements"],
+  ["SS 316", "S31600", "Molybdenum-bearing austenitic grade", "Actual corrosion environment and design basis"],
+  ["SS 316L", "S31603", "Low-carbon 316 grade", "Fabrication procedure and project specification"],
 ];
 
 const SEAMLESS_VS_WELDED: string[][] = [
@@ -37,8 +34,8 @@ const FAQs = [
     a: "Grades listed on this page as enquiry references include SS 304, 304L, 316, 316L, 317L, 321, 310/310S, 347 and 904L, as well as Duplex 2205 and Super Duplex 2507. Confirm the exact grade, product form and availability against your project specification.",
   },
   {
-    q: "What sizes and schedules can I request?",
-    a: "Pipe enquiries can cover sizes from 6NB to 600NB and schedules from SCH 5S to XXS. Confirm the required dimensions and current availability with the sales team; the stated range is not a stock commitment.",
+    q: "What sizes and schedules should I include in an enquiry?",
+    a: "State the nominal pipe size or outside diameter, schedule or wall thickness, required length and quantity exactly as shown in the purchase specification. The team will confirm whether the requested dimensions can be offered; this page does not represent live dimensional inventory.",
   },
   {
     q: "Which standards and documents should I specify?",
@@ -64,8 +61,8 @@ const SCHEMA = JSON.stringify({
       "@type": "WebPage",
       "@id": "https://www.creativemetalind.com/ss-pipe-supplier",
       url: "https://www.creativemetalind.com/ss-pipe-supplier",
-      name: "Stainless Steel Pipe Supplier in India | Creative Metal Industries",
-      description: "For stainless steel pipe enquiries in India, specify seamless or welded type, grade, standard, size, quantity and delivery destination. Request an order-specific quotation.",
+      name: "SS Pipe Supplier in India | Seamless & Welded Pipes",
+      description: "SS pipe supplier in India for seamless and welded stainless steel pipe enquiries. Send the grade, standard, dimensions, quantity and delivery destination for review.",
       isPartOf: { "@id": "https://www.creativemetalind.com/#website" },
       about: { "@id": "https://www.creativemetalind.com/#organization" },
       primaryImageOfPage: "https://www.creativemetalind.com/img/ss_seamless_pipes.jpeg",
@@ -95,17 +92,17 @@ const H2 = {
 export default function SSPipeSupplierPage() {
   return (
     <>
-      <Title>Stainless Steel Pipe Supplier in India | Creative Metal Industries</Title>
+      <Title>SS Pipe Supplier in India | Seamless &amp; Welded Pipes</Title>
       <Meta property="og:type" content="website" />
       <Meta property="og:url" content="https://www.creativemetalind.com/ss-pipe-supplier" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
-      <Meta name="description" content="For stainless steel pipe enquiries in India, specify seamless or welded type, grade, standard, size, quantity and delivery destination. Request an order-specific quotation from Creative Metal Industries." />
+      <Meta name="description" content="SS pipe supplier in India for seamless and welded stainless steel pipe enquiries. Send the grade, standard, dimensions, quantity and delivery destination for review." />
       <Link rel="canonical" href="https://www.creativemetalind.com/ss-pipe-supplier" />
-      <Meta property="og:title" content="Stainless Steel Pipe Supplier in India | Creative Metal Industries" />
-      <Meta property="og:description" content="For stainless steel pipe enquiries in India, specify seamless or welded type, grade, standard, size, quantity and delivery destination. Request an order-specific quotation." />
+      <Meta property="og:title" content="SS Pipe Supplier in India | Seamless & Welded Pipes" />
+      <Meta property="og:description" content="Send seamless or welded stainless steel pipe requirements with the grade, standard, dimensions, quantity and delivery destination for review." />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:title" content="Stainless Steel Pipe Supplier in India | Creative Metal Industries" />
-      <Meta name="twitter:description" content="Looking for a stainless steel pipe supplier in India? Send your pipe specification to Creative Metal Industries in Vadodara to request a quotation." />
+      <Meta name="twitter:title" content="SS Pipe Supplier in India | Seamless & Welded Pipes" />
+      <Meta name="twitter:description" content="Send seamless or welded stainless steel pipe requirements with the grade, standard, dimensions, quantity and delivery destination for review." />
       <Meta name="twitter:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <script type="application/ld+json" innerHTML={SCHEMA} />
       <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
@@ -122,7 +119,7 @@ export default function SSPipeSupplierPage() {
       </div>
 
       <main style={{"max-width":"960px",margin:"0 auto",padding:"3rem 1.5rem"}}>
-        <h1 style={{"font-size":"clamp(1.8rem,4vw,2.8rem)","font-weight":"800",color:"#111827","margin-bottom":"1.5rem"}}>Stainless Steel Pipe Supplier in India</h1>
+        <h1 style={{"font-size":"clamp(1.8rem,4vw,2.8rem)","font-weight":"800",color:"#111827","margin-bottom":"1.5rem"}}>Stainless Steel (SS) Pipe Supplier in India</h1>
 
         <div style={{display:"flex",gap:"1.5rem","align-items":"flex-start","flex-wrap":"wrap","margin-bottom":"1.5rem"}}>
           <img
@@ -134,16 +131,22 @@ export default function SSPipeSupplierPage() {
             decoding="async"
             style={{"border-radius":"10px",border:"1px solid #e5e7eb","flex-shrink":"0"}}
           />
-          <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8",margin:0,"min-width":"280px",flex:"1"}}>
-            Looking for a stainless steel pipe supplier in India for an industrial or commercial requirement? Use this page to prepare an enquiry for seamless or welded stainless-steel pipe. Share your required grade, product standard, size, schedule, quantity and delivery destination; the team can confirm whether the requested specification, documents, availability and delivery terms apply to the order.
-          </p>
+          <div style={{"min-width":"280px",flex:"1"}}>
+            <p style={{"font-size":"1.05rem",color:"#374151","line-height":"1.8",margin:"0 0 1rem"}}>
+              Creative Metal Industries handles India-focused enquiries for seamless and welded stainless-steel pipes. Send the required grade, governing product standard, nominal size or outside diameter, wall thickness or schedule, length, quantity, documentation requirements and delivery destination for an order-specific review.
+            </p>
+            <div style={{display:"flex",gap:"0.75rem","flex-wrap":"wrap"}}>
+              <a href="/#contact" class="btn btn-primary" style={{"font-size":"0.88rem",padding:"0.6rem 1rem"}}>Request a Pipe Quote</a>
+              <a href="https://wa.me/919998280619?text=Hi%2C%20I%20need%20a%20stainless%20steel%20pipe%20quotation" target="_blank" rel="noopener" class="btn btn-outline" style={{"font-size":"0.88rem",padding:"0.6rem 1rem"}}>Send RFQ on WhatsApp</a>
+            </div>
+          </div>
         </div>
 
         <p style={{"font-size":"1rem","color":"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
           For our broader local stainless-steel product range, visit the <a href="/stainless-steel-supplier-vadodara" style={{color:"#E8821A","font-weight":"600"}}>Stainless Steel Supplier in Vadodara</a> page. This page focuses on pipe types, grades, dimensions and the information needed to request a quote.
         </p>
 
-        <h2 style={H2}>Stainless Steel Pipe Supply in India</h2>
+        <h2 style={H2}>Seamless and Welded Stainless Steel Pipe Enquiries</h2>
         <p style={{"font-size":"1rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
           Creative Metal Industries is based in Vadodara, Gujarat. For a stainless-steel pipe enquiry, send the project specification and delivery destination so the team can confirm whether the requested product, documentation and terms can be offered for that order.
         </p>
@@ -176,21 +179,23 @@ export default function SSPipeSupplierPage() {
 
         <h3 style={{"font-size":"1.15rem","font-weight":"700",color:"#111827",margin:"1.75rem 0 0.75rem"}}>SS Pipe Grades</h3>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
-          Grades listed here as enquiry references include <strong>SS 304, 304L, 316, 316L, 317L, 321, 310S, 347 and 904L</strong>, plus Duplex 2205 and Super Duplex 2507. Confirm the requested grade, pipe standard and availability against your project specification.
+          Grades listed here as enquiry references include <strong>SS 304, 304L, 316, 316L, 317L, 321, 310S, 347 and 904L</strong>, plus Duplex 2205 and Super Duplex 2507. Use the dedicated <a href="/ss-304-316l-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>304/304L/316/316L pipe page</a> for grade-specific information, or the <a href="/ss-310-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>SS 310 pipe page</a> for that grade. Confirm the requested grade, pipe standard and availability against your project specification.
         </p>
 
-        <h2 style={H2}>SS Pipe Sizes and Schedules</h2>
+        <h2 style={H2}>SS Pipe Dimensions, Wall Thickness and Schedules</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
-          Enquiries can cover pipe sizes from 6NB to 600NB and schedules from SCH 5S to XXS. Confirm the size, wall thickness or schedule, length and end preparation required for your project; availability depends on the specific order.
+          State the nominal pipe size or outside diameter and the required schedule or wall thickness exactly as defined by the purchase specification. Schedule designations such as SCH 5S, 10S, 40S and 80S identify dimensional series; they do not by themselves establish pressure rating or suitability for an application.
         </p>
-        <ul style={{"font-size":"0.9rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem","padding-left":"1.5rem"}}>
-          <li><strong>SCH 5S:</strong> Extra light wall for low-pressure service</li>
-          <li><strong>SCH 10S:</strong> Light wall for chemical plants</li>
-          <li><strong>SCH 40S:</strong> Standard wall for general industrial piping</li>
-          <li><strong>SCH 80S:</strong> Extra strong for higher pressures</li>
-          <li><strong>SCH 160:</strong> Heavy wall for high-pressure service</li>
-          <li><strong>XXS:</strong> Double extra strong for extreme pressure</li>
+        <ul style={{"font-size":"0.9rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem","padding-left":"1.5rem"}}>
+          <li>Nominal pipe size (NPS/NB) or specified outside diameter</li>
+          <li>Schedule designation or minimum/nominal wall thickness</li>
+          <li>Required random, fixed or cut length</li>
+          <li>Plain, bevelled, threaded or other specified end preparation</li>
+          <li>Applicable dimensional standard and tolerances</li>
         </ul>
+        <p style={{"font-size":"0.88rem",color:"#6b7280","line-height":"1.7","margin-bottom":"1.5rem"}}>
+          Pressure and service suitability depend on the material grade, actual dimensions, temperature, corrosion allowance, joining method, design code and engineering calculation. This page does not assign an application or pressure rating from schedule alone.
+        </p>
 
         <h2 style={H2}>Standards and Documentation</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1.5rem"}}>
@@ -220,9 +225,9 @@ export default function SSPipeSupplierPage() {
           <strong>SS 316L</strong> (UNS S31603) is a low-carbon austenitic grade containing molybdenum. It is commonly considered for applications where corrosion resistance and welded fabrication are relevant. Suitability depends on the actual process environment, applicable standard and project design; confirm material selection with the responsible engineer.
         </p>
 
-        <h2 style={H2}>304 vs 316 Stainless Steel Pipe</h2>
+        <h2 style={H2}>304, 304L, 316 and 316L Procurement Distinctions</h2>
         <p style={{"font-size":"0.95rem",color:"#374151","line-height":"1.8","margin-bottom":"1rem"}}>
-          The choice between <strong>304 vs 316 stainless steel</strong> is one of the most common material selection decisions. Here's a detailed comparison:
+          These designations are not interchangeable by default. Use the grade required by the project documents and obtain engineering approval before proposing a substitution. The summary below supports RFQ preparation; the dedicated <a href="/ss-304-316l-pipe-supplier-india" style={{color:"#E8821A","font-weight":"600"}}>SS 304 and 316L pipe page</a> contains the grade-focused discussion.
         </p>
 
         <div style={{overflow:"auto",border:"1px solid #e5e7eb","border-radius":"10px","margin-bottom":"1.5rem"}}>
@@ -289,15 +294,15 @@ export default function SSPipeSupplierPage() {
         <h2 style={H2}>Industries and Applications</h2>
         <div style={{display:"grid","grid-template-columns":"repeat(auto-fit,minmax(250px,1fr))",gap:"1rem","margin-bottom":"2rem"}}>
           {[
-            {icon:"🧪",name:"Chemical Processing",desc:"Reactors, process piping, heat exchangers handling acids and corrosive chemicals"},
-            {icon:"🍶",name:"Food & Beverage",desc:"Hygienic piping for dairy, breweries, beverage processing facilities in the food industry"},
-            {icon:"💊",name:"Pharmaceutical",desc:"WFI, purified water, CIP/SIP systems requiring high purity (typically 316L electropolished)"},
-            {icon:"🛢️",name:"Oil & Gas",desc:"Process piping, instrumentation tubing, offshore platforms, refineries"},
-            {icon:"💧",name:"Water Treatment",desc:"Desalination plants, water distribution, wastewater treatment systems"},
-            {icon:"🏗️",name:"Construction",desc:"Structural applications, handrails, architectural facades contributing to industrial growth"},
-            {icon:"⚡",name:"Power Generation",desc:"Boiler tubes, steam piping, condenser tubes, heat recovery systems"},
-            {icon:"🚗",name:"Automotive",desc:"Exhaust systems, catalytic converters, fuel lines, emissions control"},
-            {icon:"🌊",name:"Marine",desc:"Seawater piping, ballast systems, deck equipment, offshore structures providing long service life"},
+            {icon:"🧪",name:"Chemical Processing",desc:"Project enquiries may specify process piping for defined chemical service conditions."},
+            {icon:"🍶",name:"Food & Beverage",desc:"Projects may require hygienic piping with a specified grade, finish and documentation scope."},
+            {icon:"💊",name:"Pharmaceutical",desc:"Water and process systems may specify controlled finish, cleanliness and inspection requirements."},
+            {icon:"🛢️",name:"Oil & Gas",desc:"Project specifications determine the permitted grade, pipe form, testing and documentation."},
+            {icon:"💧",name:"Water Treatment",desc:"Material selection depends on water chemistry, temperature, pressure and design requirements."},
+            {icon:"🏗️",name:"Construction",desc:"Architectural or structural requirements should state the product form, finish and dimensions."},
+            {icon:"⚡",name:"Power Generation",desc:"Service conditions and the governing code determine the required material and pipe specification."},
+            {icon:"🚗",name:"Automotive",desc:"Fabrication requirements should define grade, dimensions, finish and applicable specification."},
+            {icon:"🌊",name:"Marine",desc:"Material selection must be checked against the actual chloride exposure and engineering design."},
           ].map(ind => (
             <div style={{background:"#f9fafb",border:"1px solid #e5e7eb","border-radius":"10px",padding:"1.25rem"}}>
               <span style={{"font-size":"1.5rem"}}>{ind.icon}</span>
@@ -324,11 +329,11 @@ export default function SSPipeSupplierPage() {
               "ASTM/ASME specification (e.g., ASTM A312, ASTM A790)",
               "Surface finish (pickled & passivated, bright annealed, polished)",
               "End connection (plain end, beveled, threaded NPT/BSP)",
-              "Mill Test Certificate (MTC) requirement (EN 10204 3.1 or 3.2)",
-              "Third-party inspection (specify agency: DNV, TUV, SGS, etc.)",
+              "Required material certificate type, if specified by the order",
+              "Third-party inspection scope and nominated agency, if required",
               "Delivery location (city, state, country)",
               "Required delivery date",
-              "Shipping terms/Incoterms (EXW, FOB, CIF, DDP, etc.)",
+              "Required commercial or shipping terms for quotation review",
             ].map(item => (
               <div style={{display:"flex","align-items":"start"}}>
                 <span style={{color:"#ea580c","font-weight":"bold","margin-right":"0.5rem","flex-shrink":"0"}}>✓</span>
@@ -373,10 +378,10 @@ export default function SSPipeSupplierPage() {
 
         <div style={{background:"linear-gradient(135deg,#E8821A,#d85c2a)","border-radius":"12px",padding:"2.5rem","text-align":"center"}}>
           <h2 style={{color:"#fff","font-size":"1.4rem","font-weight":"800","margin-bottom":"0.75rem"}}>Request a Stainless Steel Pipe Quote</h2>
-          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.5rem"}}>Ready to source stainless steel pipes? Contact us with your requirements—grade, size, schedule, quantity, applicable standards, and delivery location.</p>
+          <p style={{color:"rgba(255,255,255,0.9)","margin-bottom":"1.5rem"}}>Send the grade, seamless or welded requirement, standard, dimensions, quantity, documentation needs and delivery location for an order-specific review.</p>
           <div style={{display:"flex",gap:"1rem","justify-content":"center","flex-wrap":"wrap"}}>
             <a href="tel:+919998280619" style={{background:"#fff",color:"#E8821A","font-weight":"800",padding:"0.75rem 1.75rem","border-radius":"8px","text-decoration":"none"}}>📞 +91 99982 80619</a>
-            <a href="https://wa.me/919998280619" target="_blank" rel="noopener" style={{background:"#25D366",color:"#fff","font-weight":"800",padding:"0.75rem 1.75rem","border-radius":"8px","text-decoration":"none"}}>💬 WhatsApp</a>
+            <a href="https://wa.me/919998280619?text=Hi%2C%20I%20need%20a%20stainless%20steel%20pipe%20quotation" target="_blank" rel="noopener" style={{background:"#25D366",color:"#fff","font-weight":"800",padding:"0.75rem 1.75rem","border-radius":"8px","text-decoration":"none"}}>💬 WhatsApp</a>
             <a href="/#contact" style={{background:"rgba(255,255,255,0.15)",color:"#fff",border:"2px solid rgba(255,255,255,0.5)","font-weight":"700",padding:"0.75rem 1.75rem","border-radius":"8px","text-decoration":"none"}}>Send Enquiry →</a>
           </div>
         </div>
