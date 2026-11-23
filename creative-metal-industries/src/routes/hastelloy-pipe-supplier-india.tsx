@@ -8,85 +8,55 @@ import { RelatedPages } from "../components/RelatedPages";
 
 const GRADES = [
   {
-    grade: "Hastelloy C-276 Seamless Pipe",
-    composition: "57Ni-16Cr-16Mo-5Fe-4W (UNS N10276)",
-    sizes: "1/2\" to 12\" NB",
-    schedule: "SCH 10S, 40S, 80S, 160",
-    apps: "HCl, H2SO4, wet chlorine, FGD systems",
-    ht: "Solution Annealed 1120°C + WQ",
-    stock: "Ready Stock"
+    grade: "Alloy C-276",
+    uns: "UNS N10276",
+    seamless: "ASTM B622 seamless pipe or tube, where applicable",
+    welded: "ASTM B619 welded pipe, where applicable",
+    context: "Selected reducing, oxidizing and chloride-bearing process environments",
+    enquiry: "Specify pipe or tube, construction, dimensions, condition and required standard revision"
   },
   {
-    grade: "Hastelloy C-22 Seamless Pipe",
-    composition: "56Ni-22Cr-13Mo-3W-3Fe (UNS N06022)",
-    sizes: "1/2\" to 8\" NB",
-    schedule: "SCH 10S, 40S, 80S",
-    apps: "Chemical reactors, pharmaceutical, oxidizing acids",
-    ht: "Solution Annealed 1120°C + WQ",
-    stock: "Ready Stock"
+    grade: "Alloy C-22",
+    uns: "UNS N06022",
+    seamless: "ASTM B622 seamless pipe or tube, where applicable",
+    welded: "ASTM B619 welded pipe, where applicable",
+    context: "Selected mixed oxidizing and reducing chemical environments",
+    enquiry: "Use the dedicated C-22 page for grade-specific procurement guidance"
   },
   {
-    grade: "Hastelloy B-2 Seamless Pipe",
-    composition: "69Ni-28Mo-2Fe (UNS N10665)",
-    sizes: "1/2\" to 6\" NB",
-    schedule: "SCH 10S, 40S, 80S",
-    apps: "Pure HCl service, reducing acids, acetic acid",
-    ht: "Solution Annealed 1065°C",
-    stock: "Available"
-  },
-  {
-    grade: "Hastelloy B-3 Seamless Pipe",
-    composition: "65Ni-28.5Mo-1.5Cr-1.5Fe (UNS N10675)",
-    sizes: "1/2\" to 6\" NB",
-    schedule: "SCH 10S, 40S, 80S",
-    apps: "Improved thermal stability over B-2, HCl at all concentrations",
-    ht: "Solution Annealed 1065°C",
-    stock: "Available"
-  },
-  {
-    grade: "Hastelloy X Pipe",
-    composition: "47Ni-22Cr-9Mo-18Fe (UNS N06002)",
-    sizes: "1/2\" to 8\" NB",
-    schedule: "SCH 10S, 40S, 80S",
-    apps: "Gas turbine combustion cans, afterburners, high-temp oxidation",
-    ht: "Solution Annealed 1175°C",
-    stock: "Available"
-  },
-  {
-    grade: "Hastelloy C-4 Seamless Pipe",
-    composition: "65Ni-16Cr-16Mo (UNS N06455)",
-    sizes: "1/2\" to 6\" NB",
-    schedule: "SCH 10S, 40S, 80S",
-    apps: "Chemical processing where thermal stability is critical",
-    ht: "Solution Annealed 1065°C",
-    stock: "Indent"
+    grade: "Alloy B-2",
+    uns: "UNS N10665",
+    seamless: "Confirm the applicable product specification and current edition",
+    welded: "Confirm product form and welding specification per enquiry",
+    context: "Selected reducing-acid environments after corrosion review",
+    enquiry: "Provide media, concentration, temperature, dimensions and documentation requirements"
   }
 ];
 
 const FAQS = [
   {
-    q: "What is Hastelloy and why is it used for piping?",
-    a: "Hastelloy is a family of nickel-molybdenum-chromium superalloys developed by Haynes International. These alloys offer exceptional resistance to uniform corrosion, localized attack (pitting and crevice), and stress corrosion cracking in the most aggressive chemical environments. Hastelloy pipes are used where stainless steel and even duplex grades fail — in concentrated hydrochloric acid, sulfuric acid, wet chlorine gas, and mixed acid environments. The high molybdenum content (up to 28% in B-grades) provides unmatched resistance to reducing acids, while the chromium content in C-grades protects against oxidizing media."
+    q: "How should the HASTELLOY trade name be used in a pipe enquiry?",
+    a: "HASTELLOY is a Haynes International trade name. Alloy C-276 (UNS N10276), Alloy C-22 (UNS N06022) and other UNS grades may also be produced by other manufacturers. State any required manufacturer or trade-name restriction in the enquiry and verify identity from the offered material documentation."
   },
   {
-    q: "What is the difference between Hastelloy C-276 and C-22?",
-    a: "Hastelloy C-276 (UNS N10276) contains 16% Cr, 16% Mo, and 4% W — making it the most versatile corrosion-resistant alloy for both oxidizing and reducing environments. C-22 (UNS N06022) has higher chromium (22%) and slightly lower molybdenum (13%) — giving it superior resistance to oxidizing acids and chlorine-contaminated environments but slightly less performance in pure reducing acids. C-22 also has better weldability with less susceptibility to grain-boundary attack in the heat-affected zone. For general chemical processing where both oxidizing and reducing conditions exist, C-276 is the standard choice. For predominantly oxidizing environments or where welding integrity is critical, C-22 is preferred."
+    q: "What is the difference between Alloy C-276 and Alloy C-22?",
+    a: "Alloy C-276 and Alloy C-22 are nickel-chromium-molybdenum alloys with different compositional balances. C-22 has higher chromium, while C-276 has higher nominal molybdenum. Their relative corrosion performance depends on the exact medium, concentration, temperature, contaminants, fabrication condition and design requirements; selection should use project-specific corrosion data."
   },
   {
-    q: "What sizes of Hastelloy pipe does CMI supply?",
-    a: "Creative Metal Industries supplies Hastelloy seamless pipes from 1/2 inch (15NB) to 12 inches (300NB) in schedules SCH 10S, 20S, 40S, 80S, 120, and 160 as per ASTM B622 (seamless) and ASTM B619 (welded). We also stock Hastelloy welded pipes up to 24 inches for large-diameter chemical process piping. Tube sizes per ASTM B622 are available from OD 6.35mm to 114.3mm. Fittings (elbows, tees, reducers) per ASTM B366 and flanges per ASTM B564 complete the piping system. Standard lengths are 5-7 metres random, with fixed and cut-to-length options."
+    q: "Which standards apply to C-276 and C-22 piping products?",
+    a: "ASTM B622 may apply to covered seamless pipe and tube, ASTM B619 to covered welded pipe, ASTM B366 to applicable wrought fittings and ASTM B564 to applicable forgings. Confirm the UNS grade, product form, current standard edition and supplementary requirements for the purchase."
   },
   {
-    q: "What is the price of Hastelloy C-276 pipe in India?",
-    a: "Hastelloy C-276 pipe prices in India range from Rs 4,500 to Rs 12,000 per kilogram depending on size, schedule, quantity, and current nickel/molybdenum market rates. C-276 is one of the most expensive engineering alloys due to its high nickel (57%) and molybdenum (16%) content. Welded pipes are 20-30% less expensive than seamless for equivalent sizes. Creative Metal Industries offers competitive pricing through direct relationships with mills like Haynes, VDM Metals, and Special Metals. Volume discounts apply for project quantities above 500 kg."
+    q: "What information is needed for a nickel-alloy pipe quotation?",
+    a: "Provide the UNS grade, pipe or tube designation, seamless or welded construction, OD or nominal size, wall thickness or schedule, length, quantity, material condition, ASTM or ASME specification and revision, testing, inspection certificate, source restrictions and delivery destination. Availability is confirmed against the specific enquiry."
   },
   {
-    q: "Which industries use Hastelloy pipes in India?",
-    a: "In India, Hastelloy pipes are primarily used in: Chemical manufacturing — HCl production, chlor-alkali plants, agrochemical reactors. Pharmaceutical — active pharmaceutical ingredient (API) reactors handling corrosive solvents. Petrochemical — sour gas processing, amine units, acid gas removal. Fertilizer — phosphoric acid and sulfuric acid piping. Flue Gas Desulphurization (FGD) — absorber towers and wet scrubber ducting in thermal power plants. Pulp and paper — bleach plant piping handling chlorine dioxide. Nuclear — spent fuel reprocessing where mixed acids are present. Creative Metal Industries has supplied Hastelloy to all these sectors since 2012."
+    q: "Where are C-276 and C-22 commonly considered?",
+    a: "These alloys are considered for selected chemical-processing, pollution-control, pharmaceutical and chloride-bearing systems. Suitability must be established from process chemistry, concentration, temperature, pressure, fabrication condition, design code and corrosion data rather than from the alloy name alone."
   },
   {
-    q: "How is Hastelloy pipe welded? What precautions are needed?",
-    a: "Hastelloy pipes are welded using GTAW (TIG) or SMAW processes with matching filler metals — ERNiCrMo-4 (C-276), ERNiCrMo-10 (C-22), or ERNiMo-7 (B-2). Key precautions: Use low heat input (0.5-1.5 kJ/mm) to minimize segregation of molybdenum and tungsten. Interpass temperature must not exceed 95°C. Clean all surfaces thoroughly — Hastelloy is sensitive to sulfur contamination. No preheating or PWHT required for C-grades. For B-2 grade, avoid oxidizing conditions during welding. Solution annealing the completed weldment (1120°C, water quench) provides maximum corrosion resistance. CMI provides welding guidance and qualified WPS documentation with every Hastelloy pipe supply."
+    q: "How should welding requirements be specified?",
+    a: "Matching nickel-alloy consumables are available for C-276 and C-22, but welding must follow the applicable construction code, qualified WPS and PQR, base-metal specification and consumable-manufacturer guidance. State welding-documentation, inspection and heat-treatment requirements in the enquiry."
   }
 ];
 
@@ -99,8 +69,7 @@ const SCHEMA = JSON.stringify({
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.creativemetalind.com" },
-        { "@type": "ListItem", "position": 2, "name": "Exotic Alloy Pipes", "item": "https://www.creativemetalind.com/inconel-pipe-supplier-india" },
-        { "@type": "ListItem", "position": 3, "name": "Hastelloy Pipe Supplier India", "item": "https://www.creativemetalind.com/hastelloy-pipe-supplier-india" }
+        { "@type": "ListItem", "position": 2, "name": "Hastelloy Pipe Supplier India", "item": "https://www.creativemetalind.com/hastelloy-pipe-supplier-india" }
       ]
     }
   ]
@@ -119,17 +88,17 @@ const FAQ_SCHEMA = JSON.stringify({
 export default function HastelloyPipeSupplierIndia() {
   return (
     <>
-      <Title>Hastelloy Pipe Supplier India | C-276, C-22, B-2 | CMI</Title>
-      <Meta name="description" content="Hastelloy pipe supplier India — Hastelloy C276 (N10276), C-22, B-2 seamless pipes per ASTM B622. Corrosion-resistant nickel alloy for chemical & pharma." />
-      <Meta property="og:title" content="Hastelloy Pipe Supplier India | C-276, C-22 | Creative Metal Industries" />
-      <Meta property="og:description" content="India's trusted Hastelloy pipe supplier. C-276, C-22, B-2 seamless pipes per ASTM B622. Chemical-resistant nickel alloy pipes. Ready stock Vadodara." />
-      <Meta property="og:type" content="product" />
+      <Title>Hastelloy Pipe Supplier India | Alloy C-276 &amp; C-22 Enquiries</Title>
+      <Meta name="description" content="Enquire for Alloy C-276, C-22 and other nickel-alloy pipe requirements in India. Share UNS grade, product form, ASTM specification, dimensions, quantity and documentation." />
+      <Meta property="og:title" content="Hastelloy Pipe Supplier India | Alloy C-276 & C-22 Enquiries" />
+      <Meta property="og:description" content="Procurement guidance for Alloy C-276 and C-22 pipe or tube enquiries, including product-form standards, dimensions and buyer-specified documentation." />
+      <Meta property="og:type" content="website" />
       <Meta property="og:url" content="https://www.creativemetalind.com/hastelloy-pipe-supplier-india" />
       <Meta property="og:image" content="https://www.creativemetalind.com/og-image.jpg" />
       <Meta name="robots" content="index, follow, max-image-preview:large" />
       <Link rel="canonical" href="https://www.creativemetalind.com/hastelloy-pipe-supplier-india" />
-      <script type="application/ld+json">{SCHEMA}</script>
-      <script type="application/ld+json">{FAQ_SCHEMA}</script>
+      <script type="application/ld+json" innerHTML={SCHEMA} />
+      <script type="application/ld+json" innerHTML={FAQ_SCHEMA} />
 
       {/* Navigation */}
       <nav style="background:#111827;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,0.3)">
@@ -152,8 +121,6 @@ export default function HastelloyPipeSupplierIndia() {
           <nav style="font-size:13px;color:#6b7280">
             <a href="/" style="color:#E8821A;text-decoration:none">Home</a>
             <span style="margin:0 8px">›</span>
-            <a href="/inconel-pipe-supplier-india" style="color:#E8821A;text-decoration:none">Exotic Alloy Pipes</a>
-            <span style="margin:0 8px">›</span>
             <span style="color:#374151;font-weight:600">Hastelloy Pipe Supplier India</span>
           </nav>
         </div>
@@ -163,13 +130,13 @@ export default function HastelloyPipeSupplierIndia() {
       <section style="background:linear-gradient(135deg,#111827 0%,#1f2937 100%);padding:70px 0;text-align:center">
         <div style="max-width:900px;margin:0 auto;padding:0 20px">
           <h1 style="color:#fff;font-size:38px;font-weight:800;margin:0 0 18px;line-height:1.2">
-            Hastelloy Pipe Supplier India
+            Hastelloy Pipe Supplier in India — Alloy C-276 and C-22 Enquiries
           </h1>
           <p style="color:#d1d5db;font-size:18px;margin:0 0 10px;line-height:1.7">
-Leading <strong style="color:#E8821A">Hastelloy supplier</strong> of <strong style="color:#E8821A">Hastelloy C-276 and C-22</strong> seamless and welded pipes per ASTM B622 and ASTM B619. This Hastelloy metal is the ultimate corrosion-resistant alloy for handling hydrochloric acid, sulfuric acid, wet chlorine, and mixed chemical environments. Sizes 1/2" to 12" NB in all schedules. Ready stock from Vadodara, Gujarat.
+Alloy C-276 (UNS N10276) and Alloy C-22 (UNS N06022) are nickel-chromium-molybdenum alloys considered for selected corrosive process environments. ASTM B622 may apply to covered seamless pipe or tube and ASTM B619 to covered welded pipe; these standards do not establish current availability. HASTELLOY is a Haynes International trade name, so any manufacturer restriction must be stated and confirmed from the offered documentation.
           </p>
           <p style="color:#9ca3af;font-size:15px;margin:0 0 28px">
-            Price Range: <strong style="color:#E8821A">Rs 4,500 – 12,000/kg</strong> | Mill Test Certificates | Free Delivery across India
+            Submit the UNS grade, product form, dimensions, specification, quantity, testing and documentation requirements for quotation review.
           </p>
           <a href="tel:+919998280619" style="display:inline-block;background:#E8821A;color:#fff;padding:14px 36px;border-radius:8px;text-decoration:none;font-size:16px;font-weight:700;box-shadow:0 4px 14px rgba(232,130,26,0.4)">
             Get Quote: +91 99982 80619
@@ -184,31 +151,29 @@ Leading <strong style="color:#E8821A">Hastelloy supplier</strong> of <strong sty
             Hastelloy Pipe Grades & Specifications
           </h2>
           <p style="color:#6b7280;text-align:center;margin:0 0 36px;font-size:15px">
-            Complete range of Hastelloy nickel alloy pipes for the most aggressive corrosion environments
+            Grade identity, product form and governing specification must be matched to each procurement requirement
           </p>
           <div style="overflow-x:auto;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,0.08)">
             <table style="width:100%;border-collapse:collapse;font-size:14px;min-width:900px">
               <thead>
                 <tr style="background:linear-gradient(135deg,#E8821A,#d97706)">
                   <th style="padding:14px 12px;color:#fff;text-align:left;font-weight:600">Grade</th>
-                  <th style="padding:14px 12px;color:#fff;text-align:left;font-weight:600">Composition</th>
-                  <th style="padding:14px 12px;color:#fff;text-align:left;font-weight:600">Sizes</th>
-                  <th style="padding:14px 12px;color:#fff;text-align:left;font-weight:600">Schedule</th>
-                  <th style="padding:14px 12px;color:#fff;text-align:left;font-weight:600">Applications</th>
-                  <th style="padding:14px 12px;color:#fff;text-align:left;font-weight:600">Heat Treatment</th>
-                  <th style="padding:14px 12px;color:#fff;text-align:left;font-weight:600">Stock</th>
+                  <th style="padding:14px 12px;color:#fff;text-align:left;font-weight:600">UNS Grade</th>
+                  <th style="padding:14px 12px;color:#fff;text-align:left;font-weight:600">Seamless Form</th>
+                  <th style="padding:14px 12px;color:#fff;text-align:left;font-weight:600">Welded Form</th>
+                  <th style="padding:14px 12px;color:#fff;text-align:left;font-weight:600">Application Context</th>
+                  <th style="padding:14px 12px;color:#fff;text-align:left;font-weight:600">Enquiry Requirement</th>
                 </tr>
               </thead>
               <tbody>
                 {GRADES.map((g, i) => (
                   <tr style={{"background": i % 2 === 0 ? "#fff" : "#f9fafb"}}>
                     <td style="padding:12px;font-weight:700;color:#111827">{g.grade}</td>
-                    <td style="padding:12px;font-size:13px">{g.composition}</td>
-                    <td style="padding:12px">{g.sizes}</td>
-                    <td style="padding:12px;font-size:13px">{g.schedule}</td>
-                    <td style="padding:12px;font-size:13px">{g.apps}</td>
-                    <td style="padding:12px;font-size:12px">{g.ht}</td>
-                    <td style={{"padding":"12px","font-weight":"700","color": g.stock === "Ready Stock" ? "#16a34a" : g.stock === "Available" ? "#d97706" : "#6b7280"}}>{g.stock}</td>
+                    <td style="padding:12px;font-size:13px">{g.uns}</td>
+                    <td style="padding:12px;font-size:13px">{g.seamless}</td>
+                    <td style="padding:12px;font-size:13px">{g.welded}</td>
+                    <td style="padding:12px;font-size:13px">{g.context}</td>
+                    <td style="padding:12px;font-size:12px">{g.enquiry}</td>
                   </tr>
                 ))}
               </tbody>
@@ -221,10 +186,10 @@ Leading <strong style="color:#E8821A">Hastelloy supplier</strong> of <strong sty
       <section style="padding:60px 0;background:#fff">
         <div style="max-width:900px;margin:0 auto;padding:0 20px">
           <h2 style="color:#111827;font-size:28px;font-weight:700;text-align:center;margin:0 0 20px">
-            Hastelloy C276 Pipe Supplier — Grade &amp; Specifications
+            Alloy C-276 Pipe and Tube Specifications
           </h2>
           <p style="color:#4b5563;font-size:16px;line-height:1.8;margin:0">
-            As a specialist <strong>Hastelloy C276 supplier</strong>, we hold ready stock of <strong>Hastelloy C276 pipe</strong> (UNS N10276) in seamless form to ASTM B622, sizes 1/2" to 12" NB. Its 57Ni-16Cr-16Mo-5Fe-4W chemistry makes C-276 the most versatile corrosion-resistant alloy for both oxidizing and reducing media — the standard choice for hydrochloric acid, sulfuric acid, wet chlorine and FGD systems where stainless and duplex grades fail. Every length ships solution annealed with full MTC and heat traceability; see the grade table above for complete C-276 data.
+            <strong>Alloy C-276</strong>, UNS N10276, is a nickel-chromium-molybdenum-tungsten alloy used in selected reducing, oxidizing and chloride-bearing environments. ASTM B622 may apply to covered seamless pipe and tube, while ASTM B619 may apply to covered welded pipe. Corrosion performance depends on process chemistry, concentration, temperature, contaminants, fabrication condition and design requirements. Buyers should specify the product form, dimensions, material condition, standard revision, quantity and required documentation; availability is confirmed for the individual enquiry.
           </p>
         </div>
       </section>
@@ -241,14 +206,14 @@ Leading <strong style="color:#E8821A">Hastelloy supplier</strong> of <strong sty
               { label: "Standard (Welded)", value: "ASTM B619 / ASME SB619" },
               { label: "Fittings Standard", value: "ASTM B366 (Buttweld Fittings)" },
               { label: "Flanges Standard", value: "ASTM B564 (Forgings)" },
-              { label: "Grades Available", value: "C-276, C-22, C-4, B-2, B-3, X, G-30" },
-              { label: "Size Range", value: "1/2\" to 12\" NB (Seamless), up to 24\" (Welded)" },
-              { label: "Schedules", value: "SCH 5S, 10S, 20S, 40S, 80S, 120, 160" },
-              { label: "Type", value: "Seamless, Welded (TIG/Plasma), ERW" },
-              { label: "Max Service Temp", value: "C-276: 1095°C | B-2: 870°C | X: 1200°C" },
-              { label: "Testing", value: "Hydrostatic, UT (100%), PMI, IGC, Flattening, Flaring" },
-              { label: "Certification", value: "MTC EN 10204 3.1/3.2, NACE MR0175" },
-              { label: "Mill Sources", value: "Haynes, VDM Metals, Special Metals, Sandvik" },
+              { label: "Wrought Fittings", value: "ASTM B366 for applicable UNS grades and fitting forms" },
+              { label: "Forgings", value: "ASTM B564 for applicable UNS grades and forged products" },
+              { label: "Dimensions", value: "Specify pipe or tube, OD or NB, wall thickness or schedule, length and tolerances" },
+              { label: "Material Condition", value: "Specify the condition required by the product standard and project" },
+              { label: "Service Data", value: "Provide medium, concentration, temperature, pressure and contaminants" },
+              { label: "Testing", value: "State required hydrostatic, NDE, PMI, corrosion or third-party inspection requirements" },
+              { label: "Documentation", value: "State inspection certificate, traceability, source and project-document requirements" },
+              { label: "Quotation Status", value: "Availability, source and delivery are confirmed against the specific enquiry" },
             ].map(spec => (
               <div style="background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:18px">
                 <span style="font-size:12px;color:#6b7280;text-transform:uppercase;letter-spacing:0.05em">{spec.label}</span>
@@ -267,14 +232,13 @@ Leading <strong style="color:#E8821A">Hastelloy supplier</strong> of <strong sty
           </h2>
           <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px">
             {[
-              { icon: "🧪", title: "Chemical Processing", desc: "HCl production, chlorination reactors, acid recovery systems. C-276 handles both oxidizing and reducing acids that destroy stainless steel." },
-              { icon: "💊", title: "Pharmaceutical & API", desc: "Active ingredient reactors with corrosive solvents, halogenated compounds, and strong acid catalysts. C-22 preferred for oxidizing drug intermediates." },
-              { icon: "🛢️", title: "Petrochemical & Refinery", desc: "Sour gas processing, amine regeneration towers, overhead condensers, and acid gas removal units. NACE MR0175 compliant." },
-              { icon: "⚡", title: "Flue Gas Desulphurization", desc: "FGD absorber towers, quench sections, wet scrubber ducting in coal-fired power plants. C-276 resists the hot sulfuric/chloride mixture." },
-              { icon: "🌊", title: "Pulp & Paper", desc: "Bleach plant piping handling chlorine dioxide, hypochlorite, and chlorinated wash water. C-22 outperforms titanium in these media." },
-              { icon: "☢️", title: "Nuclear Fuel Processing", desc: "Spent fuel reprocessing with nitric-hydrofluoric acid mixtures. B-2 grade for pure reducing acid service without oxidizers." },
-              { icon: "🏭", title: "Fertilizer Plants", desc: "Phosphoric acid concentration, sulfuric acid piping, and ammonium nitrate production lines requiring zero corrosion allowance." },
-              { icon: "🔬", title: "Waste Treatment", desc: "Hazardous waste incinerator off-gas scrubbing systems, industrial effluent handling with unknown/variable chemistry." },
+              { icon: "🧪", title: "Chemical Processing", desc: "C-276 and C-22 are considered for selected acid, chloride and mixed-chemistry systems after corrosion review." },
+              { icon: "💊", title: "Pharmaceutical Equipment", desc: "Nickel alloys may be considered for equipment handling aggressive intermediates where process and cleanliness requirements are defined." },
+              { icon: "🛢️", title: "Oil, Gas & Refining", desc: "Selection for sour or corrosive service requires the applicable design code, environment and any NACE/ISO 15156 requirements." },
+              { icon: "⚡", title: "Pollution Control", desc: "C-series alloys are used in selected scrubber and flue-gas environments based on temperature and chloride conditions." },
+              { icon: "🌊", title: "Pulp & Paper", desc: "Selected nickel alloys are used in bleaching and chloride-bearing systems after application-specific comparison." },
+              { icon: "🏭", title: "Fertilizer & Acid Systems", desc: "Material selection must account for acid concentration, temperature, impurities, velocity and fabrication condition." },
+              { icon: "🔬", title: "Waste Treatment", desc: "Variable process streams require a defined corrosion assessment rather than selection by alloy family alone." },
             ].map(app => (
               <div style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:24px">
                 <span style="font-size:28px">{app.icon}</span>
@@ -294,12 +258,12 @@ Leading <strong style="color:#E8821A">Hastelloy supplier</strong> of <strong sty
           </h2>
           <div style="display:grid;gap:16px">
             {[
-              { title: "Genuine Mill Source", desc: "All Hastelloy pipes sourced directly from Haynes International, VDM Metals (ThyssenKrupp), and Special Metals with original mill test certificates. Full traceability from heat number to your delivery." },
-              { title: "Ready Stock Vadodara", desc: "Maintain ready stock of Hastelloy C-276 and C-22 seamless pipes in commonly requested sizes. Same-day dispatch for stock items. Custom sizes within 6-8 weeks from mill." },
-              { title: "Complete Testing & Certification", desc: "Every pipe undergoes hydrostatic test, 100% ultrasonic examination, positive material identification (PMI by XRF), intergranular corrosion test (ASTM G28), and visual inspection. NACE MR0175/ISO 15156 compliance for sour service." },
-              { title: "Technical Expertise", desc: "Our engineers help you select between C-276, C-22, B-2, and other grades based on your specific media, temperature, and concentration. 13+ years of nickel alloy supply experience across diverse chemical environments." },
-              { title: "Competitive Pricing", desc: "Direct mill relationships and bulk purchasing from authorized distributors enable competitive pricing. We stock multiple heat numbers allowing us to offer immediate availability without indent premiums." },
-              { title: "Complete Piping Solution", desc: "Beyond pipes — we supply matching Hastelloy fittings (ASTM B366), flanges (ASTM B564), bars, plates, and fasteners. One purchase order covers your complete exotic alloy requirement." },
+              { title: "Identify the Alloy", desc: "State UNS N10276, UNS N06022 or another required grade and identify any manufacturer or trade-name restriction." },
+              { title: "Define Product Form", desc: "Specify pipe or tube, seamless or welded construction, and any applicable wrought-fitting or forged-product requirement." },
+              { title: "Provide Dimensions", desc: "Include OD or NB, wall thickness or schedule, length, tolerances and quantity." },
+              { title: "State the Specification", desc: "Provide the ASTM or ASME product specification, edition, material condition and supplementary requirements." },
+              { title: "Define Inspection", desc: "List required tests, inspection certificate, PMI, corrosion testing, traceability and third-party inspection requirements." },
+              { title: "Describe Service Conditions", desc: "Provide process medium, concentration, temperature, pressure, contaminants and any NACE/ISO 15156 requirement." },
             ].map(item => (
               <div style="background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:20px">
                 <h3 style="font-size:16px;font-weight:700;color:#E8821A;margin:0 0 8px">{item.title}</h3>
@@ -331,15 +295,16 @@ Leading <strong style="color:#E8821A">Hastelloy supplier</strong> of <strong sty
       <section style="padding:60px 0;background:linear-gradient(135deg,#111827,#1f2937)">
         <div style="max-width:700px;margin:0 auto;padding:0 20px;text-align:center">
           <h2 style="color:#fff;font-size:28px;font-weight:800;margin:0 0 12px">
-            Need Hastelloy C-276 / C-22 Pipes? Get Instant Quote
+            Request a C-276 or C-22 Pipe Quotation Review
           </h2>
           <p style="color:#d1d5db;font-size:16px;margin:0 0 28px">
-            Ready stock at Vadodara warehouse. Complete documentation. Pan-India delivery in 2-5 days.
+            Send the UNS grade, product form, dimensions, specification, quantity, service conditions and required documentation.
           </p>
           <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
             <a href="tel:+919998280619" style="background:#E8821A;color:#fff;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;font-size:16px">📞 +91 99982 80619</a>
             <a href="https://wa.me/919998280619?text=Hi%2C+I+need+Hastelloy+pipe+quote" target="_blank" rel="noopener" style="background:#25D366;color:#fff;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;font-size:16px">💬 WhatsApp</a>
             <a href="mailto:creativemetalind@gmail.com" style="background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.4);padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px">✉ Email Enquiry</a>
+            <a href="/#contact" style="background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.4);padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:600;font-size:16px">Request Formal Quote →</a>
           </div>
         </div>
       </section>
