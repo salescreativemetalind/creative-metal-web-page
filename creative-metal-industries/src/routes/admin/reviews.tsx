@@ -1,6 +1,6 @@
 /**
  * /admin/reviews — delete-only review moderation
- * Token: ADMIN_TOKEN from .env  (default: cmi-admin-2026)
+ * Token: required ADMIN_TOKEN from the server environment
  * Not linked publicly. noindex. Access at: /admin/reviews
  */
 
@@ -43,13 +43,17 @@ export default function AdminReviews() {
     setBusy(true);
     setLoginErr("");
     try {
-      const res  = await fetch(`/api/reviews-admin?token=${encodeURIComponent(token())}`);
+      const res = await fetch("/api/reviews-admin", {
+        headers: { Authorization: `Bearer ${token()}` },
+      });
       const json = await res.json();
       if (json.ok) {
         setReviews(json.data);
         setAuthed(true);
+      } else if (res.status === 401) {
+        setLoginErr("Authentication failed. Check the configured ADMIN_TOKEN.");
       } else {
-        setLoginErr("Wrong token. Check ADMIN_TOKEN in .env");
+        setLoginErr("Admin request failed. Please try again.");
       }
     } catch {
       setLoginErr("Could not connect to server.");
@@ -62,7 +66,9 @@ export default function AdminReviews() {
   async function reload() {
     setBusy(true);
     try {
-      const res  = await fetch(`/api/reviews-admin?token=${encodeURIComponent(token())}`);
+      const res = await fetch("/api/reviews-admin", {
+        headers: { Authorization: `Bearer ${token()}` },
+      });
       const json = await res.json();
       if (json.ok) setReviews(json.data);
     } catch { /* ignore */ }
@@ -76,8 +82,11 @@ export default function AdminReviews() {
     try {
       const res  = await fetch("/api/reviews-admin", {
         method:  "DELETE",
-        headers: { "Content-Type": "application/json" },
-        body:    JSON.stringify({ token: token(), id }),
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token()}`,
+        },
+        body: JSON.stringify({ id }),
       });
       const json = await res.json();
       if (json.ok) {

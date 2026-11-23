@@ -37,12 +37,17 @@ npm install
 
 ### Environment Variables
 
-Create a `.env` file in the project root:
+Copy `.env.example` to `.env` and replace its placeholders locally. Never commit the populated `.env` file.
 
-```env
-SMTP_USER=your-gmail@gmail.com
-SMTP_PASS=your-16-char-app-password
-```
+| Variable | Required | Exposure | Purpose |
+|---|---|---|---|
+| `SMTP_USER` | Yes, for enquiry email | Server-only | Gmail account used by the enquiry mail transport |
+| `SMTP_PASS` | Yes, for enquiry email | Secret, server-only | Gmail App Password |
+| `ADMIN_TOKEN` | Yes, for reviews administration | Secret, server-only | Strong random bearer token for `/admin/reviews` |
+| `VITE_GA4_ID` | No | Public | Enables the GA4 script when configured |
+| `VITE_GSC_VERIFICATION` | No | Public | Emits the Search Console verification meta tag |
+
+Variables prefixed with `VITE_` are included in client output and must never contain secrets. Configure production values in the hosting environment rather than committing them.
 
 > To get a Gmail App Password: Google Account → Security → Enable 2-Step Verification → Search "App passwords" → Create one for "Mail".
 
